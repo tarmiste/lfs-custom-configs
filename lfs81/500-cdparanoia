@@ -13,7 +13,7 @@ MD5="b304bbe8ab63373924a744eac9ebc652"
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/cdparanoia-III-10.2-gcc_fixes-1.patch PATCH1MD5"
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/cdparanoia-III-10.2-gcc_fixes-1.patch 4d6a164f760b59c2f0d82d0997dbdce1"
 
 ( cat << "xEOFx"
 

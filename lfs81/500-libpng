@@ -13,7 +13,7 @@ MD5="1b34eab440263e32cfa39d19413fad54"
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1="https://downloads.sourceforge.net/apng/libpng-1.6.31-apng.patch.gz PATCH1MD5"
+PATCH1="https://downloads.sourceforge.net/apng/libpng-1.6.31-apng.patch.gz 469b846c1e705a3b6f2e6d9dbdff08d3"
 
 ( cat << "xEOFx"
 

@@ -13,7 +13,7 @@ MD5="1be543bc30c56fb6bea1d7bf6a64e66c"
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/libmad-0.15.1b-fixes-1.patch PATCH1MD5"
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/libmad-0.15.1b-fixes-1.patch d66a99860fd79066515671a511bd8f4f"
 
 ( cat << "xEOFx"
 
