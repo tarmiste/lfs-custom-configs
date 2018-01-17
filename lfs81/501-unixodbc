@@ -3,9 +3,9 @@
 #
 ## This package has one dependencies
 ## EDITHOOK1
-PKG=ABCunixodbcXYZ
+PKG="unixodbc"
 PKG_VERSION="2.3.4"
-PKG_FILE=ABCunixODBC-2.3.4.tar.gzXYZ
+PKG_FILE="unixODBC-2.3.4.tar.gz"
 URL="ftp://ftp.unixodbc.org/pub/unixODBC/unixODBC-2.3.4.tar.gz"
 MD5="bd25d261ca1808c947cb687e2034be81"
 #

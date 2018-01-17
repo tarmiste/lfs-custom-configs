@@ -3,9 +3,9 @@
 #
 ## This package has one dependencies
 ## EDITHOOK1
-PKG=ABCntfs-3gXYZ
+PKG="ntfs-3g"
 PKG_VERSION="2017.3.23"
-PKG_FILE=ABCntfs-3g_ntfsprogs-2017.3.23.tgzXYZ
+PKG_FILE="ntfs-3g_ntfsprogs-2017.3.23.tgz"
 URL="https://tuxera.com/opensource/ntfs-3g_ntfsprogs-2017.3.23.tgz"
 MD5="d97474ae1954f772c6d2fa386a6f462c"
 #

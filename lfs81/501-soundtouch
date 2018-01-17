@@ -3,9 +3,9 @@
 #
 ## This package has one dependencies
 ## EDITHOOK1
-PKG=ABCsoundtouchXYZ
+PKG="soundtouch"
 PKG_VERSION="2.0.0"
-PKG_FILE=ABCsoundtouch-2.0.0.tar.gzXYZ
+PKG_FILE="soundtouch-2.0.0.tar.gz"
 URL="http://www.surina.net/soundtouch/soundtouch-2.0.0.tar.gz"
 MD5="9f5eaf7b767970c2dbc75b7a443ec15a"
 #

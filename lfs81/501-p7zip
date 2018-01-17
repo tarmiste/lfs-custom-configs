@@ -3,9 +3,9 @@
 #
 ## This package has one dependencies
 ## EDITHOOK1
-PKG=ABCp7zipXYZ
+PKG="p7zip"
 PKG_VERSION="16.02"
-PKG_FILE=ABCp7zip_16.02_src_all.tar.bz2XYZ
+PKG_FILE="p7zip_16.02_src_all.tar.bz2"
 URL="https://downloads.sourceforge.net/p7zip/p7zip_16.02_src_all.tar.bz2"
 MD5="a0128d661cfe7cc8c121e73519c54fbf"
 #

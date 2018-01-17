@@ -3,9 +3,9 @@
 #
 ## This package has one dependencies
 ## EDITHOOK1
-PKG=ABCdashXYZ
+PKG="dash"
 PKG_VERSION="0.5.9.1"
-PKG_FILE=ABCdash-0.5.9.1.tar.gzXYZ
+PKG_FILE="dash-0.5.9.1.tar.gz"
 URL="http://gondor.apana.org.au/~herbert/dash/files/dash-0.5.9.1.tar.gz"
 MD5="6472702a8d9760d166ef8333dcb527a6"
 #

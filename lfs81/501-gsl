@@ -3,9 +3,9 @@
 #
 ## This package has one dependencies
 ## EDITHOOK1
-PKG=ABCgslXYZ
+PKG="gsl"
 PKG_VERSION="2.4"
-PKG_FILE=ABCgsl-2.4.tar.gzXYZ
+PKG_FILE="gsl-2.4.tar.gz"
 URL="https://ftp.gnu.org/gnu/gsl/gsl-2.4.tar.gz"
 MD5="dba736f15404807834dc1c7b93e83b92"
 #

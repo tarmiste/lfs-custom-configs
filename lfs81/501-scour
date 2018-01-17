@@ -3,9 +3,9 @@
 #
 ## This package has one dependencies
 ## EDITHOOK1
-PKG=ABCscourXYZ
+PKG="scour"
 PKG_VERSION="0.36"
-PKG_FILE=ABCscour-0.36.tar.gzXYZ
+PKG_FILE="scour-0.36.tar.gz"
 URL="https://github.com/scour-project/scour/archive/v0.36/scour-0.36.tar.gz"
 MD5="f7d03395a9ce51f822e5741034783e04"
 #

@@ -3,9 +3,9 @@
 #
 ## This package has one dependencies
 ## EDITHOOK1
-PKG=ABCsqliteXYZ
+PKG="sqlite"
 PKG_VERSION="3.20.0"
-PKG_FILE=ABCsqlite-autoconf-3200000.tar.gz sqlite-doc-3200000.zipXYZ
+PKG_FILE="sqlite-autoconf-3200000.tar.gz sqlite-doc-3200000.zip"
 URL="https://sqlite.org/2017/sqlite-autoconf-3200000.tar.gz"
 MD5="e262a28b73cc330e7e83520c8ce14e4d"
 "ed8f9d7dfb410853619e195af2e73250  $PACKAGE1" | md5sum -c -
