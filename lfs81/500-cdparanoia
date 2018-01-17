@@ -14,3 +14,9 @@ for i in PATCH{1..10}; do
    unset $i
 done
 PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/cdparanoia-III-10.2-gcc_fixes-1.patch PATCH1MD5"
+
+( cat << "xEOFx"
+
+xEOFx
+) > tmp
+

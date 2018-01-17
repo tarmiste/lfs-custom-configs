@@ -14,3 +14,9 @@ for i in PATCH{1..10}; do
    unset $i
 done
 PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/net-tools-CVS_20101030-remove_dups-1.patch PATCH1MD5"
+
+( cat << "xEOFx"
+
+xEOFx
+) > tmp
+

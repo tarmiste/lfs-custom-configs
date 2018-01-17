@@ -8,10 +8,16 @@ PKG_VERSION="5.3.4"
 PKG_FILE="lua-5.3.4.tar.gz lua-5.3.4-tests.tar.gz"
 URL="http://www.lua.org/ftp/lua-5.3.4.tar.gz"
 MD5="53a9c68bcc0eda58bdc2095ad5cdfc63"
-"b14fe3748c1cb2d74e3acd1943629ba3  $PACKAGE1" | md5sum -c -
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do
    unset $i
 done
 PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/lua-5.3.4-shared_library-1.patch PATCH1MD5"
+PATCH2="http://www.lua.org/tests/lua-5.3.4-tests.tar.gz b14fe3748c1cb2d74e3acd1943629ba3"
+
+( cat << "xEOFx"
+
+xEOFx
+) > tmp
+

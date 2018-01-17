@@ -14,3 +14,9 @@ for i in PATCH{1..10}; do
    unset $i
 done
 PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/wireless_tools-29-fix_iwlist_scanning-1.patch PATCH1MD5"
+
+( cat << "xEOFx"
+
+xEOFx
+) > tmp
+

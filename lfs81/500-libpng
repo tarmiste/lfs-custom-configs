@@ -14,3 +14,9 @@ for i in PATCH{1..10}; do
    unset $i
 done
 PATCH1="https://downloads.sourceforge.net/apng/libpng-1.6.31-apng.patch.gz PATCH1MD5"
+
+( cat << "xEOFx"
+
+xEOFx
+) > tmp
+
