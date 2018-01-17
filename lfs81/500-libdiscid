@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABClibdiscidXYZ
+PKG="libdiscid"
 PKG_VERSION="0.6.2"
-PKG_FILE=ABClibdiscid-0.6.2.tar.gzXYZ
+PKG_FILE="libdiscid-0.6.2.tar.gz"
 URL="http://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/libdiscid-0.6.2.tar.gz"
 MD5="2812bb678f5142efdfd0d0f7d6ea87d6"
 #

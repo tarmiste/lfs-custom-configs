@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCsgml-commonXYZ
+PKG="sgml-common"
 PKG_VERSION="0.6.3"
-PKG_FILE=ABCsgml-common-0.6.3.tgzXYZ
+PKG_FILE="sgml-common-0.6.3.tgz"
 URL="https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz"
 MD5="103c9828f24820df86e55e7862e28974"
 #

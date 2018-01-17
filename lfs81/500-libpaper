@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABClibpaperXYZ
+PKG="libpaper"
 PKG_VERSION="1.1.24+nmu5"
-PKG_FILE=ABClibpaper_1.1.24+nmu5.tar.gzXYZ
+PKG_FILE="libpaper_1.1.24+nmu5.tar.gz"
 URL="http://ftp.debian.org/debian/pool/main/libp/libpaper/libpaper_1.1.24+nmu5.tar.gz"
 MD5="38bc55688c0fc5544edaa5a951a45fbd"
 #

@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABClibisofsXYZ
+PKG="libisofs"
 PKG_VERSION="1.4.6"
-PKG_FILE=ABClibisofs-1.4.6.tar.gzXYZ
+PKG_FILE="libisofs-1.4.6.tar.gz"
 URL="http://files.libburnia-project.org/releases/libisofs-1.4.6.tar.gz"
 MD5="6ec515d9265fb75c48e8e73b3ea3f6c5"
 #

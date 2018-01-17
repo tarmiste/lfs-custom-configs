@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCpthXYZ
+PKG="pth"
 PKG_VERSION="2.0.7"
-PKG_FILE=ABCpth-2.0.7.tar.gzXYZ
+PKG_FILE="pth-2.0.7.tar.gz"
 URL="https://ftp.gnu.org/gnu/pth/pth-2.0.7.tar.gz"
 MD5="9cb4a25331a4c4db866a31cbe507c793"
 #

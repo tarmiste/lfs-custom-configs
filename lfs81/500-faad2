@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCfaad2XYZ
+PKG="faad2"
 PKG_VERSION="2.8.1"
-PKG_FILE=ABCfaad2-2.8.1.tar.gz sample.aacXYZ
+PKG_FILE="faad2-2.8.1.tar.gz sample.aac"
 URL="https://downloads.sourceforge.net/faac/faad2-2.8.1.tar.gz"
 MD5="45f0593e99e97785c5ba79875a4e30a7"
 #

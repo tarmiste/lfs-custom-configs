@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCwhichXYZ
+PKG="which"
 PKG_VERSION="2.21"
-PKG_FILE=ABCwhich-2.21.tar.gzXYZ
+PKG_FILE="which-2.21.tar.gz"
 URL="https://ftp.gnu.org/gnu/which/which-2.21.tar.gz"
 MD5="097ff1a324ae02e0a3b0369f07a7544a"
 #

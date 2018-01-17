@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCsg3_utilsXYZ
+PKG="sg3_utils"
 PKG_VERSION="1.42"
-PKG_FILE=ABCsg3_utils-1.42.tar.xzXYZ
+PKG_FILE="sg3_utils-1.42.tar.xz"
 URL="http://sg.danny.cz/sg/p/sg3_utils-1.42.tar.xz"
 MD5="913ac2c9069d2ba44e05565a445810ab"
 #

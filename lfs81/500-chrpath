@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCchrpathXYZ
+PKG="chrpath"
 PKG_VERSION="0.16"
-PKG_FILE=ABCchrpath-0.16.tar.gzXYZ
+PKG_FILE="chrpath-0.16.tar.gz"
 URL="https://alioth.debian.org/frs/download.php/latestfile/813/chrpath-0.16.tar.gz"
 MD5="2bf8d1d1ee345fc8a7915576f5649982"
 #

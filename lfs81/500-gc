@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCgcXYZ
+PKG="gc"
 PKG_VERSION="7.6.0"
-PKG_FILE=ABCgc-7.6.0.tar.gzXYZ
+PKG_FILE="gc-7.6.0.tar.gz"
 URL="http://www.hboehm.info/gc/gc_source/gc-7.6.0.tar.gz"
 MD5="bf46ccbdaccfa3186c2ab87191c8855a"
 #

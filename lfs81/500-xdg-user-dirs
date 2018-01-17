@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCxdg-user-dirsXYZ
+PKG="xdg-user-dirs"
 PKG_VERSION="0.16"
-PKG_FILE=ABCxdg-user-dirs-0.16.tar.gzXYZ
+PKG_FILE="xdg-user-dirs-0.16.tar.gz"
 URL="https://user-dirs.freedesktop.org/releases/xdg-user-dirs-0.16.tar.gz"
 MD5="2c0703d02df610c9eaf0c22431bdabae"
 #

@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCunrarXYZ
+PKG="unrar"
 PKG_VERSION="5.5.8"
-PKG_FILE=ABCunrarsrc-5.5.8.tar.gzXYZ
+PKG_FILE="unrarsrc-5.5.8.tar.gz"
 URL="http://www.rarlab.com/rar/unrarsrc-5.5.8.tar.gz"
 MD5="8d74b4d16b1317c4b1081e5f44025180"
 #

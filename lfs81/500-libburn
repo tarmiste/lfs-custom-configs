@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABClibburnXYZ
+PKG="libburn"
 PKG_VERSION="1.4.6"
-PKG_FILE=ABClibburn-1.4.6.tar.gzXYZ
+PKG_FILE="libburn-1.4.6.tar.gz"
 URL="http://files.libburnia-project.org/releases/libburn-1.4.6.tar.gz"
 MD5="eeab90dfd8b6ae95748a64009b02e4ec"
 #

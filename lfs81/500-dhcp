@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCdhcpXYZ
+PKG="dhcp"
 PKG_VERSION="4.3.6"
-PKG_FILE=ABCdhcp-4.3.6.tar.gzXYZ
+PKG_FILE="dhcp-4.3.6.tar.gz"
 URL="ftp://ftp.isc.org/isc/dhcp/4.3.6/dhcp-4.3.6.tar.gz"
 MD5="afa6e9b3eb7539ea048421a82c668adc"
 #

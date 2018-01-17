@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABClibndpXYZ
+PKG="libndp"
 PKG_VERSION="1.6"
-PKG_FILE=ABClibndp-1.6.tar.gzXYZ
+PKG_FILE="libndp-1.6.tar.gz"
 URL="http://libndp.org/files/libndp-1.6.tar.gz"
 MD5="1e54d26bcb4a4110bc3f90c5dd04f1a7"
 #

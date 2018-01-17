@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCacpidXYZ
+PKG="acpid"
 PKG_VERSION="2.0.28"
-PKG_FILE=ABCacpid-2.0.28.tar.xzXYZ
+PKG_FILE="acpid-2.0.28.tar.xz"
 URL="https://downloads.sourceforge.net/acpid2/acpid-2.0.28.tar.xz"
 MD5="0432407b5ff75ae8e08afb43052fde2b"
 #

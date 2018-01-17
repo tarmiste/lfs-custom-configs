@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCliblinearXYZ
+PKG="liblinear"
 PKG_VERSION="211"
-PKG_FILE=ABCliblinear-211.tar.gzXYZ
+PKG_FILE="liblinear-211.tar.gz"
 URL="https://github.com/cjlin1/liblinear/archive/v211/liblinear-211.tar.gz"
 MD5="9aa46bea862a82d7bdb86017e94feffc"
 #

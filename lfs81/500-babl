@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCbablXYZ
+PKG="babl"
 PKG_VERSION="0.1.30"
-PKG_FILE=ABCbabl-0.1.30.tar.bz2XYZ
+PKG_FILE="babl-0.1.30.tar.bz2"
 URL="https://download.gimp.org/pub/babl/0.1/babl-0.1.30.tar.bz2"
 MD5="fca6926a00130eeacc875cac5465c5e7"
 #

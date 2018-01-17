@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCcompfaceXYZ
+PKG="compface"
 PKG_VERSION="1.5.2"
-PKG_FILE=ABCcompface-1.5.2.tar.gzXYZ
+PKG_FILE="compface-1.5.2.tar.gz"
 URL="http://anduin.linuxfromscratch.org/BLFS/compface/compface-1.5.2.tar.gz"
 MD5="62f4f79c0861ad292ba3cf77b4c48319"
 #

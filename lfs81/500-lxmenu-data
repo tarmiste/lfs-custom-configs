@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABClxmenu-dataXYZ
+PKG="lxmenu-data"
 PKG_VERSION="0.1.5"
-PKG_FILE=ABClxmenu-data-0.1.5.tar.xzXYZ
+PKG_FILE="lxmenu-data-0.1.5.tar.xz"
 URL="https://downloads.sourceforge.net/lxde/lxmenu-data-0.1.5.tar.xz"
 MD5="cc1989444284a65dbc7047348a68d6d4"
 #

@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABChavegedXYZ
+PKG="haveged"
 PKG_VERSION="1.9.1"
-PKG_FILE=ABChaveged-1.9.1.tar.gzXYZ
+PKG_FILE="haveged-1.9.1.tar.gz"
 URL="https://downloads.sourceforge.net/haveged/haveged-1.9.1.tar.gz"
 MD5="015ff58cd10607db0e0de60aeca2f5f8"
 #

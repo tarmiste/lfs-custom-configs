@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABClibpngXYZ
+PKG="libpng"
 PKG_VERSION="1.6.31"
-PKG_FILE=ABClibpng-1.6.31.tar.xzXYZ
+PKG_FILE="libpng-1.6.31.tar.xz"
 URL="https://downloads.sourceforge.net/libpng/libpng-1.6.31.tar.xz"
 MD5="1b34eab440263e32cfa39d19413fad54"
 #

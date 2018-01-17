@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCfftwXYZ
+PKG="fftw"
 PKG_VERSION="3.3.6-pl2"
-PKG_FILE=ABCfftw-3.3.6-pl2.tar.gzXYZ
+PKG_FILE="fftw-3.3.6-pl2.tar.gz"
 URL="http://www.fftw.org/fftw-3.3.6-pl2.tar.gz"
 MD5="927e481edbb32575397eb3d62535a856"
 #

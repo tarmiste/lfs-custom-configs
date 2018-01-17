@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABClibstatgrabXYZ
+PKG="libstatgrab"
 PKG_VERSION="0.91"
-PKG_FILE=ABClibstatgrab-0.91.tar.gzXYZ
+PKG_FILE="libstatgrab-0.91.tar.gz"
 URL="http://www.mirrorservice.org/sites/ftp.i-scream.org/pub/i-scream/libstatgrab/libstatgrab-0.91.tar.gz"
 MD5="b906d312076ca9be3d5188edfe07f496"
 #

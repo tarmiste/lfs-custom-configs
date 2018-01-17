@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCjoeXYZ
+PKG="joe"
 PKG_VERSION="4.4"
-PKG_FILE=ABCjoe-4.4.tar.gzXYZ
+PKG_FILE="joe-4.4.tar.gz"
 URL="https://downloads.sourceforge.net/joe-editor/joe-4.4.tar.gz"
 MD5="59e63debe60b456a6ee5c0c27a756a47"
 #

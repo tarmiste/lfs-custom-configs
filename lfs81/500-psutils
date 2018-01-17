@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCpsutilsXYZ
+PKG="psutils"
 PKG_VERSION="p17"
-PKG_FILE=ABCpsutils-p17.tar.gzXYZ
+PKG_FILE="psutils-p17.tar.gz"
 URL="http://pkgs.fedoraproject.org/repo/pkgs/psutils/psutils-p17.tar.gz/b161522f3bd1507655326afa7db4a0ad/psutils-p17.tar.gz"
 MD5="b161522f3bd1507655326afa7db4a0ad"
 #

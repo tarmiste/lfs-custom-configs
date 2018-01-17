@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCtclXYZ
+PKG="tcl"
 PKG_VERSION="8.6.7"
-PKG_FILE=ABCtcl8.6.7-src.tar.gz tcl8.6.7-html.tar.gzXYZ
+PKG_FILE="tcl8.6.7-src.tar.gz tcl8.6.7-html.tar.gz"
 URL="https://downloads.sourceforge.net/tcl/tcl8.6.7-src.tar.gz"
 MD5="5673aaf45b5de5d8dd80bb3daaeb8838"
 "0da678eaf3041346030898c23c14e97e  $PACKAGE1" | md5sum -c -

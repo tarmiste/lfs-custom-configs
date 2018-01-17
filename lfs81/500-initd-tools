@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCinitd-toolsXYZ
+PKG="initd-tools"
 PKG_VERSION="0.1.3"
-PKG_FILE=ABCinitd-tools-0.1.3.tar.gzXYZ
+PKG_FILE="initd-tools-0.1.3.tar.gz"
 URL="https://people.freedesktop.org/~dbn/initd-tools/releases/initd-tools-0.1.3.tar.gz"
 MD5="ab6377700ace81ec5a556ebdbae1d8d9"
 #

@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCluaXYZ
+PKG="lua"
 PKG_VERSION="5.3.4"
-PKG_FILE=ABClua-5.3.4.tar.gz lua-5.3.4-tests.tar.gzXYZ
+PKG_FILE="lua-5.3.4.tar.gz lua-5.3.4-tests.tar.gz"
 URL="http://www.lua.org/ftp/lua-5.3.4.tar.gz"
 MD5="53a9c68bcc0eda58bdc2095ad5cdfc63"
 "b14fe3748c1cb2d74e3acd1943629ba3  $PACKAGE1" | md5sum -c -

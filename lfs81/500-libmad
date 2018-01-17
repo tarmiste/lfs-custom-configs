@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABClibmadXYZ
+PKG="libmad"
 PKG_VERSION="0.15.1b"
-PKG_FILE=ABClibmad-0.15.1b.tar.gzXYZ
+PKG_FILE="libmad-0.15.1b.tar.gz"
 URL="https://downloads.sourceforge.net/mad/libmad-0.15.1b.tar.gz"
 MD5="1be543bc30c56fb6bea1d7bf6a64e66c"
 #

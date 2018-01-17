@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCkeyutilsXYZ
+PKG="keyutils"
 PKG_VERSION="1.5.10"
-PKG_FILE=ABCkeyutils-1.5.10.tar.bz2XYZ
+PKG_FILE="keyutils-1.5.10.tar.bz2"
 URL="http://people.redhat.com/~dhowells/keyutils/keyutils-1.5.10.tar.bz2"
 MD5="3771676319bc7b84b1549b5c63ff5243"
 #

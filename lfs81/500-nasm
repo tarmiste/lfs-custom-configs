@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCnasmXYZ
+PKG="nasm"
 PKG_VERSION="2.13.01"
-PKG_FILE=ABCnasm-2.13.01.tar.xz nasm-2.13.01-xdoc.tar.xzXYZ
+PKG_FILE="nasm-2.13.01.tar.xz nasm-2.13.01-xdoc.tar.xz"
 URL="http://www.nasm.us/pub/nasm/releasebuilds/2.13.01/nasm-2.13.01.tar.xz"
 MD5="b3ae134bd1b5ead73d659286f568da95"
 #

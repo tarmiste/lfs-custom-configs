@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCnpapi-sdkXYZ
+PKG="npapi-sdk"
 PKG_VERSION="0.27.2"
-PKG_FILE=ABCnpapi-sdk-0.27.2.tar.bz2XYZ
+PKG_FILE="npapi-sdk-0.27.2.tar.bz2"
 URL="https://bitbucket.org/mgorny/npapi-sdk/downloads/npapi-sdk-0.27.2.tar.bz2"
 MD5="e81db61e206cd615cf56c4a9f301e636"
 #

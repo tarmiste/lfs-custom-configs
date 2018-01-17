@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCopensslXYZ
+PKG="openssl"
 PKG_VERSION="1.1.0f"
-PKG_FILE=ABCopenssl-1.1.0f.tar.gzXYZ
+PKG_FILE="openssl-1.1.0f.tar.gz"
 URL="https://openssl.org/source/openssl-1.1.0f.tar.gz"
 MD5="7b521dea79ab159e8ec879d2333369fa"
 #

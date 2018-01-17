@@ -3,9 +3,9 @@
 #
 ## This package has no dependencies
 ## EDITHOOK1
-PKG=ABCsharutilsXYZ
+PKG="sharutils"
 PKG_VERSION="4.15.2"
-PKG_FILE=ABCsharutils-4.15.2.tar.xzXYZ
+PKG_FILE="sharutils-4.15.2.tar.xz"
 URL="https://ftp.gnu.org/gnu/sharutils/sharutils-4.15.2.tar.xz"
 MD5="5975ce21da36491d7aa6dc2b0d9788e0"
 #
