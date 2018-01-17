@@ -1,0 +1,16 @@
+#
+# sg3_utils
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABCsg3_utilsXYZ
+PKG_VERSION="1.42"
+PKG_FILE=ABCsg3_utils-1.42.tar.xzXYZ
+URL="http://sg.danny.cz/sg/p/sg3_utils-1.42.tar.xz"
+MD5="913ac2c9069d2ba44e05565a445810ab"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

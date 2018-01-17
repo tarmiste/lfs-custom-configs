@@ -1,0 +1,16 @@
+#
+# compface
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABCcompfaceXYZ
+PKG_VERSION="1.5.2"
+PKG_FILE=ABCcompface-1.5.2.tar.gzXYZ
+URL="http://anduin.linuxfromscratch.org/BLFS/compface/compface-1.5.2.tar.gz"
+MD5="62f4f79c0861ad292ba3cf77b4c48319"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

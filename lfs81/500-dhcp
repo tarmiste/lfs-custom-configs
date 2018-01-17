@@ -1,0 +1,16 @@
+#
+# dhcp
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABCdhcpXYZ
+PKG_VERSION="4.3.6"
+PKG_FILE=ABCdhcp-4.3.6.tar.gzXYZ
+URL="ftp://ftp.isc.org/isc/dhcp/4.3.6/dhcp-4.3.6.tar.gz"
+MD5="afa6e9b3eb7539ea048421a82c668adc"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

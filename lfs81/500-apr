@@ -1,0 +1,16 @@
+#
+# apr
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABCaprXYZ
+PKG_VERSION="1.6.2"
+PKG_FILE=ABCapr-1.6.2.tar.bz2XYZ
+URL="https://archive.apache.org/dist/apr/apr-1.6.2.tar.bz2"
+MD5="e81a851967c79b5ce9bfbc909e4bf735"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

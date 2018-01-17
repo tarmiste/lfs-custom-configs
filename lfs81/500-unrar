@@ -1,0 +1,16 @@
+#
+# unrar
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABCunrarXYZ
+PKG_VERSION="5.5.8"
+PKG_FILE=ABCunrarsrc-5.5.8.tar.gzXYZ
+URL="http://www.rarlab.com/rar/unrarsrc-5.5.8.tar.gz"
+MD5="8d74b4d16b1317c4b1081e5f44025180"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

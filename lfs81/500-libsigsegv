@@ -1,0 +1,16 @@
+#
+# libsigsegv
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABClibsigsegvXYZ
+PKG_VERSION="2.11"
+PKG_FILE=ABClibsigsegv-2.11.tar.gzXYZ
+URL="https://ftp.gnu.org/gnu/libsigsegv/libsigsegv-2.11.tar.gz"
+MD5="a812d9481f6097f705599b218eea349f"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

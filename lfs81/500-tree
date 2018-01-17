@@ -1,0 +1,16 @@
+#
+# tree
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABCtreeXYZ
+PKG_VERSION="1.7.0"
+PKG_FILE=ABCtree-1.7.0.tgzXYZ
+URL="http://mama.indstate.edu/users/ice/tree/src/tree-1.7.0.tgz"
+MD5="abe3e03e469c542d8e157cdd93f4d8a6"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

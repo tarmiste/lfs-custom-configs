@@ -1,0 +1,16 @@
+#
+# libogg
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABCliboggXYZ
+PKG_VERSION="1.3.2"
+PKG_FILE=ABClibogg-1.3.2.tar.xzXYZ
+URL="https://downloads.xiph.org/releases/ogg/libogg-1.3.2.tar.xz"
+MD5="5c3a34309d8b98640827e5d0991a4015"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

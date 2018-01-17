@@ -1,0 +1,16 @@
+#
+# faac
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABCfaacXYZ
+PKG_VERSION="1.29.4"
+PKG_FILE=ABCfaac-1.29.4.tar.gzXYZ
+URL="https://downloads.sourceforge.net/faac/faac-1.29.4.tar.gz"
+MD5="c6bdb58b06532a696759908f7fb49633"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

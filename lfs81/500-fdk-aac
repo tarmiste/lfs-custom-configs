@@ -1,0 +1,16 @@
+#
+# fdk-aac
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABCfdk-aacXYZ
+PKG_VERSION="0.1.5"
+PKG_FILE=ABCfdk-aac-0.1.5.tar.gzXYZ
+URL="https://downloads.sourceforge.net/opencore-amr/fdk-aac-0.1.5.tar.gz"
+MD5="f70d394960da66fbf40a2946625690eb"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

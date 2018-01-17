@@ -1,0 +1,16 @@
+#
+# faad2
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABCfaad2XYZ
+PKG_VERSION="2.8.1"
+PKG_FILE=ABCfaad2-2.8.1.tar.gz sample.aacXYZ
+URL="https://downloads.sourceforge.net/faac/faad2-2.8.1.tar.gz"
+MD5="45f0593e99e97785c5ba79875a4e30a7"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

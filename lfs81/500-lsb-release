@@ -1,0 +1,16 @@
+#
+# lsb-release
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABClsb-releaseXYZ
+PKG_VERSION="1.4"
+PKG_FILE=ABClsb-release-1.4.tar.gzXYZ
+URL="https://downloads.sourceforge.net/lsb/lsb-release-1.4.tar.gz"
+MD5="30537ef5a01e0ca94b7b8eb6a36bb1e4"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

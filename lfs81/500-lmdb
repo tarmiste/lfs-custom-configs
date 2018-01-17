@@ -1,0 +1,16 @@
+#
+# lmdb
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABClmdbXYZ
+PKG_VERSION="0.9.21"
+PKG_FILE=ABCLMDB_0.9.21.tar.gzXYZ
+URL="https://github.com/LMDB/lmdb/archive/LMDB_0.9.21.tar.gz"
+MD5="41a4f7b63212a00e53fabd8159008201"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
