@@ -4,34 +4,35 @@
 #
 for i in `cat ../here`
 do
+   echo ======== $i
    name=`basename $i`
-   rm -f 500-${name}
-   echo '#' > 500-${name}
-   echo "# ${name}" >> 500-${name}
-   echo '#' >> 500-${name}
-   echo '## This package has no dependencies' >>500-${name}
-   echo '## EDITHOOK1' >>500-${name}
-   echo PKG=ABC${name}XYZ >> 500-${name}
+   rm -f 501-${name}
+   echo '#' > 501-${name}
+   echo "# ${name}" >> 501-${name}
+   echo '#' >> 501-${name}
+   echo '## This package has one dependencies' >>501-${name}
+   echo '## EDITHOOK1' >>501-${name}
+   echo PKG=ABC${name}XYZ >> 501-${name}
    version=`grep " ${name}-version" /tmp/packages.ent |sed 's/<!ENTITY .*-version *//'`
-   echo PKG_VERSION=${version} >>500-${name}
+   echo PKG_VERSION=${version} >>501-${name}
    pkgfile=`grep ^PACKAGE *-z-${name} |cut -f2 -d "=" -`
-   echo PKG_FILE=ABC${pkgfile}XYZ >>500-${name}
+   echo PKG_FILE=ABC${pkgfile}XYZ >>501-${name}
    url=`grep -m 1 wget *-z-${name} |sed 's/    wget -T 30 -t 5 /"/' | sed 's/ ||/"/'`
-   echo URL="${url}" >>500-${name}
+   echo URL="${url}" >>501-${name}
 
    md5sum=`grep md5sum *-z-${name} |sed 's/echo //' | sed 's/  $PACKAGE" | md5sum -c -/"/'`
-   echo MD5="${md5sum}" >>500-${name}
-   echo '#' >>500-${name}
-   echo '## EDITHOOK2' >>500-${name}
-   echo 'for i in PATCH{1..10}; do' >>500-${name}
-   echo '   unset $i' >>500-${name}
-   echo 'done' >>500-${name}
+   echo MD5="${md5sum}" >>501-${name}
+   echo '#' >>501-${name}
+   echo '## EDITHOOK2' >>501-${name}
+   echo 'for i in PATCH{1..10}; do' >>501-${name}
+   echo '   unset $i' >>501-${name}
+   echo 'done' >>501-${name}
    if [ `grep -c \.patch *-z-${name}` -eq '0' ]
    then
-      echo PATCH1=  >>500-${name}
+      echo PATCH1=  >>501-${name}
    else
       patch1=`grep \.patch *-z-${name} |grep wget |sed 's/    wget -T 30 -t 5 /"/' | sed 's/ ||/ PATCH1MD5"/'`
-      echo PATCH1=${patch1} >>500-${name}
+      echo PATCH1=${patch1} >>501-${name}
    fi
 
 done

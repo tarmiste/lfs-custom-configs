@@ -1,0 +1,16 @@
+#
+# nspr
+#
+## This package has one dependencies
+## EDITHOOK1
+PKG=ABCnsprXYZ
+PKG_VERSION="4.16"
+PKG_FILE=ABCnspr-4.16.tar.gzXYZ
+URL="https://archive.mozilla.org/pub/nspr/releases/v4.16/src/nspr-4.16.tar.gz"
+MD5="42fd8963a4b394f62d43ba604f03fab7"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
