@@ -1,0 +1,16 @@
+#
+# reiserfs
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABCreiserfsXYZ
+PKG_VERSION=
+PKG_FILE=ABCreiserfsprogs-3.6.27.tar.xzXYZ
+URL="https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs/v3.6.27/reiserfsprogs-3.6.27.tar.xz"
+MD5="90c139542725efc6da3a6b1709695395"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

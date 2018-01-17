@@ -1,0 +1,16 @@
+#
+# wireless_tools
+#
+## This package has no dependencies
+## EDITHOOK1
+PKG=ABCwireless_toolsXYZ
+PKG_VERSION=
+PKG_FILE=ABCwireless_tools.29.tar.gzXYZ
+URL="http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/wireless_tools.29.tar.gz"
+MD5="e06c222e186f7cc013fd272d023710cb"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/wireless_tools-29-fix_iwlist_scanning-1.patch PATCH1MD5"
