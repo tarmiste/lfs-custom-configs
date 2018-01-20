@@ -15,8 +15,32 @@ for i in PATCH{1..10}; do
 done
 PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/clisp-2.49-readline7_fixes-1.patch 88393744b629d658039ceb3c575764fd"
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+sed -i -e '/socket/d' -e '/"streams"/d' tests/tests.lisp
+patch -Np1 -i ../clisp-2.49-readline7_fixes-1.patch
+mkdir build &&
+cd    build &&
+
+../configure --srcdir=../                       \
+             --prefix=/usr                      \
+             --docdir=/usr/share/doc/clisp-2.49 \
+             --with-libsigsegv-prefix=/usr &&
+
+ulimit -s 16384 &&
+make -j1
+#make -k check || true
+sudo -E sh << ROOT_EOF
+make -j1 install
+ROOT_EOF
+sudo /sbin/ldconfig
+
+## EDITHOOK4
+( cat << "xEOFx"
+## EDITHOOK4
 xEOFx
 ) > tmp
 

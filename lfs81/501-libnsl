@@ -15,8 +15,24 @@ for i in PATCH{1..10}; do
 done
 PATCH1=
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+autoreconf -fi                &&
+./configure --sysconfdir=/etc &&
+make
+sudo -E sh << ROOT_EOF
+make -j1 install                  &&
+mv /usr/lib/libnsl.so.2* /lib &&
+ln -sfv ../../lib/libnsl.so.2.0.0 /usr/lib/libnsl.so
+ROOT_EOF
+sudo /sbin/ldconfig
+
+## EDITHOOK4
+( cat << "xEOFx"
+## EDITHOOK4
 xEOFx
 ) > tmp
 

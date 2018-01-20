@@ -15,8 +15,32 @@ for i in PATCH{1..10}; do
 done
 PATCH1=
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+make PREFIX=/usr        \
+     BUILD_STATIC_LIB=0 \
+     MANDIR=/usr/share/man
+sudo -E sh << ROOT_EOF
+make -j1 PREFIX=/usr        \\
+     BUILD_STATIC_LIB=0 \\
+     MANDIR=/usr/share/man install &&
+
+install -v -m755 -d /usr/share/doc/lm_sensors-3.4.0 &&
+cp -rv              README INSTALL doc/* \\
+                    /usr/share/doc/lm_sensors-3.4.0
+ROOT_EOF
+sudo /sbin/ldconfig
+
+sudo -E sh << ROOT_EOF
+sensors-detect
+ROOT_EOF
+
+## EDITHOOK4
+( cat << "xEOFx"
+## EDITHOOK4
 xEOFx
 ) > tmp
 

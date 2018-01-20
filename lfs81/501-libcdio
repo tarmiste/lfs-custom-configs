@@ -15,8 +15,31 @@ for i in PATCH{1..10}; do
 done
 PATCH1="https://ftp.gnu.org/gnu/libcdio/libcdio-0.94.tar.gz libcdio-paranoia-10.2+0.94+2.tar.gz d8734266a20fbc2605a97b701b838ab6"
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+./configure --prefix=/usr --disable-static &&
+make
+#make -k check || true
+sudo -E sh << ROOT_EOF
+make -j1 install
+ROOT_EOF
+tar -xf ../libcdio-paranoia-10.2+0.94+2.tar.bz2 &&
+cd libcdio-paranoia-10.2+0.94+2 &&
+
+./configure --prefix=/usr --disable-static &&
+make
+#make -k check || true
+sudo -E sh << ROOT_EOF
+make -j1 install
+ROOT_EOF
+sudo /sbin/ldconfig
+
+## EDITHOOK4
+( cat << "xEOFx"
+## EDITHOOK4
 xEOFx
 ) > tmp
 

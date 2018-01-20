@@ -15,8 +15,34 @@ for i in PATCH{1..10}; do
 done
 PATCH1=
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+./configure --prefix=/usr        \
+            --disable-static     \
+            --with-fuse=internal &&
+make
+sudo -E sh << ROOT_EOF
+make -j1 install &&
+ln -sv ../bin/ntfs-3g /sbin/mount.ntfs &&
+ln -sv ntfs-3g.8 /usr/share/man/man8/mount.ntfs.8
+ROOT_EOF
+sudo -E sh << ROOT_EOF
+chmod -v 4755 /bin/ntfs-3g
+ROOT_EOF
+sudo /sbin/ldconfig
+
+
+
+sudo -E sh << ROOT_EOF
+chmod -v 777 /mnt/usb
+ROOT_EOF
+
+## EDITHOOK4
+( cat << "xEOFx"
+## EDITHOOK4
 xEOFx
 ) > tmp
 
