@@ -18,7 +18,6 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 sed -i 's#$(LOBJS): Makefile#$(LOBJS): pth_p.h Makefile#' Makefile.in &&
 ./configure --prefix=/usr           \
@@ -26,12 +25,10 @@ sed -i 's#$(LOBJS): Makefile#$(LOBJS): pth_p.h Makefile#' Makefile.in &&
             --mandir=/usr/share/man &&
 make
 #make -k test || true
-sudo -E sh << ROOT_EOF
 make -j1 install &&
 install -v -m755 -d /usr/share/doc/pth-2.0.7 &&
-install -v -m644    README PORTING SUPPORT TESTS \\
+install -v -m644    README PORTING SUPPORT TESTS \
                     /usr/share/doc/pth-2.0.7
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

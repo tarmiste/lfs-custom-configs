@@ -18,7 +18,6 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 CFLAGS="-D_PATH_DHCLIENT_SCRIPT='\"/sbin/dhclient-script\"'         \
         -D_PATH_DHCPD_CONF='\"/etc/dhcp/dhcpd.conf\"'               \
@@ -32,22 +31,15 @@ CFLAGS="-D_PATH_DHCLIENT_SCRIPT='\"/sbin/dhclient-script\"'         \
             --with-cli-lease-file=/var/lib/dhclient/dhclient.leases \
             --with-cli6-lease-file=/var/lib/dhclient/dhclient6.leases &&
 make -j1
-sudo -E sh << ROOT_EOF
 make -j1 -C client install         &&
 mv -v /usr/sbin/dhclient /sbin &&
 install -v -m755 client/scripts/linux /sbin/dhclient-script
-ROOT_EOF
-sudo -E sh << ROOT_EOF
 make -j1 -C server install
-ROOT_EOF
-sudo -E sh << ROOT_EOF
 make -j1 install                   &&
 mv -v /usr/sbin/dhclient /sbin &&
 install -v -m755 client/scripts/linux /sbin/dhclient-script
-ROOT_EOF
 sudo /sbin/ldconfig
 
-sudo -E sh << ROOT_EOF
 install -vdm755 /etc/dhcp &&
 cat > /etc/dhcp/dhclient.conf << "EOF"
 # Begin /etc/dhcp/dhclient.conf
@@ -68,50 +60,14 @@ require subnet-mask, domain-name-servers;
 
 # End /etc/dhcp/dhclient.conf
 EOF
-ROOT_EOF
 
-sudo -E sh << ROOT_EOF
 install -v -dm 755 /var/lib/dhclient
-ROOT_EOF
 
-sudo -E sh << ROOT_EOF
 dhclient **EDITME<eth0>EDITME**
-ROOT_EOF
 
-[[ ! -d $SRC_DIR/blfs-bootscripts ]] && mkdir $SRC_DIR/blfs-bootscripts
-pushd $SRC_DIR/blfs-bootscripts
-URL=http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20170731.tar.xz
-BOOTPACKG=$(basename $URL)
-if [[ ! -f $BOOTPACKG ]] ; then
-  if [[ -f $SRC_ARCHIVE/$PKG_DIR/$BOOTPACKG ]] ; then
-    cp $SRC_ARCHIVE/$PKG_DIR/$BOOTPACKG $BOOTPACKG
-  elif [[ -f $SRC_ARCHIVE/$BOOTPACKG ]] ; then
-    cp $SRC_ARCHIVE/$BOOTPACKG $BOOTPACKG
-  else
-    wget -T 30 -t 5 $URL
-    cp $BOOTPACKG $SRC_ARCHIVE
-  fi
-  rm -f unpacked
-fi
+# add to blfs bootscripts config
+#make -j1 install-service-dhclient
 
-if [[ -e unpacked ]] ; then
-  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
-  if ! [[ -d $BOOTUNPACKDIR ]]; then
-    rm unpacked
-    tar -xvf $BOOTPACKG > unpacked
-    BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
-  fi
-else
-  tar -xvf $BOOTPACKG > unpacked
-  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
-fi
-cd $BOOTUNPACKDIR
-sudo -E sh << ROOT_EOF
-make -j1 install-service-dhclient
-ROOT_EOF
-
-popd
-sudo -E sh << ROOT_EOF
 cat > /etc/sysconfig/ifconfig.eth0 << "EOF"
 ONBOOT="yes"
 IFACE="eth0"
@@ -127,9 +83,7 @@ PRINTIP="no"
 # IP, SM, DG, and 1st NS. This requires PRINTIP="yes".
 PRINTALL="no"
 EOF
-ROOT_EOF
 
-sudo -E sh << ROOT_EOF
 cat > /etc/dhcp/dhcpd.conf << "EOF"
 # Begin /etc/dhcp/dhcpd.conf
 #
@@ -153,45 +107,12 @@ subnet 10.254.239.0 netmask 255.255.255.224 {
 
 # End /etc/dhcp/dhcpd.conf
 EOF
-ROOT_EOF
 
-sudo -E sh << ROOT_EOF
 install -v -dm 755 /var/lib/dhcpd
-ROOT_EOF
 
-[[ ! -d $SRC_DIR/blfs-bootscripts ]] && mkdir $SRC_DIR/blfs-bootscripts
-pushd $SRC_DIR/blfs-bootscripts
-URL=http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20170731.tar.xz
-BOOTPACKG=$(basename $URL)
-if [[ ! -f $BOOTPACKG ]] ; then
-  if [[ -f $SRC_ARCHIVE/$PKG_DIR/$BOOTPACKG ]] ; then
-    cp $SRC_ARCHIVE/$PKG_DIR/$BOOTPACKG $BOOTPACKG
-  elif [[ -f $SRC_ARCHIVE/$BOOTPACKG ]] ; then
-    cp $SRC_ARCHIVE/$BOOTPACKG $BOOTPACKG
-  else
-    wget -T 30 -t 5 $URL
-    cp $BOOTPACKG $SRC_ARCHIVE
-  fi
-  rm -f unpacked
-fi
+# add to blfs bootscripts config
+#make -j1 install-dhcpd
 
-if [[ -e unpacked ]] ; then
-  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
-  if ! [[ -d $BOOTUNPACKDIR ]]; then
-    rm unpacked
-    tar -xvf $BOOTPACKG > unpacked
-    BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
-  fi
-else
-  tar -xvf $BOOTPACKG > unpacked
-  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
-fi
-cd $BOOTUNPACKDIR
-sudo -E sh << ROOT_EOF
-make -j1 install-dhcpd
-ROOT_EOF
-
-popd
 ## EDITHOOK4
 xEOFx
 ) > tmp

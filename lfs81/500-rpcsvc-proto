@@ -18,14 +18,11 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 autoreconf -fi                &&
 ./configure --sysconfdir=/etc &&
 make
-sudo -E sh << ROOT_EOF
 make -j1 install
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

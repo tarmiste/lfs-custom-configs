@@ -18,18 +18,13 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 sed 's@-Werror@@' -i Makefile
 make
-sed -i 's# if.* == "1"#& -a -e $targetdir/log#' test &&
-make test
-sudo -E sh << ROOT_EOF
-./test --keep-going --logdir=test-logs --save-logs
-ROOT_EOF
-sudo -E sh << ROOT_EOF
+#sed -i 's# if.* == "1"#& -a -e $targetdir/log#' test &&
+#make test
+#./test --keep-going --logdir=test-logs --save-logs
 make -j1 install
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

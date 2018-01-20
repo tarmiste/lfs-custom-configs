@@ -18,14 +18,12 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 autoreconf -fi                &&
 ./configure --prefix=/usr     \
             --sysconfdir=/etc \
             --disable-static &&
 make
-sudo -E sh << ROOT_EOF
 make -j1 install &&
 mkdir -vp /etc/libpaper.d &&
 
@@ -81,14 +79,11 @@ exit 0
 EOF
 
 chmod -v 755 /usr/bin/run-parts
-ROOT_EOF
 sudo /sbin/ldconfig
 
-sudo -E sh << ROOT_EOF
 cat > /etc/papersize << "EOF"
 a4
 EOF
-ROOT_EOF
 
 ## EDITHOOK4
 xEOFx

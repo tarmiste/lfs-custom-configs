@@ -18,15 +18,12 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 ./bootstrap &&
 ./configure --prefix=/usr \
             --docdir=/usr/share/doc/soundtouch-2.0.0 &&
 make
-sudo -E sh << ROOT_EOF
 make -j1 install 
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

@@ -18,7 +18,6 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 ./configure --prefix=/usr                    \
             --enable-shared                  \
@@ -27,9 +26,7 @@ cd $UNPACKDIR
 make
 #make -k check || true
 #make -k test || true
-sudo -E sh << ROOT_EOF
 make -j1 install
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

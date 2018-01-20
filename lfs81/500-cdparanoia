@@ -18,15 +18,12 @@ PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/cdparanoia-III-10.2-gcc
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 patch -Np1 -i ../cdparanoia-III-10.2-gcc_fixes-1.patch &&
 ./configure --prefix=/usr --mandir=/usr/share/man &&
 make -j1
-sudo -E sh << ROOT_EOF
 make -j1 install &&
 chmod -v 755 /usr/lib/libcdda_*.so.0.10.2
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

@@ -18,18 +18,14 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 ./configure --prefix=/usr --disable-static &&
 make
 #make -k check || true
-sudo -E sh << ROOT_EOF
 make -j1 install
-ROOT_EOF
-sudo -E sh << ROOT_EOF
-install -v -m755 -d /usr/share/doc/popt-1.16 &&
-install -v -m644 doxygen/html/* /usr/share/doc/popt-1.16
-ROOT_EOF
+#doxygen
+#install -v -m755 -d /usr/share/doc/popt-1.16
+#install -v -m644 doxygen/html/* /usr/share/doc/popt-1.16
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

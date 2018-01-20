@@ -18,7 +18,6 @@ PATCH1="https://downloads.sourceforge.net/tcl/tcl8.6.7-html.tar.gz 0da678eaf3041
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 tar -xf ../tcl8.6.7-html.tar.gz --strip-components=1
 export SRCDIR=`pwd` &&
@@ -47,16 +46,12 @@ sed -e "s#$SRCDIR/unix/pkgs/itcl4.1.0#/usr/lib/itcl4.1.0#" \
 
 unset SRCDIR
 #make -k test || true
-sudo -E sh << ROOT_EOF
 make -j1 install &&
 make -j1 install-private-headers &&
 ln -v -sf tclsh8.6 /usr/bin/tclsh &&
 chmod -v 755 /usr/lib/libtcl8.6.so
-ROOT_EOF
-sudo -E sh << ROOT_EOF
 mkdir -v -p /usr/share/doc/tcl-8.6.7 &&
 cp -v -r  ../html/* /usr/share/doc/tcl-8.6.7
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

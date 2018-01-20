@@ -18,16 +18,13 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 sed -i 's/$(ACLOCAL)//' Makefile.in                                            &&
 sed -i 's/lu", ptok ((UL) resp->ru.ru_maxrss)/ld", resp->ru.ru_maxrss/' time.c &&
 
 ./configure --prefix=/usr --infodir=/usr/share/info                            &&
 make
-sudo -E sh << ROOT_EOF
 make -j1 install
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

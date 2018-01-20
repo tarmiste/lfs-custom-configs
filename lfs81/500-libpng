@@ -18,17 +18,14 @@ PATCH1="https://downloads.sourceforge.net/apng/libpng-1.6.31-apng.patch.gz 469b8
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 gzip -cd ../libpng-1.6.31-apng.patch.gz | patch -p0
 LIBS=-lpthread ./configure --prefix=/usr --disable-static &&
 make
 #make -k check || true
-sudo -E sh << ROOT_EOF
 make -j1 install &&
 mkdir -v /usr/share/doc/libpng-1.6.31 &&
 cp -v README libpng-manual.txt /usr/share/doc/libpng-1.6.31
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

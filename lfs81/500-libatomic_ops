@@ -18,7 +18,6 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 ./configure --prefix=/usr    \
             --enable-shared  \
@@ -26,9 +25,7 @@ cd $UNPACKDIR
             --docdir=/usr/share/doc/libatomic_ops-7.4.6 &&
 make
 #make -k check || true
-sudo -E sh << ROOT_EOF
 make -j1 install
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

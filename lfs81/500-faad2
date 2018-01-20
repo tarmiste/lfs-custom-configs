@@ -18,17 +18,14 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 autoreconf -fiv &&
 
 ./configure --prefix=/usr --disable-static &&
 make
-./frontend/faad -o sample.wav ../sample.aac
-aplay sample.wav
-sudo -E sh << ROOT_EOF
+#./frontend/faad -o sample.wav ../sample.aac
+#aplay sample.wav
 make -j1 install
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

@@ -18,15 +18,12 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 sed 's@SSL_library_init@SSL_new@g' -i configure.ac &&
 autoreconf -fi
 ./configure --prefix=/usr &&
 make
-sudo -E sh << ROOT_EOF
 make -j1 install
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

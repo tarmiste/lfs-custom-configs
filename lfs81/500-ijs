@@ -18,16 +18,13 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 ./configure --prefix=/usr \
             --mandir=/usr/share/man \
             --enable-shared \
             --disable-static &&
 make
-sudo -E sh << ROOT_EOF
 make -j1 install
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

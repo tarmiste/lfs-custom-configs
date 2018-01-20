@@ -1,7 +1,7 @@
 #
 # gobject-introspection
 #
-## This package has no dependencies
+## This package has no dependencies   XXX Fix me
 ## EDITHOOK1
 PKG="gobject-introspection"
 PKG_VERSION="1.52.1"
@@ -18,14 +18,11 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 ./configure --prefix=/usr --disable-static &&
 make
 #make -k check || true
-sudo -E sh << ROOT_EOF
 make -j1 install
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

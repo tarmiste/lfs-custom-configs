@@ -18,16 +18,13 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 ./configure --prefix=/               \
             --enable-compat-symlinks \
             --mandir=/usr/share/man  \
             --docdir=/usr/share/doc/dosfstools-4.1 &&
 make
-sudo -E sh << ROOT_EOF
 make -j1 install
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4

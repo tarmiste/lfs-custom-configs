@@ -18,16 +18,13 @@ PATCH1=
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
-cd $UNPACKDIR
 
 ./configure --prefix=/usr    \
             --disable-static \
             --docdir=/usr/share/doc/libogg-1.3.2 &&
 make
 #make -k check || true
-sudo -E sh << ROOT_EOF
 make -j1 install
-ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4
