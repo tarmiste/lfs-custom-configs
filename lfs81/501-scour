@@ -29,8 +29,6 @@ ROOT_EOF
 sudo /sbin/ldconfig
 
 ## EDITHOOK4
-( cat << "xEOFx"
-## EDITHOOK4
 xEOFx
 ) > tmp
 
