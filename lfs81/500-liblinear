@@ -15,8 +15,20 @@ for i in PATCH{1..10}; do
 done
 PATCH1=
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+make lib
+sudo -E sh << ROOT_EOF
+install -vm644 linear.h /usr/include &&
+install -vm755 liblinear.so.3 /usr/lib &&
+ln -sfv liblinear.so.3 /usr/lib/liblinear.so
+ROOT_EOF
+sudo /sbin/ldconfig
+
+## EDITHOOK4
 xEOFx
 ) > tmp
 

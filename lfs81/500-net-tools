@@ -15,8 +15,22 @@ for i in PATCH{1..10}; do
 done
 PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/net-tools-CVS_20101030-remove_dups-1.patch 01b01721458ee16bef6eb9464a0da175"
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+patch -Np1 -i ../net-tools-CVS_20101030-remove_dups-1.patch &&
+sed -i '/#include <netinet\/ip.h>/d'  iptunnel.c &&
+
+yes "" | make config &&
+make
+sudo -E sh << ROOT_EOF
+make -j1 update
+ROOT_EOF
+sudo /sbin/ldconfig
+
+## EDITHOOK4
 xEOFx
 ) > tmp
 

@@ -15,8 +15,19 @@ for i in PATCH{1..10}; do
 done
 PATCH1=
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+make
+sudo -E sh << ROOT_EOF
+make -j1 MANDIR=/usr/share/man/man1 install &&
+chmod -v 644 /usr/share/man/man1/tree.1
+ROOT_EOF
+sudo /sbin/ldconfig
+
+## EDITHOOK4
 xEOFx
 ) > tmp
 

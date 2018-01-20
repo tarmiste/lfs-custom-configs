@@ -15,8 +15,27 @@ for i in PATCH{1..10}; do
 done
 PATCH1=
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+sed -i 's#pkgdata#doc#' doc/doc.am &&
+autoreconf -fi  &&
+./configure --prefix=/usr      \
+            --enable-cplusplus \
+            --disable-static   \
+            --docdir=/usr/share/doc/gc-7.6.0 &&
+make
+#make -k check || true
+sudo -E sh << ROOT_EOF
+make -j1 install &&
+install -v -m644 doc/gc.man /usr/share/man/man3/gc_malloc.3 &&
+ln -sfv gc_malloc.3 /usr/share/man/man3/gc.3
+ROOT_EOF
+sudo /sbin/ldconfig
+
+## EDITHOOK4
 xEOFx
 ) > tmp
 

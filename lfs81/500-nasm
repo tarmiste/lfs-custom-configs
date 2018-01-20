@@ -15,8 +15,25 @@ for i in PATCH{1..10}; do
 done
 PATCH1="http://www.nasm.us/pub/nasm/releasebuilds/2.13.01/nasm-2.13.01-xdoc.tar.xz 0b84a306da9357ec4419b9f18f0afa2b"
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+tar -xf ../nasm-2.13.01-xdoc.tar.xz --strip-components=1
+./configure --prefix=/usr &&
+make
+sudo -E sh << ROOT_EOF
+make -j1 install
+ROOT_EOF
+sudo -E sh << ROOT_EOF
+install -m755 -d         /usr/share/doc/nasm-2.13.01/html  &&
+cp -v doc/html/*.html    /usr/share/doc/nasm-2.13.01/html  &&
+cp -v doc/*.{txt,ps,pdf} /usr/share/doc/nasm-2.13.01
+ROOT_EOF
+sudo /sbin/ldconfig
+
+## EDITHOOK4
 xEOFx
 ) > tmp
 

@@ -15,8 +15,21 @@ for i in PATCH{1..10}; do
 done
 PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/cdparanoia-III-10.2-gcc_fixes-1.patch 4d6a164f760b59c2f0d82d0997dbdce1"
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+patch -Np1 -i ../cdparanoia-III-10.2-gcc_fixes-1.patch &&
+./configure --prefix=/usr --mandir=/usr/share/man &&
+make -j1
+sudo -E sh << ROOT_EOF
+make -j1 install &&
+chmod -v 755 /usr/lib/libcdda_*.so.0.10.2
+ROOT_EOF
+sudo /sbin/ldconfig
+
+## EDITHOOK4
 xEOFx
 ) > tmp
 

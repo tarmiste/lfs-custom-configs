@@ -15,8 +15,25 @@ for i in PATCH{1..10}; do
 done
 PATCH1=
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+make PREFIX=/usr                \
+     SHAREDIR=/usr/share/hwdata \
+     SHARED=yes
+sudo -E sh << ROOT_EOF
+make -j1 PREFIX=/usr                \\
+     SHAREDIR=/usr/share/hwdata \\
+     SHARED=yes                 \\
+     install install-lib        &&
+
+chmod -v 755 /usr/lib/libpci.so
+ROOT_EOF
+sudo /sbin/ldconfig
+
+## EDITHOOK4
 xEOFx
 ) > tmp
 

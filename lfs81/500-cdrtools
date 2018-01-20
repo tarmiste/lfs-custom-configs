@@ -15,8 +15,23 @@ for i in PATCH{1..10}; do
 done
 PATCH1=
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+export GMAKE_NOWARN=true &&
+make INS_BASE=/usr DEFINSUSR=root DEFINSGRP=root
+sudo -E sh << ROOT_EOF
+export GMAKE_NOWARN=true &&
+make -j1 INS_BASE=/usr DEFINSUSR=root DEFINSGRP=root install &&
+install -v -m755 -d /usr/share/doc/cdrtools-3.02a07 &&
+install -v -m644 README* ABOUT doc/*.ps \\
+                    /usr/share/doc/cdrtools-3.02a07
+ROOT_EOF
+sudo /sbin/ldconfig
+
+## EDITHOOK4
 xEOFx
 ) > tmp
 

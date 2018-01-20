@@ -15,8 +15,27 @@ for i in PATCH{1..10}; do
 done
 PATCH1=
 
+## EDITHOOK3
 ( cat << "xEOFx"
+#######  Building package
+cd $UNPACKDIR
 
+./config --prefix=/usr         \
+         --openssldir=/etc/ssl \
+         --libdir=lib          \
+         shared                \
+         zlib-dynamic &&
+make
+#make -k test || true
+sed -i 's# libcrypto.a##;s# libssl.a##;/INSTALL_LIBS/s#libcrypto.a##' Makefile
+sudo -E sh << ROOT_EOF
+make -j1 MANSUFFIX=ssl install           &&
+mv -v /usr/share/doc/openssl{,-1.1.0f} &&
+cp -vfr doc/* /usr/share/doc/openssl-1.1.0f
+ROOT_EOF
+sudo /sbin/ldconfig
+
+## EDITHOOK4
 xEOFx
 ) > tmp
 
