@@ -15,19 +15,9 @@ for i in PATCH{1..10}; do
 done
 PATCH1=""
 
-## EDITHOOK3
 ( cat << "xEOFx"
-#######  Building package
-cd $UNPACKDIR
+   make
+   make -j1 PREFIX=/usr INSTALL_MAN=/usr/share/man install
 
-patch -Np1 -i ../wireless_tools-29-fix_iwlist_scanning-1.patch
-make
-sudo -E sh << ROOT_EOF
-make -j1 PREFIX=/usr INSTALL_MAN=/usr/share/man install
-ROOT_EOF
-sudo /sbin/ldconfig
-
-## EDITHOOK4
 xEOFx
 ) > tmp
-
