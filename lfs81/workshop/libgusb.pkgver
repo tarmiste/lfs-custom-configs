@@ -1,2 +1,2 @@
-        <name>libgusb</name>
-        <version>0.2.11</version>
+PKG="libgusb"
+PKG_VERSION="0.2.11"

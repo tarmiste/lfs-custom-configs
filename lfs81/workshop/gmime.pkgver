@@ -1,2 +1,2 @@
-        <name>gmime</name>
-        <version>2.6.23</version>
+PKG="gmime"
+PKG_VERSION="2.6.23"

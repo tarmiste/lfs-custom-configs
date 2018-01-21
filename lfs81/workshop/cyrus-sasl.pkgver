@@ -1,2 +1,2 @@
-        <name>cyrus-sasl</name>
-        <version>2.1.26</version>
+PKG="cyrus-sasl"
+PKG_VERSION="2.1.26"

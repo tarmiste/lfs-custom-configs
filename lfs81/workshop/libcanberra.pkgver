@@ -1,2 +1,2 @@
-        <name>libcanberra</name>
-        <version>0.30</version>
+PKG="libcanberra"
+PKG_VERSION="0.30"

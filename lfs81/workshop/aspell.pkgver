@@ -1,2 +1,2 @@
-        <name>aspell</name>
-        <version>0.60.6.1</version>
+PKG="aspell"
+PKG_VERSION="0.60.6.1"

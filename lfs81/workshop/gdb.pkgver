@@ -1,2 +1,2 @@
-        <name>gdb</name>
-        <version>8.0</version>
+PKG="gdb"
+PKG_VERSION="8.0"

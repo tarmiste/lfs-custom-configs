@@ -1,2 +1,2 @@
-        <name>lxde-common</name>
-        <version>0.99.2</version>
+PKG="lxde-common"
+PKG_VERSION="0.99.2"

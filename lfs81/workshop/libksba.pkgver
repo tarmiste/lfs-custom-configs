@@ -1,2 +1,2 @@
-        <name>libksba</name>
-        <version>1.3.5</version>
+PKG="libksba"
+PKG_VERSION="1.3.5"

@@ -1,2 +1,2 @@
-        <name>iso-codes</name>
-        <version>3.75</version>
+PKG="iso-codes"
+PKG_VERSION="3.75"

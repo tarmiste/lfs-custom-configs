@@ -1,2 +1,2 @@
-        <name>xkeyboard-config</name>
-        <version>2.21</version>
+PKG="xkeyboard-config"
+PKG_VERSION="2.21"

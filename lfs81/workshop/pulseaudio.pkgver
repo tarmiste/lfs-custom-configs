@@ -1,2 +1,2 @@
-        <name>pulseaudio</name>
-        <version>10.0</version>
+PKG="pulseaudio"
+PKG_VERSION="10.0"

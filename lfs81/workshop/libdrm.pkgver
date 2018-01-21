@@ -1,2 +1,2 @@
-        <name>libdrm</name>
-        <version>2.4.82</version>
+PKG="libdrm"
+PKG_VERSION="2.4.82"

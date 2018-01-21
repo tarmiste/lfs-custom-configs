@@ -1,2 +1,2 @@
-        <name>libffi</name>
-        <version>3.2.1</version>
+PKG="libffi"
+PKG_VERSION="3.2.1"

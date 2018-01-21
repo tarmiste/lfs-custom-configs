@@ -1,2 +1,2 @@
-        <name>lxqt-l10n</name>
-        <version>0.11.2</version>
+PKG="lxqt-l10n"
+PKG_VERSION="0.11.2"

@@ -1,2 +1,2 @@
-        <name>lximage-qt</name>
-        <version>0.5.1</version>
+PKG="lximage-qt"
+PKG_VERSION="0.5.1"

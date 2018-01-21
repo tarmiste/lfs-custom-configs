@@ -1,2 +1,2 @@
-        <name>cacerts</name>
-        <version>1.0.0</version>
+PKG="cacerts"
+PKG_VERSION="1.0.0"

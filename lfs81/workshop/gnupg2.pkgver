@@ -1,2 +1,2 @@
-        <name>gnupg2</name>
-        <version>2.1.23</version>
+PKG="gnupg2"
+PKG_VERSION="2.1.23"

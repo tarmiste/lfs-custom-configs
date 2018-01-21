@@ -1,2 +1,2 @@
-        <name>libndp</name>
-        <version>1.6</version>
+PKG="libndp"
+PKG_VERSION="1.6"

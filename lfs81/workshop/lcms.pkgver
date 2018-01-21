@@ -1,2 +1,2 @@
-        <name>lcms</name>
-        <version>1.19</version>
+PKG="lcms"
+PKG_VERSION="1.19"

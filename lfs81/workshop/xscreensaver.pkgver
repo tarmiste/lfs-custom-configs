@@ -1,2 +1,2 @@
-        <name>xscreensaver</name>
-        <version>5.37</version>
+PKG="xscreensaver"
+PKG_VERSION="5.37"

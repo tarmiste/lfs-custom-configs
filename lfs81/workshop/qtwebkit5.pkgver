@@ -1,2 +1,2 @@
-        <name>qtwebkit5</name>
-        <version>5.9.0</version>
+PKG="qtwebkit5"
+PKG_VERSION="5.9.0"

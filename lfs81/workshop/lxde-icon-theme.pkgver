@@ -1,2 +1,2 @@
-        <name>lxde-icon-theme</name>
-        <version>0.5.1</version>
+PKG="lxde-icon-theme"
+PKG_VERSION="0.5.1"

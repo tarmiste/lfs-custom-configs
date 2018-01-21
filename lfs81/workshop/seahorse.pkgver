@@ -1,2 +1,2 @@
-        <name>seahorse</name>
-        <version>3.20.0</version>
+PKG="seahorse"
+PKG_VERSION="3.20.0"

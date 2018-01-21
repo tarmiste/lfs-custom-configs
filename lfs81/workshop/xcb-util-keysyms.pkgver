@@ -1,2 +1,2 @@
-        <name>xcb-util-keysyms</name>
-        <version>0.4.0</version>
+PKG="xcb-util-keysyms"
+PKG_VERSION="0.4.0"

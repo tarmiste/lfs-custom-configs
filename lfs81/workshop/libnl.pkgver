@@ -1,2 +1,2 @@
-        <name>libnl</name>
-        <version>3.3.0</version>
+PKG="libnl"
+PKG_VERSION="3.3.0"

@@ -1,2 +1,2 @@
-        <name>libsysstat</name>
-        <version>0.3.3</version>
+PKG="libsysstat"
+PKG_VERSION="0.3.3"

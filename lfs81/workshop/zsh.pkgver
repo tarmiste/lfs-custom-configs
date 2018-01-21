@@ -1,2 +1,2 @@
-        <name>zsh</name>
-        <version>5.4.2</version>
+PKG="zsh"
+PKG_VERSION="5.4.2"

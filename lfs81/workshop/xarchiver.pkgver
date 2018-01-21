@@ -1,2 +1,2 @@
-        <name>xarchiver</name>
-        <version>0.5.4</version>
+PKG="xarchiver"
+PKG_VERSION="0.5.4"

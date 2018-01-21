@@ -1,2 +1,2 @@
-        <name>gst10-plugins-bad</name>
-        <version>1.12.2</version>
+PKG="gst10-plugins-bad"
+PKG_VERSION="1.12.2"

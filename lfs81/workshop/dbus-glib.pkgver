@@ -1,2 +1,2 @@
-        <name>dbus-glib</name>
-        <version>0.108</version>
+PKG="dbus-glib"
+PKG_VERSION="0.108"

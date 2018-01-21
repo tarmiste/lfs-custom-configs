@@ -1,2 +1,2 @@
-        <name>logrotate</name>
-        <version>3.11.0</version>
+PKG="logrotate"
+PKG_VERSION="3.11.0"

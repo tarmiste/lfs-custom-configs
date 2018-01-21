@@ -1,2 +1,2 @@
-        <name>pcre2</name>
-        <version>10.30</version>
+PKG="pcre2"
+PKG_VERSION="10.30"

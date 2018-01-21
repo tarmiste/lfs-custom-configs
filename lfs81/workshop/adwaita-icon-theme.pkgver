@@ -1,2 +1,2 @@
-        <name>adwaita-icon-theme</name>
-        <version>3.24.0</version>
+PKG="adwaita-icon-theme"
+PKG_VERSION="3.24.0"

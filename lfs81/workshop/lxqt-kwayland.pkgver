@@ -1,2 +1,2 @@
-        <name>lxqt-kwayland</name>
-        <version>5.37.0 for lxqt</version>
+PKG="lxqt-kwayland"
+PKG_VERSION="5.37.0 for lxqt"

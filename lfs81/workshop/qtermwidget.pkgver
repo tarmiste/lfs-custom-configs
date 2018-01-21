@@ -1,2 +1,2 @@
-        <name>qtermwidget</name>
-        <version>0.7.1</version>
+PKG="qtermwidget"
+PKG_VERSION="0.7.1"

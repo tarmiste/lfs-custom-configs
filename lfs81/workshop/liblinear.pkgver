@@ -1,2 +1,2 @@
-        <name>liblinear</name>
-        <version>211</version>
+PKG="liblinear"
+PKG_VERSION="211"

@@ -1,2 +1,2 @@
-        <name>icedtea-web</name>
-        <version>1.7</version>
+PKG="icedtea-web"
+PKG_VERSION="1.7"

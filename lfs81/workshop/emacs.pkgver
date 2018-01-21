@@ -1,2 +1,2 @@
-        <name>emacs</name>
-        <version>25.2</version>
+PKG="emacs"
+PKG_VERSION="25.2"

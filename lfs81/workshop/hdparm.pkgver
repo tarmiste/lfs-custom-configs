@@ -1,2 +1,2 @@
-        <name>hdparm</name>
-        <version>9.52</version>
+PKG="hdparm"
+PKG_VERSION="9.52"

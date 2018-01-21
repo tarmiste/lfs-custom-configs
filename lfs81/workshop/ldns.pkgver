@@ -1,2 +1,2 @@
-        <name>ldns</name>
-        <version>1.7.0</version>
+PKG="ldns"
+PKG_VERSION="1.7.0"

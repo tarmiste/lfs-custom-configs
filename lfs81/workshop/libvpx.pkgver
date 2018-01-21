@@ -1,2 +1,2 @@
-        <name>libvpx</name>
-        <version>1.6.1</version>
+PKG="libvpx"
+PKG_VERSION="1.6.1"

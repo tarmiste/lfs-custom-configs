@@ -1,2 +1,2 @@
-        <name>guile</name>
-        <version>2.2.2</version>
+PKG="guile"
+PKG_VERSION="2.2.2"

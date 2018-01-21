@@ -1,2 +1,2 @@
-        <name>smartmontools</name>
-        <version>6.5</version>
+PKG="smartmontools"
+PKG_VERSION="6.5"

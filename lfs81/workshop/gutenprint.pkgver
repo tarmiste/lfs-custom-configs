@@ -1,2 +1,2 @@
-        <name>gutenprint</name>
-        <version>5.2.12</version>
+PKG="gutenprint"
+PKG_VERSION="5.2.12"

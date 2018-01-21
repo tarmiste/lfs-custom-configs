@@ -1,2 +1,2 @@
-        <name>at-spi2-atk</name>
-        <version>2.24.1</version>
+PKG="at-spi2-atk"
+PKG_VERSION="2.24.1"

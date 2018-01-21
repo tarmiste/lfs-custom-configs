@@ -1,2 +1,2 @@
-        <name>libusb</name>
-        <version>1.0.21</version>
+PKG="libusb"
+PKG_VERSION="1.0.21"

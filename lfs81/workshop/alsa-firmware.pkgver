@@ -1,2 +1,2 @@
-        <name>alsa-firmware</name>
-        <version>1.0.29</version>
+PKG="alsa-firmware"
+PKG_VERSION="1.0.29"

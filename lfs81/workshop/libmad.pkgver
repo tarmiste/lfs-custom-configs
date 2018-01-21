@@ -1,2 +1,2 @@
-        <name>libmad</name>
-        <version>0.15.1b</version>
+PKG="libmad"
+PKG_VERSION="0.15.1b"

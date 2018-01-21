@@ -1,2 +1,2 @@
-        <name>ijs</name>
-        <version>0.35</version>
+PKG="ijs"
+PKG_VERSION="0.35"

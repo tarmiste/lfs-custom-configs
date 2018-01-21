@@ -1,2 +1,2 @@
-        <name>cogl</name>
-        <version>1.22.2</version>
+PKG="cogl"
+PKG_VERSION="1.22.2"

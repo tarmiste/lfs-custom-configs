@@ -1,2 +1,2 @@
-        <name>libogg</name>
-        <version>1.3.2</version>
+PKG="libogg"
+PKG_VERSION="1.3.2"

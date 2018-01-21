@@ -1,2 +1,2 @@
-        <name>libpaper</name>
-        <version>1.1.24+nmu5</version>
+PKG="libpaper"
+PKG_VERSION="1.1.24+nmu5"

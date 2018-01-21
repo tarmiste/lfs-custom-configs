@@ -1,2 +1,2 @@
-        <name>GConf</name>
-        <version>3.2.6</version>
+PKG="GConf"
+PKG_VERSION="3.2.6"

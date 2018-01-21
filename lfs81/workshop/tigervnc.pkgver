@@ -1,2 +1,2 @@
-        <name>tigervnc</name>
-        <version>1.8.0</version>
+PKG="tigervnc"
+PKG_VERSION="1.8.0"

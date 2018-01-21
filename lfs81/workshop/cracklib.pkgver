@@ -1,2 +1,2 @@
-        <name>cracklib</name>
-        <version>2.9.6</version>
+PKG="cracklib"
+PKG_VERSION="2.9.6"

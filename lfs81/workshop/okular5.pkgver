@@ -1,2 +1,2 @@
-        <name>okular5</name>
-        <version>17.08.0</version>
+PKG="okular5"
+PKG_VERSION="17.08.0"

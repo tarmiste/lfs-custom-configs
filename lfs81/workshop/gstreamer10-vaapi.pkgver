@@ -1,2 +1,2 @@
-        <name>gstreamer10-vaapi</name>
-        <version>1.12.2</version>
+PKG="gstreamer10-vaapi"
+PKG_VERSION="1.12.2"

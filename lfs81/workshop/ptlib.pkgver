@@ -1,2 +1,2 @@
-        <name>ptlib</name>
-        <version>2.10.11</version>
+PKG="ptlib"
+PKG_VERSION="2.10.11"

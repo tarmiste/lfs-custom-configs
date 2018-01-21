@@ -1,2 +1,2 @@
-        <name>lzo</name>
-        <version>2.10</version>
+PKG="lzo"
+PKG_VERSION="2.10"

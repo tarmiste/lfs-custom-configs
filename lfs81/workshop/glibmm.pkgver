@@ -1,2 +1,2 @@
-        <name>glibmm</name>
-        <version>2.52.0</version>
+PKG="glibmm"
+PKG_VERSION="2.52.0"

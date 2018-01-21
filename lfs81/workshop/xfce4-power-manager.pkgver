@@ -1,2 +1,2 @@
-        <name>xfce4-power-manager</name>
-        <version>1.6.0</version>
+PKG="xfce4-power-manager"
+PKG_VERSION="1.6.0"

@@ -1,2 +1,2 @@
-        <name>fdk-aac</name>
-        <version>0.1.5</version>
+PKG="fdk-aac"
+PKG_VERSION="0.1.5"

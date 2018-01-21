@@ -1,2 +1,2 @@
-        <name>ntfs-3g</name>
-        <version>3g-2017.3.23</version>
+PKG="ntfs-3g"
+PKG_VERSION="3g-2017.3.23"

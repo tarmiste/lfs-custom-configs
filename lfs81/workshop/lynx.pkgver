@@ -1,2 +1,2 @@
-        <name>lynx</name>
-        <version>2.8.8rel.2</version>
+PKG="lynx"
+PKG_VERSION="2.8.8rel.2"

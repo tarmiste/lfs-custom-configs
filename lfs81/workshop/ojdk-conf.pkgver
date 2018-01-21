@@ -1,2 +1,2 @@
-        <name>ojdk-conf</name>
-        <version>1.0.0</version>
+PKG="ojdk-conf"
+PKG_VERSION="1.0.0"

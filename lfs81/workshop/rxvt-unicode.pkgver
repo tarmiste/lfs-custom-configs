@@ -1,2 +1,2 @@
-        <name>rxvt-unicode</name>
-        <version>9.22</version>
+PKG="rxvt-unicode"
+PKG_VERSION="9.22"

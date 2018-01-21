@@ -1,2 +1,2 @@
-        <name>flashplayer</name>
-        <version>26.0.0.151</version>
+PKG="flashplayer"
+PKG_VERSION="26.0.0.151"

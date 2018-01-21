@@ -1,2 +1,2 @@
-        <name>gcc-ada</name>
-        <version>7.2.0</version>
+PKG="gcc-ada"
+PKG_VERSION="7.2.0"

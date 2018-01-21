@@ -1,2 +1,2 @@
-        <name>swig</name>
-        <version>3.0.12</version>
+PKG="swig"
+PKG_VERSION="3.0.12"

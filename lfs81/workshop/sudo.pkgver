@@ -1,2 +1,2 @@
-        <name>sudo</name>
-        <version>1.8.20p2</version>
+PKG="sudo"
+PKG_VERSION="1.8.20p2"

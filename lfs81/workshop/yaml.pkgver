@@ -1,2 +1,2 @@
-        <name>yaml</name>
-        <version>0.1.7</version>
+PKG="yaml"
+PKG_VERSION="0.1.7"

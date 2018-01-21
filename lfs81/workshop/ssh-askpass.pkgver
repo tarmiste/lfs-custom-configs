@@ -1,2 +1,2 @@
-        <name>ssh-askpass</name>
-        <version>7.5p1</version>
+PKG="ssh-askpass"
+PKG_VERSION="7.5p1"

@@ -1,2 +1,2 @@
-        <name>enchant</name>
-        <version>1.6.0</version>
+PKG="enchant"
+PKG_VERSION="1.6.0"

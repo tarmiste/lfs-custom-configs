@@ -1,2 +1,2 @@
-        <name>cpio</name>
-        <version>2.12</version>
+PKG="cpio"
+PKG_VERSION="2.12"

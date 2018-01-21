@@ -1,2 +1,2 @@
-        <name>rarian</name>
-        <version>0.8.1</version>
+PKG="rarian"
+PKG_VERSION="0.8.1"

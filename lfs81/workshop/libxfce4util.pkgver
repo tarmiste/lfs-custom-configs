@@ -1,2 +1,2 @@
-        <name>libxfce4util</name>
-        <version>4.12.1</version>
+PKG="libxfce4util"
+PKG_VERSION="4.12.1"

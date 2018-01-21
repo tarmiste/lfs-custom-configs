@@ -1,2 +1,2 @@
-        <name>json-c</name>
-        <version>0.12.1</version>
+PKG="json-c"
+PKG_VERSION="0.12.1"

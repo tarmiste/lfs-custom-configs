@@ -1,2 +1,2 @@
-        <name>nodejs</name>
-        <version>8.4.0</version>
+PKG="nodejs"
+PKG_VERSION="8.4.0"

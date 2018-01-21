@@ -1,2 +1,2 @@
-        <name>wpa_supplicant</name>
-        <version>2.6</version>
+PKG="wpa_supplicant"
+PKG_VERSION="2.6"

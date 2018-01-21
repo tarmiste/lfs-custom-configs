@@ -1,2 +1,2 @@
-        <name>xfce4-xkb-plugin</name>
-        <version>0.7.1</version>
+PKG="xfce4-xkb-plugin"
+PKG_VERSION="0.7.1"

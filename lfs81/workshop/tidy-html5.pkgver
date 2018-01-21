@@ -1,2 +1,2 @@
-        <name>tidy-html5</name>
-        <version>5.4.0</version>
+PKG="tidy-html5"
+PKG_VERSION="5.4.0"

@@ -1,2 +1,2 @@
-        <name>liba52</name>
-        <version>0.7.4</version>
+PKG="liba52"
+PKG_VERSION="0.7.4"

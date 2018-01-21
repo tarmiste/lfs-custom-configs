@@ -1,2 +1,2 @@
-        <name>xcursor-themes</name>
-        <version>1.0.4</version>
+PKG="xcursor-themes"
+PKG_VERSION="1.0.4"

@@ -1,2 +1,2 @@
-        <name>upower</name>
-        <version>0.99.5</version>
+PKG="upower"
+PKG_VERSION="0.99.5"

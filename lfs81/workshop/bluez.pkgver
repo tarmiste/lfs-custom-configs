@@ -1,2 +1,2 @@
-        <name>bluez</name>
-        <version>5.46</version>
+PKG="bluez"
+PKG_VERSION="5.46"

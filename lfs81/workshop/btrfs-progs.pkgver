@@ -1,2 +1,2 @@
-        <name>btrfs-progs</name>
-        <version>4.12</version>
+PKG="btrfs-progs"
+PKG_VERSION="4.12"

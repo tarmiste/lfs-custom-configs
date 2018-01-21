@@ -1,2 +1,2 @@
-        <name>libarchive</name>
-        <version>3.3.2</version>
+PKG="libarchive"
+PKG_VERSION="3.3.2"

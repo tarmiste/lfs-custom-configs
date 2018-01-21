@@ -1,2 +1,2 @@
-        <name>libatomic_ops</name>
-        <version>7.4.6</version>
+PKG="libatomic_ops"
+PKG_VERSION="7.4.6"

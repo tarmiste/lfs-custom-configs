@@ -1,2 +1,2 @@
-        <name>tcsh</name>
-        <version>6.20.00</version>
+PKG="tcsh"
+PKG_VERSION="6.20.00"

@@ -1,2 +1,2 @@
-        <name>wireless_tools</name>
-        <version>29</version>
+PKG="wireless_tools"
+PKG_VERSION="29"

@@ -1,2 +1,2 @@
-        <name>lxqt-solid</name>
-        <version>5.37.0 for lxqt</version>
+PKG="lxqt-solid"
+PKG_VERSION="5.37.0 for lxqt"

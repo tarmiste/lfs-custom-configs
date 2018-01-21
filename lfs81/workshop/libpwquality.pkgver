@@ -1,2 +1,2 @@
-        <name>libpwquality</name>
-        <version>1.4.0</version>
+PKG="libpwquality"
+PKG_VERSION="1.4.0"

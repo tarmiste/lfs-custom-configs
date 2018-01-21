@@ -1,2 +1,2 @@
-        <name>nasm</name>
-        <version>2.13.01</version>
+PKG="nasm"
+PKG_VERSION="2.13.01"

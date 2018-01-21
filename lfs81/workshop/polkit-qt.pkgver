@@ -1,2 +1,2 @@
-        <name>polkit-qt</name>
-        <version>0.112.0</version>
+PKG="polkit-qt"
+PKG_VERSION="0.112.0"

@@ -1,2 +1,2 @@
-        <name>xfsprogs</name>
-        <version>4.12.0</version>
+PKG="xfsprogs"
+PKG_VERSION="4.12.0"

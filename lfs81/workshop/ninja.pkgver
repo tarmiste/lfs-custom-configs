@@ -1,2 +1,2 @@
-        <name>ninja</name>
-        <version>1.7.2</version>
+PKG="ninja"
+PKG_VERSION="1.7.2"

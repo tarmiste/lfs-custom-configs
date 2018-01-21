@@ -1,2 +1,2 @@
-        <name>ntp</name>
-        <version>4.2.8p10</version>
+PKG="ntp"
+PKG_VERSION="4.2.8p10"

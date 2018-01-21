@@ -1,2 +1,2 @@
-        <name>cdparanoia</name>
-        <version>III-10.2</version>
+PKG="cdparanoia"
+PKG_VERSION="III-10.2"

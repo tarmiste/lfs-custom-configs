@@ -1,2 +1,2 @@
-        <name>dovecot</name>
-        <version>2.2.32</version>
+PKG="dovecot"
+PKG_VERSION="2.2.32"

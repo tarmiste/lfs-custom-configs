@@ -1,2 +1,2 @@
-        <name>libqtxdg</name>
-        <version>2.0.0</version>
+PKG="libqtxdg"
+PKG_VERSION="2.0.0"

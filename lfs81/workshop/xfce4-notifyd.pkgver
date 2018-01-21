@@ -1,2 +1,2 @@
-        <name>xfce4-notifyd</name>
-        <version>0.2.4</version>
+PKG="xfce4-notifyd"
+PKG_VERSION="0.2.4"

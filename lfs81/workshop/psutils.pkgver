@@ -1,2 +1,2 @@
-        <name>psutils</name>
-        <version>p17</version>
+PKG="psutils"
+PKG_VERSION="p17"

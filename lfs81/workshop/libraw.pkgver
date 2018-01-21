@@ -1,2 +1,2 @@
-        <name>libraw</name>
-        <version>0.18.2</version>
+PKG="libraw"
+PKG_VERSION="0.18.2"

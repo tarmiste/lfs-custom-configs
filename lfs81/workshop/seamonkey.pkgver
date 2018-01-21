@@ -1,2 +1,2 @@
-        <name>seamonkey</name>
-        <version>2.48</version>
+PKG="seamonkey"
+PKG_VERSION="2.48"

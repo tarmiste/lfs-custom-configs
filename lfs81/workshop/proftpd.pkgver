@@ -1,2 +1,2 @@
-        <name>proftpd</name>
-        <version>1.3.6</version>
+PKG="proftpd"
+PKG_VERSION="1.3.6"

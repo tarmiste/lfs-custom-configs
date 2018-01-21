@@ -1,2 +1,2 @@
-        <name>mupdf</name>
-        <version>1.11</version>
+PKG="mupdf"
+PKG_VERSION="1.11"

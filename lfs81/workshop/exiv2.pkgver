@@ -1,2 +1,2 @@
-        <name>exiv2</name>
-        <version>0.25</version>
+PKG="exiv2"
+PKG_VERSION="0.25"

@@ -1,2 +1,2 @@
-        <name>dvd-rw-tools</name>
-        <version>7.1</version>
+PKG="dvd-rw-tools"
+PKG_VERSION="7.1"

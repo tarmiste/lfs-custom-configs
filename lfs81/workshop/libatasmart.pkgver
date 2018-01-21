@@ -1,2 +1,2 @@
-        <name>libatasmart</name>
-        <version>0.19</version>
+PKG="libatasmart"
+PKG_VERSION="0.19"

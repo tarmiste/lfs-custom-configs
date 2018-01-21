@@ -1,2 +1,2 @@
-        <name>mercurial</name>
-        <version>4.3.1</version>
+PKG="mercurial"
+PKG_VERSION="4.3.1"

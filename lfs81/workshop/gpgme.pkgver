@@ -1,2 +1,2 @@
-        <name>gpgme</name>
-        <version>1.9.0</version>
+PKG="gpgme"
+PKG_VERSION="1.9.0"

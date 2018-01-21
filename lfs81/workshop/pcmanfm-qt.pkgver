@@ -1,2 +1,2 @@
-        <name>pcmanfm-qt</name>
-        <version>0.11.3</version>
+PKG="pcmanfm-qt"
+PKG_VERSION="0.11.3"

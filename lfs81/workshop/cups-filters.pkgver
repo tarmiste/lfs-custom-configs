@@ -1,2 +1,2 @@
-        <name>cups-filters</name>
-        <version>1.17.2</version>
+PKG="cups-filters"
+PKG_VERSION="1.17.2"

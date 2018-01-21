@@ -1,2 +1,2 @@
-        <name>lm_sensors</name>
-        <version>3.4.0</version>
+PKG="lm_sensors"
+PKG_VERSION="3.4.0"

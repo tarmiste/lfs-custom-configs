@@ -1,2 +1,2 @@
-        <name>gavl</name>
-        <version>1.4.0</version>
+PKG="gavl"
+PKG_VERSION="1.4.0"

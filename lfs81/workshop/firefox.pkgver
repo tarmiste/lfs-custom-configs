@@ -1,2 +1,2 @@
-        <name>firefox</name>
-        <version>55.0.3</version>
+PKG="firefox"
+PKG_VERSION="55.0.3"

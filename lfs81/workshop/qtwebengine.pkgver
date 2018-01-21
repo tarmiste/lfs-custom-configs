@@ -1,2 +1,2 @@
-        <name>qtwebengine</name>
-        <version>5.9.1</version>
+PKG="qtwebengine"
+PKG_VERSION="5.9.1"

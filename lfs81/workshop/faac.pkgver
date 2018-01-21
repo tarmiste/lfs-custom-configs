@@ -1,2 +1,2 @@
-        <name>faac</name>
-        <version>1.29.4</version>
+PKG="faac"
+PKG_VERSION="1.29.4"

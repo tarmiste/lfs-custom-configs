@@ -1,2 +1,2 @@
-        <name>rox-filer</name>
-        <version>2.11</version>
+PKG="rox-filer"
+PKG_VERSION="2.11"

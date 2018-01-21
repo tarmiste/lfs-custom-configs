@@ -1,2 +1,2 @@
-        <name>bind-utils</name>
-        <version>9.11.2</version>
+PKG="bind-utils"
+PKG_VERSION="9.11.2"

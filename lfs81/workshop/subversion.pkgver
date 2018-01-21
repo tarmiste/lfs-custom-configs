@@ -1,2 +1,2 @@
-        <name>subversion</name>
-        <version>1.9.7</version>
+PKG="subversion"
+PKG_VERSION="1.9.7"

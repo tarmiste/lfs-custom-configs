@@ -1,2 +1,2 @@
-        <name>phonon-backend-gstreamer</name>
-        <version>4.9.0</version>
+PKG="phonon-backend-gstreamer"
+PKG_VERSION="4.9.0"

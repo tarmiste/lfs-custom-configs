@@ -1,2 +1,2 @@
-        <name>autofs</name>
-        <version>5.1.3</version>
+PKG="autofs"
+PKG_VERSION="5.1.3"

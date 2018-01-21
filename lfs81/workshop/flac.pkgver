@@ -1,2 +1,2 @@
-        <name>flac</name>
-        <version>1.3.2</version>
+PKG="flac"
+PKG_VERSION="1.3.2"

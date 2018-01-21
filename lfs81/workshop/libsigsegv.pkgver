@@ -1,2 +1,2 @@
-        <name>libsigsegv</name>
-        <version>2.11</version>
+PKG="libsigsegv"
+PKG_VERSION="2.11"

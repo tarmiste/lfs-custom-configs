@@ -1,2 +1,2 @@
-        <name>xorg-server</name>
-        <version>1.19.3</version>
+PKG="xorg-server"
+PKG_VERSION="1.19.3"

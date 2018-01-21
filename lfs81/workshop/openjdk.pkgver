@@ -1,2 +1,2 @@
-        <name>openjdk</name>
-        <version>1.8.0.141</version>
+PKG="openjdk"
+PKG_VERSION="1.8.0.141"

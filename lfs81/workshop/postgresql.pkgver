@@ -1,2 +1,2 @@
-        <name>postgresql</name>
-        <version>9.6.4</version>
+PKG="postgresql"
+PKG_VERSION="9.6.4"

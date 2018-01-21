@@ -1,2 +1,2 @@
-        <name>db</name>
-        <version>6.2.32</version>
+PKG="db"
+PKG_VERSION="6.2.32"

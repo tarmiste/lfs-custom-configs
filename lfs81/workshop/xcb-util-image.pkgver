@@ -1,2 +1,2 @@
-        <name>xcb-util-image</name>
-        <version>0.4.0</version>
+PKG="xcb-util-image"
+PKG_VERSION="0.4.0"

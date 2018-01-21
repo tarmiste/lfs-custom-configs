@@ -1,2 +1,2 @@
-        <name>pth</name>
-        <version>2.0.7</version>
+PKG="pth"
+PKG_VERSION="2.0.7"

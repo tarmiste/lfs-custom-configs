@@ -1,2 +1,2 @@
-        <name>openssh</name>
-        <version>7.5p1</version>
+PKG="openssh"
+PKG_VERSION="7.5p1"

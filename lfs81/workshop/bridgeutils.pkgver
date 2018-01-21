@@ -1,2 +1,2 @@
-        <name>bridgeutils</name>
-        <version>1.6</version>
+PKG="bridgeutils"
+PKG_VERSION="1.6"

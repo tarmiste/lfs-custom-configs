@@ -1,2 +1,2 @@
-        <name>qca</name>
-        <version>2.1.3</version>
+PKG="qca"
+PKG_VERSION="2.1.3"

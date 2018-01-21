@@ -1,2 +1,2 @@
-        <name>openssl</name>
-        <version>1.1.0f</version>
+PKG="openssl"
+PKG_VERSION="1.1.0f"

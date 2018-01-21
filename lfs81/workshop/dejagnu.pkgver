@@ -1,2 +1,2 @@
-        <name>dejagnu</name>
-        <version>1.6</version>
+PKG="dejagnu"
+PKG_VERSION="1.6"

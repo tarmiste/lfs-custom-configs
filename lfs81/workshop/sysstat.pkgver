@@ -1,2 +1,2 @@
-        <name>sysstat</name>
-        <version>11.6.0</version>
+PKG="sysstat"
+PKG_VERSION="11.6.0"

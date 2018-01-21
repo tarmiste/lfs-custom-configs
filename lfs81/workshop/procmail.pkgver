@@ -1,2 +1,2 @@
-        <name>procmail</name>
-        <version>3.22</version>
+PKG="procmail"
+PKG_VERSION="3.22"

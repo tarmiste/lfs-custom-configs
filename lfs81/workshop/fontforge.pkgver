@@ -1,2 +1,2 @@
-        <name>fontforge</name>
-        <version>20170731</version>
+PKG="fontforge"
+PKG_VERSION="20170731"

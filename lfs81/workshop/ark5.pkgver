@@ -1,2 +1,2 @@
-        <name>ark5</name>
-        <version>17.08.0</version>
+PKG="ark5"
+PKG_VERSION="17.08.0"

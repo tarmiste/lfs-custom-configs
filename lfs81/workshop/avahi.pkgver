@@ -1,2 +1,2 @@
-        <name>avahi</name>
-        <version>0.7</version>
+PKG="avahi"
+PKG_VERSION="0.7"

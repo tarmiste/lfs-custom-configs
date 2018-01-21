@@ -1,2 +1,2 @@
-        <name>junit</name>
-        <version>4.11</version>
+PKG="junit"
+PKG_VERSION="4.11"

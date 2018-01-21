@@ -1,2 +1,2 @@
-        <name>newt</name>
-        <version>0.52.20</version>
+PKG="newt"
+PKG_VERSION="0.52.20"

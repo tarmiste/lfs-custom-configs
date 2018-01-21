@@ -1,2 +1,2 @@
-        <name>opensp</name>
-        <version>1.5.2</version>
+PKG="opensp"
+PKG_VERSION="1.5.2"

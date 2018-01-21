@@ -1,2 +1,2 @@
-        <name>exim</name>
-        <version>4.89</version>
+PKG="exim"
+PKG_VERSION="4.89"

@@ -1,2 +1,2 @@
-        <name>xfce4-terminal</name>
-        <version>0.8.6</version>
+PKG="xfce4-terminal"
+PKG_VERSION="0.8.6"

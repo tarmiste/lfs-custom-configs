@@ -1,2 +1,2 @@
-        <name>fribidi</name>
-        <version>0.19.7</version>
+PKG="fribidi"
+PKG_VERSION="0.19.7"

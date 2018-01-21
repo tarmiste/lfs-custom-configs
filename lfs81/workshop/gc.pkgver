@@ -1,2 +1,2 @@
-        <name>gc</name>
-        <version>7.6.0</version>
+PKG="gc"
+PKG_VERSION="7.6.0"

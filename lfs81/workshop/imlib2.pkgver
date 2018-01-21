@@ -1,2 +1,2 @@
-        <name>imlib2</name>
-        <version>1.4.10</version>
+PKG="imlib2"
+PKG_VERSION="1.4.10"

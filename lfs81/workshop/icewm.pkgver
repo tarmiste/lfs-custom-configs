@@ -1,2 +1,2 @@
-        <name>icewm</name>
-        <version>1.4.2</version>
+PKG="icewm"
+PKG_VERSION="1.4.2"

@@ -1,2 +1,2 @@
-        <name>sendmail</name>
-        <version>8.15.2</version>
+PKG="sendmail"
+PKG_VERSION="8.15.2"

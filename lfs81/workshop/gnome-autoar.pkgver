@@ -1,2 +1,2 @@
-        <name>gnome-autoar</name>
-        <version>0.2.2</version>
+PKG="gnome-autoar"
+PKG_VERSION="0.2.2"

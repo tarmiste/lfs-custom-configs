@@ -1,2 +1,2 @@
-        <name>libdbusmenu-qt</name>
-        <version>0.9.3+16.04.20160218</version>
+PKG="libdbusmenu-qt"
+PKG_VERSION="0.9.3+16.04.20160218"

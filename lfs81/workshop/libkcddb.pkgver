@@ -1,2 +1,2 @@
-        <name>libkcddb</name>
-        <version>17.08.0</version>
+PKG="libkcddb"
+PKG_VERSION="17.08.0"

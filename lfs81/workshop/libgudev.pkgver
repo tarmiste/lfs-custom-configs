@@ -1,2 +1,2 @@
-        <name>libgudev</name>
-        <version>220</version>
+PKG="libgudev"
+PKG_VERSION="220"

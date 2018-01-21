@@ -1,2 +1,2 @@
-        <name>doxygen</name>
-        <version>1.8.13</version>
+PKG="doxygen"
+PKG_VERSION="1.8.13"

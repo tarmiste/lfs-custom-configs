@@ -1,2 +1,2 @@
-        <name>DocBook</name>
-        <version>4.5</version>
+PKG="DocBook"
+PKG_VERSION="4.5"

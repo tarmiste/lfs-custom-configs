@@ -1,2 +1,2 @@
-        <name>file-roller</name>
-        <version>3.24.1</version>
+PKG="file-roller"
+PKG_VERSION="3.24.1"

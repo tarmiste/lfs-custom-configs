@@ -1,2 +1,2 @@
-        <name>wicd</name>
-        <version>1.7.4</version>
+PKG="wicd"
+PKG_VERSION="1.7.4"

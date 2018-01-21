@@ -1,2 +1,2 @@
-        <name>soundtouch</name>
-        <version>2.0.0</version>
+PKG="soundtouch"
+PKG_VERSION="2.0.0"

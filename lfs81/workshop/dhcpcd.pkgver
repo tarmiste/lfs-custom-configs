@@ -1,2 +1,2 @@
-        <name>dhcpcd</name>
-        <version>6.11.5</version>
+PKG="dhcpcd"
+PKG_VERSION="6.11.5"

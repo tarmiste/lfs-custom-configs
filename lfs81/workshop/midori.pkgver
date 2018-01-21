@@ -1,2 +1,2 @@
-        <name>midori</name>
-        <version>0.5.11</version>
+PKG="midori"
+PKG_VERSION="0.5.11"

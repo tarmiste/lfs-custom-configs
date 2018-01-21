@@ -1,2 +1,2 @@
-        <name>sbc</name>
-        <version>1.3</version>
+PKG="sbc"
+PKG_VERSION="1.3"

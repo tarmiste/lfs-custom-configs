@@ -1,2 +1,2 @@
-        <name>libidn</name>
-        <version>1.33</version>
+PKG="libidn"
+PKG_VERSION="1.33"

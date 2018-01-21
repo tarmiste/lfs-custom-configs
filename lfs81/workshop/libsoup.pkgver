@@ -1,2 +1,2 @@
-        <name>libsoup</name>
-        <version>2.58.2</version>
+PKG="libsoup"
+PKG_VERSION="2.58.2"

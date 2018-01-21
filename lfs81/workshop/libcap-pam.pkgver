@@ -1,2 +1,2 @@
-        <name>libcap-pam</name>
-        <version>2.25 with PAM</version>
+PKG="libcap-pam"
+PKG_VERSION="2.25 with PAM"

@@ -1,2 +1,2 @@
-        <name>cmake</name>
-        <version>3.9.1</version>
+PKG="cmake"
+PKG_VERSION="3.9.1"

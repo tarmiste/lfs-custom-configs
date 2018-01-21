@@ -1,2 +1,2 @@
-        <name>mc</name>
-        <version>4.8.19</version>
+PKG="mc"
+PKG_VERSION="4.8.19"

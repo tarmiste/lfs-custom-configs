@@ -1,2 +1,2 @@
-        <name>keyutils</name>
-        <version>1.5.10</version>
+PKG="keyutils"
+PKG_VERSION="1.5.10"

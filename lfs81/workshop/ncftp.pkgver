@@ -1,2 +1,2 @@
-        <name>ncftp</name>
-        <version>3.2.6</version>
+PKG="ncftp"
+PKG_VERSION="3.2.6"

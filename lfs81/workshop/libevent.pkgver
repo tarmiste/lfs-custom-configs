@@ -1,2 +1,2 @@
-        <name>libevent</name>
-        <version>2.1.8</version>
+PKG="libevent"
+PKG_VERSION="2.1.8"

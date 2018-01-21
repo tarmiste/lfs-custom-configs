@@ -1,2 +1,2 @@
-        <name>libepoxy</name>
-        <version>1.4.3</version>
+PKG="libepoxy"
+PKG_VERSION="1.4.3"

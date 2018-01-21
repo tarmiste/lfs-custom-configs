@@ -1,2 +1,2 @@
-        <name>unbound</name>
-        <version>1.6.5</version>
+PKG="unbound"
+PKG_VERSION="1.6.5"

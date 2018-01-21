@@ -1,2 +1,2 @@
-        <name>libqmi</name>
-        <version>1.18.0</version>
+PKG="libqmi"
+PKG_VERSION="1.18.0"

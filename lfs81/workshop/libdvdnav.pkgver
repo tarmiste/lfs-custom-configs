@@ -1,2 +1,2 @@
-        <name>libdvdnav</name>
-        <version>5.0.3</version>
+PKG="libdvdnav"
+PKG_VERSION="5.0.3"

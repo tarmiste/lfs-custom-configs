@@ -1,2 +1,2 @@
-        <name>xmlto</name>
-        <version>0.0.28</version>
+PKG="xmlto"
+PKG_VERSION="0.0.28"

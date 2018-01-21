@@ -1,2 +1,2 @@
-        <name>c-ares</name>
-        <version>1.12.0</version>
+PKG="c-ares"
+PKG_VERSION="1.12.0"

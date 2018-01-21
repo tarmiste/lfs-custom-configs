@@ -1,2 +1,2 @@
-        <name>kf5-frameworks</name>
-        <version>5.37.0</version>
+PKG="kf5-frameworks"
+PKG_VERSION="5.37.0"

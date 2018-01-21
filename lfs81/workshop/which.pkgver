@@ -1,2 +1,2 @@
-        <name>which</name>
-        <version>2.21</version>
+PKG="which"
+PKG_VERSION="2.21"

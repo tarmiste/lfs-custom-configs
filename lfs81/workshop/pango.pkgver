@@ -1,2 +1,2 @@
-        <name>pango</name>
-        <version>1.40.10</version>
+PKG="pango"
+PKG_VERSION="1.40.10"

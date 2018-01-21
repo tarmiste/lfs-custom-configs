@@ -1,2 +1,2 @@
-        <name>ffmpeg</name>
-        <version>3.3.3</version>
+PKG="ffmpeg"
+PKG_VERSION="3.3.3"

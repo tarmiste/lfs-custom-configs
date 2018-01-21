@@ -1,2 +1,2 @@
-        <name>haveged</name>
-        <version>1.9.1</version>
+PKG="haveged"
+PKG_VERSION="1.9.1"

@@ -1,2 +1,2 @@
-        <name>x265</name>
-        <version>2.5</version>
+PKG="x265"
+PKG_VERSION="2.5"

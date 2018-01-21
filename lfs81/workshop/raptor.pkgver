@@ -1,2 +1,2 @@
-        <name>raptor</name>
-        <version>2.0.15</version>
+PKG="raptor"
+PKG_VERSION="2.0.15"

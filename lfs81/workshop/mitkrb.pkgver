@@ -1,2 +1,2 @@
-        <name>mitkrb</name>
-        <version>1.15.1</version>
+PKG="mitkrb"
+PKG_VERSION="1.15.1"

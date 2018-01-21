@@ -1,2 +1,2 @@
-        <name>time</name>
-        <version>1.7</version>
+PKG="time"
+PKG_VERSION="1.7"

@@ -1,2 +1,2 @@
-        <name>net-tools</name>
-        <version>CVS_20101030</version>
+PKG="net-tools"
+PKG_VERSION="CVS_20101030"

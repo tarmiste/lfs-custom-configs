@@ -1,2 +1,2 @@
-        <name>clutter</name>
-        <version>1.26.2</version>
+PKG="clutter"
+PKG_VERSION="1.26.2"

@@ -1,2 +1,2 @@
-        <name>libass</name>
-        <version>0.13.7</version>
+PKG="libass"
+PKG_VERSION="0.13.7"

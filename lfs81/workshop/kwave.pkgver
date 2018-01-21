@@ -1,2 +1,2 @@
-        <name>kwave</name>
-        <version>17.08.0</version>
+PKG="kwave"
+PKG_VERSION="17.08.0"

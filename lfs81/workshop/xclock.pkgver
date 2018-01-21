@@ -1,2 +1,2 @@
-        <name>xclock</name>
-        <version>1.0.7</version>
+PKG="xclock"
+PKG_VERSION="1.0.7"

@@ -1,2 +1,2 @@
-        <name>gcc</name>
-        <version>7.2.0</version>
+PKG="gcc"
+PKG_VERSION="7.2.0"

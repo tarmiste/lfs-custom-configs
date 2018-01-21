@@ -1,2 +1,2 @@
-        <name>pangomm</name>
-        <version>2.40.1</version>
+PKG="pangomm"
+PKG_VERSION="2.40.1"

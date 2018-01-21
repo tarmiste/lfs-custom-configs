@@ -1,2 +1,2 @@
-        <name>libreoffice</name>
-        <version>5.4.0.3</version>
+PKG="libreoffice"
+PKG_VERSION="5.4.0.3"

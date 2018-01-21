@@ -1,2 +1,2 @@
-        <name>usbutils</name>
-        <version>008</version>
+PKG="usbutils"
+PKG_VERSION="008"

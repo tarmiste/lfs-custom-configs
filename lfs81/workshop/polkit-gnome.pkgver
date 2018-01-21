@@ -1,2 +1,2 @@
-        <name>polkit-gnome</name>
-        <version>0.105</version>
+PKG="polkit-gnome"
+PKG_VERSION="0.105"

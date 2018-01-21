@@ -1,2 +1,2 @@
-        <name>icon-naming-utils</name>
-        <version>0.8.90</version>
+PKG="icon-naming-utils"
+PKG_VERSION="0.8.90"

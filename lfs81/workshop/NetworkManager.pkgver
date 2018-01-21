@@ -1,2 +1,2 @@
-        <name>NetworkManager</name>
-        <version>1.8.2</version>
+PKG="NetworkManager"
+PKG_VERSION="1.8.2"

@@ -1,2 +1,2 @@
-        <name>php</name>
-        <version>7.1.8</version>
+PKG="php"
+PKG_VERSION="7.1.8"

@@ -1,2 +1,2 @@
-        <name>ibus</name>
-        <version>1.5.16</version>
+PKG="ibus"
+PKG_VERSION="1.5.16"

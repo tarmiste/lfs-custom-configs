@@ -1,2 +1,2 @@
-        <name>gnome-icon-theme</name>
-        <version>3.12.0</version>
+PKG="gnome-icon-theme"
+PKG_VERSION="3.12.0"

@@ -1,2 +1,2 @@
-        <name>gsettings-desktop-schemas</name>
-        <version>3.24.0</version>
+PKG="gsettings-desktop-schemas"
+PKG_VERSION="3.24.0"

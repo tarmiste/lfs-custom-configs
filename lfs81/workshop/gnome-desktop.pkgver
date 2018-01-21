@@ -1,2 +1,2 @@
-        <name>gnome-desktop</name>
-        <version>3.24.2</version>
+PKG="gnome-desktop"
+PKG_VERSION="3.24.2"

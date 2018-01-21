@@ -1,2 +1,2 @@
-        <name>xdg-user-dirs</name>
-        <version>0.16</version>
+PKG="xdg-user-dirs"
+PKG_VERSION="0.16"

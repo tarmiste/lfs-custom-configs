@@ -1,2 +1,2 @@
-        <name>feh</name>
-        <version>2.19.3</version>
+PKG="feh"
+PKG_VERSION="2.19.3"

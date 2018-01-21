@@ -1,2 +1,2 @@
-        <name>lsof</name>
-        <version>4.89</version>
+PKG="lsof"
+PKG_VERSION="4.89"

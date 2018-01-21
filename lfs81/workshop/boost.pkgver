@@ -1,2 +1,2 @@
-        <name>boost</name>
-        <version>1.64.0</version>
+PKG="boost"
+PKG_VERSION="1.64.0"

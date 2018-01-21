@@ -1,2 +1,2 @@
-        <name>xine-ui</name>
-        <version>0.99.9</version>
+PKG="xine-ui"
+PKG_VERSION="0.99.9"

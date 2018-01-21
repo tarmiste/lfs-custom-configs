@@ -1,2 +1,2 @@
-        <name>libgpg-error</name>
-        <version>1.27</version>
+PKG="libgpg-error"
+PKG_VERSION="1.27"

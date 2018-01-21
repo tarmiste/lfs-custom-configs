@@ -1,2 +1,2 @@
-        <name>openssl10</name>
-        <version>1.0.2l Libraries</version>
+PKG="openssl10"
+PKG_VERSION="1.0.2l Libraries"

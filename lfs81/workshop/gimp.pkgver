@@ -1,2 +1,2 @@
-        <name>gimp</name>
-        <version>2.8.22</version>
+PKG="gimp"
+PKG_VERSION="2.8.22"

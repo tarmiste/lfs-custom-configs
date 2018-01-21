@@ -1,2 +1,2 @@
-        <name>lxsession</name>
-        <version>0.5.3</version>
+PKG="lxsession"
+PKG_VERSION="0.5.3"

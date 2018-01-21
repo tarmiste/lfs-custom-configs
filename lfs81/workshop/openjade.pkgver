@@ -1,2 +1,2 @@
-        <name>openjade</name>
-        <version>1.3.2</version>
+PKG="openjade"
+PKG_VERSION="1.3.2"

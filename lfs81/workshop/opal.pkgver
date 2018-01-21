@@ -1,2 +1,2 @@
-        <name>opal</name>
-        <version>3.10.10</version>
+PKG="opal"
+PKG_VERSION="3.10.10"

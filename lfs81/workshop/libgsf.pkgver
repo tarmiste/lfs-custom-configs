@@ -1,2 +1,2 @@
-        <name>libgsf</name>
-        <version>1.14.41</version>
+PKG="libgsf"
+PKG_VERSION="1.14.41"

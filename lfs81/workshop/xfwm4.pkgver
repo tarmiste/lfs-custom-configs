@@ -1,2 +1,2 @@
-        <name>xfwm4</name>
-        <version>4.12.4</version>
+PKG="xfwm4"
+PKG_VERSION="4.12.4"

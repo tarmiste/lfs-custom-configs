@@ -1,2 +1,2 @@
-        <name>mesa</name>
-        <version>17.1.6</version>
+PKG="mesa"
+PKG_VERSION="17.1.6"

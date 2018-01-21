@@ -1,2 +1,2 @@
-        <name>xcb-util-wm</name>
-        <version>0.4.1</version>
+PKG="xcb-util-wm"
+PKG_VERSION="0.4.1"

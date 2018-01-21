@@ -1,2 +1,2 @@
-        <name>mdadm</name>
-        <version>4.0</version>
+PKG="mdadm"
+PKG_VERSION="4.0"

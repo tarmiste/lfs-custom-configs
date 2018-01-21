@@ -1,2 +1,2 @@
-        <name>potrace</name>
-        <version>1.15</version>
+PKG="potrace"
+PKG_VERSION="1.15"

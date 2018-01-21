@@ -1,2 +1,2 @@
-        <name>mailx</name>
-        <version>12.5</version>
+PKG="mailx"
+PKG_VERSION="12.5"

@@ -1,2 +1,2 @@
-        <name>pinentry</name>
-        <version>1.0.0</version>
+PKG="pinentry"
+PKG_VERSION="1.0.0"

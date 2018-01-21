@@ -1,2 +1,2 @@
-        <name>sawfish</name>
-        <version>1.12.0</version>
+PKG="sawfish"
+PKG_VERSION="1.12.0"

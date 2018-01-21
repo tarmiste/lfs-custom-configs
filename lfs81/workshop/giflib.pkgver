@@ -1,2 +1,2 @@
-        <name>giflib</name>
-        <version>5.1.4</version>
+PKG="giflib"
+PKG_VERSION="5.1.4"

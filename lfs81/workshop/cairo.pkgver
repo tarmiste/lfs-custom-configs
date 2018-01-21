@@ -1,2 +1,2 @@
-        <name>cairo</name>
-        <version>1.14.10</version>
+PKG="cairo"
+PKG_VERSION="1.14.10"

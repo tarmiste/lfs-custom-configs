@@ -1,2 +1,2 @@
-        <name>freeglut</name>
-        <version>3.0.0</version>
+PKG="freeglut"
+PKG_VERSION="3.0.0"

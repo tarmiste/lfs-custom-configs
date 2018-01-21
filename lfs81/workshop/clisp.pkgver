@@ -1,2 +1,2 @@
-        <name>clisp</name>
-        <version>2.49</version>
+PKG="clisp"
+PKG_VERSION="2.49"

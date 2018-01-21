@@ -1,2 +1,2 @@
-        <name>gnome-icon-theme-symbolic</name>
-        <version>3.12.0</version>
+PKG="gnome-icon-theme-symbolic"
+PKG_VERSION="3.12.0"

@@ -1,2 +1,2 @@
-        <name>xfconf</name>
-        <version>4.12.1</version>
+PKG="xfconf"
+PKG_VERSION="4.12.1"

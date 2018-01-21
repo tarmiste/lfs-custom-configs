@@ -1,2 +1,2 @@
-        <name>itstool</name>
-        <version>2.0.2</version>
+PKG="itstool"
+PKG_VERSION="2.0.2"

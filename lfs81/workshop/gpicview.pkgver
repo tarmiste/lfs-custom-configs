@@ -1,2 +1,2 @@
-        <name>gpicview</name>
-        <version>0.2.5</version>
+PKG="gpicview"
+PKG_VERSION="0.2.5"

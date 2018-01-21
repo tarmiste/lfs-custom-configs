@@ -1,2 +1,2 @@
-        <name>gcr</name>
-        <version>3.20.0</version>
+PKG="gcr"
+PKG_VERSION="3.20.0"

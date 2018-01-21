@@ -1,2 +1,2 @@
-        <name>yelp-xsl</name>
-        <version>3.20.1</version>
+PKG="yelp-xsl"
+PKG_VERSION="3.20.1"

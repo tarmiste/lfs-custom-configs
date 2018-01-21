@@ -1,2 +1,2 @@
-        <name>libxklavier</name>
-        <version>5.4</version>
+PKG="libxklavier"
+PKG_VERSION="5.4"

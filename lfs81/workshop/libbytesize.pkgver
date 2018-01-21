@@ -1,2 +1,2 @@
-        <name>libbytesize</name>
-        <version>0.11</version>
+PKG="libbytesize"
+PKG_VERSION="0.11"

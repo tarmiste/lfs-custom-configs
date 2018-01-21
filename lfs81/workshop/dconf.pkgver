@@ -1,2 +1,2 @@
-        <name>dconf</name>
-        <version>0.26.0</version>
+PKG="dconf"
+PKG_VERSION="0.26.0"

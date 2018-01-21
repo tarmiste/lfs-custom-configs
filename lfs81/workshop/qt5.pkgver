@@ -1,2 +1,2 @@
-        <name>qt5</name>
-        <version>5.9.1</version>
+PKG="qt5"
+PKG_VERSION="5.9.1"

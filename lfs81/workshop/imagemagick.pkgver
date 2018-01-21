@@ -1,2 +1,2 @@
-        <name>imagemagick</name>
-        <version>7.0.6-10</version>
+PKG="imagemagick"
+PKG_VERSION="7.0.6-10"

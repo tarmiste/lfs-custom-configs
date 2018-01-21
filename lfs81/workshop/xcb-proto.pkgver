@@ -1,2 +1,2 @@
-        <name>xcb-proto</name>
-        <version>1.12</version>
+PKG="xcb-proto"
+PKG_VERSION="1.12"

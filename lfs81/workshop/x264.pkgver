@@ -1,2 +1,2 @@
-        <name>x264</name>
-        <version>20170822-2245</version>
+PKG="x264"
+PKG_VERSION="20170822-2245"

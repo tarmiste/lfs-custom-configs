@@ -1,2 +1,2 @@
-        <name>curl</name>
-        <version>7.55.1</version>
+PKG="curl"
+PKG_VERSION="7.55.1"

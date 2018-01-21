@@ -1,2 +1,2 @@
-        <name>sddm</name>
-        <version>0.15.0</version>
+PKG="sddm"
+PKG_VERSION="0.15.0"

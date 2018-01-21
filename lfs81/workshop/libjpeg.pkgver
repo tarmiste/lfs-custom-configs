@@ -1,2 +1,2 @@
-        <name>libjpeg</name>
-        <version>1.5.2</version>
+PKG="libjpeg"
+PKG_VERSION="1.5.2"

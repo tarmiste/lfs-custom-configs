@@ -1,2 +1,2 @@
-        <name>gtksourceview</name>
-        <version>3.24.3</version>
+PKG="gtksourceview"
+PKG_VERSION="3.24.3"

@@ -1,2 +1,2 @@
-        <name>expect</name>
-        <version>5.45</version>
+PKG="expect"
+PKG_VERSION="5.45"

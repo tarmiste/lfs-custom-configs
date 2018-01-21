@@ -1,2 +1,2 @@
-        <name>xcb-util-cursor</name>
-        <version>0.1.3</version>
+PKG="xcb-util-cursor"
+PKG_VERSION="0.1.3"

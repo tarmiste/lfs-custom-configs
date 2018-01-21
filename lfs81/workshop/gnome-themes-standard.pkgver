@@ -1,2 +1,2 @@
-        <name>gnome-themes-standard</name>
-        <version>3.22.3</version>
+PKG="gnome-themes-standard"
+PKG_VERSION="3.22.3"

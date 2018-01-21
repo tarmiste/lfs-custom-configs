@@ -1,2 +1,2 @@
-        <name>gnome-system-monitor</name>
-        <version>3.24.0</version>
+PKG="gnome-system-monitor"
+PKG_VERSION="3.24.0"

@@ -1,2 +1,2 @@
-        <name>baobab</name>
-        <version>3.24.0</version>
+PKG="baobab"
+PKG_VERSION="3.24.0"

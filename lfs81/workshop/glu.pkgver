@@ -1,2 +1,2 @@
-        <name>glu</name>
-        <version>9.0.0</version>
+PKG="glu"
+PKG_VERSION="9.0.0"

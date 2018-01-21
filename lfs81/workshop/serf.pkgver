@@ -1,2 +1,2 @@
-        <name>serf</name>
-        <version>1.3.9</version>
+PKG="serf"
+PKG_VERSION="1.3.9"

@@ -1,2 +1,2 @@
-        <name>phonon</name>
-        <version>4.9.1</version>
+PKG="phonon"
+PKG_VERSION="4.9.1"

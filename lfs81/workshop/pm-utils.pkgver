@@ -1,2 +1,2 @@
-        <name>pm-utils</name>
-        <version>1.4.1</version>
+PKG="pm-utils"
+PKG_VERSION="1.4.1"

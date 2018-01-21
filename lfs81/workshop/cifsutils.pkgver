@@ -1,2 +1,2 @@
-        <name>cifsutils</name>
-        <version>6.7</version>
+PKG="cifsutils"
+PKG_VERSION="6.7"

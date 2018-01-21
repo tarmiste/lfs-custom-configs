@@ -1,2 +1,2 @@
-        <name>startup-notification</name>
-        <version>0.12</version>
+PKG="startup-notification"
+PKG_VERSION="0.12"

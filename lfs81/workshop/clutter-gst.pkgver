@@ -1,2 +1,2 @@
-        <name>clutter-gst</name>
-        <version>3.0.24</version>
+PKG="clutter-gst"
+PKG_VERSION="3.0.24"

@@ -1,2 +1,2 @@
-        <name>screen</name>
-        <version>4.5.1</version>
+PKG="screen"
+PKG_VERSION="4.5.1"

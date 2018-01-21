@@ -1,2 +1,2 @@
-        <name>webkitgtk</name>
-        <version>2.16.6</version>
+PKG="webkitgtk"
+PKG_VERSION="2.16.6"

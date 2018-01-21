@@ -1,2 +1,2 @@
-        <name>plasma5-build</name>
-        <version>5.10.5</version>
+PKG="plasma5-build"
+PKG_VERSION="5.10.5"

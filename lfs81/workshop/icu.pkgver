@@ -1,2 +1,2 @@
-        <name>icu</name>
-        <version>59.1</version>
+PKG="icu"
+PKG_VERSION="59.1"

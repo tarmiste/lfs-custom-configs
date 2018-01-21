@@ -1,2 +1,2 @@
-        <name>lsb-release</name>
-        <version>1.4</version>
+PKG="lsb-release"
+PKG_VERSION="1.4"

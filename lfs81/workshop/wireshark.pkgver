@@ -1,2 +1,2 @@
-        <name>wireshark</name>
-        <version>2.4.0</version>
+PKG="wireshark"
+PKG_VERSION="2.4.0"

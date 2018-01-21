@@ -1,2 +1,2 @@
-        <name>libgtop</name>
-        <version>2.36.0</version>
+PKG="libgtop"
+PKG_VERSION="2.36.0"

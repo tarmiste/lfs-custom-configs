@@ -1,2 +1,2 @@
-        <name>gnome-screenshot</name>
-        <version>3.22.0</version>
+PKG="gnome-screenshot"
+PKG_VERSION="3.22.0"

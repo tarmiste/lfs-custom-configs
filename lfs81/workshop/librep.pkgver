@@ -1,2 +1,2 @@
-        <name>librep</name>
-        <version>0.92.7</version>
+PKG="librep"
+PKG_VERSION="0.92.7"

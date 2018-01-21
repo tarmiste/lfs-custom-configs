@@ -1,2 +1,2 @@
-        <name>libao</name>
-        <version>1.2.0</version>
+PKG="libao"
+PKG_VERSION="1.2.0"

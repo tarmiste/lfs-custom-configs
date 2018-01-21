@@ -1,2 +1,2 @@
-        <name>opencv</name>
-        <version>3.3.0</version>
+PKG="opencv"
+PKG_VERSION="3.3.0"

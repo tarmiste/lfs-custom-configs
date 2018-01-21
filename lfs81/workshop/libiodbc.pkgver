@@ -1,2 +1,2 @@
-        <name>libiodbc</name>
-        <version>3.52.12</version>
+PKG="libiodbc"
+PKG_VERSION="3.52.12"

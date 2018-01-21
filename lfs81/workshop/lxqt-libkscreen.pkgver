@@ -1,2 +1,2 @@
-        <name>lxqt-libkscreen</name>
-        <version>5.10.5 for lxqt</version>
+PKG="lxqt-libkscreen"
+PKG_VERSION="5.10.5 for lxqt"

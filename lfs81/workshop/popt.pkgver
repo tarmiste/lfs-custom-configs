@@ -1,2 +1,2 @@
-        <name>popt</name>
-        <version>1.16</version>
+PKG="popt"
+PKG_VERSION="1.16"

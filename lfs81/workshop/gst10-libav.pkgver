@@ -1,2 +1,2 @@
-        <name>gst10-libav</name>
-        <version>1.12.2</version>
+PKG="gst10-libav"
+PKG_VERSION="1.12.2"

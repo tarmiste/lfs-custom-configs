@@ -1,2 +1,2 @@
-        <name>nano</name>
-        <version>2.8.7</version>
+PKG="nano"
+PKG_VERSION="2.8.7"

@@ -1,2 +1,2 @@
-        <name>nspr</name>
-        <version>4.16</version>
+PKG="nspr"
+PKG_VERSION="4.16"

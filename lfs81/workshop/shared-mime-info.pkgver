@@ -1,2 +1,2 @@
-        <name>shared-mime-info</name>
-        <version>1.8</version>
+PKG="shared-mime-info"
+PKG_VERSION="1.8"

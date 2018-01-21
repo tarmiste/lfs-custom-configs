@@ -1,2 +1,2 @@
-        <name>dosfstools</name>
-        <version>4.1</version>
+PKG="dosfstools"
+PKG_VERSION="4.1"

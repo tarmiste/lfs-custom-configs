@@ -1,2 +1,2 @@
-        <name>phonon-backend-vlc</name>
-        <version>0.9.1</version>
+PKG="phonon-backend-vlc"
+PKG_VERSION="0.9.1"

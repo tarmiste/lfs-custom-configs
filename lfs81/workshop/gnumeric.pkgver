@@ -1,2 +1,2 @@
-        <name>gnumeric</name>
-        <version>1.12.35</version>
+PKG="gnumeric"
+PKG_VERSION="1.12.35"

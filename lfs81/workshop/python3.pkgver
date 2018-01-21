@@ -1,2 +1,2 @@
-        <name>python3</name>
-        <version>3.6.2</version>
+PKG="python3"
+PKG_VERSION="3.6.2"

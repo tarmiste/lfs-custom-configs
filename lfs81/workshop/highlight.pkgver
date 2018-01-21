@@ -1,2 +1,2 @@
-        <name>highlight</name>
-        <version>3.39</version>
+PKG="highlight"
+PKG_VERSION="3.39"

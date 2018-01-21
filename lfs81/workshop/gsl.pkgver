@@ -1,2 +1,2 @@
-        <name>gsl</name>
-        <version>2.4</version>
+PKG="gsl"
+PKG_VERSION="2.4"

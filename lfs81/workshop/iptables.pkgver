@@ -1,2 +1,2 @@
-        <name>iptables</name>
-        <version>1.6.1</version>
+PKG="iptables"
+PKG_VERSION="1.6.1"

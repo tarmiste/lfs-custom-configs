@@ -1,2 +1,2 @@
-        <name>gptfdisk</name>
-        <version>1.0.3</version>
+PKG="gptfdisk"
+PKG_VERSION="1.0.3"

@@ -1,2 +1,2 @@
-        <name>gtk-doc</name>
-        <version>1.26</version>
+PKG="gtk-doc"
+PKG_VERSION="1.26"

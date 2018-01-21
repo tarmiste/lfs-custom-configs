@@ -1,2 +1,2 @@
-        <name>nettle</name>
-        <version>3.3</version>
+PKG="nettle"
+PKG_VERSION="3.3"

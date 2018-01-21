@@ -1,2 +1,2 @@
-        <name>libmusicbrainz5</name>
-        <version>5.1.0</version>
+PKG="libmusicbrainz5"
+PKG_VERSION="5.1.0"

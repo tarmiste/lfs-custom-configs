@@ -1,2 +1,2 @@
-        <name>inkscape</name>
-        <version>0.92.2</version>
+PKG="inkscape"
+PKG_VERSION="0.92.2"

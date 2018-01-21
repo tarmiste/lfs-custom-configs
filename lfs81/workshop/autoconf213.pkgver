@@ -1,2 +1,2 @@
-        <name>autoconf213</name>
-        <version>2.13</version>
+PKG="autoconf213"
+PKG_VERSION="2.13"

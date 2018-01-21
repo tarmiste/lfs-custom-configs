@@ -1,2 +1,2 @@
-        <name>ekiga</name>
-        <version>4.0.1</version>
+PKG="ekiga"
+PKG_VERSION="4.0.1"

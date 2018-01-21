@@ -1,2 +1,2 @@
-        <name>librsvg</name>
-        <version>2.40.18</version>
+PKG="librsvg"
+PKG_VERSION="2.40.18"

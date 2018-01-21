@@ -1,2 +1,2 @@
-        <name>mariadb</name>
-        <version>10.2.8</version>
+PKG="mariadb"
+PKG_VERSION="10.2.8"

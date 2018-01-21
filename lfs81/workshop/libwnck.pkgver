@@ -1,2 +1,2 @@
-        <name>libwnck</name>
-        <version>3.24.1</version>
+PKG="libwnck"
+PKG_VERSION="3.24.1"

@@ -1,2 +1,2 @@
-        <name>pciutils</name>
-        <version>3.5.5</version>
+PKG="pciutils"
+PKG_VERSION="3.5.5"

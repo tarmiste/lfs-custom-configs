@@ -1,2 +1,2 @@
-        <name>gtkmm3</name>
-        <version>3.22.1</version>
+PKG="gtkmm3"
+PKG_VERSION="3.22.1"

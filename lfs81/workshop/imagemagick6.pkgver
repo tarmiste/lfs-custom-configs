@@ -1,2 +1,2 @@
-        <name>imagemagick6</name>
-        <version>6.9.9-9 libraries</version>
+PKG="imagemagick6"
+PKG_VERSION="6.9.9-9 libraries"

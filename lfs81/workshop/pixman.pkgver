@@ -1,2 +1,2 @@
-        <name>pixman</name>
-        <version>0.34.0</version>
+PKG="pixman"
+PKG_VERSION="0.34.0"

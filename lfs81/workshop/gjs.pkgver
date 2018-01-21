@@ -1,2 +1,2 @@
-        <name>gjs</name>
-        <version>1.48.6</version>
+PKG="gjs"
+PKG_VERSION="1.48.6"

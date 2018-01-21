@@ -1,2 +1,2 @@
-        <name>network-manager-applet</name>
-        <version>1.8.2</version>
+PKG="network-manager-applet"
+PKG_VERSION="1.8.2"

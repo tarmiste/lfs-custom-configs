@@ -1,2 +1,2 @@
-        <name>harfbuzz</name>
-        <version>1.4.8</version>
+PKG="harfbuzz"
+PKG_VERSION="1.4.8"

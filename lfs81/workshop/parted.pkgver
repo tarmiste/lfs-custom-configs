@@ -1,2 +1,2 @@
-        <name>parted</name>
-        <version>3.2</version>
+PKG="parted"
+PKG_VERSION="3.2"

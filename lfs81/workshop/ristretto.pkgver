@@ -1,2 +1,2 @@
-        <name>ristretto</name>
-        <version>0.8.2</version>
+PKG="ristretto"
+PKG_VERSION="0.8.2"

@@ -1,2 +1,2 @@
-        <name>pidgin</name>
-        <version>2.12.0</version>
+PKG="pidgin"
+PKG_VERSION="2.12.0"

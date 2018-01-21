@@ -1,2 +1,2 @@
-        <name>gnome-calculator</name>
-        <version>3.24.0</version>
+PKG="gnome-calculator"
+PKG_VERSION="3.24.0"

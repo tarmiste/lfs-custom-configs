@@ -1,2 +1,2 @@
-        <name>rasqal</name>
-        <version>0.9.33</version>
+PKG="rasqal"
+PKG_VERSION="0.9.33"

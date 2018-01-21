@@ -1,2 +1,2 @@
-        <name>libfm-extra</name>
-        <version>1.2.5</version>
+PKG="libfm-extra"
+PKG_VERSION="1.2.5"

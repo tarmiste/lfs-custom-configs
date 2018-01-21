@@ -1,2 +1,2 @@
-        <name>json-glib</name>
-        <version>1.2.8</version>
+PKG="json-glib"
+PKG_VERSION="1.2.8"

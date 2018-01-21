@@ -1,2 +1,2 @@
-        <name>libsamplerate</name>
-        <version>0.1.9</version>
+PKG="libsamplerate"
+PKG_VERSION="0.1.9"

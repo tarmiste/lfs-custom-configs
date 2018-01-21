@@ -1,2 +1,2 @@
-        <name>libcdio</name>
-        <version>0.94</version>
+PKG="libcdio"
+PKG_VERSION="0.94"

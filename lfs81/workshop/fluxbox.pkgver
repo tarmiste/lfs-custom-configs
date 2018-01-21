@@ -1,2 +1,2 @@
-        <name>fluxbox</name>
-        <version>1.3.7</version>
+PKG="fluxbox"
+PKG_VERSION="1.3.7"

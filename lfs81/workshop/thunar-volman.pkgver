@@ -1,2 +1,2 @@
-        <name>thunar-volman</name>
-        <version>0.8.1</version>
+PKG="thunar-volman"
+PKG_VERSION="0.8.1"

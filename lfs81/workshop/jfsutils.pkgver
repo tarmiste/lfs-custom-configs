@@ -1,2 +1,2 @@
-        <name>jfsutils</name>
-        <version>1.1.15</version>
+PKG="jfsutils"
+PKG_VERSION="1.1.15"

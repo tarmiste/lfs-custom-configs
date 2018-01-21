@@ -1,2 +1,2 @@
-        <name>libxslt</name>
-        <version>1.1.29</version>
+PKG="libxslt"
+PKG_VERSION="1.1.29"

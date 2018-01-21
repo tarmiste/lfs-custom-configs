@@ -1,2 +1,2 @@
-        <name>thunderbird</name>
-        <version>52.3.0</version>
+PKG="thunderbird"
+PKG_VERSION="52.3.0"

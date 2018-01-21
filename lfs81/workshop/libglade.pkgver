@@ -1,2 +1,2 @@
-        <name>libglade</name>
-        <version>2.6.4</version>
+PKG="libglade"
+PKG_VERSION="2.6.4"

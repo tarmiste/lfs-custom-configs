@@ -1,2 +1,2 @@
-        <name>elfutils</name>
-        <version>0.170</version>
+PKG="elfutils"
+PKG_VERSION="0.170"

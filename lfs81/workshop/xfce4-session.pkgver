@@ -1,2 +1,2 @@
-        <name>xfce4-session</name>
-        <version>4.12.1</version>
+PKG="xfce4-session"
+PKG_VERSION="4.12.1"

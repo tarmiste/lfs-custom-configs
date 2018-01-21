@@ -1,2 +1,2 @@
-        <name>hexchat</name>
-        <version>2.12.4</version>
+PKG="hexchat"
+PKG_VERSION="2.12.4"

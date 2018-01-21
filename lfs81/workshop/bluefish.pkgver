@@ -1,2 +1,2 @@
-        <name>bluefish</name>
-        <version>2.2.10</version>
+PKG="bluefish"
+PKG_VERSION="2.2.10"
