@@ -3,17 +3,17 @@
 #
 ## This package has one dependencies
 ## EDITHOOK1
-PKG="sgml-dtd"
-PKG_VERSION="4.5"
-PKG_FILE="docbook-4.5.zip"
-URL="http://www.docbook.org/sgml/4.5/docbook-4.5.zip"
-MD5="07c581f4bbcba6d3aac85360a19f95f7"
+PKG=""
+PKG_VERSION=""
+PKG_FILE=""
+URL=""
+MD5=""
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="http://www.docbook.org/sgml/4.5/docbook-4.5.zip 07c581f4bbcba6d3aac85360a19f95f7"
 
 ## EDITHOOK3
 ( cat << "xEOFx"
