@@ -1,0 +1,37 @@
+#!/bin/bash
+BLFS_TOOL_DIR=/home/koo/blfs_root
+#
+# 
+if [ ! -f ${BLFS_TOOL_DIR}/packages.xml ]
+then
+   echo packages.xml missing!
+   exit
+fi
+
+rm -fr /tmp/blfspkgsinfo
+mkdir /tmp/blfspkgsinfo
+
+
+rm -f packages.tmp1
+cp ${BLFS_TOOL_DIR}/packages.xml packages.tmp1
+while :
+do
+
+if [ `grep -c '<package>' packages.tmp1` -eq '0' ]
+then
+   exit
+fi
+
+start=`grep -m 1 -n '<package>' packages.tmp1 |cut -f1 -d ":" -`
+start=`expr ${start} - 1 `
+end=`grep -m 1 -n '</package>' packages.tmp1 |cut -f1 -d ":" -`
+len=`expr $end - $start `
+head -n ${end} packages.tmp1 |tail -n ${len}  >moo
+pkgname=`grep -m 1 name moo |cut -f2 -d "<" - |cut -c6-80`
+mv moo /tmp/blfspkgsinfo/${pkgname}
+
+end=`expr ${end} + 1 `
+tail -n+${end} packages.tmp1 >packages.tmp2
+mv packages.tmp2 packages.tmp1
+
+done
