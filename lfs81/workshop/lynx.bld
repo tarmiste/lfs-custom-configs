@@ -1,0 +1,30 @@
+############# Building package
+cd $UNPACKDIR
+
+patch -p1 -i ../lynx-2.8.8rel.2-openssl_1.1.0-1.patch
+./configure --prefix=/usr          \
+            --sysconfdir=/etc/lynx \
+            --datadir=/usr/share/doc/lynx-2.8.8rel.2 \
+            --with-zlib            \
+            --with-bzlib           \
+            --with-ssl             \
+            --with-screen=ncursesw \
+            --enable-locale-charset &&
+make
+make -j1 install-full &&
+chgrp -v -R root /usr/share/doc/lynx-2.8.8rel.2/lynx_doc
+ldconfig
+
+sed -e '/#LOCALE/     a LOCALE_CHARSET:TRUE'     \
+    -i /etc/lynx/lynx.cfg
+
+sed -e '/#DEFAULT_ED/ a DEFAULT_EDITOR:vi'       \
+    -i /etc/lynx/lynx.cfg
+
+sed -e '/#PERSIST/    a PERSISTENT_COOKIES:TRUE' \
+    -i /etc/lynx/lynx.cfg
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

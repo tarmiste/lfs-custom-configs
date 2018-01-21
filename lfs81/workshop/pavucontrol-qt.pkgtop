@@ -1,0 +1,15 @@
+#
+# pavucontrol-qt
+#
+## EDITHOOK1
+PKG=ABCpavucontrol-qtXYZ
+PKG_VERSION="0.2.0">
+PKG_FILE=ABCpavucontrol-qt-0.2.0.tar.xzXYZ
+URL="https://github.com/lxde/pavucontrol-qt/releases/download/0.2.0/pavucontrol-qt-0.2.0.tar.xz"
+MD5="f08a3a9d58078844c4d9391988a21eec  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

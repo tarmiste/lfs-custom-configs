@@ -1,0 +1,24 @@
+############# Building package
+cd $UNPACKDIR
+
+mkdir -v build &&
+cd       build &&
+
+cmake -DCMAKE_BUILD_TYPE=Release          \
+      -DCMAKE_INSTALL_PREFIX=$LXQT_PREFIX \
+      -DPULL_TRANSLATIONS=no              \
+      ..       &&
+
+make
+make -j1 install
+ln -svf $LXQT_PREFIX/share/applications/lximage-qt.desktop \
+        /usr/share/applications &&
+
+ln -svf $LXQT_PREFIX/share/applications/lximage-qt-screenshot.desktop \
+        /usr/share/applications
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

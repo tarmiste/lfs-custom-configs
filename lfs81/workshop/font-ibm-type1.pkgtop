@@ -1,0 +1,15 @@
+#
+# font-ibm-type1
+#
+## EDITHOOK1
+PKG=ABCfont-ibm-type1XYZ
+PKG_VERSION=
+PKG_FILE=ABCfont-ibm-type1-1.0.3.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/font/font-ibm-type1-1.0.3.tar.bz2"
+MD5="bfb2593d2102585f45daa960f43cb3c4  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

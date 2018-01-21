@@ -1,0 +1,14 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr --docdir=/usr/share/doc/bluefish-2.2.10 &&
+make
+make -j1 install
+gtk-update-icon-cache -t -f --include-image-data /usr/share/icons/hicolor &&
+update-desktop-database
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

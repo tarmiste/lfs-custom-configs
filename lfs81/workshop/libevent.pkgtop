@@ -1,0 +1,15 @@
+#
+# libevent
+#
+## EDITHOOK1
+PKG=ABClibeventXYZ
+PKG_VERSION="2.1.8">
+PKG_FILE=ABClibevent-2.1.8-stable.tar.gzXYZ
+URL="https://github.com/libevent/libevent/releases/download/release-2.1.8-stable/libevent-2.1.8-stable.tar.gz"
+MD5="f3eeaed018542963b7d2416ef1135ecc  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

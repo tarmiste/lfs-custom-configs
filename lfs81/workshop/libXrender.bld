@@ -1,0 +1,33 @@
+############# Building package
+cd $UNPACKDIR
+
+packagedir=libXrender-0.9.10
+  case $packagedir in
+    libICE* )
+      ./configure $XORG_CONFIG ICE_LIBS=-lpthread
+    ;;
+
+    libXfont2-[0-9]* )
+      ./configure $XORG_CONFIG --disable-devel-docs
+    ;;
+
+    libXt-[0-9]* )
+      ./configure $XORG_CONFIG \
+                  --with-appdefaultdir=/etc/X11/app-defaults
+    ;;
+
+    * )
+      ./configure $XORG_CONFIG
+    ;;
+  esac
+  make
+  #make check 2>&1 | tee ../$packagedir-make_check.log
+  
+ make -j1 install
+  
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

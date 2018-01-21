@@ -1,0 +1,38 @@
+############# Building package
+cd $UNPACKDIR
+
+groupadd -g 61 kvm
+usermod -a -G kvm **EDITME<username>EDITME**
+if [ $(uname -m) = i686 ]; then
+   QEMU_ARCH=i386-softmmu
+else
+   QEMU_ARCH=x86_64-softmmu
+fi
+
+mkdir -vp build &&
+cd        build &&
+
+../configure --prefix=/usr               \
+             --sysconfdir=/etc           \
+             --target-list=$QEMU_ARCH    \
+             --audio-drv-list=alsa       \
+             --with-sdlabi=2.0           \
+             --docdir=/usr/share/doc/qemu-2.9.0 &&
+
+unset QEMU_ARCH &&
+
+make
+#make V=1 -k check || true
+make -j1 install
+cat > /lib/udev/rules.d/65-kvm.rules << "EOF"
+KERNEL=="kvm", GROUP="kvm", MODE="0660"
+EOF
+chgrp kvm  /usr/libexec/qemu-bridge-helper &&
+chmod 4750 /usr/libexec/qemu-bridge-helper
+ln -sv qemu-system-`uname -m` /usr/bin/qemu
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

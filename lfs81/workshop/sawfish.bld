@@ -1,0 +1,16 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr --with-pango  &&
+make
+make -j1 install
+ldconfig
+
+cat >> ~/.xinitrc << "EOF"
+exec sawfish
+EOF
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,14 @@
+#
+# perl-unicode-collate
+#
+## EDITHOOK1
+PKG=ABCperl-unicode-collateXYZ
+PKG_VERSION=
+PKG_FILE=ABCUnicode-Collate-1.19.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/S/SA/SADAHIRO/Unicode-Collate-1.19.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i "s:#include <freetype/ftglyph.h>:#include FT_GLYPH_H:" filter/subtitler/load_font.c
+sed -i 's|doc/transcode|&-$(PACKAGE_VERSION)|' \
+       $(find . -name Makefile.in -exec grep -l 'docsdir =' {} \;) &&
+
+patch -Np1 -i ../transcode-1.1.7-ffmpeg3-1.patch                   &&
+./configure --prefix=/usr \
+            --enable-alsa \
+            --enable-libmpeg2 &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

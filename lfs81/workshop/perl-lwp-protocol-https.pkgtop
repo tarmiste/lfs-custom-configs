@@ -1,0 +1,14 @@
+#
+# perl-lwp-protocol-https
+#
+## EDITHOOK1
+PKG=ABCperl-lwp-protocol-httpsXYZ
+PKG_VERSION=
+PKG_FILE=ABCLWP-Protocol-https-6.06.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

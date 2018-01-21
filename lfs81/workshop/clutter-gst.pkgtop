@@ -1,0 +1,15 @@
+#
+# clutter-gst
+#
+## EDITHOOK1
+PKG=ABCclutter-gstXYZ
+PKG_VERSION="3.0.24">
+PKG_FILE=ABCclutter-gst-3.0.24.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/clutter-gst/3.0/clutter-gst-3.0.24.tar.xz"
+MD5="3e145e24bb3c340eeeddafd18efe547d  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

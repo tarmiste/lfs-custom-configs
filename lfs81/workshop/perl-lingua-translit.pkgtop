@@ -1,0 +1,14 @@
+#
+# perl-lingua-translit
+#
+## EDITHOOK1
+PKG=ABCperl-lingua-translitXYZ
+PKG_VERSION=
+PKG_FILE=ABCLingua-Translit-0.27.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/A/AL/ALINKE/Lingua-Translit-0.27.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

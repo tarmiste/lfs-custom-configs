@@ -1,0 +1,15 @@
+#
+# xindy
+#
+## EDITHOOK1
+PKG=ABCxindyXYZ
+PKG_VERSION="2.5.1">
+PKG_FILE=ABCxindy-2.5.1.tar.gzXYZ
+URL="http://tug.ctan.org/support/xindy/base/xindy-2.5.1.tar.gz"
+MD5="221acfeeb0f6f8388f89a59c56491041  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/xindy-2.5.1-upstream_fixes-1.patch PATCH1MD5"

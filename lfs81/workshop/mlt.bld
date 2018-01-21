@@ -1,0 +1,20 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i 's/xlocale.h/locale.h/' src/framework/mlt_property.h &&
+
+./configure --prefix=/usr            \
+            --enable-gpl             \
+            --enable-gpl3            \
+            --enable-opengl          \
+            --disable-gtk2           \
+            --qt-libdir=$QT5DIR/lib  \
+            --qt-includedir=$QT5DIR/include &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

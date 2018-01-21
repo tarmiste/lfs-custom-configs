@@ -1,0 +1,35 @@
+############# Building package
+cd $UNPACKDIR
+
+make build
+make doc
+rm -rf tests/tmp &&
+
+TESTFLAGS="-j**EDITME<N>EDITME** --tmpdir tmp --blacklist blacklists/failed-tests" \
+make check
+#make -k  || true
+#make -k  || true
+pushd tests  &&
+  rm -rf tmp &&
+
+  ./run-tests.py - -tmpdir tmp test-gpg.t &&
+popd
+#make -k check || true
+make -j1 PREFIX=/usr install-bin
+make -j1 PREFIX=/usr install-doc
+cat >> ~/.hgrc << "EOF"
+[ui]
+username = **EDITME<user_name> <user@mail>EDITME**
+EOF
+ldconfig
+
+install -v -d -m755 /etc/mercurial &&
+cat > /etc/mercurial/hgrc << "EOF"
+[web]
+cacerts = /etc/ssl/ca-bundle.crt
+EOF
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

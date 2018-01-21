@@ -1,0 +1,15 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure $XORG_CONFIG &&
+make
+make -j1 install                         &&
+install -v -m644 conf/10-radeon.conf \
+  $XORG_PREFIX/share/X11/xorg.conf.d
+
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

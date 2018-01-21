@@ -1,0 +1,15 @@
+#
+# aalib
+#
+## EDITHOOK1
+PKG=ABCaalibXYZ
+PKG_VERSION="1.4rc5">
+PKG_FILE=ABCaalib-1.4rc5.tar.gzXYZ
+URL="https://downloads.sourceforge.net/aa-project/aalib-1.4rc5.tar.gz"
+MD5="9801095c42bba12edebd1902bcf0a990  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

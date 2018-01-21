@@ -1,0 +1,14 @@
+#
+# cacerts
+#
+## EDITHOOK1
+PKG=ABCcacertsXYZ
+PKG_VERSION=
+PKG_FILE=ABCmake-ca.sh-20170514 certdata.txtXYZ
+URL="http://anduin.linuxfromscratch.org/BLFS/other/make-ca.sh-20170514"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# nautilus
+#
+## EDITHOOK1
+PKG=ABCnautilusXYZ
+PKG_VERSION=
+PKG_FILE=ABCnautilus-3.24.2.1.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/nautilus/3.24/nautilus-3.24.2.1.tar.xz"
+MD5="21a352c815bef6b72f8a68237ef8743c  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

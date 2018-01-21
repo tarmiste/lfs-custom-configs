@@ -1,0 +1,15 @@
+#
+# breeze-icons
+#
+## EDITHOOK1
+PKG=ABCbreeze-iconsXYZ
+PKG_VERSION=
+PKG_FILE=ABCbreeze-icons-5.37.0.tar.xzXYZ
+URL="http://download.kde.org/stable/frameworks/5.37/breeze-icons-5.37.0.tar.xz"
+MD5="bf3a1386e6b3daf7b6ee27d59bd55a91  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

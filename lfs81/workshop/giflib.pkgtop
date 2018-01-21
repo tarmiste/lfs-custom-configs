@@ -1,0 +1,15 @@
+#
+# giflib
+#
+## EDITHOOK1
+PKG=ABCgiflibXYZ
+PKG_VERSION="5.1.4">
+PKG_FILE=ABCgiflib-5.1.4.tar.bz2XYZ
+URL="https://downloads.sourceforge.net/giflib/giflib-5.1.4.tar.bz2"
+MD5="2c171ced93c0e83bb09e6ccad8e3ba2b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

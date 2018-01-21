@@ -1,0 +1,15 @@
+#
+# lxqt-libkscreen
+#
+## EDITHOOK1
+PKG=ABClxqt-libkscreenXYZ
+PKG_VERSION=
+PKG_FILE=ABClibkscreen-5.10.5.tar.xzXYZ
+URL="http://download.kde.org/stable/plasma/5.10.5/libkscreen-5.10.5.tar.xz"
+MD5="93465b802514e1a3d90ae3b79f7a7f85  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

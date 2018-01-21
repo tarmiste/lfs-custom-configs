@@ -1,0 +1,15 @@
+#
+# dash
+#
+## EDITHOOK1
+PKG=ABCdashXYZ
+PKG_VERSION="0.5.9.1">
+PKG_FILE=ABCdash-0.5.9.1.tar.gzXYZ
+URL="http://gondor.apana.org.au/~herbert/dash/files/dash-0.5.9.1.tar.gz"
+MD5="6472702a8d9760d166ef8333dcb527a6  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

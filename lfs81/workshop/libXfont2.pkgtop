@@ -1,0 +1,15 @@
+#
+# libXfont2
+#
+## EDITHOOK1
+PKG=ABClibXfont2XYZ
+PKG_VERSION=
+PKG_FILE=ABClibXfont2-2.0.1.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/lib/libXfont2-2.0.1.tar.bz2"
+MD5="0d9f6dd9c23bf4bcbfb00504b566baf5  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# cogl
+#
+## EDITHOOK1
+PKG=ABCcoglXYZ
+PKG_VERSION="1.22.2">
+PKG_FILE=ABCcogl-1.22.2.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/cogl/1.22/cogl-1.22.2.tar.xz"
+MD5="d53b708ca7c4af03d7254e46945d6b33  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

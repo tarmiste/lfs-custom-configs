@@ -1,0 +1,15 @@
+#
+# libsysstat
+#
+## EDITHOOK1
+PKG=ABClibsysstatXYZ
+PKG_VERSION="0.3.3">
+PKG_FILE=ABClibsysstat-0.3.3.tar.xzXYZ
+URL="https://github.com/lxde/libsysstat/releases/download/0.3.3/libsysstat-0.3.3.tar.xz"
+MD5="59503e83eced3e28cf0f9bac8a55339b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

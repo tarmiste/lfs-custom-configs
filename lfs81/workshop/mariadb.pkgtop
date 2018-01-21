@@ -1,0 +1,15 @@
+#
+# mariadb
+#
+## EDITHOOK1
+PKG=ABCmariadbXYZ
+PKG_VERSION="10.2.8">
+PKG_FILE=ABCmariadb-10.2.8.tar.gzXYZ
+URL="https://downloads.mariadb.org/interstitial/mariadb-10.2.8/source/mariadb-10.2.8.tar.gz"
+MD5="f93cbd5bfde3c0d082994764ff7db580  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

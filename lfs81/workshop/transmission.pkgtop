@@ -1,0 +1,15 @@
+#
+# transmission
+#
+## EDITHOOK1
+PKG=ABCtransmissionXYZ
+PKG_VERSION="2.92">
+PKG_FILE=ABCtransmission-2.92.tar.xzXYZ
+URL="https://transmission.cachefly.net/transmission-2.92.tar.xz"
+MD5="3fce404a436e3cd7fde80fb6ed61c264  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/transmission-2.92-openssl-1.1.0-1.patch PATCH1MD5"

@@ -1,0 +1,15 @@
+#
+# grantlee
+#
+## EDITHOOK1
+PKG=ABCgrantleeXYZ
+PKG_VERSION="5.1.0">
+PKG_FILE=ABCgrantlee-5.1.0.tar.gzXYZ
+URL="http://downloads.grantlee.org/grantlee-5.1.0.tar.gz"
+MD5="57989ae9f7c113e682ef1713a6f1e92a  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

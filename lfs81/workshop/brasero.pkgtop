@@ -1,0 +1,15 @@
+#
+# brasero
+#
+## EDITHOOK1
+PKG=ABCbraseroXYZ
+PKG_VERSION=
+PKG_FILE=ABCbrasero-3.12.2.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/brasero/3.12/brasero-3.12.2.tar.xz"
+MD5="2dec59c179e49e37f1cfc0dd26344a2e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

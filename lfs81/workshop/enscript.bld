@@ -1,0 +1,26 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr              \
+            --sysconfdir=/etc/enscript \
+            --localstatedir=/var       \
+            --with-media=Letter &&
+make &&
+
+pushd docs &&
+  makeinfo --plaintext -o enscript.txt enscript.texi &&
+popd
+#make -k check || true
+make -j1 install &&
+
+install -v -m755 -d /usr/share/doc/enscript-1.6.6 &&
+install -v -m644    README* *.txt docs/*.txt \
+                    /usr/share/doc/enscript-1.6.6
+install -v -m644 docs/*.{dvi,pdf,ps} \
+                 /usr/share/doc/enscript-1.6.6
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

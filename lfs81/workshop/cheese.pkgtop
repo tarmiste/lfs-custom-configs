@@ -1,0 +1,15 @@
+#
+# cheese
+#
+## EDITHOOK1
+PKG=ABCcheeseXYZ
+PKG_VERSION=
+PKG_FILE=ABCcheese-3.24.0.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/cheese/3.24/cheese-3.24.0.tar.xz"
+MD5="5f29e62b88fbac4c79c7003a03bcdc74  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

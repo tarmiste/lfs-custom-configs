@@ -1,0 +1,15 @@
+#
+# gavl
+#
+## EDITHOOK1
+PKG=ABCgavlXYZ
+PKG_VERSION="1.4.0">
+PKG_FILE=ABCgavl-1.4.0.tar.gzXYZ
+URL="https://downloads.sourceforge.net/gmerlin/gavl-1.4.0.tar.gz"
+MD5="2752013a817fbc43ddf13552215ec2c0  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

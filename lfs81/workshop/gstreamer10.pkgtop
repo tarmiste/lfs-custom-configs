@@ -1,0 +1,15 @@
+#
+# gstreamer10
+#
+## EDITHOOK1
+PKG=ABCgstreamer10XYZ
+PKG_VERSION="1.12.2"> <!-- Even minors only -->
+PKG_FILE=ABCgstreamer-1.12.2.tar.xzXYZ
+URL="https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.12.2.tar.xz"
+MD5="4748860621607ffd96244fb79c86c238  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

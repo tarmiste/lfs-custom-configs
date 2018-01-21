@@ -1,0 +1,20 @@
+############# Building package
+cd $UNPACKDIR
+
+tar -xf ../freetype-doc-2.8.tar.bz2 --strip-components=2 -C docs
+sed -ri "s:.*(AUX_MODULES.*valid):\1:" modules.cfg &&
+
+sed -r "s:.*(#.*SUBPIXEL_RENDERING) .*:\1:" \
+    -i include/freetype/config/ftoption.h  &&
+
+./configure --prefix=/usr --disable-static &&
+make
+make -j1 install &&
+install -v -m755 -d /usr/share/doc/freetype-2.8 &&
+cp -v -R docs/*     /usr/share/doc/freetype-2.8
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

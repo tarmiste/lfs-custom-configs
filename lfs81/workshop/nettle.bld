@@ -1,0 +1,16 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr --disable-static &&
+make
+#make -k check || true
+make -j1 install &&
+chmod   -v   755 /usr/lib/lib{hogweed,nettle}.so &&
+install -v -m755 -d /usr/share/doc/nettle-3.3 &&
+install -v -m644 nettle.html /usr/share/doc/nettle-3.3
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

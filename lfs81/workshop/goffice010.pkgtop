@@ -1,0 +1,15 @@
+#
+# goffice010
+#
+## EDITHOOK1
+PKG=ABCgoffice010XYZ
+PKG_VERSION="0.10.35">
+PKG_FILE=ABCgoffice-0.10.35.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/goffice/0.10/goffice-0.10.35.tar.xz"
+MD5="3a47150f19f0968d02b77374d1a5008f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# wv
+#
+## EDITHOOK1
+PKG=ABCwvXYZ
+PKG_VERSION="1.2.9">
+PKG_FILE=ABCwv-1.2.9.tar.gzXYZ
+URL="http://www.abisource.com/downloads/wv/1.2.9/wv-1.2.9.tar.gz"
+MD5="dbccf2e9f747e50c913b7e3d126b73f7  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

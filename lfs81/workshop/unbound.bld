@@ -1,0 +1,62 @@
+############# Building package
+cd $UNPACKDIR
+
+groupadd -g 88 unbound &&
+useradd -c "Unbound DNS resolver" -d /var/lib/unbound -u 88 \
+        -g unbound -s /bin/false unbound
+./configure --prefix=/usr     \
+            --sysconfdir=/etc \
+            --disable-static  \
+            --with-pidfile=/run/unbound.pid &&
+make
+make doc
+#make -k check || true
+make -j1 install &&
+mv -v /usr/sbin/unbound-host /usr/bin/
+install -v -m755 -d /usr/share/doc/unbound-1.6.5 &&
+install -v -m644 doc/html/* /usr/share/doc/unbound-1.6.5
+ldconfig
+
+echo "nameserver 127.0.0.1" > /etc/resolv.conf
+
+sed -i '/request /i\supersede domain-name-servers 127.0.0.1;' \
+       /etc/dhcp/dhclient.conf
+
+unbound-anchor
+
+[[ ! -d $SRC_DIR/blfs-bootscripts ]] && mkdir $SRC_DIR/blfs-bootscripts
+pushd $SRC_DIR/blfs-bootscripts
+URL=http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20170731.tar.xz
+BOOTPACKG=$(basename $URL)
+if [[ ! -f $BOOTPACKG ]] ; then
+  if [[ -f $SRC_ARCHIVE/$PKG_DIR/$BOOTPACKG ]] ; then
+    cp $SRC_ARCHIVE/$PKG_DIR/$BOOTPACKG $BOOTPACKG
+  elif [[ -f $SRC_ARCHIVE/$BOOTPACKG ]] ; then
+    cp $SRC_ARCHIVE/$BOOTPACKG $BOOTPACKG
+  else
+    wget -T 30 -t 5 $URL
+    cp $BOOTPACKG $SRC_ARCHIVE
+  fi
+  rm -f unpacked
+fi
+
+if [[ -e unpacked ]] ; then
+  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+  if ! [[ -d $BOOTUNPACKDIR ]]; then
+    rm unpacked
+    tar -xvf $BOOTPACKG > unpacked
+    BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+  fi
+else
+  tar -xvf $BOOTPACKG > unpacked
+  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+fi
+######## BLFS BOOT SCRIPTS:  REMOVE FOR CUSTOM CONFIG
+cd $BOOTUNPACKDIR
+make -j1 install-unbound
+
+popd
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

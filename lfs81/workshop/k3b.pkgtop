@@ -1,0 +1,15 @@
+#
+# k3b
+#
+## EDITHOOK1
+PKG=ABCk3bXYZ
+PKG_VERSION="2017-02-12"> "2.0.3">
+PKG_FILE=ABCk3b-17.08.0.tar.xzXYZ
+URL="http://download.kde.org/stable/applications/17.08.0/src/k3b-17.08.0.tar.xz"
+MD5="2b96da7c783a1330d27be4dc12e7b7a5  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

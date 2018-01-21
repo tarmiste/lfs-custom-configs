@@ -1,0 +1,15 @@
+#
+# mpg123
+#
+## EDITHOOK1
+PKG=ABCmpg123XYZ
+PKG_VERSION="1.25.6">
+PKG_FILE=ABCmpg123-1.25.6.tar.bz2XYZ
+URL="https://downloads.sourceforge.net/mpg123/mpg123-1.25.6.tar.bz2"
+MD5="43336bef78f67c2e66c4f6c288ca1eb3  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

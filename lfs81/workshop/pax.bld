@@ -1,0 +1,20 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i build/mk.config                   \
+    -e '/LIBZ/s@ -Wl[^ ]*@@g'            \
+    -e '/LIBBZ2/{s@^#@@;s@ -Wl[^ ]*@@g}' \
+    -e '/BZLIB/s@0@1@'                   &&
+
+make makefiles                           &&
+make -C libcommon                        &&
+make -C libuxre                          &&
+make -C cpio
+install -v -m755 cpio/pax_su3 /usr/bin/pax &&
+install -v -m644 cpio/pax.1 /usr/share/man/man1
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,15 @@
+#
+# ncftp
+#
+## EDITHOOK1
+PKG=ABCncftpXYZ
+PKG_VERSION="3.2.6">
+PKG_FILE=ABCncftp-3.2.6-src.tar.xzXYZ
+URL="ftp://ftp.ncftp.com/ncftp/ncftp-3.2.6-src.tar.xz"
+MD5="42d0f896d69a4d603ec097546444245f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

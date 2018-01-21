@@ -1,0 +1,15 @@
+#
+# logrotate
+#
+## EDITHOOK1
+PKG=ABClogrotateXYZ
+PKG_VERSION="3.11.0">
+PKG_FILE=ABClogrotate-3.11.0.tar.xzXYZ
+URL="https://github.com/logrotate/logrotate/releases/download/3.11.0/logrotate-3.11.0.tar.xz"
+MD5="3a9280e4caeb837427a2d54518fbcdac  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

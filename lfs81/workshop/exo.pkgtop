@@ -1,0 +1,15 @@
+#
+# exo
+#
+## EDITHOOK1
+PKG=ABCexoXYZ
+PKG_VERSION="0.10.7">
+PKG_FILE=ABCexo-0.10.7.tar.bz2XYZ
+URL="http://archive.xfce.org/src/xfce/exo/0.10/exo-0.10.7.tar.bz2"
+MD5="92ca200b8787cdd7494164cbc0ed8200  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

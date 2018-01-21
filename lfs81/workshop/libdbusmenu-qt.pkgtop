@@ -1,0 +1,15 @@
+#
+# libdbusmenu-qt
+#
+## EDITHOOK1
+PKG=ABClibdbusmenu-qtXYZ
+PKG_VERSION="0.9.3+16.04.20160218">
+PKG_FILE=ABClibdbusmenu-qt_0.9.3+16.04.20160218.orig.tar.gzXYZ
+URL="http://launchpad.net/ubuntu/+archive/primary/+files/libdbusmenu-qt_0.9.3+16.04.20160218.orig.tar.gz"
+MD5="8b90312bd8654e026d814d4db986ce5e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# konsole5
+#
+## EDITHOOK1
+PKG=ABCkonsole5XYZ
+PKG_VERSION=
+PKG_FILE=ABCkonsole-17.08.0.tar.xzXYZ
+URL="http://download.kde.org/stable/applications/17.08.0/src/konsole-17.08.0.tar.xz"
+MD5="058984f7e712b6143a310350f4f0fac3  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

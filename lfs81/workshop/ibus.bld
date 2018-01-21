@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i 's@/desktop/ibus@/org/freedesktop/ibus@g' \
+    data/ibus.schemas.in \
+    data/dconf/org.freedesktop.ibus.gschema.xml.in
+./configure --prefix=/usr             \
+            --sysconfdir=/etc         \
+            --disable-emoji-dict      &&
+rm -f tools/main.c                    &&
+make
+#make -k check || true
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

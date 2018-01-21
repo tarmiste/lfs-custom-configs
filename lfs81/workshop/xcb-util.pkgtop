@@ -1,0 +1,15 @@
+#
+# xcb-util
+#
+## EDITHOOK1
+PKG=ABCxcb-utilXYZ
+PKG_VERSION="0.4.0">
+PKG_FILE=ABCxcb-util-0.4.0.tar.bz2XYZ
+URL="https://xcb.freedesktop.org/dist/xcb-util-0.4.0.tar.bz2"
+MD5="2e97feed81919465a04ccc71e4073313  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

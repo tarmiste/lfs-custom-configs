@@ -1,0 +1,15 @@
+#
+# docbook-utils
+#
+## EDITHOOK1
+PKG=ABCdocbook-utilsXYZ
+PKG_VERSION="0.6.14">
+PKG_FILE=ABCdocbook-utils-0.6.14.tar.gzXYZ
+URL="https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/docbook-utils-0.6.14.tar.gz"
+MD5="6b41b18c365c01f225bc417cf632d81c  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/docbook-utils-0.6.14-grep_fix-1.patch PATCH1MD5"

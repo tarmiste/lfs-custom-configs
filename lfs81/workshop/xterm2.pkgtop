@@ -1,0 +1,15 @@
+#
+# xterm2
+#
+## EDITHOOK1
+PKG=ABCxterm2XYZ
+PKG_VERSION=
+PKG_FILE=ABCxterm-330.tgzXYZ
+URL="http://invisible-mirror.net/archives/xterm/xterm-330.tgz"
+MD5="9a6db7974aa4ccbb50eabebf72618467  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# clutter
+#
+## EDITHOOK1
+PKG=ABCclutterXYZ
+PKG_VERSION="1.26.2">
+PKG_FILE=ABCclutter-1.26.2.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/clutter/1.26/clutter-1.26.2.tar.xz"
+MD5="a03482cbacf735eca8c996f210a21ee5  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

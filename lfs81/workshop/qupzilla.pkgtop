@@ -1,0 +1,15 @@
+#
+# qupzilla
+#
+## EDITHOOK1
+PKG=ABCqupzillaXYZ
+PKG_VERSION="2.1.2">
+PKG_FILE=ABCQupZilla-2.1.2.tar.xzXYZ
+URL="https://github.com/QupZilla/qupzilla/releases/download/v2.1.2/QupZilla-2.1.2.tar.xz"
+MD5="84e4b9dda1e0bb5ad96f3b87f9fc1328  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/qupzilla-2.1.2-openssl1.1-1.patch PATCH1MD5"

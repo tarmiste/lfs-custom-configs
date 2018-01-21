@@ -1,0 +1,15 @@
+#
+# tcsh
+#
+## EDITHOOK1
+PKG=ABCtcshXYZ
+PKG_VERSION="6.20.00">
+PKG_FILE=ABCtcsh-6.20.00.tar.gzXYZ
+URL="http://fossies.org/linux/misc/tcsh-6.20.00.tar.gz"
+MD5="59d40ef40a68e790d95e182069431834  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

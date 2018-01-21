@@ -1,0 +1,15 @@
+#
+# mailx
+#
+## EDITHOOK1
+PKG=ABCmailxXYZ
+PKG_VERSION="12.5">
+PKG_FILE=ABCheirloom-mailx_12.5.orig.tar.gzXYZ
+URL="http://ftp.debian.org/debian/pool/main/h/heirloom-mailx/heirloom-mailx_12.5.orig.tar.gz"
+MD5="29a6033ef1412824d02eb9d9213cb1f2  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/heirloom-mailx-12.5-fixes-1.patch PATCH1MD5"

@@ -1,0 +1,26 @@
+############# Building package
+cd $UNPACKDIR
+
+cat <<EOF > config.toml
+# see src/bootstrap/config.toml.example for more possible options
+[llvm]
+targets = "X86"
+
+[build]
+# install cargo as well as rust
+extended = true
+
+[install]
+prefix = "/usr"
+docdir = "share/doc/rustc-1.19.0"
+channel = "stable"
+EOF
+./x.py build
+#make -k  || true
+./x.py install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,15 @@
+#
+# w3m
+#
+## EDITHOOK1
+PKG=ABCw3mXYZ
+PKG_VERSION="0.5.3">
+PKG_FILE=ABCw3m-0.5.3.tar.gzXYZ
+URL="https://downloads.sourceforge.net/w3m/w3m-0.5.3.tar.gz"
+MD5="1b845a983a50b8dec0169ac48479eacc  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/w3m-0.5.3-bdwgc72-1.patch PATCH1MD5"

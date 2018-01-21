@@ -1,0 +1,15 @@
+#
+# bind-utils
+#
+## EDITHOOK1
+PKG=ABCbind-utilsXYZ
+PKG_VERSION=
+PKG_FILE=ABCbind-9.11.2.tar.gzXYZ
+URL="ftp://ftp.isc.org/isc/bind9/9.11.2/bind-9.11.2.tar.gz"
+MD5="efca7e5a63a07efba264da9be2fbb57f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

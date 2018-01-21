@@ -1,0 +1,15 @@
+#
+# frei0r
+#
+## EDITHOOK1
+PKG=ABCfrei0rXYZ
+PKG_VERSION="1.6.1">
+PKG_FILE=ABCfrei0r-plugins-1.6.1.tar.gzXYZ
+URL="https://files.dyne.org/frei0r/releases/frei0r-plugins-1.6.1.tar.gz"
+MD5="bb85573340029e5d0ae1c21d0685461d  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,29 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr            \
+            --confdir=/etc/mplayer   \
+            --enable-dynamic-plugins \
+            --enable-menu            \
+            --enable-gui             &&
+make
+make doc
+make -j1 install  &&
+ln -svf ../icons/hicolor/48x48/apps/mplayer.png \
+        /usr/share/pixmaps/mplayer.png
+install -v -m755 -d /usr/share/doc/mplayer-1.3.0 &&
+install -v -m644    DOCS/HTML/en/* \
+                    /usr/share/doc/mplayer-1.3.0
+install -v -m644 etc/codecs.conf /etc/mplayer
+install -v -m644 etc/*.conf /etc/mplayer
+gtk-update-icon-cache &&
+update-desktop-database
+tar -xvf  ../Clearlooks-1.7.tar.bz2 \
+    -C    /usr/share/mplayer/skins &&
+ln  -sfvn Clearlooks /usr/share/mplayer/skins/default
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

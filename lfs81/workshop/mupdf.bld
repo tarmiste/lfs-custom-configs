@@ -1,0 +1,27 @@
+############# Building package
+cd $UNPACKDIR
+
+rm -rf thirdparty/curl     &&
+rm -rf thirdparty/freetype &&
+rm -rf thirdparty/harfbuzz &&
+rm -rf thirdparty/jpeg     &&
+rm -rf thirdparty/libjpeg  &&
+rm -rf thirdparty/openjpeg &&
+rm -rf thirdparty/zlib     &&
+
+patch -Np1 -i ../mupdf-1.11-openjpeg-2.patch    &&
+patch -Np1 -i ../mupdf-1.11-shared_libs-1.patch &&
+
+make build=release
+make -j1 prefix=/usr                      \
+     build=release                    \
+     docdir=/usr/share/doc/mupdf-1.11 \
+     install                          &&
+
+ln -sfv mupdf-x11-curl /usr/bin/mupdf
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

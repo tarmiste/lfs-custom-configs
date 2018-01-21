@@ -1,0 +1,15 @@
+#
+# libICE
+#
+## EDITHOOK1
+PKG=ABClibICEXYZ
+PKG_VERSION=
+PKG_FILE=ABClibICE-1.0.9.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/lib/libICE-1.0.9.tar.bz2"
+MD5="addfb1e897ca8079531669c7c7711726  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

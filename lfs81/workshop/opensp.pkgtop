@@ -1,0 +1,15 @@
+#
+# opensp
+#
+## EDITHOOK1
+PKG=ABCopenspXYZ
+PKG_VERSION="1.5.2">
+PKG_FILE=ABCOpenSP-1.5.2.tar.gzXYZ
+URL="https://downloads.sourceforge.net/openjade/OpenSP-1.5.2.tar.gz"
+MD5="670b223c5d12cee40c9137be86b6c39b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

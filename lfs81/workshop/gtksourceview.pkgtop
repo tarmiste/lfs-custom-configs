@@ -1,0 +1,15 @@
+#
+# gtksourceview
+#
+## EDITHOOK1
+PKG=ABCgtksourceviewXYZ
+PKG_VERSION="3.24.3">
+PKG_FILE=ABCgtksourceview-3.24.3.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gtksourceview/3.24/gtksourceview-3.24.3.tar.xz"
+MD5="460d63747dca11797aa54306d1037f32  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

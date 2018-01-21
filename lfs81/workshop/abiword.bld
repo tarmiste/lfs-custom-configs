@@ -1,0 +1,24 @@
+############# Building package
+cd $UNPACKDIR
+
+patch -Np1 -i ../abiword-3.0.2-gtk3_22_render_fix-1.patch &&
+./configure --prefix=/usr &&
+make
+make -j1 install
+tar -xf ../abiword-docs-3.0.2.tar.gz &&
+cd abiword-docs-3.0.1                &&
+./configure --prefix=/usr            &&
+make
+make -j1 install
+ldconfig
+
+ls /usr/share/abiword-3.0/templates
+
+install -v -m750 -d ~/.AbiSuite/templates &&
+install -v -m640    /usr/share/abiword-3.0/templates/normal.awt-**EDITME<lang>EDITME** \
+                    ~/.AbiSuite/templates/normal.awt
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

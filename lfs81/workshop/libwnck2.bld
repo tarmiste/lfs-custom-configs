@@ -1,0 +1,14 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr \
+            --disable-static \
+            --program-suffix=-1 &&
+make GETTEXT_PACKAGE=libwnck-1
+make -j1 GETTEXT_PACKAGE=libwnck-1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

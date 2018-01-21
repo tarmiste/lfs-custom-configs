@@ -1,0 +1,15 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr             \
+            --without-ca-certificates \
+            --disable-static          &&
+make
+#make -k check || true
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

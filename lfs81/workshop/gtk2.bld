@@ -1,0 +1,28 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -e 's#l \(gtk-.*\).sgml#& -o \1#' \
+    -i docs/{faq,tutorial}/Makefile.in      &&
+
+./configure --prefix=/usr --sysconfdir=/etc &&
+
+make
+#make -k check || true
+make -j1 install
+gtk-query-immodules-2.0 --update-cache
+ldconfig
+
+cat > ~/.gtkrc-2.0 << "EOF"
+include "/usr/share/themes/**EDITMEGliderEDITME**/gtk-2.0/gtkrc"
+gtk-icon-theme-name = "**EDITMEhicolorEDITME**"
+EOF
+
+cat > /etc/gtk-2.0/gtkrc << "EOF"
+include "/usr/share/themes/**EDITMEClearlooksEDITME**/gtk-2.0/gtkrc"
+gtk-icon-theme-name = "**EDITMEelementaryEDITME**"
+EOF
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,15 @@
+#
+# libmng
+#
+## EDITHOOK1
+PKG=ABClibmngXYZ
+PKG_VERSION="2.0.3">
+PKG_FILE=ABClibmng-2.0.3.tar.xzXYZ
+URL="https://downloads.sourceforge.net/libmng/libmng-2.0.3.tar.xz"
+MD5="e9e899adb1b681b17f14d91e261878c5  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

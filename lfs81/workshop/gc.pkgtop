@@ -1,0 +1,15 @@
+#
+# gc
+#
+## EDITHOOK1
+PKG=ABCgcXYZ
+PKG_VERSION="7.6.0">
+PKG_FILE=ABCgc-7.6.0.tar.gzXYZ
+URL="http://www.hboehm.info/gc/gc_source/gc-7.6.0.tar.gz"
+MD5="bf46ccbdaccfa3186c2ab87191c8855a  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

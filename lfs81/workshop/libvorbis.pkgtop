@@ -1,0 +1,15 @@
+#
+# libvorbis
+#
+## EDITHOOK1
+PKG=ABClibvorbisXYZ
+PKG_VERSION="1.3.5">
+PKG_FILE=ABClibvorbis-1.3.5.tar.xzXYZ
+URL="https://downloads.xiph.org/releases/vorbis/libvorbis-1.3.5.tar.xz"
+MD5="28cb28097c07a735d6af56e598e1c90f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

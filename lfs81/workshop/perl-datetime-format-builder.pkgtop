@@ -1,0 +1,14 @@
+#
+# perl-datetime-format-builder
+#
+## EDITHOOK1
+PKG=ABCperl-datetime-format-builderXYZ
+PKG_VERSION=
+PKG_FILE=ABCDateTime-Format-Builder-0.81.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

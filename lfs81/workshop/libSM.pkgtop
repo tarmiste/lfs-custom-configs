@@ -1,0 +1,15 @@
+#
+# libSM
+#
+## EDITHOOK1
+PKG=ABClibSMXYZ
+PKG_VERSION=
+PKG_FILE=ABClibSM-1.2.2.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/lib/libSM-1.2.2.tar.bz2"
+MD5="499a7773c65aba513609fe651853c5f3  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

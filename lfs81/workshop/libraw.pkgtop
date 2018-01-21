@@ -1,0 +1,15 @@
+#
+# libraw
+#
+## EDITHOOK1
+PKG=ABClibrawXYZ
+PKG_VERSION="0.18.2">
+PKG_FILE=ABCLibRaw-0.18.2.tar.gzXYZ
+URL="http://www.libraw.org/data/LibRaw-0.18.2.tar.gz"
+MD5="7bd923ea7c9cc71897b005be46c01b2b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

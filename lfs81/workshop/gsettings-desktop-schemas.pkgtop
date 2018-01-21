@@ -1,0 +1,15 @@
+#
+# gsettings-desktop-schemas
+#
+## EDITHOOK1
+PKG=ABCgsettings-desktop-schemasXYZ
+PKG_VERSION=
+PKG_FILE=ABCgsettings-desktop-schemas-3.24.0.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gsettings-desktop-schemas/3.24/gsettings-desktop-schemas-3.24.0.tar.xz"
+MD5="cc3465621bea4ff6de915812fadc5a8e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,14 @@
+#
+# perl-xml-writer
+#
+## EDITHOOK1
+PKG=ABCperl-xml-writerXYZ
+PKG_VERSION=
+PKG_FILE=ABCXML-Writer-0.625.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/J/JO/JOSEPHW/XML-Writer-0.625.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

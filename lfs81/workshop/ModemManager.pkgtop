@@ -1,0 +1,15 @@
+#
+# ModemManager
+#
+## EDITHOOK1
+PKG=ABCModemManagerXYZ
+PKG_VERSION="1.6.8">
+PKG_FILE=ABCModemManager-1.6.8.tar.xzXYZ
+URL="https://www.freedesktop.org/software/ModemManager/ModemManager-1.6.8.tar.xz"
+MD5="ac08d539ec3dc35db8d6b7c8d6c660ff  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

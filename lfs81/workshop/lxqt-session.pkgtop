@@ -1,0 +1,15 @@
+#
+# lxqt-session
+#
+## EDITHOOK1
+PKG=ABClxqt-sessionXYZ
+PKG_VERSION=;">
+PKG_FILE=ABClxqt-session-0.11.1.tar.xzXYZ
+URL="https://github.com/lxde/lxqt-session/releases/download/0.11.1/lxqt-session-0.11.1.tar.xz"
+MD5="87ebe144fbc540b92b08e1b62a601772  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

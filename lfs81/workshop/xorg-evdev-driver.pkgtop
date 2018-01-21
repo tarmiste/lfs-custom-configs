@@ -1,0 +1,15 @@
+#
+# xorg-evdev-driver
+#
+## EDITHOOK1
+PKG=ABCxorg-evdev-driverXYZ
+PKG_VERSION=
+PKG_FILE=ABCxf86-input-evdev-2.10.5.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/driver/xf86-input-evdev-2.10.5.tar.bz2"
+MD5="94c2c8354c74ab1cfbbb0a222078b9c6  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

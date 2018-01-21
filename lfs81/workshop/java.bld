@@ -1,0 +1,13 @@
+############# Building package
+cd $UNPACKDIR
+
+install -vdm755 /opt/OpenJDK-1.8.0.141-bin &&
+mv -v * /opt/OpenJDK-1.8.0.141-bin         &&
+chown -R root:root /opt/OpenJDK-1.8.0.141-bin
+ln -sfn OpenJDK-1.8.0.141-bin /opt/jdk
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

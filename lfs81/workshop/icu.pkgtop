@@ -1,0 +1,15 @@
+#
+# icu
+#
+## EDITHOOK1
+PKG=ABCicuXYZ
+PKG_VERSION="&icu-major;.&icu-minor;"><!-- .&icu-patch;-->
+PKG_FILE=ABCicu4c-59_1-src.tgzXYZ
+URL="http://download.icu-project.org/files/icu4c/59.1/icu4c-59_1-src.tgz"
+MD5="54923fa9fab5b2b83f235fb72523de37  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

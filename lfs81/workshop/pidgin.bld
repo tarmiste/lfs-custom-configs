@@ -1,0 +1,28 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr        \
+            --sysconfdir=/etc    \
+            --with-gstreamer=1.0 \
+            --disable-avahi      \
+            --disable-gtkspell   \
+            --disable-meanwhile  \
+            --disable-idn        \
+            --disable-nm         \
+            --disable-vv         \
+            --disable-tcl        &&
+make
+#make -k check || true
+make -j1 install &&
+mkdir -pv /usr/share/doc/pidgin-2.12.0 &&
+cp -v README doc/gtkrc-2.0 /usr/share/doc/pidgin-2.12.0
+mkdir -pv /usr/share/doc/pidgin-2.12.0/api &&
+cp -v doc/html/* /usr/share/doc/pidgin-2.12.0/api
+gtk-update-icon-cache &&
+update-desktop-database
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

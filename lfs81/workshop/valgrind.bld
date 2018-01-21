@@ -1,0 +1,18 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i 's|/doc/valgrind||' docs/Makefile.in &&
+
+./configure --prefix=/usr \
+            --datadir=/usr/share/doc/valgrind-3.13.0 &&
+make
+#make -k regtest || true
+sed -e 's@prereq:.*@prereq: false@' \
+    -i {helgrind,drd}/tests/pth_cond_destroy_busy.vgtest
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

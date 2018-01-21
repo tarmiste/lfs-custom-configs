@@ -1,0 +1,70 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i -e 's:<gpm.h>:"headers/gpm.h":' src/prog/{display-buttons,display-coords,get-versions}.c &&
+patch -Np1 -i ../gpm-1.20.7-glibc_2.26-1.patch &&
+./autogen.sh                                &&
+./configure --prefix=/usr --sysconfdir=/etc &&
+make
+make -j1 install                                          &&
+
+install-info --dir-file=/usr/share/info/dir           \
+             /usr/share/info/gpm.info                 &&
+
+ln -sfv libgpm.so.2.1.0 /usr/lib/libgpm.so            &&
+install -v -m644 conf/gpm-root.conf /etc              &&
+
+install -v -m755 -d /usr/share/doc/gpm-1.20.7/support &&
+install -v -m644    doc/support/*                     \
+                    /usr/share/doc/gpm-1.20.7/support &&
+install -v -m644    doc/{FAQ,HACK_GPM,README*}        \
+                    /usr/share/doc/gpm-1.20.7
+ldconfig
+
+[[ ! -d $SRC_DIR/blfs-bootscripts ]] && mkdir $SRC_DIR/blfs-bootscripts
+pushd $SRC_DIR/blfs-bootscripts
+URL=http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20170731.tar.xz
+BOOTPACKG=$(basename $URL)
+if [[ ! -f $BOOTPACKG ]] ; then
+  if [[ -f $SRC_ARCHIVE/$PKG_DIR/$BOOTPACKG ]] ; then
+    cp $SRC_ARCHIVE/$PKG_DIR/$BOOTPACKG $BOOTPACKG
+  elif [[ -f $SRC_ARCHIVE/$BOOTPACKG ]] ; then
+    cp $SRC_ARCHIVE/$BOOTPACKG $BOOTPACKG
+  else
+    wget -T 30 -t 5 $URL
+    cp $BOOTPACKG $SRC_ARCHIVE
+  fi
+  rm -f unpacked
+fi
+
+if [[ -e unpacked ]] ; then
+  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+  if ! [[ -d $BOOTUNPACKDIR ]]; then
+    rm unpacked
+    tar -xvf $BOOTPACKG > unpacked
+    BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+  fi
+else
+  tar -xvf $BOOTPACKG > unpacked
+  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+fi
+######## BLFS BOOT SCRIPTS:  REMOVE FOR CUSTOM CONFIG
+cd $BOOTUNPACKDIR
+make -j1 install-gpm
+
+popd
+cat > /etc/sysconfig/mouse << "EOF"
+# Begin /etc/sysconfig/mouse
+
+MDEVICE="**EDITME<yourdevice>EDITME**"
+PROTOCOL="**EDITME<yourprotocol>EDITME**"
+GPMOPTS="**EDITME<additional options>EDITME**"
+
+# End /etc/sysconfig/mouse
+EOF
+
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

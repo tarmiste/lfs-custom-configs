@@ -1,0 +1,15 @@
+#
+# opencv
+#
+## EDITHOOK1
+PKG=ABCopencvXYZ
+PKG_VERSION="3.3.0">
+PKG_FILE=ABCopencv-3.3.0.zip ippicv_2017u2_lnx_intel64_20170418.tgz opencv_contrib-3.3.0.tar.gzXYZ
+URL="https://downloads.sourceforge.net/opencvlibrary/opencv-3.3.0.zip"
+MD5="cc586ebe960a7cdd87100e89088abc06  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

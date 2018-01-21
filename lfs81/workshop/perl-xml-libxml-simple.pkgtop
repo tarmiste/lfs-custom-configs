@@ -1,0 +1,14 @@
+#
+# perl-xml-libxml-simple
+#
+## EDITHOOK1
+PKG=ABCperl-xml-libxml-simpleXYZ
+PKG_VERSION=
+PKG_FILE=ABCXML-LibXML-Simple-0.97.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/G/GR/GRANTM/XML-LibXML-Simple-0.97.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

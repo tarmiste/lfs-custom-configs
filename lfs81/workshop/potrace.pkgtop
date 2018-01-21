@@ -1,0 +1,15 @@
+#
+# potrace
+#
+## EDITHOOK1
+PKG=ABCpotraceXYZ
+PKG_VERSION="1.15">
+PKG_FILE=ABCpotrace-1.15.tar.gzXYZ
+URL="https://downloads.sourceforge.net/potrace/potrace-1.15.tar.gz"
+MD5="60cecdaa9d14e0008f96b68dce77d246  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

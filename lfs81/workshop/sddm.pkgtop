@@ -1,0 +1,15 @@
+#
+# sddm
+#
+## EDITHOOK1
+PKG=ABCsddmXYZ
+PKG_VERSION="0.15.0">
+PKG_FILE=ABCsddm-0.15.0.tar.xzXYZ
+URL="https://github.com/sddm/sddm/releases/download/v0.15.0/sddm-0.15.0.tar.xz"
+MD5="ce07882e0c670e4ab94f849a9e6139b4  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

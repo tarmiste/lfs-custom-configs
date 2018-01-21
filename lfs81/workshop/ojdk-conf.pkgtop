@@ -1,0 +1,14 @@
+#
+# ojdk-conf
+#
+## EDITHOOK1
+PKG=ABCojdk-confXYZ
+PKG_VERSION=
+PKG_FILE=ABCXYZ
+URL=
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

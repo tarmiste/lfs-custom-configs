@@ -1,0 +1,15 @@
+#
+# xine-ui
+#
+## EDITHOOK1
+PKG=ABCxine-uiXYZ
+PKG_VERSION="0.99.9">
+PKG_FILE=ABCxine-ui-0.99.9.tar.xzXYZ
+URL="https://downloads.sourceforge.net/xine/xine-ui-0.99.9.tar.xz"
+MD5="a6d00381b5c8b7aec1a7a3fbf84f01ce  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

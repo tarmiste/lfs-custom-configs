@@ -1,0 +1,15 @@
+#
+# qtermwidget
+#
+## EDITHOOK1
+PKG=ABCqtermwidgetXYZ
+PKG_VERSION="0.7.1">
+PKG_FILE=ABCqtermwidget-0.7.1.tar.xzXYZ
+URL="https://github.com/lxde/qtermwidget/releases/download/0.7.1/qtermwidget-0.7.1.tar.xz"
+MD5="df50457bb12a0e12b1f547ca644c5c22  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

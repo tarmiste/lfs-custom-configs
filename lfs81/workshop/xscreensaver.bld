@@ -1,0 +1,21 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr &&
+make
+make -j1 install
+ldconfig
+
+cat > /etc/pam.d/xscreensaver << "EOF"
+# Begin /etc/pam.d/xscreensaver
+
+auth    include system-auth
+account include system-account
+
+# End /etc/pam.d/xscreensaver
+EOF
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

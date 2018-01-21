@@ -1,0 +1,15 @@
+#
+# sessreg
+#
+## EDITHOOK1
+PKG=ABCsessregXYZ
+PKG_VERSION=
+PKG_FILE=ABCsessreg-1.1.1.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/app/sessreg-1.1.1.tar.bz2"
+MD5="e475167a892b589da23edf8edf8c942d  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

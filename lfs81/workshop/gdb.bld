@@ -1,0 +1,21 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr --with-system-readline --without-guile &&
+make
+make -C gdb/doc doxy
+pushd gdb/testsuite &&
+make  site.exp      &&
+echo  "set gdb_test_timeout 120" >> site.exp &&
+runtest TRANSCRIPT=y
+popd
+make -j1 -C gdb install
+install -d /usr/share/doc/gdb-8.0 &&
+rm -rf gdb/doc/doxy/xml &&
+cp -Rv gdb/doc/doxy /usr/share/doc/gdb-8.0
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

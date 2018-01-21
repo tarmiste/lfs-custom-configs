@@ -1,0 +1,15 @@
+#
+# libkcddb
+#
+## EDITHOOK1
+PKG=ABClibkcddbXYZ
+PKG_VERSION=<!-- "2016-09-11"> -->
+PKG_FILE=ABClibkcddb-17.08.0.tar.xzXYZ
+URL="http://download.kde.org/stable/applications/17.08.0/src/libkcddb-17.08.0.tar.xz"
+MD5="61c5715f60fecc8a337884701ce30d0e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

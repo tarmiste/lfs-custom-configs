@@ -1,0 +1,15 @@
+#
+# exiv2
+#
+## EDITHOOK1
+PKG=ABCexiv2XYZ
+PKG_VERSION="0.25">
+PKG_FILE=ABCexiv2-0.25.tar.gzXYZ
+URL="http://www.exiv2.org/exiv2-0.25.tar.gz"
+MD5="258d4831b30f75a01e0234065c6c2806  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

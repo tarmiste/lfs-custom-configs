@@ -1,0 +1,15 @@
+#
+# x11perf
+#
+## EDITHOOK1
+PKG=ABCx11perfXYZ
+PKG_VERSION=
+PKG_FILE=ABCx11perf-1.6.0.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/app/x11perf-1.6.0.tar.bz2"
+MD5="f0b24e4d8beb622a419e8431e1c03cd7  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

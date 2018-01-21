@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i "s/^PROJECT_LOGO/#&/" doc/doxygen.cfg.in &&
+
+./configure --prefix=/usr --disable-static &&
+make -j1
+make -C doc docs
+make -j1 install
+install -v -d -m755 /usr/share/doc/libusb-1.0.21/apidocs &&
+install -v -m644    doc/html/* \
+                    /usr/share/doc/libusb-1.0.21/apidocs
+ldconfig
+
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

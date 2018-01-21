@@ -1,0 +1,15 @@
+#
+# libwebp
+#
+## EDITHOOK1
+PKG=ABClibwebpXYZ
+PKG_VERSION="0.6.0">
+PKG_FILE=ABClibwebp-0.6.0.tar.gzXYZ
+URL="http://downloads.webmproject.org/releases/webp/libwebp-0.6.0.tar.gz"
+MD5="19a6e926ab1721268df03161b84bb4a0  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

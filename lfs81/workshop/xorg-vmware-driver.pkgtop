@@ -1,0 +1,15 @@
+#
+# xorg-vmware-driver
+#
+## EDITHOOK1
+PKG=ABCxorg-vmware-driverXYZ
+PKG_VERSION=
+PKG_FILE=ABCxf86-video-vmware-13.2.1.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/driver/xf86-video-vmware-13.2.1.tar.bz2"
+MD5="4c3912e4d8947f6c2fc1ee9e2f211d74  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

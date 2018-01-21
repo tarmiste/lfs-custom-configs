@@ -1,0 +1,15 @@
+#
+# lxqt-notificationd
+#
+## EDITHOOK1
+PKG=ABClxqt-notificationdXYZ
+PKG_VERSION=;">
+PKG_FILE=ABClxqt-notificationd-0.11.1.tar.xzXYZ
+URL="https://github.com/lxde/lxqt-notificationd/releases/download/0.11.1/lxqt-notificationd-0.11.1.tar.xz"
+MD5="5706aa354eba4b69b7b88dc35eccf033  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

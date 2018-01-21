@@ -1,0 +1,15 @@
+#
+# libquicktime
+#
+## EDITHOOK1
+PKG=ABClibquicktimeXYZ
+PKG_VERSION="1.2.4">
+PKG_FILE=ABClibquicktime-1.2.4.tar.gzXYZ
+URL="https://downloads.sourceforge.net/libquicktime/libquicktime-1.2.4.tar.gz"
+MD5="81cfcebad9b7ee7e7cfbefc861d6d61b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/libquicktime-1.2.4-ffmpeg3-1.patch PATCH1MD5"

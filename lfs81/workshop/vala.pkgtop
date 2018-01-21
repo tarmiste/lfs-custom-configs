@@ -1,0 +1,15 @@
+#
+# vala
+#
+## EDITHOOK1
+PKG=ABCvalaXYZ
+PKG_VERSION=;.4">
+PKG_FILE=ABCvala-0.36.4.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/vala/0.36/vala-0.36.4.tar.xz"
+MD5="3c19014093f1a3d995357253b463082c  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

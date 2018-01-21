@@ -1,0 +1,14 @@
+#
+# perl-sgmlspm
+#
+## EDITHOOK1
+PKG=ABCperl-sgmlspmXYZ
+PKG_VERSION=
+PKG_FILE=ABCSGMLSpm-1.1.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

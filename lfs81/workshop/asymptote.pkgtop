@@ -1,0 +1,15 @@
+#
+# asymptote
+#
+## EDITHOOK1
+PKG=ABCasymptoteXYZ
+PKG_VERSION="2.41">
+PKG_FILE=ABCasymptote-2.41.src.tgzXYZ
+URL="https://downloads.sourceforge.net/asymptote/asymptote-2.41.src.tgz"
+MD5="d16909a9189a3177ad2f8cb8161e32e1  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

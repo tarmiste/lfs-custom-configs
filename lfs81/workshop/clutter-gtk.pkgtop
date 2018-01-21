@@ -1,0 +1,15 @@
+#
+# clutter-gtk
+#
+## EDITHOOK1
+PKG=ABCclutter-gtkXYZ
+PKG_VERSION="1.8.4">
+PKG_FILE=ABCclutter-gtk-1.8.4.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/clutter-gtk/1.8/clutter-gtk-1.8.4.tar.xz"
+MD5="b363ac9878e2337be887b8ee9e1da00e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

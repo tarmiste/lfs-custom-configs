@@ -1,0 +1,15 @@
+#
+# ark5
+#
+## EDITHOOK1
+PKG=ABCark5XYZ
+PKG_VERSION=
+PKG_FILE=ABCark-17.08.0.tar.xzXYZ
+URL="http://download.kde.org/stable/applications/17.08.0/src/ark-17.08.0.tar.xz"
+MD5="10e7c4bed9368ff8fef15550039bfba3  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

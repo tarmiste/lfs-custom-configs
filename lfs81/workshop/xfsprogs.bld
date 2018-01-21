@@ -1,0 +1,20 @@
+############# Building package
+cd $UNPACKDIR
+
+make DEBUG=-DNDEBUG     \
+     INSTALL_USER=root  \
+     INSTALL_GROUP=root \
+     LOCAL_CONFIGURE_OPTIONS="--enable-readline"
+make -j1 PKG_DOC_DIR=/usr/share/doc/xfsprogs-4.12.0 install     &&
+make -j1 PKG_DOC_DIR=/usr/share/doc/xfsprogs-4.12.0 install-dev &&
+
+rm -rfv /usr/lib/libhandle.a                               &&
+rm -rfv /lib/libhandle.{a,la,so}                           &&
+ln -sfv ../../lib/libhandle.so.1 /usr/lib/libhandle.so     &&
+sed -i "s@libdir='/lib@libdir='/usr/lib@" /usr/lib/libhandle.la
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

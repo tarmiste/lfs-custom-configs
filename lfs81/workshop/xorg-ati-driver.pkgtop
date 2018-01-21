@@ -1,0 +1,15 @@
+#
+# xorg-ati-driver
+#
+## EDITHOOK1
+PKG=ABCxorg-ati-driverXYZ
+PKG_VERSION=
+PKG_FILE=ABCxf86-video-ati-7.9.0.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/driver/xf86-video-ati-7.9.0.tar.bz2"
+MD5="bf3dfdae23879bdc0c8a7b955572ad90  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

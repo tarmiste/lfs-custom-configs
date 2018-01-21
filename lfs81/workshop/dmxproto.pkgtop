@@ -1,0 +1,15 @@
+#
+# dmxproto
+#
+## EDITHOOK1
+PKG=ABCdmxprotoXYZ
+PKG_VERSION=
+PKG_FILE=ABCdmxproto-2.3.1.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/proto/dmxproto-2.3.1.tar.bz2"
+MD5="4ee175bbd44d05c34d43bb129be5098a  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

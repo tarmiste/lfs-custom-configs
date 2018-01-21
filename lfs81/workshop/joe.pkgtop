@@ -1,0 +1,15 @@
+#
+# joe
+#
+## EDITHOOK1
+PKG=ABCjoeXYZ
+PKG_VERSION="4.4">
+PKG_FILE=ABCjoe-4.4.tar.gzXYZ
+URL="https://downloads.sourceforge.net/joe-editor/joe-4.4.tar.gz"
+MD5="59e63debe60b456a6ee5c0c27a756a47  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

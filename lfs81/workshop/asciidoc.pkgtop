@@ -1,0 +1,15 @@
+#
+# asciidoc
+#
+## EDITHOOK1
+PKG=ABCasciidocXYZ
+PKG_VERSION="8.6.9">
+PKG_FILE=ABCasciidoc-8.6.9.tar.gzXYZ
+URL="https://downloads.sourceforge.net/asciidoc/asciidoc-8.6.9.tar.gz"
+MD5="c59018f105be8d022714b826b0be130a  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,14 @@
+#
+# perl-test-differences
+#
+## EDITHOOK1
+PKG=ABCperl-test-differencesXYZ
+PKG_VERSION=
+PKG_FILE=ABCTest-Differences-0.64.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/D/DC/DCANTRELL/Test-Differences-0.64.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

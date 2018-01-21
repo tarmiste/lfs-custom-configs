@@ -1,0 +1,15 @@
+#
+# sysstat
+#
+## EDITHOOK1
+PKG=ABCsysstatXYZ
+PKG_VERSION="11.6.0">
+PKG_FILE=ABCsysstat-11.6.0.tar.xzXYZ
+URL="http://perso.wanadoo.fr/sebastien.godard/sysstat-11.6.0.tar.xz"
+MD5="e03e6dfd1d2acd0128e964526c447146  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

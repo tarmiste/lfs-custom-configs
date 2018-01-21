@@ -1,0 +1,14 @@
+#
+# perl-business-isbn
+#
+## EDITHOOK1
+PKG=ABCperl-business-isbnXYZ
+PKG_VERSION=
+PKG_FILE=ABCBusiness-ISBN-3.004.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/B/BD/BDFOY/Business-ISBN-3.004.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

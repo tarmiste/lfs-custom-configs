@@ -1,0 +1,15 @@
+#
+# xfce4-settings
+#
+## EDITHOOK1
+PKG=ABCxfce4-settingsXYZ
+PKG_VERSION="4.12.1">
+PKG_FILE=ABCxfce4-settings-4.12.1.tar.bz2XYZ
+URL="http://archive.xfce.org/src/xfce/xfce4-settings/4.12/xfce4-settings-4.12.1.tar.bz2"
+MD5="a47d7da8cc549f1897be9b4ae6262bf4  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

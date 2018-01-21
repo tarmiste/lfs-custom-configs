@@ -1,0 +1,15 @@
+#
+# desktop-file-utils
+#
+## EDITHOOK1
+PKG=ABCdesktop-file-utilsXYZ
+PKG_VERSION="0.23">
+PKG_FILE=ABCdesktop-file-utils-0.23.tar.xzXYZ
+URL="https://www.freedesktop.org/software/desktop-file-utils/releases/desktop-file-utils-0.23.tar.xz"
+MD5="599133d51cc9a41bfec186414906b6f1  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

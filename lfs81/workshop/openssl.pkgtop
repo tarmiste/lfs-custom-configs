@@ -1,0 +1,15 @@
+#
+# openssl
+#
+## EDITHOOK1
+PKG=ABCopensslXYZ
+PKG_VERSION="1.1.0f">
+PKG_FILE=ABCopenssl-1.1.0f.tar.gzXYZ
+URL="https://openssl.org/source/openssl-1.1.0f.tar.gz"
+MD5="7b521dea79ab159e8ec879d2333369fa  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

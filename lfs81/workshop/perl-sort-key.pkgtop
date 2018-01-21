@@ -1,0 +1,14 @@
+#
+# perl-sort-key
+#
+## EDITHOOK1
+PKG=ABCperl-sort-keyXYZ
+PKG_VERSION=
+PKG_FILE=ABCSort-Key-1.33.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/S/SA/SALVA/Sort-Key-1.33.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

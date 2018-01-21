@@ -1,0 +1,15 @@
+#
+# kwave
+#
+## EDITHOOK1
+PKG=ABCkwaveXYZ
+PKG_VERSION=
+PKG_FILE=ABCkwave-17.08.0.tar.xzXYZ
+URL="http://download.kde.org/stable/applications/17.08.0/src/kwave-17.08.0.tar.xz"
+MD5="c4e445e98417901107e6adeb40f15d6f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

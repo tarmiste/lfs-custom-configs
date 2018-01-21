@@ -1,0 +1,15 @@
+#
+# cdparanoia
+#
+## EDITHOOK1
+PKG=ABCcdparanoiaXYZ
+PKG_VERSION=
+PKG_FILE=ABCcdparanoia-III-10.2.src.tgzXYZ
+URL="https://downloads.xiph.org/releases/cdparanoia/cdparanoia-III-10.2.src.tgz"
+MD5="b304bbe8ab63373924a744eac9ebc652  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/cdparanoia-III-10.2-gcc_fixes-1.patch PATCH1MD5"

@@ -1,0 +1,27 @@
+############# Building package
+cd $UNPACKDIR
+
+SAVEPATH=$PATH                  &&
+PATH=$PATH:/sbin:/usr/sbin      &&
+./configure --prefix=/usr       \
+            --exec-prefix=      \
+            --enable-applib     \
+            --enable-cmdlib     \
+            --enable-pkgconfig  \
+            --enable-udev_sync  &&
+make                            &&
+PATH=$SAVEPATH                  &&
+unset SAVEPATH
+make -j1 -C tools install_dmsetup_dynamic &&
+make -j1 -C udev  install                 &&
+make -j1 -C libdm install
+#make -k check_local || true
+#make -k -C test help || true
+#make -k  || true
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

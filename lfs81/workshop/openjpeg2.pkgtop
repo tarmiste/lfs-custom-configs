@@ -1,0 +1,15 @@
+#
+# openjpeg2
+#
+## EDITHOOK1
+PKG=ABCopenjpeg2XYZ
+PKG_VERSION="2.2.0">
+PKG_FILE=ABCopenjpeg-2.2.0.tar.gzXYZ
+URL="https://github.com/uclouvain/openjpeg/archive/v2.2.0/openjpeg-2.2.0.tar.gz"
+MD5="269bb0b175476f3addcc0d03bd9a97b6  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

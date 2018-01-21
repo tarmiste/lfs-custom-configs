@@ -1,0 +1,14 @@
+#
+# perl-text-csv
+#
+## EDITHOOK1
+PKG=ABCperl-text-csvXYZ
+PKG_VERSION=
+PKG_FILE=ABCText-CSV-1.95.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/I/IS/ISHIGAKI/Text-CSV-1.95.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

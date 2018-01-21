@@ -1,0 +1,15 @@
+#
+# presentproto
+#
+## EDITHOOK1
+PKG=ABCpresentprotoXYZ
+PKG_VERSION=
+PKG_FILE=ABCpresentproto-1.1.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/proto/presentproto-1.1.tar.bz2"
+MD5="92f9dda9c870d78a1d93f366bcb0e6cd  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# gnome-keyring
+#
+## EDITHOOK1
+PKG=ABCgnome-keyringXYZ
+PKG_VERSION=
+PKG_FILE=ABCgnome-keyring-3.20.1.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gnome-keyring/3.20/gnome-keyring-3.20.1.tar.xz"
+MD5="9b4b2c59dc1db3a1309cbe1fa1f2c2e7  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

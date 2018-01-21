@@ -1,0 +1,15 @@
+#
+# thunar-volman
+#
+## EDITHOOK1
+PKG=ABCthunar-volmanXYZ
+PKG_VERSION="0.8.1">
+PKG_FILE=ABCthunar-volman-0.8.1.tar.bz2XYZ
+URL="http://archive.xfce.org/src/xfce/thunar-volman/0.8/thunar-volman-0.8.1.tar.bz2"
+MD5="65ab6e05b2e808d1dcc8d36683a59b7e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

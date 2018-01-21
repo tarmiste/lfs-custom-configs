@@ -1,0 +1,15 @@
+#
+# cracklib
+#
+## EDITHOOK1
+PKG=ABCcracklibXYZ
+PKG_VERSION="2.9.6">
+PKG_FILE=ABCcracklib-2.9.6.tar.gz cracklib-words-2.9.6.gzXYZ
+URL="https://github.com/cracklib/cracklib/releases/download/cracklib-2.9.6/cracklib-2.9.6.tar.gz"
+MD5="c52f463585d85924b28cdc1e373ae06d  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

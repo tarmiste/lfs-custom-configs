@@ -1,0 +1,15 @@
+#
+# sshfs
+#
+## EDITHOOK1
+PKG=ABCsshfsXYZ
+PKG_VERSION="3.2.0">
+PKG_FILE=ABCsshfs-3.2.0.tar.gzXYZ
+URL="https://github.com/libfuse/sshfs/releases/download/sshfs-3.2.0/sshfs-3.2.0.tar.gz"
+MD5="dee189442efb22e08d4f233af8626ce7  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

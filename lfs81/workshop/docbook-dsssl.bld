@@ -1,0 +1,23 @@
+############# Building package
+cd $UNPACKDIR
+
+tar -xf ../docbook-dsssl-doc-1.79.tar.bz2 --strip-components=1
+install -v -m755 bin/collateindex.pl /usr/bin                      &&
+install -v -m644 bin/collateindex.pl.1 /usr/share/man/man1         &&
+install -v -d -m755 /usr/share/sgml/docbook/dsssl-stylesheets-1.79 &&
+cp -v -R * /usr/share/sgml/docbook/dsssl-stylesheets-1.79          &&
+
+install-catalog --add /etc/sgml/dsssl-docbook-stylesheets.cat \
+    /usr/share/sgml/docbook/dsssl-stylesheets-1.79/catalog         &&
+
+install-catalog --add /etc/sgml/dsssl-docbook-stylesheets.cat \
+    /usr/share/sgml/docbook/dsssl-stylesheets-1.79/common/catalog  &&
+
+install-catalog --add /etc/sgml/sgml-docbook.cat              \
+    /etc/sgml/dsssl-docbook-stylesheets.cat
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

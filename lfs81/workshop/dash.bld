@@ -1,0 +1,16 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --bindir=/bin --mandir=/usr/share/man &&
+make
+make -j1 install
+ldconfig
+
+cat >> /etc/shells << "EOF"
+/bin/dash
+EOF
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

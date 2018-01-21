@@ -1,0 +1,15 @@
+#
+# lcms
+#
+## EDITHOOK1
+PKG=ABClcmsXYZ
+PKG_VERSION="1.19">
+PKG_FILE=ABClcms-1.19.tar.gzXYZ
+URL="https://downloads.sourceforge.net/lcms/lcms-1.19.tar.gz"
+MD5="8af94611baf20d9646c7c2c285859818  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/lcms-1.19-cve_2013_4276-1.patch PATCH1MD5"

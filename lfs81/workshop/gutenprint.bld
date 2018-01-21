@@ -1,0 +1,24 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i 's|$(PACKAGE)/doc|doc/$(PACKAGE)-$(VERSION)|' \
+       {,doc/,doc/developer/}Makefile.in &&
+
+./configure --prefix=/usr --disable-static &&
+
+make
+#make -k check || true
+make -j1 install &&
+install -v -m755 -d /usr/share/doc/gutenprint-5.2.12/api/gutenprint{,ui2} &&
+install -v -m644    doc/gutenprint/html/* \
+                    /usr/share/doc/gutenprint-5.2.12/api/gutenprint &&
+install -v -m644    doc/gutenprintui2/html/* \
+                    /usr/share/doc/gutenprint-5.2.12/api/gutenprintui2
+ldconfig
+
+/etc/rc.d/init.d/cups restart
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

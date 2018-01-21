@@ -1,0 +1,20 @@
+############# Building package
+cd $UNPACKDIR
+
+mkdir build &&
+cd    build &&
+
+cmake -DCMAKE_INSTALL_PREFIX=/usr      \
+      -DCMAKE_BUILD_TYPE=Release       \
+      -DFREEGLUT_BUILD_DEMOS=OFF       \
+      -DFREEGLUT_BUILD_STATIC_LIBS=OFF \
+      .. &&
+
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

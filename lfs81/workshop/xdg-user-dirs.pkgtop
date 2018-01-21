@@ -1,0 +1,15 @@
+#
+# xdg-user-dirs
+#
+## EDITHOOK1
+PKG=ABCxdg-user-dirsXYZ
+PKG_VERSION="0.16">
+PKG_FILE=ABCxdg-user-dirs-0.16.tar.gzXYZ
+URL="https://user-dirs.freedesktop.org/releases/xdg-user-dirs-0.16.tar.gz"
+MD5="2c0703d02df610c9eaf0c22431bdabae  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

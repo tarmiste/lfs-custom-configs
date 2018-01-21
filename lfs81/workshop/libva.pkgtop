@@ -1,0 +1,16 @@
+#
+# libva
+#
+## EDITHOOK1
+PKG=ABClibvaXYZ
+PKG_VERSION="1.8.3">
+PKG_FILE=ABClibva-1.8.3.tar.bz2 intel-vaapi-driver-1.8.3.tar.bz2XYZ
+URL="https://github.com/01org/libva/releases/download/1.8.3/libva-1.8.3.tar.bz2"
+MD5="0d498a6ad65d21a8a15f990cb4ea5dff  $PACKAGE"
+MD5="f2476b4db83954b360281dddb2d1430e  $PACKAGE1"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

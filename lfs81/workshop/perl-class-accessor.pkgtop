@@ -1,0 +1,14 @@
+#
+# perl-class-accessor
+#
+## EDITHOOK1
+PKG=ABCperl-class-accessorXYZ
+PKG_VERSION=
+PKG_FILE=ABCClass-Accessor-0.34.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/K/KA/KASEI/Class-Accessor-0.34.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

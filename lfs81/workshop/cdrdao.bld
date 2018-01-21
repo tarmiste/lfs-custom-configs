@@ -1,0 +1,17 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i '/ioctl.h/a #include <sys/stat.h>' dao/ScsiIf-linux.cc  &&
+sed -i 's/\(char .*REMOTE\)/unsigned \1/' dao/CdrDriver.{cc,h} &&
+
+./configure --prefix=/usr --mandir=/usr/share/man &&
+make
+make -j1 install &&
+install -v -m755 -d /usr/share/doc/cdrdao-1.2.3 &&
+install -v -m644 README /usr/share/doc/cdrdao-1.2.3
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

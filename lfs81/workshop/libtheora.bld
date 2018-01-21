@@ -1,0 +1,18 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i 's/png_\(sizeof\)/\1/g' examples/png2theora.c &&
+./configure --prefix=/usr --disable-static &&
+make
+#make -k check || true
+make -j1 install
+cd examples/.libs &&
+for E in *; do
+  install -v -m755 $E /usr/bin/theora_${E}
+done
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

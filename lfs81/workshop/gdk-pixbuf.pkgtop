@@ -1,0 +1,15 @@
+#
+# gdk-pixbuf
+#
+## EDITHOOK1
+PKG=ABCgdk-pixbufXYZ
+PKG_VERSION="2.36.8">
+PKG_FILE=ABCgdk-pixbuf-2.36.8.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gdk-pixbuf/2.36/gdk-pixbuf-2.36.8.tar.xz"
+MD5="e0aaa0061eb12667b32b27472230b962  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# libpciaccess
+#
+## EDITHOOK1
+PKG=ABClibpciaccessXYZ
+PKG_VERSION=
+PKG_FILE=ABClibpciaccess-0.13.5.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/lib/libpciaccess-0.13.5.tar.bz2"
+MD5="d810ab17e24c1418dedf7207fb2841d4  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

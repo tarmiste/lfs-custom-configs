@@ -1,0 +1,15 @@
+#
+# libburn
+#
+## EDITHOOK1
+PKG=ABClibburnXYZ
+PKG_VERSION="1.4.6">
+PKG_FILE=ABClibburn-1.4.6.tar.gzXYZ
+URL="http://files.libburnia-project.org/releases/libburn-1.4.6.tar.gz"
+MD5="eeab90dfd8b6ae95748a64009b02e4ec  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

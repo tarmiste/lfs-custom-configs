@@ -1,0 +1,17 @@
+#
+# llvm
+#
+## EDITHOOK1
+PKG=ABCllvmXYZ
+PKG_VERSION="4.0.1">
+PKG_FILE=ABCllvm-4.0.1.src.tar.xz cfe-4.0.1.src.tar.xz compiler-rt-4.0.1.src.tar.xzXYZ
+URL="http://llvm.org/releases/4.0.1/llvm-4.0.1.src.tar.xz"
+MD5="a818e70321b91e2bb2d47e60edd5408f  $PACKAGE"
+MD5="a6c7b3e953f8b93e252af5917df7db97  $PACKAGE1"
+MD5="0227ac853ce422125f8bb08f6ad5c995  $PACKAGE1"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/compiler-rt-4.0.1-glibc-2.26-1.patch PATCH1MD5"

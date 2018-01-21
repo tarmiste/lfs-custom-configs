@@ -1,0 +1,15 @@
+#
+# fop
+#
+## EDITHOOK1
+PKG=ABCfopXYZ
+PKG_VERSION="2.2">
+PKG_FILE=ABCfop-2.2-src.tar.gz offo-hyphenation.zip jai-1_1_3-lib-linux-i586.tar.gz jai-1_1_3-lib-linux-amd64.tar.gzXYZ
+URL="https://archive.apache.org/dist/xmlgraphics/fop/source/fop-2.2-src.tar.gz"
+MD5="6d2388bd8851b4883d3258c0afc96895  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

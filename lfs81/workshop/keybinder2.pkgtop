@@ -1,0 +1,15 @@
+#
+# keybinder2
+#
+## EDITHOOK1
+PKG=ABCkeybinder2XYZ
+PKG_VERSION="0.3.0">
+PKG_FILE=ABCkeybinder-0.3.0.tar.gzXYZ
+URL="http://pkgs.fedoraproject.org/repo/pkgs/keybinder/keybinder-0.3.0.tar.gz/2a0aed62ba14d1bf5c79707e20cb4059/keybinder-0.3.0.tar.gz"
+MD5="2a0aed62ba14d1bf5c79707e20cb4059  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

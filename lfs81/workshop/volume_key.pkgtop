@@ -1,0 +1,15 @@
+#
+# volume_key
+#
+## EDITHOOK1
+PKG=ABCvolume_keyXYZ
+PKG_VERSION="0.3.9">
+PKG_FILE=ABCvolume_key-0.3.9.tar.xzXYZ
+URL="https://releases.pagure.org/volume_key/volume_key-0.3.9.tar.xz"
+MD5="a2d14931177c660e1f3ebbcf5f47d8e2  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

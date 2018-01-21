@@ -1,0 +1,15 @@
+#
+# pygobject2
+#
+## EDITHOOK1
+PKG=ABCpygobject2XYZ
+PKG_VERSION="2.28.6">
+PKG_FILE=ABCpygobject-2.28.6.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/pygobject/2.28/pygobject-2.28.6.tar.xz"
+MD5="9415cb7f2b3a847f2310ccea258b101e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/pygobject-2.28.6-fixes-1.patch PATCH1MD5"

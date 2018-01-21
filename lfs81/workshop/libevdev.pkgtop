@@ -1,0 +1,15 @@
+#
+# libevdev
+#
+## EDITHOOK1
+PKG=ABClibevdevXYZ
+PKG_VERSION=
+PKG_FILE=ABClibevdev-1.5.7.tar.xzXYZ
+URL="https://www.freedesktop.org/software/libevdev/libevdev-1.5.7.tar.xz"
+MD5="4f1cfaee8d75ea3fbbfeb99a98730952  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# gwenview5
+#
+## EDITHOOK1
+PKG=ABCgwenview5XYZ
+PKG_VERSION=
+PKG_FILE=ABCgwenview-17.08.0.tar.xzXYZ
+URL="http://download.kde.org/stable/applications/17.08.0/src/gwenview-17.08.0.tar.xz"
+MD5="9d5b9244c651d78caa4aba03c773f8d6  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

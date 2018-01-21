@@ -1,0 +1,14 @@
+#
+# perl-lwp
+#
+## EDITHOOK1
+PKG=ABCperl-lwpXYZ
+PKG_VERSION=
+PKG_FILE=ABClibwww-perl-6.26.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/O/OA/OALDERS/libwww-perl-6.26.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

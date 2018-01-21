@@ -1,0 +1,15 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i "/Append/s:RPATH=libdir,::"   SConstruct &&
+sed -i "/Default/s:lib_static,::"    SConstruct &&
+sed -i "/Alias/s:install_static,::"  SConstruct &&
+scons PREFIX=/usr
+#make -k  || true
+scons PREFIX=/usr install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

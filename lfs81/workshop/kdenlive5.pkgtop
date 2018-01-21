@@ -1,0 +1,15 @@
+#
+# kdenlive5
+#
+## EDITHOOK1
+PKG=ABCkdenlive5XYZ
+PKG_VERSION=
+PKG_FILE=ABCkdenlive-17.08.0.tar.xzXYZ
+URL="http://download.kde.org/stable/applications/17.08.0/src/kdenlive-17.08.0.tar.xz"
+MD5="fc57bb3944c1a25a0573e762d4e48ecc  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

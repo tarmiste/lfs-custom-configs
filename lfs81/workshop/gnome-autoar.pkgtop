@@ -1,0 +1,15 @@
+#
+# gnome-autoar
+#
+## EDITHOOK1
+PKG=ABCgnome-autoarXYZ
+PKG_VERSION=
+PKG_FILE=ABCgnome-autoar-0.2.2.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gnome-autoar/0.2/gnome-autoar-0.2.2.tar.xz"
+MD5="90b4980c96614bcc376af44717deef99  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

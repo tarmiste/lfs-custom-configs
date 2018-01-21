@@ -1,0 +1,15 @@
+#
+# doxygen
+#
+## EDITHOOK1
+PKG=ABCdoxygenXYZ
+PKG_VERSION="1.8.13">
+PKG_FILE=ABCdoxygen-1.8.13.src.tar.gzXYZ
+URL="http://ftp.stack.nl/pub/doxygen/doxygen-1.8.13.src.tar.gz"
+MD5="0fa414975f8cd6d30e126c28327c1f7c  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

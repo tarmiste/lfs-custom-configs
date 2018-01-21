@@ -1,0 +1,26 @@
+############# Building package
+cd $UNPACKDIR
+
+mkdir -v build &&
+cd       build &&
+
+cmake -DCMAKE_BUILD_TYPE=Release          \
+      -DCMAKE_INSTALL_PREFIX=$LXQT_PREFIX \
+      ..       &&
+
+make
+make -j1 install
+ldconfig
+
+cat >> /etc/profile.d/lxqt.sh << "EOF"
+# Begin lxqt-qtplugin configuration
+
+export QT_QPA_PLATFORMTHEME=lxqt
+
+# End lxqt-qtplugin configuration
+EOF
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

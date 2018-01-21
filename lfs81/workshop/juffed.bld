@@ -1,0 +1,22 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i 's/"64"/""/' cmake/LibSuffix.cmake &&
+
+mkdir -v build &&
+cd       build &&
+
+cmake -DCMAKE_INSTALL_PREFIX=$LXQT_PREFIX \
+      -DCMAKE_BUILD_TYPE=Release          \
+      -DBUILD_TERMINAL=ON                 \
+      -DUSE_QT5=true                      \
+      ..       &&
+
+LIBRARY_PATH=$LXQT_PREFIX/lib make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

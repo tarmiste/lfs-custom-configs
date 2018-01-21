@@ -1,0 +1,17 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr    \
+            --enable-jpeg    \
+            --enable-jasper  \
+            --enable-lcms    \
+            --disable-static \
+            --docdir=/usr/share/doc/libraw-0.18.2 &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,15 @@
+#
+# libmad
+#
+## EDITHOOK1
+PKG=ABClibmadXYZ
+PKG_VERSION="0.15.1b">
+PKG_FILE=ABClibmad-0.15.1b.tar.gzXYZ
+URL="https://downloads.sourceforge.net/mad/libmad-0.15.1b.tar.gz"
+MD5="1be543bc30c56fb6bea1d7bf6a64e66c  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/libmad-0.15.1b-fixes-1.patch PATCH1MD5"

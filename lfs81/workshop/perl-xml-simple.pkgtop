@@ -1,0 +1,14 @@
+#
+# perl-xml-simple
+#
+## EDITHOOK1
+PKG=ABCperl-xml-simpleXYZ
+PKG_VERSION=
+PKG_FILE=ABCXML-Simple-2.24.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/G/GR/GRANTM/XML-Simple-2.24.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

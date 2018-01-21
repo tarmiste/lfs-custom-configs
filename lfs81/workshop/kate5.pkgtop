@@ -1,0 +1,15 @@
+#
+# kate5
+#
+## EDITHOOK1
+PKG=ABCkate5XYZ
+PKG_VERSION=
+PKG_FILE=ABCkate-17.08.0.tar.xzXYZ
+URL="http://download.kde.org/stable/applications/17.08.0/src/kate-17.08.0.tar.xz"
+MD5="05fd3a46011a39b05677c4e94ec4de3f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

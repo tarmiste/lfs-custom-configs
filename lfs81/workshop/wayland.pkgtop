@@ -1,0 +1,15 @@
+#
+# wayland
+#
+## EDITHOOK1
+PKG=ABCwaylandXYZ
+PKG_VERSION="1.14.0">
+PKG_FILE=ABCwayland-1.14.0.tar.xzXYZ
+URL="https://wayland.freedesktop.org/releases/wayland-1.14.0.tar.xz"
+MD5="0235f6075c32c3be61cff94fa0b9f108  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

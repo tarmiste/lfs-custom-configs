@@ -1,0 +1,23 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/speex-1.2.0 &&
+make
+make -j1 install
+cd ..                          &&
+tar -xf speexdsp-1.2rc3.tar.gz &&
+cd speexdsp-1.2rc3             &&
+
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/speexdsp-1.2rc3 &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

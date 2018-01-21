@@ -1,0 +1,15 @@
+############# Building package
+cd $UNPACKDIR
+
+perl ./Build.PL &&
+./Build
+#make -k  || true
+tar -xf ../biblatex-3.7.tds.tgz -C /opt/texlive/2017/texmf-dist &&
+texhash &&
+./Build install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

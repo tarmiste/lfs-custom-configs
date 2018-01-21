@@ -1,0 +1,15 @@
+#
+# lxqt-admin
+#
+## EDITHOOK1
+PKG=ABClxqt-adminXYZ
+PKG_VERSION=;">
+PKG_FILE=ABClxqt-admin-0.11.1.tar.xzXYZ
+URL="https://github.com/lxde/lxqt-admin/releases/download/0.11.1/lxqt-admin-0.11.1.tar.xz"
+MD5="0cb54de55b6e52b32249a487aa74f4db  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# lxde-icon-theme
+#
+## EDITHOOK1
+PKG=ABClxde-icon-themeXYZ
+PKG_VERSION="0.5.1">
+PKG_FILE=ABClxde-icon-theme-0.5.1.tar.xzXYZ
+URL="https://downloads.sourceforge.net/lxde/lxde-icon-theme-0.5.1.tar.xz"
+MD5="7467133275edbbcc79349379235d4411  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

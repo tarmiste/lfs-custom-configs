@@ -1,0 +1,15 @@
+#
+# whois
+#
+## EDITHOOK1
+PKG=ABCwhoisXYZ
+PKG_VERSION="5.2.17">
+PKG_FILE=ABCwhois_5.2.17.tar.xzXYZ
+URL="http://ftp.debian.org/debian/pool/main/w/whois/whois_5.2.17.tar.xz"
+MD5="6f7a9462b4490cf272e2a37cff7d79e4  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

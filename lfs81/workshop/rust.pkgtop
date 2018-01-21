@@ -1,0 +1,15 @@
+#
+# rust
+#
+## EDITHOOK1
+PKG=ABCrustXYZ
+PKG_VERSION="1.19.0">
+PKG_FILE=ABCrustc-1.19.0-src.tar.gzXYZ
+URL="https://static.rust-lang.org/dist/rustc-1.19.0-src.tar.gz"
+MD5="75e779670ac79edf023497a9c37eb35d  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+LIBS+="-lcrypto" ./configure --prefix=/usr       \
+                             --sysconfdir=/etc   \
+                             --without-ldap      \
+                             --without-krb5      \
+                             --without-pam       \
+                             --without-tcl       \
+                             --with-ssl-dir=/usr \
+                             --with-passfile=.pine-passfile &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

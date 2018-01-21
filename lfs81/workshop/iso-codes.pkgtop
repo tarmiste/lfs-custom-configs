@@ -1,0 +1,15 @@
+#
+# iso-codes
+#
+## EDITHOOK1
+PKG=ABCiso-codesXYZ
+PKG_VERSION="3.75">
+PKG_FILE=ABCiso-codes-3.75.tar.xzXYZ
+URL="https://pkg-isocodes.alioth.debian.org/downloads/iso-codes-3.75.tar.xz"
+MD5="9ba173b69d4360003414f23837597a92  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

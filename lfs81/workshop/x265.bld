@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+mkdir bld &&
+cd    bld &&
+
+cmake -DCMAKE_INSTALL_PREFIX=/usr \
+      -DENABLE_STATIC=OFF         \
+      ../source                   &&
+
+make
+make -j1 install &&
+rm /usr/lib/libx265.a 
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

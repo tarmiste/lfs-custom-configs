@@ -1,0 +1,15 @@
+#
+# libcdio
+#
+## EDITHOOK1
+PKG=ABClibcdioXYZ
+PKG_VERSION="0.94">
+PKG_FILE=ABClibcdio-0.94.tar.gz libcdio-paranoia-10.2+0.94+2.tar.gzXYZ
+URL="https://ftp.gnu.org/gnu/libcdio/libcdio-0.94.tar.gz"
+MD5="d8734266a20fbc2605a97b701b838ab6  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

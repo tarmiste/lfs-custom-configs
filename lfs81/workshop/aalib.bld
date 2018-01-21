@@ -1,0 +1,16 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i -e '/AM_PATH_AALIB,/s/AM_PATH_AALIB/[&]/' aalib.m4
+./configure --prefix=/usr             \
+            --infodir=/usr/share/info \
+            --mandir=/usr/share/man   \
+            --disable-static          &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

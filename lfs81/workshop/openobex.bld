@@ -1,0 +1,23 @@
+############# Building package
+cd $UNPACKDIR
+
+groupadd -g 90 plugdev
+mkdir build &&
+cd    build &&
+
+cmake -DCMAKE_INSTALL_PREFIX=/usr      \
+      -DCMAKE_INSTALL_LIBDIR=/usr/lib  \
+      -DCMAKE_BUILD_TYPE=Release       \
+      -Wno-dev                         \
+      .. &&
+make
+make -j1 install &&
+if [ -d /usr/share/doc/openobex ]; then
+  mv -fv /usr/share/doc/{openobex,openobex-1.7.2}
+fi
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

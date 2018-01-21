@@ -1,0 +1,15 @@
+#
+# apache
+#
+## EDITHOOK1
+PKG=ABCapacheXYZ
+PKG_VERSION="2.4.27">
+PKG_FILE=ABChttpd-2.4.27.tar.bz2XYZ
+URL="https://archive.apache.org/dist/httpd/httpd-2.4.27.tar.bz2"
+MD5="97b6bbfa83c866dbe20ef317e3afd108  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/httpd-2.4.27-blfs_layout-1.patch PATCH1MD5"

@@ -1,0 +1,12 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/ --mandir=/usr/share/man &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

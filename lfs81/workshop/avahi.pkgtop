@@ -1,0 +1,15 @@
+#
+# avahi
+#
+## EDITHOOK1
+PKG=ABCavahiXYZ
+PKG_VERSION="0.7">
+PKG_FILE=ABCavahi-0.7.tar.gzXYZ
+URL="https://github.com/lathiat/avahi/releases/download/v0.7/avahi-0.7.tar.gz"
+MD5="d76c59d0882ac6c256d70a2a585362a6  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,14 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr --with-x11 &&
+make
+#make -k check || true
+make -j1 install
+gdk-pixbuf-query-loaders --update-cache
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

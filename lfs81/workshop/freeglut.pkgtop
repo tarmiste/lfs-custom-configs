@@ -1,0 +1,15 @@
+#
+# freeglut
+#
+## EDITHOOK1
+PKG=ABCfreeglutXYZ
+PKG_VERSION="3.0.0">
+PKG_FILE=ABCfreeglut-3.0.0.tar.gzXYZ
+URL="https://downloads.sourceforge.net/freeglut/freeglut-3.0.0.tar.gz"
+MD5="90c3ca4dd9d51cf32276bc5344ec9754  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# gst10-plugins-bad
+#
+## EDITHOOK1
+PKG=ABCgst10-plugins-badXYZ
+PKG_VERSION="1.12.2"> <!-- Even minors only -->
+PKG_FILE=ABCgst-plugins-bad-1.12.2.tar.xzXYZ
+URL="https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.12.2.tar.xz"
+MD5="5683f0ea91f9e1e0613b0f6f729980a7  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

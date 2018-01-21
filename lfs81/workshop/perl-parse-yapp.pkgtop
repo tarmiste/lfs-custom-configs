@@ -1,0 +1,14 @@
+#
+# perl-parse-yapp
+#
+## EDITHOOK1
+PKG=ABCperl-parse-yappXYZ
+PKG_VERSION=
+PKG_FILE=ABCParse-Yapp-1.21.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,37 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr    \
+            --disable-static \
+            --exec-prefix=/  \
+            --with-pkgconfigdir=/usr/lib/pkgconfig \
+            INIT_D_PATH=/tmp/init.d &&
+make
+make -j1 install                                         &&
+rm -v /lib/libfuse3.{so,la}                          &&
+ln -sfv ../../lib/libfuse3.so.3 /usr/lib/libfuse3.so &&
+
+rm -rf  /tmp/init.d &&
+
+install -v -m755 -d /usr/share/doc/fuse-3.1.1 &&
+install -v -m644    doc/{README.NFS,kernel.txt} \
+                    /usr/share/doc/fuse-3.1.1 &&
+cp -Rv doc/html /usr/share/doc/fuse-3.1.1
+ldconfig
+
+cat > /etc/fuse.conf << "EOF"
+# Set the maximum number of FUSE mounts allowed to non-root users.
+# The default is 1000.
+#
+#mount_max = 1000
+
+# Allow non-root users to specify the 'allow_other' or 'allow_root'
+# mount options.
+#
+#user_allow_other
+EOF
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

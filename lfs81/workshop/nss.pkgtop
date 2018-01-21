@@ -1,0 +1,15 @@
+#
+# nss
+#
+## EDITHOOK1
+PKG=ABCnssXYZ
+PKG_VERSION=<!--;"> --> ;">
+PKG_FILE=ABCnss-3.32.tar.gzXYZ
+URL="https://archive.mozilla.org/pub/security/nss/releases/NSS_3_32_RTM/src/nss-3.32.tar.gz"
+MD5="076abf8ed88b6bb28f3396b072d252ed  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/nss-3.32-standalone-1.patch PATCH1MD5"

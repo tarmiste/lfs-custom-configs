@@ -1,0 +1,15 @@
+#
+# six
+#
+## EDITHOOK1
+PKG=ABCsixXYZ
+PKG_VERSION="1.10.0">
+PKG_FILE=ABCsix-1.10.0.tar.gzXYZ
+URL="https://pypi.io/packages/source/s/six/six-1.10.0.tar.gz"
+MD5="34eed507548117b2ab523ab14b2f8b55  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

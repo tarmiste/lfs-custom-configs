@@ -1,0 +1,15 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr --sysconfdir=/etc &&
+make
+make -j1 install
+update-mime-database /usr/share/mime &&
+gtk-update-icon-cache -qf /usr/share/icons/hicolor &&
+update-desktop-database -q
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

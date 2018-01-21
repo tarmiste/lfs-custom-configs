@@ -1,0 +1,15 @@
+#
+# xfce4-appfinder
+#
+## EDITHOOK1
+PKG=ABCxfce4-appfinderXYZ
+PKG_VERSION="4.12.0">
+PKG_FILE=ABCxfce4-appfinder-4.12.0.tar.bz2XYZ
+URL="http://archive.xfce.org/src/xfce/xfce4-appfinder/4.12/xfce4-appfinder-4.12.0.tar.bz2"
+MD5="0b238b30686388c507c119b12664f1a1  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

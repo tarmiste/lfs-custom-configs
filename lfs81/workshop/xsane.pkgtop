@@ -1,0 +1,15 @@
+#
+# xsane
+#
+## EDITHOOK1
+PKG=ABCxsaneXYZ
+PKG_VERSION="0.999">
+PKG_FILE=ABCxsane-0.999.tar.gzXYZ
+URL="http://www.xsane.org/download/xsane-0.999.tar.gz"
+MD5="9927f21e1ab6ba96315e7f0e30746deb  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

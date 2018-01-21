@@ -1,0 +1,15 @@
+#
+# lxqt-panel
+#
+## EDITHOOK1
+PKG=ABClxqt-panelXYZ
+PKG_VERSION=;">
+PKG_FILE=ABClxqt-panel-0.11.1.tar.xzXYZ
+URL="https://github.com/lxde/lxqt-panel/releases/download/0.11.1/lxqt-panel-0.11.1.tar.xz"
+MD5="bf84113e02c84c32b90539855a3e6139  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

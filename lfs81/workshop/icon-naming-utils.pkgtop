@@ -1,0 +1,15 @@
+#
+# icon-naming-utils
+#
+## EDITHOOK1
+PKG=ABCicon-naming-utilsXYZ
+PKG_VERSION="0.8.90">
+PKG_FILE=ABCicon-naming-utils-0.8.90.tar.bz2XYZ
+URL="http://tango.freedesktop.org/releases/icon-naming-utils-0.8.90.tar.bz2"
+MD5="dd8108b56130b9eedc4042df634efa66  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# sdl
+#
+## EDITHOOK1
+PKG=ABCsdlXYZ
+PKG_VERSION="1.2.15">
+PKG_FILE=ABCSDL-1.2.15.tar.gzXYZ
+URL="http://www.libsdl.org/release/SDL-1.2.15.tar.gz"
+MD5="9d96df8417572a2afb781a7c4c811a85  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure &&
+make
+make doc
+#make -k check || true
+make -j1 install
+install -v -d -m755 /usr/share/doc/alsa-lib-1.1.4.1/html/search &&
+install -v -m644 doc/doxygen/html/*.* \
+                /usr/share/doc/alsa-lib-1.1.4.1/html &&
+install -v -m644 doc/doxygen/html/search/* \
+                /usr/share/doc/alsa-lib-1.1.4.1/html/search
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

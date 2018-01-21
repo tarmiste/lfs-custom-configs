@@ -1,0 +1,25 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -e 's:<KF5/KWindowSystem/:<:'               \
+    -i plugin-taskbar/lxqttaskgroup.{h,cpp}     &&
+
+sed -e '/kbdinfo.h/i #undef explicit'           \
+    -i plugin-kbindicator/src/x11/kbdlayout.cpp &&
+
+mkdir -v build &&
+cd       build &&
+
+cmake -DCMAKE_INSTALL_PREFIX=$LXQT_PREFIX \
+      -DCMAKE_BUILD_TYPE=Release          \
+      -DPULL_TRANSLATIONS=no              \
+      -DCMAKE_INSTALL_LIBDIR=lib          \
+      ..                                  &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

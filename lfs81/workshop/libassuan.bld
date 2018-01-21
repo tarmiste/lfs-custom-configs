@@ -1,0 +1,17 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr &&
+make
+make -C doc pdf ps
+#make -k check || true
+make -j1 install
+install -v -dm755 /usr/share/doc/libassuan-2.4.3 &&
+install -v -m644  doc/assuan.{pdf,ps,dvi} \
+                  /usr/share/doc/libassuan-2.4.3
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,18 @@
+############# Building package
+cd $UNPACKDIR
+
+cd Qt4Qt5             &&
+qmake qscintilla.pro  &&
+make
+make -j1 install &&
+
+ln -sfv libqscintilla2_qt5.so.13.0.0 $QT5DIR/lib/libqt5scintilla2.so
+install -v -m755 -d $QT5DIR/share/doc/QScintilla-2.10.1/html &&
+install -v -m644    ../doc/html-Qt4Qt5/* \
+                    $QT5DIR/share/doc/QScintilla-2.10.1/html
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

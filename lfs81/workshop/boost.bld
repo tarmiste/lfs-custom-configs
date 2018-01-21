@@ -1,0 +1,15 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -e '/using python/ s@;@: /usr/include/python${PYTHON_VERSION/3*/${PYTHON_VERSION}m} ;@' \
+    -i bootstrap.sh
+./bootstrap.sh --prefix=/usr &&
+./b2 stage threading=multi link=shared
+#make -k  || true
+./b2 install threading=multi link=shared
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

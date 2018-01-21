@@ -1,0 +1,15 @@
+#
+# libwnck
+#
+## EDITHOOK1
+PKG=ABClibwnckXYZ
+PKG_VERSION=
+PKG_FILE=ABClibwnck-3.24.1.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/libwnck/3.24/libwnck-3.24.1.tar.xz"
+MD5="23df51ec0a1169014fe3a102d572b244  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

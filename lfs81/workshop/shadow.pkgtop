@@ -1,0 +1,15 @@
+#
+# shadow
+#
+## EDITHOOK1
+PKG=ABCshadowXYZ
+PKG_VERSION="4.5">
+PKG_FILE=ABCshadow-4.5.tar.xzXYZ
+URL="https://github.com/shadow-maint/shadow/releases/download/4.5/shadow-4.5.tar.xz"
+MD5="c350da50c2120de6bb29177699d89fe3  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

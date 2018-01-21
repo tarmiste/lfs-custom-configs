@@ -1,0 +1,15 @@
+#
+# qt5
+#
+## EDITHOOK1
+PKG=ABCqt5XYZ
+PKG_VERSION="5.9.1">
+PKG_FILE=ABCqt-everywhere-opensource-src-5.9.1.tar.xzXYZ
+URL="https://download.qt.io/archive/qt/5.9/5.9.1/single/qt-everywhere-opensource-src-5.9.1.tar.xz"
+MD5="77b4af61c49a09833d4df824c806acaf  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

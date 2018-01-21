@@ -1,0 +1,15 @@
+#
+# libusb-compat
+#
+## EDITHOOK1
+PKG=ABClibusb-compatXYZ
+PKG_VERSION="0.1.5">
+PKG_FILE=ABClibusb-compat-0.1.5.tar.bz2XYZ
+URL="https://downloads.sourceforge.net/libusb/libusb-compat-0.1.5.tar.bz2"
+MD5="2780b6a758a1e2c2943bdbf7faf740e4  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

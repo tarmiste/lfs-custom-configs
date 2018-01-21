@@ -1,0 +1,11 @@
+############# Building package
+cd $UNPACKDIR
+
+make -f makefile
+install -v -m755 unrar /usr/bin
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

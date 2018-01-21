@@ -1,0 +1,20 @@
+############# Building package
+cd $UNPACKDIR
+
+patch -Np1 -i ../vlc-2.2.6-ffmpeg3-1.patch    &&
+sed -i 's/error-implicit-function-declaration//' configure &&
+
+CFLAGS="-DLUA_COMPAT_5_1" \
+./configure --prefix=/usr --disable-atmo &&
+
+make
+#make -k check || true
+make -j1 docdir=/usr/share/doc/vlc-2.2.6 install
+gtk-update-icon-cache &&
+update-desktop-database
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

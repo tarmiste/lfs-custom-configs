@@ -1,0 +1,15 @@
+#
+# libXt
+#
+## EDITHOOK1
+PKG=ABClibXtXYZ
+PKG_VERSION=
+PKG_FILE=ABClibXt-1.1.5.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/lib/libXt-1.1.5.tar.bz2"
+MD5="8f5b5576fbabba29a05f3ca2226f74d3  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

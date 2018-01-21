@@ -1,0 +1,26 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr               \
+            --sysconfdir=/etc           \
+            --disable-static            \
+            --enable-build-type=release \
+            --enable-cmyk               \
+            --enable-xpdf-headers       \
+            --with-testdatadir=$PWD/testfiles &&
+make
+#make -k  || true
+#LC_ALL=en_US.UTF-8 make -k check || true
+make -j1 install
+install -v -m755 -d        /usr/share/doc/poppler-0.57.0 &&
+install -v -m644 README*   /usr/share/doc/poppler-0.57.0 &&
+cp -vr glib/reference/html /usr/share/doc/poppler-0.57.0
+tar -xf ../poppler-data-0.4.8.tar.gz &&
+cd poppler-data-0.4.8
+make -j1 prefix=/usr install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

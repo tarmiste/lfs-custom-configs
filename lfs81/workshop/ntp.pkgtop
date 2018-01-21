@@ -1,0 +1,15 @@
+#
+# ntp
+#
+## EDITHOOK1
+PKG=ABCntpXYZ
+PKG_VERSION="4.2.8p10">
+PKG_FILE=ABCntp-4.2.8p10.tar.gzXYZ
+URL="https://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-4.2/ntp-4.2.8p10.tar.gz"
+MD5="745384ed0dedb3f66b33fe84d66466f9  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

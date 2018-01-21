@@ -1,0 +1,15 @@
+#
+# qpdf
+#
+## EDITHOOK1
+PKG=ABCqpdfXYZ
+PKG_VERSION="6.0.0">
+PKG_FILE=ABCqpdf-6.0.0.tar.gzXYZ
+URL="https://downloads.sourceforge.net/qpdf/qpdf-6.0.0.tar.gz"
+MD5="e014bd3ecf1c4d1a520bbc14d84ac20e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

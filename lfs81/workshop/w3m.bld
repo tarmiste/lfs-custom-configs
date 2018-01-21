@@ -1,0 +1,22 @@
+############# Building package
+cd $UNPACKDIR
+
+patch -Np1 -i ../w3m-0.5.3-bdwgc72-1.patch &&
+sed -i 's/file_handle/file_foo/' istream.{c,h} &&
+sed -i 's#gdk-pixbuf-xlib-2.0#& x11#' configure &&
+
+PKG_CONFIG_PATH="/usr/lib/openssl-1.0/pkgconfig:$PKG_CONFIG_PATH" \
+    ./configure --prefix=/usr --sysconfdir=/etc  &&
+make
+make -j1 install &&
+install -v -m644 -D doc/keymap.default /etc/w3m/keymap &&
+install -v -m644    doc/menu.default /etc/w3m/menu &&
+install -v -m755 -d /usr/share/doc/w3m-0.5.3 &&
+install -v -m644    doc/{HISTORY,READ*,keymap.*,menu.*,*.html} \
+                    /usr/share/doc/w3m-0.5.3
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

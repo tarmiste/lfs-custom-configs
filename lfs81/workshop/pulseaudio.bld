@@ -1,0 +1,21 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr        \
+            --sysconfdir=/etc    \
+            --localstatedir=/var \
+            --disable-bluez4     \
+            --disable-bluez5     \
+            --disable-rpath      &&
+make
+#make -k check || true
+make -j1 install
+rm /etc/dbus-1/system.d/pulseaudio-system.conf
+ldconfig
+
+sed -i '/load-module module-console-kit/s/^/#/' /etc/pulse/default.pa
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

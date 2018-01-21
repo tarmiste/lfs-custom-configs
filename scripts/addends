@@ -1,4 +1,4 @@
-for fname in 501-*
+for fname in `cat list`
  do echo ============ $fname
  basename=`echo $fname |cut -c 5-80 -`
  ls ../*-z-${basename}

@@ -1,0 +1,15 @@
+#
+# shared-mime-info
+#
+## EDITHOOK1
+PKG=ABCshared-mime-infoXYZ
+PKG_VERSION="1.8">
+PKG_FILE=ABCshared-mime-info-1.8.tar.xzXYZ
+URL="https://people.freedesktop.org/~hadess/shared-mime-info-1.8.tar.xz"
+MD5="f6dcadce764605552fc956563efa058c  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

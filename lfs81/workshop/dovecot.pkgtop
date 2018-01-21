@@ -1,0 +1,15 @@
+#
+# dovecot
+#
+## EDITHOOK1
+PKG=ABCdovecotXYZ
+PKG_VERSION="&dovecot-major;.&dovecot-minor;.&dovecot-micro;">
+PKG_FILE=ABCdovecot-2.2.32.tar.gzXYZ
+URL="https://www.dovecot.org/releases/2.2/dovecot-2.2.32.tar.gz"
+MD5="534feae88700ddc704584e0fc8ee5bdc  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

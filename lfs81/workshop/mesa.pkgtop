@@ -1,0 +1,15 @@
+#
+# mesa
+#
+## EDITHOOK1
+PKG=ABCmesaXYZ
+PKG_VERSION="17.1.6">
+PKG_FILE=ABCmesa-17.1.6.tar.xzXYZ
+URL="https://mesa.freedesktop.org/archive/mesa-17.1.6.tar.xz"
+MD5="54758bf842f9ea53c8b57cce4311b87e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/mesa-17.1.6-add_xdemos-1.patch PATCH1MD5"

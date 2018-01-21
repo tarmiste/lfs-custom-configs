@@ -1,0 +1,15 @@
+#
+# evince
+#
+## EDITHOOK1
+PKG=ABCevinceXYZ
+PKG_VERSION=
+PKG_FILE=ABCevince-3.24.1.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/evince/3.24/evince-3.24.1.tar.xz"
+MD5="ea19a7f5903caa1ec9688d98051cdb0d  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

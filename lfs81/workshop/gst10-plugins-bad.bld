@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i 's/openjpeg-2.1/openjpeg-2.2/' -i ext/openjpeg/gstopenjpeg.h &&
+
+./configure --prefix=/usr     \
+            --disable-wayland \
+            --disable-opencv  \
+            --with-package-name="GStreamer Bad Plugins 1.12.2 BLFS" \
+            --with-package-origin="http://www.linuxfromscratch.org/blfs/view/svn/" &&
+make
+#make -k check || true
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,14 @@
+#
+# perl-list-allutils
+#
+## EDITHOOK1
+PKG=ABCperl-list-allutilsXYZ
+PKG_VERSION=
+PKG_FILE=ABCList-AllUtils-0.14.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/D/DR/DROLSKY/List-AllUtils-0.14.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

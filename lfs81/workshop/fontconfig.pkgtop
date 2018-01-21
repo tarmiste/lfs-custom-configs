@@ -1,0 +1,15 @@
+#
+# fontconfig
+#
+## EDITHOOK1
+PKG=ABCfontconfigXYZ
+PKG_VERSION="2.12.4"> <!-- stable lt .90 micro version -->
+PKG_FILE=ABCfontconfig-2.12.4.tar.bz2XYZ
+URL="https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.12.4.tar.bz2"
+MD5="29105662c7d319720e0088a0ac53f494  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

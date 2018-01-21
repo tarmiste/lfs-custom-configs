@@ -1,0 +1,15 @@
+#
+# startup-notification
+#
+## EDITHOOK1
+PKG=ABCstartup-notificationXYZ
+PKG_VERSION="0.12">
+PKG_FILE=ABCstartup-notification-0.12.tar.gzXYZ
+URL="https://www.freedesktop.org/software/startup-notification/releases/startup-notification-0.12.tar.gz"
+MD5="2cd77326d4dcaed9a5a23a1232fb38e9  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

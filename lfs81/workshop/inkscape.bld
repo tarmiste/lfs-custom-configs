@@ -1,0 +1,24 @@
+############# Building package
+cd $UNPACKDIR
+
+patch -Np1 -i ../inkscape-0.92.2-use_versioned_ImageMagick6-1.patch
+sed -i 's| abs(| std::fabs(|g' src/ui/tools/flood-tool.cpp
+bash download-gtest.sh
+mkdir build &&
+cd build    &&
+
+cmake -DCMAKE_INSTALL_PREFIX=/usr \
+      -DCMAKE_BUILD_TYPE=Release  \
+      ..                          &&
+
+make
+make -j1 install                      &&
+rm -v /usr/lib/inkscape/lib*_LIB.a
+gtk-update-icon-cache &&
+update-desktop-database
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

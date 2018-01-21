@@ -1,0 +1,15 @@
+#
+# renderproto
+#
+## EDITHOOK1
+PKG=ABCrenderprotoXYZ
+PKG_VERSION=
+PKG_FILE=ABCrenderproto-0.11.1.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/proto/renderproto-0.11.1.tar.bz2"
+MD5="a914ccc1de66ddeb4b611c6b0686e274  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

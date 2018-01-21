@@ -1,0 +1,15 @@
+#
+# xfburn
+#
+## EDITHOOK1
+PKG=ABCxfburnXYZ
+PKG_VERSION="0.5.4">
+PKG_FILE=ABCxfburn-0.5.4.tar.bz2XYZ
+URL="http://archive.xfce.org/src/apps/xfburn/0.5/xfburn-0.5.4.tar.bz2"
+MD5="448fcbb7023645216c5a52435a9cf72a  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

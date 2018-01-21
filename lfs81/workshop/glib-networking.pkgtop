@@ -1,0 +1,15 @@
+#
+# glib-networking
+#
+## EDITHOOK1
+PKG=ABCglib-networkingXYZ
+PKG_VERSION="2.50.0">
+PKG_FILE=ABCglib-networking-2.50.0.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/glib-networking/2.50/glib-networking-2.50.0.tar.xz"
+MD5="4d06d0224646f274918b1cb6da9a07f6  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

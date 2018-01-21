@@ -1,0 +1,15 @@
+#
+# dhcpcd
+#
+## EDITHOOK1
+PKG=ABCdhcpcdXYZ
+PKG_VERSION="6.11.5">
+PKG_FILE=ABCdhcpcd-6.11.5.tar.xzXYZ
+URL="http://roy.marples.name/downloads/dhcpcd/dhcpcd-6.11.5.tar.xz"
+MD5="2465624b62c1154f0e89dc69c42c849b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# rpcbind
+#
+## EDITHOOK1
+PKG=ABCrpcbindXYZ
+PKG_VERSION="0.2.4">
+PKG_FILE=ABCrpcbind-0.2.4.tar.bz2XYZ
+URL="https://downloads.sourceforge.net/rpcbind/rpcbind-0.2.4.tar.bz2"
+MD5="cf10cd41ed8228fc54c316191c1f07fe  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/rpcbind-0.2.4-vulnerability_fixes-1.patch PATCH1MD5"

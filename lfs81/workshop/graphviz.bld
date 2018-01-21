@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -e '/ruby/s/1\.9/2.4/' -i configure.ac
+patch -p1 -i ../graphviz-2.40.1-qt5-1.patch
+sed -i '/LIBPOSTFIX="64"/s/64//' configure.ac &&
+
+autoreconf                &&
+./configure --prefix=/usr &&
+make
+make -j1 install
+ln -v -s /usr/share/graphviz/doc \
+         /usr/share/doc/graphviz-2.40.1
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

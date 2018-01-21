@@ -1,0 +1,15 @@
+#
+# libxslt
+#
+## EDITHOOK1
+PKG=ABClibxsltXYZ
+PKG_VERSION="1.1.29">
+PKG_FILE=ABClibxslt-1.1.29.tar.gzXYZ
+URL="http://xmlsoft.org/sources/libxslt-1.1.29.tar.gz"
+MD5="a129d3c44c022de3b9dcf6d6f288d72e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

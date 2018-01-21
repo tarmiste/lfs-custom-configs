@@ -1,0 +1,15 @@
+#
+# libXmu
+#
+## EDITHOOK1
+PKG=ABClibXmuXYZ
+PKG_VERSION=
+PKG_FILE=ABClibXmu-1.1.2.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/lib/libXmu-1.1.2.tar.bz2"
+MD5="41d92ab627dfa06568076043f3e089e4  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

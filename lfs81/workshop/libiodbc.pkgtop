@@ -1,0 +1,15 @@
+#
+# libiodbc
+#
+## EDITHOOK1
+PKG=ABClibiodbcXYZ
+PKG_VERSION="3.52.12">
+PKG_FILE=ABClibiodbc-3.52.12.tar.gzXYZ
+URL="https://downloads.sourceforge.net/iodbc/libiodbc-3.52.12.tar.gz"
+MD5="c76cab12a642a024bd1a262615a1a4a8  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

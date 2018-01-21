@@ -1,0 +1,15 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i -r 's:"(/system):"/org/gnome\1:g' schemas/*.in &&
+
+./configure --prefix=/usr &&
+make
+make -j1 install
+glib-compile-schemas /usr/share/glib-2.0/schemas
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

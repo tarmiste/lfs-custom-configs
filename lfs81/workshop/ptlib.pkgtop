@@ -1,0 +1,15 @@
+#
+# ptlib
+#
+## EDITHOOK1
+PKG=ABCptlibXYZ
+PKG_VERSION="2.10.11">
+PKG_FILE=ABCptlib-2.10.11.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/ptlib/2.10/ptlib-2.10.11.tar.xz"
+MD5="3ffdf89170dbfa6d29a015ef8741a4e4  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/ptlib-2.10.11-bison_fixes-2.patch PATCH1MD5" "http://www.linuxfromscratch.org/patches/blfs/8.1/ptlib-2.10.11-openssl-1.1.0-1.patch PATCH1MD5"

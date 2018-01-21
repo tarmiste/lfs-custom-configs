@@ -1,0 +1,14 @@
+#
+# perl-encode-eucjpascii
+#
+## EDITHOOK1
+PKG=ABCperl-encode-eucjpasciiXYZ
+PKG_VERSION=
+PKG_FILE=ABCEncode-EUCJPASCII-0.03.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/N/NE/NEZUMI/Encode-EUCJPASCII-0.03.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

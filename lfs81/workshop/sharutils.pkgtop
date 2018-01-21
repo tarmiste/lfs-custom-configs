@@ -1,0 +1,15 @@
+#
+# sharutils
+#
+## EDITHOOK1
+PKG=ABCsharutilsXYZ
+PKG_VERSION="4.15.2">
+PKG_FILE=ABCsharutils-4.15.2.tar.xzXYZ
+URL="https://ftp.gnu.org/gnu/sharutils/sharutils-4.15.2.tar.xz"
+MD5="5975ce21da36491d7aa6dc2b0d9788e0  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

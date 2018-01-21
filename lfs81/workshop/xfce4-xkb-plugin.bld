@@ -1,0 +1,18 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -e 's|xfce4/panel-plugins|xfce4/panel/plugins|' \
+    -i panel-plugin/{Makefile.in,xkb-plugin.desktop.in.in} &&
+
+./configure --prefix=/usr         \
+            --libexecdir=/usr/lib \
+            --disable-debug       &&
+
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

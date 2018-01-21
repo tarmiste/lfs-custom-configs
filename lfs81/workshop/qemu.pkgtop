@@ -1,0 +1,15 @@
+#
+# qemu
+#
+## EDITHOOK1
+PKG=ABCqemuXYZ
+PKG_VERSION="2.9.0">
+PKG_FILE=ABCqemu-2.9.0.tar.bz2XYZ
+URL="http://download.qemu-project.org/qemu-2.9.0.tar.bz2"
+MD5="02781eb15b364aedef79da7a5113f5b7  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

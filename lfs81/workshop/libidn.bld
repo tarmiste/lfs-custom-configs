@@ -1,0 +1,18 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr --disable-static &&
+make
+#make -k check || true
+make -j1 install &&
+
+find doc -name "Makefile*" -delete            &&
+rm -rf -v doc/{gdoc,idn.1,stamp-vti,man,texi} &&
+mkdir -v       /usr/share/doc/libidn-1.33     &&
+cp -r -v doc/* /usr/share/doc/libidn-1.33
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

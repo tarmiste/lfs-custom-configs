@@ -1,0 +1,15 @@
+#
+# gnome-themes-standard
+#
+## EDITHOOK1
+PKG=ABCgnome-themes-standardXYZ
+PKG_VERSION=
+PKG_FILE=ABCgnome-themes-standard-3.22.3.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gnome-themes-standard/3.22/gnome-themes-standard-3.22.3.tar.xz"
+MD5="b51c362b157b6407303d44f93c31ee11  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

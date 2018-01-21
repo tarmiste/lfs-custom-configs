@@ -1,0 +1,15 @@
+#
+# libqtxdg
+#
+## EDITHOOK1
+PKG=ABClibqtxdgXYZ
+PKG_VERSION="2.0.0">
+PKG_FILE=ABClibqtxdg-2.0.0.tar.xzXYZ
+URL="https://github.com/lxde/libqtxdg/releases/download/2.0.0/libqtxdg-2.0.0.tar.xz"
+MD5="a5683d77db13c6e86b6b578050c6f435  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

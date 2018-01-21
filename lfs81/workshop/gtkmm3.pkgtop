@@ -1,0 +1,15 @@
+#
+# gtkmm3
+#
+## EDITHOOK1
+PKG=ABCgtkmm3XYZ
+PKG_VERSION="3.22.1">
+PKG_FILE=ABCgtkmm-3.22.1.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gtkmm/3.22/gtkmm-3.22.1.tar.xz"
+MD5="183079917fbe78e5aef204d5e52eafc1  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

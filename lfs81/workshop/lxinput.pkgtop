@@ -1,0 +1,15 @@
+#
+# lxinput
+#
+## EDITHOOK1
+PKG=ABClxinputXYZ
+PKG_VERSION="0.3.5">
+PKG_FILE=ABClxinput-0.3.5.tar.xzXYZ
+URL="https://downloads.sourceforge.net/lxde/lxinput-0.3.5.tar.xz"
+MD5="69680debaef053d540ae3a5f4b237150  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

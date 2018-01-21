@@ -1,0 +1,14 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr &&
+make
+make -j1 install
+ldconfig
+
+update-desktop-database /usr/share/applications
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

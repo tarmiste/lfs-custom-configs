@@ -1,0 +1,15 @@
+#
+# adwaita-icon-theme
+#
+## EDITHOOK1
+PKG=ABCadwaita-icon-themeXYZ
+PKG_VERSION=
+PKG_FILE=ABCadwaita-icon-theme-3.24.0.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/adwaita-icon-theme/3.24/adwaita-icon-theme-3.24.0.tar.xz"
+MD5="3ccac0d600ffc936d2adfb80e9245bc5  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

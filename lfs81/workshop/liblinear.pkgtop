@@ -1,0 +1,15 @@
+#
+# liblinear
+#
+## EDITHOOK1
+PKG=ABCliblinearXYZ
+PKG_VERSION="211">
+PKG_FILE=ABCliblinear-211.tar.gzXYZ
+URL="https://github.com/cjlin1/liblinear/archive/v211/liblinear-211.tar.gz"
+MD5="9aa46bea862a82d7bdb86017e94feffc  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

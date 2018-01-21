@@ -1,0 +1,15 @@
+#
+# lxterminal
+#
+## EDITHOOK1
+PKG=ABClxterminalXYZ
+PKG_VERSION="0.3.0">
+PKG_FILE=ABClxterminal-0.3.0.tar.xzXYZ
+URL="https://downloads.sourceforge.net/lxde/lxterminal-0.3.0.tar.xz"
+MD5="235cda66f5a35654cb162dcc518a5171  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

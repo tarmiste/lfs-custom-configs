@@ -1,0 +1,15 @@
+#
+# lxqt-kidletime
+#
+## EDITHOOK1
+PKG=ABClxqt-kidletimeXYZ
+PKG_VERSION=
+PKG_FILE=ABCkidletime-5.37.0.tar.xzXYZ
+URL="http://download.kde.org/stable/frameworks/5.37/kidletime-5.37.0.tar.xz"
+MD5="e070c69d7785532d0671a077e3cc370f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

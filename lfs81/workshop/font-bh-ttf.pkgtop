@@ -1,0 +1,15 @@
+#
+# font-bh-ttf
+#
+## EDITHOOK1
+PKG=ABCfont-bh-ttfXYZ
+PKG_VERSION=
+PKG_FILE=ABCfont-bh-ttf-1.0.3.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/font/font-bh-ttf-1.0.3.tar.bz2"
+MD5="e8ca58ea0d3726b94fe9f2c17344be60  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

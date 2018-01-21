@@ -1,0 +1,18 @@
+############# Building package
+cd $UNPACKDIR
+
+patch -Np1 -i ../ImageMagick-6.9.9-9-libs_only-1.patch &&
+./configure --prefix=/usr     \
+            --sysconfdir=/etc \
+            --enable-hdri     \
+            --with-modules    \
+            --disable-static  &&
+make
+make -j1 DOCUMENTATION_PATH=/usr/share/doc/imagemagick-6.9.9 install-libs-only
+#make -k check || true
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

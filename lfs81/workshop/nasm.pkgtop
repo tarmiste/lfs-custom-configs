@@ -1,0 +1,15 @@
+#
+# nasm
+#
+## EDITHOOK1
+PKG=ABCnasmXYZ
+PKG_VERSION="2.13.01">
+PKG_FILE=ABCnasm-2.13.01.tar.xz nasm-2.13.01-xdoc.tar.xzXYZ
+URL="http://www.nasm.us/pub/nasm/releasebuilds/2.13.01/nasm-2.13.01.tar.xz"
+MD5="b3ae134bd1b5ead73d659286f568da95  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

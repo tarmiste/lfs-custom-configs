@@ -1,0 +1,15 @@
+#
+# cyrus-sasl
+#
+## EDITHOOK1
+PKG=ABCcyrus-saslXYZ
+PKG_VERSION="2.1.26">
+PKG_FILE=ABCcyrus-sasl-2.1.26.tar.gzXYZ
+URL="ftp://ftp.cyrusimap.org/cyrus-sasl/cyrus-sasl-2.1.26.tar.gz"
+MD5="a7f4e5e559a0e37b3ffc438c9456e425  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/cyrus-sasl-2.1.26-fixes-3.patch PATCH1MD5" "http://www.linuxfromscratch.org/patches/blfs/8.1/cyrus-sasl-2.1.26-openssl-1.1.0-1.patch PATCH1MD5"

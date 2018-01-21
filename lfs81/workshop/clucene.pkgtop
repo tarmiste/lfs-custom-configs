@@ -1,0 +1,15 @@
+#
+# clucene
+#
+## EDITHOOK1
+PKG=ABCcluceneXYZ
+PKG_VERSION="2.3.3.4">
+PKG_FILE=ABCclucene-core-2.3.3.4.tar.gzXYZ
+URL="https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz"
+MD5="48d647fbd8ef8889e5a7f422c1bfda94  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/clucene-2.3.3.4-contribs_lib-1.patch PATCH1MD5"

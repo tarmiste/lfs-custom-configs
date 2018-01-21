@@ -1,0 +1,25 @@
+############# Building package
+cd $UNPACKDIR
+
+patch -Np1 -i ../fetchmail-6.3.26-disable_sslv3-1.patch &&
+./configure --prefix=/usr --with-ssl --enable-fallback=procmail &&
+make
+make -j1 install
+ldconfig
+
+cat > ~/.fetchmailrc << "EOF"
+set logfile /var/log/fetchmail.log
+set no bouncemail
+set postmaster root
+
+poll SERVERNAME :
+    user **EDITME<username>EDITME** pass **EDITME<password>EDITME**;
+    mda "/usr/bin/procmail -f %F -d %T";
+EOF
+
+chmod -v 0600 ~/.fetchmailrc
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

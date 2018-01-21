@@ -1,0 +1,15 @@
+#
+# lxappearance
+#
+## EDITHOOK1
+PKG=ABClxappearanceXYZ
+PKG_VERSION="0.6.3">
+PKG_FILE=ABClxappearance-0.6.3.tar.xzXYZ
+URL="https://downloads.sourceforge.net/lxde/lxappearance-0.6.3.tar.xz"
+MD5="f10345313e2c12bad51c1b58bd46b454  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# mutt
+#
+## EDITHOOK1
+PKG=ABCmuttXYZ
+PKG_VERSION="1.8.3">
+PKG_FILE=ABCmutt-1.8.3.tar.gzXYZ
+URL="ftp://ftp.mutt.org/pub/mutt/mutt-1.8.3.tar.gz"
+MD5="8d1ff7275a3b4fbb0023145abe309cc8  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

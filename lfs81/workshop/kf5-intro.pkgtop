@@ -1,0 +1,14 @@
+#
+# kf5-intro
+#
+## EDITHOOK1
+PKG=ABCkf5-introXYZ
+PKG_VERSION=
+PKG_FILE=ABCXYZ
+URL=
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# swig
+#
+## EDITHOOK1
+PKG=ABCswigXYZ
+PKG_VERSION="3.0.12">
+PKG_FILE=ABCswig-3.0.12.tar.gzXYZ
+URL="https://downloads.sourceforge.net/swig/swig-3.0.12.tar.gz"
+MD5="82133dfa7bba75ff9ad98a7046be687c  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

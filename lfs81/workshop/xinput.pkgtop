@@ -1,0 +1,15 @@
+#
+# xinput
+#
+## EDITHOOK1
+PKG=ABCxinputXYZ
+PKG_VERSION=
+PKG_FILE=ABCxinput-1.6.2.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/app/xinput-1.6.2.tar.bz2"
+MD5="6a889412eff2e3c1c6bb19146f6fe84c  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

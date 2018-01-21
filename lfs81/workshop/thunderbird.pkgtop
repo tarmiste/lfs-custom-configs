@@ -1,0 +1,15 @@
+#
+# thunderbird
+#
+## EDITHOOK1
+PKG=ABCthunderbirdXYZ
+PKG_VERSION="52.3.0">
+PKG_FILE=ABCthunderbird-52.3.0.source.tar.xzXYZ
+URL="https://archive.mozilla.org/pub/thunderbird/releases/52.3.0/source/thunderbird-52.3.0.source.tar.xz"
+MD5="5841ee1a70423b9385110c82b78bef47  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

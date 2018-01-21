@@ -1,0 +1,15 @@
+#
+# gpm
+#
+## EDITHOOK1
+PKG=ABCgpmXYZ
+PKG_VERSION="1.20.7">
+PKG_FILE=ABCgpm-1.20.7.tar.bz2XYZ
+URL="http://www.nico.schottelius.org/software/gpm/archives/gpm-1.20.7.tar.bz2"
+MD5="bf84143905a6a903dbd4d4b911a2a2b8  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/gpm-1.20.7-glibc_2.26-1.patch PATCH1MD5"

@@ -1,0 +1,16 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr \
+            --sysconfdir=/etc \
+            --disable-orbit \
+            --disable-static &&
+make
+make -j1 install &&
+ln -s gconf.xml.defaults /etc/gconf/gconf.xml.system
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

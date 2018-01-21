@@ -1,0 +1,15 @@
+#
+# libXScrnSaver
+#
+## EDITHOOK1
+PKG=ABClibXScrnSaverXYZ
+PKG_VERSION=
+PKG_FILE=ABClibXScrnSaver-1.2.2.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/lib/libXScrnSaver-1.2.2.tar.bz2"
+MD5="7a773b16165e39e938650bcc9027c1d5  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

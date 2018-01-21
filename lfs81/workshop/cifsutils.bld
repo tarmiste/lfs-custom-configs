@@ -1,0 +1,15 @@
+############# Building package
+cd $UNPACKDIR
+
+autoreconf -fiv &&
+./configure --prefix=/usr \
+            --disable-pam \
+            --disable-systemd &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

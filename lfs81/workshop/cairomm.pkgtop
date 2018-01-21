@@ -1,0 +1,15 @@
+#
+# cairomm
+#
+## EDITHOOK1
+PKG=ABCcairommXYZ
+PKG_VERSION="1.12.2">
+PKG_FILE=ABCcairomm-1.12.2.tar.gzXYZ
+URL="https://www.cairographics.org/releases/cairomm-1.12.2.tar.gz"
+MD5="9d2282ea34cf9aaa89208bb4bb911909  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

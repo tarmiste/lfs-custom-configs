@@ -1,0 +1,15 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -e '/$serverargs $vtarg/ s/serverargs/: #&/' \
+    -i startx.cpp
+./configure $XORG_CONFIG --with-xinitdir=/etc/X11/app-defaults &&
+make
+make -j1 install &&
+ldconfig
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

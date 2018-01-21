@@ -1,0 +1,15 @@
+#
+# lame
+#
+## EDITHOOK1
+PKG=ABClameXYZ
+PKG_VERSION="3.99.5">
+PKG_FILE=ABClame-3.99.5.tar.gzXYZ
+URL="https://downloads.sourceforge.net/lame/lame-3.99.5.tar.gz"
+MD5="84835b313d4a8b68f5349816d33e07ce  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

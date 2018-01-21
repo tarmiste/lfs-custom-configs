@@ -1,0 +1,12 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr
+make -j1 install
+gtk-update-icon-cache -qf /usr/share/icons/nuoveXT2
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

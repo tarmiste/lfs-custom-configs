@@ -1,0 +1,15 @@
+#
+# alsa-lib
+#
+## EDITHOOK1
+PKG=ABCalsa-libXYZ
+PKG_VERSION="1.1.4.1">
+PKG_FILE=ABCalsa-lib-1.1.4.1.tar.bz2XYZ
+URL="ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.1.4.1.tar.bz2"
+MD5="29fa3e69122d3cf3e8f0e01a0cb1d183  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

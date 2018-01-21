@@ -1,0 +1,15 @@
+#
+# vte
+#
+## EDITHOOK1
+PKG=ABCvteXYZ
+PKG_VERSION=
+PKG_FILE=ABCvte-0.48.3.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/vte/0.48/vte-0.48.3.tar.xz"
+MD5="b300675ac5f269aa6eb48fe89a0d726d  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

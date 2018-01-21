@@ -1,0 +1,15 @@
+#
+# gjs
+#
+## EDITHOOK1
+PKG=ABCgjsXYZ
+PKG_VERSION=
+PKG_FILE=ABCgjs-1.48.6.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gjs/1.48/gjs-1.48.6.tar.xz"
+MD5="f2cf6230388beb1b8059b46620c90852  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

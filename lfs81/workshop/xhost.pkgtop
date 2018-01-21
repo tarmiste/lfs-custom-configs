@@ -1,0 +1,15 @@
+#
+# xhost
+#
+## EDITHOOK1
+PKG=ABCxhostXYZ
+PKG_VERSION=
+PKG_FILE=ABCxhost-1.0.7.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/app/xhost-1.0.7.tar.bz2"
+MD5="f5d490738b148cb7f2fe760f40f92516  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

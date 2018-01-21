@@ -1,0 +1,15 @@
+#
+# ibus
+#
+## EDITHOOK1
+PKG=ABCibusXYZ
+PKG_VERSION="1.5.16">
+PKG_FILE=ABCibus-1.5.16.tar.gzXYZ
+URL="https://github.com/ibus/ibus/releases/download/1.5.16/ibus-1.5.16.tar.gz"
+MD5="31ea7c1259c7285bd9d71f3000cbd95b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

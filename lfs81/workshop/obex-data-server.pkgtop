@@ -1,0 +1,15 @@
+#
+# obex-data-server
+#
+## EDITHOOK1
+PKG=ABCobex-data-serverXYZ
+PKG_VERSION="0.4.6">
+PKG_FILE=ABCobex-data-server-0.4.6.tar.gzXYZ
+URL="http://tadas.dailyda.com/software/obex-data-server-0.4.6.tar.gz"
+MD5="961ca5db6fe9c97024e133cc6203cc4d  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/obex-data-server-0.4.6-build-fixes-1.patch PATCH1MD5"

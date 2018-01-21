@@ -1,0 +1,15 @@
+#
+# libical
+#
+## EDITHOOK1
+PKG=ABClibicalXYZ
+PKG_VERSION="2.0.0">
+PKG_FILE=ABClibical-2.0.0.tar.gzXYZ
+URL="https://github.com/libical/libical/releases/download/v2.0.0/libical-2.0.0.tar.gz"
+MD5="6bf8e5f5a3ba88baf390d0134e05d76e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# lxqt-qtplugin
+#
+## EDITHOOK1
+PKG=ABClxqt-qtpluginXYZ
+PKG_VERSION="0.11.1">
+PKG_FILE=ABClxqt-qtplugin-0.11.1.tar.xzXYZ
+URL="https://github.com/lxde/lxqt-qtplugin/releases/download/0.11.1/lxqt-qtplugin-0.11.1.tar.xz"
+MD5="e30d35f03f6a8351c79782d68b91a0e9  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

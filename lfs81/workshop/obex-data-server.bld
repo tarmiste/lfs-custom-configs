@@ -1,0 +1,14 @@
+############# Building package
+cd $UNPACKDIR
+
+patch -Np1 -i ../obex-data-server-0.4.6-build-fixes-1.patch &&
+
+./configure --prefix=/usr --sysconfdir=/etc &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

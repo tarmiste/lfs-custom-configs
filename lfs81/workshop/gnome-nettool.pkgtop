@@ -1,0 +1,15 @@
+#
+# gnome-nettool
+#
+## EDITHOOK1
+PKG=ABCgnome-nettoolXYZ
+PKG_VERSION=
+PKG_FILE=ABCgnome-nettool-3.8.1.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gnome-nettool/3.8/gnome-nettool-3.8.1.tar.xz"
+MD5="d4fc944b7ba8fd5f49f04a73e0d37e80  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

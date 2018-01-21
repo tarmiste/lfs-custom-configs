@@ -1,0 +1,14 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i '/stdlib/a #include <limits.h>' transport.hxx &&
+make all rpl8 btcflash
+make -j1 prefix=/usr install &&
+install -v -m644 -D index.html \
+    /usr/share/doc/dvd+rw-tools-7.1/index.html
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

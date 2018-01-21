@@ -1,0 +1,14 @@
+#
+# perl-error
+#
+## EDITHOOK1
+PKG=ABCperl-errorXYZ
+PKG_VERSION=
+PKG_FILE=ABCError-0.17025.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/S/SH/SHLOMIF/Error-0.17025.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

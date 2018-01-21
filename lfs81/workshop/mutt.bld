@@ -1,0 +1,28 @@
+############# Building package
+cd $UNPACKDIR
+
+groupadd -g 34 mail
+chgrp -v mail /var/mail
+cp -v doc/manual.txt{,.shipped} &&
+./configure --prefix=/usr                           \
+            --sysconfdir=/etc                       \
+            --with-docdir=/usr/share/doc/mutt-1.8.3 \
+            --enable-external-dotlock               \
+            --enable-pop                            \
+            --enable-imap                           \
+            --enable-hcache                         \
+            --enable-sidebar                        &&
+make &&
+test -s doc/manual.txt || mv -v doc/manual.txt{.shipped,}
+make -C doc manual.pdf
+make -j1 install
+install -v -m644 doc/manual.pdf \
+    /usr/share/doc/mutt-1.8.3
+ldconfig
+
+cat /usr/share/doc/mutt-1.8.3/samples/gpg.rc >> ~/.muttrc
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

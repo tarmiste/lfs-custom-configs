@@ -1,0 +1,18 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i '/^usbids/ s:usb.ids:hwdata/&:' lsusb.py &&
+
+./configure --prefix=/usr --datadir=/usr/share/hwdata &&
+make
+make -j1 install
+install -dm755 /usr/share/hwdata/ &&
+wget http://www.linux-usb.org/usb.ids -O /usr/share/hwdata/usb.ids
+ldconfig
+
+wget http://www.linux-usb.org/usb.ids -O /usr/share/hwdata/usb.ids
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

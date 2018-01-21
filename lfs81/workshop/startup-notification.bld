@@ -1,0 +1,14 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr --disable-static &&
+make
+make -j1 install &&
+install -v -m644 -D doc/startup-notification.txt \
+    /usr/share/doc/startup-notification-0.12/startup-notification.txt
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

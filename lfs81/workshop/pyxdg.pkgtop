@@ -1,0 +1,15 @@
+#
+# pyxdg
+#
+## EDITHOOK1
+PKG=ABCpyxdgXYZ
+PKG_VERSION="0.25">
+PKG_FILE=ABCpyxdg-0.25.tar.gzXYZ
+URL="https://people.freedesktop.org/~takluyver/pyxdg-0.25.tar.gz"
+MD5="bedcdb3a0ed85986d40044c87f23477c  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

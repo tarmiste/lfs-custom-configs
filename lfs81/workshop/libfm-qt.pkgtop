@@ -1,0 +1,15 @@
+#
+# libfm-qt
+#
+## EDITHOOK1
+PKG=ABClibfm-qtXYZ
+PKG_VERSION="0.11.2">
+PKG_FILE=ABClibfm-qt-0.11.2.tar.xzXYZ
+URL="https://github.com/lxde/libfm-qt/releases/download/0.11.2/libfm-qt-0.11.2.tar.xz"
+MD5="8737ab91b48566c5ab4c7dd69fd2eb26  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

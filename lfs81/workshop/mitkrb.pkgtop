@@ -1,0 +1,15 @@
+#
+# mitkrb
+#
+## EDITHOOK1
+PKG=ABCmitkrbXYZ
+PKG_VERSION="1.15.1">
+PKG_FILE=ABCkrb5-1.15.1.tar.gzXYZ
+URL="https://web.mit.edu/kerberos/dist/krb5/1.15/krb5-1.15.1.tar.gz"
+MD5="8022f3a1cde8463e44fd35ef42731f85  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

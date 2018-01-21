@@ -1,0 +1,14 @@
+#
+# perl-autovivification
+#
+## EDITHOOK1
+PKG=ABCperl-autovivificationXYZ
+PKG_VERSION=
+PKG_FILE=ABCautovivification-0.17.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/V/VP/VPIT/autovivification-0.17.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

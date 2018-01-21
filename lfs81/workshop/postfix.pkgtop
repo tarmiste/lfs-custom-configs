@@ -1,0 +1,15 @@
+#
+# postfix
+#
+## EDITHOOK1
+PKG=ABCpostfixXYZ
+PKG_VERSION="3.2.2">
+PKG_FILE=ABCpostfix-3.2.2.tar.gzXYZ
+URL="ftp://ftp.porcupine.org/mirrors/postfix-release/official/postfix-3.2.2.tar.gz"
+MD5="aea073a9b0bea5bdb590460a270a4aa0  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

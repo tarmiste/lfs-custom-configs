@@ -1,0 +1,13 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i "s:doc/feh:&-2.19.3:" config.mk &&
+make PREFIX=/usr
+#make -k test || true
+make -j1 PREFIX=/usr install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

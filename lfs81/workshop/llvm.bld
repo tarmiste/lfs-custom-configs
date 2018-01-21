@@ -1,0 +1,40 @@
+############# Building package
+cd $UNPACKDIR
+
+tar -xf ../cfe-4.0.1.src.tar.xz -C tools &&
+tar -xf ../compiler-rt-4.0.1.src.tar.xz -C projects &&
+
+mv tools/cfe-4.0.1.src tools/clang &&
+mv projects/compiler-rt-4.0.1.src projects/compiler-rt
+
+patch -Np1 -d projects/compiler-rt < ../compiler-rt-4.0.1-glibc-2.26-1.patch
+mkdir -v build &&
+cd       build &&
+
+CC=gcc CXX=g++                              \
+cmake -DCMAKE_INSTALL_PREFIX=/usr           \
+      -DLLVM_ENABLE_FFI=ON                  \
+      -DCMAKE_BUILD_TYPE=Release            \
+      -DLLVM_BUILD_LLVM_DYLIB=ON            \
+      -DLLVM_TARGETS_TO_BUILD="host;AMDGPU" \
+      -Wno-dev ..                           &&
+make
+cmake -DLLVM_ENABLE_SPHINX=ON         \
+      -DSPHINX_WARNINGS_AS_ERRORS=OFF \
+      -Wno-dev ..                     &&
+make docs-llvm-html  docs-llvm-man
+make docs-clang-html docs-clang-man
+#make -k check-all || true
+make -j1 install
+install -v -m644 docs/man/* /usr/share/man/man1             &&
+install -v -d -m755 /usr/share/doc/llvm-4.0.1/llvm-html     &&
+cp -Rv docs/html/* /usr/share/doc/llvm-4.0.1/llvm-html
+install -v -m644 tools/clang/docs/man/* /usr/share/man/man1 &&
+install -v -d -m755 /usr/share/doc/llvm-4.0.1/clang-html    &&
+cp -Rv tools/clang/docs/html/* /usr/share/doc/llvm-4.0.1/clang-html
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

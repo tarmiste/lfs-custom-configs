@@ -1,0 +1,14 @@
+#
+# perl-ipc-run3
+#
+## EDITHOOK1
+PKG=ABCperl-ipc-run3XYZ
+PKG_VERSION=
+PKG_FILE=ABCIPC-Run3-0.048.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/R/RJ/RJBS/IPC-Run3-0.048.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

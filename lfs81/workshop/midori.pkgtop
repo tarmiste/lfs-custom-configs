@@ -1,0 +1,15 @@
+#
+# midori
+#
+## EDITHOOK1
+PKG=ABCmidoriXYZ
+PKG_VERSION="0.5.11">
+PKG_FILE=ABCmidori_0.5.11_all_.tar.bz2XYZ
+URL="http://www.midori-browser.org/downloads/midori_0.5.11_all_.tar.bz2"
+MD5="fcc03ef759fce4fe9f2446d9da4a065e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

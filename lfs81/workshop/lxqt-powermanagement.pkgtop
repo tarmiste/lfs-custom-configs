@@ -1,0 +1,15 @@
+#
+# lxqt-powermanagement
+#
+## EDITHOOK1
+PKG=ABClxqt-powermanagementXYZ
+PKG_VERSION=;">
+PKG_FILE=ABClxqt-powermanagement-0.11.1.tar.xzXYZ
+URL="https://github.com/lxde/lxqt-powermanagement/releases/download/0.11.1/lxqt-powermanagement-0.11.1.tar.xz"
+MD5="4fb48eb22ecb73fd6b33fa6003fc914b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

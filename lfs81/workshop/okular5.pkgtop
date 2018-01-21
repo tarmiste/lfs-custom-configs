@@ -1,0 +1,15 @@
+#
+# okular5
+#
+## EDITHOOK1
+PKG=ABCokular5XYZ
+PKG_VERSION=
+PKG_FILE=ABCokular-17.08.0.tar.xzXYZ
+URL="http://download.kde.org/stable/applications/17.08.0/src/okular-17.08.0.tar.xz"
+MD5="8c37864ce5bb0b341ea3785e5c2e6fd6  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# mkfontscale
+#
+## EDITHOOK1
+PKG=ABCmkfontscaleXYZ
+PKG_VERSION=
+PKG_FILE=ABCmkfontscale-1.1.2.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/app/mkfontscale-1.1.2.tar.bz2"
+MD5="9bdd6ebfa62b1bbd474906ac86a40fd8  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

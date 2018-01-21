@@ -1,0 +1,15 @@
+#
+# hexchat
+#
+## EDITHOOK1
+PKG=ABChexchatXYZ
+PKG_VERSION="2.12.4">
+PKG_FILE=ABChexchat-2.12.4-repack.tar.xzXYZ
+URL="https://dl.hexchat.net/hexchat/hexchat-2.12.4-repack.tar.xz"
+MD5="4b1918e0529aa534157bd7b3b5cd2fd8  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

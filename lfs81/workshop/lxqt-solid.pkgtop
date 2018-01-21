@@ -1,0 +1,15 @@
+#
+# lxqt-solid
+#
+## EDITHOOK1
+PKG=ABClxqt-solidXYZ
+PKG_VERSION=
+PKG_FILE=ABCsolid-5.37.0.tar.xzXYZ
+URL="http://download.kde.org/stable/frameworks/5.37/solid-5.37.0.tar.xz"
+MD5="edf069c6ea563318ae710a36d55af35a  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

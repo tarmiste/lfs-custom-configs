@@ -1,0 +1,27 @@
+############# Building package
+cd $UNPACKDIR
+
+rm -f src/fcobjshash.h
+./configure --prefix=/usr        \
+            --sysconfdir=/etc    \
+            --localstatedir=/var \
+            --disable-docs       \
+            --docdir=/usr/share/doc/fontconfig-2.12.4 &&
+make
+#make -k check || true
+make -j1 install
+install -v -dm755 \
+        /usr/share/{man/man{3,5},doc/fontconfig-2.12.4/fontconfig-devel} &&
+install -v -m644 fc-*/*.1         /usr/share/man/man1 &&
+install -v -m644 doc/*.3          /usr/share/man/man3 &&
+install -v -m644 doc/fonts-conf.5 /usr/share/man/man5 &&
+install -v -m644 doc/fontconfig-devel/* \
+                                  /usr/share/doc/fontconfig-2.12.4/fontconfig-devel &&
+install -v -m644 doc/*.{pdf,sgml,txt,html} \
+                                  /usr/share/doc/fontconfig-2.12.4
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

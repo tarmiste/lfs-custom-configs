@@ -1,0 +1,15 @@
+#
+# xscreensaver
+#
+## EDITHOOK1
+PKG=ABCxscreensaverXYZ
+PKG_VERSION="5.37">
+PKG_FILE=ABCxscreensaver-5.37.tar.gzXYZ
+URL="http://www.jwz.org/xscreensaver/xscreensaver-5.37.tar.gz"
+MD5="34ae54cf740c4f2627d2097ac06eef68  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

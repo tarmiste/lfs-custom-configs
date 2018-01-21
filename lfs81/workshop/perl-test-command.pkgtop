@@ -1,0 +1,14 @@
+#
+# perl-test-command
+#
+## EDITHOOK1
+PKG=ABCperl-test-commandXYZ
+PKG_VERSION=
+PKG_FILE=ABCTest-Command-0.11.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/D/DA/DANBOO/Test-Command-0.11.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# nano
+#
+## EDITHOOK1
+PKG=ABCnanoXYZ
+PKG_VERSION="2.8.7">
+PKG_FILE=ABCnano-2.8.7.tar.xzXYZ
+URL="https://www.nano-editor.org/dist/v2.8/nano-2.8.7.tar.xz"
+MD5="733b3f80a0a2f44fb25de6c6d3a583cf  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# ed
+#
+## EDITHOOK1
+PKG=ABCedXYZ
+PKG_VERSION="1.14.2">
+PKG_FILE=ABCed-1.14.2.tar.lzXYZ
+URL="https://ftp.gnu.org/gnu/ed/ed-1.14.2.tar.lz"
+MD5="273d04778b2a51f7c3cbfcd2001876bf  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

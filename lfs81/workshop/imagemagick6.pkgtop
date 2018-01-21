@@ -1,0 +1,15 @@
+#
+# imagemagick6
+#
+## EDITHOOK1
+PKG=ABCimagemagick6XYZ
+PKG_VERSION="6.9.9">
+PKG_FILE=ABCImageMagick-6.9.9-9.tar.xzXYZ
+URL="https://www.imagemagick.org/download/releases/ImageMagick-6.9.9-9.tar.xz"
+MD5="182239bb642ca23f86206bf027caf536  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/ImageMagick-6.9.9-9-libs_only-1.patch PATCH1MD5"

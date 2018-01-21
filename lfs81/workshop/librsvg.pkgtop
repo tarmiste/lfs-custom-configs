@@ -1,0 +1,15 @@
+#
+# librsvg
+#
+## EDITHOOK1
+PKG=ABClibrsvgXYZ
+PKG_VERSION="2.40.18"> <!-- Normally even minors -->
+PKG_FILE=ABClibrsvg-2.40.18.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/librsvg/2.40/librsvg-2.40.18.tar.xz"
+MD5="eaa5c8a8bbe2600ab5194c0d3b1b621b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

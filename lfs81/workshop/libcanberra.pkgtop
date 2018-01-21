@@ -1,0 +1,15 @@
+#
+# libcanberra
+#
+## EDITHOOK1
+PKG=ABClibcanberraXYZ
+PKG_VERSION="0.30">
+PKG_FILE=ABClibcanberra-0.30.tar.xzXYZ
+URL="http://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz"
+MD5="34cb7e4430afaf6f447c4ebdb9b42072  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

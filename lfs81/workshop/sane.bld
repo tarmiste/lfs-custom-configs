@@ -1,0 +1,50 @@
+############# Building package
+cd $UNPACKDIR
+
+groupadd -g 70 scanner
+su $(whoami)
+./configure --prefix=/usr        \
+            --sysconfdir=/etc    \
+            --localstatedir=/var \
+            --with-group=scanner \
+            --with-docdir=/usr/share/doc/sane-backend-1.0.27 &&
+make
+#make -k check || true
+make -j1 install                                         &&
+install -m 644 -v tools/udev/libsane.rules           \
+                  /etc/udev/rules.d/65-scanner.rules &&
+chgrp -v scanner  /var/lock/sane
+sed -i -e "/SANE_CAP_ALWAYS_SETTABLE/d" src/gtkglue.c &&
+./configure --prefix=/usr --mandir=/usr/share/man &&
+make
+make -j1 install &&
+install -v -m644 doc/sane.png xscanimage-icon-48x48-2.png \
+    /usr/share/sane
+ln -v -s ../../../../bin/xscanimage /usr/lib/gimp/2.0/plug-ins
+ldconfig
+
+cat >> /etc/sane.d/net.conf << "EOF"
+connect_timeout = 60
+<server_ip>
+EOF
+
+mkdir -pv /usr/share/{applications,pixmaps}               &&
+
+cat > /usr/share/applications/xscanimage.desktop << "EOF" &&
+[Desktop Entry]
+Encoding=UTF-8
+Name=XScanImage - Scanning
+Comment=Acquire images from a scanner
+Exec=xscanimage
+Icon=xscanimage
+Terminal=false
+Type=Application
+Categories=Application;Graphics
+EOF
+
+ln -svf ../sane/xscanimage-icon-48x48-2.png /usr/share/pixmaps/xscanimage.png
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

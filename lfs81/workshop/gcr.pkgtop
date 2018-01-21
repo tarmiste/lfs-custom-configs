@@ -1,0 +1,15 @@
+#
+# gcr
+#
+## EDITHOOK1
+PKG=ABCgcrXYZ
+PKG_VERSION=
+PKG_FILE=ABCgcr-3.20.0.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gcr/3.20/gcr-3.20.0.tar.xz"
+MD5="4314bf89eac293dd0a9d806593ff1b35  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

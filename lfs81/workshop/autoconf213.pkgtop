@@ -1,0 +1,15 @@
+#
+# autoconf213
+#
+## EDITHOOK1
+PKG=ABCautoconf213XYZ
+PKG_VERSION="2.13">
+PKG_FILE=ABCautoconf-2.13.tar.gzXYZ
+URL="https://ftp.gnu.org/gnu/autoconf/autoconf-2.13.tar.gz"
+MD5="9de56d4a161a723228220b0f425dc711  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/autoconf-2.13-consolidated_fixes-1.patch PATCH1MD5"

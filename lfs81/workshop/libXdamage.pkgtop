@@ -1,0 +1,15 @@
+#
+# libXdamage
+#
+## EDITHOOK1
+PKG=ABClibXdamageXYZ
+PKG_VERSION=
+PKG_FILE=ABClibXdamage-1.1.4.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/lib/libXdamage-1.1.4.tar.bz2"
+MD5="0cf292de2a9fa2e9a939aefde68fd34f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

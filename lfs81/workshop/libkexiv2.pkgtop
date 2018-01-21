@@ -1,0 +1,15 @@
+#
+# libkexiv2
+#
+## EDITHOOK1
+PKG=ABClibkexiv2XYZ
+PKG_VERSION=
+PKG_FILE=ABClibkexiv2-17.08.0.tar.xzXYZ
+URL="http://download.kde.org/stable/applications/17.08.0/src/libkexiv2-17.08.0.tar.xz"
+MD5="39d177a628ed83639b201a8d6aadc868  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

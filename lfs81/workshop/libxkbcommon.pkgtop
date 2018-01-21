@@ -1,0 +1,15 @@
+#
+# libxkbcommon
+#
+## EDITHOOK1
+PKG=ABClibxkbcommonXYZ
+PKG_VERSION="0.7.2">
+PKG_FILE=ABClibxkbcommon-0.7.2.tar.xzXYZ
+URL="https://xkbcommon.org/download/libxkbcommon-0.7.2.tar.xz"
+MD5="f53fa65beb5ae4b6a6b7f08f9dedabc4  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

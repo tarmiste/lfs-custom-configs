@@ -1,0 +1,14 @@
+#
+# perl-regexp-common
+#
+## EDITHOOK1
+PKG=ABCperl-regexp-commonXYZ
+PKG_VERSION=
+PKG_FILE=ABCRegexp-Common-2017060201.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2017060201.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

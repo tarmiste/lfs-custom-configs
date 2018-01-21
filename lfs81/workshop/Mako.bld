@@ -1,0 +1,12 @@
+############# Building package
+cd $UNPACKDIR
+
+python setup.py install --optimize=1
+sed -i "s:mako-render:&3:g" setup.py &&
+python3 setup.py install --optimize=1
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

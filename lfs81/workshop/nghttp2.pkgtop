@@ -1,0 +1,15 @@
+#
+# nghttp2
+#
+## EDITHOOK1
+PKG=ABCnghttp2XYZ
+PKG_VERSION="1.25.0">
+PKG_FILE=ABCnghttp2-1.25.0.tar.xzXYZ
+URL="https://github.com/nghttp2/nghttp2/releases/download/v1.25.0/nghttp2-1.25.0.tar.xz"
+MD5="2f9b40d404956a6a054fabb6a2401a12  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

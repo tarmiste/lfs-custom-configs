@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+mkdir -v build &&
+cd       build &&
+
+cmake -DCMAKE_INSTALL_PREFIX=$LXQT_PREFIX \
+      -DCMAKE_BUILD_TYPE=Release          \
+      -DCMAKE_INSTALL_LIBDIR=lib          \
+      -DBUILD_TESTING=OFF                 \
+      -Wno-dev ..                         &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

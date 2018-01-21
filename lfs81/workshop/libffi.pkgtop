@@ -1,0 +1,15 @@
+#
+# libffi
+#
+## EDITHOOK1
+PKG=ABClibffiXYZ
+PKG_VERSION="3.2.1">
+PKG_FILE=ABClibffi-3.2.1.tar.gzXYZ
+URL="https://sourceware.org/ftp/libffi/libffi-3.2.1.tar.gz"
+MD5="83b89587607e3eb65c70d361f13bab43  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

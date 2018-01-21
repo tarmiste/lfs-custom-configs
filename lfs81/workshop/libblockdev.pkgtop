@@ -1,0 +1,15 @@
+#
+# libblockdev
+#
+## EDITHOOK1
+PKG=ABClibblockdevXYZ
+PKG_VERSION="2.11-1">
+PKG_FILE=ABClibblockdev-2.11-1.tar.gzXYZ
+URL="https://github.com/storaged-project/libblockdev/archive/libblockdev-2.11-1.tar.gz"
+MD5="c1b240878ce2e36dbeb68b94bfd0403d  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

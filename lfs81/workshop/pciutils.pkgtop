@@ -1,0 +1,15 @@
+#
+# pciutils
+#
+## EDITHOOK1
+PKG=ABCpciutilsXYZ
+PKG_VERSION="3.5.5">
+PKG_FILE=ABCpciutils-3.5.5.tar.xzXYZ
+URL="https://www.kernel.org/pub/software/utils/pciutils/pciutils-3.5.5.tar.xz"
+MD5="238d9969cc0de8b9105d972007d9d546  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

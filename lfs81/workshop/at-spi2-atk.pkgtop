@@ -1,0 +1,15 @@
+#
+# at-spi2-atk
+#
+## EDITHOOK1
+PKG=ABCat-spi2-atkXYZ
+PKG_VERSION="2.24.1">
+PKG_FILE=ABCat-spi2-atk-2.24.1.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/at-spi2-atk/2.24/at-spi2-atk-2.24.1.tar.xz"
+MD5="79388fbc4dc7f27394556dd389aeb594  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

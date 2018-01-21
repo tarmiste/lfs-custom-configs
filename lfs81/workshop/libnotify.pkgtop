@@ -1,0 +1,15 @@
+#
+# libnotify
+#
+## EDITHOOK1
+PKG=ABClibnotifyXYZ
+PKG_VERSION="0.7.7">
+PKG_FILE=ABClibnotify-0.7.7.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/libnotify/0.7/libnotify-0.7.7.tar.xz"
+MD5="e9d911f6a22435e0b922f2fe71212b59  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

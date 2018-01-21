@@ -1,0 +1,15 @@
+#
+# gsl
+#
+## EDITHOOK1
+PKG=ABCgslXYZ
+PKG_VERSION="2.4">
+PKG_FILE=ABCgsl-2.4.tar.gzXYZ
+URL="https://ftp.gnu.org/gnu/gsl/gsl-2.4.tar.gz"
+MD5="dba736f15404807834dc1c7b93e83b92  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# libatomic_ops
+#
+## EDITHOOK1
+PKG=ABClibatomic_opsXYZ
+PKG_VERSION="7.4.6">
+PKG_FILE=ABClibatomic_ops-7.4.6.tar.gzXYZ
+URL="https://github.com/ivmai/libatomic_ops/releases/download/v7.4.6/libatomic_ops-7.4.6.tar.gz"
+MD5="675dbd6681c6de7c9f4a834bcae9b748  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# icewm
+#
+## EDITHOOK1
+PKG=ABCicewmXYZ
+PKG_VERSION="1.4.2">
+PKG_FILE=ABCicewm-1.4.2.tar.bz2XYZ
+URL="https://github.com/bbidulock/icewm/releases/download/1.4.2/icewm-1.4.2.tar.bz2"
+MD5="3e7c3a95e7f8518346267f48a11966cd  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

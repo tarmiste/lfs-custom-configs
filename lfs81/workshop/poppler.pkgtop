@@ -1,0 +1,16 @@
+#
+# poppler
+#
+## EDITHOOK1
+PKG=ABCpopplerXYZ
+PKG_VERSION="0.57.0">
+PKG_FILE=ABCpoppler-0.57.0.tar.xz poppler-data-0.4.8.tar.gzXYZ
+URL="https://poppler.freedesktop.org/poppler-0.57.0.tar.xz"
+MD5="bc5a191741604552c90d484103229374  $PACKAGE"
+MD5="00f8989c804de84af0ba2ea629949980  $PACKAGE1"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

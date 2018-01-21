@@ -1,0 +1,14 @@
+#
+# perl-html-parser
+#
+## EDITHOOK1
+PKG=ABCperl-html-parserXYZ
+PKG_VERSION=
+PKG_FILE=ABCHTML-Parser-3.72.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/G/GA/GAAS/HTML-Parser-3.72.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

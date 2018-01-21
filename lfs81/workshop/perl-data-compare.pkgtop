@@ -1,0 +1,14 @@
+#
+# perl-data-compare
+#
+## EDITHOOK1
+PKG=ABCperl-data-compareXYZ
+PKG_VERSION=
+PKG_FILE=ABCData-Compare-1.25.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/D/DC/DCANTRELL/Data-Compare-1.25.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,14 @@
+#
+# tex-path
+#
+## EDITHOOK1
+PKG=ABCtex-pathXYZ
+PKG_VERSION=
+PKG_FILE=ABCXYZ
+URL=
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

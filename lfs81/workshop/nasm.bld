@@ -1,0 +1,16 @@
+############# Building package
+cd $UNPACKDIR
+
+tar -xf ../nasm-2.13.01-xdoc.tar.xz --strip-components=1
+./configure --prefix=/usr &&
+make
+make -j1 install
+install -m755 -d         /usr/share/doc/nasm-2.13.01/html  &&
+cp -v doc/html/*.html    /usr/share/doc/nasm-2.13.01/html  &&
+cp -v doc/*.{txt,ps,pdf} /usr/share/doc/nasm-2.13.01
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

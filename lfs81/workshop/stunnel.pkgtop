@@ -1,0 +1,15 @@
+#
+# stunnel
+#
+## EDITHOOK1
+PKG=ABCstunnelXYZ
+PKG_VERSION="5.42">
+PKG_FILE=ABCstunnel-5.42.tar.gzXYZ
+URL="ftp://ftp.stunnel.org/stunnel/archive/5.x/stunnel-5.42.tar.gz"
+MD5="ad0a6c63b30ec40afc7a2326e9ce04e0  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

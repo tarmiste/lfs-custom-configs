@@ -1,0 +1,15 @@
+#
+# xf86dgaproto
+#
+## EDITHOOK1
+PKG=ABCxf86dgaprotoXYZ
+PKG_VERSION=
+PKG_FILE=ABCxf86dgaproto-2.1.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/proto/xf86dgaproto-2.1.tar.bz2"
+MD5="a036dc2fcbf052ec10621fd48b68dbb1  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

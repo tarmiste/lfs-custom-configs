@@ -1,0 +1,14 @@
+############# Building package
+cd $UNPACKDIR
+
+sed 's@SSL_library_init@SSL_new@g' -i configure.ac &&
+autoreconf -fi
+./configure --prefix=/usr &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,14 @@
+############# Building package
+cd $UNPACKDIR
+
+packagedir=scrnsaverproto-1.2.2
+  ./configure $XORG_CONFIG
+  
+ make -j1 install
+  
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

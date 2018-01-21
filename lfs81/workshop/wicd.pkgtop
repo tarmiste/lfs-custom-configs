@@ -1,0 +1,15 @@
+#
+# wicd
+#
+## EDITHOOK1
+PKG=ABCwicdXYZ
+PKG_VERSION="1.7.4">
+PKG_FILE=ABCwicd-1.7.4.tar.gzXYZ
+URL="https://launchpad.net/wicd/1.7/1.7.4/+download/wicd-1.7.4.tar.gz"
+MD5="aaa2e9f5320849e0b5d053099a6f0007  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

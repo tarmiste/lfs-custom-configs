@@ -1,0 +1,15 @@
+#
+# libao
+#
+## EDITHOOK1
+PKG=ABClibaoXYZ
+PKG_VERSION="1.2.0">
+PKG_FILE=ABClibao-1.2.0.tar.gzXYZ
+URL="https://downloads.xiph.org/releases/ao/libao-1.2.0.tar.gz"
+MD5="9f5dd20d7e95fd0dd72df5353829f097  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

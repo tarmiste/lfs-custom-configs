@@ -1,0 +1,16 @@
+############# Building package
+cd $UNPACKDIR
+
+autoreconf -fiv &&
+
+./configure --prefix=/usr --disable-static &&
+make
+./frontend/faad -o sample.wav ../sample.aac
+aplay sample.wav
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

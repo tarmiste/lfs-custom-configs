@@ -1,0 +1,21 @@
+############# Building package
+cd $UNPACKDIR
+
+patch -Np1 -i ../transmission-2.92-openssl-1.1.0-1.patch
+./configure --prefix=/usr &&
+make
+pushd qt        &&
+  qmake qtr.pro &&
+  make          &&
+popd
+make -j1 install
+make -j1 INSTALL_ROOT=/usr -C qt install &&
+
+install -m644 qt/transmission-qt.desktop /usr/share/applications/transmission-qt.desktop &&
+install -m644 qt/icons/transmission.png  /usr/share/pixmaps/transmission-qt.png
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

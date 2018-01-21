@@ -1,0 +1,15 @@
+#
+# gnupg2
+#
+## EDITHOOK1
+PKG=ABCgnupg2XYZ
+PKG_VERSION="2.1.23">
+PKG_FILE=ABCgnupg-2.1.23.tar.bz2XYZ
+URL="https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.1.23.tar.bz2"
+MD5="86c2304ead54b74a422e76c3f1bc7a91  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

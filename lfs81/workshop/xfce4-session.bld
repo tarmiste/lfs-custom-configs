@@ -1,0 +1,17 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr \
+            --sysconfdir=/etc \
+            --disable-legacy-sm &&
+make
+make -j1 install
+ldconfig
+
+update-desktop-database &&
+update-mime-database /usr/share/mime
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

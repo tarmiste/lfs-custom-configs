@@ -1,0 +1,33 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/guile-2.2.2 &&
+make      &&
+make html &&
+
+makeinfo --plaintext -o doc/r5rs/r5rs.txt doc/r5rs/r5rs.texi &&
+makeinfo --plaintext -o doc/ref/guile.txt doc/ref/guile.texi
+#make -k  || true
+make -j1 install      &&
+make -j1 install-html &&
+
+mv /usr/lib/libguile-*-gdb.scm /usr/share/gdb/auto-load/usr/lib &&
+mv /usr/share/doc/guile-2.2.2/{guile.html,ref} &&
+mv /usr/share/doc/guile-2.2.2/r5rs{.html,}     &&
+
+find examples -name "Makefile*" -delete         &&
+cp -vR examples   /usr/share/doc/guile-2.2.2   &&
+
+for DIRNAME in r5rs ref; do
+  install -v -m644  doc/${DIRNAME}/*.txt \
+                    /usr/share/doc/guile-2.2.2/${DIRNAME}
+done &&
+unset DIRNAME
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

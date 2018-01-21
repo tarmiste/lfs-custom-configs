@@ -1,0 +1,15 @@
+#
+# libidn
+#
+## EDITHOOK1
+PKG=ABClibidnXYZ
+PKG_VERSION="1.33">
+PKG_FILE=ABClibidn-1.33.tar.gzXYZ
+URL="https://ftp.gnu.org/gnu/libidn/libidn-1.33.tar.gz"
+MD5="a9aa7e003665de9c82bd3f9fc6ccf308  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

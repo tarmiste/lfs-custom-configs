@@ -1,0 +1,20 @@
+############# Building package
+cd $UNPACKDIR
+
+patch -Np1 -i ../qtwebkit-5.9.0-icu_59-1.patch
+sed -e '/CONFIG/a QMAKE_CXXFLAGS += -Wno-expansion-to-defined' \
+    -i Tools/qmake/mkspecs/features/unix/default_pre.prf
+mkdir -p build        &&
+cd       build        &&
+
+qmake ../WebKit.pro   &&
+make
+make -j1 install
+find $QT5DIR/ -name \*.prl \
+   -exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

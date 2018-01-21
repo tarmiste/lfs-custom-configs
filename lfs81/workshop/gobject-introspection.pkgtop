@@ -1,0 +1,15 @@
+#
+# gobject-introspection
+#
+## EDITHOOK1
+PKG=ABCgobject-introspectionXYZ
+PKG_VERSION="1.52.1">
+PKG_FILE=ABCgobject-introspection-1.52.1.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gobject-introspection/1.52/gobject-introspection-1.52.1.tar.xz"
+MD5="34157073991f9eeb0ed953351b65eb61  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

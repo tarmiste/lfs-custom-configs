@@ -1,0 +1,14 @@
+############# Building package
+cd $UNPACKDIR
+
+make all3
+#make -k test || true
+make -j1 DEST_HOME=/usr \
+     DEST_MAN=/usr/share/man \
+     DEST_SHARE_DOC=/usr/share/doc/p7zip-16.02 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

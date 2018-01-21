@@ -1,0 +1,15 @@
+#
+# pinentry
+#
+## EDITHOOK1
+PKG=ABCpinentryXYZ
+PKG_VERSION="1.0.0">
+PKG_FILE=ABCpinentry-1.0.0.tar.bz2XYZ
+URL="https://www.gnupg.org/ftp/gcrypt/pinentry/pinentry-1.0.0.tar.bz2"
+MD5="4a3fad8b31f9b4c5526c8837495015dc  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,21 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr     \
+            --sysconfdir=/etc \
+            --enable-hdri     \
+            --with-modules    \
+            --with-perl       \
+            --disable-static  &&
+make
+make -j1 DOCUMENTATION_PATH=/usr/share/doc/imagemagick-7.0.6 install
+#make -k check || true
+#make -k check || true
+#make -k tests/validate || true
+#make -k  || true
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

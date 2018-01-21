@@ -1,0 +1,15 @@
+#
+# db
+#
+## EDITHOOK1
+PKG=ABCdbXYZ
+PKG_VERSION="6.2.32">
+PKG_FILE=ABCdb-6.2.32.tar.gzXYZ
+URL="http://download.oracle.com/berkeley-db/db-6.2.32.tar.gz"
+MD5="33491b4756cb44b91c3318b727e71023  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

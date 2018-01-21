@@ -1,0 +1,15 @@
+#
+# xcb-proto
+#
+## EDITHOOK1
+PKG=ABCxcb-protoXYZ
+PKG_VERSION="1.12">
+PKG_FILE=ABCxcb-proto-1.12.tar.bz2XYZ
+URL="https://xcb.freedesktop.org/dist/xcb-proto-1.12.tar.bz2"
+MD5="14e60919f859560f28426a685a555962  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/xcb-proto-1.12-python3-1.patch PATCH1MD5" "http://www.linuxfromscratch.org/patches/blfs/8.1/xcb-proto-1.12-schema-1.patch PATCH1MD5"

@@ -1,0 +1,15 @@
+#
+# xpr
+#
+## EDITHOOK1
+PKG=ABCxprXYZ
+PKG_VERSION=
+PKG_FILE=ABCxpr-1.0.4.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/app/xpr-1.0.4.tar.bz2"
+MD5="6101f04731ffd40803df80eca274ec4b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

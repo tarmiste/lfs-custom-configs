@@ -1,0 +1,15 @@
+#
+# gnome-icon-theme-symbolic
+#
+## EDITHOOK1
+PKG=ABCgnome-icon-theme-symbolicXYZ
+PKG_VERSION=
+PKG_FILE=ABCgnome-icon-theme-symbolic-3.12.0.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gnome-icon-theme-symbolic/3.12/gnome-icon-theme-symbolic-3.12.0.tar.xz"
+MD5="3c9c0e6b9fa04b3cbbb84da825a26fd9  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

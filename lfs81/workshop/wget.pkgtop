@@ -1,0 +1,15 @@
+#
+# wget
+#
+## EDITHOOK1
+PKG=ABCwgetXYZ
+PKG_VERSION="1.19.1">
+PKG_FILE=ABCwget-1.19.1.tar.xzXYZ
+URL=PKG_DIR=wget
+MD5="d30d82186b93fcabb4116ff513bfa9bd  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

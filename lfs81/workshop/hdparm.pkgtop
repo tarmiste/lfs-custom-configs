@@ -1,0 +1,15 @@
+#
+# hdparm
+#
+## EDITHOOK1
+PKG=ABChdparmXYZ
+PKG_VERSION="9.52">
+PKG_FILE=ABChdparm-9.52.tar.gzXYZ
+URL="https://downloads.sourceforge.net/hdparm/hdparm-9.52.tar.gz"
+MD5="410539d0bf3cc247181594581edbfb53  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

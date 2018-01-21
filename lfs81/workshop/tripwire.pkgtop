@@ -1,0 +1,15 @@
+#
+# tripwire
+#
+## EDITHOOK1
+PKG=ABCtripwireXYZ
+PKG_VERSION="2.4.3.5">
+PKG_FILE=ABCtripwire-open-source-2.4.3.5.tar.gzXYZ
+URL="https://github.com/Tripwire/tripwire-open-source/releases/download/2.4.3.5/tripwire-open-source-2.4.3.5.tar.gz"
+MD5="34f09583d7ab4c10003db61707f1b707  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

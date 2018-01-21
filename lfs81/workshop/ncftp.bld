@@ -1,0 +1,18 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr --sysconfdir=/etc &&
+make -C libncftp shared &&
+make
+make -j1 -C libncftp soinstall &&
+make -j1 install
+./configure --prefix=/usr --sysconfdir=/etc &&
+make
+make -j1 install
+ldconfig
+
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

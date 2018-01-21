@@ -1,0 +1,15 @@
+#
+# fetchmail
+#
+## EDITHOOK1
+PKG=ABCfetchmailXYZ
+PKG_VERSION="6.3.26">
+PKG_FILE=ABCfetchmail-6.3.26.tar.xzXYZ
+URL="https://downloads.sourceforge.net/fetchmail/fetchmail-6.3.26.tar.xz"
+MD5="61b66faad044afa26e142bb1791aa2b3  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/fetchmail-6.3.26-disable_sslv3-1.patch PATCH1MD5"

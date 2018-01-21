@@ -1,0 +1,15 @@
+#
+# libsoup
+#
+## EDITHOOK1
+PKG=ABClibsoupXYZ
+PKG_VERSION="2.58.2">
+PKG_FILE=ABClibsoup-2.58.2.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/libsoup/2.58/libsoup-2.58.2.tar.xz"
+MD5="eb33adb459c2283efc5c7d09ccdbbcfc  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

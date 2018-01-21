@@ -1,0 +1,15 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr     \
+            --sysconfdir=/etc \
+            --docdir=/usr/share/doc/asciidoc-8.6.9 &&
+make
+make -j1 install &&
+make -j1 docs
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

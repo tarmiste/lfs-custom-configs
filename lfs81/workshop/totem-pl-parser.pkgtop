@@ -1,0 +1,15 @@
+#
+# totem-pl-parser
+#
+## EDITHOOK1
+PKG=ABCtotem-pl-parserXYZ
+PKG_VERSION=
+PKG_FILE=ABCtotem-pl-parser-3.10.8.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/totem-pl-parser/3.10/totem-pl-parser-3.10.8.tar.xz"
+MD5="2c2fb44c3124dd98ec827bcfcd040049  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

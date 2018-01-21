@@ -1,0 +1,15 @@
+#
+# pangomm
+#
+## EDITHOOK1
+PKG=ABCpangommXYZ
+PKG_VERSION="2.40.1">
+PKG_FILE=ABCpangomm-2.40.1.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/pangomm/2.40/pangomm-2.40.1.tar.xz"
+MD5="874eadd9434613dbacf0272c82c3ac23  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

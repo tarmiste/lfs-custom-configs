@@ -1,0 +1,15 @@
+#
+# openldap
+#
+## EDITHOOK1
+PKG=ABCopenldapXYZ
+PKG_VERSION="2.4.45">
+PKG_FILE=ABCopenldap-2.4.45.tgzXYZ
+URL="ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/openldap-2.4.45.tgz"
+MD5="00ff8301277cdfd0af728a6927042a13  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/openldap-2.4.45-consolidated-1.patch PATCH1MD5"

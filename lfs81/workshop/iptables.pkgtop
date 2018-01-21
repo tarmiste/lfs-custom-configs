@@ -1,0 +1,15 @@
+#
+# iptables
+#
+## EDITHOOK1
+PKG=ABCiptablesXYZ
+PKG_VERSION="1.6.1">
+PKG_FILE=ABCiptables-1.6.1.tar.bz2XYZ
+URL="http://www.netfilter.org/projects/iptables/files/iptables-1.6.1.tar.bz2"
+MD5="ab38a33806b6182c6f53d6afb4619add  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

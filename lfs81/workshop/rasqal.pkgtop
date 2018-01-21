@@ -1,0 +1,15 @@
+#
+# rasqal
+#
+## EDITHOOK1
+PKG=ABCrasqalXYZ
+PKG_VERSION="0.9.33">
+PKG_FILE=ABCrasqal-0.9.33.tar.gzXYZ
+URL="http://download.librdf.org/source/rasqal-0.9.33.tar.gz"
+MD5="1f5def51ca0026cd192958ef07228b52  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

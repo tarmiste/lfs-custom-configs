@@ -1,0 +1,15 @@
+#
+# gtk-doc
+#
+## EDITHOOK1
+PKG=ABCgtk-docXYZ
+PKG_VERSION="1.26">
+PKG_FILE=ABCgtk-doc-1.26.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gtk-doc/1.26/gtk-doc-1.26.tar.xz"
+MD5="1ad4a1dbf804889fdc85f8eec45e8696  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

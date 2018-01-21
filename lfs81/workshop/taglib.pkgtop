@@ -1,0 +1,15 @@
+#
+# taglib
+#
+## EDITHOOK1
+PKG=ABCtaglibXYZ
+PKG_VERSION="1.11.1">
+PKG_FILE=ABCtaglib-1.11.1.tar.gzXYZ
+URL="https://taglib.github.io/releases/taglib-1.11.1.tar.gz"
+MD5="cee7be0ccfc892fa433d6c837df9522a  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

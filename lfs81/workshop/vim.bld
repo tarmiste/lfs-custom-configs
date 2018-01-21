@@ -1,0 +1,40 @@
+############# Building package
+cd $UNPACKDIR
+
+echo '#define SYS_VIMRC_FILE  "/etc/vimrc"' >>  src/feature.h &&
+echo '#define SYS_GVIMRC_FILE "/etc/gvimrc"' >> src/feature.h &&
+
+./configure --prefix=/usr \
+            --with-features=huge \
+            --with-tlib=ncursesw &&
+make
+#make -k test || true
+make -j1 install
+ln -snfv ../vim/vim80/doc /usr/share/doc/vim-8.0.586
+rsync -avzcP --delete --exclude="/dos/" --exclude="/spell/" \
+    ftp.nluug.nl::Vim/runtime/ ./runtime/
+make -j1 -C src installruntime &&
+vim -c ":helptags /usr/share/doc/vim-8.0.586" -c ":q"
+ldconfig
+
+cat > /usr/share/applications/gvim.desktop << "EOF"
+[Desktop Entry]
+Name=GVim Text Editor
+Comment=Edit text files
+Comment[pt_BR]=Edite arquivos de texto
+TryExec=gvim
+Exec=gvim -f %F
+Terminal=false
+Type=Application
+Icon=gvim.png
+Categories=Utility;TextEditor;
+StartupNotify=true
+MimeType=text/plain;
+EOF
+
+
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

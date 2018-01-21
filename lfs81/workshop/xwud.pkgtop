@@ -1,0 +1,15 @@
+#
+# xwud
+#
+## EDITHOOK1
+PKG=ABCxwudXYZ
+PKG_VERSION=
+PKG_FILE=ABCxwud-1.0.4.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/app/xwud-1.0.4.tar.bz2"
+MD5="3025b152b4f13fdffd0c46d0be587be6  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

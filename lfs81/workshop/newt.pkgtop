@@ -1,0 +1,15 @@
+#
+# newt
+#
+## EDITHOOK1
+PKG=ABCnewtXYZ
+PKG_VERSION="0.52.20">
+PKG_FILE=ABCnewt-0.52.20.tar.gzXYZ
+URL="https://releases.pagure.org/newt/newt-0.52.20.tar.gz"
+MD5="70b288f821234593a8e7920e435b259b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,26 @@
+############# Building package
+cd $UNPACKDIR
+
+new='../liblxqt-config-cursor/lxqt-config-cursor_autogen/include'
+
+sed -i "/CURRENT_BINARY_DIR/a \"\${CMAKE_CURRENT_BINARY_DIR}/$new\"" \
+       lxqt-config-appearance/CMakeLists.txt \
+       lxqt-config-input/CMakeLists.txt &&
+unset new
+mkdir -v build &&
+cd       build &&
+
+cmake -DCMAKE_INSTALL_PREFIX=$LXQT_PREFIX \
+      -DCMAKE_BUILD_TYPE=Release          \
+      -DPULL_TRANSLATIONS=no              \
+      -DCMAKE_INSTALL_LIBDIR=lib          \
+      ..                                  &&
+
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

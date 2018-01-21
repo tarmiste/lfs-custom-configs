@@ -1,0 +1,15 @@
+#
+# check
+#
+## EDITHOOK1
+PKG=ABCcheckXYZ
+PKG_VERSION="0.11.0">
+PKG_FILE=ABCcheck-0.11.0.tar.gzXYZ
+URL="https://github.com/libcheck/check/releases/download/0.11.0/check-0.11.0.tar.gz"
+MD5="9b90522b31f5628c2e0f55dda348e558  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

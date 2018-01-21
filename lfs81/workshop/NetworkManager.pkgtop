@@ -1,0 +1,14 @@
+#
+# NetworkManager
+#
+## EDITHOOK1
+PKG=ABCNetworkManagerXYZ
+PKG_VERSION="1.8.2">
+PKG_FILE=ABCNetworkManager-1.8.2.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/NetworkManager/1.8/NetworkManager-1.8.2.tar.xz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

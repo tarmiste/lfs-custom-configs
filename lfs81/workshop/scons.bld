@@ -1,0 +1,13 @@
+############# Building package
+cd $UNPACKDIR
+
+python setup.py install --prefix=/usr  \
+                        --standard-lib \
+                        --optimize=1   \
+                        --install-data=/usr/share
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,15 @@
+#
+# lxtask
+#
+## EDITHOOK1
+PKG=ABClxtaskXYZ
+PKG_VERSION="0.1.8">
+PKG_FILE=ABClxtask-0.1.8.tar.xzXYZ
+URL="https://downloads.sourceforge.net/lxde/lxtask-0.1.8.tar.xz"
+MD5="dd4f423dda192cb50618c6b1e76ec6b7  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

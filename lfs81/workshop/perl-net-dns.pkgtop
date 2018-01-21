@@ -1,0 +1,14 @@
+#
+# perl-net-dns
+#
+## EDITHOOK1
+PKG=ABCperl-net-dnsXYZ
+PKG_VERSION=
+PKG_FILE=ABCNet-DNS-1.12.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/N/NL/NLNETLABS/Net-DNS-1.12.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

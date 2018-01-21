@@ -1,0 +1,14 @@
+#
+# plasma5-build
+#
+## EDITHOOK1
+PKG=ABCplasma5-buildXYZ
+PKG_VERSION=
+PKG_FILE=ABCXYZ
+URL=wget -r -nH -nd -A '*.xz' -np $url
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

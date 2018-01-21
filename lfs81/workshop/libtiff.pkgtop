@@ -1,0 +1,15 @@
+#
+# libtiff
+#
+## EDITHOOK1
+PKG=ABClibtiffXYZ
+PKG_VERSION="4.0.8">
+PKG_FILE=ABCtiff-4.0.8.tar.gzXYZ
+URL="http://download.osgeo.org/libtiff/tiff-4.0.8.tar.gz"
+MD5="2a7d1c1318416ddf36d5f6fa4600069b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

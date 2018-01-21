@@ -1,0 +1,15 @@
+#
+# xkill
+#
+## EDITHOOK1
+PKG=ABCxkillXYZ
+PKG_VERSION=
+PKG_FILE=ABCxkill-1.0.4.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/app/xkill-1.0.4.tar.bz2"
+MD5="0ae6bc2a8d3af68e9c76b1a6ca5f7a78  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

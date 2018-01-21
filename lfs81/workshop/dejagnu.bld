@@ -1,0 +1,17 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr &&
+makeinfo --html --no-split -o doc/dejagnu.html doc/dejagnu.texi &&
+makeinfo --plaintext       -o doc/dejagnu.txt  doc/dejagnu.texi
+#make -k check || true
+make -j1 install &&
+install -v -dm755   /usr/share/doc/dejagnu-1.6 &&
+install -v -m644    doc/dejagnu.{html,txt} \
+                    /usr/share/doc/dejagnu-1.6
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,15 @@
+#
+# libgusb
+#
+## EDITHOOK1
+PKG=ABClibgusbXYZ
+PKG_VERSION="0.2.11">
+PKG_FILE=ABClibgusb-0.2.11.tar.xzXYZ
+URL="https://people.freedesktop.org/~hughsient/releases/libgusb-0.2.11.tar.xz"
+MD5="fa2b41b828c749f9190edf888948a77b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

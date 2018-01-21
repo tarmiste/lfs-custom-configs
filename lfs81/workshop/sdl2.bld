@@ -1,0 +1,18 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr &&
+make
+pushd docs  &&
+  doxygen   &&
+popd
+make -j1 install              &&
+rm -v /usr/lib/libSDL2*.a
+install -v -m755 -d        /usr/share/doc/SDL2-2.0.5/html &&
+cp -Rv  docs/output/html/* /usr/share/doc/SDL2-2.0.5/html
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

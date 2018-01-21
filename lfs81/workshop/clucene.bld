@@ -1,0 +1,18 @@
+############# Building package
+cd $UNPACKDIR
+
+patch -Np1 -i ../clucene-2.3.3.4-contribs_lib-1.patch &&
+
+mkdir build &&
+cd    build &&
+
+cmake -DCMAKE_INSTALL_PREFIX=/usr \
+      -DBUILD_CONTRIBS_LIB=ON .. &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

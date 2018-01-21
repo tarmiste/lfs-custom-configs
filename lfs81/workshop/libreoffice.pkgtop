@@ -1,0 +1,18 @@
+#
+# libreoffice
+#
+## EDITHOOK1
+PKG=ABClibreofficeXYZ
+PKG_VERSION="5.4.0">
+PKG_FILE=ABClibreoffice-5.4.0.3.tar.xz libreoffice-dictionaries-5.4.0.3.tar.xz libreoffice-help-5.4.0.3.tar.xz libreoffice-translations-5.4.0.3.tar.xzXYZ
+URL="http://download.documentfoundation.org/libreoffice/src/5.4.0/libreoffice-5.4.0.3.tar.xz"
+MD5="3491becc5b7e3b1658239b8be877770c  $PACKAGE"
+MD5="df72048ade4fe7a63a7934af65f2e5bd  $PACKAGE1"
+MD5="c3e731156d2b5594cd3e0dc8c36d7ea3  $PACKAGE1"
+MD5="18ea9867fea2fd0f9149df43ce286e30  $PACKAGE1"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

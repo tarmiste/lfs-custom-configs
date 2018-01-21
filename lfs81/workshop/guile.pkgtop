@@ -1,0 +1,15 @@
+#
+# guile
+#
+## EDITHOOK1
+PKG=ABCguileXYZ
+PKG_VERSION="2.2.2">
+PKG_FILE=ABCguile-2.2.2.tar.xzXYZ
+URL="https://ftp.gnu.org/gnu/guile/guile-2.2.2.tar.xz"
+MD5="d3c002bcf92dbf68f6de45803874db0f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,14 @@
+#
+# perl-encode-jis2k
+#
+## EDITHOOK1
+PKG=ABCperl-encode-jis2kXYZ
+PKG_VERSION=
+PKG_FILE=ABCEncode-JIS2K-0.03.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/D/DA/DANKOGAI/Encode-JIS2K-0.03.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

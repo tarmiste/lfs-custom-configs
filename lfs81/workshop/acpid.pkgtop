@@ -1,0 +1,15 @@
+#
+# acpid
+#
+## EDITHOOK1
+PKG=ABCacpidXYZ
+PKG_VERSION="2.0.28">
+PKG_FILE=ABCacpid-2.0.28.tar.xzXYZ
+URL="https://downloads.sourceforge.net/acpid2/acpid-2.0.28.tar.xz"
+MD5="0432407b5ff75ae8e08afb43052fde2b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

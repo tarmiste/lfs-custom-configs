@@ -1,0 +1,22 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -e '/TryExec/s@=@='$LXQT_PREFIX'/bin/@' \
+    -i xsession/lxqt.desktop.in &&
+
+mkdir -v build &&
+cd       build &&
+
+cmake -DCMAKE_BUILD_TYPE=Release          \
+      -DCMAKE_INSTALL_PREFIX=$LXQT_PREFIX \
+      ..       &&
+
+make
+mkdir -pv $LXQT_PREFIX/share/lxqt/graphics &&
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

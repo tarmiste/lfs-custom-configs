@@ -1,0 +1,15 @@
+#
+# smartmontools
+#
+## EDITHOOK1
+PKG=ABCsmartmontoolsXYZ
+PKG_VERSION="6.5">
+PKG_FILE=ABCsmartmontools-6.5.tar.gzXYZ
+URL="https://downloads.sourceforge.net/smartmontools/smartmontools-6.5.tar.gz"
+MD5="093aeec3f8f39fa9a37593c4012d3156  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

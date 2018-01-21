@@ -1,0 +1,14 @@
+#
+# perl-archive-zip
+#
+## EDITHOOK1
+PKG=ABCperl-archive-zipXYZ
+PKG_VERSION=
+PKG_FILE=ABCArchive-Zip-1.59.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.59.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

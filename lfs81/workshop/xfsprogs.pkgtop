@@ -1,0 +1,15 @@
+#
+# xfsprogs
+#
+## EDITHOOK1
+PKG=ABCxfsprogsXYZ
+PKG_VERSION="4.12.0">
+PKG_FILE=ABCxfsprogs-4.12.0.tar.xzXYZ
+URL="https://www.kernel.org/pub/linux/utils/fs/xfs/xfsprogs/xfsprogs-4.12.0.tar.xz"
+MD5="e348b0e1d7bd1cd82d64b91ff37e727e  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

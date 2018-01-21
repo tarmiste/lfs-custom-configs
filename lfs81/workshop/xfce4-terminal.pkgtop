@@ -1,0 +1,15 @@
+#
+# xfce4-terminal
+#
+## EDITHOOK1
+PKG=ABCxfce4-terminalXYZ
+PKG_VERSION="0.8.6">
+PKG_FILE=ABCxfce4-terminal-0.8.6.tar.bz2XYZ
+URL="http://archive.xfce.org/src/apps/xfce4-terminal/0.8/xfce4-terminal-0.8.6.tar.bz2"
+MD5="92f5a3366e30f5f8238d8250f730b6af  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

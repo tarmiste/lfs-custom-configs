@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+cd build/cmake &&
+
+cmake -DCMAKE_INSTALL_PREFIX=/usr \
+      -DCMAKE_BUILD_TYPE=Release  \
+      -DBUILD_TAB2SPACE=ON        \
+      ../..    &&
+
+make
+make -j1 install &&
+install -v -m755 tab2space /usr/bin
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,15 @@
+#
+# qscintilla
+#
+## EDITHOOK1
+PKG=ABCqscintillaXYZ
+PKG_VERSION="2.10.1">
+PKG_FILE=ABCQScintilla_gpl-2.10.1.tar.gzXYZ
+URL="https://downloads.sourceforge.net/pyqt/QScintilla_gpl-2.10.1.tar.gz"
+MD5="e6d74c445bae69ba335acef65d526260  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

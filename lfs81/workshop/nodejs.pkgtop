@@ -1,0 +1,15 @@
+#
+# nodejs
+#
+## EDITHOOK1
+PKG=ABCnodejsXYZ
+PKG_VERSION="8.4.0">
+PKG_FILE=ABCnode-v8.4.0.tar.xzXYZ
+URL="https://nodejs.org/dist/v8.4.0/node-v8.4.0.tar.xz"
+MD5="e6c85c83001340b30671e9432e1bd337  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

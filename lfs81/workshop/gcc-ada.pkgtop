@@ -1,0 +1,17 @@
+#
+# gcc-ada
+#
+## EDITHOOK1
+PKG=ABCgcc-adaXYZ
+PKG_VERSION="7.2.0">
+PKG_FILE=ABCgcc-7.2.0.tar.xz 591c6d80c7a447af2deed1d7 564b3e9dc8e196b040fbe248XYZ
+URL="https://ftp.gnu.org/gnu/gcc/gcc-7.2.0/gcc-7.2.0.tar.xz"
+MD5="ff370482573133a7fcdd96cd2f552292  $PACKAGE"
+MD5="226dac83d9e6490fc8542ac0934a1db0  $PACKAGE1"
+MD5="69423c7ad8d9759377d4fff71a78992d  $PACKAGE1"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

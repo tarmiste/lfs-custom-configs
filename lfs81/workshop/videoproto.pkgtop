@@ -1,0 +1,15 @@
+#
+# videoproto
+#
+## EDITHOOK1
+PKG=ABCvideoprotoXYZ
+PKG_VERSION=
+PKG_FILE=ABCvideoproto-2.3.3.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/proto/videoproto-2.3.3.tar.bz2"
+MD5="fe86de8ea3eb53b5a8f52956c5cd3174  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

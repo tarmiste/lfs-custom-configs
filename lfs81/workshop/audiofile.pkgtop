@@ -1,0 +1,15 @@
+#
+# audiofile
+#
+## EDITHOOK1
+PKG=ABCaudiofileXYZ
+PKG_VERSION="0.3.6">
+PKG_FILE=ABCaudiofile-0.3.6.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/audiofile/0.3/audiofile-0.3.6.tar.xz"
+MD5="235dde14742317328f0109e9866a8008  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

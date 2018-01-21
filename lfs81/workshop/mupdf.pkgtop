@@ -1,0 +1,15 @@
+#
+# mupdf
+#
+## EDITHOOK1
+PKG=ABCmupdfXYZ
+PKG_VERSION="1.11">
+PKG_FILE=ABCmupdf-1.11-source.tar.gzXYZ
+URL="http://www.mupdf.com/downloads/archive/mupdf-1.11-source.tar.gz"
+MD5="ab9a6629f572225e803c4cf426bdb09c  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/mupdf-1.11-shared_libs-1.patch PATCH1MD5" "http://www.linuxfromscratch.org/patches/blfs/8.1/mupdf-1.11-openjpeg-2.patch PATCH1MD5"

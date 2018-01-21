@@ -1,0 +1,14 @@
+#
+# perl-xml-libxslt
+#
+## EDITHOOK1
+PKG=ABCperl-xml-libxsltXYZ
+PKG_VERSION=
+PKG_FILE=ABCXML-LibXSLT-1.95.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXSLT-1.95.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

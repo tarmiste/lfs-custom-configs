@@ -1,0 +1,14 @@
+############# Building package
+cd $UNPACKDIR
+
+patch -Np1 -i ../cdparanoia-III-10.2-gcc_fixes-1.patch &&
+./configure --prefix=/usr --mandir=/usr/share/man &&
+make -j1
+make -j1 install &&
+chmod -v 755 /usr/lib/libcdda_*.so.0.10.2
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

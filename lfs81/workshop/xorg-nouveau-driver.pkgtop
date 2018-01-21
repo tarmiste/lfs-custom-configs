@@ -1,0 +1,15 @@
+#
+# xorg-nouveau-driver
+#
+## EDITHOOK1
+PKG=ABCxorg-nouveau-driverXYZ
+PKG_VERSION=
+PKG_FILE=ABCxf86-video-nouveau-1.0.15.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/driver/xf86-video-nouveau-1.0.15.tar.bz2"
+MD5="717203cb87029cddcbccf7398f9ad8c3  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

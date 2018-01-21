@@ -1,0 +1,15 @@
+#
+# rox-filer
+#
+## EDITHOOK1
+PKG=ABCrox-filerXYZ
+PKG_VERSION="2.11">
+PKG_FILE=ABCrox-filer-2.11.tar.bz2XYZ
+URL="https://downloads.sourceforge.net/rox/rox-filer-2.11.tar.bz2"
+MD5="0eebf05a67f7932367750ebf9faf215d  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

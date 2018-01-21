@@ -1,0 +1,15 @@
+#
+# firefox
+#
+## EDITHOOK1
+PKG=ABCfirefoxXYZ
+PKG_VERSION="55.0.3">
+PKG_FILE=ABCfirefox-55.0.3.source.tar.xzXYZ
+URL="https://archive.mozilla.org/pub/firefox/releases/55.0.3/source/firefox-55.0.3.source.tar.xz"
+MD5="bc55a68fdd6770215cfa7a49fe7e3c98  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/firefox-55.0.3-system_graphite2_harfbuzz-1.patch PATCH1MD5"

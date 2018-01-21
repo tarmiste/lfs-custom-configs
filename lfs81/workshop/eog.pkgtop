@@ -1,0 +1,15 @@
+#
+# eog
+#
+## EDITHOOK1
+PKG=ABCeogXYZ
+PKG_VERSION=
+PKG_FILE=ABCeog-3.24.1.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/eog/3.24/eog-3.24.1.tar.xz"
+MD5="5242ef0c05278aa6f161b6af99297b6a  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

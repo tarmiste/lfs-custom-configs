@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+sed '/stdlib.h/a#include <stdint.h>' -i src/xdr_sizeof.c
+sed '/key_secret_is/s/secret/secretkey/' -i src/libtirpc.map
+./configure --prefix=/usr                                   \
+            --sysconfdir=/etc                               \
+            --disable-static                                \
+            --disable-gssapi                                &&
+make
+make -j1 install &&
+mv -v /usr/lib/libtirpc.so.* /lib &&
+ln -sfv ../../lib/libtirpc.so.3.0.0 /usr/lib/libtirpc.so
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

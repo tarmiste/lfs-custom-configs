@@ -1,0 +1,15 @@
+#
+# rsync
+#
+## EDITHOOK1
+PKG=ABCrsyncXYZ
+PKG_VERSION="3.1.2">
+PKG_FILE=ABCrsync-3.1.2.tar.gzXYZ
+URL="https://www.samba.org/ftp/rsync/src/rsync-3.1.2.tar.gz"
+MD5="0f758d7e000c0f7f7d3792610fad70cb  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

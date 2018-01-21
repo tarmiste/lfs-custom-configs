@@ -1,0 +1,14 @@
+#
+# perl-datetime-calendar-julian
+#
+## EDITHOOK1
+PKG=ABCperl-datetime-calendar-julianXYZ
+PKG_VERSION=
+PKG_FILE=ABCDateTime-Calendar-Julian-0.04.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/P/PI/PIJLL/DateTime-Calendar-Julian-0.04.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

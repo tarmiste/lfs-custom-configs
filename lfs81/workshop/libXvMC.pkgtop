@@ -1,0 +1,15 @@
+#
+# libXvMC
+#
+## EDITHOOK1
+PKG=ABClibXvMCXYZ
+PKG_VERSION=
+PKG_FILE=ABClibXvMC-1.0.10.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/lib/libXvMC-1.0.10.tar.bz2"
+MD5="4cbe1c1def7a5e1b0ed5fce8e512f4c6  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i 's/cp -p/cp/' build/make/Makefile &&
+
+mkdir libvpx-build            &&
+cd    libvpx-build            &&
+
+../configure --prefix=/usr    \
+             --enable-shared  \
+             --disable-static &&
+make
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

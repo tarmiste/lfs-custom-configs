@@ -1,0 +1,18 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -i '/_PyVerify_fd/,+1d' python/types.c
+./configure --prefix=/usr --disable-static --with-history &&
+make
+tar xf ../xmlts20130923.tar.gz
+#make -k check > check.log || true
+#make -k  || true
+#make -k  || true
+#make -k  || true
+make -j1 install
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

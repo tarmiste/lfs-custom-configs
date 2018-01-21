@@ -1,0 +1,15 @@
+#
+# yelp
+#
+## EDITHOOK1
+PKG=ABCyelpXYZ
+PKG_VERSION=
+PKG_FILE=ABCyelp-3.22.0.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/yelp/3.22/yelp-3.22.0.tar.xz"
+MD5="2195842c812b4bf3d9903e4e41cb5dd1  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

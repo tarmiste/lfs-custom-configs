@@ -1,0 +1,15 @@
+#
+# xrdb
+#
+## EDITHOOK1
+PKG=ABCxrdbXYZ
+PKG_VERSION=
+PKG_FILE=ABCxrdb-1.1.0.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/app/xrdb-1.1.0.tar.bz2"
+MD5="b54c7e3e53b4f332d41ed435433fbda0  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

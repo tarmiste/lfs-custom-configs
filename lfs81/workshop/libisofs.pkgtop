@@ -1,0 +1,15 @@
+#
+# libisofs
+#
+## EDITHOOK1
+PKG=ABClibisofsXYZ
+PKG_VERSION="1.4.6">
+PKG_FILE=ABClibisofs-1.4.6.tar.gzXYZ
+URL="http://files.libburnia-project.org/releases/libisofs-1.4.6.tar.gz"
+MD5="6ec515d9265fb75c48e8e73b3ea3f6c5  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

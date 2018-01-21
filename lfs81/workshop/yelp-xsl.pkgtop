@@ -1,0 +1,15 @@
+#
+# yelp-xsl
+#
+## EDITHOOK1
+PKG=ABCyelp-xslXYZ
+PKG_VERSION=
+PKG_FILE=ABCyelp-xsl-3.20.1.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/yelp-xsl/3.20/yelp-xsl-3.20.1.tar.xz"
+MD5="2332716e6e39125a942bc761a6f94211  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

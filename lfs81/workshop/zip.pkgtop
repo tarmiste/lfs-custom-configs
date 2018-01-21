@@ -1,0 +1,15 @@
+#
+# zip
+#
+## EDITHOOK1
+PKG=ABCzipXYZ
+PKG_VERSION="3.0">
+PKG_FILE=ABCzip30.tar.gzXYZ
+URL="https://downloads.sourceforge.net/infozip/zip30.tar.gz"
+MD5="7b74551e63f8ee6aab6fbc86676c0d37  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

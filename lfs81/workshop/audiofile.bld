@@ -1,0 +1,15 @@
+############# Building package
+cd $UNPACKDIR
+
+CXXFLAGS=-std=c++98 \
+./configure --prefix=/usr --disable-static &&
+
+make
+make -j1 install
+#make -k check || true
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

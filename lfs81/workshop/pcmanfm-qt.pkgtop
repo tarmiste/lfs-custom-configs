@@ -1,0 +1,15 @@
+#
+# pcmanfm-qt
+#
+## EDITHOOK1
+PKG=ABCpcmanfm-qtXYZ
+PKG_VERSION="0.11.3">
+PKG_FILE=ABCpcmanfm-qt-0.11.3.tar.xzXYZ
+URL="https://github.com/lxde/pcmanfm-qt/releases/download/0.11.3/pcmanfm-qt-0.11.3.tar.xz"
+MD5="f56059180b9b1ae5fcb11fa844dad0f9  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

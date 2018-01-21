@@ -1,0 +1,15 @@
+#
+# wireshark
+#
+## EDITHOOK1
+PKG=ABCwiresharkXYZ
+PKG_VERSION="2.4.0"> <!-- even minors only -->
+PKG_FILE=ABCwireshark-2.4.0.tar.xzXYZ
+URL="https://www.wireshark.org/download/src/all-versions/wireshark-2.4.0.tar.xz"
+MD5="655106f8cf3bb8f521336d3a8ab5b10b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/wireshark-2.4.0-lua_5_3-1.patch PATCH1MD5"

@@ -1,0 +1,15 @@
+#
+# juffed
+#
+## EDITHOOK1
+PKG=ABCjuffedXYZ
+PKG_VERSION="0.10.r71.gc3c1a3f">
+PKG_FILE=ABCjuffed-0.10.r71.gc3c1a3f.tar.xzXYZ
+URL="http://anduin.linuxfromscratch.org/BLFS/juffed/juffed-0.10.r71.gc3c1a3f.tar.xz"
+MD5="5d211f5aadcb3d7365b5a6127d3d275f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

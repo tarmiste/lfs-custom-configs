@@ -1,0 +1,16 @@
+#
+# abiword
+#
+## EDITHOOK1
+PKG=ABCabiwordXYZ
+PKG_VERSION=
+PKG_FILE=ABCabiword-3.0.2.tar.gz abiword-docs-3.0.2.tar.gzXYZ
+URL="http://www.abisource.com/downloads/abiword/3.0.2/source/abiword-3.0.2.tar.gz"
+MD5="cda6dd58c747c133b421cc7eb18f5796  $PACKAGE"
+MD5="c92c0e1e2081db20757231a53d80c338  $PACKAGE1"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/abiword-3.0.2-gtk3_22_render_fix-1.patch PATCH1MD5"

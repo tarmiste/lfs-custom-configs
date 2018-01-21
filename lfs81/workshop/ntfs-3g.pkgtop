@@ -1,0 +1,15 @@
+#
+# ntfs-3g
+#
+## EDITHOOK1
+PKG=ABCntfs-3gXYZ
+PKG_VERSION="2017.3.23">
+PKG_FILE=ABCntfs-3g_ntfsprogs-2017.3.23.tgzXYZ
+URL="https://tuxera.com/opensource/ntfs-3g_ntfsprogs-2017.3.23.tgz"
+MD5="d97474ae1954f772c6d2fa386a6f462c  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

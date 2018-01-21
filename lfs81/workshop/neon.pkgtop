@@ -1,0 +1,15 @@
+#
+# neon
+#
+## EDITHOOK1
+PKG=ABCneonXYZ
+PKG_VERSION="0.30.2">
+PKG_FILE=ABCneon-0.30.2.tar.gzXYZ
+URL="http://www.webdav.org/neon/neon-0.30.2.tar.gz"
+MD5="e28d77bf14032d7f5046b3930704ef41  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

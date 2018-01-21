@@ -1,0 +1,15 @@
+#
+# dri2proto
+#
+## EDITHOOK1
+PKG=ABCdri2protoXYZ
+PKG_VERSION=
+PKG_FILE=ABCdri2proto-2.8.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/proto/dri2proto-2.8.tar.bz2"
+MD5="b2721d5d24c04d9980a0c6540cb5396a  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

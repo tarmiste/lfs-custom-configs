@@ -1,0 +1,15 @@
+#
+# c-ares
+#
+## EDITHOOK1
+PKG=ABCc-aresXYZ
+PKG_VERSION="1.12.0">
+PKG_FILE=ABCc-ares-1.12.0.tar.gzXYZ
+URL="https://c-ares.haxx.se/download/c-ares-1.12.0.tar.gz"
+MD5="2ca44be1715cd2c5666a165d35788424  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

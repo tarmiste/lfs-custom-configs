@@ -1,0 +1,59 @@
+############# Building package
+cd $UNPACKDIR
+
+TPUT=/bin/true ./configure --prefix=/usr \
+                           --with-buildstamp="BLFS" &&
+make
+make -j1 install
+ldconfig
+
+
+############# Unpacking source
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     UNPACKDIR=$PKG_DIR-build
+     mkdir $UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $UNPACKDIR
+     ;;
+esac
+############# Building package
+cd $UNPACKDIR
+
+TPUT=/bin/true ./configure --prefix=/usr --disable-wavpack &&
+make
+make -j1 install
+gtk-update-icon-cache &&
+update-desktop-database
+ldconfig
+
+cp -v /usr/share/applications/audacious{,-qt}.desktop &&
+
+sed -e '/^Name/ s/$/ Qt/' \
+    -e '/Exec=/ s/audacious/& --qt/' \
+    -i /usr/share/applications/audacious-qt.desktop
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

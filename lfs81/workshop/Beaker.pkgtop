@@ -1,0 +1,15 @@
+#
+# Beaker
+#
+## EDITHOOK1
+PKG=ABCBeakerXYZ
+PKG_VERSION="1.9.0">
+PKG_FILE=ABCBeaker-1.9.0.tar.gzXYZ
+URL="https://files.pythonhosted.org/packages/source/B/Beaker/Beaker-1.9.0.tar.gz"
+MD5="38b3fcdfa24faf97c6cf66991eb54e9c  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

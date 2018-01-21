@@ -1,0 +1,15 @@
+#
+# icedtea-web
+#
+## EDITHOOK1
+PKG=ABCicedtea-webXYZ
+PKG_VERSION="1.7">
+PKG_FILE=ABCicedtea-web-1.7.tar.gzXYZ
+URL="http://icedtea.wildebeest.org/download/source/icedtea-web-1.7.tar.gz"
+MD5="63bcda2c106e1a7e79afc7e9c9cb0a47  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

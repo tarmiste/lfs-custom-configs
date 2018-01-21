@@ -1,0 +1,14 @@
+#
+# flashplayer
+#
+## EDITHOOK1
+PKG=ABCflashplayerXYZ
+PKG_VERSION="26.0.0.151">
+PKG_FILE=ABCXYZ
+URL=
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

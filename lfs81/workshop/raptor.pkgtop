@@ -1,0 +1,15 @@
+#
+# raptor
+#
+## EDITHOOK1
+PKG=ABCraptorXYZ
+PKG_VERSION="2.0.15">
+PKG_FILE=ABCraptor2-2.0.15.tar.gzXYZ
+URL="http://download.librdf.org/source/raptor2-2.0.15.tar.gz"
+MD5="a39f6c07ddb20d7dd2ff1f95fa21e2cd  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,14 @@
+#
+# perl-file-slurp
+#
+## EDITHOOK1
+PKG=ABCperl-file-slurpXYZ
+PKG_VERSION=
+PKG_FILE=ABCFile-Slurp-9999.19.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/U/UR/URI/File-Slurp-9999.19.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

@@ -1,0 +1,15 @@
+#
+# xproto
+#
+## EDITHOOK1
+PKG=ABCxprotoXYZ
+PKG_VERSION=
+PKG_FILE=ABCxproto-7.0.31.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/proto/xproto-7.0.31.tar.bz2"
+MD5="16791f7ca8c51a20608af11702e51083  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

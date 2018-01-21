@@ -1,0 +1,15 @@
+#
+# cups-filters
+#
+## EDITHOOK1
+PKG=ABCcups-filtersXYZ
+PKG_VERSION="1.17.2">
+PKG_FILE=ABCcups-filters-1.17.2.tar.xzXYZ
+URL="https://www.openprinting.org/download/cups-filters/cups-filters-1.17.2.tar.xz"
+MD5="cbc3d40d572b25a78c828ea04f1248e8  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

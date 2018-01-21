@@ -1,0 +1,15 @@
+#
+# gnome-system-monitor
+#
+## EDITHOOK1
+PKG=ABCgnome-system-monitorXYZ
+PKG_VERSION=
+PKG_FILE=ABCgnome-system-monitor-3.24.0.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gnome-system-monitor/3.24/gnome-system-monitor-3.24.0.tar.xz"
+MD5="14d6bc9d8b4978f2123f82c40ad6445f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

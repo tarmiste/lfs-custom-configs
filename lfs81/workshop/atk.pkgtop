@@ -1,0 +1,15 @@
+#
+# atk
+#
+## EDITHOOK1
+PKG=ABCatkXYZ
+PKG_VERSION="2.24.0">
+PKG_FILE=ABCatk-2.24.0.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/atk/2.24/atk-2.24.0.tar.xz"
+MD5="3747a80089dfa3c0bbcf21adfff9968b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

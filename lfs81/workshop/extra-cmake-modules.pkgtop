@@ -1,0 +1,15 @@
+#
+# extra-cmake-modules
+#
+## EDITHOOK1
+PKG=ABCextra-cmake-modulesXYZ
+PKG_VERSION=
+PKG_FILE=ABCextra-cmake-modules-5.37.0.tar.xzXYZ
+URL="http://download.kde.org/stable/frameworks/5.37/extra-cmake-modules-5.37.0.tar.xz"
+MD5="29883c1580c5b9e4c736a138fc832e1a  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

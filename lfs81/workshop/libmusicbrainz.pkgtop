@@ -1,0 +1,15 @@
+#
+# libmusicbrainz
+#
+## EDITHOOK1
+PKG=ABClibmusicbrainzXYZ
+PKG_VERSION="2.1.5">
+PKG_FILE=ABClibmusicbrainz-2.1.5.tar.gzXYZ
+URL="http://ftp.musicbrainz.org/pub/musicbrainz/historical/libmusicbrainz-2.1.5.tar.gz"
+MD5="d5e19bb77edd6ea798ce206bd05ccc5f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/libmusicbrainz-2.1.5-missing-includes-1.patch PATCH1MD5"

@@ -1,0 +1,15 @@
+#
+# libXi
+#
+## EDITHOOK1
+PKG=ABClibXiXYZ
+PKG_VERSION=
+PKG_FILE=ABClibXi-1.7.9.tar.bz2XYZ
+URL="https://www.x.org/pub/individual/lib/libXi-1.7.9.tar.bz2"
+MD5="1f0f2719c020655a60aee334ddd26d67  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

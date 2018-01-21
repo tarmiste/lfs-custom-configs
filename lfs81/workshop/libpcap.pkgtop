@@ -1,0 +1,15 @@
+#
+# libpcap
+#
+## EDITHOOK1
+PKG=ABClibpcapXYZ
+PKG_VERSION="1.8.1">
+PKG_FILE=ABClibpcap-1.8.1.tar.gzXYZ
+URL="http://www.tcpdump.org/release/libpcap-1.8.1.tar.gz"
+MD5="3d48f9cd171ff12b0efd9134b52f1447  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/libpcap-1.8.1-enable_bluetooth-1.patch PATCH1MD5"

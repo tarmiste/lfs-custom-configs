@@ -1,0 +1,19 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr           \
+            --sysconfdir=/etc       \
+            --disable-static        \
+            --disable-dane-ta-usage \
+            --with-drill            &&
+make
+make doc
+make -j1 install
+install -v -m755 -d /usr/share/doc/ldns-1.7.0 &&
+install -v -m644 doc/html/* /usr/share/doc/ldns-1.7.0
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

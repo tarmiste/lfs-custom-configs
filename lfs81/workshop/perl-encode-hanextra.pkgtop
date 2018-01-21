@@ -1,0 +1,14 @@
+#
+# perl-encode-hanextra
+#
+## EDITHOOK1
+PKG=ABCperl-encode-hanextraXYZ
+PKG_VERSION=
+PKG_FILE=ABCEncode-HanExtra-0.23.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/A/AU/AUDREYT/Encode-HanExtra-0.23.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

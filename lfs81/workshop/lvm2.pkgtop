@@ -1,0 +1,15 @@
+#
+# lvm2
+#
+## EDITHOOK1
+PKG=ABClvm2XYZ
+PKG_VERSION="2.02.171">
+PKG_FILE=ABCLVM2.2.02.171.tgzXYZ
+URL="https://sourceware.org/ftp/lvm2/releases/LVM2.2.02.171.tgz"
+MD5="153b7bb643eb26073274968e9026fa8f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

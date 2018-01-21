@@ -1,0 +1,15 @@
+#
+# khelpcenter
+#
+## EDITHOOK1
+PKG=ABCkhelpcenterXYZ
+PKG_VERSION=
+PKG_FILE=ABCkhelpcenter-17.08.0.tar.xzXYZ
+URL="http://download.kde.org/stable/applications/17.08.0/src/khelpcenter-17.08.0.tar.xz"
+MD5="e89179a754e3208e5147c4eafbe99fd0  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

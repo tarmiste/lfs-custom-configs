@@ -1,0 +1,15 @@
+#
+# libpeas
+#
+## EDITHOOK1
+PKG=ABClibpeasXYZ
+PKG_VERSION=
+PKG_FILE=ABClibpeas-1.20.0.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/libpeas/1.20/libpeas-1.20.0.tar.xz"
+MD5="67a698cd64c9d9efc1289f68420883b1  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

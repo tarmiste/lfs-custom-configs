@@ -1,0 +1,30 @@
+############# Building package
+cd $UNPACKDIR
+
+CXX="/usr/bin/g++"              \
+./configure --prefix=/usr       \
+            --enable-shared     \
+            --with-system-expat \
+            --with-system-ffi   \
+            --with-ensurepip=yes &&
+make
+make -j1 install &&
+chmod -v 755 /usr/lib/libpython3.6m.so &&
+chmod -v 755 /usr/lib/libpython3.so
+install -v -dm755 /usr/share/doc/python-3.6.2/html &&
+tar --strip-components=1 \
+    --no-same-owner \
+    --no-same-permissions \
+    -C /usr/share/doc/python-3.6.2/html \
+    -xvf ../python-3.6.2-docs-html.tar.bz2
+#make -k test || true
+ldconfig
+
+ln -svfn python-3.6.2 /usr/share/doc/python-3
+
+export PYTHONDOCS=/usr/share/doc/python-3/html
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

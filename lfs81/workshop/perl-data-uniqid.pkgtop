@@ -1,0 +1,14 @@
+#
+# perl-data-uniqid
+#
+## EDITHOOK1
+PKG=ABCperl-data-uniqidXYZ
+PKG_VERSION=
+PKG_FILE=ABCData-Uniqid-0.12-disable_failing_test-1.patchXYZ
+URL="http://www.linuxfromscratch.org/patches/blfs/8.1/Data-Uniqid-0.12-disable_failing_test-1.patch"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/Data-Uniqid-0.12-disable_failing_test-1.patch PATCH1MD5"

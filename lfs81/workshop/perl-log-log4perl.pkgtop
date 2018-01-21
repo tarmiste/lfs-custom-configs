@@ -1,0 +1,14 @@
+#
+# perl-log-log4perl
+#
+## EDITHOOK1
+PKG=ABCperl-log-log4perlXYZ
+PKG_VERSION=
+PKG_FILE=ABCLog-Log4perl-1.49.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/M/MS/MSCHILLI/Log-Log4perl-1.49.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

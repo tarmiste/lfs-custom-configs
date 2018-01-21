@@ -1,0 +1,15 @@
+#
+# gnome-calculator
+#
+## EDITHOOK1
+PKG=ABCgnome-calculatorXYZ
+PKG_VERSION=
+PKG_FILE=ABCgnome-calculator-3.24.0.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gnome-calculator/3.24/gnome-calculator-3.24.0.tar.xz"
+MD5="32a06b7edc33f7e95a0e7818769a729f  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

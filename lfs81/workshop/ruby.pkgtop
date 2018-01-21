@@ -1,0 +1,15 @@
+#
+# ruby
+#
+## EDITHOOK1
+PKG=ABCrubyXYZ
+PKG_VERSION=;">
+PKG_FILE=ABCruby-2.4.1.tar.xzXYZ
+URL="http://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.1.tar.xz"
+MD5="894467211c4ae1dbf8a41bb0d58bbc89  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

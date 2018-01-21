@@ -1,0 +1,15 @@
+#
+# sgml-common
+#
+## EDITHOOK1
+PKG=ABCsgml-commonXYZ
+PKG_VERSION="0.6.3">
+PKG_FILE=ABCsgml-common-0.6.3.tgzXYZ
+URL="https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz"
+MD5="103c9828f24820df86e55e7862e28974  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/sgml-common-0.6.3-manpage-1.patch PATCH1MD5"

@@ -1,0 +1,27 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr                     \
+            --sysconfdir=/etc                 \
+            --docdir=/usr/share/doc/icewm-1.4.2 &&
+make
+make -j1 install         &&
+rm /usr/share/xsessions/icewm.desktop
+ldconfig
+
+echo icewm-session > ~/.xinitrc
+
+mkdir -v ~/.icewm                                       &&
+cp -v /usr/share/icewm/keys ~/.icewm/keys               &&
+cp -v /usr/share/icewm/menu ~/.icewm/menu               &&
+cp -v /usr/share/icewm/preferences ~/.icewm/preferences &&
+cp -v /usr/share/icewm/toolbar ~/.icewm/toolbar         &&
+cp -v /usr/share/icewm/winoptions ~/.icewm/winoptions
+
+icewm-menu-fdo >~/.icewm/menu
+
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

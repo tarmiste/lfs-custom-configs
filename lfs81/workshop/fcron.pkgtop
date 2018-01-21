@@ -1,0 +1,15 @@
+#
+# fcron
+#
+## EDITHOOK1
+PKG=ABCfcronXYZ
+PKG_VERSION="3.2.0">
+PKG_FILE=ABCfcron-3.2.0.src.tar.gzXYZ
+URL="http://fcron.free.fr/archives/fcron-3.2.0.src.tar.gz"
+MD5="4b031c2fba32a98fa814d1557158b0e9  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

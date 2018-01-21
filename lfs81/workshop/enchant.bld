@@ -1,0 +1,22 @@
+############# Building package
+cd $UNPACKDIR
+
+./configure --prefix=/usr --disable-static &&
+make
+make -j1 install
+ldconfig
+
+ln -svfn ../../lib/aspell /usr/share/enchant/aspell
+
+cat > /tmp/test-enchant.txt << "EOF"
+Tel me more abot linux
+Ther ar so many commads
+EOF
+
+enchant -d en_GB -l /tmp/test-enchant.txt &&
+enchant -d en_GB -a /tmp/test-enchant.txt
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

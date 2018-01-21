@@ -1,0 +1,15 @@
+#
+# dejagnu
+#
+## EDITHOOK1
+PKG=ABCdejagnuXYZ
+PKG_VERSION="1.6">
+PKG_FILE=ABCdejagnu-1.6.tar.gzXYZ
+URL="https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.6.tar.gz"
+MD5="1fdc2eb0d592c4f89d82d24dfdf02f0b  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

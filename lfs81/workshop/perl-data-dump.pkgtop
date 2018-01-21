@@ -1,0 +1,14 @@
+#
+# perl-data-dump
+#
+## EDITHOOK1
+PKG=ABCperl-data-dumpXYZ
+PKG_VERSION=
+PKG_FILE=ABCData-Dump-1.23.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/G/GA/GAAS/Data-Dump-1.23.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

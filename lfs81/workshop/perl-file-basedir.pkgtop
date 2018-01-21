@@ -1,0 +1,14 @@
+#
+# perl-file-basedir
+#
+## EDITHOOK1
+PKG=ABCperl-file-basedirXYZ
+PKG_VERSION=
+PKG_FILE=ABCFile-BaseDir-0.07.tar.gzXYZ
+URL="https://www.cpan.org/authors/id/K/KI/KIMRYAN/File-BaseDir-0.07.tar.gz"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

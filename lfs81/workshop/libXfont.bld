@@ -1,0 +1,22 @@
+############# Building package
+cd $UNPACKDIR
+
+packagedir=libXfont-1.5.2
+  case $packagedir in
+    libXfont-[0-9]* )
+      ./configure $XORG_CONFIG --disable-devel-docs
+    ;;
+    * )
+      ./configure $XORG_CONFIG
+    ;;
+  esac
+  make
+  
+ make -j1 install
+  
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,15 @@
+#
+# clisp
+#
+## EDITHOOK1
+PKG=ABCclispXYZ
+PKG_VERSION="2.49">
+PKG_FILE=ABCclisp-2.49.tar.bz2XYZ
+URL="https://ftp.gnu.org/gnu/clisp/latest/clisp-2.49.tar.bz2"
+MD5="1962b99d5e530390ec3829236d168649  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/clisp-2.49-readline7_fixes-1.patch PATCH1MD5"

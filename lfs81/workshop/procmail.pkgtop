@@ -1,0 +1,15 @@
+#
+# procmail
+#
+## EDITHOOK1
+PKG=ABCprocmailXYZ
+PKG_VERSION="3.22">
+PKG_FILE=ABCprocmail-3.22.tar.gzXYZ
+URL="http://www.ring.gr.jp/archives/net/mail/procmail/procmail-3.22.tar.gz"
+MD5="1678ea99b973eb77eda4ecf6acae53f1  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

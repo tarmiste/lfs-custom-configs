@@ -1,0 +1,15 @@
+#
+# php
+#
+## EDITHOOK1
+PKG=ABCphpXYZ
+PKG_VERSION="7.1.8">
+PKG_FILE=ABCphp-7.1.8.tar.xz download-docs.phpXYZ
+URL="http://www.php.net/distributions/php-7.1.8.tar.xz"
+MD5="937dba5d7f12bca3c6864db52ea499e1  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

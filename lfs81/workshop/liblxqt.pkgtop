@@ -1,0 +1,15 @@
+#
+# liblxqt
+#
+## EDITHOOK1
+PKG=ABCliblxqtXYZ
+PKG_VERSION=;">
+PKG_FILE=ABCliblxqt-0.11.1.tar.xzXYZ
+URL="https://github.com/lxde/liblxqt/releases/download/0.11.1/liblxqt-0.11.1.tar.xz"
+MD5="af904d237b3a9c95f8ca0bcbbb6b5912  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

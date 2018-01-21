@@ -1,0 +1,16 @@
+#
+# dconf
+#
+## EDITHOOK1
+PKG=ABCdconfXYZ
+PKG_VERSION=
+PKG_FILE=ABCdconf-0.26.0.tar.xz dconf-editor-3.22.3.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/dconf/0.26/dconf-0.26.0.tar.xz"
+MD5="7fc3cb1cf22d904d8744bd12e9c9d3dd  $PACKAGE"
+MD5="80f7b39976eb2040bc8ea6635d48a763  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

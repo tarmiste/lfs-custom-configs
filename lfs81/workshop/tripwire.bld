@@ -1,0 +1,39 @@
+############# Building package
+cd $UNPACKDIR
+
+sed -e 's|TWDB="${prefix}|TWDB="/var|'   \
+    -e '/TWMAN/ s|${prefix}|/usr/share|' \
+    -e '/TWDOCS/s|${prefix}/doc/tripwire|/usr/share/doc/tripwire-2.4.3.5|' \
+    -i installer/install.cfg                               &&
+
+find . -name Makefile.am | xargs                           \
+    sed -i 's/^[[:alpha:]_]*_HEADERS.*=/noinst_HEADERS =/' &&
+
+sed '/dist/d' -i man/man?/Makefile.am                      &&
+autoreconf -fi                                             &&
+
+./configure --prefix=/usr --sysconfdir=/etc/tripwire       &&
+make
+make -j1 install &&
+cp -v policy/*.txt /usr/share/doc/tripwire-2.4.3.5
+sed -i -e 's@installer/install.sh@& -n -s **EDITME<site-password>EDITME** -l **EDITME<local-password>EDITME**@' Makefile
+sed '/-t 0/,+3d' -i installer/install.sh
+ldconfig
+
+twadmin --create-polfile --site-keyfile /etc/tripwire/site.key \
+    /etc/tripwire/twpol.txt &&
+tripwire --init
+
+tripwire --check > /etc/tripwire/report.txt
+
+twprint --print-report -r /var/lib/tripwire/report/**EDITME<report-name.twr>EDITME**
+
+tripwire --update --twrfile /var/lib/tripwire/report/**EDITME<report-name.twr>EDITME**
+
+twadmin --create-polfile /etc/tripwire/twpol.txt &&
+tripwire --init
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

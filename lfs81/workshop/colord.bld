@@ -1,0 +1,25 @@
+############# Building package
+cd $UNPACKDIR
+
+groupadd -g 71 colord &&
+useradd -c "Color Daemon Owner" -d /var/lib/colord -u 71 \
+        -g colord -s /bin/false colord
+./configure --prefix=/usr                \
+            --sysconfdir=/etc            \
+            --localstatedir=/var         \
+            --with-daemon-user=colord    \
+            --enable-vala                \
+            --enable-systemd-login=no    \
+            --disable-argyllcms-sensor   \
+            --disable-bash-completion    \
+            --disable-static             \
+            --with-systemdsystemunitdir=no &&
+make
+make -j1 install
+#make -k check || true
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+
+exit

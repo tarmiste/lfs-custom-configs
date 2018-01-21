@@ -1,0 +1,15 @@
+#
+# gnome-screenshot
+#
+## EDITHOOK1
+PKG=ABCgnome-screenshotXYZ
+PKG_VERSION=
+PKG_FILE=ABCgnome-screenshot-3.22.0.tar.xzXYZ
+URL="http://ftp.gnome.org/pub/gnome/sources/gnome-screenshot/3.22/gnome-screenshot-3.22.0.tar.xz"
+MD5="d68636fae1e7a5798cb7394b2a202542  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

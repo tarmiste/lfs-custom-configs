@@ -1,0 +1,15 @@
+#
+# libxklavier
+#
+## EDITHOOK1
+PKG=ABClibxklavierXYZ
+PKG_VERSION="5.4">
+PKG_FILE=ABClibxklavier-5.4.tar.bz2XYZ
+URL="https://people.freedesktop.org/~svu/libxklavier-5.4.tar.bz2"
+MD5="13af74dcb6011ecedf1e3ed122bd31fa  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

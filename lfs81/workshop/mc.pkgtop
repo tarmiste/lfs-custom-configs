@@ -1,0 +1,15 @@
+#
+# mc
+#
+## EDITHOOK1
+PKG=ABCmcXYZ
+PKG_VERSION="4.8.19">
+PKG_FILE=ABCmc-4.8.19.tar.xzXYZ
+URL="http://ftp.midnight-commander.org/mc-4.8.19.tar.xz"
+MD5="57209d138c0adcb9ea01dfe6bbb4cb87  $PACKAGE"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
