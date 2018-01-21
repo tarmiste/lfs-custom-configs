@@ -9,7 +9,7 @@
 PKG="zip"
 PKG_VERSION="3.0"
 PKG_FILE="zip30.tar.gz"
-URL="https://downloads.sourceforge.net/infozip/zip30.tar.gz"
+URL="http://downloads.sourceforge.net/infozip/zip30.tar.gz"
 MD5="7b74551e63f8ee6aab6fbc86676c0d37"
 #
 ## EDITHOOK2
