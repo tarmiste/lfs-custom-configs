@@ -2,9 +2,9 @@
 # perl-encode-eucjpascii
 #
 ## EDITHOOK1
-PKG=ABCperl-encode-eucjpasciiXYZ
+PKG="perl-encode-eucjpascii"
 PKG_VERSION=
-PKG_FILE=ABCEncode-EUCJPASCII-0.03.tar.gzXYZ
+PKG_FILE="Encode-EUCJPASCII-0.03.tar.gz"
 URL="https://www.cpan.org/authors/id/N/NE/NEZUMI/Encode-EUCJPASCII-0.03.tar.gz"
 #
 ## EDITHOOK2

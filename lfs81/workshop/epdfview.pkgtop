@@ -2,11 +2,11 @@
 # epdfview
 #
 ## EDITHOOK1
-PKG=ABCepdfviewXYZ
-PKG_VERSION="0.1.8">
-PKG_FILE=ABCepdfview-0.1.8.tar.bz2XYZ
+PKG="epdfview"
+PKG_VERSION="0.1.8"
+PKG_FILE="epdfview-0.1.8.tar.bz2"
 URL="http://anduin.linuxfromscratch.org/BLFS/epdfview/epdfview-0.1.8.tar.bz2"
-MD5="e50285b01612169b2594fea375f53ae4  $PACKAGE"
+MD5="e50285b01612169b2594fea375f53ae4"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

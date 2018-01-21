@@ -2,11 +2,11 @@
 # colord-gtk
 #
 ## EDITHOOK1
-PKG=ABCcolord-gtkXYZ
-PKG_VERSION="0.1.26">
-PKG_FILE=ABCcolord-gtk-0.1.26.tar.xzXYZ
+PKG="colord-gtk"
+PKG_VERSION="0.1.26"
+PKG_FILE="colord-gtk-0.1.26.tar.xz"
 URL="https://www.freedesktop.org/software/colord/releases/colord-gtk-0.1.26.tar.xz"
-MD5="bb9d6f3c037152ad791003375aa6c16c  $PACKAGE"
+MD5="bb9d6f3c037152ad791003375aa6c16c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

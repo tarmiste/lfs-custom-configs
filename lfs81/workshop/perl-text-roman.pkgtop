@@ -2,9 +2,9 @@
 # perl-text-roman
 #
 ## EDITHOOK1
-PKG=ABCperl-text-romanXYZ
+PKG="perl-text-roman"
 PKG_VERSION=
-PKG_FILE=ABCText-Roman-3.5.tar.gzXYZ
+PKG_FILE="Text-Roman-3.5.tar.gz"
 URL="https://www.cpan.org/authors/id/S/SY/SYP/Text-Roman-3.5.tar.gz"
 #
 ## EDITHOOK2

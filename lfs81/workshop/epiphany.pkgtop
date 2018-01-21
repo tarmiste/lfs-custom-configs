@@ -2,11 +2,11 @@
 # epiphany
 #
 ## EDITHOOK1
-PKG=ABCepiphanyXYZ
+PKG="epiphany"
 PKG_VERSION=
-PKG_FILE=ABCepiphany-3.24.2.tar.xzXYZ
+PKG_FILE="epiphany-3.24.2.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/epiphany/3.24/epiphany-3.24.2.tar.xz"
-MD5="e035dc6f64f0c1909de823e03f16b2f3  $PACKAGE"
+MD5="e035dc6f64f0c1909de823e03f16b2f3"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

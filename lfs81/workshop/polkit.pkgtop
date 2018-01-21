@@ -2,11 +2,11 @@
 # polkit
 #
 ## EDITHOOK1
-PKG=ABCpolkitXYZ
-PKG_VERSION="0.113+git_2919920+js38">
-PKG_FILE=ABCpolkit-0.113+git_2919920+js38.tar.xzXYZ
+PKG="polkit"
+PKG_VERSION="0.113+git_2919920+js38"
+PKG_FILE="polkit-0.113+git_2919920+js38.tar.xz"
 URL="http://anduin.linuxfromscratch.org/BLFS/polkit/polkit-0.113+git_2919920+js38.tar.xz"
-MD5="11ec10c04899651e40ef66766932254d  $PACKAGE"
+MD5="11ec10c04899651e40ef66766932254d"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

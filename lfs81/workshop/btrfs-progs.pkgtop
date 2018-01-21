@@ -2,11 +2,11 @@
 # btrfs-progs
 #
 ## EDITHOOK1
-PKG=ABCbtrfs-progsXYZ
-PKG_VERSION="4.12">
-PKG_FILE=ABCbtrfs-progs-v4.12.tar.xzXYZ
+PKG="btrfs-progs"
+PKG_VERSION="4.12"
+PKG_FILE="btrfs-progs-v4.12.tar.xz"
 URL="https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v4.12.tar.xz"
-MD5="4b1a143677597de413381118db8c10bb  $PACKAGE"
+MD5="4b1a143677597de413381118db8c10bb"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

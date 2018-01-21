@@ -2,11 +2,11 @@
 # xmodmap
 #
 ## EDITHOOK1
-PKG=ABCxmodmapXYZ
+PKG="xmodmap"
 PKG_VERSION=
-PKG_FILE=ABCxmodmap-1.0.9.tar.bz2XYZ
+PKG_FILE="xmodmap-1.0.9.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xmodmap-1.0.9.tar.bz2"
-MD5="723f02d3a5f98450554556205f0a9497  $PACKAGE"
+MD5="723f02d3a5f98450554556205f0a9497"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

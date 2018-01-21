@@ -2,11 +2,11 @@
 # xhost
 #
 ## EDITHOOK1
-PKG=ABCxhostXYZ
+PKG="xhost"
 PKG_VERSION=
-PKG_FILE=ABCxhost-1.0.7.tar.bz2XYZ
+PKG_FILE="xhost-1.0.7.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xhost-1.0.7.tar.bz2"
-MD5="f5d490738b148cb7f2fe760f40f92516  $PACKAGE"
+MD5="f5d490738b148cb7f2fe760f40f92516"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

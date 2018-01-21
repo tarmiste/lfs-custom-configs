@@ -2,11 +2,11 @@
 # xcb-util-image
 #
 ## EDITHOOK1
-PKG=ABCxcb-util-imageXYZ
-PKG_VERSION="0.4.0">
-PKG_FILE=ABCxcb-util-image-0.4.0.tar.bz2XYZ
+PKG="xcb-util-image"
+PKG_VERSION="0.4.0"
+PKG_FILE="xcb-util-image-0.4.0.tar.bz2"
 URL="https://xcb.freedesktop.org/dist/xcb-util-image-0.4.0.tar.bz2"
-MD5="08fe8ffecc8d4e37c0ade7906b3f4c87  $PACKAGE"
+MD5="08fe8ffecc8d4e37c0ade7906b3f4c87"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

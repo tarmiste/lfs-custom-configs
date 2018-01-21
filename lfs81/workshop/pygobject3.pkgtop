@@ -2,11 +2,11 @@
 # pygobject3
 #
 ## EDITHOOK1
-PKG=ABCpygobject3XYZ
-PKG_VERSION="3.24.1">
-PKG_FILE=ABCpygobject-3.24.1.tar.xzXYZ
+PKG="pygobject3"
+PKG_VERSION="3.24.1"
+PKG_FILE="pygobject-3.24.1.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/pygobject/3.24/pygobject-3.24.1.tar.xz"
-MD5="69a843311d0f0385dff376e11a2d83d2  $PACKAGE"
+MD5="69a843311d0f0385dff376e11a2d83d2"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

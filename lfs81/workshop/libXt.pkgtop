@@ -2,11 +2,11 @@
 # libXt
 #
 ## EDITHOOK1
-PKG=ABClibXtXYZ
+PKG="libXt"
 PKG_VERSION=
-PKG_FILE=ABClibXt-1.1.5.tar.bz2XYZ
+PKG_FILE="libXt-1.1.5.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libXt-1.1.5.tar.bz2"
-MD5="8f5b5576fbabba29a05f3ca2226f74d3  $PACKAGE"
+MD5="8f5b5576fbabba29a05f3ca2226f74d3"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

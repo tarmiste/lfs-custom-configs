@@ -2,11 +2,11 @@
 # gcc
 #
 ## EDITHOOK1
-PKG=ABCgccXYZ
-PKG_VERSION="7.2.0">
-PKG_FILE=ABCgcc-7.2.0.tar.xzXYZ
+PKG="gcc"
+PKG_VERSION="7.2.0"
+PKG_FILE="gcc-7.2.0.tar.xz"
 URL="https://ftp.gnu.org/gnu/gcc/gcc-7.2.0/gcc-7.2.0.tar.xz"
-MD5="ff370482573133a7fcdd96cd2f552292  $PACKAGE"
+MD5="ff370482573133a7fcdd96cd2f552292"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

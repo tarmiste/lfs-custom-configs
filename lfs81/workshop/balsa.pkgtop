@@ -2,11 +2,11 @@
 # balsa
 #
 ## EDITHOOK1
-PKG=ABCbalsaXYZ
-PKG_VERSION="2.5.3">
-PKG_FILE=ABCbalsa-2.5.3.tar.bz2XYZ
+PKG="balsa"
+PKG_VERSION="2.5.3"
+PKG_FILE="balsa-2.5.3.tar.bz2"
 URL="http://pawsa.fedorapeople.org/balsa/balsa-2.5.3.tar.bz2"
-MD5="d02bc62af34c4d1b0c1f6cfb4efff8db  $PACKAGE"
+MD5="d02bc62af34c4d1b0c1f6cfb4efff8db"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

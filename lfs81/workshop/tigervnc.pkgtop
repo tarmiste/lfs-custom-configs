@@ -2,11 +2,11 @@
 # tigervnc
 #
 ## EDITHOOK1
-PKG=ABCtigervncXYZ
-PKG_VERSION="1.8.0">
-PKG_FILE=ABCtigervnc-1.8.0.tar.gz xorg-server-1.19.3.tar.bz2XYZ
+PKG="tigervnc"
+PKG_VERSION="1.8.0"
+PKG_FILE="tigervnc-1.8.0.tar.gz xorg-server-1.19.3.tar.bz2"
 URL="https://github.com/TigerVNC/tigervnc/archive/v1.8.0/tigervnc-1.8.0.tar.gz"
-MD5="5c9a80dd4b99b4eb19f535db5ce5830f  $PACKAGE"
+MD5="5c9a80dd4b99b4eb19f535db5ce5830f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

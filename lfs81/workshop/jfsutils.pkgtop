@@ -2,11 +2,11 @@
 # jfsutils
 #
 ## EDITHOOK1
-PKG=ABCjfsutilsXYZ
-PKG_VERSION="1.1.15">
-PKG_FILE=ABCjfsutils-1.1.15.tar.gzXYZ
+PKG="jfsutils"
+PKG_VERSION="1.1.15"
+PKG_FILE="jfsutils-1.1.15.tar.gz"
 URL="http://jfs.sourceforge.net/project/pub/jfsutils-1.1.15.tar.gz"
-MD5="8809465cd48a202895bc2a12e1923b5d  $PACKAGE"
+MD5="8809465cd48a202895bc2a12e1923b5d"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

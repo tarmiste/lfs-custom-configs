@@ -2,11 +2,11 @@
 # pcre
 #
 ## EDITHOOK1
-PKG=ABCpcreXYZ
-PKG_VERSION="8.41">
-PKG_FILE=ABCpcre-8.41.tar.bz2XYZ
+PKG="pcre"
+PKG_VERSION="8.41"
+PKG_FILE="pcre-8.41.tar.bz2"
 URL="https://downloads.sourceforge.net/pcre/pcre-8.41.tar.bz2"
-MD5="c160d22723b1670447341b08c58981c1  $PACKAGE"
+MD5="c160d22723b1670447341b08c58981c1"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

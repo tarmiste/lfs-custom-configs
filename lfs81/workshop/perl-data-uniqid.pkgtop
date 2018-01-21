@@ -2,9 +2,9 @@
 # perl-data-uniqid
 #
 ## EDITHOOK1
-PKG=ABCperl-data-uniqidXYZ
+PKG="perl-data-uniqid"
 PKG_VERSION=
-PKG_FILE=ABCData-Uniqid-0.12-disable_failing_test-1.patchXYZ
+PKG_FILE="Data-Uniqid-0.12-disable_failing_test-1.patch"
 URL="http://www.linuxfromscratch.org/patches/blfs/8.1/Data-Uniqid-0.12-disable_failing_test-1.patch"
 #
 ## EDITHOOK2

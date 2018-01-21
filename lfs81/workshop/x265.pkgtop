@@ -2,11 +2,11 @@
 # x265
 #
 ## EDITHOOK1
-PKG=ABCx265XYZ
-PKG_VERSION="2.5">
-PKG_FILE=ABCx265_2.5.tar.gzXYZ
+PKG="x265"
+PKG_VERSION="2.5"
+PKG_FILE="x265_2.5.tar.gz"
 URL="https://bitbucket.org/multicoreware/x265/downloads/x265_2.5.tar.gz"
-MD5="192e54fa3068b594aa44ab2b703f071d  $PACKAGE"
+MD5="192e54fa3068b594aa44ab2b703f071d"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

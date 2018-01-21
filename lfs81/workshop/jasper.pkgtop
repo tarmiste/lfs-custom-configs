@@ -2,11 +2,11 @@
 # jasper
 #
 ## EDITHOOK1
-PKG=ABCjasperXYZ
-PKG_VERSION="2.0.12">
-PKG_FILE=ABCjasper-2.0.12.tar.gzXYZ
+PKG="jasper"
+PKG_VERSION="2.0.12"
+PKG_FILE="jasper-2.0.12.tar.gz"
 URL="http://www.ece.uvic.ca/~frodo/jasper/software/jasper-2.0.12.tar.gz"
-MD5="b839a8bf418a64aa2d06413b23dd5ab3  $PACKAGE"
+MD5="b839a8bf418a64aa2d06413b23dd5ab3"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

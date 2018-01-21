@@ -2,11 +2,11 @@
 # sessreg
 #
 ## EDITHOOK1
-PKG=ABCsessregXYZ
+PKG="sessreg"
 PKG_VERSION=
-PKG_FILE=ABCsessreg-1.1.1.tar.bz2XYZ
+PKG_FILE="sessreg-1.1.1.tar.bz2"
 URL="https://www.x.org/pub/individual/app/sessreg-1.1.1.tar.bz2"
-MD5="e475167a892b589da23edf8edf8c942d  $PACKAGE"
+MD5="e475167a892b589da23edf8edf8c942d"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

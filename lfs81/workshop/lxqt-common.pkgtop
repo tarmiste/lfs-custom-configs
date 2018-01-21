@@ -2,11 +2,11 @@
 # lxqt-common
 #
 ## EDITHOOK1
-PKG=ABClxqt-commonXYZ
-PKG_VERSION="0.11.2">
-PKG_FILE=ABClxqt-common-0.11.2.tar.xzXYZ
+PKG="lxqt-common"
+PKG_VERSION="0.11.2"
+PKG_FILE="lxqt-common-0.11.2.tar.xz"
 URL="https://github.com/lxde/lxqt-common-deprecated--do-not-use-anymore-/releases/download/0.11.2/lxqt-common-0.11.2.tar.xz"
-MD5="3722ca91903e48c62d1ba73edf19721c  $PACKAGE"
+MD5="3722ca91903e48c62d1ba73edf19721c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

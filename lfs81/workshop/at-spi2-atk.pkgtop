@@ -2,11 +2,11 @@
 # at-spi2-atk
 #
 ## EDITHOOK1
-PKG=ABCat-spi2-atkXYZ
-PKG_VERSION="2.24.1">
-PKG_FILE=ABCat-spi2-atk-2.24.1.tar.xzXYZ
+PKG="at-spi2-atk"
+PKG_VERSION="2.24.1"
+PKG_FILE="at-spi2-atk-2.24.1.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/at-spi2-atk/2.24/at-spi2-atk-2.24.1.tar.xz"
-MD5="79388fbc4dc7f27394556dd389aeb594  $PACKAGE"
+MD5="79388fbc4dc7f27394556dd389aeb594"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

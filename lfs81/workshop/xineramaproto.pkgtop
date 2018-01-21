@@ -2,11 +2,11 @@
 # xineramaproto
 #
 ## EDITHOOK1
-PKG=ABCxineramaprotoXYZ
+PKG="xineramaproto"
 PKG_VERSION=
-PKG_FILE=ABCxineramaproto-1.2.1.tar.bz2XYZ
+PKG_FILE="xineramaproto-1.2.1.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/xineramaproto-1.2.1.tar.bz2"
-MD5="9959fe0bfb22a0e7260433b8d199590a  $PACKAGE"
+MD5="9959fe0bfb22a0e7260433b8d199590a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

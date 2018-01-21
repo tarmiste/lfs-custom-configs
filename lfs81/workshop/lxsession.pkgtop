@@ -2,11 +2,11 @@
 # lxsession
 #
 ## EDITHOOK1
-PKG=ABClxsessionXYZ
-PKG_VERSION="0.5.3">
-PKG_FILE=ABClxsession-0.5.3.tar.xzXYZ
+PKG="lxsession"
+PKG_VERSION="0.5.3"
+PKG_FILE="lxsession-0.5.3.tar.xz"
 URL="https://downloads.sourceforge.net/lxde/lxsession-0.5.3.tar.xz"
-MD5="823c50e6d0e4ce15a23a42e8f8bf4221  $PACKAGE"
+MD5="823c50e6d0e4ce15a23a42e8f8bf4221"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

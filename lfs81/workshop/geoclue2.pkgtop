@@ -2,11 +2,11 @@
 # geoclue2
 #
 ## EDITHOOK1
-PKG=ABCgeoclue2XYZ
-PKG_VERSION="2.4.7">
-PKG_FILE=ABCgeoclue-2.4.7.tar.xzXYZ
+PKG="geoclue2"
+PKG_VERSION="2.4.7"
+PKG_FILE="geoclue-2.4.7.tar.xz"
 URL="https://www.freedesktop.org/software/geoclue/releases/2.4/geoclue-2.4.7.tar.xz"
-MD5="e50086e742740413669ab72d8572db05  $PACKAGE"
+MD5="e50086e742740413669ab72d8572db05"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

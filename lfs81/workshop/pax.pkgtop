@@ -2,11 +2,11 @@
 # pax
 #
 ## EDITHOOK1
-PKG=ABCpaxXYZ
-PKG_VERSION="070715">
-PKG_FILE=ABCheirloom-070715.tar.bz2XYZ
+PKG="pax"
+PKG_VERSION="070715"
+PKG_FILE="heirloom-070715.tar.bz2"
 URL="https://downloads.sourceforge.net/heirloom/heirloom-070715.tar.bz2"
-MD5="d846be4b268b1d55b6ffcef847f09979  $PACKAGE"
+MD5="d846be4b268b1d55b6ffcef847f09979"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

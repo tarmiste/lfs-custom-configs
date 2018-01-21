@@ -2,11 +2,11 @@
 # libatasmart
 #
 ## EDITHOOK1
-PKG=ABClibatasmartXYZ
-PKG_VERSION="0.19">
-PKG_FILE=ABClibatasmart-0.19.tar.xzXYZ
+PKG="libatasmart"
+PKG_VERSION="0.19"
+PKG_FILE="libatasmart-0.19.tar.xz"
 URL="http://0pointer.de/public/libatasmart-0.19.tar.xz"
-MD5="53afe2b155c36f658e121fe6def33e77  $PACKAGE"
+MD5="53afe2b155c36f658e121fe6def33e77"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

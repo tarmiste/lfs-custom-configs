@@ -2,11 +2,11 @@
 # xextproto
 #
 ## EDITHOOK1
-PKG=ABCxextprotoXYZ
+PKG="xextproto"
 PKG_VERSION=
-PKG_FILE=ABCxextproto-7.3.0.tar.bz2XYZ
+PKG_FILE="xextproto-7.3.0.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/xextproto-7.3.0.tar.bz2"
-MD5="70c90f313b4b0851758ef77b95019584  $PACKAGE"
+MD5="70c90f313b4b0851758ef77b95019584"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

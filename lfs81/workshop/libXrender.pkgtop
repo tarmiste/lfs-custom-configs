@@ -2,11 +2,11 @@
 # libXrender
 #
 ## EDITHOOK1
-PKG=ABClibXrenderXYZ
+PKG="libXrender"
 PKG_VERSION=
-PKG_FILE=ABClibXrender-0.9.10.tar.bz2XYZ
+PKG_FILE="libXrender-0.9.10.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libXrender-0.9.10.tar.bz2"
-MD5="802179a76bded0b658f4e9ec5e1830a4  $PACKAGE"
+MD5="802179a76bded0b658f4e9ec5e1830a4"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

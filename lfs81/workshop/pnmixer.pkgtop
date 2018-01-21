@@ -2,11 +2,11 @@
 # pnmixer
 #
 ## EDITHOOK1
-PKG=ABCpnmixerXYZ
-PKG_VERSION="0.5.1">
-PKG_FILE=ABCpnmixer-0.5.1.tar.gzXYZ
+PKG="pnmixer"
+PKG_VERSION="0.5.1"
+PKG_FILE="pnmixer-0.5.1.tar.gz"
 URL="https://github.com/downloads/nicklan/pnmixer/pnmixer-0.5.1.tar.gz"
-MD5="2288af95ab280721b39b7c33601d5dd4  $PACKAGE"
+MD5="2288af95ab280721b39b7c33601d5dd4"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

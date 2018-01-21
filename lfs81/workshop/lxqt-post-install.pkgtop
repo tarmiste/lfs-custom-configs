@@ -2,9 +2,9 @@
 # lxqt-post-install
 #
 ## EDITHOOK1
-PKG=ABClxqt-post-installXYZ
+PKG="lxqt-post-install"
 PKG_VERSION=
-PKG_FILE=ABCXYZ
+PKG_FILE=""
 URL=
 #
 ## EDITHOOK2

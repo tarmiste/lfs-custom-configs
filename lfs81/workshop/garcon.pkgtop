@@ -2,11 +2,11 @@
 # garcon
 #
 ## EDITHOOK1
-PKG=ABCgarconXYZ
-PKG_VERSION="0.6.1">
-PKG_FILE=ABCgarcon-0.6.1.tar.bz2XYZ
+PKG="garcon"
+PKG_VERSION="0.6.1"
+PKG_FILE="garcon-0.6.1.tar.bz2"
 URL="http://archive.xfce.org/src/xfce/garcon/0.6/garcon-0.6.1.tar.bz2"
-MD5="174690ad19243f7ef9529cb0c24b9080  $PACKAGE"
+MD5="174690ad19243f7ef9529cb0c24b9080"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

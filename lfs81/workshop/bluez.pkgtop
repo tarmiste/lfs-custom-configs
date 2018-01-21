@@ -2,11 +2,11 @@
 # bluez
 #
 ## EDITHOOK1
-PKG=ABCbluezXYZ
-PKG_VERSION="5.46">
-PKG_FILE=ABCbluez-5.46.tar.xzXYZ
+PKG="bluez"
+PKG_VERSION="5.46"
+PKG_FILE="bluez-5.46.tar.xz"
 URL="https://www.kernel.org/pub/linux/bluetooth/bluez-5.46.tar.xz"
-MD5="913f35d6fa4ca5772c53adb936bf1947  $PACKAGE"
+MD5="913f35d6fa4ca5772c53adb936bf1947"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

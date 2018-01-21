@@ -2,11 +2,11 @@
 # xfdesktop
 #
 ## EDITHOOK1
-PKG=ABCxfdesktopXYZ
-PKG_VERSION="4.12.4">
-PKG_FILE=ABCxfdesktop-4.12.4.tar.bz2XYZ
+PKG="xfdesktop"
+PKG_VERSION="4.12.4"
+PKG_FILE="xfdesktop-4.12.4.tar.bz2"
 URL="http://archive.xfce.org/src/xfce/xfdesktop/4.12/xfdesktop-4.12.4.tar.bz2"
-MD5="7571889368be72df185ce2d470f37198  $PACKAGE"
+MD5="7571889368be72df185ce2d470f37198"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

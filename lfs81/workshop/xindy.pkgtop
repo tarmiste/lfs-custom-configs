@@ -2,11 +2,11 @@
 # xindy
 #
 ## EDITHOOK1
-PKG=ABCxindyXYZ
-PKG_VERSION="2.5.1">
-PKG_FILE=ABCxindy-2.5.1.tar.gzXYZ
+PKG="xindy"
+PKG_VERSION="2.5.1"
+PKG_FILE="xindy-2.5.1.tar.gz"
 URL="http://tug.ctan.org/support/xindy/base/xindy-2.5.1.tar.gz"
-MD5="221acfeeb0f6f8388f89a59c56491041  $PACKAGE"
+MD5="221acfeeb0f6f8388f89a59c56491041"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

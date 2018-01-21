@@ -2,11 +2,11 @@
 # ijs
 #
 ## EDITHOOK1
-PKG=ABCijsXYZ
-PKG_VERSION="0.35">
-PKG_FILE=ABCijs-0.35.tar.bz2XYZ
+PKG="ijs"
+PKG_VERSION="0.35"
+PKG_FILE="ijs-0.35.tar.bz2"
 URL="https://www.openprinting.org/download/ijs/download/ijs-0.35.tar.bz2"
-MD5="896fdcb7a01c586ba6eb81398ea3f6e9  $PACKAGE"
+MD5="896fdcb7a01c586ba6eb81398ea3f6e9"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

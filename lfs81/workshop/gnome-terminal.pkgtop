@@ -2,11 +2,11 @@
 # gnome-terminal
 #
 ## EDITHOOK1
-PKG=ABCgnome-terminalXYZ
+PKG="gnome-terminal"
 PKG_VERSION=
-PKG_FILE=ABCgnome-terminal-3.24.2.tar.xzXYZ
+PKG_FILE="gnome-terminal-3.24.2.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gnome-terminal/3.24/gnome-terminal-3.24.2.tar.xz"
-MD5="b1dda9919b4ef8e478094b6ffc9698db  $PACKAGE"
+MD5="b1dda9919b4ef8e478094b6ffc9698db"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

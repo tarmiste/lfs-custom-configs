@@ -2,9 +2,9 @@
 # perl-list-allutils
 #
 ## EDITHOOK1
-PKG=ABCperl-list-allutilsXYZ
+PKG="perl-list-allutils"
 PKG_VERSION=
-PKG_FILE=ABCList-AllUtils-0.14.tar.gzXYZ
+PKG_FILE="List-AllUtils-0.14.tar.gz"
 URL="https://www.cpan.org/authors/id/D/DR/DROLSKY/List-AllUtils-0.14.tar.gz"
 #
 ## EDITHOOK2

@@ -2,11 +2,11 @@
 # gparted
 #
 ## EDITHOOK1
-PKG=ABCgpartedXYZ
-PKG_VERSION="0.29.0">
-PKG_FILE=ABCgparted-0.29.0.tar.gzXYZ
+PKG="gparted"
+PKG_VERSION="0.29.0"
+PKG_FILE="gparted-0.29.0.tar.gz"
 URL="https://downloads.sourceforge.net/gparted/gparted-0.29.0.tar.gz"
-MD5="e29cb2061da59c6a279d9d294cf2a343  $PACKAGE"
+MD5="e29cb2061da59c6a279d9d294cf2a343"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

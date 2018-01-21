@@ -2,11 +2,11 @@
 # libXpm
 #
 ## EDITHOOK1
-PKG=ABClibXpmXYZ
+PKG="libXpm"
 PKG_VERSION=
-PKG_FILE=ABClibXpm-3.5.12.tar.bz2XYZ
+PKG_FILE="libXpm-3.5.12.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libXpm-3.5.12.tar.bz2"
-MD5="20f4627672edb2bd06a749f11aa97302  $PACKAGE"
+MD5="20f4627672edb2bd06a749f11aa97302"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # proftpd
 #
 ## EDITHOOK1
-PKG=ABCproftpdXYZ
-PKG_VERSION="1.3.6">
-PKG_FILE=ABCproftpd-1.3.6.tar.gzXYZ
+PKG="proftpd"
+PKG_VERSION="1.3.6"
+PKG_FILE="proftpd-1.3.6.tar.gz"
 URL="ftp://ftp.proftpd.org/distrib/source/proftpd-1.3.6.tar.gz"
-MD5="13270911c42aac842435f18205546a1b  $PACKAGE"
+MD5="13270911c42aac842435f18205546a1b"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # expect
 #
 ## EDITHOOK1
-PKG=ABCexpectXYZ
-PKG_VERSION="5.45">
-PKG_FILE=ABCexpect5.45.tar.gzXYZ
+PKG="expect"
+PKG_VERSION="5.45"
+PKG_FILE="expect5.45.tar.gz"
 URL="https://downloads.sourceforge.net/expect/expect5.45.tar.gz"
-MD5="44e1a4f4c877e9ddc5a542dfa7ecc92b  $PACKAGE"
+MD5="44e1a4f4c877e9ddc5a542dfa7ecc92b"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

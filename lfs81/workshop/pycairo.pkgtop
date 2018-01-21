@@ -2,11 +2,11 @@
 # pycairo
 #
 ## EDITHOOK1
-PKG=ABCpycairoXYZ
-PKG_VERSION="1.15.1">
-PKG_FILE=ABCpycairo-1.15.1.tar.gzXYZ
+PKG="pycairo"
+PKG_VERSION="1.15.1"
+PKG_FILE="pycairo-1.15.1.tar.gz"
 URL="https://github.com/pygobject/pycairo/releases/download/v1.15.1/pycairo-1.15.1.tar.gz"
-MD5="29620ad9b0fa4a7052760e4fa4b71b4c  $PACKAGE"
+MD5="29620ad9b0fa4a7052760e4fa4b71b4c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # mupdf
 #
 ## EDITHOOK1
-PKG=ABCmupdfXYZ
-PKG_VERSION="1.11">
-PKG_FILE=ABCmupdf-1.11-source.tar.gzXYZ
+PKG="mupdf"
+PKG_VERSION="1.11"
+PKG_FILE="mupdf-1.11-source.tar.gz"
 URL="http://www.mupdf.com/downloads/archive/mupdf-1.11-source.tar.gz"
-MD5="ab9a6629f572225e803c4cf426bdb09c  $PACKAGE"
+MD5="ab9a6629f572225e803c4cf426bdb09c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

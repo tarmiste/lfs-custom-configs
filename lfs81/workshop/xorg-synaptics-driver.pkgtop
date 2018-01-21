@@ -2,11 +2,11 @@
 # xorg-synaptics-driver
 #
 ## EDITHOOK1
-PKG=ABCxorg-synaptics-driverXYZ
+PKG="xorg-synaptics-driver"
 PKG_VERSION=
-PKG_FILE=ABCxf86-input-synaptics-1.9.0.tar.bz2XYZ
+PKG_FILE="xf86-input-synaptics-1.9.0.tar.bz2"
 URL="https://www.x.org/pub/individual/driver/xf86-input-synaptics-1.9.0.tar.bz2"
-MD5="58e5b7722a402114093bf193962d1e3a  $PACKAGE"
+MD5="58e5b7722a402114093bf193962d1e3a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

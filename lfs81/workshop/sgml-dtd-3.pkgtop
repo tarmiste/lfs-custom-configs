@@ -2,11 +2,11 @@
 # sgml-dtd-3
 #
 ## EDITHOOK1
-PKG=ABCsgml-dtd-3XYZ
-PKG_VERSION="3.1">
-PKG_FILE=ABCdocbk31.zipXYZ
+PKG="sgml-dtd-3"
+PKG_VERSION="3.1"
+PKG_FILE="docbk31.zip"
 URL="http://www.docbook.org/sgml/3.1/docbk31.zip"
-MD5="432749c0c806dbae81c8bcb70da3b5d3  $PACKAGE"
+MD5="432749c0c806dbae81c8bcb70da3b5d3"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

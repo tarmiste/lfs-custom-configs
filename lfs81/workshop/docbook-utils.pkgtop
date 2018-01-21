@@ -2,11 +2,11 @@
 # docbook-utils
 #
 ## EDITHOOK1
-PKG=ABCdocbook-utilsXYZ
-PKG_VERSION="0.6.14">
-PKG_FILE=ABCdocbook-utils-0.6.14.tar.gzXYZ
+PKG="docbook-utils"
+PKG_VERSION="0.6.14"
+PKG_FILE="docbook-utils-0.6.14.tar.gz"
 URL="https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/docbook-utils-0.6.14.tar.gz"
-MD5="6b41b18c365c01f225bc417cf632d81c  $PACKAGE"
+MD5="6b41b18c365c01f225bc417cf632d81c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

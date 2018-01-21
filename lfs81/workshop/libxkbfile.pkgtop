@@ -2,11 +2,11 @@
 # libxkbfile
 #
 ## EDITHOOK1
-PKG=ABClibxkbfileXYZ
+PKG="libxkbfile"
 PKG_VERSION=
-PKG_FILE=ABClibxkbfile-1.0.9.tar.bz2XYZ
+PKG_FILE="libxkbfile-1.0.9.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libxkbfile-1.0.9.tar.bz2"
-MD5="4a4cfeaf24dab1b991903455d6d7d404  $PACKAGE"
+MD5="4a4cfeaf24dab1b991903455d6d7d404"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

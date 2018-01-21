@@ -2,9 +2,9 @@
 # NetworkManager
 #
 ## EDITHOOK1
-PKG=ABCNetworkManagerXYZ
-PKG_VERSION="1.8.2">
-PKG_FILE=ABCNetworkManager-1.8.2.tar.xzXYZ
+PKG="NetworkManager"
+PKG_VERSION="1.8.2"
+PKG_FILE="NetworkManager-1.8.2.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/NetworkManager/1.8/NetworkManager-1.8.2.tar.xz"
 #
 ## EDITHOOK2

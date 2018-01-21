@@ -2,11 +2,11 @@
 # lxtask
 #
 ## EDITHOOK1
-PKG=ABClxtaskXYZ
-PKG_VERSION="0.1.8">
-PKG_FILE=ABClxtask-0.1.8.tar.xzXYZ
+PKG="lxtask"
+PKG_VERSION="0.1.8"
+PKG_FILE="lxtask-0.1.8.tar.xz"
 URL="https://downloads.sourceforge.net/lxde/lxtask-0.1.8.tar.xz"
-MD5="dd4f423dda192cb50618c6b1e76ec6b7  $PACKAGE"
+MD5="dd4f423dda192cb50618c6b1e76ec6b7"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

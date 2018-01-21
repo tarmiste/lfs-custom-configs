@@ -2,9 +2,9 @@
 # perl-data-compare
 #
 ## EDITHOOK1
-PKG=ABCperl-data-compareXYZ
+PKG="perl-data-compare"
 PKG_VERSION=
-PKG_FILE=ABCData-Compare-1.25.tar.gzXYZ
+PKG_FILE="Data-Compare-1.25.tar.gz"
 URL="https://www.cpan.org/authors/id/D/DC/DCANTRELL/Data-Compare-1.25.tar.gz"
 #
 ## EDITHOOK2

@@ -2,9 +2,9 @@
 # cacerts
 #
 ## EDITHOOK1
-PKG=ABCcacertsXYZ
+PKG="cacerts"
 PKG_VERSION=
-PKG_FILE=ABCmake-ca.sh-20170514 certdata.txtXYZ
+PKG_FILE="make-ca.sh-20170514 certdata.txt"
 URL="http://anduin.linuxfromscratch.org/BLFS/other/make-ca.sh-20170514"
 #
 ## EDITHOOK2

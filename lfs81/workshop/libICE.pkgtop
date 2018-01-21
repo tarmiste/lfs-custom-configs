@@ -2,11 +2,11 @@
 # libICE
 #
 ## EDITHOOK1
-PKG=ABClibICEXYZ
+PKG="libICE"
 PKG_VERSION=
-PKG_FILE=ABClibICE-1.0.9.tar.bz2XYZ
+PKG_FILE="libICE-1.0.9.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libICE-1.0.9.tar.bz2"
-MD5="addfb1e897ca8079531669c7c7711726  $PACKAGE"
+MD5="addfb1e897ca8079531669c7c7711726"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,9 +2,9 @@
 # perl-class-accessor
 #
 ## EDITHOOK1
-PKG=ABCperl-class-accessorXYZ
+PKG="perl-class-accessor"
 PKG_VERSION=
-PKG_FILE=ABCClass-Accessor-0.34.tar.gzXYZ
+PKG_FILE="Class-Accessor-0.34.tar.gz"
 URL="https://www.cpan.org/authors/id/K/KA/KASEI/Class-Accessor-0.34.tar.gz"
 #
 ## EDITHOOK2

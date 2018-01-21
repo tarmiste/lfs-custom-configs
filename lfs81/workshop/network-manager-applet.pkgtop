@@ -2,11 +2,11 @@
 # network-manager-applet
 #
 ## EDITHOOK1
-PKG=ABCnetwork-manager-appletXYZ
+PKG="network-manager-applet"
 PKG_VERSION=
-PKG_FILE=ABCnetwork-manager-applet-1.8.2.tar.xzXYZ
+PKG_FILE="network-manager-applet-1.8.2.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/network-manager-applet/1.8/network-manager-applet-1.8.2.tar.xz"
-MD5="9b5cb16bfbb5db15e76f20da8a29b72d  $PACKAGE"
+MD5="9b5cb16bfbb5db15e76f20da8a29b72d"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

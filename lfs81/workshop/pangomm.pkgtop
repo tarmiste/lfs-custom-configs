@@ -2,11 +2,11 @@
 # pangomm
 #
 ## EDITHOOK1
-PKG=ABCpangommXYZ
-PKG_VERSION="2.40.1">
-PKG_FILE=ABCpangomm-2.40.1.tar.xzXYZ
+PKG="pangomm"
+PKG_VERSION="2.40.1"
+PKG_FILE="pangomm-2.40.1.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/pangomm/2.40/pangomm-2.40.1.tar.xz"
-MD5="874eadd9434613dbacf0272c82c3ac23  $PACKAGE"
+MD5="874eadd9434613dbacf0272c82c3ac23"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

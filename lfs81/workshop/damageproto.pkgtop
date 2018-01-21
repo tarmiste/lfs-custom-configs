@@ -2,11 +2,11 @@
 # damageproto
 #
 ## EDITHOOK1
-PKG=ABCdamageprotoXYZ
+PKG="damageproto"
 PKG_VERSION=
-PKG_FILE=ABCdamageproto-1.2.1.tar.bz2XYZ
+PKG_FILE="damageproto-1.2.1.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/damageproto-1.2.1.tar.bz2"
-MD5="998e5904764b82642cc63d97b4ba9e95  $PACKAGE"
+MD5="998e5904764b82642cc63d97b4ba9e95"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

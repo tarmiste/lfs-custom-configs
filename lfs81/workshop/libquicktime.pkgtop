@@ -2,11 +2,11 @@
 # libquicktime
 #
 ## EDITHOOK1
-PKG=ABClibquicktimeXYZ
-PKG_VERSION="1.2.4">
-PKG_FILE=ABClibquicktime-1.2.4.tar.gzXYZ
+PKG="libquicktime"
+PKG_VERSION="1.2.4"
+PKG_FILE="libquicktime-1.2.4.tar.gz"
 URL="https://downloads.sourceforge.net/libquicktime/libquicktime-1.2.4.tar.gz"
-MD5="81cfcebad9b7ee7e7cfbefc861d6d61b  $PACKAGE"
+MD5="81cfcebad9b7ee7e7cfbefc861d6d61b"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

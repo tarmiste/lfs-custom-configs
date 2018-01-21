@@ -2,11 +2,11 @@
 # xorg-fbdev-driver
 #
 ## EDITHOOK1
-PKG=ABCxorg-fbdev-driverXYZ
+PKG="xorg-fbdev-driver"
 PKG_VERSION=
-PKG_FILE=ABCxf86-video-fbdev-0.4.4.tar.bz2XYZ
+PKG_FILE="xf86-video-fbdev-0.4.4.tar.bz2"
 URL="https://www.x.org/pub/individual/driver/xf86-video-fbdev-0.4.4.tar.bz2"
-MD5="3931c0e19d441cc576dc088f9eb9fd73  $PACKAGE"
+MD5="3931c0e19d441cc576dc088f9eb9fd73"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

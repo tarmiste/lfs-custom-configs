@@ -2,11 +2,11 @@
 # dosfstools
 #
 ## EDITHOOK1
-PKG=ABCdosfstoolsXYZ
-PKG_VERSION="4.1">
-PKG_FILE=ABCdosfstools-4.1.tar.xzXYZ
+PKG="dosfstools"
+PKG_VERSION="4.1"
+PKG_FILE="dosfstools-4.1.tar.xz"
 URL="https://github.com/dosfstools/dosfstools/releases/download/v4.1/dosfstools-4.1.tar.xz"
-MD5="07a1050db1a898e9a2e03b0c4569c4bd  $PACKAGE"
+MD5="07a1050db1a898e9a2e03b0c4569c4bd"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

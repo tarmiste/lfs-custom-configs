@@ -2,11 +2,11 @@
 # junit
 #
 ## EDITHOOK1
-PKG=ABCjunitXYZ
-PKG_VERSION="4.11">
-PKG_FILE=ABCjunit4_4.11.orig.tar.gz hamcrest-core-1.3.jar hamcrest-core-1.3-sources.jarXYZ
+PKG="junit"
+PKG_VERSION="4.11"
+PKG_FILE="junit4_4.11.orig.tar.gz hamcrest-core-1.3.jar hamcrest-core-1.3-sources.jar"
 URL="https://launchpad.net/debian/+archive/primary/+files/junit4_4.11.orig.tar.gz"
-MD5="b4d163832583dcec8bedb5427c795cc4  $PACKAGE"
+MD5="b4d163832583dcec8bedb5427c795cc4"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

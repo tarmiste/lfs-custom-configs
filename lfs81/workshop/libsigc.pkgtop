@@ -2,11 +2,11 @@
 # libsigc
 #
 ## EDITHOOK1
-PKG=ABClibsigcXYZ
-PKG_VERSION="2.10.0">
-PKG_FILE=ABClibsigc++-2.10.0.tar.xzXYZ
+PKG="libsigc"
+PKG_VERSION="2.10.0"
+PKG_FILE="libsigc++-2.10.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/libsigc++/2.10/libsigc++-2.10.0.tar.xz"
-MD5="70bcbde2c900e4925d6ef4bf50954195  $PACKAGE"
+MD5="70bcbde2c900e4925d6ef4bf50954195"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

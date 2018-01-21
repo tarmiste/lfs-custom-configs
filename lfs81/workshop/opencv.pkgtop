@@ -2,11 +2,11 @@
 # opencv
 #
 ## EDITHOOK1
-PKG=ABCopencvXYZ
-PKG_VERSION="3.3.0">
-PKG_FILE=ABCopencv-3.3.0.zip ippicv_2017u2_lnx_intel64_20170418.tgz opencv_contrib-3.3.0.tar.gzXYZ
+PKG="opencv"
+PKG_VERSION="3.3.0"
+PKG_FILE="opencv-3.3.0.zip ippicv_2017u2_lnx_intel64_20170418.tgz opencv_contrib-3.3.0.tar.gz"
 URL="https://downloads.sourceforge.net/opencvlibrary/opencv-3.3.0.zip"
-MD5="cc586ebe960a7cdd87100e89088abc06  $PACKAGE"
+MD5="cc586ebe960a7cdd87100e89088abc06"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

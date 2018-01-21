@@ -2,11 +2,11 @@
 # notification-daemon
 #
 ## EDITHOOK1
-PKG=ABCnotification-daemonXYZ
+PKG="notification-daemon"
 PKG_VERSION=
-PKG_FILE=ABCnotification-daemon-3.20.0.tar.xzXYZ
+PKG_FILE="notification-daemon-3.20.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/notification-daemon/3.20/notification-daemon-3.20.0.tar.xz"
-MD5="2de7f4075352831f1d98d8851b642124  $PACKAGE"
+MD5="2de7f4075352831f1d98d8851b642124"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

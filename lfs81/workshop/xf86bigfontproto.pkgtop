@@ -2,11 +2,11 @@
 # xf86bigfontproto
 #
 ## EDITHOOK1
-PKG=ABCxf86bigfontprotoXYZ
+PKG="xf86bigfontproto"
 PKG_VERSION=
-PKG_FILE=ABCxf86bigfontproto-1.2.0.tar.bz2XYZ
+PKG_FILE="xf86bigfontproto-1.2.0.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/xf86bigfontproto-1.2.0.tar.bz2"
-MD5="120e226ede5a4687b25dd357cc9b8efe  $PACKAGE"
+MD5="120e226ede5a4687b25dd357cc9b8efe"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

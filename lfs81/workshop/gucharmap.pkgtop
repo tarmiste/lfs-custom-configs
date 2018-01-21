@@ -2,11 +2,11 @@
 # gucharmap
 #
 ## EDITHOOK1
-PKG=ABCgucharmapXYZ
+PKG="gucharmap"
 PKG_VERSION=
-PKG_FILE=ABCgucharmap-10.0.0.tar.xzXYZ
+PKG_FILE="gucharmap-10.0.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gucharmap/10.0/gucharmap-10.0.0.tar.xz"
-MD5="1c54e1c522ba4ca8695e3119ada0eb53  $PACKAGE"
+MD5="1c54e1c522ba4ca8695e3119ada0eb53"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

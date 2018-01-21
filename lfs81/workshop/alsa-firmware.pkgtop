@@ -2,11 +2,11 @@
 # alsa-firmware
 #
 ## EDITHOOK1
-PKG=ABCalsa-firmwareXYZ
-PKG_VERSION="1.0.29">
-PKG_FILE=ABCalsa-firmware-1.0.29.tar.bz2XYZ
+PKG="alsa-firmware"
+PKG_VERSION="1.0.29"
+PKG_FILE="alsa-firmware-1.0.29.tar.bz2"
 URL="ftp://ftp.alsa-project.org/pub/firmware/alsa-firmware-1.0.29.tar.bz2"
-MD5="9a1182f8a6ac44cb9af5774cc045565f  $PACKAGE"
+MD5="9a1182f8a6ac44cb9af5774cc045565f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

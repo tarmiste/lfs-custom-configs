@@ -2,11 +2,11 @@
 # mercurial
 #
 ## EDITHOOK1
-PKG=ABCmercurialXYZ
-PKG_VERSION="4.3.1">
-PKG_FILE=ABCmercurial-4.3.1.tar.gzXYZ
+PKG="mercurial"
+PKG_VERSION="4.3.1"
+PKG_FILE="mercurial-4.3.1.tar.gz"
 URL="https://www.mercurial-scm.org/release/mercurial-4.3.1.tar.gz"
-MD5="b9cbdcf0bd41a2b385b35b9fbfeb0eea  $PACKAGE"
+MD5="b9cbdcf0bd41a2b385b35b9fbfeb0eea"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

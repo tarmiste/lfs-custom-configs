@@ -2,11 +2,11 @@
 # pcmanfm
 #
 ## EDITHOOK1
-PKG=ABCpcmanfmXYZ
-PKG_VERSION="1.2.5">
-PKG_FILE=ABCpcmanfm-1.2.5.tar.xzXYZ
+PKG="pcmanfm"
+PKG_VERSION="1.2.5"
+PKG_FILE="pcmanfm-1.2.5.tar.xz"
 URL="https://downloads.sourceforge.net/pcmanfm/pcmanfm-1.2.5.tar.xz"
-MD5="b4d1f8ce08d87e4f27805a246fc51ac2  $PACKAGE"
+MD5="b4d1f8ce08d87e4f27805a246fc51ac2"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

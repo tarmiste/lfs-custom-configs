@@ -2,11 +2,11 @@
 # tk
 #
 ## EDITHOOK1
-PKG=ABCtkXYZ
-PKG_VERSION="8.6.7">
-PKG_FILE=ABCtk8.6.7-src.tar.gzXYZ
+PKG="tk"
+PKG_VERSION="8.6.7"
+PKG_FILE="tk8.6.7-src.tar.gz"
 URL="https://downloads.sourceforge.net/tcl/tk8.6.7-src.tar.gz"
-MD5="46ea9c0165c515d87393700f4891ab6f  $PACKAGE"
+MD5="46ea9c0165c515d87393700f4891ab6f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

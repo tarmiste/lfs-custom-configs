@@ -2,11 +2,11 @@
 # tidy-html5
 #
 ## EDITHOOK1
-PKG=ABCtidy-html5XYZ
-PKG_VERSION="5.4.0">
-PKG_FILE=ABCtidy-html5-5.4.0.tar.gzXYZ
+PKG="tidy-html5"
+PKG_VERSION="5.4.0"
+PKG_FILE="tidy-html5-5.4.0.tar.gz"
 URL="https://github.com/htacg/tidy-html5/releases/download/5.4.0/tidy-html5-5.4.0.tar.gz"
-MD5="7e121e1da7e21dc47610b87aae4b4f65  $PACKAGE"
+MD5="7e121e1da7e21dc47610b87aae4b4f65"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

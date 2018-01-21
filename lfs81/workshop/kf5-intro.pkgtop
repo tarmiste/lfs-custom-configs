@@ -2,9 +2,9 @@
 # kf5-intro
 #
 ## EDITHOOK1
-PKG=ABCkf5-introXYZ
+PKG="kf5-intro"
 PKG_VERSION=
-PKG_FILE=ABCXYZ
+PKG_FILE=""
 URL=
 #
 ## EDITHOOK2

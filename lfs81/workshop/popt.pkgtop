@@ -2,11 +2,11 @@
 # popt
 #
 ## EDITHOOK1
-PKG=ABCpoptXYZ
-PKG_VERSION="1.16">
-PKG_FILE=ABCpopt-1.16.tar.gzXYZ
+PKG="popt"
+PKG_VERSION="1.16"
+PKG_FILE="popt-1.16.tar.gz"
 URL="http://rpm5.org/files/popt/popt-1.16.tar.gz"
-MD5="3743beefa3dd6247a73f8f7a32c14c33  $PACKAGE"
+MD5="3743beefa3dd6247a73f8f7a32c14c33"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

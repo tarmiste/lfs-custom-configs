@@ -2,11 +2,11 @@
 # libmpeg2
 #
 ## EDITHOOK1
-PKG=ABClibmpeg2XYZ
-PKG_VERSION="0.5.1">
-PKG_FILE=ABClibmpeg2-0.5.1.tar.gzXYZ
+PKG="libmpeg2"
+PKG_VERSION="0.5.1"
+PKG_FILE="libmpeg2-0.5.1.tar.gz"
 URL="http://libmpeg2.sourceforge.net/files/libmpeg2-0.5.1.tar.gz"
-MD5="0f92c7454e58379b4a5a378485bbd8ef  $PACKAGE"
+MD5="0f92c7454e58379b4a5a378485bbd8ef"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

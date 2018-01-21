@@ -2,11 +2,11 @@
 # tumbler
 #
 ## EDITHOOK1
-PKG=ABCtumblerXYZ
-PKG_VERSION="0.2.0">
-PKG_FILE=ABCtumbler-0.2.0.tar.bz2XYZ
+PKG="tumbler"
+PKG_VERSION="0.2.0"
+PKG_FILE="tumbler-0.2.0.tar.bz2"
 URL="http://archive.xfce.org/src/xfce/tumbler/0.2/tumbler-0.2.0.tar.bz2"
-MD5="dd5f9bae6a2470eb5fff0dc9edd3ea09  $PACKAGE"
+MD5="dd5f9bae6a2470eb5fff0dc9edd3ea09"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

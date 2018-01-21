@@ -2,11 +2,11 @@
 # glu
 #
 ## EDITHOOK1
-PKG=ABCgluXYZ
-PKG_VERSION="9.0.0">
-PKG_FILE=ABCglu-9.0.0.tar.bz2XYZ
+PKG="glu"
+PKG_VERSION="9.0.0"
+PKG_FILE="glu-9.0.0.tar.bz2"
 URL="ftp://ftp.freedesktop.org/pub/mesa/glu/glu-9.0.0.tar.bz2"
-MD5="be9249132ff49275461cf92039083030  $PACKAGE"
+MD5="be9249132ff49275461cf92039083030"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

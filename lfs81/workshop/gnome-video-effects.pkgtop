@@ -2,11 +2,11 @@
 # gnome-video-effects
 #
 ## EDITHOOK1
-PKG=ABCgnome-video-effectsXYZ
+PKG="gnome-video-effects"
 PKG_VERSION=
-PKG_FILE=ABCgnome-video-effects-0.4.3.tar.xzXYZ
+PKG_FILE="gnome-video-effects-0.4.3.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gnome-video-effects/0.4/gnome-video-effects-0.4.3.tar.xz"
-MD5="decfd1264c00deb5b7ac12b483d21cda  $PACKAGE"
+MD5="decfd1264c00deb5b7ac12b483d21cda"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

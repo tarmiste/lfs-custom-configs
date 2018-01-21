@@ -2,9 +2,9 @@
 # font-jis-misc
 #
 ## EDITHOOK1
-PKG=ABCfont-jis-miscXYZ
+PKG="font-jis-misc"
 PKG_VERSION=
-PKG_FILE=ABCfont-jis-misc-1.0.3.tar.bz2XYZ
+PKG_FILE="font-jis-misc-1.0.3.tar.bz2"
 URL="https://www.x.org/pub/individual/font/font-jis-misc-1.0.3.tar.bz2"
 #
 ## EDITHOOK2

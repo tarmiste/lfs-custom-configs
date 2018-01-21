@@ -2,9 +2,9 @@
 # perl-text-csv
 #
 ## EDITHOOK1
-PKG=ABCperl-text-csvXYZ
+PKG="perl-text-csv"
 PKG_VERSION=
-PKG_FILE=ABCText-CSV-1.95.tar.gzXYZ
+PKG_FILE="Text-CSV-1.95.tar.gz"
 URL="https://www.cpan.org/authors/id/I/IS/ISHIGAKI/Text-CSV-1.95.tar.gz"
 #
 ## EDITHOOK2

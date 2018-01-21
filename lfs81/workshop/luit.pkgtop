@@ -2,11 +2,11 @@
 # luit
 #
 ## EDITHOOK1
-PKG=ABCluitXYZ
+PKG="luit"
 PKG_VERSION=
-PKG_FILE=ABCluit-1.1.1.tar.bz2XYZ
+PKG_FILE="luit-1.1.1.tar.bz2"
 URL="https://www.x.org/pub/individual/app/luit-1.1.1.tar.bz2"
-MD5="c4a3664e08e5a47c120ff9263ee2f20c  $PACKAGE"
+MD5="c4a3664e08e5a47c120ff9263ee2f20c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

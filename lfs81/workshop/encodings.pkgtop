@@ -2,11 +2,11 @@
 # encodings
 #
 ## EDITHOOK1
-PKG=ABCencodingsXYZ
+PKG="encodings"
 PKG_VERSION=
-PKG_FILE=ABCencodings-1.0.4.tar.bz2XYZ
+PKG_FILE="encodings-1.0.4.tar.bz2"
 URL="https://www.x.org/pub/individual/font/encodings-1.0.4.tar.bz2"
-MD5="0f2d6546d514c5cc4ecf78a60657a5c1  $PACKAGE"
+MD5="0f2d6546d514c5cc4ecf78a60657a5c1"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

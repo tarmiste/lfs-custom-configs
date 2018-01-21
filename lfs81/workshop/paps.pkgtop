@@ -2,11 +2,11 @@
 # paps
 #
 ## EDITHOOK1
-PKG=ABCpapsXYZ
-PKG_VERSION="0.6.8">
-PKG_FILE=ABCpaps-0.6.8.tar.gzXYZ
+PKG="paps"
+PKG_VERSION="0.6.8"
+PKG_FILE="paps-0.6.8.tar.gz"
 URL="https://downloads.sourceforge.net/paps/paps-0.6.8.tar.gz"
-MD5="e9508132bf27609bf2fded2bfd9cb3f1  $PACKAGE"
+MD5="e9508132bf27609bf2fded2bfd9cb3f1"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

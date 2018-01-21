@@ -2,11 +2,11 @@
 # json-c
 #
 ## EDITHOOK1
-PKG=ABCjson-cXYZ
-PKG_VERSION="0.12.1">
-PKG_FILE=ABCjson-c-0.12.1.tar.gzXYZ
+PKG="json-c"
+PKG_VERSION="0.12.1"
+PKG_FILE="json-c-0.12.1.tar.gz"
 URL="https://s3.amazonaws.com/json-c_releases/releases/json-c-0.12.1.tar.gz"
-MD5="55f7853f7d8cf664554ce3fa71bf1c7d  $PACKAGE"
+MD5="55f7853f7d8cf664554ce3fa71bf1c7d"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

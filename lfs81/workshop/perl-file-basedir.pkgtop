@@ -2,9 +2,9 @@
 # perl-file-basedir
 #
 ## EDITHOOK1
-PKG=ABCperl-file-basedirXYZ
+PKG="perl-file-basedir"
 PKG_VERSION=
-PKG_FILE=ABCFile-BaseDir-0.07.tar.gzXYZ
+PKG_FILE="File-BaseDir-0.07.tar.gz"
 URL="https://www.cpan.org/authors/id/K/KI/KIMRYAN/File-BaseDir-0.07.tar.gz"
 #
 ## EDITHOOK2

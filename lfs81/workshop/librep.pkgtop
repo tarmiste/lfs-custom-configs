@@ -2,11 +2,11 @@
 # librep
 #
 ## EDITHOOK1
-PKG=ABClibrepXYZ
-PKG_VERSION="0.92.7">
-PKG_FILE=ABClibrep_0.92.7.tar.xzXYZ
+PKG="librep"
+PKG_VERSION="0.92.7"
+PKG_FILE="librep_0.92.7.tar.xz"
 URL="http://download.tuxfamily.org/librep/librep_0.92.7.tar.xz"
-MD5="036195b371006848e29ed6f50ddc8475  $PACKAGE"
+MD5="036195b371006848e29ed6f50ddc8475"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

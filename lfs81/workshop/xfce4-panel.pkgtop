@@ -2,11 +2,11 @@
 # xfce4-panel
 #
 ## EDITHOOK1
-PKG=ABCxfce4-panelXYZ
-PKG_VERSION="4.12.1">
-PKG_FILE=ABCxfce4-panel-4.12.1.tar.bz2XYZ
+PKG="xfce4-panel"
+PKG_VERSION="4.12.1"
+PKG_FILE="xfce4-panel-4.12.1.tar.bz2"
 URL="http://archive.xfce.org/src/xfce/xfce4-panel/4.12/xfce4-panel-4.12.1.tar.bz2"
-MD5="0b943f2e72a3693dddb1af559826cb62  $PACKAGE"
+MD5="0b943f2e72a3693dddb1af559826cb62"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

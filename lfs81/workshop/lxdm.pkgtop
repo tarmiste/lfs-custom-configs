@@ -2,11 +2,11 @@
 # lxdm
 #
 ## EDITHOOK1
-PKG=ABClxdmXYZ
-PKG_VERSION="0.5.3">
-PKG_FILE=ABClxdm-0.5.3.tar.xzXYZ
+PKG="lxdm"
+PKG_VERSION="0.5.3"
+PKG_FILE="lxdm-0.5.3.tar.xz"
 URL="https://downloads.sourceforge.net/lxdm/lxdm-0.5.3.tar.xz"
-MD5="061caae432634e6db38bbdc84bc6ffa0  $PACKAGE"
+MD5="061caae432634e6db38bbdc84bc6ffa0"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

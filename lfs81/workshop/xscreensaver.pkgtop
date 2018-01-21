@@ -2,11 +2,11 @@
 # xscreensaver
 #
 ## EDITHOOK1
-PKG=ABCxscreensaverXYZ
-PKG_VERSION="5.37">
-PKG_FILE=ABCxscreensaver-5.37.tar.gzXYZ
+PKG="xscreensaver"
+PKG_VERSION="5.37"
+PKG_FILE="xscreensaver-5.37.tar.gz"
 URL="http://www.jwz.org/xscreensaver/xscreensaver-5.37.tar.gz"
-MD5="34ae54cf740c4f2627d2097ac06eef68  $PACKAGE"
+MD5="34ae54cf740c4f2627d2097ac06eef68"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

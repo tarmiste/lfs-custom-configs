@@ -2,11 +2,11 @@
 # rep-gtk
 #
 ## EDITHOOK1
-PKG=ABCrep-gtkXYZ
-PKG_VERSION="0.90.8.3">
-PKG_FILE=ABCrep-gtk_0.90.8.3.tar.xzXYZ
+PKG="rep-gtk"
+PKG_VERSION="0.90.8.3"
+PKG_FILE="rep-gtk_0.90.8.3.tar.xz"
 URL="http://download.tuxfamily.org/librep/rep-gtk/rep-gtk_0.90.8.3.tar.xz"
-MD5="b20f72cf00d316d35fa7f84a6e7532af  $PACKAGE"
+MD5="b20f72cf00d316d35fa7f84a6e7532af"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

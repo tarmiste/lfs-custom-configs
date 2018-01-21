@@ -2,11 +2,11 @@
 # guile
 #
 ## EDITHOOK1
-PKG=ABCguileXYZ
-PKG_VERSION="2.2.2">
-PKG_FILE=ABCguile-2.2.2.tar.xzXYZ
+PKG="guile"
+PKG_VERSION="2.2.2"
+PKG_FILE="guile-2.2.2.tar.xz"
 URL="https://ftp.gnu.org/gnu/guile/guile-2.2.2.tar.xz"
-MD5="d3c002bcf92dbf68f6de45803874db0f  $PACKAGE"
+MD5="d3c002bcf92dbf68f6de45803874db0f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

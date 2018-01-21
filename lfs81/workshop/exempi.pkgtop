@@ -2,11 +2,11 @@
 # exempi
 #
 ## EDITHOOK1
-PKG=ABCexempiXYZ
-PKG_VERSION="2.4.3">
-PKG_FILE=ABCexempi-2.4.3.tar.bz2XYZ
+PKG="exempi"
+PKG_VERSION="2.4.3"
+PKG_FILE="exempi-2.4.3.tar.bz2"
 URL="https://libopenraw.freedesktop.org/download/exempi-2.4.3.tar.bz2"
-MD5="ad612752c8bf50d7c84a4689073246d2  $PACKAGE"
+MD5="ad612752c8bf50d7c84a4689073246d2"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

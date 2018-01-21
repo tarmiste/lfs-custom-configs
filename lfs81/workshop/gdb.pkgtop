@@ -2,11 +2,11 @@
 # gdb
 #
 ## EDITHOOK1
-PKG=ABCgdbXYZ
-PKG_VERSION="8.0">
-PKG_FILE=ABCgdb-8.0.tar.xzXYZ
+PKG="gdb"
+PKG_VERSION="8.0"
+PKG_FILE="gdb-8.0.tar.xz"
 URL="https://ftp.gnu.org/gnu/gdb/gdb-8.0.tar.xz"
-MD5="c3d35cd949084be53b92cc1e03485f88  $PACKAGE"
+MD5="c3d35cd949084be53b92cc1e03485f88"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # python3
 #
 ## EDITHOOK1
-PKG=ABCpython3XYZ
-PKG_VERSION="3.6.2">
-PKG_FILE=ABCPython-3.6.2.tar.xz python-3.6.2-docs-html.tar.bz2XYZ
+PKG="python3"
+PKG_VERSION="3.6.2"
+PKG_FILE="Python-3.6.2.tar.xz python-3.6.2-docs-html.tar.bz2"
 URL="https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tar.xz"
-MD5="2c68846471994897278364fc18730dd9  $PACKAGE"
+MD5="2c68846471994897278364fc18730dd9"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

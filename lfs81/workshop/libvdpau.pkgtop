@@ -2,11 +2,11 @@
 # libvdpau
 #
 ## EDITHOOK1
-PKG=ABClibvdpauXYZ
-PKG_VERSION="1.1.1">
-PKG_FILE=ABClibvdpau-1.1.1.tar.bz2XYZ
+PKG="libvdpau"
+PKG_VERSION="1.1.1"
+PKG_FILE="libvdpau-1.1.1.tar.bz2"
 URL="https://people.freedesktop.org/~aplattner/vdpau/libvdpau-1.1.1.tar.bz2"
-MD5="2fa0b05a4f4d06791eec83bc9c854d14  $PACKAGE"
+MD5="2fa0b05a4f4d06791eec83bc9c854d14"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

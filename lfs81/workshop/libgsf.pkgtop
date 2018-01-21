@@ -2,11 +2,11 @@
 # libgsf
 #
 ## EDITHOOK1
-PKG=ABClibgsfXYZ
-PKG_VERSION="1.14.41">
-PKG_FILE=ABClibgsf-1.14.41.tar.xzXYZ
+PKG="libgsf"
+PKG_VERSION="1.14.41"
+PKG_FILE="libgsf-1.14.41.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/libgsf/1.14/libgsf-1.14.41.tar.xz"
-MD5="5b039d1b7196e643315abda1c1c349c4  $PACKAGE"
+MD5="5b039d1b7196e643315abda1c1c349c4"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

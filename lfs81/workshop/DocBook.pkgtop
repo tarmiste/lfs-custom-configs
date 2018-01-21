@@ -2,11 +2,11 @@
 # DocBook
 #
 ## EDITHOOK1
-PKG=ABCDocBookXYZ
-PKG_VERSION="4.5">
-PKG_FILE=ABCdocbook-xml-4.5.zipXYZ
+PKG="DocBook"
+PKG_VERSION="4.5"
+PKG_FILE="docbook-xml-4.5.zip"
 URL="http://www.docbook.org/xml/4.5/docbook-xml-4.5.zip"
-MD5="03083e288e87a7e829e437358da7ef9e  $PACKAGE"
+MD5="03083e288e87a7e829e437358da7ef9e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # glibmm
 #
 ## EDITHOOK1
-PKG=ABCglibmmXYZ
-PKG_VERSION="2.52.0">
-PKG_FILE=ABCglibmm-2.52.0.tar.xzXYZ
+PKG="glibmm"
+PKG_VERSION="2.52.0"
+PKG_FILE="glibmm-2.52.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/glibmm/2.52/glibmm-2.52.0.tar.xz"
-MD5="0ceaccabce7772e6ef6d0657bb0d2de1  $PACKAGE"
+MD5="0ceaccabce7772e6ef6d0657bb0d2de1"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

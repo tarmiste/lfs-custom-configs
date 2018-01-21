@@ -2,11 +2,11 @@
 # libarchive
 #
 ## EDITHOOK1
-PKG=ABClibarchiveXYZ
-PKG_VERSION="3.3.2">
-PKG_FILE=ABClibarchive-3.3.2.tar.gzXYZ
+PKG="libarchive"
+PKG_VERSION="3.3.2"
+PKG_FILE="libarchive-3.3.2.tar.gz"
 URL="http://www.libarchive.org/downloads/libarchive-3.3.2.tar.gz"
-MD5="4583bd6b2ebf7e0e8963d90879eb1b27  $PACKAGE"
+MD5="4583bd6b2ebf7e0e8963d90879eb1b27"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # xinit
 #
 ## EDITHOOK1
-PKG=ABCxinitXYZ
-PKG_VERSION="1.3.4">
-PKG_FILE=ABCxinit-1.3.4.tar.bz2XYZ
+PKG="xinit"
+PKG_VERSION="1.3.4"
+PKG_FILE="xinit-1.3.4.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xinit-1.3.4.tar.bz2"
-MD5="4e928452dfaf73851413a2d8b8c76388  $PACKAGE"
+MD5="4e928452dfaf73851413a2d8b8c76388"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

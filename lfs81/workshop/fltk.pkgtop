@@ -2,11 +2,11 @@
 # fltk
 #
 ## EDITHOOK1
-PKG=ABCfltkXYZ
-PKG_VERSION="1.3.4">
-PKG_FILE=ABCfltk-1.3.4-source.tar.gzXYZ
+PKG="fltk"
+PKG_VERSION="1.3.4"
+PKG_FILE="fltk-1.3.4-source.tar.gz"
 URL="http://fltk.org/pub/fltk/1.3.4/fltk-1.3.4-source.tar.gz"
-MD5="c0e43ac259ac8c5d0f7634566e21e3f8  $PACKAGE"
+MD5="c0e43ac259ac8c5d0f7634566e21e3f8"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

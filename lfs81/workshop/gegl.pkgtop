@@ -2,11 +2,11 @@
 # gegl
 #
 ## EDITHOOK1
-PKG=ABCgeglXYZ
-PKG_VERSION="0.3.20">
-PKG_FILE=ABCgegl-0.3.20.tar.bz2XYZ
+PKG="gegl"
+PKG_VERSION="0.3.20"
+PKG_FILE="gegl-0.3.20.tar.bz2"
 URL="https://download.gimp.org/pub/gegl/0.3/gegl-0.3.20.tar.bz2"
-MD5="5a31ebb855f525fecedccf6b84be4a07  $PACKAGE"
+MD5="5a31ebb855f525fecedccf6b84be4a07"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

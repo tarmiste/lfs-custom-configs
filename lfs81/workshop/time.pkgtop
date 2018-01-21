@@ -2,11 +2,11 @@
 # time
 #
 ## EDITHOOK1
-PKG=ABCtimeXYZ
-PKG_VERSION="1.7">
-PKG_FILE=ABCtime-1.7.tar.gzXYZ
+PKG="time"
+PKG_VERSION="1.7"
+PKG_FILE="time-1.7.tar.gz"
 URL="https://ftp.gnu.org/gnu/time/time-1.7.tar.gz"
-MD5="e38d2b8b34b1ca259cf7b053caac32b3  $PACKAGE"
+MD5="e38d2b8b34b1ca259cf7b053caac32b3"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

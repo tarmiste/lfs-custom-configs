@@ -2,9 +2,9 @@
 # perl-xml-writer
 #
 ## EDITHOOK1
-PKG=ABCperl-xml-writerXYZ
+PKG="perl-xml-writer"
 PKG_VERSION=
-PKG_FILE=ABCXML-Writer-0.625.tar.gzXYZ
+PKG_FILE="XML-Writer-0.625.tar.gz"
 URL="https://www.cpan.org/authors/id/J/JO/JOSEPHW/XML-Writer-0.625.tar.gz"
 #
 ## EDITHOOK2

@@ -2,11 +2,11 @@
 # libfm-extra
 #
 ## EDITHOOK1
-PKG=ABClibfm-extraXYZ
-PKG_VERSION="1.2.5">
-PKG_FILE=ABClibfm-1.2.5.tar.xzXYZ
+PKG="libfm-extra"
+PKG_VERSION="1.2.5"
+PKG_FILE="libfm-1.2.5.tar.xz"
 URL="https://downloads.sourceforge.net/pcmanfm/libfm-1.2.5.tar.xz"
-MD5="a1ba9ae5e920f38b647dd511edd6c807  $PACKAGE"
+MD5="a1ba9ae5e920f38b647dd511edd6c807"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

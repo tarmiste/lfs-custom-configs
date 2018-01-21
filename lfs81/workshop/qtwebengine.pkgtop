@@ -2,11 +2,11 @@
 # qtwebengine
 #
 ## EDITHOOK1
-PKG=ABCqtwebengineXYZ
-PKG_VERSION="5.9.1">
-PKG_FILE=ABCqtwebengine-opensource-src-5.9.1.tar.xzXYZ
+PKG="qtwebengine"
+PKG_VERSION="5.9.1"
+PKG_FILE="qtwebengine-opensource-src-5.9.1.tar.xz"
 URL="https://download.qt.io/archive/qt/5.9/5.9.1/submodules/qtwebengine-opensource-src-5.9.1.tar.xz"
-MD5="d4ad2f5df86c8483c06b3fe14c30136a  $PACKAGE"
+MD5="d4ad2f5df86c8483c06b3fe14c30136a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

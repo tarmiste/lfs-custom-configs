@@ -2,11 +2,11 @@
 # bridgeutils
 #
 ## EDITHOOK1
-PKG=ABCbridgeutilsXYZ
-PKG_VERSION="1.6">
-PKG_FILE=ABCbridge-utils-1.6.tar.xzXYZ
+PKG="bridgeutils"
+PKG_VERSION="1.6"
+PKG_FILE="bridge-utils-1.6.tar.xz"
 URL="https://www.kernel.org/pub/linux/utils/net/bridge-utils/bridge-utils-1.6.tar.xz"
-MD5="541ae1c50cc268056693608920e6c908  $PACKAGE"
+MD5="541ae1c50cc268056693608920e6c908"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

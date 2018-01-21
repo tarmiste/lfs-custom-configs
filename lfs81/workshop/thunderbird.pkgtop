@@ -2,11 +2,11 @@
 # thunderbird
 #
 ## EDITHOOK1
-PKG=ABCthunderbirdXYZ
-PKG_VERSION="52.3.0">
-PKG_FILE=ABCthunderbird-52.3.0.source.tar.xzXYZ
+PKG="thunderbird"
+PKG_VERSION="52.3.0"
+PKG_FILE="thunderbird-52.3.0.source.tar.xz"
 URL="https://archive.mozilla.org/pub/thunderbird/releases/52.3.0/source/thunderbird-52.3.0.source.tar.xz"
-MD5="5841ee1a70423b9385110c82b78bef47  $PACKAGE"
+MD5="5841ee1a70423b9385110c82b78bef47"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

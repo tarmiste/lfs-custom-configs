@@ -2,11 +2,11 @@
 # clisp
 #
 ## EDITHOOK1
-PKG=ABCclispXYZ
-PKG_VERSION="2.49">
-PKG_FILE=ABCclisp-2.49.tar.bz2XYZ
+PKG="clisp"
+PKG_VERSION="2.49"
+PKG_FILE="clisp-2.49.tar.bz2"
 URL="https://ftp.gnu.org/gnu/clisp/latest/clisp-2.49.tar.bz2"
-MD5="1962b99d5e530390ec3829236d168649  $PACKAGE"
+MD5="1962b99d5e530390ec3829236d168649"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # inkscape
 #
 ## EDITHOOK1
-PKG=ABCinkscapeXYZ
-PKG_VERSION=;.2">
-PKG_FILE=ABCinkscape-0.92.2.tar.bz2XYZ
+PKG="inkscape"
+PKG_VERSION=;.2"
+PKG_FILE="inkscape-0.92.2.tar.bz2"
 URL="https://media.inkscape.org/dl/resources/file/inkscape-0.92.2.tar.bz2"
-MD5="6f6bcbd0237ecd064460315465467b04  $PACKAGE"
+MD5="6f6bcbd0237ecd064460315465467b04"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

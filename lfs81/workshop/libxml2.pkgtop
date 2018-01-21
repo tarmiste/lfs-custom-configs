@@ -2,11 +2,11 @@
 # libxml2
 #
 ## EDITHOOK1
-PKG=ABClibxml2XYZ
-PKG_VERSION="2.9.4">
-PKG_FILE=ABClibxml2-2.9.4.tar.gz xmlts20130923.tar.gzXYZ
+PKG="libxml2"
+PKG_VERSION="2.9.4"
+PKG_FILE="libxml2-2.9.4.tar.gz xmlts20130923.tar.gz"
 URL="http://xmlsoft.org/sources/libxml2-2.9.4.tar.gz"
-MD5="ae249165c173b1ff386ee8ad676815f5  $PACKAGE"
+MD5="ae249165c173b1ff386ee8ad676815f5"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

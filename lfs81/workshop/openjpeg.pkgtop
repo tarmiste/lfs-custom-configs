@@ -2,11 +2,11 @@
 # openjpeg
 #
 ## EDITHOOK1
-PKG=ABCopenjpegXYZ
-PKG_VERSION="1.5.2">
-PKG_FILE=ABCopenjpeg-1.5.2.tar.gzXYZ
+PKG="openjpeg"
+PKG_VERSION="1.5.2"
+PKG_FILE="openjpeg-1.5.2.tar.gz"
 URL="https://downloads.sourceforge.net/openjpeg.mirror/openjpeg-1.5.2.tar.gz"
-MD5="c41772c30fb1c272358b3707233134a1  $PACKAGE"
+MD5="c41772c30fb1c272358b3707233134a1"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

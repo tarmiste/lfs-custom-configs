@@ -2,11 +2,11 @@
 # nss
 #
 ## EDITHOOK1
-PKG=ABCnssXYZ
-PKG_VERSION=<!--;"> --> ;">
-PKG_FILE=ABCnss-3.32.tar.gzXYZ
+PKG="nss"
+PKG_VERSION=<!--;" -- ;"
+PKG_FILE="nss-3.32.tar.gz"
 URL="https://archive.mozilla.org/pub/security/nss/releases/NSS_3_32_RTM/src/nss-3.32.tar.gz"
-MD5="076abf8ed88b6bb28f3396b072d252ed  $PACKAGE"
+MD5="076abf8ed88b6bb28f3396b072d252ed"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

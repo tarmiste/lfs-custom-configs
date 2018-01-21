@@ -2,11 +2,11 @@
 # pixman
 #
 ## EDITHOOK1
-PKG=ABCpixmanXYZ
-PKG_VERSION="0.34.0"> <!-- Even minors only -->
-PKG_FILE=ABCpixman-0.34.0.tar.gzXYZ
+PKG="pixman"
+PKG_VERSION="0.34.0" <!-- Even minors only --
+PKG_FILE="pixman-0.34.0.tar.gz"
 URL="https://www.cairographics.org/releases/pixman-0.34.0.tar.gz"
-MD5="e80ebae4da01e77f68744319f01d52a3  $PACKAGE"
+MD5="e80ebae4da01e77f68744319f01d52a3"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

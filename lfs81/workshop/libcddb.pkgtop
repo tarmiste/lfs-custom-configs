@@ -2,11 +2,11 @@
 # libcddb
 #
 ## EDITHOOK1
-PKG=ABClibcddbXYZ
-PKG_VERSION="1.3.2">
-PKG_FILE=ABClibcddb-1.3.2.tar.bz2XYZ
+PKG="libcddb"
+PKG_VERSION="1.3.2"
+PKG_FILE="libcddb-1.3.2.tar.bz2"
 URL="https://downloads.sourceforge.net/libcddb/libcddb-1.3.2.tar.bz2"
-MD5="8bb4a6f542197e8e9648ae597cd6bc8a  $PACKAGE"
+MD5="8bb4a6f542197e8e9648ae597cd6bc8a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

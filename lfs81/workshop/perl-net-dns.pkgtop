@@ -2,9 +2,9 @@
 # perl-net-dns
 #
 ## EDITHOOK1
-PKG=ABCperl-net-dnsXYZ
+PKG="perl-net-dns"
 PKG_VERSION=
-PKG_FILE=ABCNet-DNS-1.12.tar.gzXYZ
+PKG_FILE="Net-DNS-1.12.tar.gz"
 URL="https://www.cpan.org/authors/id/N/NL/NLNETLABS/Net-DNS-1.12.tar.gz"
 #
 ## EDITHOOK2

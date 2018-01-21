@@ -2,11 +2,11 @@
 # xsetroot
 #
 ## EDITHOOK1
-PKG=ABCxsetrootXYZ
+PKG="xsetroot"
 PKG_VERSION=
-PKG_FILE=ABCxsetroot-1.1.1.tar.bz2XYZ
+PKG_FILE="xsetroot-1.1.1.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xsetroot-1.1.1.tar.bz2"
-MD5="7211b31ec70631829ebae9460999aa0b  $PACKAGE"
+MD5="7211b31ec70631829ebae9460999aa0b"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # asciidoc
 #
 ## EDITHOOK1
-PKG=ABCasciidocXYZ
-PKG_VERSION="8.6.9">
-PKG_FILE=ABCasciidoc-8.6.9.tar.gzXYZ
+PKG="asciidoc"
+PKG_VERSION="8.6.9"
+PKG_FILE="asciidoc-8.6.9.tar.gz"
 URL="https://downloads.sourceforge.net/asciidoc/asciidoc-8.6.9.tar.gz"
-MD5="c59018f105be8d022714b826b0be130a  $PACKAGE"
+MD5="c59018f105be8d022714b826b0be130a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

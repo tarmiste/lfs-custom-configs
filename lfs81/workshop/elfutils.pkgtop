@@ -2,11 +2,11 @@
 # elfutils
 #
 ## EDITHOOK1
-PKG=ABCelfutilsXYZ
-PKG_VERSION="0.170">
-PKG_FILE=ABCelfutils-0.170.tar.bz2XYZ
+PKG="elfutils"
+PKG_VERSION="0.170"
+PKG_FILE="elfutils-0.170.tar.bz2"
 URL="https://sourceware.org/ftp/elfutils/0.170/elfutils-0.170.tar.bz2"
-MD5="03599aee98c9b726c7a732a2dd0245d5  $PACKAGE"
+MD5="03599aee98c9b726c7a732a2dd0245d5"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

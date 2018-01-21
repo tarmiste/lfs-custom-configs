@@ -2,11 +2,11 @@
 # gst10-libav
 #
 ## EDITHOOK1
-PKG=ABCgst10-libavXYZ
-PKG_VERSION="1.12.2"> <!-- Even minors only -->
-PKG_FILE=ABCgst-libav-1.12.2.tar.xzXYZ
+PKG="gst10-libav"
+PKG_VERSION="1.12.2" <!-- Even minors only --
+PKG_FILE="gst-libav-1.12.2.tar.xz"
 URL="https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.12.2.tar.xz"
-MD5="8788aecc032a287227b4bd239d1b998a  $PACKAGE"
+MD5="8788aecc032a287227b4bd239d1b998a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

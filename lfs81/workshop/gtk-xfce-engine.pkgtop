@@ -2,11 +2,11 @@
 # gtk-xfce-engine
 #
 ## EDITHOOK1
-PKG=ABCgtk-xfce-engineXYZ
-PKG_VERSION="3.2.0">
-PKG_FILE=ABCgtk-xfce-engine-3.2.0.tar.bz2XYZ
+PKG="gtk-xfce-engine"
+PKG_VERSION="3.2.0"
+PKG_FILE="gtk-xfce-engine-3.2.0.tar.bz2"
 URL="http://archive.xfce.org/src/xfce/gtk-xfce-engine/3.2/gtk-xfce-engine-3.2.0.tar.bz2"
-MD5="363d6c16a48a00e26d45c45c2e1fd739  $PACKAGE"
+MD5="363d6c16a48a00e26d45c45c2e1fd739"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

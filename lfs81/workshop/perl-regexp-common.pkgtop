@@ -2,9 +2,9 @@
 # perl-regexp-common
 #
 ## EDITHOOK1
-PKG=ABCperl-regexp-commonXYZ
+PKG="perl-regexp-common"
 PKG_VERSION=
-PKG_FILE=ABCRegexp-Common-2017060201.tar.gzXYZ
+PKG_FILE="Regexp-Common-2017060201.tar.gz"
 URL="https://www.cpan.org/authors/id/A/AB/ABIGAIL/Regexp-Common-2017060201.tar.gz"
 #
 ## EDITHOOK2

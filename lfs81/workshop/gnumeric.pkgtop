@@ -2,11 +2,11 @@
 # gnumeric
 #
 ## EDITHOOK1
-PKG=ABCgnumericXYZ
-PKG_VERSION="1.12.35">
-PKG_FILE=ABCgnumeric-1.12.35.tar.xzXYZ
+PKG="gnumeric"
+PKG_VERSION="1.12.35"
+PKG_FILE="gnumeric-1.12.35.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gnumeric/1.12/gnumeric-1.12.35.tar.xz"
-MD5="2b253329de4121231c6dfb402116c2c2  $PACKAGE"
+MD5="2b253329de4121231c6dfb402116c2c2"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

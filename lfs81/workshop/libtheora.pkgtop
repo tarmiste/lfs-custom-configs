@@ -2,11 +2,11 @@
 # libtheora
 #
 ## EDITHOOK1
-PKG=ABClibtheoraXYZ
-PKG_VERSION="1.1.1">
-PKG_FILE=ABClibtheora-1.1.1.tar.xzXYZ
+PKG="libtheora"
+PKG_VERSION="1.1.1"
+PKG_FILE="libtheora-1.1.1.tar.xz"
 URL="https://downloads.xiph.org/releases/theora/libtheora-1.1.1.tar.xz"
-MD5="9eeabf1ad65b7f41533854a59f7a716d  $PACKAGE"
+MD5="9eeabf1ad65b7f41533854a59f7a716d"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # xorg-server
 #
 ## EDITHOOK1
-PKG=ABCxorg-serverXYZ
-PKG_VERSION="1.19.3">
-PKG_FILE=ABCxorg-server-1.19.3.tar.bz2XYZ
+PKG="xorg-server"
+PKG_VERSION="1.19.3"
+PKG_FILE="xorg-server-1.19.3.tar.bz2"
 URL="https://www.x.org/pub/individual/xserver/xorg-server-1.19.3.tar.bz2"
-MD5="015d2fc4b9f2bfe7a626edb63a62c65e  $PACKAGE"
+MD5="015d2fc4b9f2bfe7a626edb63a62c65e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # transcode
 #
 ## EDITHOOK1
-PKG=ABCtranscodeXYZ
-PKG_VERSION="1.1.7">
-PKG_FILE=ABCtranscode-1.1.7.tar.bz2XYZ
+PKG="transcode"
+PKG_VERSION="1.1.7"
+PKG_FILE="transcode-1.1.7.tar.bz2"
 URL="https://bitbucket.org/france/transcode-tcforge/downloads/transcode-1.1.7.tar.bz2"
-MD5="9bb25a796a8591fb764de46ee87ce505  $PACKAGE"
+MD5="9bb25a796a8591fb764de46ee87ce505"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,9 +2,9 @@
 # font-isas-misc
 #
 ## EDITHOOK1
-PKG=ABCfont-isas-miscXYZ
+PKG="font-isas-misc"
 PKG_VERSION=
-PKG_FILE=ABCfont-isas-misc-1.0.3.tar.bz2XYZ
+PKG_FILE="font-isas-misc-1.0.3.tar.bz2"
 URL="https://www.x.org/pub/individual/font/font-isas-misc-1.0.3.tar.bz2"
 #
 ## EDITHOOK2

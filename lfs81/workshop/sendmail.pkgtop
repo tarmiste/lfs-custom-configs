@@ -2,11 +2,11 @@
 # sendmail
 #
 ## EDITHOOK1
-PKG=ABCsendmailXYZ
-PKG_VERSION="8.15.2">
-PKG_FILE=ABCsendmail.8.15.2.tar.gzXYZ
+PKG="sendmail"
+PKG_VERSION="8.15.2"
+PKG_FILE="sendmail.8.15.2.tar.gz"
 URL="ftp://ftp.sendmail.org/pub/sendmail/sendmail.8.15.2.tar.gz"
-MD5="a824fa7dea4d3341efb6462ccd816f00  $PACKAGE"
+MD5="a824fa7dea4d3341efb6462ccd816f00"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

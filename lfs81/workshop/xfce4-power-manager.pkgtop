@@ -2,11 +2,11 @@
 # xfce4-power-manager
 #
 ## EDITHOOK1
-PKG=ABCxfce4-power-managerXYZ
-PKG_VERSION="1.6.0">
-PKG_FILE=ABCxfce4-power-manager-1.6.0.tar.bz2XYZ
+PKG="xfce4-power-manager"
+PKG_VERSION="1.6.0"
+PKG_FILE="xfce4-power-manager-1.6.0.tar.bz2"
 URL="http://archive.xfce.org/src/xfce/xfce4-power-manager/1.6/xfce4-power-manager-1.6.0.tar.bz2"
-MD5="2e2e24a1a22912d6a561ba6155887503  $PACKAGE"
+MD5="2e2e24a1a22912d6a561ba6155887503"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

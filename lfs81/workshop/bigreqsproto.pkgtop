@@ -2,11 +2,11 @@
 # bigreqsproto
 #
 ## EDITHOOK1
-PKG=ABCbigreqsprotoXYZ
+PKG="bigreqsproto"
 PKG_VERSION=
-PKG_FILE=ABCbigreqsproto-1.1.2.tar.bz2XYZ
+PKG_FILE="bigreqsproto-1.1.2.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/bigreqsproto-1.1.2.tar.bz2"
-MD5="1a05fb01fa1d5198894c931cf925c025  $PACKAGE"
+MD5="1a05fb01fa1d5198894c931cf925c025"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

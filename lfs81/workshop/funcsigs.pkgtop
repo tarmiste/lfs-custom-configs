@@ -2,11 +2,11 @@
 # funcsigs
 #
 ## EDITHOOK1
-PKG=ABCfuncsigsXYZ
-PKG_VERSION="1.0.2">
-PKG_FILE=ABCfuncsigs-1.0.2.tar.gzXYZ
+PKG="funcsigs"
+PKG_VERSION="1.0.2"
+PKG_FILE="funcsigs-1.0.2.tar.gz"
 URL="https://files.pythonhosted.org/packages/source/f/funcsigs/funcsigs-1.0.2.tar.gz"
-MD5="7e583285b1fb8a76305d6d68f4ccc14e  $PACKAGE"
+MD5="7e583285b1fb8a76305d6d68f4ccc14e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

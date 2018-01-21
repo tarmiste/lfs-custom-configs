@@ -2,11 +2,11 @@
 # ffmpeg
 #
 ## EDITHOOK1
-PKG=ABCffmpegXYZ
-PKG_VERSION="3.3.3">
-PKG_FILE=ABCffmpeg-3.3.3.tar.xzXYZ
+PKG="ffmpeg"
+PKG_VERSION="3.3.3"
+PKG_FILE="ffmpeg-3.3.3.tar.xz"
 URL="http://ffmpeg.org/releases/ffmpeg-3.3.3.tar.xz"
-MD5="743dc66ebe67180283b92d029f690d0f  $PACKAGE"
+MD5="743dc66ebe67180283b92d029f690d0f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

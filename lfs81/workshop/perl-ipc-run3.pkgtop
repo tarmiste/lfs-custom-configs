@@ -2,9 +2,9 @@
 # perl-ipc-run3
 #
 ## EDITHOOK1
-PKG=ABCperl-ipc-run3XYZ
+PKG="perl-ipc-run3"
 PKG_VERSION=
-PKG_FILE=ABCIPC-Run3-0.048.tar.gzXYZ
+PKG_FILE="IPC-Run3-0.048.tar.gz"
 URL="https://www.cpan.org/authors/id/R/RJ/RJBS/IPC-Run3-0.048.tar.gz"
 #
 ## EDITHOOK2

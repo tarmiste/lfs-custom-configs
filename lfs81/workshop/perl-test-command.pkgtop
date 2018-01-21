@@ -2,9 +2,9 @@
 # perl-test-command
 #
 ## EDITHOOK1
-PKG=ABCperl-test-commandXYZ
+PKG="perl-test-command"
 PKG_VERSION=
-PKG_FILE=ABCTest-Command-0.11.tar.gzXYZ
+PKG_FILE="Test-Command-0.11.tar.gz"
 URL="https://www.cpan.org/authors/id/D/DA/DANBOO/Test-Command-0.11.tar.gz"
 #
 ## EDITHOOK2

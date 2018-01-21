@@ -2,11 +2,11 @@
 # rxvt-unicode
 #
 ## EDITHOOK1
-PKG=ABCrxvt-unicodeXYZ
-PKG_VERSION="9.22">
-PKG_FILE=ABCrxvt-unicode-9.22.tar.bz2XYZ
+PKG="rxvt-unicode"
+PKG_VERSION="9.22"
+PKG_FILE="rxvt-unicode-9.22.tar.bz2"
 URL="http://dist.schmorp.de/rxvt-unicode/Attic/rxvt-unicode-9.22.tar.bz2"
-MD5="93782dec27494eb079467dacf6e48185  $PACKAGE"
+MD5="93782dec27494eb079467dacf6e48185"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

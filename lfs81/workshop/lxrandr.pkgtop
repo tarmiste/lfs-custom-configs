@@ -2,11 +2,11 @@
 # lxrandr
 #
 ## EDITHOOK1
-PKG=ABClxrandrXYZ
-PKG_VERSION="0.3.1">
-PKG_FILE=ABClxrandr-0.3.1.tar.xzXYZ
+PKG="lxrandr"
+PKG_VERSION="0.3.1"
+PKG_FILE="lxrandr-0.3.1.tar.xz"
 URL="https://downloads.sourceforge.net/lxde/lxrandr-0.3.1.tar.xz"
-MD5="b327938f18a4baac85c4707f927d606e  $PACKAGE"
+MD5="b327938f18a4baac85c4707f927d606e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

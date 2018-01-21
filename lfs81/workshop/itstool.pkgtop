@@ -2,11 +2,11 @@
 # itstool
 #
 ## EDITHOOK1
-PKG=ABCitstoolXYZ
-PKG_VERSION="2.0.2">
-PKG_FILE=ABCitstool-2.0.2.tar.bz2XYZ
+PKG="itstool"
+PKG_VERSION="2.0.2"
+PKG_FILE="itstool-2.0.2.tar.bz2"
 URL="http://files.itstool.org/itstool/itstool-2.0.2.tar.bz2"
-MD5="d472d877a7bc49899a73d442085b2f93  $PACKAGE"
+MD5="d472d877a7bc49899a73d442085b2f93"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

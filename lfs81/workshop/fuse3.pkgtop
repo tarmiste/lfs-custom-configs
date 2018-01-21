@@ -2,11 +2,11 @@
 # fuse3
 #
 ## EDITHOOK1
-PKG=ABCfuse3XYZ
-PKG_VERSION="3.1.1">
-PKG_FILE=ABCfuse-3.1.1.tar.gzXYZ
+PKG="fuse3"
+PKG_VERSION="3.1.1"
+PKG_FILE="fuse-3.1.1.tar.gz"
 URL="https://github.com/libfuse/libfuse/releases/download/fuse-3.1.1/fuse-3.1.1.tar.gz"
-MD5="20b10f24b825062c1db9a21a35157f97  $PACKAGE"
+MD5="20b10f24b825062c1db9a21a35157f97"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

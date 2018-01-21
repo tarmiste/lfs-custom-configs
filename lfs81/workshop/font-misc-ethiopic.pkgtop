@@ -2,11 +2,11 @@
 # font-misc-ethiopic
 #
 ## EDITHOOK1
-PKG=ABCfont-misc-ethiopicXYZ
+PKG="font-misc-ethiopic"
 PKG_VERSION=
-PKG_FILE=ABCfont-misc-ethiopic-1.0.3.tar.bz2XYZ
+PKG_FILE="font-misc-ethiopic-1.0.3.tar.bz2"
 URL="https://www.x.org/pub/individual/font/font-misc-ethiopic-1.0.3.tar.bz2"
-MD5="6306c808f7d7e7d660dfb3859f9091d2  $PACKAGE"
+MD5="6306c808f7d7e7d660dfb3859f9091d2"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

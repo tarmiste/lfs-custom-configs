@@ -2,11 +2,11 @@
 # libdmx
 #
 ## EDITHOOK1
-PKG=ABClibdmxXYZ
+PKG="libdmx"
 PKG_VERSION=
-PKG_FILE=ABClibdmx-1.1.3.tar.bz2XYZ
+PKG_FILE="libdmx-1.1.3.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libdmx-1.1.3.tar.bz2"
-MD5="ba983eba5a9f05d152a0725b8e863151  $PACKAGE"
+MD5="ba983eba5a9f05d152a0725b8e863151"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

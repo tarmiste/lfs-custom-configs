@@ -2,11 +2,11 @@
 # lxml
 #
 ## EDITHOOK1
-PKG=ABClxmlXYZ
-PKG_VERSION="3.8.0">
-PKG_FILE=ABClxml-3.8.0.tar.gzXYZ
+PKG="lxml"
+PKG_VERSION="3.8.0"
+PKG_FILE="lxml-3.8.0.tar.gz"
 URL="https://files.pythonhosted.org/packages/source/l/lxml/lxml-3.8.0.tar.gz"
-MD5="e54e2fae44d684d6b9c636fe189e93ff  $PACKAGE"
+MD5="e54e2fae44d684d6b9c636fe189e93ff"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

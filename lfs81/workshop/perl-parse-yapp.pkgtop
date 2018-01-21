@@ -2,9 +2,9 @@
 # perl-parse-yapp
 #
 ## EDITHOOK1
-PKG=ABCperl-parse-yappXYZ
+PKG="perl-parse-yapp"
 PKG_VERSION=
-PKG_FILE=ABCParse-Yapp-1.21.tar.gzXYZ
+PKG_FILE="Parse-Yapp-1.21.tar.gz"
 URL="https://www.cpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz"
 #
 ## EDITHOOK2

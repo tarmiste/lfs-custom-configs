@@ -2,9 +2,9 @@
 # perl-business-ismn
 #
 ## EDITHOOK1
-PKG=ABCperl-business-ismnXYZ
+PKG="perl-business-ismn"
 PKG_VERSION=
-PKG_FILE=ABCBusiness-ISMN-1.131.tar.gzXYZ
+PKG_FILE="Business-ISMN-1.131.tar.gz"
 URL="https://www.cpan.org/authors/id/B/BD/BDFOY/Business-ISMN-1.131.tar.gz"
 #
 ## EDITHOOK2

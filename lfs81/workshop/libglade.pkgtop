@@ -2,11 +2,11 @@
 # libglade
 #
 ## EDITHOOK1
-PKG=ABClibgladeXYZ
-PKG_VERSION="2.6.4">
-PKG_FILE=ABClibglade-2.6.4.tar.bz2XYZ
+PKG="libglade"
+PKG_VERSION="2.6.4"
+PKG_FILE="libglade-2.6.4.tar.bz2"
 URL="http://ftp.gnome.org/pub/gnome/sources/libglade/2.6/libglade-2.6.4.tar.bz2"
-MD5="d1776b40f4e166b5e9c107f1c8fe4139  $PACKAGE"
+MD5="d1776b40f4e166b5e9c107f1c8fe4139"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

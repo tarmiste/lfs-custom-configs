@@ -2,11 +2,11 @@
 # gptfdisk
 #
 ## EDITHOOK1
-PKG=ABCgptfdiskXYZ
-PKG_VERSION="1.0.3">
-PKG_FILE=ABCgptfdisk-1.0.3.tar.gzXYZ
+PKG="gptfdisk"
+PKG_VERSION="1.0.3"
+PKG_FILE="gptfdisk-1.0.3.tar.gz"
 URL="https://downloads.sourceforge.net/gptfdisk/gptfdisk-1.0.3.tar.gz"
-MD5="07b625a583b66c8c5840be5923f3e3fe  $PACKAGE"
+MD5="07b625a583b66c8c5840be5923f3e3fe"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

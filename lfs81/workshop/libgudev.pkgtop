@@ -2,11 +2,11 @@
 # libgudev
 #
 ## EDITHOOK1
-PKG=ABClibgudevXYZ
-PKG_VERSION="231">
-PKG_FILE=ABClibgudev-231.tar.xzXYZ
+PKG="libgudev"
+PKG_VERSION="231"
+PKG_FILE="libgudev-231.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/libgudev/231/libgudev-231.tar.xz"
-MD5="916c10c51ec61131e244c3936bbb2e0c  $PACKAGE"
+MD5="916c10c51ec61131e244c3936bbb2e0c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

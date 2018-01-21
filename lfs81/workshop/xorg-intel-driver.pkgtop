@@ -2,11 +2,11 @@
 # xorg-intel-driver
 #
 ## EDITHOOK1
-PKG=ABCxorg-intel-driverXYZ
+PKG="xorg-intel-driver"
 PKG_VERSION=
-PKG_FILE=ABCxf86-video-intel-20170826.tar.xzXYZ
+PKG_FILE="xf86-video-intel-20170826.tar.xz"
 URL="http://anduin.linuxfromscratch.org/BLFS/xf86-video-intel/xf86-video-intel-20170826.tar.xz"
-MD5="1fa3856ccac46298fa5fa6d3e622e015  $PACKAGE"
+MD5="1fa3856ccac46298fa5fa6d3e622e015"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

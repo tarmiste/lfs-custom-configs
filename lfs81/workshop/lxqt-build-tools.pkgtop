@@ -2,11 +2,11 @@
 # lxqt-build-tools
 #
 ## EDITHOOK1
-PKG=ABClxqt-build-toolsXYZ
-PKG_VERSION="0.3.2">
-PKG_FILE=ABClxqt-build-tools-0.3.2.tar.xzXYZ
+PKG="lxqt-build-tools"
+PKG_VERSION="0.3.2"
+PKG_FILE="lxqt-build-tools-0.3.2.tar.xz"
 URL="https://github.com/lxde/lxqt-build-tools/releases/download/0.3.2/lxqt-build-tools-0.3.2.tar.xz"
-MD5="fd16ef3fe6e72475e757e7c70e2a9661  $PACKAGE"
+MD5="fd16ef3fe6e72475e757e7c70e2a9661"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

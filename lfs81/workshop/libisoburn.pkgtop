@@ -2,11 +2,11 @@
 # libisoburn
 #
 ## EDITHOOK1
-PKG=ABClibisoburnXYZ
-PKG_VERSION="1.4.6">
-PKG_FILE=ABClibisoburn-1.4.6.tar.gzXYZ
+PKG="libisoburn"
+PKG_VERSION="1.4.6"
+PKG_FILE="libisoburn-1.4.6.tar.gz"
 URL="http://files.libburnia-project.org/releases/libisoburn-1.4.6.tar.gz"
-MD5="15d763fd698b9bc8d6fc643a3257505b  $PACKAGE"
+MD5="15d763fd698b9bc8d6fc643a3257505b"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

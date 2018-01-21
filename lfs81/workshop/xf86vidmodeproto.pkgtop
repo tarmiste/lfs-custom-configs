@@ -2,11 +2,11 @@
 # xf86vidmodeproto
 #
 ## EDITHOOK1
-PKG=ABCxf86vidmodeprotoXYZ
+PKG="xf86vidmodeproto"
 PKG_VERSION=
-PKG_FILE=ABCxf86vidmodeproto-2.3.1.tar.bz2XYZ
+PKG_FILE="xf86vidmodeproto-2.3.1.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/xf86vidmodeproto-2.3.1.tar.bz2"
-MD5="e793ecefeaecfeabd1aed6a01095174e  $PACKAGE"
+MD5="e793ecefeaecfeabd1aed6a01095174e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

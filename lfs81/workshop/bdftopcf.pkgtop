@@ -2,9 +2,9 @@
 # bdftopcf
 #
 ## EDITHOOK1
-PKG=ABCbdftopcfXYZ
+PKG="bdftopcf"
 PKG_VERSION=
-PKG_FILE=ABCbdftopcf-1.0.5.tar.bz2XYZ
+PKG_FILE="bdftopcf-1.0.5.tar.bz2"
 URL="https://www.x.org/pub/individual/app/bdftopcf-1.0.5.tar.bz2"
 #
 ## EDITHOOK2

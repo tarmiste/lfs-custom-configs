@@ -2,9 +2,9 @@
 # perl-lwp
 #
 ## EDITHOOK1
-PKG=ABCperl-lwpXYZ
+PKG="perl-lwp"
 PKG_VERSION=
-PKG_FILE=ABClibwww-perl-6.26.tar.gzXYZ
+PKG_FILE="libwww-perl-6.26.tar.gz"
 URL="https://www.cpan.org/authors/id/O/OA/OALDERS/libwww-perl-6.26.tar.gz"
 #
 ## EDITHOOK2

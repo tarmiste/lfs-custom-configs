@@ -2,11 +2,11 @@
 # fetchmail
 #
 ## EDITHOOK1
-PKG=ABCfetchmailXYZ
-PKG_VERSION="6.3.26">
-PKG_FILE=ABCfetchmail-6.3.26.tar.xzXYZ
+PKG="fetchmail"
+PKG_VERSION="6.3.26"
+PKG_FILE="fetchmail-6.3.26.tar.xz"
 URL="https://downloads.sourceforge.net/fetchmail/fetchmail-6.3.26.tar.xz"
-MD5="61b66faad044afa26e142bb1791aa2b3  $PACKAGE"
+MD5="61b66faad044afa26e142bb1791aa2b3"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

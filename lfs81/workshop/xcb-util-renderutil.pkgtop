@@ -2,11 +2,11 @@
 # xcb-util-renderutil
 #
 ## EDITHOOK1
-PKG=ABCxcb-util-renderutilXYZ
-PKG_VERSION="0.3.9">
-PKG_FILE=ABCxcb-util-renderutil-0.3.9.tar.bz2XYZ
+PKG="xcb-util-renderutil"
+PKG_VERSION="0.3.9"
+PKG_FILE="xcb-util-renderutil-0.3.9.tar.bz2"
 URL="https://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.9.tar.bz2"
-MD5="468b119c94da910e1291f3ffab91019a  $PACKAGE"
+MD5="468b119c94da910e1291f3ffab91019a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

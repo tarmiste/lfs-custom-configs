@@ -2,11 +2,11 @@
 # libmusicbrainz
 #
 ## EDITHOOK1
-PKG=ABClibmusicbrainzXYZ
-PKG_VERSION="2.1.5">
-PKG_FILE=ABClibmusicbrainz-2.1.5.tar.gzXYZ
+PKG="libmusicbrainz"
+PKG_VERSION="2.1.5"
+PKG_FILE="libmusicbrainz-2.1.5.tar.gz"
 URL="http://ftp.musicbrainz.org/pub/musicbrainz/historical/libmusicbrainz-2.1.5.tar.gz"
-MD5="d5e19bb77edd6ea798ce206bd05ccc5f  $PACKAGE"
+MD5="d5e19bb77edd6ea798ce206bd05ccc5f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # apache
 #
 ## EDITHOOK1
-PKG=ABCapacheXYZ
-PKG_VERSION="2.4.27">
-PKG_FILE=ABChttpd-2.4.27.tar.bz2XYZ
+PKG="apache"
+PKG_VERSION="2.4.27"
+PKG_FILE="httpd-2.4.27.tar.bz2"
 URL="https://archive.apache.org/dist/httpd/httpd-2.4.27.tar.bz2"
-MD5="97b6bbfa83c866dbe20ef317e3afd108  $PACKAGE"
+MD5="97b6bbfa83c866dbe20ef317e3afd108"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

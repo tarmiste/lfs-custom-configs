@@ -2,11 +2,11 @@
 # libqmi
 #
 ## EDITHOOK1
-PKG=ABClibqmiXYZ
-PKG_VERSION="1.18.0">
-PKG_FILE=ABClibqmi-1.18.0.tar.xzXYZ
+PKG="libqmi"
+PKG_VERSION="1.18.0"
+PKG_FILE="libqmi-1.18.0.tar.xz"
 URL="https://www.freedesktop.org/software/libqmi/libqmi-1.18.0.tar.xz"
-MD5="25bae4e383ad77f491ad49b49e04fdcf  $PACKAGE"
+MD5="25bae4e383ad77f491ad49b49e04fdcf"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

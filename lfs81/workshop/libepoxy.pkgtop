@@ -2,11 +2,11 @@
 # libepoxy
 #
 ## EDITHOOK1
-PKG=ABClibepoxyXYZ
-PKG_VERSION="&libepoxy-minor;.3">
-PKG_FILE=ABClibepoxy-1.4.3.tar.xzXYZ
+PKG="libepoxy"
+PKG_VERSION="&libepoxy-minor;.3"
+PKG_FILE="libepoxy-1.4.3.tar.xz"
 URL="https://github.com/anholt/libepoxy/releases/download/1.4.3/libepoxy-1.4.3.tar.xz"
-MD5="af4c3ce0fb1143bdc4e43f85695a9bed  $PACKAGE"
+MD5="af4c3ce0fb1143bdc4e43f85695a9bed"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

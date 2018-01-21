@@ -2,11 +2,11 @@
 # cdrdao
 #
 ## EDITHOOK1
-PKG=ABCcdrdaoXYZ
-PKG_VERSION="1.2.3">
-PKG_FILE=ABCcdrdao-1.2.3.tar.bz2XYZ
+PKG="cdrdao"
+PKG_VERSION="1.2.3"
+PKG_FILE="cdrdao-1.2.3.tar.bz2"
 URL="https://downloads.sourceforge.net/cdrdao/cdrdao-1.2.3.tar.bz2"
-MD5="8d15ba6280bb7ba2f4d6be31d28b3c0c  $PACKAGE"
+MD5="8d15ba6280bb7ba2f4d6be31d28b3c0c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

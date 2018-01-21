@@ -2,11 +2,11 @@
 # libmbim
 #
 ## EDITHOOK1
-PKG=ABClibmbimXYZ
-PKG_VERSION="1.14.2">
-PKG_FILE=ABClibmbim-1.14.2.tar.xzXYZ
+PKG="libmbim"
+PKG_VERSION="1.14.2"
+PKG_FILE="libmbim-1.14.2.tar.xz"
 URL="https://www.freedesktop.org/software/libmbim/libmbim-1.14.2.tar.xz"
-MD5="40b1543119b65f9a75f264a3a5abf33b  $PACKAGE"
+MD5="40b1543119b65f9a75f264a3a5abf33b"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

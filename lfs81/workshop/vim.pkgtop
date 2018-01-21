@@ -2,11 +2,11 @@
 # vim
 #
 ## EDITHOOK1
-PKG=ABCvimXYZ
-PKG_VERSION="8.0.586">
-PKG_FILE=ABCvim-8.0.586.tar.bz2XYZ
+PKG="vim"
+PKG_VERSION="8.0.586"
+PKG_FILE="vim-8.0.586.tar.bz2"
 URL="http://ftp.vim.org/vim/unix/vim-8.0.586.tar.bz2"
-MD5="b35e794140c196ff59b492b56c1e73db  $PACKAGE"
+MD5="b35e794140c196ff59b492b56c1e73db"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

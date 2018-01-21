@@ -2,11 +2,11 @@
 # samba
 #
 ## EDITHOOK1
-PKG=ABCsambaXYZ
-PKG_VERSION="4.6.7">
-PKG_FILE=ABCsamba-4.6.7.tar.gzXYZ
+PKG="samba"
+PKG_VERSION="4.6.7"
+PKG_FILE="samba-4.6.7.tar.gz"
 URL="https://www.samba.org/ftp/samba/stable/samba-4.6.7.tar.gz"
-MD5="c6ee5c766016d59908c8fb672fbbd445  $PACKAGE"
+MD5="c6ee5c766016d59908c8fb672fbbd445"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

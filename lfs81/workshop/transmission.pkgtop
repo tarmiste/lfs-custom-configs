@@ -2,11 +2,11 @@
 # transmission
 #
 ## EDITHOOK1
-PKG=ABCtransmissionXYZ
-PKG_VERSION="2.92">
-PKG_FILE=ABCtransmission-2.92.tar.xzXYZ
+PKG="transmission"
+PKG_VERSION="2.92"
+PKG_FILE="transmission-2.92.tar.xz"
 URL="https://transmission.cachefly.net/transmission-2.92.tar.xz"
-MD5="3fce404a436e3cd7fde80fb6ed61c264  $PACKAGE"
+MD5="3fce404a436e3cd7fde80fb6ed61c264"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

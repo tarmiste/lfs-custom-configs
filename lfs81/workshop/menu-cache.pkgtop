@@ -2,11 +2,11 @@
 # menu-cache
 #
 ## EDITHOOK1
-PKG=ABCmenu-cacheXYZ
-PKG_VERSION="1.0.2">
-PKG_FILE=ABCmenu-cache-1.0.2.tar.xzXYZ
+PKG="menu-cache"
+PKG_VERSION="1.0.2"
+PKG_FILE="menu-cache-1.0.2.tar.xz"
 URL="https://downloads.sourceforge.net/lxde/menu-cache-1.0.2.tar.xz"
-MD5="8dde7a3f5bd9798d0129d1979a5d7640  $PACKAGE"
+MD5="8dde7a3f5bd9798d0129d1979a5d7640"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

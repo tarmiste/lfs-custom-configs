@@ -2,11 +2,11 @@
 # font-adobe-utopia-type1
 #
 ## EDITHOOK1
-PKG=ABCfont-adobe-utopia-type1XYZ
+PKG="font-adobe-utopia-type1"
 PKG_VERSION=
-PKG_FILE=ABCfont-adobe-utopia-type1-1.0.4.tar.bz2XYZ
+PKG_FILE="font-adobe-utopia-type1-1.0.4.tar.bz2"
 URL="https://www.x.org/pub/individual/font/font-adobe-utopia-type1-1.0.4.tar.bz2"
-MD5="fcf24554c348df3c689b91596d7f9971  $PACKAGE"
+MD5="fcf24554c348df3c689b91596d7f9971"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # gobject-introspection
 #
 ## EDITHOOK1
-PKG=ABCgobject-introspectionXYZ
-PKG_VERSION="1.52.1">
-PKG_FILE=ABCgobject-introspection-1.52.1.tar.xzXYZ
+PKG="gobject-introspection"
+PKG_VERSION="1.52.1"
+PKG_FILE="gobject-introspection-1.52.1.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gobject-introspection/1.52/gobject-introspection-1.52.1.tar.xz"
-MD5="34157073991f9eeb0ed953351b65eb61  $PACKAGE"
+MD5="34157073991f9eeb0ed953351b65eb61"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

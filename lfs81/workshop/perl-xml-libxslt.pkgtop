@@ -2,9 +2,9 @@
 # perl-xml-libxslt
 #
 ## EDITHOOK1
-PKG=ABCperl-xml-libxsltXYZ
+PKG="perl-xml-libxslt"
 PKG_VERSION=
-PKG_FILE=ABCXML-LibXSLT-1.95.tar.gzXYZ
+PKG_FILE="XML-LibXSLT-1.95.tar.gz"
 URL="https://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXSLT-1.95.tar.gz"
 #
 ## EDITHOOK2

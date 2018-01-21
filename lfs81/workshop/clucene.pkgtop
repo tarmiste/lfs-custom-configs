@@ -2,11 +2,11 @@
 # clucene
 #
 ## EDITHOOK1
-PKG=ABCcluceneXYZ
-PKG_VERSION="2.3.3.4">
-PKG_FILE=ABCclucene-core-2.3.3.4.tar.gzXYZ
+PKG="clucene"
+PKG_VERSION="2.3.3.4"
+PKG_FILE="clucene-core-2.3.3.4.tar.gz"
 URL="https://downloads.sourceforge.net/clucene/clucene-core-2.3.3.4.tar.gz"
-MD5="48d647fbd8ef8889e5a7f422c1bfda94  $PACKAGE"
+MD5="48d647fbd8ef8889e5a7f422c1bfda94"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

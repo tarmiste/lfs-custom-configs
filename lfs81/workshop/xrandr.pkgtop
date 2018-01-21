@@ -2,11 +2,11 @@
 # xrandr
 #
 ## EDITHOOK1
-PKG=ABCxrandrXYZ
+PKG="xrandr"
 PKG_VERSION=
-PKG_FILE=ABCxrandr-1.5.0.tar.bz2XYZ
+PKG_FILE="xrandr-1.5.0.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xrandr-1.5.0.tar.bz2"
-MD5="ebffac98021b8f1dc71da0c1918e9b57  $PACKAGE"
+MD5="ebffac98021b8f1dc71da0c1918e9b57"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

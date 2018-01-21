@@ -2,9 +2,9 @@
 # font-adobe-75dpi
 #
 ## EDITHOOK1
-PKG=ABCfont-adobe-75dpiXYZ
+PKG="font-adobe-75dpi"
 PKG_VERSION=
-PKG_FILE=ABCfont-adobe-75dpi-1.0.3.tar.bz2XYZ
+PKG_FILE="font-adobe-75dpi-1.0.3.tar.bz2"
 URL="https://www.x.org/pub/individual/font/font-adobe-75dpi-1.0.3.tar.bz2"
 #
 ## EDITHOOK2

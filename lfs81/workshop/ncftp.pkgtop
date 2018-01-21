@@ -2,11 +2,11 @@
 # ncftp
 #
 ## EDITHOOK1
-PKG=ABCncftpXYZ
-PKG_VERSION="3.2.6">
-PKG_FILE=ABCncftp-3.2.6-src.tar.xzXYZ
+PKG="ncftp"
+PKG_VERSION="3.2.6"
+PKG_FILE="ncftp-3.2.6-src.tar.xz"
 URL="ftp://ftp.ncftp.com/ncftp/ncftp-3.2.6-src.tar.xz"
-MD5="42d0f896d69a4d603ec097546444245f  $PACKAGE"
+MD5="42d0f896d69a4d603ec097546444245f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

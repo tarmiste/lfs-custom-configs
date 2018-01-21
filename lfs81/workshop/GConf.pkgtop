@@ -2,11 +2,11 @@
 # GConf
 #
 ## EDITHOOK1
-PKG=ABCGConfXYZ
+PKG="GConf"
 PKG_VERSION=
-PKG_FILE=ABCGConf-3.2.6.tar.xzXYZ
+PKG_FILE="GConf-3.2.6.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/GConf/3.2/GConf-3.2.6.tar.xz"
-MD5="2b16996d0e4b112856ee5c59130e822c  $PACKAGE"
+MD5="2b16996d0e4b112856ee5c59130e822c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

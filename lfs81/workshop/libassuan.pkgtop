@@ -2,11 +2,11 @@
 # libassuan
 #
 ## EDITHOOK1
-PKG=ABClibassuanXYZ
-PKG_VERSION="2.4.3">
-PKG_FILE=ABClibassuan-2.4.3.tar.bz2XYZ
+PKG="libassuan"
+PKG_VERSION="2.4.3"
+PKG_FILE="libassuan-2.4.3.tar.bz2"
 URL="https://www.gnupg.org/ftp/gcrypt/libassuan/libassuan-2.4.3.tar.bz2"
-MD5="8e01a7c72d3e5d154481230668e6eb5a  $PACKAGE"
+MD5="8e01a7c72d3e5d154481230668e6eb5a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

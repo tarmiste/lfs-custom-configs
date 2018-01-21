@@ -2,11 +2,11 @@
 # libjpeg
 #
 ## EDITHOOK1
-PKG=ABClibjpegXYZ
+PKG="libjpeg"
 PKG_VERSION=
-PKG_FILE=ABClibjpeg-turbo-1.5.2.tar.gzXYZ
+PKG_FILE="libjpeg-turbo-1.5.2.tar.gz"
 URL="https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-1.5.2.tar.gz"
-MD5="6b4923e297a7eaa255f08511017a8818  $PACKAGE"
+MD5="6b4923e297a7eaa255f08511017a8818"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

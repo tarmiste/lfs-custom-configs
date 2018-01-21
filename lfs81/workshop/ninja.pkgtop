@@ -2,11 +2,11 @@
 # ninja
 #
 ## EDITHOOK1
-PKG=ABCninjaXYZ
-PKG_VERSION="1.7.2">
-PKG_FILE=ABCninja-1.7.2.tar.gzXYZ
+PKG="ninja"
+PKG_VERSION="1.7.2"
+PKG_FILE="ninja-1.7.2.tar.gz"
 URL="https://github.com/ninja-build/ninja/archive/v1.7.2/ninja-1.7.2.tar.gz"
-MD5="7b482218757acbaeac4d4d54a3cd94e1  $PACKAGE"
+MD5="7b482218757acbaeac4d4d54a3cd94e1"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

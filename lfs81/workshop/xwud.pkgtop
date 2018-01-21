@@ -2,11 +2,11 @@
 # xwud
 #
 ## EDITHOOK1
-PKG=ABCxwudXYZ
+PKG="xwud"
 PKG_VERSION=
-PKG_FILE=ABCxwud-1.0.4.tar.bz2XYZ
+PKG_FILE="xwud-1.0.4.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xwud-1.0.4.tar.bz2"
-MD5="3025b152b4f13fdffd0c46d0be587be6  $PACKAGE"
+MD5="3025b152b4f13fdffd0c46d0be587be6"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

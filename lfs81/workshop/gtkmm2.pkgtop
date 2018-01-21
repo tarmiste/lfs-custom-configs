@@ -2,11 +2,11 @@
 # gtkmm2
 #
 ## EDITHOOK1
-PKG=ABCgtkmm2XYZ
-PKG_VERSION="2.24.5">
-PKG_FILE=ABCgtkmm-2.24.5.tar.xzXYZ
+PKG="gtkmm2"
+PKG_VERSION="2.24.5"
+PKG_FILE="gtkmm-2.24.5.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gtkmm/2.24/gtkmm-2.24.5.tar.xz"
-MD5="6c59ae8bbff48fad9132f23af347acf1  $PACKAGE"
+MD5="6c59ae8bbff48fad9132f23af347acf1"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

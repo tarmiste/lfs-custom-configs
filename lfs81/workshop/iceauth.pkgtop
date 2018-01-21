@@ -2,11 +2,11 @@
 # iceauth
 #
 ## EDITHOOK1
-PKG=ABCiceauthXYZ
+PKG="iceauth"
 PKG_VERSION=
-PKG_FILE=ABCiceauth-1.0.7.tar.bz2XYZ
+PKG_FILE="iceauth-1.0.7.tar.bz2"
 URL="https://www.x.org/pub/individual/app/iceauth-1.0.7.tar.bz2"
-MD5="25dab02f8e40d5b71ce29a07dc901b8c  $PACKAGE"
+MD5="25dab02f8e40d5b71ce29a07dc901b8c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

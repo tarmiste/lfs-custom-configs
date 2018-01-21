@@ -2,11 +2,11 @@
 # ptlib
 #
 ## EDITHOOK1
-PKG=ABCptlibXYZ
-PKG_VERSION="2.10.11">
-PKG_FILE=ABCptlib-2.10.11.tar.xzXYZ
+PKG="ptlib"
+PKG_VERSION="2.10.11"
+PKG_FILE="ptlib-2.10.11.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/ptlib/2.10/ptlib-2.10.11.tar.xz"
-MD5="3ffdf89170dbfa6d29a015ef8741a4e4  $PACKAGE"
+MD5="3ffdf89170dbfa6d29a015ef8741a4e4"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

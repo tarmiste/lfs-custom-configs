@@ -2,11 +2,11 @@
 # gstreamer10-vaapi
 #
 ## EDITHOOK1
-PKG=ABCgstreamer10-vaapiXYZ
+PKG="gstreamer10-vaapi"
 PKG_VERSION=
-PKG_FILE=ABCgstreamer-vaapi-1.12.2.tar.xzXYZ
+PKG_FILE="gstreamer-vaapi-1.12.2.tar.xz"
 URL="https://gstreamer.freedesktop.org/src/gstreamer-vaapi/gstreamer-vaapi-1.12.2.tar.xz"
-MD5="bea015f33696a15ad9575fb71af862ed  $PACKAGE"
+MD5="bea015f33696a15ad9575fb71af862ed"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

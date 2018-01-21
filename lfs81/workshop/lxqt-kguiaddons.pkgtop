@@ -2,11 +2,11 @@
 # lxqt-kguiaddons
 #
 ## EDITHOOK1
-PKG=ABClxqt-kguiaddonsXYZ
+PKG="lxqt-kguiaddons"
 PKG_VERSION=
-PKG_FILE=ABCkguiaddons-5.37.0.tar.xzXYZ
+PKG_FILE="kguiaddons-5.37.0.tar.xz"
 URL="http://download.kde.org/stable/frameworks/5.37/kguiaddons-5.37.0.tar.xz"
-MD5="a395b2479d99128cba078c3a1299a566  $PACKAGE"
+MD5="a395b2479d99128cba078c3a1299a566"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

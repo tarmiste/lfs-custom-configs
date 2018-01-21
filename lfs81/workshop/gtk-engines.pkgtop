@@ -2,11 +2,11 @@
 # gtk-engines
 #
 ## EDITHOOK1
-PKG=ABCgtk-enginesXYZ
-PKG_VERSION="2.20.2">
-PKG_FILE=ABCgtk-engines-2.20.2.tar.bz2XYZ
+PKG="gtk-engines"
+PKG_VERSION="2.20.2"
+PKG_FILE="gtk-engines-2.20.2.tar.bz2"
 URL="http://ftp.gnome.org/pub/gnome/sources/gtk-engines/2.20/gtk-engines-2.20.2.tar.bz2"
-MD5="5deb287bc6075dc21812130604c7dc4f  $PACKAGE"
+MD5="5deb287bc6075dc21812130604c7dc4f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

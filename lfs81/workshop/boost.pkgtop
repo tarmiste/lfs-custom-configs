@@ -2,11 +2,11 @@
 # boost
 #
 ## EDITHOOK1
-PKG=ABCboostXYZ
-PKG_VERSION="&boost-major;.&boost-minor;.&boost-patch;">
-PKG_FILE=ABCboost_1_64_0.tar.bz2XYZ
+PKG="boost"
+PKG_VERSION="&boost-major;.&boost-minor;.&boost-patch;"
+PKG_FILE="boost_1_64_0.tar.bz2"
 URL="https://dl.bintray.com/boostorg/release/1.64.0/source/boost_1_64_0.tar.bz2"
-MD5="93eecce2abed9d2442c9676914709349  $PACKAGE"
+MD5="93eecce2abed9d2442c9676914709349"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

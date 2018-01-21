@@ -2,11 +2,11 @@
 # xkeyboard-config
 #
 ## EDITHOOK1
-PKG=ABCxkeyboard-configXYZ
-PKG_VERSION="2.21">
-PKG_FILE=ABCxkeyboard-config-2.21.tar.bz2XYZ
+PKG="xkeyboard-config"
+PKG_VERSION="2.21"
+PKG_FILE="xkeyboard-config-2.21.tar.bz2"
 URL="https://www.x.org/pub/individual/data/xkeyboard-config/xkeyboard-config-2.21.tar.bz2"
-MD5="af9498e8954907d0a47f0f7b3d21e1ef  $PACKAGE"
+MD5="af9498e8954907d0a47f0f7b3d21e1ef"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # font-alias
 #
 ## EDITHOOK1
-PKG=ABCfont-aliasXYZ
+PKG="font-alias"
 PKG_VERSION=
-PKG_FILE=ABCfont-alias-1.0.3.tar.bz2XYZ
+PKG_FILE="font-alias-1.0.3.tar.bz2"
 URL="https://www.x.org/pub/individual/font/font-alias-1.0.3.tar.bz2"
-MD5="6d25f64796fef34b53b439c2e9efa562  $PACKAGE"
+MD5="6d25f64796fef34b53b439c2e9efa562"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

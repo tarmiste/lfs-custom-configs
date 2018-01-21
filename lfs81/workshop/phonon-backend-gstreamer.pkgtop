@@ -2,11 +2,11 @@
 # phonon-backend-gstreamer
 #
 ## EDITHOOK1
-PKG=ABCphonon-backend-gstreamerXYZ
-PKG_VERSION="4.9.0">
-PKG_FILE=ABCphonon-backend-gstreamer-4.9.0.tar.xzXYZ
+PKG="phonon-backend-gstreamer"
+PKG_VERSION="4.9.0"
+PKG_FILE="phonon-backend-gstreamer-4.9.0.tar.xz"
 URL="http://download.kde.org/stable/phonon/phonon-backend-gstreamer/4.9.0/phonon-backend-gstreamer-4.9.0.tar.xz"
-MD5="b2b0ca327908948ce8cdba117e31bf80  $PACKAGE"
+MD5="b2b0ca327908948ce8cdba117e31bf80"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # libgcrypt
 #
 ## EDITHOOK1
-PKG=ABClibgcryptXYZ
-PKG_VERSION="1.8.0">
-PKG_FILE=ABClibgcrypt-1.8.0.tar.bz2XYZ
+PKG="libgcrypt"
+PKG_VERSION="1.8.0"
+PKG_FILE="libgcrypt-1.8.0.tar.bz2"
 URL="https://www.gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.8.0.tar.bz2"
-MD5="530db74602b558209f9ad7356a680971  $PACKAGE"
+MD5="530db74602b558209f9ad7356a680971"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

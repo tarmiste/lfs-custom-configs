@@ -2,11 +2,11 @@
 # xorg-wacom-driver
 #
 ## EDITHOOK1
-PKG=ABCxorg-wacom-driverXYZ
+PKG="xorg-wacom-driver"
 PKG_VERSION=
-PKG_FILE=ABCxf86-input-wacom-0.35.0.tar.bz2XYZ
+PKG_FILE="xf86-input-wacom-0.35.0.tar.bz2"
 URL="https://downloads.sourceforge.net/linuxwacom/xf86-input-wacom-0.35.0.tar.bz2"
-MD5="cb137465f139bb014883b0d7b0c500b2  $PACKAGE"
+MD5="cb137465f139bb014883b0d7b0c500b2"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

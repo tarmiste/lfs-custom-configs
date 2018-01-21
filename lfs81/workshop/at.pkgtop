@@ -2,11 +2,11 @@
 # at
 #
 ## EDITHOOK1
-PKG=ABCatXYZ
-PKG_VERSION="3.1.20">
-PKG_FILE=ABCat_3.1.20.orig.tar.gzXYZ
+PKG="at"
+PKG_VERSION="3.1.20"
+PKG_FILE="at_3.1.20.orig.tar.gz"
 URL="http://ftp.de.debian.org/debian/pool/main/a/at/at_3.1.20.orig.tar.gz"
-MD5="e7bd7b785b2cbb17e133d6bdc0fb099e  $PACKAGE"
+MD5="e7bd7b785b2cbb17e133d6bdc0fb099e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

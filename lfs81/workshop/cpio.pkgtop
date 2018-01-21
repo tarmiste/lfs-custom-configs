@@ -2,11 +2,11 @@
 # cpio
 #
 ## EDITHOOK1
-PKG=ABCcpioXYZ
-PKG_VERSION="2.12">
-PKG_FILE=ABCcpio-2.12.tar.bz2XYZ
+PKG="cpio"
+PKG_VERSION="2.12"
+PKG_FILE="cpio-2.12.tar.bz2"
 URL="https://ftp.gnu.org/gnu/cpio/cpio-2.12.tar.bz2"
-MD5="93eea9f07c0058c097891c73e4955456  $PACKAGE"
+MD5="93eea9f07c0058c097891c73e4955456"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

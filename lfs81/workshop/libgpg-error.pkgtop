@@ -2,11 +2,11 @@
 # libgpg-error
 #
 ## EDITHOOK1
-PKG=ABClibgpg-errorXYZ
-PKG_VERSION="1.27">
-PKG_FILE=ABClibgpg-error-1.27.tar.bz2XYZ
+PKG="libgpg-error"
+PKG_VERSION="1.27"
+PKG_FILE="libgpg-error-1.27.tar.bz2"
 URL="https://www.gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.27.tar.bz2"
-MD5="5217ef3e76a7275a2a3b569a12ddc989  $PACKAGE"
+MD5="5217ef3e76a7275a2a3b569a12ddc989"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # sudo
 #
 ## EDITHOOK1
-PKG=ABCsudoXYZ
-PKG_VERSION="1.8.20p2">
-PKG_FILE=ABCsudo-1.8.20p2.tar.gzXYZ
+PKG="sudo"
+PKG_VERSION="1.8.20p2"
+PKG_FILE="sudo-1.8.20p2.tar.gz"
 URL="http://www.sudo.ws/dist/sudo-1.8.20p2.tar.gz"
-MD5="03da8e711caca6fd93e57751bfb74adc  $PACKAGE"
+MD5="03da8e711caca6fd93e57751bfb74adc"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

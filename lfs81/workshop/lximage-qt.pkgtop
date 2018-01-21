@@ -2,11 +2,11 @@
 # lximage-qt
 #
 ## EDITHOOK1
-PKG=ABClximage-qtXYZ
-PKG_VERSION="0.5.1">
-PKG_FILE=ABClximage-qt-0.5.1.tar.xzXYZ
+PKG="lximage-qt"
+PKG_VERSION="0.5.1"
+PKG_FILE="lximage-qt-0.5.1.tar.xz"
 URL="https://github.com/lxde/lximage-qt/releases/download/0.5.1/lximage-qt-0.5.1.tar.xz"
-MD5="90b79b017649a06b0eb6178590143856  $PACKAGE"
+MD5="90b79b017649a06b0eb6178590143856"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

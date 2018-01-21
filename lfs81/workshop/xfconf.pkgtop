@@ -2,11 +2,11 @@
 # xfconf
 #
 ## EDITHOOK1
-PKG=ABCxfconfXYZ
-PKG_VERSION="4.12.1">
-PKG_FILE=ABCxfconf-4.12.1.tar.bz2XYZ
+PKG="xfconf"
+PKG_VERSION="4.12.1"
+PKG_FILE="xfconf-4.12.1.tar.bz2"
 URL="http://archive.xfce.org/src/xfce/xfconf/4.12/xfconf-4.12.1.tar.bz2"
-MD5="20dc8d2bfd80ba136bf4964021b32757  $PACKAGE"
+MD5="20dc8d2bfd80ba136bf4964021b32757"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

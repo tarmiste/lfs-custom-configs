@@ -2,11 +2,11 @@
 # pango
 #
 ## EDITHOOK1
-PKG=ABCpangoXYZ
-PKG_VERSION="1.40.10">
-PKG_FILE=ABCpango-1.40.10.tar.xzXYZ
+PKG="pango"
+PKG_VERSION="1.40.10"
+PKG_FILE="pango-1.40.10.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/pango/1.40/pango-1.40.10.tar.xz"
-MD5="a612e445157c688a3efe878938e7f4c6  $PACKAGE"
+MD5="a612e445157c688a3efe878938e7f4c6"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

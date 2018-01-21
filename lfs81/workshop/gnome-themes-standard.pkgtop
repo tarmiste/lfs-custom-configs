@@ -2,11 +2,11 @@
 # gnome-themes-standard
 #
 ## EDITHOOK1
-PKG=ABCgnome-themes-standardXYZ
+PKG="gnome-themes-standard"
 PKG_VERSION=
-PKG_FILE=ABCgnome-themes-standard-3.22.3.tar.xzXYZ
+PKG_FILE="gnome-themes-standard-3.22.3.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gnome-themes-standard/3.22/gnome-themes-standard-3.22.3.tar.xz"
-MD5="b51c362b157b6407303d44f93c31ee11  $PACKAGE"
+MD5="b51c362b157b6407303d44f93c31ee11"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

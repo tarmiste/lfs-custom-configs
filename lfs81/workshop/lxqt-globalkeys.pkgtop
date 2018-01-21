@@ -2,11 +2,11 @@
 # lxqt-globalkeys
 #
 ## EDITHOOK1
-PKG=ABClxqt-globalkeysXYZ
-PKG_VERSION=;">
-PKG_FILE=ABClxqt-globalkeys-0.11.1.tar.xzXYZ
+PKG="lxqt-globalkeys"
+PKG_VERSION=;"
+PKG_FILE="lxqt-globalkeys-0.11.1.tar.xz"
 URL="https://github.com/lxde/lxqt-globalkeys/releases/download/0.11.1/lxqt-globalkeys-0.11.1.tar.xz"
-MD5="03a1cb56488cef154519a013a5376faa  $PACKAGE"
+MD5="03a1cb56488cef154519a013a5376faa"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

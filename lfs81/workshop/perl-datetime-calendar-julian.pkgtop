@@ -2,9 +2,9 @@
 # perl-datetime-calendar-julian
 #
 ## EDITHOOK1
-PKG=ABCperl-datetime-calendar-julianXYZ
+PKG="perl-datetime-calendar-julian"
 PKG_VERSION=
-PKG_FILE=ABCDateTime-Calendar-Julian-0.04.tar.gzXYZ
+PKG_FILE="DateTime-Calendar-Julian-0.04.tar.gz"
 URL="https://www.cpan.org/authors/id/P/PI/PIJLL/DateTime-Calendar-Julian-0.04.tar.gz"
 #
 ## EDITHOOK2

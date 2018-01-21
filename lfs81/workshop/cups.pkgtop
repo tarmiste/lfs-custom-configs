@@ -2,11 +2,11 @@
 # cups
 #
 ## EDITHOOK1
-PKG=ABCcupsXYZ
-PKG_VERSION="2.2.4">
-PKG_FILE=ABCcups-2.2.4-source.tar.gzXYZ
+PKG="cups"
+PKG_VERSION="2.2.4"
+PKG_FILE="cups-2.2.4-source.tar.gz"
 URL="https://github.com/apple/cups/releases/download/v2.2.4/cups-2.2.4-source.tar.gz"
-MD5="d26e5a0a574a69fe1d01079b2931fc49  $PACKAGE"
+MD5="d26e5a0a574a69fe1d01079b2931fc49"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

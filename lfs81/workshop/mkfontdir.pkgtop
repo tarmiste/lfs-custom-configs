@@ -2,11 +2,11 @@
 # mkfontdir
 #
 ## EDITHOOK1
-PKG=ABCmkfontdirXYZ
+PKG="mkfontdir"
 PKG_VERSION=
-PKG_FILE=ABCmkfontdir-1.0.7.tar.bz2XYZ
+PKG_FILE="mkfontdir-1.0.7.tar.bz2"
 URL="https://www.x.org/pub/individual/app/mkfontdir-1.0.7.tar.bz2"
-MD5="18c429148c96c2079edda922a2b67632  $PACKAGE"
+MD5="18c429148c96c2079edda922a2b67632"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

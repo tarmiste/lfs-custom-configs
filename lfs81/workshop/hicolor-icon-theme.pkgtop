@@ -2,11 +2,11 @@
 # hicolor-icon-theme
 #
 ## EDITHOOK1
-PKG=ABChicolor-icon-themeXYZ
-PKG_VERSION="0.15">
-PKG_FILE=ABChicolor-icon-theme-0.15.tar.xzXYZ
+PKG="hicolor-icon-theme"
+PKG_VERSION="0.15"
+PKG_FILE="hicolor-icon-theme-0.15.tar.xz"
 URL="https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.15.tar.xz"
-MD5="6aa2b3993a883d85017c7cc0cfc0fb73  $PACKAGE"
+MD5="6aa2b3993a883d85017c7cc0cfc0fb73"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

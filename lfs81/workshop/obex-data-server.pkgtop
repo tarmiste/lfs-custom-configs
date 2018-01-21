@@ -2,11 +2,11 @@
 # obex-data-server
 #
 ## EDITHOOK1
-PKG=ABCobex-data-serverXYZ
-PKG_VERSION="0.4.6">
-PKG_FILE=ABCobex-data-server-0.4.6.tar.gzXYZ
+PKG="obex-data-server"
+PKG_VERSION="0.4.6"
+PKG_FILE="obex-data-server-0.4.6.tar.gz"
 URL="http://tadas.dailyda.com/software/obex-data-server-0.4.6.tar.gz"
-MD5="961ca5db6fe9c97024e133cc6203cc4d  $PACKAGE"
+MD5="961ca5db6fe9c97024e133cc6203cc4d"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

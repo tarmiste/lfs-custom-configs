@@ -2,11 +2,11 @@
 # apr-util
 #
 ## EDITHOOK1
-PKG=ABCapr-utilXYZ
-PKG_VERSION="1.6.0">
-PKG_FILE=ABCapr-util-1.6.0.tar.bz2XYZ
+PKG="apr-util"
+PKG_VERSION="1.6.0"
+PKG_FILE="apr-util-1.6.0.tar.bz2"
 URL="https://archive.apache.org/dist/apr/apr-util-1.6.0.tar.bz2"
-MD5="069a9a980776acab05212c5f37ef8368  $PACKAGE"
+MD5="069a9a980776acab05212c5f37ef8368"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

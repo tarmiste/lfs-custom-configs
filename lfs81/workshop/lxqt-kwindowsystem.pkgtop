@@ -2,11 +2,11 @@
 # lxqt-kwindowsystem
 #
 ## EDITHOOK1
-PKG=ABClxqt-kwindowsystemXYZ
+PKG="lxqt-kwindowsystem"
 PKG_VERSION=
-PKG_FILE=ABCkwindowsystem-5.37.0.tar.xzXYZ
+PKG_FILE="kwindowsystem-5.37.0.tar.xz"
 URL="http://download.kde.org/stable/frameworks/5.37/kwindowsystem-5.37.0.tar.xz"
-MD5="05864840b694d3a587590c38e2170df0  $PACKAGE"
+MD5="05864840b694d3a587590c38e2170df0"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

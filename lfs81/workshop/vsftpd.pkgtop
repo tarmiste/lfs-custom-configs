@@ -2,11 +2,11 @@
 # vsftpd
 #
 ## EDITHOOK1
-PKG=ABCvsftpdXYZ
-PKG_VERSION="3.0.3">
-PKG_FILE=ABCvsftpd-3.0.3.tar.gzXYZ
+PKG="vsftpd"
+PKG_VERSION="3.0.3"
+PKG_FILE="vsftpd-3.0.3.tar.gz"
 URL="https://security.appspot.com/downloads/vsftpd-3.0.3.tar.gz"
-MD5="da119d084bd3f98664636ea05b5bb398  $PACKAGE"
+MD5="da119d084bd3f98664636ea05b5bb398"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

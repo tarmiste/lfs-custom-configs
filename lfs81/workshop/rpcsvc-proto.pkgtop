@@ -2,11 +2,11 @@
 # rpcsvc-proto
 #
 ## EDITHOOK1
-PKG=ABCrpcsvc-protoXYZ
-PKG_VERSION="1.2">
-PKG_FILE=ABCrpcsvc-proto-1.2.tar.gzXYZ
+PKG="rpcsvc-proto"
+PKG_VERSION="1.2"
+PKG_FILE="rpcsvc-proto-1.2.tar.gz"
 URL="https://github.com/thkukuk/rpcsvc-proto/archive/rpcsvc-proto-1.2.tar.gz"
-MD5="9b118a3026cc2ce8ded16c5f4f162042  $PACKAGE"
+MD5="9b118a3026cc2ce8ded16c5f4f162042"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

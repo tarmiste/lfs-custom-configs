@@ -2,11 +2,11 @@
 # libass
 #
 ## EDITHOOK1
-PKG=ABClibassXYZ
-PKG_VERSION="0.13.7">
-PKG_FILE=ABClibass-0.13.7.tar.xzXYZ
+PKG="libass"
+PKG_VERSION="0.13.7"
+PKG_FILE="libass-0.13.7.tar.xz"
 URL="https://github.com/libass/libass/releases/download/0.13.7/libass-0.13.7.tar.xz"
-MD5="ed16057b34a7f13330f416dd8c9a2032  $PACKAGE"
+MD5="ed16057b34a7f13330f416dd8c9a2032"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

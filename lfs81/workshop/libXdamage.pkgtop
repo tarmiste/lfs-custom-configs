@@ -2,11 +2,11 @@
 # libXdamage
 #
 ## EDITHOOK1
-PKG=ABClibXdamageXYZ
+PKG="libXdamage"
 PKG_VERSION=
-PKG_FILE=ABClibXdamage-1.1.4.tar.bz2XYZ
+PKG_FILE="libXdamage-1.1.4.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libXdamage-1.1.4.tar.bz2"
-MD5="0cf292de2a9fa2e9a939aefde68fd34f  $PACKAGE"
+MD5="0cf292de2a9fa2e9a939aefde68fd34f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # udisks2
 #
 ## EDITHOOK1
-PKG=ABCudisks2XYZ
-PKG_VERSION="2.7.2"> <!-- stable lt .90 micro version -->
-PKG_FILE=ABCudisks-2.7.2.tar.bz2XYZ
+PKG="udisks2"
+PKG_VERSION="2.7.2" <!-- stable lt .90 micro version --
+PKG_FILE="udisks-2.7.2.tar.bz2"
 URL="https://github.com/storaged-project/udisks/releases/download/udisks-2.7.2/udisks-2.7.2.tar.bz2"
-MD5="587651b3864ba396e2702dca765dbda0  $PACKAGE"
+MD5="587651b3864ba396e2702dca765dbda0"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

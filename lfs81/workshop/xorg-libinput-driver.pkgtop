@@ -2,11 +2,11 @@
 # xorg-libinput-driver
 #
 ## EDITHOOK1
-PKG=ABCxorg-libinput-driverXYZ
+PKG="xorg-libinput-driver"
 PKG_VERSION=
-PKG_FILE=ABCxf86-input-libinput-0.25.1.tar.bz2XYZ
+PKG_FILE="xf86-input-libinput-0.25.1.tar.bz2"
 URL="https://www.x.org/pub/individual/driver/xf86-input-libinput-0.25.1.tar.bz2"
-MD5="14003139614b25cc76c9a4cad059df89  $PACKAGE"
+MD5="14003139614b25cc76c9a4cad059df89"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

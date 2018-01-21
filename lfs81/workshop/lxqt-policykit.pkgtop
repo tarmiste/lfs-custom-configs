@@ -2,11 +2,11 @@
 # lxqt-policykit
 #
 ## EDITHOOK1
-PKG=ABClxqt-policykitXYZ
-PKG_VERSION=;">
-PKG_FILE=ABClxqt-policykit-0.11.1.tar.xzXYZ
+PKG="lxqt-policykit"
+PKG_VERSION=;"
+PKG_FILE="lxqt-policykit-0.11.1.tar.xz"
 URL="https://github.com/lxde/lxqt-policykit/releases/download/0.11.1/lxqt-policykit-0.11.1.tar.xz"
-MD5="0dc28db8d2a3b38bde441bec6926c3cb  $PACKAGE"
+MD5="0dc28db8d2a3b38bde441bec6926c3cb"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

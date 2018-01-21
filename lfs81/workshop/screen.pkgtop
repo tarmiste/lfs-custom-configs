@@ -2,11 +2,11 @@
 # screen
 #
 ## EDITHOOK1
-PKG=ABCscreenXYZ
-PKG_VERSION="4.5.1">
-PKG_FILE=ABCscreen-4.5.1.tar.gzXYZ
+PKG="screen"
+PKG_VERSION="4.5.1"
+PKG_FILE="screen-4.5.1.tar.gz"
 URL="https://ftp.gnu.org/gnu/screen/screen-4.5.1.tar.gz"
-MD5="a8c5da2f42f8a18fa4dada2419d1549b  $PACKAGE"
+MD5="a8c5da2f42f8a18fa4dada2419d1549b"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

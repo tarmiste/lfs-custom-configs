@@ -2,11 +2,11 @@
 # gpicview
 #
 ## EDITHOOK1
-PKG=ABCgpicviewXYZ
-PKG_VERSION="0.2.5">
-PKG_FILE=ABCgpicview-0.2.5.tar.xzXYZ
+PKG="gpicview"
+PKG_VERSION="0.2.5"
+PKG_FILE="gpicview-0.2.5.tar.xz"
 URL="https://downloads.sourceforge.net/lxde/gpicview-0.2.5.tar.xz"
-MD5="26be9b0c5a234f1afe7d83d02a4a33f4  $PACKAGE"
+MD5="26be9b0c5a234f1afe7d83d02a4a33f4"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

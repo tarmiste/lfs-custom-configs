@@ -2,9 +2,9 @@
 # perl-autovivification
 #
 ## EDITHOOK1
-PKG=ABCperl-autovivificationXYZ
+PKG="perl-autovivification"
 PKG_VERSION=
-PKG_FILE=ABCautovivification-0.17.tar.gzXYZ
+PKG_FILE="autovivification-0.17.tar.gz"
 URL="https://www.cpan.org/authors/id/V/VP/VPIT/autovivification-0.17.tar.gz"
 #
 ## EDITHOOK2

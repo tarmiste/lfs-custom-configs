@@ -2,11 +2,11 @@
 # xbacklight
 #
 ## EDITHOOK1
-PKG=ABCxbacklightXYZ
+PKG="xbacklight"
 PKG_VERSION=
-PKG_FILE=ABCxbacklight-1.2.1.tar.bz2XYZ
+PKG_FILE="xbacklight-1.2.1.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xbacklight-1.2.1.tar.bz2"
-MD5="0066f23f69ca3ef62dcaeb74a87fdc48  $PACKAGE"
+MD5="0066f23f69ca3ef62dcaeb74a87fdc48"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # resourceproto
 #
 ## EDITHOOK1
-PKG=ABCresourceprotoXYZ
+PKG="resourceproto"
 PKG_VERSION=
-PKG_FILE=ABCresourceproto-1.2.0.tar.bz2XYZ
+PKG_FILE="resourceproto-1.2.0.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/resourceproto-1.2.0.tar.bz2"
-MD5="cfdb57dae221b71b2703f8e2980eaaf4  $PACKAGE"
+MD5="cfdb57dae221b71b2703f8e2980eaaf4"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

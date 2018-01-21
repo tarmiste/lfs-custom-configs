@@ -2,11 +2,11 @@
 # gedit
 #
 ## EDITHOOK1
-PKG=ABCgeditXYZ
+PKG="gedit"
 PKG_VERSION=
-PKG_FILE=ABCgedit-3.22.1.tar.xzXYZ
+PKG_FILE="gedit-3.22.1.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gedit/3.22/gedit-3.22.1.tar.xz"
-MD5="b3ee39faa2f905c83cb158a9b4d3fb44  $PACKAGE"
+MD5="b3ee39faa2f905c83cb158a9b4d3fb44"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

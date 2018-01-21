@@ -2,11 +2,11 @@
 # pth
 #
 ## EDITHOOK1
-PKG=ABCpthXYZ
-PKG_VERSION="2.0.7">
-PKG_FILE=ABCpth-2.0.7.tar.gzXYZ
+PKG="pth"
+PKG_VERSION="2.0.7"
+PKG_FILE="pth-2.0.7.tar.gz"
 URL="https://ftp.gnu.org/gnu/pth/pth-2.0.7.tar.gz"
-MD5="9cb4a25331a4c4db866a31cbe507c793  $PACKAGE"
+MD5="9cb4a25331a4c4db866a31cbe507c793"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

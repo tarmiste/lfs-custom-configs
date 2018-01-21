@@ -2,11 +2,11 @@
 # recordproto
 #
 ## EDITHOOK1
-PKG=ABCrecordprotoXYZ
+PKG="recordproto"
 PKG_VERSION=
-PKG_FILE=ABCrecordproto-1.14.2.tar.bz2XYZ
+PKG_FILE="recordproto-1.14.2.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/recordproto-1.14.2.tar.bz2"
-MD5="1b4e5dede5ea51906f1530ca1e21d216  $PACKAGE"
+MD5="1b4e5dede5ea51906f1530ca1e21d216"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # dbus-glib
 #
 ## EDITHOOK1
-PKG=ABCdbus-glibXYZ
-PKG_VERSION="0.108">
-PKG_FILE=ABCdbus-glib-0.108.tar.gzXYZ
+PKG="dbus-glib"
+PKG_VERSION="0.108"
+PKG_FILE="dbus-glib-0.108.tar.gz"
 URL="https://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.108.tar.gz"
-MD5="a66a613705870752ca9786e0359aea97  $PACKAGE"
+MD5="a66a613705870752ca9786e0359aea97"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

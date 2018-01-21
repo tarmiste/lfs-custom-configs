@@ -2,11 +2,11 @@
 # ldns
 #
 ## EDITHOOK1
-PKG=ABCldnsXYZ
-PKG_VERSION="1.7.0">
-PKG_FILE=ABCldns-1.7.0.tar.gzXYZ
+PKG="ldns"
+PKG_VERSION="1.7.0"
+PKG_FILE="ldns-1.7.0.tar.gz"
 URL="http://www.nlnetlabs.nl/downloads/ldns/ldns-1.7.0.tar.gz"
-MD5="74b75c9ba69fb3af2a0c26244ecfd9f6  $PACKAGE"
+MD5="74b75c9ba69fb3af2a0c26244ecfd9f6"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # mlt
 #
 ## EDITHOOK1
-PKG=ABCmltXYZ
-PKG_VERSION="6.4.1">
-PKG_FILE=ABCmlt-6.4.1.tar.gzXYZ
+PKG="mlt"
+PKG_VERSION="6.4.1"
+PKG_FILE="mlt-6.4.1.tar.gz"
 URL="https://downloads.sourceforge.net/mlt/mlt-6.4.1.tar.gz"
-MD5="bfa7b4009be616d6f858393a88fbbb32  $PACKAGE"
+MD5="bfa7b4009be616d6f858393a88fbbb32"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

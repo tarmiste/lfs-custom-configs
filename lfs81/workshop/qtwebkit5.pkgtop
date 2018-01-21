@@ -2,11 +2,11 @@
 # qtwebkit5
 #
 ## EDITHOOK1
-PKG=ABCqtwebkit5XYZ
+PKG="qtwebkit5"
 PKG_VERSION=
-PKG_FILE=ABCqtwebkit-opensource-src-5.9.0.tar.xzXYZ
+PKG_FILE="qtwebkit-opensource-src-5.9.0.tar.xz"
 URL="https://download.qt.io/community_releases/5.9/5.9.0-final/qtwebkit-opensource-src-5.9.0.tar.xz"
-MD5="1fc0ed873cc9326b823a8a83126714f5  $PACKAGE"
+MD5="1fc0ed873cc9326b823a8a83126714f5"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

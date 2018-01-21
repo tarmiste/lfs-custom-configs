@@ -2,9 +2,9 @@
 # xorg-env
 #
 ## EDITHOOK1
-PKG=ABCxorg-envXYZ
+PKG="xorg-env"
 PKG_VERSION=
-PKG_FILE=ABCXYZ
+PKG_FILE=""
 URL=
 #
 ## EDITHOOK2

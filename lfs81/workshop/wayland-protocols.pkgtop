@@ -2,11 +2,11 @@
 # wayland-protocols
 #
 ## EDITHOOK1
-PKG=ABCwayland-protocolsXYZ
-PKG_VERSION="1.10">
-PKG_FILE=ABCwayland-protocols-1.10.tar.xzXYZ
+PKG="wayland-protocols"
+PKG_VERSION="1.10"
+PKG_FILE="wayland-protocols-1.10.tar.xz"
 URL="https://wayland.freedesktop.org/releases/wayland-protocols-1.10.tar.xz"
-MD5="84a7846c2b6a6a3e265fc9be36453e60  $PACKAGE"
+MD5="84a7846c2b6a6a3e265fc9be36453e60"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

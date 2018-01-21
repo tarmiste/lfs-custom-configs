@@ -2,11 +2,11 @@
 # cifsutils
 #
 ## EDITHOOK1
-PKG=ABCcifsutilsXYZ
-PKG_VERSION="6.7">
-PKG_FILE=ABCcifs-utils-6.7.tar.bz2XYZ
+PKG="cifsutils"
+PKG_VERSION="6.7"
+PKG_FILE="cifs-utils-6.7.tar.bz2"
 URL="https://www.samba.org/ftp/linux-cifs/cifs-utils/cifs-utils-6.7.tar.bz2"
-MD5="af3ae1d27aca624c4daac5bf3eb0d4c1  $PACKAGE"
+MD5="af3ae1d27aca624c4daac5bf3eb0d4c1"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

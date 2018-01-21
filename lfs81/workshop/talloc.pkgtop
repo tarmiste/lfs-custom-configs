@@ -2,11 +2,11 @@
 # talloc
 #
 ## EDITHOOK1
-PKG=ABCtallocXYZ
-PKG_VERSION="2.1.10">
-PKG_FILE=ABCtalloc-2.1.10.tar.gzXYZ
+PKG="talloc"
+PKG_VERSION="2.1.10"
+PKG_FILE="talloc-2.1.10.tar.gz"
 URL="https://www.samba.org/ftp/talloc/talloc-2.1.10.tar.gz"
-MD5="48b8822a76797bb143e3e38ed738c320  $PACKAGE"
+MD5="48b8822a76797bb143e3e38ed738c320"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

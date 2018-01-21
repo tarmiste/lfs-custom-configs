@@ -2,11 +2,11 @@
 # pycrypto
 #
 ## EDITHOOK1
-PKG=ABCpycryptoXYZ
-PKG_VERSION="2.6.1">
-PKG_FILE=ABCpycrypto-2.6.1.tar.gzXYZ
+PKG="pycrypto"
+PKG_VERSION="2.6.1"
+PKG_FILE="pycrypto-2.6.1.tar.gz"
 URL="https://files.pythonhosted.org/packages/source/p/pycrypto/pycrypto-2.6.1.tar.gz"
-MD5="55a61a054aa66812daf5161a0d5d7eda  $PACKAGE"
+MD5="55a61a054aa66812daf5161a0d5d7eda"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # obconf-qt
 #
 ## EDITHOOK1
-PKG=ABCobconf-qtXYZ
-PKG_VERSION="0.11.1">
-PKG_FILE=ABCobconf-qt-0.11.1.tar.xzXYZ
+PKG="obconf-qt"
+PKG_VERSION="0.11.1"
+PKG_FILE="obconf-qt-0.11.1.tar.xz"
 URL="https://github.com/lxde/obconf-qt/releases/download/0.11.1/obconf-qt-0.11.1.tar.xz"
-MD5="f0f0d48d3e9c2477c1d2eb36cd85de96  $PACKAGE"
+MD5="f0f0d48d3e9c2477c1d2eb36cd85de96"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

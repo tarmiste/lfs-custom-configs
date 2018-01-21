@@ -2,11 +2,11 @@
 # opal
 #
 ## EDITHOOK1
-PKG=ABCopalXYZ
-PKG_VERSION="3.10.10">
-PKG_FILE=ABCopal-3.10.10.tar.xzXYZ
+PKG="opal"
+PKG_VERSION="3.10.10"
+PKG_FILE="opal-3.10.10.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/opal/3.10/opal-3.10.10.tar.xz"
-MD5="6efa1b4c5e0ad6460019b4c6df0898d7  $PACKAGE"
+MD5="6efa1b4c5e0ad6460019b4c6df0898d7"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

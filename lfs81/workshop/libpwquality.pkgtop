@@ -2,11 +2,11 @@
 # libpwquality
 #
 ## EDITHOOK1
-PKG=ABClibpwqualityXYZ
-PKG_VERSION="1.4.0">
-PKG_FILE=ABClibpwquality-1.4.0.tar.bz2XYZ
+PKG="libpwquality"
+PKG_VERSION="1.4.0"
+PKG_FILE="libpwquality-1.4.0.tar.bz2"
 URL="https://github.com/libpwquality/libpwquality/releases/download/libpwquality-1.4.0/libpwquality-1.4.0.tar.bz2"
-MD5="b8defcc7280a90e9400d6689c93a279c  $PACKAGE"
+MD5="b8defcc7280a90e9400d6689c93a279c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

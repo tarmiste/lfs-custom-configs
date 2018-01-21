@@ -2,9 +2,9 @@
 # perl-file-which
 #
 ## EDITHOOK1
-PKG=ABCperl-file-whichXYZ
+PKG="perl-file-which"
 PKG_VERSION=
-PKG_FILE=ABCFile-Which-1.21.tar.gzXYZ
+PKG_FILE="File-Which-1.21.tar.gz"
 URL="https://www.cpan.org/authors/id/P/PL/PLICEASE/File-Which-1.21.tar.gz"
 #
 ## EDITHOOK2

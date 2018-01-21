@@ -2,11 +2,11 @@
 # python2
 #
 ## EDITHOOK1
-PKG=ABCpython2XYZ
-PKG_VERSION="2.7.13">
-PKG_FILE=ABCPython-2.7.13.tar.xz python-2.7.13-docs-html.tar.bz2XYZ
+PKG="python2"
+PKG_VERSION="2.7.13"
+PKG_FILE="Python-2.7.13.tar.xz python-2.7.13-docs-html.tar.bz2"
 URL="https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tar.xz"
-MD5="53b43534153bb2a0363f08bae8b9d990  $PACKAGE"
+MD5="53b43534153bb2a0363f08bae8b9d990"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

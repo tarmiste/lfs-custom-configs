@@ -2,11 +2,11 @@
 # phonon
 #
 ## EDITHOOK1
-PKG=ABCphononXYZ
-PKG_VERSION="4.9.1">
-PKG_FILE=ABCphonon-4.9.1.tar.xzXYZ
+PKG="phonon"
+PKG_VERSION="4.9.1"
+PKG_FILE="phonon-4.9.1.tar.xz"
 URL="http://download.kde.org/stable/phonon/4.9.1/phonon-4.9.1.tar.xz"
-MD5="7896a560f5da345a626e782610c8e71e  $PACKAGE"
+MD5="7896a560f5da345a626e782610c8e71e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

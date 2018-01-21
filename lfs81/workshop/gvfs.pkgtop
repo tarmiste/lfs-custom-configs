@@ -2,11 +2,11 @@
 # gvfs
 #
 ## EDITHOOK1
-PKG=ABCgvfsXYZ
+PKG="gvfs"
 PKG_VERSION=
-PKG_FILE=ABCgvfs-1.32.1.tar.xzXYZ
+PKG_FILE="gvfs-1.32.1.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gvfs/1.32/gvfs-1.32.1.tar.xz"
-MD5="cbe766b46f324e17d7abcfb4a89a1684  $PACKAGE"
+MD5="cbe766b46f324e17d7abcfb4a89a1684"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

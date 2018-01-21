@@ -2,11 +2,11 @@
 # lcms2
 #
 ## EDITHOOK1
-PKG=ABClcms2XYZ
-PKG_VERSION="2.8">
-PKG_FILE=ABClcms2-2.8.tar.gzXYZ
+PKG="lcms2"
+PKG_VERSION="2.8"
+PKG_FILE="lcms2-2.8.tar.gz"
 URL="https://downloads.sourceforge.net/lcms/lcms2-2.8.tar.gz"
-MD5="87a5913f1a52464190bb655ad230539c  $PACKAGE"
+MD5="87a5913f1a52464190bb655ad230539c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

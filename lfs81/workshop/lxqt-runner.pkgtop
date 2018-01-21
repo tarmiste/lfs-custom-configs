@@ -2,11 +2,11 @@
 # lxqt-runner
 #
 ## EDITHOOK1
-PKG=ABClxqt-runnerXYZ
-PKG_VERSION=;">
-PKG_FILE=ABClxqt-runner-0.11.1.tar.xzXYZ
+PKG="lxqt-runner"
+PKG_VERSION=;"
+PKG_FILE="lxqt-runner-0.11.1.tar.xz"
 URL="https://github.com/lxde/lxqt-runner/releases/download/0.11.1/lxqt-runner-0.11.1.tar.xz"
-MD5="856a42189416b42c24299e277a418783  $PACKAGE"
+MD5="856a42189416b42c24299e277a418783"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

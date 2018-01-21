@@ -2,11 +2,11 @@
 # libXdmcp
 #
 ## EDITHOOK1
-PKG=ABClibXdmcpXYZ
-PKG_VERSION="1.1.2">
-PKG_FILE=ABClibXdmcp-1.1.2.tar.bz2XYZ
+PKG="libXdmcp"
+PKG_VERSION="1.1.2"
+PKG_FILE="libXdmcp-1.1.2.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libXdmcp-1.1.2.tar.bz2"
-MD5="18aa5c1279b01f9d18e3299969665b2e  $PACKAGE"
+MD5="18aa5c1279b01f9d18e3299969665b2e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

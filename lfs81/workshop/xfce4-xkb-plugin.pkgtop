@@ -2,11 +2,11 @@
 # xfce4-xkb-plugin
 #
 ## EDITHOOK1
-PKG=ABCxfce4-xkb-pluginXYZ
-PKG_VERSION="0.7.1">
-PKG_FILE=ABCxfce4-xkb-plugin-0.7.1.tar.bz2XYZ
+PKG="xfce4-xkb-plugin"
+PKG_VERSION="0.7.1"
+PKG_FILE="xfce4-xkb-plugin-0.7.1.tar.bz2"
 URL="http://archive.xfce.org/src/panel-plugins/xfce4-xkb-plugin/0.7/xfce4-xkb-plugin-0.7.1.tar.bz2"
-MD5="2f68e0d53baf68ecc1a7165ad33c26a9  $PACKAGE"
+MD5="2f68e0d53baf68ecc1a7165ad33c26a9"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

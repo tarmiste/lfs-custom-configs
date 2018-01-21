@@ -2,9 +2,9 @@
 # flashplayer
 #
 ## EDITHOOK1
-PKG=ABCflashplayerXYZ
-PKG_VERSION="26.0.0.151">
-PKG_FILE=ABCXYZ
+PKG="flashplayer"
+PKG_VERSION="26.0.0.151"
+PKG_FILE=""
 URL=
 #
 ## EDITHOOK2

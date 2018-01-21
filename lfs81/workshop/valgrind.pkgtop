@@ -2,11 +2,11 @@
 # valgrind
 #
 ## EDITHOOK1
-PKG=ABCvalgrindXYZ
-PKG_VERSION="3.13.0">
-PKG_FILE=ABCvalgrind-3.13.0.tar.bz2XYZ
+PKG="valgrind"
+PKG_VERSION="3.13.0"
+PKG_FILE="valgrind-3.13.0.tar.bz2"
 URL="https://sourceware.org/ftp/valgrind/valgrind-3.13.0.tar.bz2"
-MD5="817dd08f1e8a66336b9ff206400a5369  $PACKAGE"
+MD5="817dd08f1e8a66336b9ff206400a5369"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

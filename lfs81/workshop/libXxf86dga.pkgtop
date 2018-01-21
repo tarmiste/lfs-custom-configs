@@ -2,11 +2,11 @@
 # libXxf86dga
 #
 ## EDITHOOK1
-PKG=ABClibXxf86dgaXYZ
+PKG="libXxf86dga"
 PKG_VERSION=
-PKG_FILE=ABClibXxf86dga-1.1.4.tar.bz2XYZ
+PKG_FILE="libXxf86dga-1.1.4.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libXxf86dga-1.1.4.tar.bz2"
-MD5="d7dd9b9df336b7dd4028b6b56542ff2c  $PACKAGE"
+MD5="d7dd9b9df336b7dd4028b6b56542ff2c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

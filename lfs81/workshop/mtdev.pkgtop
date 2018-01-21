@@ -2,11 +2,11 @@
 # mtdev
 #
 ## EDITHOOK1
-PKG=ABCmtdevXYZ
-PKG_VERSION="1.1.5">
-PKG_FILE=ABCmtdev-1.1.5.tar.bz2XYZ
+PKG="mtdev"
+PKG_VERSION="1.1.5"
+PKG_FILE="mtdev-1.1.5.tar.bz2"
 URL="http://bitmath.org/code/mtdev/mtdev-1.1.5.tar.bz2"
-MD5="52c9610b6002f71d1642dc1a1cca5ec1  $PACKAGE"
+MD5="52c9610b6002f71d1642dc1a1cca5ec1"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

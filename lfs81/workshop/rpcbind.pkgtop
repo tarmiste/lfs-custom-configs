@@ -2,11 +2,11 @@
 # rpcbind
 #
 ## EDITHOOK1
-PKG=ABCrpcbindXYZ
-PKG_VERSION="0.2.4">
-PKG_FILE=ABCrpcbind-0.2.4.tar.bz2XYZ
+PKG="rpcbind"
+PKG_VERSION="0.2.4"
+PKG_FILE="rpcbind-0.2.4.tar.bz2"
 URL="https://downloads.sourceforge.net/rpcbind/rpcbind-0.2.4.tar.bz2"
-MD5="cf10cd41ed8228fc54c316191c1f07fe  $PACKAGE"
+MD5="cf10cd41ed8228fc54c316191c1f07fe"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

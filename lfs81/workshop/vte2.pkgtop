@@ -2,11 +2,11 @@
 # vte2
 #
 ## EDITHOOK1
-PKG=ABCvte2XYZ
-PKG_VERSION="0.28.2">
-PKG_FILE=ABCvte-0.28.2.tar.xzXYZ
+PKG="vte2"
+PKG_VERSION="0.28.2"
+PKG_FILE="vte-0.28.2.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/vte/0.28/vte-0.28.2.tar.xz"
-MD5="497f26e457308649e6ece32b3bb142ff  $PACKAGE"
+MD5="497f26e457308649e6ece32b3bb142ff"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # ekiga
 #
 ## EDITHOOK1
-PKG=ABCekigaXYZ
-PKG_VERSION="4.0.1">
-PKG_FILE=ABCekiga-4.0.1.tar.xzXYZ
+PKG="ekiga"
+PKG_VERSION="4.0.1"
+PKG_FILE="ekiga-4.0.1.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/ekiga/4.0/ekiga-4.0.1.tar.xz"
-MD5="704ba532a8e3e0b5e3e2971dd2db39e4  $PACKAGE"
+MD5="704ba532a8e3e0b5e3e2971dd2db39e4"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

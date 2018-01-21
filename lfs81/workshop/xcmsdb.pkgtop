@@ -2,11 +2,11 @@
 # xcmsdb
 #
 ## EDITHOOK1
-PKG=ABCxcmsdbXYZ
+PKG="xcmsdb"
 PKG_VERSION=
-PKG_FILE=ABCxcmsdb-1.0.5.tar.bz2XYZ
+PKG_FILE="xcmsdb-1.0.5.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xcmsdb-1.0.5.tar.bz2"
-MD5="9956d751ea3ae4538c3ebd07f70736a0  $PACKAGE"
+MD5="9956d751ea3ae4538c3ebd07f70736a0"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

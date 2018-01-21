@@ -2,9 +2,9 @@
 # perl-sort-key
 #
 ## EDITHOOK1
-PKG=ABCperl-sort-keyXYZ
+PKG="perl-sort-key"
 PKG_VERSION=
-PKG_FILE=ABCSort-Key-1.33.tar.gzXYZ
+PKG_FILE="Sort-Key-1.33.tar.gz"
 URL="https://www.cpan.org/authors/id/S/SA/SALVA/Sort-Key-1.33.tar.gz"
 #
 ## EDITHOOK2

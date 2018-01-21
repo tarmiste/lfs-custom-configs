@@ -2,11 +2,11 @@
 # gtk2
 #
 ## EDITHOOK1
-PKG=ABCgtk2XYZ
-PKG_VERSION="2.24.31">
-PKG_FILE=ABCgtk+-2.24.31.tar.xzXYZ
+PKG="gtk2"
+PKG_VERSION="2.24.31"
+PKG_FILE="gtk+-2.24.31.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gtk+/2.24/gtk+-2.24.31.tar.xz"
-MD5="526a1008586094a2cbb4592fd3f9ee10  $PACKAGE"
+MD5="526a1008586094a2cbb4592fd3f9ee10"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

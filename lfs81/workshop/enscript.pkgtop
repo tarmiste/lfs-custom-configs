@@ -2,11 +2,11 @@
 # enscript
 #
 ## EDITHOOK1
-PKG=ABCenscriptXYZ
-PKG_VERSION="1.6.6">
-PKG_FILE=ABCenscript-1.6.6.tar.gzXYZ
+PKG="enscript"
+PKG_VERSION="1.6.6"
+PKG_FILE="enscript-1.6.6.tar.gz"
 URL="https://ftp.gnu.org/gnu/enscript/enscript-1.6.6.tar.gz"
-MD5="3acc242b829adacabcaf28533f049afd  $PACKAGE"
+MD5="3acc242b829adacabcaf28533f049afd"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

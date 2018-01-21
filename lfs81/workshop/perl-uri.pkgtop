@@ -2,9 +2,9 @@
 # perl-uri
 #
 ## EDITHOOK1
-PKG=ABCperl-uriXYZ
+PKG="perl-uri"
 PKG_VERSION=
-PKG_FILE=ABCURI-1.72.tar.gzXYZ
+PKG_FILE="URI-1.72.tar.gz"
 URL="https://www.cpan.org/authors/id/E/ET/ETHER/URI-1.72.tar.gz"
 #
 ## EDITHOOK2

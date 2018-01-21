@@ -2,11 +2,11 @@
 # subversion
 #
 ## EDITHOOK1
-PKG=ABCsubversionXYZ
-PKG_VERSION="1.9.7">
-PKG_FILE=ABCsubversion-1.9.7.tar.bz2XYZ
+PKG="subversion"
+PKG_VERSION="1.9.7"
+PKG_FILE="subversion-1.9.7.tar.bz2"
 URL="https://archive.apache.org/dist/subversion/subversion-1.9.7.tar.bz2"
-MD5="05b0c677681073920f938c1f322e0be2  $PACKAGE"
+MD5="05b0c677681073920f938c1f322e0be2"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

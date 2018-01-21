@@ -2,11 +2,11 @@
 # fontforge
 #
 ## EDITHOOK1
-PKG=ABCfontforgeXYZ
-PKG_VERSION="20170731">
-PKG_FILE=ABCfontforge-dist-20170731.tar.xzXYZ
+PKG="fontforge"
+PKG_VERSION="20170731"
+PKG_FILE="fontforge-dist-20170731.tar.xz"
 URL="https://github.com/fontforge/fontforge/releases/download/20170731/fontforge-dist-20170731.tar.xz"
-MD5="8a717035915ab4cd78b89b0942dfa1fc  $PACKAGE"
+MD5="8a717035915ab4cd78b89b0942dfa1fc"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

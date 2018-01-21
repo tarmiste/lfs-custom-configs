@@ -2,9 +2,9 @@
 # perl-unicode-linebreak
 #
 ## EDITHOOK1
-PKG=ABCperl-unicode-linebreakXYZ
+PKG="perl-unicode-linebreak"
 PKG_VERSION=
-PKG_FILE=ABCUnicode-LineBreak-2017.004.tar.gzXYZ
+PKG_FILE="Unicode-LineBreak-2017.004.tar.gz"
 URL="https://www.cpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2017.004.tar.gz"
 #
 ## EDITHOOK2

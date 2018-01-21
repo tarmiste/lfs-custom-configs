@@ -2,11 +2,11 @@
 # xwd
 #
 ## EDITHOOK1
-PKG=ABCxwdXYZ
+PKG="xwd"
 PKG_VERSION=
-PKG_FILE=ABCxwd-1.0.6.tar.bz2XYZ
+PKG_FILE="xwd-1.0.6.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xwd-1.0.6.tar.bz2"
-MD5="6b5d48464c5f366e91efd08b62b12d94  $PACKAGE"
+MD5="6b5d48464c5f366e91efd08b62b12d94"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

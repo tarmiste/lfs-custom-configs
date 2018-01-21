@@ -2,11 +2,11 @@
 # libSM
 #
 ## EDITHOOK1
-PKG=ABClibSMXYZ
+PKG="libSM"
 PKG_VERSION=
-PKG_FILE=ABClibSM-1.2.2.tar.bz2XYZ
+PKG_FILE="libSM-1.2.2.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libSM-1.2.2.tar.bz2"
-MD5="499a7773c65aba513609fe651853c5f3  $PACKAGE"
+MD5="499a7773c65aba513609fe651853c5f3"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

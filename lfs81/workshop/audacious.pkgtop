@@ -2,12 +2,12 @@
 # audacious
 #
 ## EDITHOOK1
-PKG=ABCaudaciousXYZ
-PKG_VERSION="3.9">
-PKG_FILE=ABCaudacious-3.9.tar.bz2 audacious-plugins-3.9.tar.bz2XYZ
+PKG="audacious"
+PKG_VERSION="3.9"
+PKG_FILE="audacious-3.9.tar.bz2 audacious-plugins-3.9.tar.bz2"
 URL="http://distfiles.audacious-media-player.org/audacious-3.9.tar.bz2"
-MD5="11d2b36f66c79e60ada9e1f6208abf19  $PACKAGE"
-MD5="fe467c4dcee8abbf571e69ed980a56b6  $PACKAGE1"
+MD5="11d2b36f66c79e60ada9e1f6208abf19"
+MD5="fe467c4dcee8abbf571e69ed980a56b6" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # xcmiscproto
 #
 ## EDITHOOK1
-PKG=ABCxcmiscprotoXYZ
+PKG="xcmiscproto"
 PKG_VERSION=
-PKG_FILE=ABCxcmiscproto-1.2.2.tar.bz2XYZ
+PKG_FILE="xcmiscproto-1.2.2.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/xcmiscproto-1.2.2.tar.bz2"
-MD5="5f4847c78e41b801982c8a5e06365b24  $PACKAGE"
+MD5="5f4847c78e41b801982c8a5e06365b24"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

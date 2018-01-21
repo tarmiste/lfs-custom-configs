@@ -2,9 +2,9 @@
 # ojdk-conf
 #
 ## EDITHOOK1
-PKG=ABCojdk-confXYZ
+PKG="ojdk-conf"
 PKG_VERSION=
-PKG_FILE=ABCXYZ
+PKG_FILE=""
 URL=
 #
 ## EDITHOOK2

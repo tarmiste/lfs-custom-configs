@@ -2,11 +2,11 @@
 # vorbistools
 #
 ## EDITHOOK1
-PKG=ABCvorbistoolsXYZ
-PKG_VERSION="1.4.0">
-PKG_FILE=ABCvorbis-tools-1.4.0.tar.gzXYZ
+PKG="vorbistools"
+PKG_VERSION="1.4.0"
+PKG_FILE="vorbis-tools-1.4.0.tar.gz"
 URL="https://downloads.xiph.org/releases/vorbis/vorbis-tools-1.4.0.tar.gz"
-MD5="567e0fb8d321b2cd7124f8208b8b90e6  $PACKAGE"
+MD5="567e0fb8d321b2cd7124f8208b8b90e6"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

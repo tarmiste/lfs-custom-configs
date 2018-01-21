@@ -2,11 +2,11 @@
 # xkbcomp
 #
 ## EDITHOOK1
-PKG=ABCxkbcompXYZ
+PKG="xkbcomp"
 PKG_VERSION=
-PKG_FILE=ABCxkbcomp-1.4.0.tar.bz2XYZ
+PKG_FILE="xkbcomp-1.4.0.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xkbcomp-1.4.0.tar.bz2"
-MD5="cc22b232bc78a303371983e1b48794ab  $PACKAGE"
+MD5="cc22b232bc78a303371983e1b48794ab"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

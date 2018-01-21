@@ -2,11 +2,11 @@
 # webkitgtk
 #
 ## EDITHOOK1
-PKG=ABCwebkitgtkXYZ
-PKG_VERSION="2.16.6"> <!-- Even minors only -->
-PKG_FILE=ABCwebkitgtk-2.16.6.tar.xzXYZ
+PKG="webkitgtk"
+PKG_VERSION="2.16.6" <!-- Even minors only --
+PKG_FILE="webkitgtk-2.16.6.tar.xz"
 URL="https://webkitgtk.org/releases/webkitgtk-2.16.6.tar.xz"
-MD5="0e2d142a586e4ff79cf0324f4fdbf20c  $PACKAGE"
+MD5="0e2d142a586e4ff79cf0324f4fdbf20c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

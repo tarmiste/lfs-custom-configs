@@ -2,11 +2,11 @@
 # lcms
 #
 ## EDITHOOK1
-PKG=ABClcmsXYZ
-PKG_VERSION="1.19">
-PKG_FILE=ABClcms-1.19.tar.gzXYZ
+PKG="lcms"
+PKG_VERSION="1.19"
+PKG_FILE="lcms-1.19.tar.gz"
 URL="https://downloads.sourceforge.net/lcms/lcms-1.19.tar.gz"
-MD5="8af94611baf20d9646c7c2c285859818  $PACKAGE"
+MD5="8af94611baf20d9646c7c2c285859818"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

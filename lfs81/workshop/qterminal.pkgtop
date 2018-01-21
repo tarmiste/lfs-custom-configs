@@ -2,11 +2,11 @@
 # qterminal
 #
 ## EDITHOOK1
-PKG=ABCqterminalXYZ
-PKG_VERSION="0.7.1">
-PKG_FILE=ABCqterminal-0.7.1.tar.xzXYZ
+PKG="qterminal"
+PKG_VERSION="0.7.1"
+PKG_FILE="qterminal-0.7.1.tar.xz"
 URL="https://github.com/lxde/qterminal/releases/download/0.7.1/qterminal-0.7.1.tar.xz"
-MD5="6c27ac08df0b6c8322729e0ad981873d  $PACKAGE"
+MD5="6c27ac08df0b6c8322729e0ad981873d"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

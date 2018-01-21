@@ -2,11 +2,11 @@
 # polkit-gnome
 #
 ## EDITHOOK1
-PKG=ABCpolkit-gnomeXYZ
+PKG="polkit-gnome"
 PKG_VERSION=
-PKG_FILE=ABCpolkit-gnome-0.105.tar.xzXYZ
+PKG_FILE="polkit-gnome-0.105.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/polkit-gnome/0.105/polkit-gnome-0.105.tar.xz"
-MD5="50ecad37c8342fb4a52f590db7530621  $PACKAGE"
+MD5="50ecad37c8342fb4a52f590db7530621"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

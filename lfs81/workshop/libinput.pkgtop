@@ -2,11 +2,11 @@
 # libinput
 #
 ## EDITHOOK1
-PKG=ABClibinputXYZ
+PKG="libinput"
 PKG_VERSION=
-PKG_FILE=ABClibinput-1.8.1.tar.xzXYZ
+PKG_FILE="libinput-1.8.1.tar.xz"
 URL="https://www.freedesktop.org/software/libinput/libinput-1.8.1.tar.xz"
-MD5="8247f0bb67052ffb272c50c3cb9c5998  $PACKAGE"
+MD5="8247f0bb67052ffb272c50c3cb9c5998"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

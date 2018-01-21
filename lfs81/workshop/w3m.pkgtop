@@ -2,11 +2,11 @@
 # w3m
 #
 ## EDITHOOK1
-PKG=ABCw3mXYZ
-PKG_VERSION="0.5.3">
-PKG_FILE=ABCw3m-0.5.3.tar.gzXYZ
+PKG="w3m"
+PKG_VERSION="0.5.3"
+PKG_FILE="w3m-0.5.3.tar.gz"
 URL="https://downloads.sourceforge.net/w3m/w3m-0.5.3.tar.gz"
-MD5="1b845a983a50b8dec0169ac48479eacc  $PACKAGE"
+MD5="1b845a983a50b8dec0169ac48479eacc"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

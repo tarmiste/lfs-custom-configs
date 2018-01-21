@@ -2,11 +2,11 @@
 # xkbevd
 #
 ## EDITHOOK1
-PKG=ABCxkbevdXYZ
+PKG="xkbevd"
 PKG_VERSION=
-PKG_FILE=ABCxkbevd-1.1.4.tar.bz2XYZ
+PKG_FILE="xkbevd-1.1.4.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xkbevd-1.1.4.tar.bz2"
-MD5="c747faf1f78f5a5962419f8bdd066501  $PACKAGE"
+MD5="c747faf1f78f5a5962419f8bdd066501"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

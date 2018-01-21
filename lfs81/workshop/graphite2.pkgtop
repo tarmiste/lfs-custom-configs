@@ -2,11 +2,11 @@
 # graphite2
 #
 ## EDITHOOK1
-PKG=ABCgraphite2XYZ
-PKG_VERSION="1.3.10">
-PKG_FILE=ABCgraphite2-1.3.10.tgzXYZ
+PKG="graphite2"
+PKG_VERSION="1.3.10"
+PKG_FILE="graphite2-1.3.10.tgz"
 URL="https://github.com/silnrsi/graphite/releases/download/1.3.10/graphite2-1.3.10.tgz"
-MD5="b39d5ed21195f8b709bcee548c87e2b5  $PACKAGE"
+MD5="b39d5ed21195f8b709bcee548c87e2b5"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,9 +2,9 @@
 # perl-html-parser
 #
 ## EDITHOOK1
-PKG=ABCperl-html-parserXYZ
+PKG="perl-html-parser"
 PKG_VERSION=
-PKG_FILE=ABCHTML-Parser-3.72.tar.gzXYZ
+PKG_FILE="HTML-Parser-3.72.tar.gz"
 URL="https://www.cpan.org/authors/id/G/GA/GAAS/HTML-Parser-3.72.tar.gz"
 #
 ## EDITHOOK2

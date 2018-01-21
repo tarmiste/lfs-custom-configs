@@ -2,11 +2,11 @@
 # parted
 #
 ## EDITHOOK1
-PKG=ABCpartedXYZ
-PKG_VERSION="3.2">
-PKG_FILE=ABCparted-3.2.tar.xzXYZ
+PKG="parted"
+PKG_VERSION="3.2"
+PKG_FILE="parted-3.2.tar.xz"
 URL="https://ftp.gnu.org/gnu/parted/parted-3.2.tar.xz"
-MD5="0247b6a7b314f8edeb618159fa95f9cb  $PACKAGE"
+MD5="0247b6a7b314f8edeb618159fa95f9cb"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

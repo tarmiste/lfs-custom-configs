@@ -2,11 +2,11 @@
 # glib2
 #
 ## EDITHOOK1
-PKG=ABCglib2XYZ
-PKG_VERSION="2.52.3">
-PKG_FILE=ABCglib-2.52.3.tar.xzXYZ
+PKG="glib2"
+PKG_VERSION="2.52.3"
+PKG_FILE="glib-2.52.3.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/glib/2.52/glib-2.52.3.tar.xz"
-MD5="89265d0289a436e99cad54491eb21ef4  $PACKAGE"
+MD5="89265d0289a436e99cad54491eb21ef4"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

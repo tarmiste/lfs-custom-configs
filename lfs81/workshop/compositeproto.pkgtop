@@ -2,11 +2,11 @@
 # compositeproto
 #
 ## EDITHOOK1
-PKG=ABCcompositeprotoXYZ
+PKG="compositeproto"
 PKG_VERSION=
-PKG_FILE=ABCcompositeproto-0.4.2.tar.bz2XYZ
+PKG_FILE="compositeproto-0.4.2.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/compositeproto-0.4.2.tar.bz2"
-MD5="98482f65ba1e74a08bf5b056a4031ef0  $PACKAGE"
+MD5="98482f65ba1e74a08bf5b056a4031ef0"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

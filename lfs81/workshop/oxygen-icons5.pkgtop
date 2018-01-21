@@ -2,11 +2,11 @@
 # oxygen-icons5
 #
 ## EDITHOOK1
-PKG=ABCoxygen-icons5XYZ
+PKG="oxygen-icons5"
 PKG_VERSION=
-PKG_FILE=ABCoxygen-icons5-5.37.0.tar.xzXYZ
+PKG_FILE="oxygen-icons5-5.37.0.tar.xz"
 URL="http://download.kde.org/stable/frameworks/5.37/oxygen-icons5-5.37.0.tar.xz"
-MD5="3f7cdadd2adc1b82b5600fbea90d0888  $PACKAGE"
+MD5="3f7cdadd2adc1b82b5600fbea90d0888"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

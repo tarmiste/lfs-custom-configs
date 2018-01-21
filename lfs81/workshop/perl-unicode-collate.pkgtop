@@ -2,9 +2,9 @@
 # perl-unicode-collate
 #
 ## EDITHOOK1
-PKG=ABCperl-unicode-collateXYZ
+PKG="perl-unicode-collate"
 PKG_VERSION=
-PKG_FILE=ABCUnicode-Collate-1.19.tar.gzXYZ
+PKG_FILE="Unicode-Collate-1.19.tar.gz"
 URL="https://www.cpan.org/authors/id/S/SA/SADAHIRO/Unicode-Collate-1.19.tar.gz"
 #
 ## EDITHOOK2

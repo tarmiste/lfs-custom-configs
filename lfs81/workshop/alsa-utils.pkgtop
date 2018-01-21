@@ -2,11 +2,11 @@
 # alsa-utils
 #
 ## EDITHOOK1
-PKG=ABCalsa-utilsXYZ
-PKG_VERSION="1.1.4">
-PKG_FILE=ABCalsa-utils-1.1.4.tar.bz2XYZ
+PKG="alsa-utils"
+PKG_VERSION="1.1.4"
+PKG_FILE="alsa-utils-1.1.4.tar.bz2"
 URL="ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.1.4.tar.bz2"
-MD5="01e3934ca5bd22a80c27289d1b0adcdc  $PACKAGE"
+MD5="01e3934ca5bd22a80c27289d1b0adcdc"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

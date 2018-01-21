@@ -2,11 +2,11 @@
 # imagemagick
 #
 ## EDITHOOK1
-PKG=ABCimagemagickXYZ
-PKG_VERSION="7.0.6">
-PKG_FILE=ABCImageMagick-7.0.6-10.tar.xzXYZ
+PKG="imagemagick"
+PKG_VERSION="7.0.6"
+PKG_FILE="ImageMagick-7.0.6-10.tar.xz"
 URL="https://www.imagemagick.org/download/releases/ImageMagick-7.0.6-10.tar.xz"
-MD5="29031b3cc7a6e44b2334ad6692ba1736  $PACKAGE"
+MD5="29031b3cc7a6e44b2334ad6692ba1736"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

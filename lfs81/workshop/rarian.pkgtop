@@ -2,11 +2,11 @@
 # rarian
 #
 ## EDITHOOK1
-PKG=ABCrarianXYZ
-PKG_VERSION="0.8.1">
-PKG_FILE=ABCrarian-0.8.1.tar.bz2XYZ
+PKG="rarian"
+PKG_VERSION="0.8.1"
+PKG_FILE="rarian-0.8.1.tar.bz2"
 URL="http://ftp.gnome.org/pub/gnome/sources/rarian/0.8/rarian-0.8.1.tar.bz2"
-MD5="75091185e13da67a0ff4279de1757b94  $PACKAGE"
+MD5="75091185e13da67a0ff4279de1757b94"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

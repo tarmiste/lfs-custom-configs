@@ -2,11 +2,11 @@
 # baobab
 #
 ## EDITHOOK1
-PKG=ABCbaobabXYZ
+PKG="baobab"
 PKG_VERSION=
-PKG_FILE=ABCbaobab-3.24.0.tar.xzXYZ
+PKG_FILE="baobab-3.24.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/baobab/3.24/baobab-3.24.0.tar.xz"
-MD5="1cb55928b581decb5db5bcbac6bc219f  $PACKAGE"
+MD5="1cb55928b581decb5db5bcbac6bc219f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # openldap
 #
 ## EDITHOOK1
-PKG=ABCopenldapXYZ
-PKG_VERSION="2.4.45">
-PKG_FILE=ABCopenldap-2.4.45.tgzXYZ
+PKG="openldap"
+PKG_VERSION="2.4.45"
+PKG_FILE="openldap-2.4.45.tgz"
 URL="ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/openldap-2.4.45.tgz"
-MD5="00ff8301277cdfd0af728a6927042a13  $PACKAGE"
+MD5="00ff8301277cdfd0af728a6927042a13"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

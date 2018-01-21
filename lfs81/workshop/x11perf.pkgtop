@@ -2,11 +2,11 @@
 # x11perf
 #
 ## EDITHOOK1
-PKG=ABCx11perfXYZ
+PKG="x11perf"
 PKG_VERSION=
-PKG_FILE=ABCx11perf-1.6.0.tar.bz2XYZ
+PKG_FILE="x11perf-1.6.0.tar.bz2"
 URL="https://www.x.org/pub/individual/app/x11perf-1.6.0.tar.bz2"
-MD5="f0b24e4d8beb622a419e8431e1c03cd7  $PACKAGE"
+MD5="f0b24e4d8beb622a419e8431e1c03cd7"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

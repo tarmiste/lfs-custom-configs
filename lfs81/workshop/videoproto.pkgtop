@@ -2,11 +2,11 @@
 # videoproto
 #
 ## EDITHOOK1
-PKG=ABCvideoprotoXYZ
+PKG="videoproto"
 PKG_VERSION=
-PKG_FILE=ABCvideoproto-2.3.3.tar.bz2XYZ
+PKG_FILE="videoproto-2.3.3.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/videoproto-2.3.3.tar.bz2"
-MD5="fe86de8ea3eb53b5a8f52956c5cd3174  $PACKAGE"
+MD5="fe86de8ea3eb53b5a8f52956c5cd3174"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

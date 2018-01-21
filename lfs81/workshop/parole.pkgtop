@@ -2,11 +2,11 @@
 # parole
 #
 ## EDITHOOK1
-PKG=ABCparoleXYZ
-PKG_VERSION="0.8.1">
-PKG_FILE=ABCparole-0.8.1.tar.bz2XYZ
+PKG="parole"
+PKG_VERSION="0.8.1"
+PKG_FILE="parole-0.8.1.tar.bz2"
 URL="http://archive.xfce.org/src/apps/parole/0.8/parole-0.8.1.tar.bz2"
-MD5="361e3059f1263c76a3711db2c7c1a97b  $PACKAGE"
+MD5="361e3059f1263c76a3711db2c7c1a97b"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

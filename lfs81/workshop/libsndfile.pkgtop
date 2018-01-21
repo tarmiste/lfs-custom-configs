@@ -2,11 +2,11 @@
 # libsndfile
 #
 ## EDITHOOK1
-PKG=ABClibsndfileXYZ
-PKG_VERSION="1.0.28">
-PKG_FILE=ABClibsndfile-1.0.28.tar.gzXYZ
+PKG="libsndfile"
+PKG_VERSION="1.0.28"
+PKG_FILE="libsndfile-1.0.28.tar.gz"
 URL="http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.28.tar.gz"
-MD5="646b5f98ce89ac60cdb060fcd398247c  $PACKAGE"
+MD5="646b5f98ce89ac60cdb060fcd398247c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

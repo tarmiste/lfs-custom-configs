@@ -2,11 +2,11 @@
 # xfwm4
 #
 ## EDITHOOK1
-PKG=ABCxfwm4XYZ
-PKG_VERSION="4.12.4">
-PKG_FILE=ABCxfwm4-4.12.4.tar.bz2XYZ
+PKG="xfwm4"
+PKG_VERSION="4.12.4"
+PKG_FILE="xfwm4-4.12.4.tar.bz2"
 URL="http://archive.xfce.org/src/xfce/xfwm4/4.12/xfwm4-4.12.4.tar.bz2"
-MD5="3ec136efc5387fd3b53cd66b684f52d7  $PACKAGE"
+MD5="3ec136efc5387fd3b53cd66b684f52d7"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

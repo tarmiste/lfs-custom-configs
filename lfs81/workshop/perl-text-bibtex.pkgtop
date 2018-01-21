@@ -2,9 +2,9 @@
 # perl-text-bibtex
 #
 ## EDITHOOK1
-PKG=ABCperl-text-bibtexXYZ
+PKG="perl-text-bibtex"
 PKG_VERSION=
-PKG_FILE=ABCText-BibTeX-0.81.tar.gzXYZ
+PKG_FILE="Text-BibTeX-0.81.tar.gz"
 URL="https://www.cpan.org/authors/id/A/AM/AMBS/Text-BibTeX-0.81.tar.gz"
 #
 ## EDITHOOK2

@@ -2,11 +2,11 @@
 # randrproto
 #
 ## EDITHOOK1
-PKG=ABCrandrprotoXYZ
+PKG="randrproto"
 PKG_VERSION=
-PKG_FILE=ABCrandrproto-1.5.0.tar.bz2XYZ
+PKG_FILE="randrproto-1.5.0.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/randrproto-1.5.0.tar.bz2"
-MD5="a46765c8dcacb7114c821baf0df1e797  $PACKAGE"
+MD5="a46765c8dcacb7114c821baf0df1e797"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

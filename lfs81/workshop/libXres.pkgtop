@@ -2,11 +2,11 @@
 # libXres
 #
 ## EDITHOOK1
-PKG=ABClibXresXYZ
+PKG="libXres"
 PKG_VERSION=
-PKG_FILE=ABClibXres-1.0.7.tar.bz2XYZ
+PKG_FILE="libXres-1.0.7.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libXres-1.0.7.tar.bz2"
-MD5="45ef29206a6b58254c81bea28ec6c95f  $PACKAGE"
+MD5="45ef29206a6b58254c81bea28ec6c95f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

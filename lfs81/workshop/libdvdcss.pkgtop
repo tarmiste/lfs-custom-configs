@@ -2,11 +2,11 @@
 # libdvdcss
 #
 ## EDITHOOK1
-PKG=ABClibdvdcssXYZ
-PKG_VERSION="1.4.0">
-PKG_FILE=ABClibdvdcss-1.4.0.tar.bz2XYZ
+PKG="libdvdcss"
+PKG_VERSION="1.4.0"
+PKG_FILE="libdvdcss-1.4.0.tar.bz2"
 URL="https://get.videolan.org/libdvdcss/1.4.0/libdvdcss-1.4.0.tar.bz2"
-MD5="2edba36e6af3f0223c4f0454cdf3d159  $PACKAGE"
+MD5="2edba36e6af3f0223c4f0454cdf3d159"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

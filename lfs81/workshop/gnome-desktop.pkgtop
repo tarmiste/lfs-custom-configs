@@ -2,11 +2,11 @@
 # gnome-desktop
 #
 ## EDITHOOK1
-PKG=ABCgnome-desktopXYZ
+PKG="gnome-desktop"
 PKG_VERSION=
-PKG_FILE=ABCgnome-desktop-3.24.2.tar.xzXYZ
+PKG_FILE="gnome-desktop-3.24.2.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gnome-desktop/3.24/gnome-desktop-3.24.2.tar.xz"
-MD5="af7c6a243df7a335a010bdc05b34ca93  $PACKAGE"
+MD5="af7c6a243df7a335a010bdc05b34ca93"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

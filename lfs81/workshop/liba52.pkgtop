@@ -2,11 +2,11 @@
 # liba52
 #
 ## EDITHOOK1
-PKG=ABCliba52XYZ
-PKG_VERSION="0.7.4">
-PKG_FILE=ABCa52dec-0.7.4.tar.gzXYZ
+PKG="liba52"
+PKG_VERSION="0.7.4"
+PKG_FILE="a52dec-0.7.4.tar.gz"
 URL="http://liba52.sourceforge.net/files/a52dec-0.7.4.tar.gz"
-MD5="caa9f5bc44232dc8aeea773fea56be80  $PACKAGE"
+MD5="caa9f5bc44232dc8aeea773fea56be80"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

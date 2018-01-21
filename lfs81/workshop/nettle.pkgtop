@@ -2,11 +2,11 @@
 # nettle
 #
 ## EDITHOOK1
-PKG=ABCnettleXYZ
-PKG_VERSION="3.3">
-PKG_FILE=ABCnettle-3.3.tar.gzXYZ
+PKG="nettle"
+PKG_VERSION="3.3"
+PKG_FILE="nettle-3.3.tar.gz"
 URL="https://ftp.gnu.org/gnu/nettle/nettle-3.3.tar.gz"
-MD5="10f969f78a463704ae73529978148dbe  $PACKAGE"
+MD5="10f969f78a463704ae73529978148dbe"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

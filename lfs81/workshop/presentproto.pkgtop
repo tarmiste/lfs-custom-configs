@@ -2,11 +2,11 @@
 # presentproto
 #
 ## EDITHOOK1
-PKG=ABCpresentprotoXYZ
+PKG="presentproto"
 PKG_VERSION=
-PKG_FILE=ABCpresentproto-1.1.tar.bz2XYZ
+PKG_FILE="presentproto-1.1.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/presentproto-1.1.tar.bz2"
-MD5="92f9dda9c870d78a1d93f366bcb0e6cd  $PACKAGE"
+MD5="92f9dda9c870d78a1d93f366bcb0e6cd"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # libgtop
 #
 ## EDITHOOK1
-PKG=ABClibgtopXYZ
+PKG="libgtop"
 PKG_VERSION=
-PKG_FILE=ABClibgtop-2.36.0.tar.xzXYZ
+PKG_FILE="libgtop-2.36.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/libgtop/2.36/libgtop-2.36.0.tar.xz"
-MD5="d4591bd3ee9a7312ef2dd38d4b65f5a9  $PACKAGE"
+MD5="d4591bd3ee9a7312ef2dd38d4b65f5a9"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

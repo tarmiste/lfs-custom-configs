@@ -2,11 +2,11 @@
 # pyatspi2
 #
 ## EDITHOOK1
-PKG=ABCpyatspi2XYZ
-PKG_VERSION="2.24.0">
-PKG_FILE=ABCpyatspi-2.24.0.tar.xzXYZ
+PKG="pyatspi2"
+PKG_VERSION="2.24.0"
+PKG_FILE="pyatspi-2.24.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/pyatspi/2.24/pyatspi-2.24.0.tar.xz"
-MD5="db049a2306a93ef32e3d5a3412918e75  $PACKAGE"
+MD5="db049a2306a93ef32e3d5a3412918e75"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

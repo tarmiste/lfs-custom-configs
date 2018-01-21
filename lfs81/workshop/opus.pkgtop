@@ -2,11 +2,11 @@
 # opus
 #
 ## EDITHOOK1
-PKG=ABCopusXYZ
-PKG_VERSION="1.2.1">
-PKG_FILE=ABCopus-1.2.1.tar.gzXYZ
+PKG="opus"
+PKG_VERSION="1.2.1"
+PKG_FILE="opus-1.2.1.tar.gz"
 URL="https://archive.mozilla.org/pub/opus/opus-1.2.1.tar.gz"
-MD5="54bc867f13066407bc7b95be1fede090  $PACKAGE"
+MD5="54bc867f13066407bc7b95be1fede090"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

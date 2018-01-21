@@ -2,11 +2,11 @@
 # lxqt-config
 #
 ## EDITHOOK1
-PKG=ABClxqt-configXYZ
-PKG_VERSION=;">
-PKG_FILE=ABClxqt-config-0.11.1.tar.xzXYZ
+PKG="lxqt-config"
+PKG_VERSION=;"
+PKG_FILE="lxqt-config-0.11.1.tar.xz"
 URL="https://github.com/lxde/lxqt-config/releases/download/0.11.1/lxqt-config-0.11.1.tar.xz"
-MD5="e134a01c1e466170c7e498455abfb62f  $PACKAGE"
+MD5="e134a01c1e466170c7e498455abfb62f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

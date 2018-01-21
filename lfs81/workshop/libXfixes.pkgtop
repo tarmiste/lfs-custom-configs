@@ -2,11 +2,11 @@
 # libXfixes
 #
 ## EDITHOOK1
-PKG=ABClibXfixesXYZ
+PKG="libXfixes"
 PKG_VERSION=
-PKG_FILE=ABClibXfixes-5.0.3.tar.bz2XYZ
+PKG_FILE="libXfixes-5.0.3.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libXfixes-5.0.3.tar.bz2"
-MD5="07e01e046a0215574f36a3aacb148be0  $PACKAGE"
+MD5="07e01e046a0215574f36a3aacb148be0"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

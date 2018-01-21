@@ -2,11 +2,11 @@
 # gpm
 #
 ## EDITHOOK1
-PKG=ABCgpmXYZ
-PKG_VERSION="1.20.7">
-PKG_FILE=ABCgpm-1.20.7.tar.bz2XYZ
+PKG="gpm"
+PKG_VERSION="1.20.7"
+PKG_FILE="gpm-1.20.7.tar.bz2"
 URL="http://www.nico.schottelius.org/software/gpm/archives/gpm-1.20.7.tar.bz2"
-MD5="bf84143905a6a903dbd4d4b911a2a2b8  $PACKAGE"
+MD5="bf84143905a6a903dbd4d4b911a2a2b8"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

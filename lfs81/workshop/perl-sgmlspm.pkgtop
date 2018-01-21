@@ -2,9 +2,9 @@
 # perl-sgmlspm
 #
 ## EDITHOOK1
-PKG=ABCperl-sgmlspmXYZ
+PKG="perl-sgmlspm"
 PKG_VERSION=
-PKG_FILE=ABCSGMLSpm-1.1.tar.gzXYZ
+PKG_FILE="SGMLSpm-1.1.tar.gz"
 URL="https://www.cpan.org/authors/id/R/RA/RAAB/SGMLSpm-1.1.tar.gz"
 #
 ## EDITHOOK2

@@ -2,11 +2,11 @@
 # cdrtools
 #
 ## EDITHOOK1
-PKG=ABCcdrtoolsXYZ
-PKG_VERSION="3.02a07">
-PKG_FILE=ABCcdrtools-3.02a07.tar.bz2XYZ
+PKG="cdrtools"
+PKG_VERSION="3.02a07"
+PKG_FILE="cdrtools-3.02a07.tar.bz2"
 URL="https://downloads.sourceforge.net/cdrtools/cdrtools-3.02a07.tar.bz2"
-MD5="ea362a6a42d8aa0d5fc154d195f47926  $PACKAGE"
+MD5="ea362a6a42d8aa0d5fc154d195f47926"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

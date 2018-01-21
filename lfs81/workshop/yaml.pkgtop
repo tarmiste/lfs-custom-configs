@@ -2,11 +2,11 @@
 # yaml
 #
 ## EDITHOOK1
-PKG=ABCyamlXYZ
-PKG_VERSION="0.1.7">
-PKG_FILE=ABCyaml-0.1.7.tar.gzXYZ
+PKG="yaml"
+PKG_VERSION="0.1.7"
+PKG_FILE="yaml-0.1.7.tar.gz"
 URL="http://pyyaml.org/download/libyaml/yaml-0.1.7.tar.gz"
-MD5="1abf45bd3a96374fa55ca63b32f9f2f9  $PACKAGE"
+MD5="1abf45bd3a96374fa55ca63b32f9f2f9"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

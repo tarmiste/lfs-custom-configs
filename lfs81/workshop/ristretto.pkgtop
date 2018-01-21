@@ -2,11 +2,11 @@
 # ristretto
 #
 ## EDITHOOK1
-PKG=ABCristrettoXYZ
-PKG_VERSION="0.8.2">
-PKG_FILE=ABCristretto-0.8.2.tar.bz2XYZ
+PKG="ristretto"
+PKG_VERSION="0.8.2"
+PKG_FILE="ristretto-0.8.2.tar.bz2"
 URL="http://archive.xfce.org/src/apps/ristretto/0.8/ristretto-0.8.2.tar.bz2"
-MD5="a8d8bb6b8fa7f868cfa3ae778630946e  $PACKAGE"
+MD5="a8d8bb6b8fa7f868cfa3ae778630946e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

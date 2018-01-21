@@ -2,11 +2,11 @@
 # dbus-python
 #
 ## EDITHOOK1
-PKG=ABCdbus-pythonXYZ
-PKG_VERSION="1.2.4">
-PKG_FILE=ABCdbus-python-1.2.4.tar.gzXYZ
+PKG="dbus-python"
+PKG_VERSION="1.2.4"
+PKG_FILE="dbus-python-1.2.4.tar.gz"
 URL="https://dbus.freedesktop.org/releases/dbus-python/dbus-python-1.2.4.tar.gz"
-MD5="7372a588c83a7232b4e08159bfd48fe5  $PACKAGE"
+MD5="7372a588c83a7232b4e08159bfd48fe5"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

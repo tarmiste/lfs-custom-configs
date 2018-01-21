@@ -2,11 +2,11 @@
 # fribidi
 #
 ## EDITHOOK1
-PKG=ABCfribidiXYZ
-PKG_VERSION="0.19.7">
-PKG_FILE=ABCfribidi-0.19.7.tar.bz2XYZ
+PKG="fribidi"
+PKG_VERSION="0.19.7"
+PKG_FILE="fribidi-0.19.7.tar.bz2"
 URL="https://www.fribidi.org/download/fribidi-0.19.7.tar.bz2"
-MD5="6c7e7cfdd39c908f7ac619351c1c5c23  $PACKAGE"
+MD5="6c7e7cfdd39c908f7ac619351c1c5c23"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

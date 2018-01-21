@@ -2,11 +2,11 @@
 # feh
 #
 ## EDITHOOK1
-PKG=ABCfehXYZ
-PKG_VERSION="2.19.3">
-PKG_FILE=ABCfeh-2.19.3.tar.bz2XYZ
+PKG="feh"
+PKG_VERSION="2.19.3"
+PKG_FILE="feh-2.19.3.tar.bz2"
 URL="http://feh.finalrewind.org/feh-2.19.3.tar.bz2"
-MD5="cea79600eb135377f8e5f465f5713077  $PACKAGE"
+MD5="cea79600eb135377f8e5f465f5713077"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

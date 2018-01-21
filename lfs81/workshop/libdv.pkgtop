@@ -2,11 +2,11 @@
 # libdv
 #
 ## EDITHOOK1
-PKG=ABClibdvXYZ
-PKG_VERSION="1.0.0">
-PKG_FILE=ABClibdv-1.0.0.tar.gzXYZ
+PKG="libdv"
+PKG_VERSION="1.0.0"
+PKG_FILE="libdv-1.0.0.tar.gz"
 URL="https://downloads.sourceforge.net/libdv/libdv-1.0.0.tar.gz"
-MD5="f895162161cfa4bb4a94c070a7caa6c7  $PACKAGE"
+MD5="f895162161cfa4bb4a94c070a7caa6c7"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

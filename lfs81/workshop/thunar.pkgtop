@@ -2,11 +2,11 @@
 # thunar
 #
 ## EDITHOOK1
-PKG=ABCthunarXYZ
-PKG_VERSION="1.6.12">
-PKG_FILE=ABCThunar-1.6.12.tar.bz2XYZ
+PKG="thunar"
+PKG_VERSION="1.6.12"
+PKG_FILE="Thunar-1.6.12.tar.bz2"
 URL="http://archive.xfce.org/src/xfce/thunar/1.6/Thunar-1.6.12.tar.bz2"
-MD5="1bdf3c4a57ff886c512341f24b5e0e88  $PACKAGE"
+MD5="1bdf3c4a57ff886c512341f24b5e0e88"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

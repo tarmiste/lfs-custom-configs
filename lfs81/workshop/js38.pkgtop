@@ -2,11 +2,11 @@
 # js38
 #
 ## EDITHOOK1
-PKG=ABCjs38XYZ
+PKG="js38"
 PKG_VERSION=
-PKG_FILE=ABCmozjs-38.2.1.rc0.tar.bz2XYZ
+PKG_FILE="mozjs-38.2.1.rc0.tar.bz2"
 URL="https://people.mozilla.org/~sstangl/mozjs-38.2.1.rc0.tar.bz2"
-MD5="cb602e21f5fc798b88163a3aa4e03e0a  $PACKAGE"
+MD5="cb602e21f5fc798b88163a3aa4e03e0a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

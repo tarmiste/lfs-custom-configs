@@ -2,11 +2,11 @@
 # fontsproto
 #
 ## EDITHOOK1
-PKG=ABCfontsprotoXYZ
+PKG="fontsproto"
 PKG_VERSION=
-PKG_FILE=ABCfontsproto-2.1.3.tar.bz2XYZ
+PKG_FILE="fontsproto-2.1.3.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/fontsproto-2.1.3.tar.bz2"
-MD5="36934d00b00555eaacde9f091f392f97  $PACKAGE"
+MD5="36934d00b00555eaacde9f091f392f97"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

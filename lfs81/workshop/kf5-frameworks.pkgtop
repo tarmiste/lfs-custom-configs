@@ -2,9 +2,9 @@
 # kf5-frameworks
 #
 ## EDITHOOK1
-PKG=ABCkf5-frameworksXYZ
+PKG="kf5-frameworks"
 PKG_VERSION=
-PKG_FILE=ABCXYZ
+PKG_FILE=""
 URL=wget -r -nH -nd -A '*.xz' -np $url
 #
 ## EDITHOOK2

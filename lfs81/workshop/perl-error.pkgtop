@@ -2,9 +2,9 @@
 # perl-error
 #
 ## EDITHOOK1
-PKG=ABCperl-errorXYZ
+PKG="perl-error"
 PKG_VERSION=
-PKG_FILE=ABCError-0.17025.tar.gzXYZ
+PKG_FILE="Error-0.17025.tar.gz"
 URL="https://www.cpan.org/authors/id/S/SH/SHLOMIF/Error-0.17025.tar.gz"
 #
 ## EDITHOOK2

@@ -2,11 +2,11 @@
 # net-tools
 #
 ## EDITHOOK1
-PKG=ABCnet-toolsXYZ
-PKG_VERSION="CVS_20101030">
-PKG_FILE=ABCnet-tools-CVS_20101030.tar.gzXYZ
+PKG="net-tools"
+PKG_VERSION="CVS_20101030"
+PKG_FILE="net-tools-CVS_20101030.tar.gz"
 URL="http://anduin.linuxfromscratch.org/BLFS/net-tools/net-tools-CVS_20101030.tar.gz"
-MD5="6be14ed473cacdd68edeaa9605adc469  $PACKAGE"
+MD5="6be14ed473cacdd68edeaa9605adc469"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

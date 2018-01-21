@@ -2,11 +2,11 @@
 # util-macros
 #
 ## EDITHOOK1
-PKG=ABCutil-macrosXYZ
-PKG_VERSION="1.19.1">
-PKG_FILE=ABCutil-macros-1.19.1.tar.bz2XYZ
+PKG="util-macros"
+PKG_VERSION="1.19.1"
+PKG_FILE="util-macros-1.19.1.tar.bz2"
 URL="https://www.x.org/pub/individual/util/util-macros-1.19.1.tar.bz2"
-MD5="6e76e546a4e580f15cebaf8019ef1625  $PACKAGE"
+MD5="6e76e546a4e580f15cebaf8019ef1625"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

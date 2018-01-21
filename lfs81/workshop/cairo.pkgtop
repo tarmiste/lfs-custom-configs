@@ -2,11 +2,11 @@
 # cairo
 #
 ## EDITHOOK1
-PKG=ABCcairoXYZ
-PKG_VERSION="1.14.10">
-PKG_FILE=ABCcairo-1.14.10.tar.xzXYZ
+PKG="cairo"
+PKG_VERSION="1.14.10"
+PKG_FILE="cairo-1.14.10.tar.xz"
 URL="https://www.cairographics.org/releases/cairo-1.14.10.tar.xz"
-MD5="146f5f4d0b4439fc3792fd3452b7b12a  $PACKAGE"
+MD5="146f5f4d0b4439fc3792fd3452b7b12a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

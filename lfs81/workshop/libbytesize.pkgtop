@@ -2,11 +2,11 @@
 # libbytesize
 #
 ## EDITHOOK1
-PKG=ABClibbytesizeXYZ
-PKG_VERSION="0.11">
-PKG_FILE=ABClibbytesize-0.11.tar.gzXYZ
+PKG="libbytesize"
+PKG_VERSION="0.11"
+PKG_FILE="libbytesize-0.11.tar.gz"
 URL="https://github.com/storaged-project/libbytesize/archive/libbytesize-0.11.tar.gz"
-MD5="c469110ae134ea3a58546ba13fdb5074  $PACKAGE"
+MD5="c469110ae134ea3a58546ba13fdb5074"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

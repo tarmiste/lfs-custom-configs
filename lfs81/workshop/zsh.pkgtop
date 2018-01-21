@@ -2,12 +2,12 @@
 # zsh
 #
 ## EDITHOOK1
-PKG=ABCzshXYZ
-PKG_VERSION="5.4.2">
-PKG_FILE=ABCzsh-5.4.2.tar.gz zsh-5.4.2-doc.tar.xzXYZ
+PKG="zsh"
+PKG_VERSION="5.4.2"
+PKG_FILE="zsh-5.4.2.tar.gz zsh-5.4.2-doc.tar.xz"
 URL="http://www.zsh.org/pub/zsh-5.4.2.tar.gz"
-MD5="dfe156fd69b0d8d1745ecf6d6e02e047  $PACKAGE"
-MD5="e718bbcd663992ba33c01d4f8a289fc5  $PACKAGE1"
+MD5="dfe156fd69b0d8d1745ecf6d6e02e047"
+MD5="e718bbcd663992ba33c01d4f8a289fc5" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

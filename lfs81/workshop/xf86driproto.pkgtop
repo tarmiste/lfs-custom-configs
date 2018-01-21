@@ -2,11 +2,11 @@
 # xf86driproto
 #
 ## EDITHOOK1
-PKG=ABCxf86driprotoXYZ
+PKG="xf86driproto"
 PKG_VERSION=
-PKG_FILE=ABCxf86driproto-2.1.1.tar.bz2XYZ
+PKG_FILE="xf86driproto-2.1.1.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/xf86driproto-2.1.1.tar.bz2"
-MD5="1d716d0dac3b664e5ee20c69d34bc10e  $PACKAGE"
+MD5="1d716d0dac3b664e5ee20c69d34bc10e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

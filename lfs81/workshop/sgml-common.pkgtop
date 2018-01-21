@@ -2,11 +2,11 @@
 # sgml-common
 #
 ## EDITHOOK1
-PKG=ABCsgml-commonXYZ
-PKG_VERSION="0.6.3">
-PKG_FILE=ABCsgml-common-0.6.3.tgzXYZ
+PKG="sgml-common"
+PKG_VERSION="0.6.3"
+PKG_FILE="sgml-common-0.6.3.tgz"
 URL="https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz"
-MD5="103c9828f24820df86e55e7862e28974  $PACKAGE"
+MD5="103c9828f24820df86e55e7862e28974"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # xapian
 #
 ## EDITHOOK1
-PKG=ABCxapianXYZ
-PKG_VERSION="1.4.4">
-PKG_FILE=ABCxapian-core-1.4.4.tar.xzXYZ
+PKG="xapian"
+PKG_VERSION="1.4.4"
+PKG_FILE="xapian-core-1.4.4.tar.xz"
 URL="http://oligarchy.co.uk/xapian/1.4.4/xapian-core-1.4.4.tar.xz"
-MD5="919ad9a80a7c6a01ab4721670bb29cab  $PACKAGE"
+MD5="919ad9a80a7c6a01ab4721670bb29cab"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

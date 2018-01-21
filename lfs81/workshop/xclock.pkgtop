@@ -2,11 +2,11 @@
 # xclock
 #
 ## EDITHOOK1
-PKG=ABCxclockXYZ
-PKG_VERSION="1.0.7">
-PKG_FILE=ABCxclock-1.0.7.tar.bz2XYZ
+PKG="xclock"
+PKG_VERSION="1.0.7"
+PKG_FILE="xclock-1.0.7.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xclock-1.0.7.tar.bz2"
-MD5="6f150d063b20d08030b98c45b9bee7af  $PACKAGE"
+MD5="6f150d063b20d08030b98c45b9bee7af"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

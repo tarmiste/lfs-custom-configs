@@ -2,11 +2,11 @@
 # curl
 #
 ## EDITHOOK1
-PKG=ABCcurlXYZ
-PKG_VERSION="7.55.1">
-PKG_FILE=ABCcurl-7.55.1.tar.xzXYZ
+PKG="curl"
+PKG_VERSION="7.55.1"
+PKG_FILE="curl-7.55.1.tar.xz"
 URL="https://curl.haxx.se/download/curl-7.55.1.tar.xz"
-MD5="ac4a59c38c47adc160ea71eace20257b  $PACKAGE"
+MD5="ac4a59c38c47adc160ea71eace20257b"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

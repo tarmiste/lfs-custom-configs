@@ -2,11 +2,11 @@
 # font-bh-type1
 #
 ## EDITHOOK1
-PKG=ABCfont-bh-type1XYZ
+PKG="font-bh-type1"
 PKG_VERSION=
-PKG_FILE=ABCfont-bh-type1-1.0.3.tar.bz2XYZ
+PKG_FILE="font-bh-type1-1.0.3.tar.bz2"
 URL="https://www.x.org/pub/individual/font/font-bh-type1-1.0.3.tar.bz2"
-MD5="53ed9a42388b7ebb689bdfc374f96a22  $PACKAGE"
+MD5="53ed9a42388b7ebb689bdfc374f96a22"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # gmime
 #
 ## EDITHOOK1
-PKG=ABCgmimeXYZ
-PKG_VERSION="2.6.23">
-PKG_FILE=ABCgmime-2.6.23.tar.xzXYZ
+PKG="gmime"
+PKG_VERSION="2.6.23"
+PKG_FILE="gmime-2.6.23.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gmime/2.6/gmime-2.6.23.tar.xz"
-MD5="247072236d84bd0fbbff299d69bdf333  $PACKAGE"
+MD5="247072236d84bd0fbbff299d69bdf333"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

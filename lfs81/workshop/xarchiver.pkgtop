@@ -2,11 +2,11 @@
 # xarchiver
 #
 ## EDITHOOK1
-PKG=ABCxarchiverXYZ
-PKG_VERSION="0.5.4">
-PKG_FILE=ABCxarchiver-0.5.4.tar.bz2XYZ
+PKG="xarchiver"
+PKG_VERSION="0.5.4"
+PKG_FILE="xarchiver-0.5.4.tar.bz2"
 URL="https://downloads.sourceforge.net/xarchiver/xarchiver-0.5.4.tar.bz2"
-MD5="1b4cd37a6af03afc957a8e307417e8d0  $PACKAGE"
+MD5="1b4cd37a6af03afc957a8e307417e8d0"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

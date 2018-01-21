@@ -2,11 +2,11 @@
 # xlsatoms
 #
 ## EDITHOOK1
-PKG=ABCxlsatomsXYZ
+PKG="xlsatoms"
 PKG_VERSION=
-PKG_FILE=ABCxlsatoms-1.1.2.tar.bz2XYZ
+PKG_FILE="xlsatoms-1.1.2.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xlsatoms-1.1.2.tar.bz2"
-MD5="5dcb6e6c4b28c8d7aeb45257f5a72a7d  $PACKAGE"
+MD5="5dcb6e6c4b28c8d7aeb45257f5a72a7d"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

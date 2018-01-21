@@ -2,11 +2,11 @@
 # twm
 #
 ## EDITHOOK1
-PKG=ABCtwmXYZ
-PKG_VERSION="1.0.9">
-PKG_FILE=ABCtwm-1.0.9.tar.bz2XYZ
+PKG="twm"
+PKG_VERSION="1.0.9"
+PKG_FILE="twm-1.0.9.tar.bz2"
 URL="https://www.x.org/pub/individual/app/twm-1.0.9.tar.bz2"
-MD5="59a6f076cdacb5f6945dac809bcf4906  $PACKAGE"
+MD5="59a6f076cdacb5f6945dac809bcf4906"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

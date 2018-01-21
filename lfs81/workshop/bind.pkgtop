@@ -2,11 +2,11 @@
 # bind
 #
 ## EDITHOOK1
-PKG=ABCbindXYZ
-PKG_VERSION=;.2">
-PKG_FILE=ABCbind-9.11.2.tar.gzXYZ
+PKG="bind"
+PKG_VERSION=;.2"
+PKG_FILE="bind-9.11.2.tar.gz"
 URL="ftp://ftp.isc.org/isc/bind9/9.11.2/bind-9.11.2.tar.gz"
-MD5="efca7e5a63a07efba264da9be2fbb57f  $PACKAGE"
+MD5="efca7e5a63a07efba264da9be2fbb57f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

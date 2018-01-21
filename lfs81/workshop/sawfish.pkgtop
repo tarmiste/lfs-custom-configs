@@ -2,11 +2,11 @@
 # sawfish
 #
 ## EDITHOOK1
-PKG=ABCsawfishXYZ
-PKG_VERSION="1.12.0">
-PKG_FILE=ABCsawfish_1.12.0.tar.xzXYZ
+PKG="sawfish"
+PKG_VERSION="1.12.0"
+PKG_FILE="sawfish_1.12.0.tar.xz"
 URL="http://download.tuxfamily.org/sawfish/sawfish_1.12.0.tar.xz"
-MD5="074446085b2518a07cf0e0c8c8b6df41  $PACKAGE"
+MD5="074446085b2518a07cf0e0c8c8b6df41"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

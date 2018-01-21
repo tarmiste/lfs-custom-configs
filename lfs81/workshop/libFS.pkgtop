@@ -2,11 +2,11 @@
 # libFS
 #
 ## EDITHOOK1
-PKG=ABClibFSXYZ
+PKG="libFS"
 PKG_VERSION=
-PKG_FILE=ABClibFS-1.0.7.tar.bz2XYZ
+PKG_FILE="libFS-1.0.7.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libFS-1.0.7.tar.bz2"
-MD5="d79d9fe2aa55eb0f69b1a4351e1368f7  $PACKAGE"
+MD5="d79d9fe2aa55eb0f69b1a4351e1368f7"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

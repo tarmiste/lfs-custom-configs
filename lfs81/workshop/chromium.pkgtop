@@ -2,13 +2,13 @@
 # chromium
 #
 ## EDITHOOK1
-PKG=ABCchromiumXYZ
-PKG_VERSION="60.0.3112.101">
-PKG_FILE=ABCchromium-60.0.3112.101.tar.xz google-chrome-stable_60.0.3112.101-1_amd64.deb google-chrome-stable_48.0.2564.116-1_i386.debXYZ
+PKG="chromium"
+PKG_VERSION="60.0.3112.101"
+PKG_FILE="chromium-60.0.3112.101.tar.xz google-chrome-stable_60.0.3112.101-1_amd64.deb google-chrome-stable_48.0.2564.116-1_i386.deb"
 URL="https://commondatastorage.googleapis.com/chromium-browser-official/chromium-60.0.3112.101.tar.xz"
-MD5="9fe9af85faeaf617cb61997c431a02e2  $PACKAGE"
-MD5="70f90d19dcf51a87b7f6df788b5fddc7  $PACKAGE1"
-MD5="895e877b9bfe5da05a061369c2078626  $PACKAGE1"
+MD5="9fe9af85faeaf617cb61997c431a02e2"
+MD5="70f90d19dcf51a87b7f6df788b5fddc7" # Must be converted to PATCH file
+MD5="895e877b9bfe5da05a061369c2078626" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

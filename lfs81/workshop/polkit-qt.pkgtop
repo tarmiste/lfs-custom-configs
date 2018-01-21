@@ -2,11 +2,11 @@
 # polkit-qt
 #
 ## EDITHOOK1
-PKG=ABCpolkit-qtXYZ
-PKG_VERSION="0.112.0">
-PKG_FILE=ABCpolkit-qt-1-0.112.0.tar.bz2XYZ
+PKG="polkit-qt"
+PKG_VERSION="0.112.0"
+PKG_FILE="polkit-qt-1-0.112.0.tar.bz2"
 URL="http://download.kde.org/stable/apps/KDE4.x/admin/polkit-qt-1-0.112.0.tar.bz2"
-MD5="bee71b71c12797e6fc498540a06c829b  $PACKAGE"
+MD5="bee71b71c12797e6fc498540a06c829b"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # highlight
 #
 ## EDITHOOK1
-PKG=ABChighlightXYZ
-PKG_VERSION="3.39">
-PKG_FILE=ABChighlight-3.39.tar.bz2XYZ
+PKG="highlight"
+PKG_VERSION="3.39"
+PKG_FILE="highlight-3.39.tar.bz2"
 URL="http://www.andre-simon.de/zip/highlight-3.39.tar.bz2"
-MD5="09eb1c78c8599125a0a7fe616e850b76  $PACKAGE"
+MD5="09eb1c78c8599125a0a7fe616e850b76"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # font-util
 #
 ## EDITHOOK1
-PKG=ABCfont-utilXYZ
+PKG="font-util"
 PKG_VERSION=
-PKG_FILE=ABCfont-util-1.3.1.tar.bz2XYZ
+PKG_FILE="font-util-1.3.1.tar.bz2"
 URL="https://www.x.org/pub/individual/font/font-util-1.3.1.tar.bz2"
-MD5="23756dab809f9ec5011bb27fb2c3c7d6  $PACKAGE"
+MD5="23756dab809f9ec5011bb27fb2c3c7d6"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

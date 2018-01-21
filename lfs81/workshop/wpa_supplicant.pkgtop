@@ -2,11 +2,11 @@
 # wpa_supplicant
 #
 ## EDITHOOK1
-PKG=ABCwpa_supplicantXYZ
-PKG_VERSION="2.6">
-PKG_FILE=ABCwpa_supplicant-2.6.tar.gzXYZ
+PKG="wpa_supplicant"
+PKG_VERSION="2.6"
+PKG_FILE="wpa_supplicant-2.6.tar.gz"
 URL="https://w1.fi/releases/wpa_supplicant-2.6.tar.gz"
-MD5="091569eb4440b7d7f2b4276dbfc03c3c  $PACKAGE"
+MD5="091569eb4440b7d7f2b4276dbfc03c3c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

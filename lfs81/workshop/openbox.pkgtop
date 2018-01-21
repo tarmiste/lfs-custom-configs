@@ -2,11 +2,11 @@
 # openbox
 #
 ## EDITHOOK1
-PKG=ABCopenboxXYZ
-PKG_VERSION="3.6.1">
-PKG_FILE=ABCopenbox-3.6.1.tar.gzXYZ
+PKG="openbox"
+PKG_VERSION="3.6.1"
+PKG_FILE="openbox-3.6.1.tar.gz"
 URL="http://openbox.org/dist/openbox/openbox-3.6.1.tar.gz"
-MD5="b72794996c6a3ad94634727b95f9d204  $PACKAGE"
+MD5="b72794996c6a3ad94634727b95f9d204"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

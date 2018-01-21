@@ -2,11 +2,11 @@
 # libX11
 #
 ## EDITHOOK1
-PKG=ABClibX11XYZ
+PKG="libX11"
 PKG_VERSION=
-PKG_FILE=ABClibX11-1.6.5.tar.bz2XYZ
+PKG_FILE="libX11-1.6.5.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libX11-1.6.5.tar.bz2"
-MD5="0f618db70c4054ca67cee0cc156a4255  $PACKAGE"
+MD5="0f618db70c4054ca67cee0cc156a4255"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

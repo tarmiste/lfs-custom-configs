@@ -2,11 +2,11 @@
 # xprop
 #
 ## EDITHOOK1
-PKG=ABCxpropXYZ
+PKG="xprop"
 PKG_VERSION=
-PKG_FILE=ABCxprop-1.2.2.tar.bz2XYZ
+PKG_FILE="xprop-1.2.2.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xprop-1.2.2.tar.bz2"
-MD5="fae3d2fda07684027a643ca783d595cc  $PACKAGE"
+MD5="fae3d2fda07684027a643ca783d595cc"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

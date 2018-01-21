@@ -2,11 +2,11 @@
 # libxshmfence
 #
 ## EDITHOOK1
-PKG=ABClibxshmfenceXYZ
+PKG="libxshmfence"
 PKG_VERSION=
-PKG_FILE=ABClibxshmfence-1.2.tar.bz2XYZ
+PKG_FILE="libxshmfence-1.2.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libxshmfence-1.2.tar.bz2"
-MD5="66662e76899112c0f99e22f2fc775a7e  $PACKAGE"
+MD5="66662e76899112c0f99e22f2fc775a7e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

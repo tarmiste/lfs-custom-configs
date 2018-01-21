@@ -2,11 +2,11 @@
 # libdaemon
 #
 ## EDITHOOK1
-PKG=ABClibdaemonXYZ
-PKG_VERSION="0.14">
-PKG_FILE=ABClibdaemon-0.14.tar.gzXYZ
+PKG="libdaemon"
+PKG_VERSION="0.14"
+PKG_FILE="libdaemon-0.14.tar.gz"
 URL="http://0pointer.de/lennart/projects/libdaemon/libdaemon-0.14.tar.gz"
-MD5="509dc27107c21bcd9fbf2f95f5669563  $PACKAGE"
+MD5="509dc27107c21bcd9fbf2f95f5669563"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

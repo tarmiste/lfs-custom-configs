@@ -2,11 +2,11 @@
 # xine-lib
 #
 ## EDITHOOK1
-PKG=ABCxine-libXYZ
-PKG_VERSION="1.2.8">
-PKG_FILE=ABCxine-lib-1.2.8.tar.xzXYZ
+PKG="xine-lib"
+PKG_VERSION="1.2.8"
+PKG_FILE="xine-lib-1.2.8.tar.xz"
 URL="https://downloads.sourceforge.net/xine/xine-lib-1.2.8.tar.xz"
-MD5="427cc4568632eea725d5169a4a50ff22  $PACKAGE"
+MD5="427cc4568632eea725d5169a4a50ff22"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

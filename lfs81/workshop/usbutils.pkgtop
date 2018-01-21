@@ -2,11 +2,11 @@
 # usbutils
 #
 ## EDITHOOK1
-PKG=ABCusbutilsXYZ
-PKG_VERSION="008">
-PKG_FILE=ABCusbutils-008.tar.xzXYZ
+PKG="usbutils"
+PKG_VERSION="008"
+PKG_FILE="usbutils-008.tar.xz"
 URL="https://www.kernel.org/pub/linux/utils/usb/usbutils/usbutils-008.tar.xz"
-MD5="2780b6ae21264c888f8f30fb2aab1259  $PACKAGE"
+MD5="2780b6ae21264c888f8f30fb2aab1259"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

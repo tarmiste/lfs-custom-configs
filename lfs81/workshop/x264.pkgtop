@@ -2,11 +2,11 @@
 # x264
 #
 ## EDITHOOK1
-PKG=ABCx264XYZ
-PKG_VERSION="20170822-2245">
-PKG_FILE=ABCx264-snapshot-20170822-2245-stable.tar.bz2 XYZ
+PKG="x264"
+PKG_VERSION="20170822-2245"
+PKG_FILE="x264-snapshot-20170822-2245-stable.tar.bz2 "
 URL="https://download.videolan.org/x264/snapshots/x264-snapshot-20170822-2245-stable.tar.bz2 "
-MD5="b1760207e70355f24d30ad44d13d3589  $PACKAGE"
+MD5="b1760207e70355f24d30ad44d13d3589"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

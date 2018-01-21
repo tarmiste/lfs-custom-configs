@@ -2,11 +2,11 @@
 # unbound
 #
 ## EDITHOOK1
-PKG=ABCunboundXYZ
-PKG_VERSION="1.6.5">
-PKG_FILE=ABCunbound-1.6.5.tar.gzXYZ
+PKG="unbound"
+PKG_VERSION="1.6.5"
+PKG_FILE="unbound-1.6.5.tar.gz"
 URL="http://www.unbound.net/downloads/unbound-1.6.5.tar.gz"
-MD5="5825332b72bae9d8793f9cba16cb13fd  $PACKAGE"
+MD5="5825332b72bae9d8793f9cba16cb13fd"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

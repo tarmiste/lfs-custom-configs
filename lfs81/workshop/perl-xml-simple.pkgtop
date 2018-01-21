@@ -2,9 +2,9 @@
 # perl-xml-simple
 #
 ## EDITHOOK1
-PKG=ABCperl-xml-simpleXYZ
+PKG="perl-xml-simple"
 PKG_VERSION=
-PKG_FILE=ABCXML-Simple-2.24.tar.gzXYZ
+PKG_FILE="XML-Simple-2.24.tar.gz"
 URL="https://www.cpan.org/authors/id/G/GR/GRANTM/XML-Simple-2.24.tar.gz"
 #
 ## EDITHOOK2

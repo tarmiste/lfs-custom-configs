@@ -2,11 +2,11 @@
 # xfburn
 #
 ## EDITHOOK1
-PKG=ABCxfburnXYZ
-PKG_VERSION="0.5.4">
-PKG_FILE=ABCxfburn-0.5.4.tar.bz2XYZ
+PKG="xfburn"
+PKG_VERSION="0.5.4"
+PKG_FILE="xfburn-0.5.4.tar.bz2"
 URL="http://archive.xfce.org/src/apps/xfburn/0.5/xfburn-0.5.4.tar.bz2"
-MD5="448fcbb7023645216c5a52435a9cf72a  $PACKAGE"
+MD5="448fcbb7023645216c5a52435a9cf72a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

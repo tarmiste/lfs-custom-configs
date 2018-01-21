@@ -2,11 +2,11 @@
 # libtasn1
 #
 ## EDITHOOK1
-PKG=ABClibtasn1XYZ
-PKG_VERSION="4.12">
-PKG_FILE=ABClibtasn1-4.12.tar.gzXYZ
+PKG="libtasn1"
+PKG_VERSION="4.12"
+PKG_FILE="libtasn1-4.12.tar.gz"
 URL="https://ftp.gnu.org/gnu/libtasn1/libtasn1-4.12.tar.gz"
-MD5="5c724bd1f73aaf4a311833e1cd297b21  $PACKAGE"
+MD5="5c724bd1f73aaf4a311833e1cd297b21"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

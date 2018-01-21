@@ -2,11 +2,11 @@
 # xf86dgaproto
 #
 ## EDITHOOK1
-PKG=ABCxf86dgaprotoXYZ
+PKG="xf86dgaproto"
 PKG_VERSION=
-PKG_FILE=ABCxf86dgaproto-2.1.tar.bz2XYZ
+PKG_FILE="xf86dgaproto-2.1.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/xf86dgaproto-2.1.tar.bz2"
-MD5="a036dc2fcbf052ec10621fd48b68dbb1  $PACKAGE"
+MD5="a036dc2fcbf052ec10621fd48b68dbb1"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

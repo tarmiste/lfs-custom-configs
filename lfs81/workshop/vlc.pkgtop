@@ -2,11 +2,11 @@
 # vlc
 #
 ## EDITHOOK1
-PKG=ABCvlcXYZ
-PKG_VERSION="2.2.6">
-PKG_FILE=ABCvlc-2.2.6.tar.xzXYZ
+PKG="vlc"
+PKG_VERSION="2.2.6"
+PKG_FILE="vlc-2.2.6.tar.xz"
 URL="https://download.videolan.org/vlc/2.2.6/vlc-2.2.6.tar.xz"
-MD5="031d1bbef7737d44d18d78d6761ed26e  $PACKAGE"
+MD5="031d1bbef7737d44d18d78d6761ed26e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

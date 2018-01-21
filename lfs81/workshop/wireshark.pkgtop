@@ -2,11 +2,11 @@
 # wireshark
 #
 ## EDITHOOK1
-PKG=ABCwiresharkXYZ
-PKG_VERSION="2.4.0"> <!-- even minors only -->
-PKG_FILE=ABCwireshark-2.4.0.tar.xzXYZ
+PKG="wireshark"
+PKG_VERSION="2.4.0" <!-- even minors only --
+PKG_FILE="wireshark-2.4.0.tar.xz"
 URL="https://www.wireshark.org/download/src/all-versions/wireshark-2.4.0.tar.xz"
-MD5="655106f8cf3bb8f521336d3a8ab5b10b  $PACKAGE"
+MD5="655106f8cf3bb8f521336d3a8ab5b10b"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

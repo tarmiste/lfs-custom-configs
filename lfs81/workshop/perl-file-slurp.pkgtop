@@ -2,9 +2,9 @@
 # perl-file-slurp
 #
 ## EDITHOOK1
-PKG=ABCperl-file-slurpXYZ
+PKG="perl-file-slurp"
 PKG_VERSION=
-PKG_FILE=ABCFile-Slurp-9999.19.tar.gzXYZ
+PKG_FILE="File-Slurp-9999.19.tar.gz"
 URL="https://www.cpan.org/authors/id/U/UR/URI/File-Slurp-9999.19.tar.gz"
 #
 ## EDITHOOK2

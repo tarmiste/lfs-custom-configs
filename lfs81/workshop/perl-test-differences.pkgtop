@@ -2,9 +2,9 @@
 # perl-test-differences
 #
 ## EDITHOOK1
-PKG=ABCperl-test-differencesXYZ
+PKG="perl-test-differences"
 PKG_VERSION=
-PKG_FILE=ABCTest-Differences-0.64.tar.gzXYZ
+PKG_FILE="Test-Differences-0.64.tar.gz"
 URL="https://www.cpan.org/authors/id/D/DC/DCANTRELL/Test-Differences-0.64.tar.gz"
 #
 ## EDITHOOK2

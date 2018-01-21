@@ -2,11 +2,11 @@
 # apache-ant
 #
 ## EDITHOOK1
-PKG=ABCapache-antXYZ
-PKG_VERSION="1.10.1">
-PKG_FILE=ABCapache-ant-1.10.1-src.tar.xz junit-4.11.jar hamcrest-core-1.3.jarXYZ
+PKG="apache-ant"
+PKG_VERSION="1.10.1"
+PKG_FILE="apache-ant-1.10.1-src.tar.xz junit-4.11.jar hamcrest-core-1.3.jar"
 URL="https://archive.apache.org/dist/ant/source/apache-ant-1.10.1-src.tar.xz"
-MD5="ebecbe7488c624b06bc6a264a3a7c4ec  $PACKAGE"
+MD5="ebecbe7488c624b06bc6a264a3a7c4ec"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

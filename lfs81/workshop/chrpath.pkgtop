@@ -2,11 +2,11 @@
 # chrpath
 #
 ## EDITHOOK1
-PKG=ABCchrpathXYZ
-PKG_VERSION="0.16">
-PKG_FILE=ABCchrpath-0.16.tar.gzXYZ
+PKG="chrpath"
+PKG_VERSION="0.16"
+PKG_FILE="chrpath-0.16.tar.gz"
 URL="https://alioth.debian.org/frs/download.php/latestfile/813/chrpath-0.16.tar.gz"
-MD5="2bf8d1d1ee345fc8a7915576f5649982  $PACKAGE"
+MD5="2bf8d1d1ee345fc8a7915576f5649982"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # json-glib
 #
 ## EDITHOOK1
-PKG=ABCjson-glibXYZ
-PKG_VERSION="1.2.8">
-PKG_FILE=ABCjson-glib-1.2.8.tar.xzXYZ
+PKG="json-glib"
+PKG_VERSION="1.2.8"
+PKG_FILE="json-glib-1.2.8.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/json-glib/1.2/json-glib-1.2.8.tar.xz"
-MD5="ff31e7d0594df44318e12facda3d086e  $PACKAGE"
+MD5="ff31e7d0594df44318e12facda3d086e"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

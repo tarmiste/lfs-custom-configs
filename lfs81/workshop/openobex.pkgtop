@@ -2,11 +2,11 @@
 # openobex
 #
 ## EDITHOOK1
-PKG=ABCopenobexXYZ
-PKG_VERSION="1.7.2">
-PKG_FILE=ABCopenobex-1.7.2-Source.tar.gzXYZ
+PKG="openobex"
+PKG_VERSION="1.7.2"
+PKG_FILE="openobex-1.7.2-Source.tar.gz"
 URL="https://downloads.sourceforge.net/openobex/openobex-1.7.2-Source.tar.gz"
-MD5="f6e0b6cb7dcfd731460a7e9a91429a3a  $PACKAGE"
+MD5="f6e0b6cb7dcfd731460a7e9a91429a3a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

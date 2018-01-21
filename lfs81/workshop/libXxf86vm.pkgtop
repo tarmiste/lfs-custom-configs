@@ -2,11 +2,11 @@
 # libXxf86vm
 #
 ## EDITHOOK1
-PKG=ABClibXxf86vmXYZ
+PKG="libXxf86vm"
 PKG_VERSION=
-PKG_FILE=ABClibXxf86vm-1.1.4.tar.bz2XYZ
+PKG_FILE="libXxf86vm-1.1.4.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libXxf86vm-1.1.4.tar.bz2"
-MD5="298b8fff82df17304dfdb5fe4066fe3a  $PACKAGE"
+MD5="298b8fff82df17304dfdb5fe4066fe3a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

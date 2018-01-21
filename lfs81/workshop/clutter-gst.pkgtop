@@ -2,11 +2,11 @@
 # clutter-gst
 #
 ## EDITHOOK1
-PKG=ABCclutter-gstXYZ
-PKG_VERSION="3.0.24">
-PKG_FILE=ABCclutter-gst-3.0.24.tar.xzXYZ
+PKG="clutter-gst"
+PKG_VERSION="3.0.24"
+PKG_FILE="clutter-gst-3.0.24.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/clutter-gst/3.0/clutter-gst-3.0.24.tar.xz"
-MD5="3e145e24bb3c340eeeddafd18efe547d  $PACKAGE"
+MD5="3e145e24bb3c340eeeddafd18efe547d"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

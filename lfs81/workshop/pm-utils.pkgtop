@@ -2,11 +2,11 @@
 # pm-utils
 #
 ## EDITHOOK1
-PKG=ABCpm-utilsXYZ
-PKG_VERSION="1.4.1">
-PKG_FILE=ABCpm-utils-1.4.1.tar.gzXYZ
+PKG="pm-utils"
+PKG_VERSION="1.4.1"
+PKG_FILE="pm-utils-1.4.1.tar.gz"
 URL="https://pm-utils.freedesktop.org/releases/pm-utils-1.4.1.tar.gz"
-MD5="1742a556089c36c3a89eb1b957da5a60  $PACKAGE"
+MD5="1742a556089c36c3a89eb1b957da5a60"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

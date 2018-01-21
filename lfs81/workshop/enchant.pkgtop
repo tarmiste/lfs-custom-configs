@@ -2,11 +2,11 @@
 # enchant
 #
 ## EDITHOOK1
-PKG=ABCenchantXYZ
-PKG_VERSION="1.6.0">
-PKG_FILE=ABCenchant-1.6.0.tar.gzXYZ
+PKG="enchant"
+PKG_VERSION="1.6.0"
+PKG_FILE="enchant-1.6.0.tar.gz"
 URL="http://www.abisource.com/downloads/enchant/1.6.0/enchant-1.6.0.tar.gz"
-MD5="de11011aff801dc61042828041fb59c7  $PACKAGE"
+MD5="de11011aff801dc61042828041fb59c7"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

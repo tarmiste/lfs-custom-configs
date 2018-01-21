@@ -2,11 +2,11 @@
 # xdriinfo
 #
 ## EDITHOOK1
-PKG=ABCxdriinfoXYZ
+PKG="xdriinfo"
 PKG_VERSION=
-PKG_FILE=ABCxdriinfo-1.0.5.tar.bz2XYZ
+PKG_FILE="xdriinfo-1.0.5.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xdriinfo-1.0.5.tar.bz2"
-MD5="fceddaeb08e32e027d12a71490665866  $PACKAGE"
+MD5="fceddaeb08e32e027d12a71490665866"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

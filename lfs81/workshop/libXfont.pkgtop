@@ -2,9 +2,9 @@
 # libXfont
 #
 ## EDITHOOK1
-PKG=ABClibXfontXYZ
+PKG="libXfont"
 PKG_VERSION=
-PKG_FILE=ABClibXfont-1.5.2.tar.bz2XYZ
+PKG_FILE="libXfont-1.5.2.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libXfont-1.5.2.tar.bz2"
 #
 ## EDITHOOK2

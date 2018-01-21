@@ -2,11 +2,11 @@
 # gst10-plugins-good
 #
 ## EDITHOOK1
-PKG=ABCgst10-plugins-goodXYZ
-PKG_VERSION="1.12.2"> <!-- Even minors only -->
-PKG_FILE=ABCgst-plugins-good-1.12.2.tar.xzXYZ
+PKG="gst10-plugins-good"
+PKG_VERSION="1.12.2" <!-- Even minors only --
+PKG_FILE="gst-plugins-good-1.12.2.tar.xz"
 URL="https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.12.2.tar.xz"
-MD5="20254217d9805484532e08ff1c3aa296  $PACKAGE"
+MD5="20254217d9805484532e08ff1c3aa296"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

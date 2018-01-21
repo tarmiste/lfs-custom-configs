@@ -2,11 +2,11 @@
 # pcre2
 #
 ## EDITHOOK1
-PKG=ABCpcre2XYZ
-PKG_VERSION="10.30">
-PKG_FILE=ABCpcre2-10.30.tar.bz2XYZ
+PKG="pcre2"
+PKG_VERSION="10.30"
+PKG_FILE="pcre2-10.30.tar.bz2"
 URL="https://downloads.sourceforge.net/pcre/pcre2-10.30.tar.bz2"
-MD5="d3adf4b130eed854a530390f00020a65  $PACKAGE"
+MD5="d3adf4b130eed854a530390f00020a65"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # emacs
 #
 ## EDITHOOK1
-PKG=ABCemacsXYZ
-PKG_VERSION="25.2">
-PKG_FILE=ABCemacs-25.2.tar.xzXYZ
+PKG="emacs"
+PKG_VERSION="25.2"
+PKG_FILE="emacs-25.2.tar.xz"
 URL="https://ftp.gnu.org/gnu/emacs/emacs-25.2.tar.xz"
-MD5="06442d867158754bdde793eca420ca49  $PACKAGE"
+MD5="06442d867158754bdde793eca420ca49"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

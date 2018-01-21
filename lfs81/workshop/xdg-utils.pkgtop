@@ -2,11 +2,11 @@
 # xdg-utils
 #
 ## EDITHOOK1
-PKG=ABCxdg-utilsXYZ
-PKG_VERSION="1.1.2">
-PKG_FILE=ABCxdg-utils-1.1.2.tar.gzXYZ
+PKG="xdg-utils"
+PKG_VERSION="1.1.2"
+PKG_FILE="xdg-utils-1.1.2.tar.gz"
 URL="https://portland.freedesktop.org/download/xdg-utils-1.1.2.tar.gz"
-MD5="361e75eb76c94d19f6f4f330d8ee626b  $PACKAGE"
+MD5="361e75eb76c94d19f6f4f330d8ee626b"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

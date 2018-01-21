@@ -2,11 +2,11 @@
 # libpng
 #
 ## EDITHOOK1
-PKG=ABClibpngXYZ
-PKG_VERSION="1.6.31">
-PKG_FILE=ABClibpng-1.6.31.tar.xzXYZ
+PKG="libpng"
+PKG_VERSION="1.6.31"
+PKG_FILE="libpng-1.6.31.tar.xz"
 URL="https://downloads.sourceforge.net/libpng/libpng-1.6.31.tar.xz"
-MD5="1b34eab440263e32cfa39d19413fad54  $PACKAGE"
+MD5="1b34eab440263e32cfa39d19413fad54"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

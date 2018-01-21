@@ -2,11 +2,11 @@
 # joe
 #
 ## EDITHOOK1
-PKG=ABCjoeXYZ
-PKG_VERSION="4.4">
-PKG_FILE=ABCjoe-4.4.tar.gzXYZ
+PKG="joe"
+PKG_VERSION="4.4"
+PKG_FILE="joe-4.4.tar.gz"
 URL="https://downloads.sourceforge.net/joe-editor/joe-4.4.tar.gz"
-MD5="59e63debe60b456a6ee5c0c27a756a47  $PACKAGE"
+MD5="59e63debe60b456a6ee5c0c27a756a47"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

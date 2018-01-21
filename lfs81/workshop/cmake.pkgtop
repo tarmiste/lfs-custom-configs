@@ -2,11 +2,11 @@
 # cmake
 #
 ## EDITHOOK1
-PKG=ABCcmakeXYZ
-PKG_VERSION=;">
-PKG_FILE=ABCcmake-3.9.1.tar.gzXYZ
+PKG="cmake"
+PKG_VERSION=;"
+PKG_FILE="cmake-3.9.1.tar.gz"
 URL="https://cmake.org/files/v3.9/cmake-3.9.1.tar.gz"
-MD5="00f43c6a56d4903436317c14f9ca7f37  $PACKAGE"
+MD5="00f43c6a56d4903436317c14f9ca7f37"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

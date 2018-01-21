@@ -2,11 +2,11 @@
 # xkbutils
 #
 ## EDITHOOK1
-PKG=ABCxkbutilsXYZ
+PKG="xkbutils"
 PKG_VERSION=
-PKG_FILE=ABCxkbutils-1.0.4.tar.bz2XYZ
+PKG_FILE="xkbutils-1.0.4.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xkbutils-1.0.4.tar.bz2"
-MD5="502b14843f610af977dffc6cbf2102d5  $PACKAGE"
+MD5="502b14843f610af977dffc6cbf2102d5"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

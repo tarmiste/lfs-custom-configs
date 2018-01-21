@@ -2,11 +2,11 @@
 # v4l-utils
 #
 ## EDITHOOK1
-PKG=ABCv4l-utilsXYZ
-PKG_VERSION="1.12.5">
-PKG_FILE=ABCv4l-utils-1.12.5.tar.bz2XYZ
+PKG="v4l-utils"
+PKG_VERSION="1.12.5"
+PKG_FILE="v4l-utils-1.12.5.tar.bz2"
 URL="https://www.linuxtv.org/downloads/v4l-utils/v4l-utils-1.12.5.tar.bz2"
-MD5="98ade56409bb1beb665c9cf2e4d99592  $PACKAGE"
+MD5="98ade56409bb1beb665c9cf2e4d99592"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # slang
 #
 ## EDITHOOK1
-PKG=ABCslangXYZ
-PKG_VERSION="2.3.1">
-PKG_FILE=ABCslang-2.3.1.tar.bz2XYZ
+PKG="slang"
+PKG_VERSION="2.3.1"
+PKG_FILE="slang-2.3.1.tar.bz2"
 URL="http://www.jedsoft.org/releases/slang/slang-2.3.1.tar.bz2"
-MD5="bd46d1dc17a50c72004ad842829d7b1f  $PACKAGE"
+MD5="bd46d1dc17a50c72004ad842829d7b1f"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

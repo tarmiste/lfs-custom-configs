@@ -2,11 +2,11 @@
 # font-xfree86-type1
 #
 ## EDITHOOK1
-PKG=ABCfont-xfree86-type1XYZ
+PKG="font-xfree86-type1"
 PKG_VERSION=
-PKG_FILE=ABCfont-xfree86-type1-1.0.4.tar.bz2XYZ
+PKG_FILE="font-xfree86-type1-1.0.4.tar.bz2"
 URL="https://www.x.org/pub/individual/font/font-xfree86-type1-1.0.4.tar.bz2"
-MD5="3eeb3fb44690b477d510bbd8f86cf5aa  $PACKAGE"
+MD5="3eeb3fb44690b477d510bbd8f86cf5aa"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

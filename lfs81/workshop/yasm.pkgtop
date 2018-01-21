@@ -2,11 +2,11 @@
 # yasm
 #
 ## EDITHOOK1
-PKG=ABCyasmXYZ
-PKG_VERSION="1.3.0">
-PKG_FILE=ABCyasm-1.3.0.tar.gzXYZ
+PKG="yasm"
+PKG_VERSION="1.3.0"
+PKG_FILE="yasm-1.3.0.tar.gz"
 URL="http://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz"
-MD5="fc9e586751ff789b34b1f21d572d96af  $PACKAGE"
+MD5="fc9e586751ff789b34b1f21d572d96af"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

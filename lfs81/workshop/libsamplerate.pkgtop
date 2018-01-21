@@ -2,11 +2,11 @@
 # libsamplerate
 #
 ## EDITHOOK1
-PKG=ABClibsamplerateXYZ
-PKG_VERSION="0.1.9">
-PKG_FILE=ABClibsamplerate-0.1.9.tar.gzXYZ
+PKG="libsamplerate"
+PKG_VERSION="0.1.9"
+PKG_FILE="libsamplerate-0.1.9.tar.gz"
 URL="http://www.mega-nerd.com/SRC/libsamplerate-0.1.9.tar.gz"
-MD5="2b78ae9fe63b36b9fbb6267fad93f259  $PACKAGE"
+MD5="2b78ae9fe63b36b9fbb6267fad93f259"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

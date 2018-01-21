@@ -2,9 +2,9 @@
 # plasma5-build
 #
 ## EDITHOOK1
-PKG=ABCplasma5-buildXYZ
+PKG="plasma5-build"
 PKG_VERSION=
-PKG_FILE=ABCXYZ
+PKG_FILE=""
 URL=wget -r -nH -nd -A '*.xz' -np $url
 #
 ## EDITHOOK2

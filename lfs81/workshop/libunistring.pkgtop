@@ -2,11 +2,11 @@
 # libunistring
 #
 ## EDITHOOK1
-PKG=ABClibunistringXYZ
-PKG_VERSION="0.9.7">
-PKG_FILE=ABClibunistring-0.9.7.tar.xzXYZ
+PKG="libunistring"
+PKG_VERSION="0.9.7"
+PKG_FILE="libunistring-0.9.7.tar.xz"
 URL="https://ftp.gnu.org/gnu/libunistring/libunistring-0.9.7.tar.xz"
-MD5="82e0545363d111bfdfec2ddbfe62ffd3  $PACKAGE"
+MD5="82e0545363d111bfdfec2ddbfe62ffd3"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

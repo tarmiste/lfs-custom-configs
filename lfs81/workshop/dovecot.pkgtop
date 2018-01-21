@@ -2,11 +2,11 @@
 # dovecot
 #
 ## EDITHOOK1
-PKG=ABCdovecotXYZ
-PKG_VERSION="&dovecot-major;.&dovecot-minor;.&dovecot-micro;">
-PKG_FILE=ABCdovecot-2.2.32.tar.gzXYZ
+PKG="dovecot"
+PKG_VERSION="&dovecot-major;.&dovecot-minor;.&dovecot-micro;"
+PKG_FILE="dovecot-2.2.32.tar.gz"
 URL="https://www.dovecot.org/releases/2.2/dovecot-2.2.32.tar.gz"
-MD5="534feae88700ddc704584e0fc8ee5bdc  $PACKAGE"
+MD5="534feae88700ddc704584e0fc8ee5bdc"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # upower
 #
 ## EDITHOOK1
-PKG=ABCupowerXYZ
-PKG_VERSION="0.99.5">
-PKG_FILE=ABCupower-0.99.5.tar.xzXYZ
+PKG="upower"
+PKG_VERSION="0.99.5"
+PKG_FILE="upower-0.99.5.tar.xz"
 URL="https://upower.freedesktop.org/releases/upower-0.99.5.tar.xz"
-MD5="ec57b4b7bf0af568f9a7a5603c921d97  $PACKAGE"
+MD5="ec57b4b7bf0af568f9a7a5603c921d97"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

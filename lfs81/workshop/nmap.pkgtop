@@ -2,11 +2,11 @@
 # nmap
 #
 ## EDITHOOK1
-PKG=ABCnmapXYZ
-PKG_VERSION="7.60">
-PKG_FILE=ABCnmap-7.60.tar.bz2XYZ
+PKG="nmap"
+PKG_VERSION="7.60"
+PKG_FILE="nmap-7.60.tar.bz2"
 URL="http://nmap.org/dist/nmap-7.60.tar.bz2"
-MD5="4e454266559ddf2c4e2109866c62560c  $PACKAGE"
+MD5="4e454266559ddf2c4e2109866c62560c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

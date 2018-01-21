@@ -2,11 +2,11 @@
 # mousepad
 #
 ## EDITHOOK1
-PKG=ABCmousepadXYZ
-PKG_VERSION="0.4.0">
-PKG_FILE=ABCmousepad-0.4.0.tar.bz2XYZ
+PKG="mousepad"
+PKG_VERSION="0.4.0"
+PKG_FILE="mousepad-0.4.0.tar.bz2"
 URL="http://archive.xfce.org/src/apps/mousepad/0.4/mousepad-0.4.0.tar.bz2"
-MD5="f55314c5dda6323883241e6cf01550a7  $PACKAGE"
+MD5="f55314c5dda6323883241e6cf01550a7"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

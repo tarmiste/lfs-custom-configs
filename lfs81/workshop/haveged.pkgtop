@@ -2,11 +2,11 @@
 # haveged
 #
 ## EDITHOOK1
-PKG=ABChavegedXYZ
-PKG_VERSION="1.9.1">
-PKG_FILE=ABChaveged-1.9.1.tar.gzXYZ
+PKG="haveged"
+PKG_VERSION="1.9.1"
+PKG_FILE="haveged-1.9.1.tar.gz"
 URL="https://downloads.sourceforge.net/haveged/haveged-1.9.1.tar.gz"
-MD5="015ff58cd10607db0e0de60aeca2f5f8  $PACKAGE"
+MD5="015ff58cd10607db0e0de60aeca2f5f8"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

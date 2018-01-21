@@ -2,11 +2,11 @@
 # libcroco
 #
 ## EDITHOOK1
-PKG=ABClibcrocoXYZ
-PKG_VERSION="0.6.12">
-PKG_FILE=ABClibcroco-0.6.12.tar.xzXYZ
+PKG="libcroco"
+PKG_VERSION="0.6.12"
+PKG_FILE="libcroco-0.6.12.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/libcroco/0.6/libcroco-0.6.12.tar.xz"
-MD5="bc0984fce078ba2ce29f9500c6b9ddce  $PACKAGE"
+MD5="bc0984fce078ba2ce29f9500c6b9ddce"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

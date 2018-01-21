@@ -2,9 +2,9 @@
 # perl-datetime-format-builder
 #
 ## EDITHOOK1
-PKG=ABCperl-datetime-format-builderXYZ
+PKG="perl-datetime-format-builder"
 PKG_VERSION=
-PKG_FILE=ABCDateTime-Format-Builder-0.81.tar.gzXYZ
+PKG_FILE="DateTime-Format-Builder-0.81.tar.gz"
 URL="https://www.cpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz"
 #
 ## EDITHOOK2

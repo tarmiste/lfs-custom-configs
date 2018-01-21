@@ -2,11 +2,11 @@
 # freeglut
 #
 ## EDITHOOK1
-PKG=ABCfreeglutXYZ
-PKG_VERSION="3.0.0">
-PKG_FILE=ABCfreeglut-3.0.0.tar.gzXYZ
+PKG="freeglut"
+PKG_VERSION="3.0.0"
+PKG_FILE="freeglut-3.0.0.tar.gz"
 URL="https://downloads.sourceforge.net/freeglut/freeglut-3.0.0.tar.gz"
-MD5="90c3ca4dd9d51cf32276bc5344ec9754  $PACKAGE"
+MD5="90c3ca4dd9d51cf32276bc5344ec9754"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # qupzilla
 #
 ## EDITHOOK1
-PKG=ABCqupzillaXYZ
-PKG_VERSION="2.1.2">
-PKG_FILE=ABCQupZilla-2.1.2.tar.xzXYZ
+PKG="qupzilla"
+PKG_VERSION="2.1.2"
+PKG_FILE="QupZilla-2.1.2.tar.xz"
 URL="https://github.com/QupZilla/qupzilla/releases/download/v2.1.2/QupZilla-2.1.2.tar.xz"
-MD5="84e4b9dda1e0bb5ad96f3b87f9fc1328  $PACKAGE"
+MD5="84e4b9dda1e0bb5ad96f3b87f9fc1328"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

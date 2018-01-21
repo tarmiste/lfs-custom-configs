@@ -2,9 +2,9 @@
 # perl-list-moreutils
 #
 ## EDITHOOK1
-PKG=ABCperl-list-moreutilsXYZ
+PKG="perl-list-moreutils"
 PKG_VERSION=
-PKG_FILE=ABCList-MoreUtils-0.419.tar.gzXYZ
+PKG_FILE="List-MoreUtils-0.419.tar.gz"
 URL="https://www.cpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-0.419.tar.gz"
 #
 ## EDITHOOK2

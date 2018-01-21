@@ -2,11 +2,11 @@
 # libXcursor
 #
 ## EDITHOOK1
-PKG=ABClibXcursorXYZ
+PKG="libXcursor"
 PKG_VERSION=
-PKG_FILE=ABClibXcursor-1.1.14.tar.bz2XYZ
+PKG_FILE="libXcursor-1.1.14.tar.bz2"
 URL="https://www.x.org/pub/individual/lib/libXcursor-1.1.14.tar.bz2"
-MD5="1e7c17afbbce83e2215917047c57d1b3  $PACKAGE"
+MD5="1e7c17afbbce83e2215917047c57d1b3"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

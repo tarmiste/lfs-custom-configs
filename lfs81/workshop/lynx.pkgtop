@@ -2,11 +2,11 @@
 # lynx
 #
 ## EDITHOOK1
-PKG=ABClynxXYZ
-PKG_VERSION="2.8.8rel.2">
-PKG_FILE=ABClynx2.8.8rel.2.tar.bz2XYZ
+PKG="lynx"
+PKG_VERSION="2.8.8rel.2"
+PKG_FILE="lynx2.8.8rel.2.tar.bz2"
 URL="http://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.8rel.2.tar.bz2"
-MD5="b231c2aa34dfe7ca25681ef4e55ee7e8  $PACKAGE"
+MD5="b231c2aa34dfe7ca25681ef4e55ee7e8"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

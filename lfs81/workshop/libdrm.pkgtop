@@ -2,11 +2,11 @@
 # libdrm
 #
 ## EDITHOOK1
-PKG=ABClibdrmXYZ
-PKG_VERSION="2.4.82">
-PKG_FILE=ABClibdrm-2.4.82.tar.bz2XYZ
+PKG="libdrm"
+PKG_VERSION="2.4.82"
+PKG_FILE="libdrm-2.4.82.tar.bz2"
 URL="https://dri.freedesktop.org/libdrm/libdrm-2.4.82.tar.bz2"
-MD5="29867814123c3d23056b1d05aada1b9d  $PACKAGE"
+MD5="29867814123c3d23056b1d05aada1b9d"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

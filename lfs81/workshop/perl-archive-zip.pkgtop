@@ -2,9 +2,9 @@
 # perl-archive-zip
 #
 ## EDITHOOK1
-PKG=ABCperl-archive-zipXYZ
+PKG="perl-archive-zip"
 PKG_VERSION=
-PKG_FILE=ABCArchive-Zip-1.59.tar.gzXYZ
+PKG_FILE="Archive-Zip-1.59.tar.gz"
 URL="https://www.cpan.org/authors/id/P/PH/PHRED/Archive-Zip-1.59.tar.gz"
 #
 ## EDITHOOK2

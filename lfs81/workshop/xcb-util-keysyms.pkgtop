@@ -2,11 +2,11 @@
 # xcb-util-keysyms
 #
 ## EDITHOOK1
-PKG=ABCxcb-util-keysymsXYZ
-PKG_VERSION="0.4.0">
-PKG_FILE=ABCxcb-util-keysyms-0.4.0.tar.bz2XYZ
+PKG="xcb-util-keysyms"
+PKG_VERSION="0.4.0"
+PKG_FILE="xcb-util-keysyms-0.4.0.tar.bz2"
 URL="https://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.0.tar.bz2"
-MD5="1022293083eec9e62d5659261c29e367  $PACKAGE"
+MD5="1022293083eec9e62d5659261c29e367"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

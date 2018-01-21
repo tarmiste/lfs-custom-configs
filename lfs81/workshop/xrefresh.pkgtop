@@ -2,11 +2,11 @@
 # xrefresh
 #
 ## EDITHOOK1
-PKG=ABCxrefreshXYZ
+PKG="xrefresh"
 PKG_VERSION=
-PKG_FILE=ABCxrefresh-1.0.5.tar.bz2XYZ
+PKG_FILE="xrefresh-1.0.5.tar.bz2"
 URL="https://www.x.org/pub/individual/app/xrefresh-1.0.5.tar.bz2"
-MD5="a896382bc53ef3e149eaf9b13bc81d42  $PACKAGE"
+MD5="a896382bc53ef3e149eaf9b13bc81d42"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

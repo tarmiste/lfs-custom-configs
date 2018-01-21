@@ -2,11 +2,11 @@
 # lxmenu-data
 #
 ## EDITHOOK1
-PKG=ABClxmenu-dataXYZ
-PKG_VERSION="0.1.5">
-PKG_FILE=ABClxmenu-data-0.1.5.tar.xzXYZ
+PKG="lxmenu-data"
+PKG_VERSION="0.1.5"
+PKG_FILE="lxmenu-data-0.1.5.tar.xz"
 URL="https://downloads.sourceforge.net/lxde/lxmenu-data-0.1.5.tar.xz"
-MD5="cc1989444284a65dbc7047348a68d6d4  $PACKAGE"
+MD5="cc1989444284a65dbc7047348a68d6d4"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

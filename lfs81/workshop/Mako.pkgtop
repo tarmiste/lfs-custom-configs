@@ -2,11 +2,11 @@
 # Mako
 #
 ## EDITHOOK1
-PKG=ABCMakoXYZ
+PKG="Mako"
 PKG_VERSION=
-PKG_FILE=ABCMako-1.0.4.tar.gzXYZ
+PKG_FILE="Mako-1.0.4.tar.gz"
 URL="https://files.pythonhosted.org/packages/source/M/Mako/Mako-1.0.4.tar.gz"
-MD5="c5fc31a323dd4990683d2f2da02d4e20  $PACKAGE"
+MD5="c5fc31a323dd4990683d2f2da02d4e20"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

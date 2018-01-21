@@ -2,9 +2,9 @@
 # font-daewoo-misc
 #
 ## EDITHOOK1
-PKG=ABCfont-daewoo-miscXYZ
+PKG="font-daewoo-misc"
 PKG_VERSION=
-PKG_FILE=ABCfont-daewoo-misc-1.0.3.tar.bz2XYZ
+PKG_FILE="font-daewoo-misc-1.0.3.tar.bz2"
 URL="https://www.x.org/pub/individual/font/font-daewoo-misc-1.0.3.tar.bz2"
 #
 ## EDITHOOK2

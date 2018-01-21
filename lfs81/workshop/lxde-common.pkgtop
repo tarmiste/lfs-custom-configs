@@ -2,11 +2,11 @@
 # lxde-common
 #
 ## EDITHOOK1
-PKG=ABClxde-commonXYZ
-PKG_VERSION="0.99.2">
-PKG_FILE=ABClxde-common-0.99.2.tar.xzXYZ
+PKG="lxde-common"
+PKG_VERSION="0.99.2"
+PKG_FILE="lxde-common-0.99.2.tar.xz"
 URL="https://downloads.sourceforge.net/lxde/lxde-common-0.99.2.tar.xz"
-MD5="14a9d19c4576dc15d985453ccb8ca9f6  $PACKAGE"
+MD5="14a9d19c4576dc15d985453ccb8ca9f6"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

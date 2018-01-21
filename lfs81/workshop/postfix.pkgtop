@@ -2,11 +2,11 @@
 # postfix
 #
 ## EDITHOOK1
-PKG=ABCpostfixXYZ
-PKG_VERSION="3.2.2">
-PKG_FILE=ABCpostfix-3.2.2.tar.gzXYZ
+PKG="postfix"
+PKG_VERSION="3.2.2"
+PKG_FILE="postfix-3.2.2.tar.gz"
 URL="ftp://ftp.porcupine.org/mirrors/postfix-release/official/postfix-3.2.2.tar.gz"
-MD5="aea073a9b0bea5bdb590460a270a4aa0  $PACKAGE"
+MD5="aea073a9b0bea5bdb590460a270a4aa0"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

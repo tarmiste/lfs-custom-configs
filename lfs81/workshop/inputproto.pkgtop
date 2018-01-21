@@ -2,11 +2,11 @@
 # inputproto
 #
 ## EDITHOOK1
-PKG=ABCinputprotoXYZ
+PKG="inputproto"
 PKG_VERSION=
-PKG_FILE=ABCinputproto-2.3.2.tar.bz2XYZ
+PKG_FILE="inputproto-2.3.2.tar.bz2"
 URL="https://www.x.org/pub/individual/proto/inputproto-2.3.2.tar.bz2"
-MD5="b290a463af7def483e6e190de460f31a  $PACKAGE"
+MD5="b290a463af7def483e6e190de460f31a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

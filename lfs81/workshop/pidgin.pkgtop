@@ -2,11 +2,11 @@
 # pidgin
 #
 ## EDITHOOK1
-PKG=ABCpidginXYZ
-PKG_VERSION="2.12.0">
-PKG_FILE=ABCpidgin-2.12.0.tar.bz2XYZ
+PKG="pidgin"
+PKG_VERSION="2.12.0"
+PKG_FILE="pidgin-2.12.0.tar.bz2"
 URL="https://downloads.sourceforge.net/pidgin/pidgin-2.12.0.tar.bz2"
-MD5="8287400c4e5663e0e7844e868d5152af  $PACKAGE"
+MD5="8287400c4e5663e0e7844e868d5152af"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

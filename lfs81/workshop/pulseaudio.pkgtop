@@ -2,11 +2,11 @@
 # pulseaudio
 #
 ## EDITHOOK1
-PKG=ABCpulseaudioXYZ
-PKG_VERSION=;">
-PKG_FILE=ABCpulseaudio-10.0.tar.xzXYZ
+PKG="pulseaudio"
+PKG_VERSION=;"
+PKG_FILE="pulseaudio-10.0.tar.xz"
 URL="https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-10.0.tar.xz"
-MD5="4950d2799bf55ab91f6b7f990b7f0971  $PACKAGE"
+MD5="4950d2799bf55ab91f6b7f990b7f0971"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # sgml-dtd
 #
 ## EDITHOOK1
-PKG=ABCsgml-dtdXYZ
-PKG_VERSION="4.5">
-PKG_FILE=ABCdocbook-4.5.zipXYZ
+PKG="sgml-dtd"
+PKG_VERSION="4.5"
+PKG_FILE="docbook-4.5.zip"
 URL="http://www.docbook.org/sgml/4.5/docbook-4.5.zip"
-MD5="07c581f4bbcba6d3aac85360a19f95f7  $PACKAGE"
+MD5="07c581f4bbcba6d3aac85360a19f95f7"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

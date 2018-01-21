@@ -2,11 +2,11 @@
 # babl
 #
 ## EDITHOOK1
-PKG=ABCbablXYZ
-PKG_VERSION="0.1.30">
-PKG_FILE=ABCbabl-0.1.30.tar.bz2XYZ
+PKG="babl"
+PKG_VERSION="0.1.30"
+PKG_FILE="babl-0.1.30.tar.bz2"
 URL="https://download.gimp.org/pub/babl/0.1/babl-0.1.30.tar.bz2"
-MD5="fca6926a00130eeacc875cac5465c5e7  $PACKAGE"
+MD5="fca6926a00130eeacc875cac5465c5e7"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

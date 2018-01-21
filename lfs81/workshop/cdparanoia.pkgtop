@@ -2,11 +2,11 @@
 # cdparanoia
 #
 ## EDITHOOK1
-PKG=ABCcdparanoiaXYZ
+PKG="cdparanoia"
 PKG_VERSION=
-PKG_FILE=ABCcdparanoia-III-10.2.src.tgzXYZ
+PKG_FILE="cdparanoia-III-10.2.src.tgz"
 URL="https://downloads.xiph.org/releases/cdparanoia/cdparanoia-III-10.2.src.tgz"
-MD5="b304bbe8ab63373924a744eac9ebc652  $PACKAGE"
+MD5="b304bbe8ab63373924a744eac9ebc652"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

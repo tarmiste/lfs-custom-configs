@@ -2,11 +2,11 @@
 # xfce4-notifyd
 #
 ## EDITHOOK1
-PKG=ABCxfce4-notifydXYZ
-PKG_VERSION="0.2.4">
-PKG_FILE=ABCxfce4-notifyd-0.2.4.tar.bz2XYZ
+PKG="xfce4-notifyd"
+PKG_VERSION="0.2.4"
+PKG_FILE="xfce4-notifyd-0.2.4.tar.bz2"
 URL="http://archive.xfce.org/src/apps/xfce4-notifyd/0.2/xfce4-notifyd-0.2.4.tar.bz2"
-MD5="094be6f29206aac8299f27084e284e88  $PACKAGE"
+MD5="094be6f29206aac8299f27084e284e88"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -2,11 +2,11 @@
 # aspell
 #
 ## EDITHOOK1
-PKG=ABCaspellXYZ
-PKG_VERSION="0.60.6.1">
-PKG_FILE=ABCaspell-0.60.6.1.tar.gz dictXYZ
+PKG="aspell"
+PKG_VERSION="0.60.6.1"
+PKG_FILE="aspell-0.60.6.1.tar.gz dict"
 URL="https://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz"
-MD5="e66a9c9af6a60dc46134fdacf6ce97d7  $PACKAGE"
+MD5="e66a9c9af6a60dc46134fdacf6ce97d7"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

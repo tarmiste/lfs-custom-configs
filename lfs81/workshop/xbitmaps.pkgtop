@@ -2,11 +2,11 @@
 # xbitmaps
 #
 ## EDITHOOK1
-PKG=ABCxbitmapsXYZ
-PKG_VERSION="1.1.1">
-PKG_FILE=ABCxbitmaps-1.1.1.tar.bz2XYZ
+PKG="xbitmaps"
+PKG_VERSION="1.1.1"
+PKG_FILE="xbitmaps-1.1.1.tar.bz2"
 URL="https://www.x.org/pub/individual/data/xbitmaps-1.1.1.tar.bz2"
-MD5="7444bbbd999b53bec6a60608a5301f4c  $PACKAGE"
+MD5="7444bbbd999b53bec6a60608a5301f4c"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

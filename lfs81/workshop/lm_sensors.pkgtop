@@ -2,11 +2,11 @@
 # lm_sensors
 #
 ## EDITHOOK1
-PKG=ABClm_sensorsXYZ
-PKG_VERSION="3.4.0">
-PKG_FILE=ABClm_sensors-3.4.0.tar.bz2XYZ
+PKG="lm_sensors"
+PKG_VERSION="3.4.0"
+PKG_FILE="lm_sensors-3.4.0.tar.bz2"
 URL="https://ftp.gwdg.de/pub/linux/misc/lm-sensors/lm_sensors-3.4.0.tar.bz2"
-MD5="c03675ae9d43d60322110c679416901a  $PACKAGE"
+MD5="c03675ae9d43d60322110c679416901a"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do
