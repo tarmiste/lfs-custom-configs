@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr \
             --bindir=/bin \
@@ -22,7 +22,8 @@ install -v -m644 doc/cpio.{pdf,ps,dvi} \
                  /usr/share/doc/cpio-2.12
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

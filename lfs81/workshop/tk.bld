@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cd unix &&
 ./configure --prefix=/usr \
@@ -18,7 +18,8 @@ ln -v -sf wish8.6 /usr/bin/wish &&
 chmod -v 755 /usr/lib/libtk8.6.so
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

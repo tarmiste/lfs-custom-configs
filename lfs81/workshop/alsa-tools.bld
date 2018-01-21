@@ -1,11 +1,11 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 as_root()
 {
   if   [ $EUID = 0 ];        then $*
   elif [ -x /usr/bin/sudo ]; then sudo $*
-  else                            su -c \\"$*\\"
+  else                            su -c \"$*\"
   fi
 }
 
@@ -32,10 +32,11 @@ do
 
 done
 unset tool tool_dir
-exit
+## EDITHOOK_BLDEND
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

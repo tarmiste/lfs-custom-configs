@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 31 exim &&
 useradd -d /dev/null -c "Exim Daemon" -g exim -s /bin/false -u 31 exim
@@ -61,7 +61,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-exim
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

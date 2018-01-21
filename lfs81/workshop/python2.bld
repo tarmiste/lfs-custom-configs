@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr       \
             --enable-shared     \
@@ -24,7 +24,8 @@ ldconfig
 
 export PYTHONDOCS=/usr/share/doc/python-2.7.13
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

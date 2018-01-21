@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 autoconf                  &&
 ./configure --prefix=/usr &&
@@ -53,7 +53,8 @@ INTERFACE_COMPONENTS="eth0"   # Add to IFACE, space separated devices
 IP_FORWARD=true
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -e '/KLocal/a #include <functional>' \
     -i src/profiles/tree/profiletreemodel.cpp  &&
@@ -18,7 +18,8 @@ make
 make -j1 install
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

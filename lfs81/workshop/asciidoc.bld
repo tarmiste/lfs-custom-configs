@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr     \
             --sysconfdir=/etc \
@@ -9,7 +9,8 @@ make -j1 install &&
 make -j1 docs
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

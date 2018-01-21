@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr              \
             --disable-static           \
@@ -11,7 +11,8 @@ install -v -dm755 /usr/share/doc/libisoburn-1.4.6 &&
 install -v -m644 doc/html/* /usr/share/doc/libisoburn-1.4.6
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

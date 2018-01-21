@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 71 colord &&
 useradd -c "Color Daemon Owner" -d /var/lib/colord -u 71 \
@@ -19,7 +19,8 @@ make -j1 install
 #make -k check || true
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

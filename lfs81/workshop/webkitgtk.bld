@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i 's/unsigned short/char16_t/'            \
        Source/JavaScriptCore/API/JSStringRef.h \
@@ -30,7 +30,8 @@ install -vm644  ../Documentation/webkitdomgtk-4.0/html/* \
                 /usr/share/gtk-doc/html/webkitdomgtk-4.0
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

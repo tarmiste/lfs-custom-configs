@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr --mandir=/usr/share/man &&
 make
@@ -9,7 +9,8 @@ install -v -m644 doc/links_cal/* KEYS BRAILLE_HOWTO \
     /usr/share/doc/links-2.14
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

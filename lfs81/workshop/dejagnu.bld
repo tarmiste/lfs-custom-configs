@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr &&
 makeinfo --html --no-split -o doc/dejagnu.html doc/dejagnu.texi &&
@@ -11,7 +11,8 @@ install -v -m644    doc/dejagnu.{html,txt} \
                     /usr/share/doc/dejagnu-1.6
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

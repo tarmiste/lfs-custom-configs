@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cat > mozconfig << "EOF"
 # If you have a multicore machine, all cores will be used by default.
@@ -105,7 +105,8 @@ EOF
 ln -sfv /usr/lib/seamonkey-2.48/chrome/icons/default/seamonkey.png \
         /usr/share/pixmaps
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

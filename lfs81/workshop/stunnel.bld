@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 51 stunnel &&
 useradd -c "stunnel Daemon" -d /var/lib/stunnel \
@@ -75,7 +75,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-stunnel
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i '/CMAKE_USE_LIBUV 1/s/1/0/' CMakeLists.txt     &&
 sed -i '/"lib64"/s/64//' Modules/GNUInstallDirs.cmake &&
@@ -15,7 +15,8 @@ make
 make -j1 install
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

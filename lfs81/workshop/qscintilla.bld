@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cd Qt4Qt5             &&
 qmake qscintilla.pro  &&
@@ -12,7 +12,8 @@ install -v -m644    ../doc/html-Qt4Qt5/* \
                     $QT5DIR/share/doc/QScintilla-2.10.1/html
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

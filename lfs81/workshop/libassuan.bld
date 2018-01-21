@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr &&
 make
@@ -11,7 +11,8 @@ install -v -m644  doc/assuan.{pdf,ps,dvi} \
                   /usr/share/doc/libassuan-2.4.3
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

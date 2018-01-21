@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 case $(uname -m) in
    i?86) sed -i -e '/xmmintrin\.h/d' configure ;;
@@ -10,7 +10,8 @@ make
 make -j1 pkghtmldir=/usr/share/doc/lame-3.99.5 install
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

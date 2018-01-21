@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 rm -rf freetype lcms2 jpeg libpng
 rm -rf zlib &&
@@ -20,7 +20,8 @@ fc-cache -v /usr/share/ghostscript/fonts/
 gs -q -dBATCH /usr/share/ghostscript/9.21/examples/tiger.eps
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

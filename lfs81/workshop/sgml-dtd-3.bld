@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i -e '/ISO 8879/d' \
        -e 's|DTDDECL "-//OASIS//DTD DocBook V3.1//EN"|SGMLDECL|g' \
@@ -24,7 +24,8 @@ PUBLIC "-//Davenport//DTD DocBook V3.0//EN" "docbook.dtd"
   -- End Single Major Version catalog changes --
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

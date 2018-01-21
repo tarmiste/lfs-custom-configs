@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./config --prefix=/usr         \
          --openssldir=/etc/ssl \
@@ -14,7 +14,8 @@ mv -v /usr/share/doc/openssl{,-1.1.0f} &&
 cp -vfr doc/* /usr/share/doc/openssl-1.1.0f
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

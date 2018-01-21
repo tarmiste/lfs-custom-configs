@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../inkscape-0.92.2-use_versioned_ImageMagick6-1.patch
 sed -i 's| abs(| std::fabs(|g' src/ui/tools/flood-tool.cpp
@@ -18,7 +18,8 @@ gtk-update-icon-cache &&
 update-desktop-database
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

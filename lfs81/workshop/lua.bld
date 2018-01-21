@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cat > lua.pc << "EOF"
 V=5.3
@@ -40,7 +40,8 @@ cp -v doc/*.{html,css,gif,png} /usr/share/doc/lua-5.3.4 &&
 install -v -m644 -D lua.pc /usr/lib/pkgconfig/lua.pc
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

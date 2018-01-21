@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../bluez-5.46-obexd_without_systemd-1.patch
 ./configure --prefix=/usr         \
@@ -67,7 +67,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-bluetooth
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

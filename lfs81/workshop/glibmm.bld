@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -e '/^libdocdir =/ s/$(book_name)/glibmm-2.52.0/' \
     -i docs/Makefile.in
@@ -9,7 +9,8 @@ make
 make -j1 install
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

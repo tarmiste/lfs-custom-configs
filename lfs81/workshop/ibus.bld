@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i 's@/desktop/ibus@/org/freedesktop/ibus@g' \
     data/ibus.schemas.in \
@@ -13,7 +13,8 @@ make
 make -j1 install
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

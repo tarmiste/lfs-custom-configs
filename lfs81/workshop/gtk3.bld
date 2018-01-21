@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr             \
             --sysconfdir=/etc         \
@@ -28,7 +28,8 @@ gtk-xft-rgba = **EDITMErgbEDITME**
 gtk-cursor-theme-name = **EDITMEAdwaitaEDITME**
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

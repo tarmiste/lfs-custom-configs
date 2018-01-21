@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i 's/32,/253,/' lib/Syntax.cxx &&
 sed -i 's/LITLEN          240 /LITLEN          8092/' \
@@ -28,7 +28,8 @@ ln -v -sf osx       /usr/bin/sgml2xml &&
 ln -v -sf libosp.so /usr/lib/libsp.so
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

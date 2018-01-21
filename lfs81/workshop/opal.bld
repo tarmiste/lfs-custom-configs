@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i 's| abs(| std::fabs(|g' plugins/video/common/mpi.cxx
 patch -Np1 -i ../opal-3.10.10-ffmpeg2-1.patch &&
@@ -24,7 +24,8 @@ make -j1 install &&
 chmod -v 644 /usr/lib/libopal_s.a
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

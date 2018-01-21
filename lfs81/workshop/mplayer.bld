@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr            \
             --confdir=/etc/mplayer   \
@@ -23,7 +23,8 @@ tar -xvf  ../Clearlooks-1.7.tar.bz2 \
 ln  -sfvn Clearlooks /usr/share/mplayer/skins/default
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

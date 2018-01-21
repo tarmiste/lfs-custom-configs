@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 PKG_CONFIG_PATH=/usr/lib/openssl-1.0/pkgconfig \
     ./configure --prefix=/usr                  \
@@ -12,7 +12,8 @@ make -j1 install &&
 ln -sf node /usr/share/doc/node-8.4.0
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

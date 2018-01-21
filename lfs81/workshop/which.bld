@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr &&
 make
@@ -8,7 +8,7 @@ ldconfig
 
 
 ############# Unpacking source
-cd $BUILD_DIR
+#
 find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
 case $PACKAGE in
   *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
@@ -37,7 +37,7 @@ case $PACKAGE in
      ;;
 esac
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cat > /usr/bin/which << "EOF"
 #!/bin/bash
@@ -47,7 +47,8 @@ chmod -v 755 /usr/bin/which
 chown -v root:root /usr/bin/which
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

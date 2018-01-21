@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr \
             --docdir=/usr/share/doc/acpid-2.0.28 &&
@@ -55,7 +55,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-acpid
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

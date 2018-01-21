@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 unzip ../offo-hyphenation.zip &&
 cp offo-hyphenation/hyph/* fop/hyph &&
@@ -46,7 +46,8 @@ FOP_HOME="/opt/fop"
 EOF
 
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

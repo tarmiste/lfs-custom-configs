@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 export GMAKE_NOWARN=true &&
 make INS_BASE=/usr DEFINSUSR=root DEFINSGRP=root
@@ -10,7 +10,8 @@ install -v -m644 README* ABOUT doc/*.ps \
                     /usr/share/doc/cdrtools-3.02a07
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

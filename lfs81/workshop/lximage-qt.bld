@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 mkdir -v build &&
 cd       build &&
@@ -18,7 +18,8 @@ ln -svf $LXQT_PREFIX/share/applications/lximage-qt-screenshot.desktop \
         /usr/share/applications
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

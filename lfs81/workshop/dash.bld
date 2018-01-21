@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --bindir=/bin --mandir=/usr/share/man &&
 make
@@ -10,7 +10,8 @@ cat >> /etc/shells << "EOF"
 /bin/dash
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

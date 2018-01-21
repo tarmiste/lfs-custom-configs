@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 make PREFIX=/usr        \
      BUILD_STATIC_LIB=0 \
@@ -15,7 +15,8 @@ ldconfig
 
 sensors-detect
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

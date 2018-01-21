@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i 's/"64"/""/' cmake/LibSuffix.cmake &&
 
@@ -16,7 +16,8 @@ LIBRARY_PATH=$LXQT_PREFIX/lib make
 make -j1 install
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

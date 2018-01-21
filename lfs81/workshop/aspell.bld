@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i '/ top.do_check ==/s/top.do_check/*&/' modules/filter/tex.cpp &&
 sed -i '/word ==/s/word/*&/'                  prog/check_funs.cpp
@@ -24,7 +24,8 @@ make
 
 make -j1 install
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 unzip -q ../sqlite-doc-3200000.zip
 ./configure --prefix=/usr --disable-static        \
@@ -14,7 +14,8 @@ install -v -m755 -d /usr/share/doc/sqlite-3.20.0 &&
 cp -v -R sqlite-doc-3200000/* /usr/share/doc/sqlite-3.20.0
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

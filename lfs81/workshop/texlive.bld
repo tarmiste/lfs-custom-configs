@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cat >> /etc/ld.so.conf << EOF
 # Begin texlive 2017 addition
@@ -59,7 +59,8 @@ fmtutil-sys --all &&
 mtxrun --generate
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

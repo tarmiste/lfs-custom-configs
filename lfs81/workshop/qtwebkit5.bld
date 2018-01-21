@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../qtwebkit-5.9.0-icu_59-1.patch
 sed -e '/CONFIG/a QMAKE_CXXFLAGS += -Wno-expansion-to-defined' \
@@ -14,7 +14,8 @@ find $QT5DIR/ -name \*.prl \
    -exec sed -i -e '/^QMAKE_PRL_BUILD_DIR/d' {} \;
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

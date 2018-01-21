@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../parted-3.2-devmapper-1.patch
 ./configure --prefix=/usr --disable-static &&
@@ -23,7 +23,8 @@ install -v -m644 doc/FAT doc/API doc/parted.{pdf,ps,dvi} \
                     /usr/share/doc/parted-3.2
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

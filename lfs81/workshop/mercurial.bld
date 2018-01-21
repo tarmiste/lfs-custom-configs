@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 make build
 make doc
@@ -29,7 +29,8 @@ cat > /etc/mercurial/hgrc << "EOF"
 cacerts = /etc/ssl/ca-bundle.crt
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

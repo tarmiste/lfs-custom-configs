@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 echo '#define SYS_VIMRC_FILE  "/etc/vimrc"' >>  src/feature.h &&
 echo '#define SYS_GVIMRC_FILE "/etc/gvimrc"' >> src/feature.h &&
@@ -34,7 +34,8 @@ EOF
 
 
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i 's|$(PACKAGE)/doc|doc/$(PACKAGE)-$(VERSION)|' \
        {,doc/,doc/developer/}Makefile.in &&
@@ -18,7 +18,8 @@ ldconfig
 
 /etc/rc.d/init.d/cups restart
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

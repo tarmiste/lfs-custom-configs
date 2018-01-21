@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../ImageMagick-6.9.9-9-libs_only-1.patch &&
 ./configure --prefix=/usr     \
@@ -12,7 +12,8 @@ make -j1 DOCUMENTATION_PATH=/usr/share/doc/imagemagick-6.9.9 install-libs-only
 #make -k check || true
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

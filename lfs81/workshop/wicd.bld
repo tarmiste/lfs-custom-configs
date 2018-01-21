@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -e "/wpath.logrotate\|wpath.systemd/d" \
     -e "/detection failed/ a                self.init='init/default/wicd'" \
@@ -48,7 +48,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-wicd
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 install  -v -m700 -d /var/lib/sshd &&
 chown    -v root:sys /var/lib/sshd &&
@@ -72,7 +72,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-sshd
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

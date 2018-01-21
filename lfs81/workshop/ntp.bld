@@ -1,11 +1,11 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 87 ntp &&
 useradd -c "Network Time Protocol" -d /var/lib/ntp -u 87 \
         -g ntp -s /bin/false ntp
 sed -e "s/https/http/"              \
-    -e 's/"(\\S+)"/"?([^\\s"]+)"?/' \
+    -e 's/"(\S+)"/"?([^\s"]+)"?/' \
     -i scripts/update-leap/update-leap.in
 ./configure CFLAGS="-O2 -g -fPIC" \
             --prefix=/usr         \
@@ -87,7 +87,8 @@ popd
 ln -v -sf ../init.d/setclock /etc/rc.d/rc0.d/K46setclock &&
 ln -v -sf ../init.d/setclock /etc/rc.d/rc6.d/K46setclock
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

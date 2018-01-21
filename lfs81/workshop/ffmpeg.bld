@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i 's/-lflite"/-lflite -lasound"/' configure &&
 
@@ -54,7 +54,8 @@ make fate THREADS=**EDITMENEDITME** SAMPLES=fate-suite/ | tee ../fate.log &&
 grep ^TEST ../fate.log | wc -l
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

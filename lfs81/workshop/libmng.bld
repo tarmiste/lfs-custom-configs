@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr --disable-static &&
 make
@@ -9,7 +9,8 @@ install -v -m755 -d        /usr/share/doc/libmng-2.0.3 &&
 install -v -m644 doc/*.txt /usr/share/doc/libmng-2.0.3
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

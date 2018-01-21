@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr           \
             --with-tcl=/usr/lib     \
@@ -12,7 +12,8 @@ make -j1 install &&
 ln -svf expect5.45/libexpect5.45.so /usr/lib
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

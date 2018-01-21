@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 62 wireshark
 patch -Np1 -i ../wireshark-2.4.0-lua_5_3-1.patch  &&
@@ -25,7 +25,8 @@ chmod -v 6550 /usr/bin/{tshark,dumpcap}
 usermod -a -G wireshark <username>
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

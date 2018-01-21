@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -e '/TryExec/s@=@='$LXQT_PREFIX'/bin/@' \
     -i xsession/lxqt.desktop.in &&
@@ -16,7 +16,8 @@ mkdir -pv $LXQT_PREFIX/share/lxqt/graphics &&
 make -j1 install
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

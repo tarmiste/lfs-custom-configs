@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr --disable-static &&
 make
@@ -16,7 +16,8 @@ EOF
 enchant -d en_GB -l /tmp/test-enchant.txt &&
 enchant -d en_GB -a /tmp/test-enchant.txt
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

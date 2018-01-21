@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 64 sddm &&
 useradd  -c "SDDM Daemon" \
@@ -134,7 +134,8 @@ echo 'setxkbmap **EDITME"<your keyboard comma separated list>"EDITME**' >> \
 
 echo "source /etc/profile.d/dircolors.sh" >> /etc/bashrc
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

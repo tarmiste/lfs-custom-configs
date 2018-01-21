@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure &&
 make
@@ -13,7 +13,8 @@ install -v -m644 doc/doxygen/html/search/* \
                 /usr/share/doc/alsa-lib-1.1.4.1/html/search
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 tar -xf libreoffice-5.4.0.3.tar.xz --no-overwrite-dir &&
 cd libreoffice-5.4.0.3
@@ -80,7 +80,8 @@ fi
 update-desktop-database
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

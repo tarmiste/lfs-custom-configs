@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 mkdir -v build &&
 cd       build &&
@@ -20,7 +20,8 @@ export QT_QPA_PLATFORMTHEME=lxqt
 # End lxqt-qtplugin configuration
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

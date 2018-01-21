@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 SAVEPATH=$PATH                  &&
 PATH=$PATH:/sbin:/usr/sbin      &&
@@ -21,7 +21,8 @@ make -j1 -C libdm install
 make -j1 install
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

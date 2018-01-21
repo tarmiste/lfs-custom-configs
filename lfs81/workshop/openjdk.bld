@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cat > subprojects.md5 << EOF &&
 4061c0f2dc553cf92847e4a39a03ea4e  corba.tar.bz2
@@ -65,7 +65,8 @@ ln -sfv /etc/ssl/java/cacerts /opt/jdk/jre/lib/security/cacerts
 cd /opt/jdk
 bin/keytool -list -keystore /etc/ssl/java/cacerts
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

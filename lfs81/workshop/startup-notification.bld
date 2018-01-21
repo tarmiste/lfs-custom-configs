@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr --disable-static &&
 make
@@ -8,7 +8,8 @@ install -v -m644 -D doc/startup-notification.txt \
     /usr/share/doc/startup-notification-0.12/startup-notification.txt
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

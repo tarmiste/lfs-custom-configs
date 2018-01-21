@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i '/stdlib/a #include <limits.h>' transport.hxx &&
 make all rpl8 btcflash
@@ -8,7 +8,8 @@ install -v -m644 -D index.html \
     /usr/share/doc/dvd+rw-tools-7.1/index.html
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

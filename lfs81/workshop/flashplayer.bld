@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 mkdir flashplayer &&
 cd flashplayer    &&
@@ -39,7 +39,8 @@ mv -v /usr/bin/chromium /usr/bin/chromium-orig &&
 make -j1 PREFIX=/usr install-strip
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

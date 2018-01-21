@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 packagedir=font-misc-ethiopic-1.0.3
     ./configure $XORG_CONFIG
@@ -9,7 +9,8 @@ packagedir=font-misc-ethiopic-1.0.3
   
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

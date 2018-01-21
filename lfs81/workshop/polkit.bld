@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -fg 27 polkitd &&
 useradd -c "PolicyKit Daemon Owner" -d /etc/polkit-1 -u 27 \
@@ -26,7 +26,8 @@ session  include        system-session
 # End /etc/pam.d/polkit-1
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 26 smmsp                               &&
 useradd -c "Sendmail Daemon" -g smmsp -d /dev/null \
@@ -106,7 +106,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-sendmail
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

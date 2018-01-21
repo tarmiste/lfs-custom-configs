@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr                     \
             --sysconfdir=/etc                 \
@@ -21,7 +21,8 @@ cp -v /usr/share/icewm/winoptions ~/.icewm/winoptions
 icewm-menu-fdo >~/.icewm/menu
 
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

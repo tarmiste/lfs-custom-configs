@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 install -v -d -m755 /usr/share/xml/docbook/xml-dtd-4.5 &&
 install -v -d -m755 /etc/xml &&
@@ -98,7 +98,8 @@ do
     /etc/xml/catalog
 done
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

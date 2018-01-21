@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 99 nogroup &&
 useradd -c "Unprivileged Nobody" -d /dev/null -g nogroup \
@@ -94,7 +94,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-nfs-client
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

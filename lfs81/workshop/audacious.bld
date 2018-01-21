@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 TPUT=/bin/true ./configure --prefix=/usr \
                            --with-buildstamp="BLFS" &&
@@ -9,7 +9,7 @@ ldconfig
 
 
 ############# Unpacking source
-cd $BUILD_DIR
+#
 find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
 case $PACKAGE in
   *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
@@ -38,7 +38,7 @@ case $PACKAGE in
      ;;
 esac
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 TPUT=/bin/true ./configure --prefix=/usr --disable-wavpack &&
 make
@@ -53,7 +53,8 @@ sed -e '/^Name/ s/$/ Qt/' \
     -e '/Exec=/ s/audacious/& --qt/' \
     -i /usr/share/applications/audacious-qt.desktop
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cat > pam/lxdm << "EOF"
 # Begin /etc/pam.d/lxdm
@@ -73,7 +73,8 @@ init 5
 cp -v /etc/inittab{,-orig} &&
 sed -i '/initdefault/ s/3/5/' /etc/inittab
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

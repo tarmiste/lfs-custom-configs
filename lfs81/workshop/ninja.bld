@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure.py --bootstrap
 emacs -Q --batch -f batch-byte-compile misc/ninja-mode.el
@@ -24,7 +24,8 @@ ninja doxygen &&
 install -vDdm644 doc/doxygen/html/* /usr/share/doc/ninja-1.7.2/
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

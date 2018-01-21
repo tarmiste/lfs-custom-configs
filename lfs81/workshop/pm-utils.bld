@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr     \
             --sysconfdir=/etc \
@@ -13,7 +13,8 @@ ln -sv pm-action.8 /usr/share/man/man8/pm-hibernate.8 &&
 ln -sv pm-action.8 /usr/share/man/man8/pm-suspend-hybrid.8
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

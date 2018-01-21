@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../w3m-0.5.3-bdwgc72-1.patch &&
 sed -i 's/file_handle/file_foo/' istream.{c,h} &&
@@ -16,7 +16,8 @@ install -v -m644    doc/{HISTORY,READ*,keymap.*,menu.*,*.html} \
                     /usr/share/doc/w3m-0.5.3
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

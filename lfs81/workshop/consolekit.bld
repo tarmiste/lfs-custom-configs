@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr        \
             --sysconfdir=/etc    \
@@ -46,7 +46,8 @@ fi
 EOF
 chmod -v 755 /usr/lib/ConsoleKit/run-session.d/pam-foreground-compat.ck
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

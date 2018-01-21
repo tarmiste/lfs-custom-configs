@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 42 dovecot &&
 useradd -c "Dovecot unprivileged user" -d /dev/null -u 42 \
@@ -69,7 +69,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-dovecot
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

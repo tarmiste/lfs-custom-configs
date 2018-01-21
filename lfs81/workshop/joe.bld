@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr     \
             --sysconfdir=/etc \
@@ -13,7 +13,8 @@ install -vdm755 /usr/share/joe/util &&
 install -vm 644 joe/util/{*.txt,README} /usr/share/joe/util
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

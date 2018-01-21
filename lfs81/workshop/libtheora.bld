@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i 's/png_\(sizeof\)/\1/g' examples/png2theora.c &&
 ./configure --prefix=/usr --disable-static &&
@@ -12,7 +12,8 @@ for E in *; do
 done
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

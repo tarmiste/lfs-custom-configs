@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 autoreconf -fi                &&
 ./configure --prefix=/usr     \
@@ -57,7 +57,7 @@ for SCRIPT in $1/* ; do
   fi
 done
 
-exit 0
+## EDITHOOK_BLDEND 0
 EOF
 
 chmod -v 755 /usr/bin/run-parts
@@ -67,7 +67,8 @@ cat > /etc/papersize << "EOF"
 a4
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

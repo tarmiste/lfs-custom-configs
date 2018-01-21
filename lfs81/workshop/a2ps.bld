@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 autoconf &&
 sed -i -e "s/GPERF --version |/& head -n 1 |/" \
@@ -22,7 +22,8 @@ pushd /usr/share/a2ps/afm    &&
 popd
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

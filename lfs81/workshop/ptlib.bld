@@ -1,7 +1,7 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
-sed -i "s/sbin\.Right(1) == '\\\\0')/strlen(sbin\.Right(1)) == 0)/" \
+sed -i "s/sbin\.Right(1) == '\\0')/strlen(sbin\.Right(1)) == 0)/" \
     src/ptclib/podbc.cxx &&
     
 sed -i '/\/ioctl.h/a#include <sys/uio.h>' src/ptlib/unix/channel.cxx
@@ -14,7 +14,8 @@ make -j1 install &&
 chmod -v 755 /usr/lib/libpt.so.2.10.11
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

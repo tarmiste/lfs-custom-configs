@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i -e '/ISO 8879/d' \
        -e '/gml/d' docbook.cat
@@ -28,7 +28,8 @@ PUBLIC "-//OASIS//DTD DocBook V4.0//EN" "docbook.dtd"
   -- End Single Major Version catalog changes --
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 tar -xf ../docbook-xsl-doc-1.79.1.tar.bz2 --strip-components=1
 install -v -m755 -d /usr/share/xml/docbook/xsl-stylesheets-1.79.1 &&
@@ -54,7 +54,8 @@ xmlcatalog --noout --add "rewriteURI" \
            "/usr/share/xml/docbook/xsl-stylesheets-**EDITME<version>EDITME**" \
     /etc/xml/catalog
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

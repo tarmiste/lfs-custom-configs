@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../libquicktime-1.2.4-ffmpeg3-1.patch &&
 
@@ -15,7 +15,8 @@ install -v -m644    README doc/{*.txt,*.html,mainpage.incl} \
                     /usr/share/doc/libquicktime-1.2.4
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -e '/Qt[CDN]/s/Qt/Qt5/g'       \
     -e 's/moc_location/host_bins/' \
@@ -66,7 +66,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-networkmanager
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

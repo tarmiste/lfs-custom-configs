@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 mkdir -vp build &&
 cd        build &&
@@ -56,7 +56,8 @@ ln -sfv tigervnc_24.png /usr/share/pixmaps/tigervnc.png
 ldconfig
 
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

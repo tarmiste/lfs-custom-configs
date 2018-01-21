@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr     \
             --sysconfdir=/etc \
@@ -10,7 +10,8 @@ pgrep -l notification-da &&
 notify-send -i info Information "Hi ${USER}, This is a Test"
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

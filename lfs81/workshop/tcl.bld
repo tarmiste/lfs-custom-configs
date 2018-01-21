@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 tar -xf ../tcl8.6.7-html.tar.gz --strip-components=1
 export SRCDIR=`pwd` &&
@@ -36,7 +36,8 @@ mkdir -v -p /usr/share/doc/tcl-8.6.7 &&
 cp -v -r  ../html/* /usr/share/doc/tcl-8.6.7
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

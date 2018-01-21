@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr     \
             --sysconfdir=/etc \
@@ -15,7 +15,8 @@ make -j1 DOCUMENTATION_PATH=/usr/share/doc/imagemagick-7.0.6 install
 #make -k  || true
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

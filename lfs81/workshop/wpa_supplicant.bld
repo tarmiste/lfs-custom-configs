@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cat > wpa_supplicant/.config << "EOF"
 CONFIG_BACKEND=file
@@ -141,7 +141,8 @@ EOF
 
 ifup **EDITMEwifi0EDITME**
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

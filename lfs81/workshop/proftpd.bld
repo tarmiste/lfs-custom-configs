@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 46 proftpd                             &&
 useradd -c proftpd -d /srv/ftp -g proftpd \
@@ -105,7 +105,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-proftpd
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

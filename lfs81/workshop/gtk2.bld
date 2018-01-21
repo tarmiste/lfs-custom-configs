@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -e 's#l \(gtk-.*\).sgml#& -o \1#' \
     -i docs/{faq,tutorial}/Makefile.in      &&
@@ -22,7 +22,8 @@ include "/usr/share/themes/**EDITMEClearlooksEDITME**/gtk-2.0/gtkrc"
 gtk-icon-theme-name = "**EDITMEelementaryEDITME**"
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

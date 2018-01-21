@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../bind-9.11.2-use_iproute2-1.patch
 ./configure --prefix=/usr           \
@@ -194,7 +194,8 @@ dig -x 127.0.0.1
 dig www.linuxfromscratch.org &&
 dig www.linuxfromscratch.org
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

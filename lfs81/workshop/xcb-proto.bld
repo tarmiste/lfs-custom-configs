@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../xcb-proto-1.12-schema-1.patch
 patch -Np1 -i ../xcb-proto-1.12-python3-1.patch
@@ -8,7 +8,8 @@ patch -Np1 -i ../xcb-proto-1.12-python3-1.patch
 make -j1 install
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

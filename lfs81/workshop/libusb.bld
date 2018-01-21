@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i "s/^PROJECT_LOGO/#&/" doc/doxygen.cfg.in &&
 
@@ -13,7 +13,8 @@ install -v -m644    doc/html/* \
 ldconfig
 
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

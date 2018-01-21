@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr --disable-static &&
 make
@@ -10,7 +10,8 @@ install -v -m644 doc/reference/html/* /usr/share/doc/libdaemon-0.14/api &&
 install -v -m644 doc/reference/man/man3/* /usr/share/man/man3
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

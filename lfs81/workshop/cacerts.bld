@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 install -vdm755 /etc/ssl/local &&
 wget http://www.cacert.org/certs/root.crt &&
@@ -10,7 +10,8 @@ install -vm755 make-ca.sh-20170514 /usr/sbin/make-ca.sh
 /usr/sbin/make-ca.sh
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

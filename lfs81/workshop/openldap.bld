@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../openldap-2.4.45-consolidated-1.patch &&
 autoconf &&
@@ -96,7 +96,8 @@ popd
 ldapsearch -x -b '' -s base '(objectclass=*)' namingContexts
 
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

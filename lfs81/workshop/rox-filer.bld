@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cd ROX-Filer                                                        &&
 sed -i 's:g_strdup(getenv("APP_DIR")):"/usr/share/rox":' src/main.c &&
@@ -71,7 +71,8 @@ StartupNotify=true
 Terminal=false
 HERE_DOC
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

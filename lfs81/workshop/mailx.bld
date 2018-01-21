@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../heirloom-mailx-12.5-fixes-1.patch &&
 
@@ -17,7 +17,8 @@ install -v -m755 -d     /usr/share/doc/heirloom-mailx-12.5 &&
 install -v -m644 README /usr/share/doc/heirloom-mailx-12.5
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../docbook-utils-0.6.14-grep_fix-1.patch &&
 sed -i 's:/html::' doc/HTML/Makefile.in                &&
@@ -13,7 +13,8 @@ do
 done
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

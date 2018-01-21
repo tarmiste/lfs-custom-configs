@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 install -v -d -m 0755 /usr/share/vsftpd/empty &&
 install -v -d -m 0755 /home/ftp               &&
@@ -74,7 +74,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-vsftpd
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

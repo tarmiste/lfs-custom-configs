@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 CFLAGS="-D_PATH_DHCLIENT_SCRIPT='\"/sbin/dhclient-script\"'         \
         -D_PATH_DHCPD_CONF='\"/etc/dhcp/dhcpd.conf\"'               \
@@ -153,7 +153,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-dhcpd
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

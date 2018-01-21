@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 48 rsyncd &&
 useradd -c "rsyncd Daemon" -d /home/rsync -g rsyncd \
@@ -61,7 +61,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-rsyncd
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

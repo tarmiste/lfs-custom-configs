@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i '1,100 s/\.gz//g' Documentation/Makefile.in &&
 
@@ -27,7 +27,8 @@ rm -v /lib/libbtrfs.{a,so} &&
 mv -v /bin/{mkfs,fsck}.btrfs /sbin
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

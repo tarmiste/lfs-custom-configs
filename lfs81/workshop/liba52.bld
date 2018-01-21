@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr \
             --mandir=/usr/share/man \
@@ -14,7 +14,8 @@ install -v -m644 -D doc/liba52.txt \
     /usr/share/doc/liba52-0.7.4/liba52.txt
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

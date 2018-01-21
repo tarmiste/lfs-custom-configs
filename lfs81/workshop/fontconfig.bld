@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 rm -f src/fcobjshash.h
 ./configure --prefix=/usr        \
@@ -21,7 +21,8 @@ install -v -m644 doc/*.{pdf,sgml,txt,html} \
                                   /usr/share/doc/fontconfig-2.12.4
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

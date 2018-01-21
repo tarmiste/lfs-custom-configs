@@ -1,11 +1,11 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 export TEXARCH=$(uname -m | sed -e 's/i.86/i386/' -e 's/$/-linux/') &&
 
 sed -i "s/ grep -v '^;'/ awk NF/" make-rules/inputenc/Makefile.in &&
 
-sed -i 's%\(indexentry\)%\1\\%' make-rules/inputenc/make-inp-rules.pl &&
+sed -i 's%\(indexentry\)%\1\%' make-rules/inputenc/make-inp-rules.pl &&
 
 patch -Np1 -i ../xindy-2.5.1-upstream_fixes-1.patch &&
 
@@ -20,7 +20,8 @@ make LC_ALL=POSIX
 make -j1 install
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

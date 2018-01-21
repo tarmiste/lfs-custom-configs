@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr    \
             --disable-static \
@@ -28,7 +28,8 @@ install -vm644  Dest/usr/share/man/man1/* /usr/share/man/man1  &&
 /sbin/ldconfig -v
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

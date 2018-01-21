@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr \
             --disable-xv \
@@ -10,7 +10,8 @@ install -v -m755 -d      /usr/share/doc/libdv-1.0.0 &&
 install -v -m644 README* /usr/share/doc/libdv-1.0.0
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

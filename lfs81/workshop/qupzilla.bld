@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -p1 -i ../qupzilla-2.1.2-openssl1.1-1.patch &&
 
@@ -11,7 +11,8 @@ xdg-icon-resource forceupdate --theme hicolor &&
 update-desktop-database -q
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

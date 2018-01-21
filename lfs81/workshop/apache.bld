@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 25 apache &&
 useradd -c "Apache Server" -d /srv/www -g apache \
@@ -63,7 +63,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-httpd
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

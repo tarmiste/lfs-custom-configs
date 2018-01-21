@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -e 's|TWDB="${prefix}|TWDB="/var|'   \
     -e '/TWMAN/ s|${prefix}|/usr/share|' \
@@ -33,7 +33,8 @@ tripwire --update --twrfile /var/lib/tripwire/report/**EDITME<report-name.twr>ED
 twadmin --create-polfile /etc/tripwire/twpol.txt &&
 tripwire --init
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

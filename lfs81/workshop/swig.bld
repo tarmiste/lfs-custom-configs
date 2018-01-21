@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i 's/\$(PERL5_SCRIPT/-I. &/' Examples/Makefile.in &&
 sed -i 's/\$command 2/-I. &/' Examples/test-suite/perl5/run-perl-test.pl
@@ -15,7 +15,8 @@ install -v -m755 -d /usr/share/doc/swig-3.0.12 &&
 cp -v -R Doc/* /usr/share/doc/swig-3.0.12
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

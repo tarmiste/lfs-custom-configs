@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i '/^usbids/ s:usb.ids:hwdata/&:' lsusb.py &&
 
@@ -12,7 +12,8 @@ ldconfig
 
 wget http://www.linux-usb.org/usb.ids -O /usr/share/hwdata/usb.ids
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

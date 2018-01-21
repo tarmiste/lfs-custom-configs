@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 gzip -cd ../libpng-1.6.31-apng.patch.gz | patch -p0
 LIBS=-lpthread ./configure --prefix=/usr --disable-static &&
@@ -10,7 +10,8 @@ mkdir -v /usr/share/doc/libpng-1.6.31 &&
 cp -v README libpng-manual.txt /usr/share/doc/libpng-1.6.31
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

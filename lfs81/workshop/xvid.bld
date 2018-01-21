@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cd build/generic &&
 sed -i 's/^LN_S=@LN_S@/& -f -v/' platform.inc.in &&
@@ -16,7 +16,8 @@ install -v -m644 ../../examples/* \
     /usr/share/doc/xvidcore-1.3.4/examples
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

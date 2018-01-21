@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 mkdir build &&
 cd    build &&
@@ -12,7 +12,8 @@ ldconfig
 
 echo "export VDPAU_DRIVER=va_gl" >> /etc/profile.d/xorg.sh
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../libmusicbrainz-2.1.5-missing-includes-1.patch &&
 
@@ -14,7 +14,8 @@ install -v -m644 -D docs/mb_howto.txt \
 (cd python && python setup.py install)
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

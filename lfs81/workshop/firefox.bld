@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cat > mozconfig << "EOF"
 # If you have a multicore machine, all cores will be used by default.
@@ -116,7 +116,8 @@ EOF
 ln -sfv /usr/lib/firefox-55.0.3/browser/icons/mozicon128.png \
         /usr/share/pixmaps/firefox.png
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr              \
             --libexecdir=/usr/lib      \
@@ -35,7 +35,8 @@ session   include     system-session
 EOF
 chmod 644 /etc/pam.d/sudo
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

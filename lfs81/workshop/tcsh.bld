@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i 's|SVID_SOURCE|DEFAULT_SOURCE|g' config/linux  &&
 sed -i 's|BSD_SOURCE|DEFAULT_SOURCE|g'  config/linux
@@ -57,7 +57,8 @@ alias ls ls --color=always
 unset red green yellow blue magenta cyan yellow white end
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

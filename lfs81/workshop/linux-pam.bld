@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 tar -xf ../Linux-PAM-1.2.0-docs.tar.bz2 --strip-components=1
 ./configure --prefix=/usr                    \
@@ -96,7 +96,8 @@ session     required        pam_deny.so
 # End /etc/pam.d/other
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

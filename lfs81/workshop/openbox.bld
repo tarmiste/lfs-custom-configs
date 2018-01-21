@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 export LIBRARY_PATH=$XORG_PREFIX/lib
 2to3 -w data/autostart/openbox-xdg-autostart &&
@@ -45,7 +45,8 @@ lxpanel &
 exec openbox
 EOF
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

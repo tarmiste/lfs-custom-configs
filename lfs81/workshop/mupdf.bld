@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 rm -rf thirdparty/curl     &&
 rm -rf thirdparty/freetype &&
@@ -21,7 +21,8 @@ make -j1 prefix=/usr                      \
 ln -sfv mupdf-x11-curl /usr/bin/mupdf
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

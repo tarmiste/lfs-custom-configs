@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr \
             --sysconfdir=/etc \
@@ -14,7 +14,8 @@ chmod -v 755 /usr/lib/libslang.so.2.3.1 \
              /usr/lib/slang/v2/modules/*.so
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 mkdir build &&
 cd    build &&
@@ -15,7 +15,8 @@ mv -v $KF5_PREFIX/share/kde4/services/khelpcenter.desktop /usr/share/application
 rm -rv $KF5_PREFIX/share/kde4
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

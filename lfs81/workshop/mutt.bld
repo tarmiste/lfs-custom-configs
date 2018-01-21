@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 groupadd -g 34 mail
 chgrp -v mail /var/mail
@@ -22,7 +22,8 @@ ldconfig
 
 cat /usr/share/doc/mutt-1.8.3/samples/gpg.rc >> ~/.muttrc
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

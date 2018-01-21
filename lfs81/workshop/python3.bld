@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 CXX="/usr/bin/g++"              \
 ./configure --prefix=/usr       \
@@ -24,7 +24,8 @@ ln -svfn python-3.6.2 /usr/share/doc/python-3
 
 export PYTHONDOCS=/usr/share/doc/python-3/html
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

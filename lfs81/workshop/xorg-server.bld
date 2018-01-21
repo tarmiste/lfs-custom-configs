@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure $XORG_CONFIG            \
            --enable-glamor          \
@@ -17,7 +17,8 @@ cat >> /etc/sysconfig/createfiles << "EOF"
 EOF
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

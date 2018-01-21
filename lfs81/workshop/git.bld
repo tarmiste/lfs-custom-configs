@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr --with-gitconfig=/etc/gitconfig &&
 make
@@ -33,7 +33,8 @@ sed -i '/^<a href=/s|howto/|&html/|' /usr/share/doc/git-2.14.1/howto-index.html 
 sed -i '/^\* link:/s|howto/|&html/|' /usr/share/doc/git-2.14.1/howto-index.txt
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

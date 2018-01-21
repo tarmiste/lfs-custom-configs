@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i "s|n/a|unavailable|" lsb_release
 ./help2man -N --include ./lsb_release.examples \
@@ -8,7 +8,8 @@ install -v -m 644 lsb_release.1 /usr/share/man/man1/lsb_release.1 &&
 install -v -m 755 lsb_release /usr/bin/lsb_release
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

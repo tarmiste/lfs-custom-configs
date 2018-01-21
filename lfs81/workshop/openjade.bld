@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../openjade-1.3.2-upstream-1.patch
 sed -i -e '/getopts/{N;s#&G#g#;s#do .getopts.pl.;##;}' \
@@ -36,7 +36,8 @@ echo "SYSTEM \"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd\" \
     \"/usr/share/xml/docbook/xml-dtd-4.5/docbookx.dtd\"" >> \
     /usr/share/sgml/openjade-1.3.2/catalog
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

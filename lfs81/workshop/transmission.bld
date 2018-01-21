@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../transmission-2.92-openssl-1.1.0-1.patch
 ./configure --prefix=/usr &&
@@ -15,7 +15,8 @@ install -m644 qt/transmission-qt.desktop /usr/share/applications/transmission-qt
 install -m644 qt/icons/transmission.png  /usr/share/pixmaps/transmission-qt.png
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

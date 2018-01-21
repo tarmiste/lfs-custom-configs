@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr --with-system-readline --without-guile &&
 make
@@ -15,7 +15,8 @@ rm -rf gdb/doc/doxy/xml &&
 cp -Rv gdb/doc/doxy /usr/share/doc/gdb-8.0
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

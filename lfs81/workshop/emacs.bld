@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr --localstatedir=/var &&
 make
@@ -9,7 +9,8 @@ gtk-update-icon-cache -t -f --include-image-data /usr/share/icons/hicolor &&
 update-desktop-database
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

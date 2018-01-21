@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../sgml-common-0.6.3-manpage-1.patch &&
 autoreconf -f -i
@@ -14,7 +14,8 @@ install-catalog --add /etc/sgml/sgml-docbook.cat \
     /etc/sgml/sgml-ent.cat
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr           \
             --sysconfdir=/etc       \
@@ -13,7 +13,8 @@ install -v -m755 -d /usr/share/doc/ldns-1.7.0 &&
 install -v -m644 doc/html/* /usr/share/doc/ldns-1.7.0
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

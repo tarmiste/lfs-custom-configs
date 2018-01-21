@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i 's#pkgdata#doc#' doc/doc.am &&
 autoreconf -fi  &&
@@ -14,7 +14,8 @@ install -v -m644 doc/gc.man /usr/share/man/man3/gc_malloc.3 &&
 ln -sfv gc_malloc.3 /usr/share/man/man3/gc.3
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

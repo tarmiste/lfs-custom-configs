@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i '/exit 5/s/^/echo uncompress failed -- skipping #/' test/test &&
 
@@ -84,7 +84,8 @@ EOF
 chmod -v 0644 /etc/logrotate.d/example.log
 
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

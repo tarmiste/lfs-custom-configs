@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 mkdir build &&
 cd    build &&
@@ -12,7 +12,8 @@ rm -rf /usr/share/doc/libmusicbrainz-5.1.0 &&
 cp -vr docs/ /usr/share/doc/libmusicbrainz-5.1.0
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

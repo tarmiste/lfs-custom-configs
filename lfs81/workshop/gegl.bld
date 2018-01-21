@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr &&
 LC_ALL=en_US make
@@ -10,7 +10,8 @@ install -d -v -m755 /usr/share/gtk-doc/html/gegl/images &&
 install -v -m644 docs/images/*.{png,ico,svg} /usr/share/gtk-doc/html/gegl/images
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

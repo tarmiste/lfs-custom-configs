@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i "/servname/s:rpcbind:sunrpc:" src/rpcbind.c
 patch -Np1 -i ../rpcbind-0.2.4-vulnerability_fixes-1.patch &&
@@ -45,7 +45,8 @@ cd $BOOTUNPACKDIR
 make -j1 install-rpcbind
 
 popd
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure $XORG_CONFIG      \
             --enable-kms-only \
@@ -12,7 +12,8 @@ mv -v /usr/share/man/man4/intel-virtual-output.4 \
 sed -i '/\.TH/s/4/1/' /usr/share/man/man1/intel-virtual-output.1
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

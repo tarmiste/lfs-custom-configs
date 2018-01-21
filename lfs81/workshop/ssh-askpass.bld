@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 cd contrib &&
 make gnome-ssh-askpass2
@@ -16,7 +16,8 @@ Path askpass /usr/libexec/openssh/ssh-askpass
 EOF
 chmod -v 0644 /etc/sudo.conf
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,12 +1,13 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 make
 make -j1 MANDIR=/usr/share/man/man1 install &&
 chmod -v 644 /usr/share/man/man1/tree.1
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

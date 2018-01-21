@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 tar -xf ../docbook-dsssl-doc-1.79.tar.bz2 --strip-components=1
 install -v -m755 bin/collateindex.pl /usr/bin                      &&
@@ -17,7 +17,8 @@ install-catalog --add /etc/sgml/sgml-docbook.cat              \
     /etc/sgml/dsssl-docbook-stylesheets.cat
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

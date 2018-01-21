@@ -1,12 +1,13 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../wireless_tools-29-fix_iwlist_scanning-1.patch
 make
 make -j1 PREFIX=/usr INSTALL_MAN=/usr/share/man install
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

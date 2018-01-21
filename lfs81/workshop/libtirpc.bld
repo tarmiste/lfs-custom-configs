@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed '/stdlib.h/a#include <stdint.h>' -i src/xdr_sizeof.c
 sed '/key_secret_is/s/secret/secretkey/' -i src/libtirpc.map
@@ -13,7 +13,8 @@ mv -v /usr/lib/libtirpc.so.* /lib &&
 ln -sfv ../../lib/libtirpc.so.3.0.0 /usr/lib/libtirpc.so
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

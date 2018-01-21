@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 patch -Np1 -i ../autoconf-2.13-consolidated_fixes-1.patch &&
 mv -v autoconf.texi autoconf213.texi                      &&
@@ -12,7 +12,8 @@ install -v -m644 autoconf213.info /usr/share/info &&
 install-info --info-dir=/usr/share/info autoconf213.info
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

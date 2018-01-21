@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i '/( oxygen/ s/)/scalable )/' CMakeLists.txt
 mkdir build &&
@@ -9,7 +9,8 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr -Wno-dev ..
 make -j1 install
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

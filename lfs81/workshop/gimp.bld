@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 sed -i '/gegl/s/2/3/' configure &&
 sed -i '70,75 d' app/core/gimpparamspecs-duplicate.c
@@ -15,7 +15,7 @@ ldconfig
 
 
 ############# Unpacking source
-cd $BUILD_DIR
+#
 find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
 case $PACKAGE in
   *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
@@ -44,7 +44,7 @@ case $PACKAGE in
      ;;
 esac
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ALL_LINGUAS="ca da de el en en_GB es fr it ja ko nl nn pt_BR ru sl sv zh_CN" \
 ./configure --prefix=/usr &&
@@ -53,7 +53,8 @@ make -j1 install &&
 chown -R root:root /usr/share/gimp/2.0/help
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ipp_file=ippicv_2017u2_lnx_intel64_20170418.tgz &&
 ipp_hash=$(md5sum ../$ipp_file | cut -d" " -f1) &&
@@ -33,7 +33,8 @@ cp -v 3rdparty/ippicv/ippicv_lnx/lib/$ARCH/libippicv.a /usr/lib &&
 unset ARCH
 ldconfig
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #

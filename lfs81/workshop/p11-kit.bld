@@ -1,5 +1,5 @@
 ############# Building package
-cd $UNPACKDIR
+## EDITHOOK_BLDSTART
 
 ./configure --prefix=/usr     \
             --sysconfdir=/etc \
@@ -15,7 +15,8 @@ if [ -e /usr/lib/libnssckbi.so ]; then
   ln -sfv ./pkcs11/p11-kit-trust.so /usr/lib/libnssckbi.so
 fi
 
-cd $BUILD_DIR
-[[ -n "$KEEP_FILES" ]] || rm -rf $UNPACKDIR unpacked
+#
 
-exit
+
+## EDITHOOK_BLDEND #
+ #
