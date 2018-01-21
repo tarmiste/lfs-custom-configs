@@ -1,10 +1,10 @@
-        <dependency status="required" name="dbus-glib" type="ref"/>
-        <dependency status="required" name="libatasmart" type="ref"/>
-        <dependency status="required" name="libgudev" type="ref"/>
-        <dependency status="required" name="lvm2" type="ref"/>
-        <dependency status="required" name="parted" type="ref"/>
-        <dependency status="required" name="polkit" type="ref"/>
-        <dependency status="required" name="sg3_utils" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="libxslt" type="ref"/>
-        <dependency status="optional" name="sudo" type="ref"/>
+#    Required: "dbus-glib" 
+#    Required: "libatasmart" 
+#    Required: "libgudev" 
+#    Required: "lvm2" 
+#    Required: "parted" 
+#    Required: "polkit" 
+#    Required: "sg3_utils" 
+#    Optional: "gtk-doc" 
+#    Optional: "libxslt" 
+#    Optional: "sudo" 

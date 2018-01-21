@@ -1,8 +1,8 @@
-        <dependency status="optional" name="SystemTap" type="link"/>
-        <dependency status="optional" name="dejagnu" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="gcc" type="ref"/>
-        <dependency status="optional" name="guile" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="rust" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Optional: "SystemTap" 
+#    Optional: "dejagnu" 
+#    Optional: "doxygen" 
+#    Optional: "gcc" 
+#    Optional: "guile" 
+#    Optional: "python2" 
+#    Optional: "rust" 
+#    Optional: "valgrind" 

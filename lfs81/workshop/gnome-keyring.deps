@@ -1,9 +1,9 @@
-        <dependency status="required" name="dbus" type="ref"/>
-        <dependency status="required" name="gcr" type="ref"/>
-        <dependency status="recommended" name="libxslt" type="ref"/>
-        <dependency status="recommended" name="linux-pam" type="ref"/>
-        <dependency status="optional" name="LCOV" type="link"/>
-        <dependency status="optional" name="gnupg2" type="ref"/>
-        <dependency status="optional" name="libcap-ng" type="link"/>
-        <dependency status="optional" name="openssh" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Required: "dbus" 
+#    Required: "gcr" 
+#    Recommended: "libxslt" 
+#    Recommended: "linux-pam" 
+#    Optional: "LCOV" 
+#    Optional: "gnupg2" 
+#    Optional: "libcap-ng" 
+#    Optional: "openssh" 
+#    Optional: "valgrind" 

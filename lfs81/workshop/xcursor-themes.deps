@@ -1,37 +1,37 @@
-        <dependency status="required" name="iceauth" type="ref"/>
-        <dependency status="required" name="luit" type="ref"/>
-        <dependency status="required" name="mkfontdir" type="ref"/>
-        <dependency status="required" name="mkfontscale" type="ref"/>
-        <dependency status="required" name="sessreg" type="ref"/>
-        <dependency status="required" name="setxkbmap" type="ref"/>
-        <dependency status="required" name="smproxy" type="ref"/>
-        <dependency status="required" name="x11perf" type="ref"/>
-        <dependency status="required" name="xauth" type="ref"/>
-        <dependency status="required" name="xbacklight" type="ref"/>
-        <dependency status="required" name="xcmsdb" type="ref"/>
-        <dependency status="required" name="xcursorgen" type="ref"/>
-        <dependency status="required" name="xdpyinfo" type="ref"/>
-        <dependency status="required" name="xdriinfo" type="ref"/>
-        <dependency status="required" name="xev" type="ref"/>
-        <dependency status="required" name="xgamma" type="ref"/>
-        <dependency status="required" name="xhost" type="ref"/>
-        <dependency status="required" name="xinput" type="ref"/>
-        <dependency status="required" name="xkbcomp" type="ref"/>
-        <dependency status="required" name="xkbevd" type="ref"/>
-        <dependency status="required" name="xkbutils" type="ref"/>
-        <dependency status="required" name="xkill" type="ref"/>
-        <dependency status="required" name="xlsatoms" type="ref"/>
-        <dependency status="required" name="xlsclients" type="ref"/>
-        <dependency status="required" name="xmessage" type="ref"/>
-        <dependency status="required" name="xmodmap" type="ref"/>
-        <dependency status="required" name="xpr" type="ref"/>
-        <dependency status="required" name="xprop" type="ref"/>
-        <dependency status="required" name="xrandr" type="ref"/>
-        <dependency status="required" name="xrdb" type="ref"/>
-        <dependency status="required" name="xrefresh" type="ref"/>
-        <dependency status="required" name="xset" type="ref"/>
-        <dependency status="required" name="xsetroot" type="ref"/>
-        <dependency status="required" name="xvinfo" type="ref"/>
-        <dependency status="required" name="xwd" type="ref"/>
-        <dependency status="required" name="xwininfo" type="ref"/>
-        <dependency status="required" name="xwud" type="ref"/>
+#    Required: "iceauth" 
+#    Required: "luit" 
+#    Required: "mkfontdir" 
+#    Required: "mkfontscale" 
+#    Required: "sessreg" 
+#    Required: "setxkbmap" 
+#    Required: "smproxy" 
+#    Required: "x11perf" 
+#    Required: "xauth" 
+#    Required: "xbacklight" 
+#    Required: "xcmsdb" 
+#    Required: "xcursorgen" 
+#    Required: "xdpyinfo" 
+#    Required: "xdriinfo" 
+#    Required: "xev" 
+#    Required: "xgamma" 
+#    Required: "xhost" 
+#    Required: "xinput" 
+#    Required: "xkbcomp" 
+#    Required: "xkbevd" 
+#    Required: "xkbutils" 
+#    Required: "xkill" 
+#    Required: "xlsatoms" 
+#    Required: "xlsclients" 
+#    Required: "xmessage" 
+#    Required: "xmodmap" 
+#    Required: "xpr" 
+#    Required: "xprop" 
+#    Required: "xrandr" 
+#    Required: "xrdb" 
+#    Required: "xrefresh" 
+#    Required: "xset" 
+#    Required: "xsetroot" 
+#    Required: "xvinfo" 
+#    Required: "xwd" 
+#    Required: "xwininfo" 
+#    Required: "xwud" 

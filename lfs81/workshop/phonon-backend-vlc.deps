@@ -1,2 +1,2 @@
-        <dependency status="required" name="phonon" type="ref"/>
-        <dependency status="required" name="vlc" type="ref"/>
+#    Required: "phonon" 
+#    Required: "vlc" 

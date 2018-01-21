@@ -1,2 +1,2 @@
-        <dependency status="required" name="glib2" type="ref"/>
-        <dependency status="required" name="libxml2" type="ref"/>
+#    Required: "glib2" 
+#    Required: "libxml2" 

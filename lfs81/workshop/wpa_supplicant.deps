@@ -1,5 +1,5 @@
-        <dependency status="recommended" name="libnl" type="ref"/>
-        <dependency status="recommended" name="openssl" type="ref"/>
-        <dependency status="optional" name="dbus" type="ref"/>
-        <dependency status="optional" name="libxml2" type="ref"/>
-        <dependency status="optional" name="qt5" type="ref"/>
+#    Recommended: "libnl" 
+#    Recommended: "openssl" 
+#    Optional: "dbus" 
+#    Optional: "libxml2" 
+#    Optional: "qt5" 

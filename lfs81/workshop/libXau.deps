@@ -1,26 +1,26 @@
-        <dependency status="required" name="bigreqsproto" type="ref"/>
-        <dependency status="required" name="compositeproto" type="ref"/>
-        <dependency status="required" name="damageproto" type="ref"/>
-        <dependency status="required" name="dmxproto" type="ref"/>
-        <dependency status="required" name="dri2proto" type="ref"/>
-        <dependency status="required" name="dri3proto" type="ref"/>
-        <dependency status="required" name="fixesproto" type="ref"/>
-        <dependency status="required" name="fontsproto" type="ref"/>
-        <dependency status="required" name="glproto" type="ref"/>
-        <dependency status="required" name="inputproto" type="ref"/>
-        <dependency status="required" name="kbproto" type="ref"/>
-        <dependency status="required" name="presentproto" type="ref"/>
-        <dependency status="required" name="randrproto" type="ref"/>
-        <dependency status="required" name="recordproto" type="ref"/>
-        <dependency status="required" name="renderproto" type="ref"/>
-        <dependency status="required" name="resourceproto" type="ref"/>
-        <dependency status="required" name="scrnsaverproto" type="ref"/>
-        <dependency status="required" name="videoproto" type="ref"/>
-        <dependency status="required" name="xcmiscproto" type="ref"/>
-        <dependency status="required" name="xextproto" type="ref"/>
-        <dependency status="required" name="xf86bigfontproto" type="ref"/>
-        <dependency status="required" name="xf86dgaproto" type="ref"/>
-        <dependency status="required" name="xf86driproto" type="ref"/>
-        <dependency status="required" name="xf86vidmodeproto" type="ref"/>
-        <dependency status="required" name="xineramaproto" type="ref"/>
-        <dependency status="required" name="xproto" type="ref"/>
+#    Required: "bigreqsproto" 
+#    Required: "compositeproto" 
+#    Required: "damageproto" 
+#    Required: "dmxproto" 
+#    Required: "dri2proto" 
+#    Required: "dri3proto" 
+#    Required: "fixesproto" 
+#    Required: "fontsproto" 
+#    Required: "glproto" 
+#    Required: "inputproto" 
+#    Required: "kbproto" 
+#    Required: "presentproto" 
+#    Required: "randrproto" 
+#    Required: "recordproto" 
+#    Required: "renderproto" 
+#    Required: "resourceproto" 
+#    Required: "scrnsaverproto" 
+#    Required: "videoproto" 
+#    Required: "xcmiscproto" 
+#    Required: "xextproto" 
+#    Required: "xf86bigfontproto" 
+#    Required: "xf86dgaproto" 
+#    Required: "xf86driproto" 
+#    Required: "xf86vidmodeproto" 
+#    Required: "xineramaproto" 
+#    Required: "xproto" 

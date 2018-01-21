@@ -1,5 +1,5 @@
-        <dependency status="optional" name="DocBook" type="ref"/>
-        <dependency status="optional" name="docbook-xsl" type="ref"/>
-        <dependency status="optional" name="libxslt" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="python3" type="ref"/>
+#    Optional: "DocBook" 
+#    Optional: "docbook-xsl" 
+#    Optional: "libxslt" 
+#    Optional: "python2" 
+#    Optional: "python3" 

@@ -1,2 +1,2 @@
-        <dependency status="required" name="at-spi2-core" type="ref"/>
-        <dependency status="required" name="atk" type="ref"/>
+#    Required: "at-spi2-core" 
+#    Required: "atk" 

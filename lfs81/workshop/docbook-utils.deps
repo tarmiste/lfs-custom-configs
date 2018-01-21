@@ -1,7 +1,7 @@
-        <dependency status="required" name="docbook-dsssl" type="ref"/>
-        <dependency status="required" name="openjade" type="ref"/>
-        <dependency status="required" name="sgml-dtd-3" type="ref"/>
-        <dependency status="optional" name="Links" type="ref"/>
-        <dependency status="optional" name="lynx" type="ref"/>
-        <dependency status="optional" name="perl-sgmlspm" type="ref"/>
-        <dependency status="optional" name="w3m" type="ref"/>
+#    Required: "docbook-dsssl" 
+#    Required: "openjade" 
+#    Required: "sgml-dtd-3" 
+#    Optional: "Links" 
+#    Optional: "lynx" 
+#    Optional: "perl-sgmlspm" 
+#    Optional: "w3m" 

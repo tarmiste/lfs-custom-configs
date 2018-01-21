@@ -1,7 +1,7 @@
-        <dependency status="optional" name="MySQL" type="link"/>
-        <dependency status="optional" name="libcap-pam" type="ref"/>
-        <dependency status="optional" name="linux-pam" type="ref"/>
-        <dependency status="optional" name="mariadb" type="ref"/>
-        <dependency status="optional" name="openssl" type="ref"/>
-        <dependency status="optional" name="pcre" type="ref"/>
-        <dependency status="optional" name="postgresql" type="ref"/>
+#    Optional: "MySQL" 
+#    Optional: "libcap-pam" 
+#    Optional: "linux-pam" 
+#    Optional: "mariadb" 
+#    Optional: "openssl" 
+#    Optional: "pcre" 
+#    Optional: "postgresql" 

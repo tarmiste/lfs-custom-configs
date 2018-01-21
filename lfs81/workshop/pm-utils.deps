@@ -1,5 +1,5 @@
-        <dependency status="optional" name="ethtool" type="link"/>
-        <dependency status="optional" name="hdparm" type="ref"/>
-        <dependency status="optional" name="vbetool" type="link"/>
-        <dependency status="optional" name="wireless_tools" type="ref"/>
-        <dependency status="optional" name="xmlto" type="ref"/>
+#    Optional: "ethtool" 
+#    Optional: "hdparm" 
+#    Optional: "vbetool" 
+#    Optional: "wireless_tools" 
+#    Optional: "xmlto" 

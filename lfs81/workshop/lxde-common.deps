@@ -1,15 +1,15 @@
-        <dependency status="required" name="lxde-icon-theme" type="ref"/>
-        <dependency status="required" name="lxpanel" type="ref"/>
-        <dependency status="required" name="lxsession" type="ref"/>
-        <dependency status="required" name="lxsession" type="ref"/>
-        <dependency status="required" name="openbox" type="ref"/>
-        <dependency status="required" name="pcmanfm" type="ref"/>
-        <dependency status="recommended" name="consolekit" type="ref"/>
-        <dependency status="recommended" name="dbus" type="ref"/>
-        <dependency status="recommended" name="desktop-file-utils" type="ref"/>
-        <dependency status="recommended" name="hicolor-icon-theme" type="ref"/>
-        <dependency status="recommended" name="shared-mime-info" type="ref"/>
-        <dependency status="optional" name="lxdm" type="ref"/>
-        <dependency status="optional" name="notification-daemon" type="ref"/>
-        <dependency status="optional" name="sddm" type="ref"/>
-        <dependency status="optional" name="xfce4-notifyd" type="ref"/>
+#    Required: "lxde-icon-theme" 
+#    Required: "lxpanel" 
+#    Required: "lxsession" 
+#    Required: "lxsession" 
+#    Required: "openbox" 
+#    Required: "pcmanfm" 
+#    Recommended: "consolekit" 
+#    Recommended: "dbus" 
+#    Recommended: "desktop-file-utils" 
+#    Recommended: "hicolor-icon-theme" 
+#    Recommended: "shared-mime-info" 
+#    Optional: "lxdm" 
+#    Optional: "notification-daemon" 
+#    Optional: "sddm" 
+#    Optional: "xfce4-notifyd" 

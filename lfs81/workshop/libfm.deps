@@ -1,10 +1,10 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="menu-cache" type="ref"/>
-        <dependency status="required" name="menu-cache" type="ref"/>
-        <dependency status="recommended" name="libexif" type="ref"/>
-        <dependency status="recommended" name="lxmenu-data" type="ref"/>
-        <dependency status="recommended" name="vala" type="ref"/>
-        <dependency status="optional" name="dbus-glib" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="gvfs" type="ref"/>
-        <dependency status="optional" name="udisks" type="ref"/>
+#    Required: "gtk2" 
+#    Required: "menu-cache" 
+#    Required: "menu-cache" 
+#    Recommended: "libexif" 
+#    Recommended: "lxmenu-data" 
+#    Recommended: "vala" 
+#    Optional: "dbus-glib" 
+#    Optional: "gtk-doc" 
+#    Optional: "gvfs" 
+#    Optional: "udisks" 

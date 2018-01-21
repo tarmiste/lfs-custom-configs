@@ -1,1 +1,1 @@
-        <dependency status="required" name="wayland" type="ref"/>
+#    Required: "wayland" 

@@ -1,16 +1,16 @@
-        <dependency status="required" name="cairo" type="ref"/>
-        <dependency status="required" name="curl" type="ref"/>
-        <dependency status="required" name="graphite2" type="ref"/>
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="libffi" type="ref"/>
-        <dependency status="required" name="mesa" type="ref"/>
-        <dependency status="required" name="nss" type="ref"/>
-        <dependency status="required" name="pcre" type="ref"/>
-        <dependency status="optional" name="chromium" type="ref"/>
-        <dependency status="optional" name="epiphany" type="ref"/>
-        <dependency status="optional" name="firefox" type="ref"/>
-        <dependency status="optional" name="libreoffice" type="ref"/>
-        <dependency status="optional" name="midori" type="ref"/>
-        <dependency status="optional" name="qupzilla" type="ref"/>
-        <dependency status="optional" name="seamonkey" type="ref"/>
-        <dependency status="optional" name="thunderbird" type="ref"/>
+#    Required: "cairo" 
+#    Required: "curl" 
+#    Required: "graphite2" 
+#    Required: "gtk2" 
+#    Required: "libffi" 
+#    Required: "mesa" 
+#    Required: "nss" 
+#    Required: "pcre" 
+#    Optional: "chromium" 
+#    Optional: "epiphany" 
+#    Optional: "firefox" 
+#    Optional: "libreoffice" 
+#    Optional: "midori" 
+#    Optional: "qupzilla" 
+#    Optional: "seamonkey" 
+#    Optional: "thunderbird" 

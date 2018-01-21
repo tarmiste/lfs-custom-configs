@@ -1,7 +1,7 @@
-        <dependency status="required" name="alsa-lib" type="ref"/>
-        <dependency status="optional" name="JACK" type="link"/>
-        <dependency status="optional" name="ffmpeg" type="ref"/>
-        <dependency status="optional" name="libsamplerate" type="ref"/>
-        <dependency status="optional" name="maemo" type="link"/>
-        <dependency status="optional" name="pulseaudio" type="ref"/>
-        <dependency status="optional" name="speex" type="ref"/>
+#    Required: "alsa-lib" 
+#    Optional: "JACK" 
+#    Optional: "ffmpeg" 
+#    Optional: "libsamplerate" 
+#    Optional: "maemo" 
+#    Optional: "pulseaudio" 
+#    Optional: "speex" 

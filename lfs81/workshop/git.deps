@@ -1,14 +1,14 @@
-        <dependency status="recommended" name="curl" type="ref"/>
-        <dependency status="recommended" name="openssl" type="ref"/>
-        <dependency status="recommended" name="perl-error" type="ref"/>
-        <dependency status="recommended" name="python2" type="ref"/>
-        <dependency status="optional" name="AsciiDoctor" type="link"/>
-        <dependency status="optional" name="asciidoc" type="ref"/>
-        <dependency status="optional" name="dblatex" type="link"/>
-        <dependency status="optional" name="docbook2x" type="link"/>
-        <dependency status="optional" name="pcre" type="ref"/>
-        <dependency status="optional" name="pcre2" type="ref"/>
-        <dependency status="optional" name="subversion" type="ref"/>
-        <dependency status="optional" name="tk" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
-        <dependency status="optional" name="xmlto" type="ref"/>
+#    Recommended: "curl" 
+#    Recommended: "openssl" 
+#    Recommended: "perl-error" 
+#    Recommended: "python2" 
+#    Optional: "AsciiDoctor" 
+#    Optional: "asciidoc" 
+#    Optional: "dblatex" 
+#    Optional: "docbook2x" 
+#    Optional: "pcre" 
+#    Optional: "pcre2" 
+#    Optional: "subversion" 
+#    Optional: "tk" 
+#    Optional: "valgrind" 
+#    Optional: "xmlto" 

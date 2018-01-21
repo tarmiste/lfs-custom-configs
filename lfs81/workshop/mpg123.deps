@@ -1,6 +1,6 @@
-        <dependency status="recommended" name="alsa-lib" type="ref"/>
-        <dependency status="optional" name="JACK" type="link"/>
-        <dependency status="optional" name="OpenAL" type="link"/>
-        <dependency status="optional" name="PortAudio" type="link"/>
-        <dependency status="optional" name="pulseaudio" type="ref"/>
-        <dependency status="optional" name="sdl" type="ref"/>
+#    Recommended: "alsa-lib" 
+#    Optional: "JACK" 
+#    Optional: "OpenAL" 
+#    Optional: "PortAudio" 
+#    Optional: "pulseaudio" 
+#    Optional: "sdl" 

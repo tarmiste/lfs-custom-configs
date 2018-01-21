@@ -1,8 +1,8 @@
-        <dependency status="required" name="exo" type="ref"/>
-        <dependency status="required" name="libgudev" type="ref"/>
-        <dependency status="required" name="libxfce4ui" type="ref"/>
-        <dependency status="required" name="thunar" type="ref"/>
-        <dependency status="recommended" name="libnotify" type="ref"/>
-        <dependency status="recommended" name="startup-notification" type="ref"/>
-        <dependency status="optional" name="gvfs" type="ref"/>
-        <dependency status="optional" name="polkit-gnome" type="ref"/>
+#    Required: "exo" 
+#    Required: "libgudev" 
+#    Required: "libxfce4ui" 
+#    Required: "thunar" 
+#    Recommended: "libnotify" 
+#    Recommended: "startup-notification" 
+#    Optional: "gvfs" 
+#    Optional: "polkit-gnome" 

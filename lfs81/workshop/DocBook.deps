@@ -1,3 +1,3 @@
-        <dependency status="required" name="libxml2" type="ref"/>
-        <dependency status="required" name="sgml-common" type="ref"/>
-        <dependency status="required" name="unzip" type="ref"/>
+#    Required: "libxml2" 
+#    Required: "sgml-common" 
+#    Required: "unzip" 

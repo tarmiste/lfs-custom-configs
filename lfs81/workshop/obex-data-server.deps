@@ -1,6 +1,6 @@
-        <dependency status="required" name="bluez" type="ref"/>
-        <dependency status="required" name="dbus-glib" type="ref"/>
-        <dependency status="required" name="gdk-pixbuf" type="ref"/>
-        <dependency status="required" name="imagemagick" type="ref"/>
-        <dependency status="required" name="libusb-compat" type="ref"/>
-        <dependency status="required" name="openobex" type="ref"/>
+#    Required: "bluez" 
+#    Required: "dbus-glib" 
+#    Required: "gdk-pixbuf" 
+#    Required: "imagemagick" 
+#    Required: "libusb-compat" 
+#    Required: "openobex" 

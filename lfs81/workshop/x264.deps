@@ -1,4 +1,4 @@
-        <dependency status="recommended" name="yasm" type="ref"/>
-        <dependency status="optional" name="ffms2" type="link"/>
-        <dependency status="optional" name="gpac" type="link"/>
-        <dependency status="optional" name="liblsmash" type="link"/>
+#    Recommended: "yasm" 
+#    Optional: "ffms2" 
+#    Optional: "gpac" 
+#    Optional: "liblsmash" 

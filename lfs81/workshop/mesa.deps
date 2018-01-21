@@ -1,46 +1,46 @@
-        <dependency status="required" name="Mako" type="ref"/>
-        <dependency status="required" name="libFS" type="ref"/>
-        <dependency status="required" name="libICE" type="ref"/>
-        <dependency status="required" name="libSM" type="ref"/>
-        <dependency status="required" name="libX11" type="ref"/>
-        <dependency status="required" name="libXScrnSaver" type="ref"/>
-        <dependency status="required" name="libXaw" type="ref"/>
-        <dependency status="required" name="libXcomposite" type="ref"/>
-        <dependency status="required" name="libXcursor" type="ref"/>
-        <dependency status="required" name="libXdamage" type="ref"/>
-        <dependency status="required" name="libXext" type="ref"/>
-        <dependency status="required" name="libXfixes" type="ref"/>
-        <dependency status="required" name="libXfont2" type="ref"/>
-        <dependency status="required" name="libXft" type="ref"/>
-        <dependency status="required" name="libXi" type="ref"/>
-        <dependency status="required" name="libXinerama" type="ref"/>
-        <dependency status="required" name="libXmu" type="ref"/>
-        <dependency status="required" name="libXpm" type="ref"/>
-        <dependency status="required" name="libXrandr" type="ref"/>
-        <dependency status="required" name="libXrender" type="ref"/>
-        <dependency status="required" name="libXres" type="ref"/>
-        <dependency status="required" name="libXt" type="ref"/>
-        <dependency status="required" name="libXtst" type="ref"/>
-        <dependency status="required" name="libXv" type="ref"/>
-        <dependency status="required" name="libXvMC" type="ref"/>
-        <dependency status="required" name="libXxf86dga" type="ref"/>
-        <dependency status="required" name="libXxf86vm" type="ref"/>
-        <dependency status="required" name="libdmx" type="ref"/>
-        <dependency status="required" name="libdrm" type="ref"/>
-        <dependency status="required" name="libfontenc" type="ref"/>
-        <dependency status="required" name="libpciaccess" type="ref"/>
-        <dependency status="required" name="libxkbfile" type="ref"/>
-        <dependency status="required" name="libxshmfence" type="ref"/>
-        <dependency status="required" name="python2" type="ref"/>
-        <dependency status="required" name="xtrans" type="ref"/>
-        <dependency status="recommended" name="" type="link"/>
-        <dependency status="recommended" name="elfutils" type="ref"/>
-        <dependency status="recommended" name="libvdpau" type="ref"/>
-        <dependency status="recommended" name="llvm" type="ref"/>
-        <dependency status="optional" name="Bellagio-OpenMAX-Integration-Layer" type="link"/>
-        <dependency status="optional" name="libgcrypt" type="ref"/>
-        <dependency status="optional" name="lxqt" type="ref"/>
-        <dependency status="optional" name="mesa-demos" type="link"/>
-        <dependency status="optional" name="nettle" type="ref"/>
-        <dependency status="optional" name="plasma5-build" type="ref"/>
-        <dependency status="optional" name="wayland" type="ref"/>
+#    Required: "Mako" 
+#    Required: "libFS" 
+#    Required: "libICE" 
+#    Required: "libSM" 
+#    Required: "libX11" 
+#    Required: "libXScrnSaver" 
+#    Required: "libXaw" 
+#    Required: "libXcomposite" 
+#    Required: "libXcursor" 
+#    Required: "libXdamage" 
+#    Required: "libXext" 
+#    Required: "libXfixes" 
+#    Required: "libXfont2" 
+#    Required: "libXft" 
+#    Required: "libXi" 
+#    Required: "libXinerama" 
+#    Required: "libXmu" 
+#    Required: "libXpm" 
+#    Required: "libXrandr" 
+#    Required: "libXrender" 
+#    Required: "libXres" 
+#    Required: "libXt" 
+#    Required: "libXtst" 
+#    Required: "libXv" 
+#    Required: "libXvMC" 
+#    Required: "libXxf86dga" 
+#    Required: "libXxf86vm" 
+#    Required: "libdmx" 
+#    Required: "libdrm" 
+#    Required: "libfontenc" 
+#    Required: "libpciaccess" 
+#    Required: "libxkbfile" 
+#    Required: "libxshmfence" 
+#    Required: "python2" 
+#    Required: "xtrans" 
+#    Recommended: "" 
+#    Recommended: "elfutils" 
+#    Recommended: "libvdpau" 
+#    Recommended: "llvm" 
+#    Optional: "Bellagio-OpenMAX-Integration-Layer" 
+#    Optional: "libgcrypt" 
+#    Optional: "lxqt" 
+#    Optional: "mesa-demos" 
+#    Optional: "nettle" 
+#    Optional: "plasma5-build" 
+#    Optional: "wayland" 

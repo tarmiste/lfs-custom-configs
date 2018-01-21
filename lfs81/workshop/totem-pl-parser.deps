@@ -1,9 +1,9 @@
-        <dependency status="required" name="gmime" type="ref"/>
-        <dependency status="required" name="libsoup" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="libarchive" type="ref"/>
-        <dependency status="recommended" name="libgcrypt" type="ref"/>
-        <dependency status="optional" name="LCOV" type="link"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="libquvi-(version-0.9)-and-libquvi-scripts" type="link"/>
-        <dependency status="optional" name="lua-socket-(git)" type="link"/>
+#    Required: "gmime" 
+#    Required: "libsoup" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "libarchive" 
+#    Recommended: "libgcrypt" 
+#    Optional: "LCOV" 
+#    Optional: "gtk-doc" 
+#    Optional: "libquvi-(version-0.9)-and-libquvi-scripts" 
+#    Optional: "lua-socket-(git)" 

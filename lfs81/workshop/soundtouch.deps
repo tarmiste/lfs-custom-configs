@@ -1,1 +1,1 @@
-        <dependency status="optional" name="OpenMP" type="link"/>
+#    Optional: "OpenMP" 

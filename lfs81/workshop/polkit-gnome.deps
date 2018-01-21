@@ -1,2 +1,2 @@
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="required" name="polkit" type="ref"/>
+#    Required: "gtk3" 
+#    Required: "polkit" 

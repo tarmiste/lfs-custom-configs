@@ -1,18 +1,18 @@
-        <dependency status="required" name="clutter-gst" type="ref"/>
-        <dependency status="required" name="clutter-gtk" type="ref"/>
-        <dependency status="required" name="gnome-desktop" type="ref"/>
-        <dependency status="required" name="gnome-video-effects" type="ref"/>
-        <dependency status="required" name="gst10-plugins-bad" type="ref"/>
-        <dependency status="required" name="gst10-plugins-good" type="ref"/>
-        <dependency status="required" name="itstool" type="ref"/>
-        <dependency status="required" name="libcanberra" type="ref"/>
-        <dependency status="required" name="libgudev" type="ref"/>
-        <dependency status="required" name="librsvg" type="ref"/>
-        <dependency status="required" name="v4l-utils" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="vala" type="ref"/>
-        <dependency status="optional" name="LCOV" type="link"/>
-        <dependency status="optional" name="Nautilus-SendTo" type="link"/>
-        <dependency status="optional" name="appstream-glib" type="link"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="libxslt" type="ref"/>
+#    Required: "clutter-gst" 
+#    Required: "clutter-gtk" 
+#    Required: "gnome-desktop" 
+#    Required: "gnome-video-effects" 
+#    Required: "gst10-plugins-bad" 
+#    Required: "gst10-plugins-good" 
+#    Required: "itstool" 
+#    Required: "libcanberra" 
+#    Required: "libgudev" 
+#    Required: "librsvg" 
+#    Required: "v4l-utils" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "vala" 
+#    Optional: "LCOV" 
+#    Optional: "Nautilus-SendTo" 
+#    Optional: "appstream-glib" 
+#    Optional: "gtk-doc" 
+#    Optional: "libxslt" 

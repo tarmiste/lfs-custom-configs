@@ -1,8 +1,8 @@
-        <dependency status="optional" name="DirectFB" type="link"/>
-        <dependency status="optional" name="alsa" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="fcitx" type="link"/>
-        <dependency status="optional" name="ibus" type="ref"/>
-        <dependency status="optional" name="nasm" type="ref"/>
-        <dependency status="optional" name="pulseaudio" type="ref"/>
-        <dependency status="optional" name="x-window-system" type="ref"/>
+#    Optional: "DirectFB" 
+#    Optional: "alsa" 
+#    Optional: "doxygen" 
+#    Optional: "fcitx" 
+#    Optional: "ibus" 
+#    Optional: "nasm" 
+#    Optional: "pulseaudio" 
+#    Optional: "x-window-system" 

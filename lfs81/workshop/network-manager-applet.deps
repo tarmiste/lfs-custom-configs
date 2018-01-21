@@ -1,11 +1,11 @@
-        <dependency status="required" name="NetworkManager" type="ref"/>
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="required" name="iso-codes" type="ref"/>
-        <dependency status="required" name="libnotify" type="ref"/>
-        <dependency status="required" name="libsecret" type="ref"/>
-        <dependency status="required" name="polkit-gnome" type="ref"/>
-        <dependency status="recommended" name="ModemManager" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="optional" name="GNOME-Bluetooth" type="link"/>
-        <dependency status="optional" name="gc" type="ref"/>
-        <dependency status="optional" name="mobile-broadband-provider-info" type="link"/>
+#    Required: "NetworkManager" 
+#    Required: "gtk3" 
+#    Required: "iso-codes" 
+#    Required: "libnotify" 
+#    Required: "libsecret" 
+#    Required: "polkit-gnome" 
+#    Recommended: "ModemManager" 
+#    Recommended: "gobject-introspection" 
+#    Optional: "GNOME-Bluetooth" 
+#    Optional: "gc" 
+#    Optional: "mobile-broadband-provider-info" 

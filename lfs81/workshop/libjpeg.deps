@@ -1,2 +1,2 @@
-        <dependency status="required" name="nasm" type="ref"/>
-        <dependency status="required" name="yasm" type="ref"/>
+#    Required: "nasm" 
+#    Required: "yasm" 

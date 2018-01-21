@@ -1,6 +1,6 @@
-        <dependency status="recommended" name="openssl" type="ref"/>
-        <dependency status="optional" name="aspell" type="ref"/>
-        <dependency status="optional" name="linux-pam" type="ref"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
-        <dependency status="optional" name="openldap" type="ref"/>
-        <dependency status="optional" name="tcl" type="ref"/>
+#    Recommended: "openssl" 
+#    Optional: "aspell" 
+#    Optional: "linux-pam" 
+#    Optional: "mitkrb" 
+#    Optional: "openldap" 
+#    Optional: "tcl" 

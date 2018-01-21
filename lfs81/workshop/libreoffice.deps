@@ -1,91 +1,91 @@
-        <dependency status="required" name="perl-archive-zip" type="ref"/>
-        <dependency status="required" name="unzip" type="ref"/>
-        <dependency status="required" name="wget" type="ref"/>
-        <dependency status="required" name="which" type="ref"/>
-        <dependency status="required" name="zip" type="ref"/>
-        <dependency status="recommended" name="apache-ant" type="ref"/>
-        <dependency status="recommended" name="apr" type="ref"/>
-        <dependency status="recommended" name="boost" type="ref"/>
-        <dependency status="recommended" name="clucene" type="ref"/>
-        <dependency status="recommended" name="cups" type="ref"/>
-        <dependency status="recommended" name="curl" type="ref"/>
-        <dependency status="recommended" name="dbus-glib" type="ref"/>
-        <dependency status="recommended" name="glu" type="ref"/>
-        <dependency status="recommended" name="gnutls" type="ref"/>
-        <dependency status="recommended" name="graphite2" type="ref"/>
-        <dependency status="recommended" name="gst10-plugins-base" type="ref"/>
-        <dependency status="recommended" name="gtk2" type="ref"/>
-        <dependency status="recommended" name="gtk3" type="ref"/>
-        <dependency status="recommended" name="harfbuzz" type="ref"/>
-        <dependency status="recommended" name="icu" type="ref"/>
-        <dependency status="recommended" name="lcms2" type="ref"/>
-        <dependency status="recommended" name="libatomic_ops" type="ref"/>
-        <dependency status="recommended" name="libjpeg" type="ref"/>
-        <dependency status="recommended" name="librsvg" type="ref"/>
-        <dependency status="recommended" name="libxml2" type="ref"/>
-        <dependency status="recommended" name="libxslt" type="ref"/>
-        <dependency status="recommended" name="mesa" type="ref"/>
-        <dependency status="recommended" name="neon" type="ref"/>
-        <dependency status="recommended" name="nss" type="ref"/>
-        <dependency status="recommended" name="openldap" type="ref"/>
-        <dependency status="recommended" name="openssl" type="ref"/>
-        <dependency status="recommended" name="poppler" type="ref"/>
-        <dependency status="recommended" name="postgresql" type="ref"/>
-        <dependency status="recommended" name="python3" type="ref"/>
-        <dependency status="recommended" name="redland" type="ref"/>
-        <dependency status="recommended" name="serf" type="ref"/>
-        <dependency status="recommended" name="unixodbc" type="ref"/>
-        <dependency status="optional" name="Apache-Commons-Codec" type="link"/>
-        <dependency status="optional" name="Apache-Commons-HttpClient" type="link"/>
-        <dependency status="optional" name="Apache-Commons-Lang" type="link"/>
-        <dependency status="optional" name="Apache-Commons-Logging" type="link"/>
-        <dependency status="optional" name="BeanShell" type="link"/>
-        <dependency status="optional" name="CoinMP" type="link"/>
-        <dependency status="optional" name="Cppunit" type="link"/>
-        <dependency status="optional" name="Firebird" type="link"/>
-        <dependency status="optional" name="Gnome-VFS" type="link"/>
-        <dependency status="optional" name="Hunspell" type="link"/>
-        <dependency status="optional" name="Hyphen" type="link"/>
-        <dependency status="optional" name="MySQL" type="link"/>
-        <dependency status="optional" name="MyThes" type="link"/>
-        <dependency status="optional" name="OpenCOLLADA" type="link"/>
-        <dependency status="optional" name="Orcus" type="link"/>
-        <dependency status="optional" name="VIGRA" type="link"/>
-        <dependency status="optional" name="Zenity" type="link"/>
-        <dependency status="optional" name="avahi" type="ref"/>
-        <dependency status="optional" name="bluez" type="ref"/>
-        <dependency status="optional" name="dconf" type="ref"/>
-        <dependency status="optional" name="desktop-file-utils" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="gdb" type="ref"/>
-        <dependency status="optional" name="glew-(OpenGL-Extension-Wrangler-Library)" type="link"/>
-        <dependency status="optional" name="glyphy" type="link"/>
-        <dependency status="optional" name="hamcrest" type="link"/>
-        <dependency status="optional" name="iwyu" type="link"/>
-        <dependency status="optional" name="junit" type="ref"/>
-        <dependency status="optional" name="libabw" type="link"/>
-        <dependency status="optional" name="libcdr" type="link"/>
-        <dependency status="optional" name="libcmis" type="link"/>
-        <dependency status="optional" name="libebook" type="link"/>
-        <dependency status="optional" name="libexttextcat" type="link"/>
-        <dependency status="optional" name="libfreehand" type="link"/>
-        <dependency status="optional" name="liblangtag" type="link"/>
-        <dependency status="optional" name="libmspub" type="link"/>
-        <dependency status="optional" name="libmwaw" type="link"/>
-        <dependency status="optional" name="libodfgen" type="link"/>
-        <dependency status="optional" name="libpagemaker" type="link"/>
-        <dependency status="optional" name="librevenge-(WordPerfect-Document-importer)" type="link"/>
-        <dependency status="optional" name="libvisio" type="link"/>
-        <dependency status="optional" name="libwpd" type="link"/>
-        <dependency status="optional" name="libwpg" type="link"/>
-        <dependency status="optional" name="libwps" type="link"/>
-        <dependency status="optional" name="lp_solve" type="link"/>
-        <dependency status="optional" name="mariadb" type="ref"/>
-        <dependency status="optional" name="mdds" type="link"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
-        <dependency status="optional" name="nasm" type="ref"/>
-        <dependency status="optional" name="ogl-math---OpenGL-Mathematics-(GLM)" type="link"/>
-        <dependency status="optional" name="sane" type="ref"/>
-        <dependency status="optional" name="telepathy-glib" type="link"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
-        <dependency status="optional" name="vlc" type="ref"/>
+#    Required: "perl-archive-zip" 
+#    Required: "unzip" 
+#    Required: "wget" 
+#    Required: "which" 
+#    Required: "zip" 
+#    Recommended: "apache-ant" 
+#    Recommended: "apr" 
+#    Recommended: "boost" 
+#    Recommended: "clucene" 
+#    Recommended: "cups" 
+#    Recommended: "curl" 
+#    Recommended: "dbus-glib" 
+#    Recommended: "glu" 
+#    Recommended: "gnutls" 
+#    Recommended: "graphite2" 
+#    Recommended: "gst10-plugins-base" 
+#    Recommended: "gtk2" 
+#    Recommended: "gtk3" 
+#    Recommended: "harfbuzz" 
+#    Recommended: "icu" 
+#    Recommended: "lcms2" 
+#    Recommended: "libatomic_ops" 
+#    Recommended: "libjpeg" 
+#    Recommended: "librsvg" 
+#    Recommended: "libxml2" 
+#    Recommended: "libxslt" 
+#    Recommended: "mesa" 
+#    Recommended: "neon" 
+#    Recommended: "nss" 
+#    Recommended: "openldap" 
+#    Recommended: "openssl" 
+#    Recommended: "poppler" 
+#    Recommended: "postgresql" 
+#    Recommended: "python3" 
+#    Recommended: "redland" 
+#    Recommended: "serf" 
+#    Recommended: "unixodbc" 
+#    Optional: "Apache-Commons-Codec" 
+#    Optional: "Apache-Commons-HttpClient" 
+#    Optional: "Apache-Commons-Lang" 
+#    Optional: "Apache-Commons-Logging" 
+#    Optional: "BeanShell" 
+#    Optional: "CoinMP" 
+#    Optional: "Cppunit" 
+#    Optional: "Firebird" 
+#    Optional: "Gnome-VFS" 
+#    Optional: "Hunspell" 
+#    Optional: "Hyphen" 
+#    Optional: "MySQL" 
+#    Optional: "MyThes" 
+#    Optional: "OpenCOLLADA" 
+#    Optional: "Orcus" 
+#    Optional: "VIGRA" 
+#    Optional: "Zenity" 
+#    Optional: "avahi" 
+#    Optional: "bluez" 
+#    Optional: "dconf" 
+#    Optional: "desktop-file-utils" 
+#    Optional: "doxygen" 
+#    Optional: "gdb" 
+#    Optional: "glew-(OpenGL-Extension-Wrangler-Library)" 
+#    Optional: "glyphy" 
+#    Optional: "hamcrest" 
+#    Optional: "iwyu" 
+#    Optional: "junit" 
+#    Optional: "libabw" 
+#    Optional: "libcdr" 
+#    Optional: "libcmis" 
+#    Optional: "libebook" 
+#    Optional: "libexttextcat" 
+#    Optional: "libfreehand" 
+#    Optional: "liblangtag" 
+#    Optional: "libmspub" 
+#    Optional: "libmwaw" 
+#    Optional: "libodfgen" 
+#    Optional: "libpagemaker" 
+#    Optional: "librevenge-(WordPerfect-Document-importer)" 
+#    Optional: "libvisio" 
+#    Optional: "libwpd" 
+#    Optional: "libwpg" 
+#    Optional: "libwps" 
+#    Optional: "lp_solve" 
+#    Optional: "mariadb" 
+#    Optional: "mdds" 
+#    Optional: "mitkrb" 
+#    Optional: "nasm" 
+#    Optional: "ogl-math---OpenGL-Mathematics-(GLM)" 
+#    Optional: "sane" 
+#    Optional: "telepathy-glib" 
+#    Optional: "valgrind" 
+#    Optional: "vlc" 

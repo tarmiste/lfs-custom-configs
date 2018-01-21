@@ -1,3 +1,3 @@
-        <dependency status="required" name="cmake" type="ref"/>
-        <dependency status="required" name="polkit" type="ref"/>
-        <dependency status="required" name="qt5" type="ref"/>
+#    Required: "cmake" 
+#    Required: "polkit" 
+#    Required: "qt5" 

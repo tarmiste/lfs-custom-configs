@@ -1,7 +1,7 @@
-        <dependency status="required" name="libgudev" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="libmbim" type="ref"/>
-        <dependency status="recommended" name="libqmi" type="ref"/>
-        <dependency status="recommended" name="polkit" type="ref"/>
-        <dependency status="recommended" name="vala" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
+#    Required: "libgudev" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "libmbim" 
+#    Recommended: "libqmi" 
+#    Recommended: "polkit" 
+#    Recommended: "vala" 
+#    Optional: "gtk-doc" 

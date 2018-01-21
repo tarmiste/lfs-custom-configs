@@ -1,13 +1,13 @@
-        <dependency status="required" name="glib2" type="ref"/>
-        <dependency status="required" name="thunar-volman" type="ref"/>
-        <dependency status="optional" name="FFmpegThumbnailer" type="link"/>
-        <dependency status="optional" name="curl" type="ref"/>
-        <dependency status="optional" name="freetype2" type="ref"/>
-        <dependency status="optional" name="gdk-pixbuf" type="ref"/>
-        <dependency status="optional" name="gst10-plugins-base" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="libgsf" type="ref"/>
-        <dependency status="optional" name="libjpeg" type="ref"/>
-        <dependency status="optional" name="libopewnraw" type="link"/>
-        <dependency status="optional" name="libpng" type="ref"/>
-        <dependency status="optional" name="poppler" type="ref"/>
+#    Required: "glib2" 
+#    Required: "thunar-volman" 
+#    Optional: "FFmpegThumbnailer" 
+#    Optional: "curl" 
+#    Optional: "freetype2" 
+#    Optional: "gdk-pixbuf" 
+#    Optional: "gst10-plugins-base" 
+#    Optional: "gtk-doc" 
+#    Optional: "libgsf" 
+#    Optional: "libjpeg" 
+#    Optional: "libopewnraw" 
+#    Optional: "libpng" 
+#    Optional: "poppler" 

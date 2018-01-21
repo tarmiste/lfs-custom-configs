@@ -1,8 +1,8 @@
-        <dependency status="optional" name="db" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="graphviz" type="ref"/>
-        <dependency status="optional" name="libffi" type="ref"/>
-        <dependency status="optional" name="openssl" type="ref"/>
-        <dependency status="optional" name="tk" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
-        <dependency status="optional" name="yaml" type="ref"/>
+#    Optional: "db" 
+#    Optional: "doxygen" 
+#    Optional: "graphviz" 
+#    Optional: "libffi" 
+#    Optional: "openssl" 
+#    Optional: "tk" 
+#    Optional: "valgrind" 
+#    Optional: "yaml" 

@@ -1,3 +1,3 @@
-        <dependency status="required" name="garcon" type="ref"/>
-        <dependency status="required" name="libxfce4ui" type="ref"/>
-        <dependency status="required" name="tumbler" type="ref"/>
+#    Required: "garcon" 
+#    Required: "libxfce4ui" 
+#    Required: "tumbler" 

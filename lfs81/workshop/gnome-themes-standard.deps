@@ -1,3 +1,3 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="required" name="librsvg" type="ref"/>
+#    Required: "gtk2" 
+#    Required: "gtk3" 
+#    Required: "librsvg" 

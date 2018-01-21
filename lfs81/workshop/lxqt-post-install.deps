@@ -1,12 +1,12 @@
-        <dependency status="required" name="icewm" type="ref"/>
-        <dependency status="required" name="openbox" type="ref"/>
-        <dependency status="required" name="plasma5-build" type="ref"/>
-        <dependency status="required" name="xfwm4" type="ref"/>
-        <dependency status="recommended" name="consolekit" type="ref"/>
-        <dependency status="recommended" name="desktop-file-utils" type="ref"/>
-        <dependency status="recommended" name="lxdm" type="ref"/>
-        <dependency status="recommended" name="pm-utils" type="ref"/>
-        <dependency status="recommended" name="sddm" type="ref"/>
-        <dependency status="recommended" name="shared-mime-info" type="ref"/>
-        <dependency status="recommended" name="xdg-utils" type="ref"/>
-        <dependency status="recommended" name="xscreensaver" type="ref"/>
+#    Required: "icewm" 
+#    Required: "openbox" 
+#    Required: "plasma5-build" 
+#    Required: "xfwm4" 
+#    Recommended: "consolekit" 
+#    Recommended: "desktop-file-utils" 
+#    Recommended: "lxdm" 
+#    Recommended: "pm-utils" 
+#    Recommended: "sddm" 
+#    Recommended: "shared-mime-info" 
+#    Recommended: "xdg-utils" 
+#    Recommended: "xscreensaver" 

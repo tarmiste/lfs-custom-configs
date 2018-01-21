@@ -1,17 +1,17 @@
-        <dependency status="optional" name="MySQL" type="link"/>
-        <dependency status="optional" name="db" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="geoip" type="link"/>
-        <dependency status="optional" name="libcap-pam" type="ref"/>
-        <dependency status="optional" name="libxml2" type="ref"/>
-        <dependency status="optional" name="libxslt" type="ref"/>
-        <dependency status="optional" name="mariadb" type="ref"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
-        <dependency status="optional" name="net-tools" type="ref"/>
-        <dependency status="optional" name="openldap" type="ref"/>
-        <dependency status="optional" name="openssl" type="ref"/>
-        <dependency status="optional" name="perl-net-dns" type="ref"/>
-        <dependency status="optional" name="postgresql" type="ref"/>
-        <dependency status="optional" name="texlive" type="ref"/>
-        <dependency status="optional" name="tl-installer" type="ref"/>
-        <dependency status="optional" name="unixodbc" type="ref"/>
+#    Optional: "MySQL" 
+#    Optional: "db" 
+#    Optional: "doxygen" 
+#    Optional: "geoip" 
+#    Optional: "libcap-pam" 
+#    Optional: "libxml2" 
+#    Optional: "libxslt" 
+#    Optional: "mariadb" 
+#    Optional: "mitkrb" 
+#    Optional: "net-tools" 
+#    Optional: "openldap" 
+#    Optional: "openssl" 
+#    Optional: "perl-net-dns" 
+#    Optional: "postgresql" 
+#    Optional: "texlive" 
+#    Optional: "tl-installer" 
+#    Optional: "unixodbc" 

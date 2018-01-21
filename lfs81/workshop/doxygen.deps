@@ -1,11 +1,11 @@
-        <dependency status="required" name="cmake" type="ref"/>
-        <dependency status="optional" name="graphviz" type="ref"/>
-        <dependency status="optional" name="gs" type="ref"/>
-        <dependency status="optional" name="libxml2" type="ref"/>
-        <dependency status="optional" name="llvm" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="python3" type="ref"/>
-        <dependency status="optional" name="qt5" type="ref"/>
-        <dependency status="optional" name="texlive" type="ref"/>
-        <dependency status="optional" name="tl-installer" type="ref"/>
-        <dependency status="optional" name="xapian" type="ref"/>
+#    Required: "cmake" 
+#    Optional: "graphviz" 
+#    Optional: "gs" 
+#    Optional: "libxml2" 
+#    Optional: "llvm" 
+#    Optional: "python2" 
+#    Optional: "python3" 
+#    Optional: "qt5" 
+#    Optional: "texlive" 
+#    Optional: "tl-installer" 
+#    Optional: "xapian" 

@@ -1,12 +1,12 @@
-        <dependency status="required" name="libffi" type="ref"/>
-        <dependency status="required" name="python2" type="ref"/>
-        <dependency status="required" name="python3" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="pcre" type="ref"/>
-        <dependency status="optional" name="FAM-library" type="link"/>
-        <dependency status="optional" name="GNU-Indent" type="link"/>
-        <dependency status="optional" name="dbus" type="ref"/>
-        <dependency status="optional" name="desktop-file-utils" type="ref"/>
-        <dependency status="optional" name="elfutils" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="shared-mime-info" type="ref"/>
+#    Required: "libffi" 
+#    Required: "python2" 
+#    Required: "python3" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "pcre" 
+#    Optional: "FAM-library" 
+#    Optional: "GNU-Indent" 
+#    Optional: "dbus" 
+#    Optional: "desktop-file-utils" 
+#    Optional: "elfutils" 
+#    Optional: "gtk-doc" 
+#    Optional: "shared-mime-info" 

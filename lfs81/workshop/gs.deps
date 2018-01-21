@@ -1,13 +1,13 @@
-        <dependency status="recommended" name="freetype2" type="ref"/>
-        <dependency status="recommended" name="lcms2" type="ref"/>
-        <dependency status="recommended" name="libjpeg" type="ref"/>
-        <dependency status="recommended" name="libpng" type="ref"/>
-        <dependency status="recommended" name="libtiff" type="ref"/>
-        <dependency status="optional" name="cairo" type="ref"/>
-        <dependency status="optional" name="cups" type="ref"/>
-        <dependency status="optional" name="fontconfig" type="ref"/>
-        <dependency status="optional" name="gtk3" type="ref"/>
-        <dependency status="optional" name="lcms" type="ref"/>
-        <dependency status="optional" name="libidn" type="ref"/>
-        <dependency status="optional" name="libpaper" type="ref"/>
-        <dependency status="optional" name="x-window-system" type="ref"/>
+#    Recommended: "freetype2" 
+#    Recommended: "lcms2" 
+#    Recommended: "libjpeg" 
+#    Recommended: "libpng" 
+#    Recommended: "libtiff" 
+#    Optional: "cairo" 
+#    Optional: "cups" 
+#    Optional: "fontconfig" 
+#    Optional: "gtk3" 
+#    Optional: "lcms" 
+#    Optional: "libidn" 
+#    Optional: "libpaper" 
+#    Optional: "x-window-system" 

@@ -1,3 +1,3 @@
-        <dependency status="optional" name="JBIG-KIT" type="link"/>
-        <dependency status="optional" name="freeglut" type="ref"/>
-        <dependency status="optional" name="libjpeg" type="ref"/>
+#    Optional: "JBIG-KIT" 
+#    Optional: "freeglut" 
+#    Optional: "libjpeg" 

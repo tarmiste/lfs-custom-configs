@@ -1,17 +1,17 @@
-        <dependency status="required" name="at-spi2-atk" type="ref"/>
-        <dependency status="required" name="gdk-pixbuf" type="ref"/>
-        <dependency status="required" name="libepoxy" type="ref"/>
-        <dependency status="required" name="pango" type="ref"/>
-        <dependency status="recommended" name="adwaita-icon-theme" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="hicolor-icon-theme" type="ref"/>
-        <dependency status="optional" name="PAPI" type="link"/>
-        <dependency status="optional" name="colord" type="ref"/>
-        <dependency status="optional" name="cups" type="ref"/>
-        <dependency status="optional" name="docbook-utils" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="json-glib" type="ref"/>
-        <dependency status="optional" name="libxkbcommon" type="ref"/>
-        <dependency status="optional" name="rest" type="link"/>
-        <dependency status="optional" name="wayland" type="ref"/>
-        <dependency status="optional" name="wayland-protocols" type="ref"/>
+#    Required: "at-spi2-atk" 
+#    Required: "gdk-pixbuf" 
+#    Required: "libepoxy" 
+#    Required: "pango" 
+#    Recommended: "adwaita-icon-theme" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "hicolor-icon-theme" 
+#    Optional: "PAPI" 
+#    Optional: "colord" 
+#    Optional: "cups" 
+#    Optional: "docbook-utils" 
+#    Optional: "gtk-doc" 
+#    Optional: "json-glib" 
+#    Optional: "libxkbcommon" 
+#    Optional: "rest" 
+#    Optional: "wayland" 
+#    Optional: "wayland-protocols" 

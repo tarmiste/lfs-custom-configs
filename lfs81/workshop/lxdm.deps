@@ -1,6 +1,6 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="iso-codes" type="ref"/>
-        <dependency status="required" name="librsvg" type="ref"/>
-        <dependency status="recommended" name="consolekit" type="ref"/>
-        <dependency status="recommended" name="linux-pam" type="ref"/>
-        <dependency status="optional" name="gtk3" type="ref"/>
+#    Required: "gtk2" 
+#    Required: "iso-codes" 
+#    Required: "librsvg" 
+#    Recommended: "consolekit" 
+#    Recommended: "linux-pam" 
+#    Optional: "gtk3" 

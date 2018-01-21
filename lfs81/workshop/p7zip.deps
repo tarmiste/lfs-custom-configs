@@ -1,1 +1,1 @@
-        <dependency status="optional" name="wxWidgets" type="link"/>
+#    Optional: "wxWidgets" 

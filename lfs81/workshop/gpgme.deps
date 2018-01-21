@@ -1,8 +1,8 @@
-        <dependency status="required" name="libassuan" type="ref"/>
-        <dependency status="optional" name="clisp" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="gnupg2" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="python3" type="ref"/>
-        <dependency status="optional" name="qt5" type="ref"/>
-        <dependency status="optional" name="swig" type="ref"/>
+#    Required: "libassuan" 
+#    Optional: "clisp" 
+#    Optional: "doxygen" 
+#    Optional: "gnupg2" 
+#    Optional: "python2" 
+#    Optional: "python3" 
+#    Optional: "qt5" 
+#    Optional: "swig" 

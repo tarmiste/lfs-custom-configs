@@ -1,2 +1,2 @@
-        <dependency status="required" name="alsa-tools" type="ref"/>
-        <dependency status="optional" name="AS31" type="link"/>
+#    Required: "alsa-tools" 
+#    Optional: "AS31" 

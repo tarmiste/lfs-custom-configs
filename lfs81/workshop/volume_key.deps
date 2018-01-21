@@ -1,6 +1,6 @@
-        <dependency status="required" name="cryptsetup" type="ref"/>
-        <dependency status="required" name="glib2" type="ref"/>
-        <dependency status="required" name="gpgme" type="ref"/>
-        <dependency status="required" name="swig" type="ref"/>
-        <dependency status="recommended" name="python2" type="ref"/>
-        <dependency status="optional" name="python3" type="ref"/>
+#    Required: "cryptsetup" 
+#    Required: "glib2" 
+#    Required: "gpgme" 
+#    Required: "swig" 
+#    Recommended: "python2" 
+#    Optional: "python3" 

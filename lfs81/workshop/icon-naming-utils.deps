@@ -1,1 +1,1 @@
-        <dependency status="required" name="perl-xml-simple" type="ref"/>
+#    Required: "perl-xml-simple" 

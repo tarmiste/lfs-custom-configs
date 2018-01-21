@@ -1,2 +1,2 @@
-        <dependency status="required" name="libnotify" type="ref"/>
-        <dependency status="required" name="libxfce4ui" type="ref"/>
+#    Required: "libnotify" 
+#    Required: "libxfce4ui" 

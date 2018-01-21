@@ -1,7 +1,7 @@
-        <dependency status="optional" name="dejagnu" type="ref"/>
-        <dependency status="optional" name="gnupg2" type="ref"/>
-        <dependency status="optional" name="keyutils" type="ref"/>
-        <dependency status="optional" name="openldap" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="rpcbind" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Optional: "dejagnu" 
+#    Optional: "gnupg2" 
+#    Optional: "keyutils" 
+#    Optional: "openldap" 
+#    Optional: "python2" 
+#    Optional: "rpcbind" 
+#    Optional: "valgrind" 

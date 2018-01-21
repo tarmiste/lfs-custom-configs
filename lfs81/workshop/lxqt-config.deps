@@ -1,6 +1,6 @@
-        <dependency status="required" name="liblxqt" type="ref"/>
-        <dependency status="required" name="lxqt-libkscreen" type="ref"/>
-        <dependency status="required" name="lxqt-libkscreen" type="ref"/>
-        <dependency status="required" name="plasma5-build" type="ref"/>
-        <dependency status="optional" name="git" type="ref"/>
-        <dependency status="optional" name="lxqt-l10n" type="ref"/>
+#    Required: "liblxqt" 
+#    Required: "lxqt-libkscreen" 
+#    Required: "lxqt-libkscreen" 
+#    Required: "plasma5-build" 
+#    Optional: "git" 
+#    Optional: "lxqt-l10n" 

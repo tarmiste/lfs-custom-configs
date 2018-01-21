@@ -1,7 +1,7 @@
-        <dependency status="required" name="python2" type="ref"/>
-        <dependency status="recommended" name="c-ares" type="ref"/>
-        <dependency status="recommended" name="icu" type="ref"/>
-        <dependency status="recommended" name="openssl10" type="ref"/>
-        <dependency status="optional" name="http-parser" type="link"/>
-        <dependency status="optional" name="libuv" type="link"/>
-        <dependency status="optional" name="npm" type="link"/>
+#    Required: "python2" 
+#    Recommended: "c-ares" 
+#    Recommended: "icu" 
+#    Recommended: "openssl10" 
+#    Optional: "http-parser" 
+#    Optional: "libuv" 
+#    Optional: "npm" 

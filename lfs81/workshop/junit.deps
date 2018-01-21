@@ -1,2 +1,2 @@
-        <dependency status="required" name="apache-ant" type="ref"/>
-        <dependency status="required" name="unzip" type="ref"/>
+#    Required: "apache-ant" 
+#    Required: "unzip" 

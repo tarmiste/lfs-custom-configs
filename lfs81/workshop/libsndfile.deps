@@ -1,5 +1,5 @@
-        <dependency status="optional" name="alsa-lib" type="ref"/>
-        <dependency status="optional" name="flac" type="ref"/>
-        <dependency status="optional" name="libogg" type="ref"/>
-        <dependency status="optional" name="libvorbis" type="ref"/>
-        <dependency status="optional" name="sqlite" type="ref"/>
+#    Optional: "alsa-lib" 
+#    Optional: "flac" 
+#    Optional: "libogg" 
+#    Optional: "libvorbis" 
+#    Optional: "sqlite" 

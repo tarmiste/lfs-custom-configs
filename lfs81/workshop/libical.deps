@@ -1,5 +1,5 @@
-        <dependency status="required" name="cmake" type="ref"/>
-        <dependency status="optional" name="db" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="gobject-introspection" type="ref"/>
-        <dependency status="optional" name="icu" type="ref"/>
+#    Required: "cmake" 
+#    Optional: "db" 
+#    Optional: "doxygen" 
+#    Optional: "gobject-introspection" 
+#    Optional: "icu" 

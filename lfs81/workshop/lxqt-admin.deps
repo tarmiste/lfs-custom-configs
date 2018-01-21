@@ -1,5 +1,5 @@
-        <dependency status="required" name="liblxqt" type="ref"/>
-        <dependency status="required" name="lxqt-about" type="ref"/>
-        <dependency status="required" name="polkit" type="ref"/>
-        <dependency status="optional" name="git" type="ref"/>
-        <dependency status="optional" name="lxqt-l10n" type="ref"/>
+#    Required: "liblxqt" 
+#    Required: "lxqt-about" 
+#    Required: "polkit" 
+#    Optional: "git" 
+#    Optional: "lxqt-l10n" 

@@ -1,11 +1,11 @@
-        <dependency status="required" name="LibreSSL-Portable" type="link"/>
-        <dependency status="required" name="openssl" type="ref"/>
-        <dependency status="optional" name="OpenSC" type="link"/>
-        <dependency status="optional" name="libedit" type="link"/>
-        <dependency status="optional" name="libsectok" type="link"/>
-        <dependency status="optional" name="linux-pam" type="ref"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
-        <dependency status="optional" name="net-tools" type="ref"/>
-        <dependency status="optional" name="openjdk" type="ref"/>
-        <dependency status="optional" name="sysstat" type="ref"/>
-        <dependency status="optional" name="x-window-system" type="ref"/>
+#    Required: "LibreSSL-Portable" 
+#    Required: "openssl" 
+#    Optional: "OpenSC" 
+#    Optional: "libedit" 
+#    Optional: "libsectok" 
+#    Optional: "linux-pam" 
+#    Optional: "mitkrb" 
+#    Optional: "net-tools" 
+#    Optional: "openjdk" 
+#    Optional: "sysstat" 
+#    Optional: "x-window-system" 

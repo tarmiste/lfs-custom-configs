@@ -1,4 +1,4 @@
-        <dependency status="required" name="gst10-plugins-base" type="ref"/>
-        <dependency status="recommended" name="yasm" type="ref"/>
-        <dependency status="optional" name="Orc" type="link"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Required: "gst10-plugins-base" 
+#    Recommended: "yasm" 
+#    Optional: "Orc" 
+#    Optional: "valgrind" 

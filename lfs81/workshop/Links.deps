@@ -1,5 +1,5 @@
-        <dependency status="recommended" name="openssl" type="ref"/>
-        <dependency status="optional" name="DirectFB" type="link"/>
-        <dependency status="optional" name="SVGAlib" type="link"/>
-        <dependency status="optional" name="gpm" type="ref"/>
-        <dependency status="optional" name="x-window-system" type="ref"/>
+#    Recommended: "openssl" 
+#    Optional: "DirectFB" 
+#    Optional: "SVGAlib" 
+#    Optional: "gpm" 
+#    Optional: "x-window-system" 

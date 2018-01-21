@@ -1,17 +1,17 @@
-        <dependency status="required" name="libassuan" type="ref"/>
-        <dependency status="required" name="libgcrypt" type="ref"/>
-        <dependency status="required" name="libgpg-error" type="ref"/>
-        <dependency status="required" name="libksba" type="ref"/>
-        <dependency status="required" name="npth" type="ref"/>
-        <dependency status="recommended" name="pinentry" type="ref"/>
-        <dependency status="optional" name="GNU-adns" type="link"/>
-        <dependency status="optional" name="curl" type="ref"/>
-        <dependency status="optional" name="fig2dev" type="link"/>
-        <dependency status="optional" name="gnutls" type="ref"/>
-        <dependency status="optional" name="imagemagick" type="ref"/>
-        <dependency status="optional" name="libusb-compat" type="ref"/>
-        <dependency status="optional" name="openldap" type="ref"/>
-        <dependency status="optional" name="server-mail" type="ref"/>
-        <dependency status="optional" name="sqlite" type="ref"/>
-        <dependency status="optional" name="texlive" type="ref"/>
-        <dependency status="optional" name="tl-installer" type="ref"/>
+#    Required: "libassuan" 
+#    Required: "libgcrypt" 
+#    Required: "libgpg-error" 
+#    Required: "libksba" 
+#    Required: "npth" 
+#    Recommended: "pinentry" 
+#    Optional: "GNU-adns" 
+#    Optional: "curl" 
+#    Optional: "fig2dev" 
+#    Optional: "gnutls" 
+#    Optional: "imagemagick" 
+#    Optional: "libusb-compat" 
+#    Optional: "openldap" 
+#    Optional: "server-mail" 
+#    Optional: "sqlite" 
+#    Optional: "texlive" 
+#    Optional: "tl-installer" 

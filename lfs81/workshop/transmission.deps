@@ -1,7 +1,7 @@
-        <dependency status="required" name="curl" type="ref"/>
-        <dependency status="required" name="libevent" type="ref"/>
-        <dependency status="required" name="openssl" type="ref"/>
-        <dependency status="recommended" name="gtk3" type="ref"/>
-        <dependency status="recommended" name="qt5" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="gdb" type="ref"/>
+#    Required: "curl" 
+#    Required: "libevent" 
+#    Required: "openssl" 
+#    Recommended: "gtk3" 
+#    Recommended: "qt5" 
+#    Optional: "doxygen" 
+#    Optional: "gdb" 

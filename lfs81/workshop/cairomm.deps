@@ -1,4 +1,4 @@
-        <dependency status="required" name="cairo" type="ref"/>
-        <dependency status="required" name="libsigc" type="ref"/>
-        <dependency status="optional" name="boost" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
+#    Required: "cairo" 
+#    Required: "libsigc" 
+#    Optional: "boost" 
+#    Optional: "doxygen" 

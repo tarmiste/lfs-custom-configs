@@ -1,2 +1,2 @@
-        <dependency status="required" name="extra-cmake-modules" type="ref"/>
-        <dependency status="required" name="lxqt-policykit" type="ref"/>
+#    Required: "extra-cmake-modules" 
+#    Required: "lxqt-policykit" 

@@ -1,9 +1,9 @@
-        <dependency status="required" name="glib2" type="ref"/>
-        <dependency status="required" name="libgpg-error" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="vala" type="ref"/>
-        <dependency status="optional" name="Gtk#" type="link"/>
-        <dependency status="optional" name="Mono" type="link"/>
-        <dependency status="optional" name="docbook-utils" type="ref"/>
-        <dependency status="optional" name="gpgme" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
+#    Required: "glib2" 
+#    Required: "libgpg-error" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "vala" 
+#    Optional: "Gtk#" 
+#    Optional: "Mono" 
+#    Optional: "docbook-utils" 
+#    Optional: "gpgme" 
+#    Optional: "gtk-doc" 

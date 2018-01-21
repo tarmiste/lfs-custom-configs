@@ -1,6 +1,6 @@
-        <dependency status="recommended" name="curl" type="ref"/>
-        <dependency status="recommended" name="libarchive" type="ref"/>
-        <dependency status="optional" name="Sphinx" type="link"/>
-        <dependency status="optional" name="libuv" type="link"/>
-        <dependency status="optional" name="qt5" type="ref"/>
-        <dependency status="optional" name="subversion" type="ref"/>
+#    Recommended: "curl" 
+#    Recommended: "libarchive" 
+#    Optional: "Sphinx" 
+#    Optional: "libuv" 
+#    Optional: "qt5" 
+#    Optional: "subversion" 

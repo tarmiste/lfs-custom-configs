@@ -1,11 +1,11 @@
-        <dependency status="required" name="python2" type="ref"/>
-        <dependency status="optional" name="Bazaar" type="link"/>
-        <dependency status="optional" name="CVS" type="link"/>
-        <dependency status="optional" name="Docutils" type="link"/>
-        <dependency status="optional" name="git" type="ref"/>
-        <dependency status="optional" name="gnupg2" type="ref"/>
-        <dependency status="optional" name="openssh" type="ref"/>
-        <dependency status="optional" name="pyOpenSSL" type="link"/>
-        <dependency status="optional" name="pyflakes" type="link"/>
-        <dependency status="optional" name="pygments" type="link"/>
-        <dependency status="optional" name="subversion" type="ref"/>
+#    Required: "python2" 
+#    Optional: "Bazaar" 
+#    Optional: "CVS" 
+#    Optional: "Docutils" 
+#    Optional: "git" 
+#    Optional: "gnupg2" 
+#    Optional: "openssh" 
+#    Optional: "pyOpenSSL" 
+#    Optional: "pyflakes" 
+#    Optional: "pygments" 
+#    Optional: "subversion" 

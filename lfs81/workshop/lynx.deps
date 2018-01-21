@@ -1,6 +1,6 @@
-        <dependency status="recommended" name="openssl" type="ref"/>
-        <dependency status="optional" name="gnutls" type="ref"/>
-        <dependency status="optional" name="server-mail" type="ref"/>
-        <dependency status="optional" name="sharutils" type="ref"/>
-        <dependency status="optional" name="unzip" type="ref"/>
-        <dependency status="optional" name="zip" type="ref"/>
+#    Recommended: "openssl" 
+#    Optional: "gnutls" 
+#    Optional: "server-mail" 
+#    Optional: "sharutils" 
+#    Optional: "unzip" 
+#    Optional: "zip" 

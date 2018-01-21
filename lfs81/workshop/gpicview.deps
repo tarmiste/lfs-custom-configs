@@ -1,1 +1,1 @@
-        <dependency status="required" name="gtk2" type="ref"/>
+#    Required: "gtk2" 

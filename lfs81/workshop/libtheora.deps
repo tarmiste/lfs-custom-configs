@@ -1,10 +1,10 @@
-        <dependency status="required" name="libogg" type="ref"/>
-        <dependency status="recommended" name="libvorbis" type="ref"/>
-        <dependency status="optional" name="BibTex" type="link"/>
-        <dependency status="optional" name="Transfig" type="link"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="libpng" type="ref"/>
-        <dependency status="optional" name="sdl" type="ref"/>
-        <dependency status="optional" name="texlive" type="ref"/>
-        <dependency status="optional" name="tl-installer" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Required: "libogg" 
+#    Recommended: "libvorbis" 
+#    Optional: "BibTex" 
+#    Optional: "Transfig" 
+#    Optional: "doxygen" 
+#    Optional: "libpng" 
+#    Optional: "sdl" 
+#    Optional: "texlive" 
+#    Optional: "tl-installer" 
+#    Optional: "valgrind" 

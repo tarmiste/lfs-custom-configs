@@ -1,28 +1,28 @@
-        <dependency status="required" name="encodings" type="ref"/>
-        <dependency status="required" name="font-adobe-utopia-type1" type="ref"/>
-        <dependency status="required" name="font-alias" type="ref"/>
-        <dependency status="required" name="font-bh-ttf" type="ref"/>
-        <dependency status="required" name="font-bh-type1" type="ref"/>
-        <dependency status="required" name="font-bitstream-type1" type="ref"/>
-        <dependency status="required" name="font-ibm-type1" type="ref"/>
-        <dependency status="required" name="font-misc-ethiopic" type="ref"/>
-        <dependency status="required" name="font-util" type="ref"/>
-        <dependency status="required" name="font-xfree86-type1" type="ref"/>
-        <dependency status="required" name="libgcrypt" type="ref"/>
-        <dependency status="required" name="nettle" type="ref"/>
-        <dependency status="required" name="openssl" type="ref"/>
-        <dependency status="required" name="pixman" type="ref"/>
-        <dependency status="required" name="xkeyboard-config" type="ref"/>
-        <dependency status="recommended" name="libepoxy" type="ref"/>
-        <dependency status="optional" name="acpid" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="fop" type="ref"/>
-        <dependency status="optional" name="libunwind" type="link"/>
-        <dependency status="optional" name="wayland" type="ref"/>
-        <dependency status="optional" name="wayland-protocols" type="ref"/>
-        <dependency status="optional" name="xcb-util-image" type="ref"/>
-        <dependency status="optional" name="xcb-util-keysyms" type="ref"/>
-        <dependency status="optional" name="xcb-util-renderutil" type="ref"/>
-        <dependency status="optional" name="xcb-util-wm" type="ref"/>
-        <dependency status="optional" name="xmlto" type="ref"/>
-        <dependency status="optional" name="xorg-sgml-doctools" type="link"/>
+#    Required: "encodings" 
+#    Required: "font-adobe-utopia-type1" 
+#    Required: "font-alias" 
+#    Required: "font-bh-ttf" 
+#    Required: "font-bh-type1" 
+#    Required: "font-bitstream-type1" 
+#    Required: "font-ibm-type1" 
+#    Required: "font-misc-ethiopic" 
+#    Required: "font-util" 
+#    Required: "font-xfree86-type1" 
+#    Required: "libgcrypt" 
+#    Required: "nettle" 
+#    Required: "openssl" 
+#    Required: "pixman" 
+#    Required: "xkeyboard-config" 
+#    Recommended: "libepoxy" 
+#    Optional: "acpid" 
+#    Optional: "doxygen" 
+#    Optional: "fop" 
+#    Optional: "libunwind" 
+#    Optional: "wayland" 
+#    Optional: "wayland-protocols" 
+#    Optional: "xcb-util-image" 
+#    Optional: "xcb-util-keysyms" 
+#    Optional: "xcb-util-renderutil" 
+#    Optional: "xcb-util-wm" 
+#    Optional: "xmlto" 
+#    Optional: "xorg-sgml-doctools" 

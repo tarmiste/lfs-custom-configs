@@ -1,8 +1,8 @@
-        <dependency status="required" name="java" type="ref"/>
-        <dependency status="required" name="npapi-sdk" type="ref"/>
-        <dependency status="required" name="ojdk-conf" type="ref"/>
-        <dependency status="required" name="openjdk" type="ref"/>
-        <dependency status="optional" name="EMMA" type="link"/>
-        <dependency status="optional" name="JACOCO" type="link"/>
-        <dependency status="optional" name="libxslt" type="ref"/>
-        <dependency status="optional" name="mercurial" type="ref"/>
+#    Required: "java" 
+#    Required: "npapi-sdk" 
+#    Required: "ojdk-conf" 
+#    Required: "openjdk" 
+#    Optional: "EMMA" 
+#    Optional: "JACOCO" 
+#    Optional: "libxslt" 
+#    Optional: "mercurial" 

@@ -1,8 +1,8 @@
-        <dependency status="required" name="gsettings-desktop-schemas" type="ref"/>
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="required" name="iso-codes" type="ref"/>
-        <dependency status="required" name="itstool" type="ref"/>
-        <dependency status="required" name="libxml2" type="ref"/>
-        <dependency status="required" name="xkeyboard-config" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
+#    Required: "gsettings-desktop-schemas" 
+#    Required: "gtk3" 
+#    Required: "iso-codes" 
+#    Required: "itstool" 
+#    Required: "libxml2" 
+#    Required: "xkeyboard-config" 
+#    Recommended: "gobject-introspection" 
+#    Optional: "gtk-doc" 

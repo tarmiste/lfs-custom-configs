@@ -1,2 +1,2 @@
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="graphviz" type="ref"/>
+#    Optional: "doxygen" 
+#    Optional: "graphviz" 

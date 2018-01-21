@@ -1,6 +1,6 @@
-        <dependency status="required" name="cmake" type="ref"/>
-        <dependency status="required" name="libfm" type="ref"/>
-        <dependency status="required" name="liblxqt" type="ref"/>
-        <dependency status="required" name="qt5" type="ref"/>
-        <dependency status="optional" name="git" type="ref"/>
-        <dependency status="optional" name="lxqt-l10n" type="ref"/>
+#    Required: "cmake" 
+#    Required: "libfm" 
+#    Required: "liblxqt" 
+#    Required: "qt5" 
+#    Optional: "git" 
+#    Optional: "lxqt-l10n" 

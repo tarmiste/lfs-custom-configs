@@ -1,6 +1,6 @@
-        <dependency status="required" name="cmake" type="ref"/>
-        <dependency status="optional" name="freetype2" type="ref"/>
-        <dependency status="optional" name="graphite-font" type="link"/>
-        <dependency status="optional" name="harfbuzz" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="silgraphite" type="link"/>
+#    Required: "cmake" 
+#    Optional: "freetype2" 
+#    Optional: "graphite-font" 
+#    Optional: "harfbuzz" 
+#    Optional: "python2" 
+#    Optional: "silgraphite" 

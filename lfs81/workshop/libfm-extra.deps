@@ -1,2 +1,2 @@
-        <dependency status="required" name="glib2" type="ref"/>
-        <dependency status="required" name="lxmenu-data" type="ref"/>
+#    Required: "glib2" 
+#    Required: "lxmenu-data" 

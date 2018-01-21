@@ -1,13 +1,13 @@
-        <dependency status="recommended" name="cyrus-sasl" type="ref"/>
-        <dependency status="recommended" name="db" type="ref"/>
-        <dependency status="recommended" name="libnsl" type="ref"/>
-        <dependency status="recommended" name="openssl" type="ref"/>
-        <dependency status="optional" name="CDB" type="link"/>
-        <dependency status="optional" name="MySQL" type="link"/>
-        <dependency status="optional" name="TinyCDB" type="link"/>
-        <dependency status="optional" name="icu" type="ref"/>
-        <dependency status="optional" name="mariadb" type="ref"/>
-        <dependency status="optional" name="openldap" type="ref"/>
-        <dependency status="optional" name="pcre" type="ref"/>
-        <dependency status="optional" name="postgresql" type="ref"/>
-        <dependency status="optional" name="sqlite" type="ref"/>
+#    Recommended: "cyrus-sasl" 
+#    Recommended: "db" 
+#    Recommended: "libnsl" 
+#    Recommended: "openssl" 
+#    Optional: "CDB" 
+#    Optional: "MySQL" 
+#    Optional: "TinyCDB" 
+#    Optional: "icu" 
+#    Optional: "mariadb" 
+#    Optional: "openldap" 
+#    Optional: "pcre" 
+#    Optional: "postgresql" 
+#    Optional: "sqlite" 

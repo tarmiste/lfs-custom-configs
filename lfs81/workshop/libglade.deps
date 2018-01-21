@@ -1,4 +1,4 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="libxml2" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
+#    Required: "gtk2" 
+#    Required: "libxml2" 
+#    Optional: "gtk-doc" 
+#    Optional: "python2" 

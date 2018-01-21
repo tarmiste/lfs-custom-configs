@@ -1,4 +1,4 @@
-        <dependency status="required" name="grantlee" type="ref"/>
-        <dependency status="required" name="kf5-frameworks" type="ref"/>
-        <dependency status="required" name="libxml2" type="ref"/>
-        <dependency status="required" name="xapian" type="ref"/>
+#    Required: "grantlee" 
+#    Required: "kf5-frameworks" 
+#    Required: "libxml2" 
+#    Required: "xapian" 

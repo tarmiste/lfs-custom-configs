@@ -1,11 +1,11 @@
-        <dependency status="required" name="dbus-glib" type="ref"/>
-        <dependency status="required" name="libunique" type="ref"/>
-        <dependency status="required" name="lsb-release" type="ref"/>
-        <dependency status="required" name="lxappearance" type="ref"/>
-        <dependency status="required" name="polkit" type="ref"/>
-        <dependency status="required" name="vala" type="ref"/>
-        <dependency status="optional" name="DocBook" type="ref"/>
-        <dependency status="optional" name="consolekit" type="ref"/>
-        <dependency status="optional" name="docbook-xsl" type="ref"/>
-        <dependency status="optional" name="gtk3" type="ref"/>
-        <dependency status="optional" name="libxslt" type="ref"/>
+#    Required: "dbus-glib" 
+#    Required: "libunique" 
+#    Required: "lsb-release" 
+#    Required: "lxappearance" 
+#    Required: "polkit" 
+#    Required: "vala" 
+#    Optional: "DocBook" 
+#    Optional: "consolekit" 
+#    Optional: "docbook-xsl" 
+#    Optional: "gtk3" 
+#    Optional: "libxslt" 

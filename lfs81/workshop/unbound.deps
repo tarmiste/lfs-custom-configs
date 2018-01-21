@@ -1,8 +1,8 @@
-        <dependency status="required" name="openssl" type="ref"/>
-        <dependency status="optional" name="Sphinx" type="link"/>
-        <dependency status="optional" name="dnstap" type="link"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="libevent" type="ref"/>
-        <dependency status="optional" name="nettle" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="swig" type="ref"/>
+#    Required: "openssl" 
+#    Optional: "Sphinx" 
+#    Optional: "dnstap" 
+#    Optional: "doxygen" 
+#    Optional: "libevent" 
+#    Optional: "nettle" 
+#    Optional: "python2" 
+#    Optional: "swig" 

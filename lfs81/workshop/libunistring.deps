@@ -1,2 +1,2 @@
-        <dependency status="optional" name="texlive" type="ref"/>
-        <dependency status="optional" name="tl-installer" type="ref"/>
+#    Optional: "texlive" 
+#    Optional: "tl-installer" 

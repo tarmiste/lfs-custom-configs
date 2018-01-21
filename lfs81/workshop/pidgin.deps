@@ -1,26 +1,26 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="recommended" name="gnutls" type="ref"/>
-        <dependency status="recommended" name="gstreamer10" type="ref"/>
-        <dependency status="recommended" name="libgcrypt" type="ref"/>
-        <dependency status="recommended" name="nss" type="ref"/>
-        <dependency status="optional" name="Evolution-Data-Server" type="link"/>
-        <dependency status="optional" name="Farstream-(Version-0.1)" type="link"/>
-        <dependency status="optional" name="GConf" type="ref"/>
-        <dependency status="optional" name="Gtkspell" type="link"/>
-        <dependency status="optional" name="Meanwhile" type="link"/>
-        <dependency status="optional" name="NetworkManager" type="ref"/>
-        <dependency status="optional" name="SILC-Client" type="link"/>
-        <dependency status="optional" name="SILC-Toolkit" type="link"/>
-        <dependency status="optional" name="Zephyr" type="link"/>
-        <dependency status="optional" name="avahi" type="ref"/>
-        <dependency status="optional" name="check" type="ref"/>
-        <dependency status="optional" name="cyrus-sasl" type="ref"/>
-        <dependency status="optional" name="dbus" type="ref"/>
-        <dependency status="optional" name="libgadu" type="link"/>
-        <dependency status="optional" name="libidn" type="ref"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
-        <dependency status="optional" name="sqlite" type="ref"/>
-        <dependency status="optional" name="startup-notification" type="ref"/>
-        <dependency status="optional" name="tcl" type="ref"/>
-        <dependency status="optional" name="tk" type="ref"/>
-        <dependency status="optional" name="xdg-utils" type="ref"/>
+#    Required: "gtk2" 
+#    Recommended: "gnutls" 
+#    Recommended: "gstreamer10" 
+#    Recommended: "libgcrypt" 
+#    Recommended: "nss" 
+#    Optional: "Evolution-Data-Server" 
+#    Optional: "Farstream-(Version-0.1)" 
+#    Optional: "GConf" 
+#    Optional: "Gtkspell" 
+#    Optional: "Meanwhile" 
+#    Optional: "NetworkManager" 
+#    Optional: "SILC-Client" 
+#    Optional: "SILC-Toolkit" 
+#    Optional: "Zephyr" 
+#    Optional: "avahi" 
+#    Optional: "check" 
+#    Optional: "cyrus-sasl" 
+#    Optional: "dbus" 
+#    Optional: "libgadu" 
+#    Optional: "libidn" 
+#    Optional: "mitkrb" 
+#    Optional: "sqlite" 
+#    Optional: "startup-notification" 
+#    Optional: "tcl" 
+#    Optional: "tk" 
+#    Optional: "xdg-utils" 

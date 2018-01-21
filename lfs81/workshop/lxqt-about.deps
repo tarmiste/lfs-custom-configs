@@ -1,4 +1,4 @@
-        <dependency status="required" name="libfm-qt" type="ref"/>
-        <dependency status="required" name="liblxqt" type="ref"/>
-        <dependency status="optional" name="git" type="ref"/>
-        <dependency status="optional" name="lxqt-l10n" type="ref"/>
+#    Required: "libfm-qt" 
+#    Required: "liblxqt" 
+#    Optional: "git" 
+#    Optional: "lxqt-l10n" 

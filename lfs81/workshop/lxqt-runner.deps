@@ -1,6 +1,6 @@
-        <dependency status="required" name="lxqt-globalkeys" type="ref"/>
-        <dependency status="required" name="lxqt-panel" type="ref"/>
-        <dependency status="required" name="menu-cache" type="ref"/>
-        <dependency status="optional" name="git" type="ref"/>
-        <dependency status="optional" name="lxqt-l10n" type="ref"/>
-        <dependency status="optional" name="muparser" type="link"/>
+#    Required: "lxqt-globalkeys" 
+#    Required: "lxqt-panel" 
+#    Required: "menu-cache" 
+#    Optional: "git" 
+#    Optional: "lxqt-l10n" 
+#    Optional: "muparser" 

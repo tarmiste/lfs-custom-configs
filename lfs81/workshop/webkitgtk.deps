@@ -1,25 +1,25 @@
-        <dependency status="required" name="cairo" type="ref"/>
-        <dependency status="required" name="cmake" type="ref"/>
-        <dependency status="required" name="enchant" type="ref"/>
-        <dependency status="required" name="gst10-plugins-base" type="ref"/>
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="required" name="icu" type="ref"/>
-        <dependency status="required" name="libgudev" type="ref"/>
-        <dependency status="required" name="libsecret" type="ref"/>
-        <dependency status="required" name="libsoup" type="ref"/>
-        <dependency status="required" name="libwebp" type="ref"/>
-        <dependency status="required" name="mesa" type="ref"/>
-        <dependency status="required" name="ruby" type="ref"/>
-        <dependency status="required" name="sqlite" type="ref"/>
-        <dependency status="required" name="which" type="ref"/>
-        <dependency status="recommended" name="geoclue2" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="hicolor-icon-theme" type="ref"/>
-        <dependency status="recommended" name="libnotify" type="ref"/>
-        <dependency status="optional" name="Hyphen" type="link"/>
-        <dependency status="optional" name="MathML" type="link"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="harfbuzz" type="ref"/>
-        <dependency status="optional" name="llvm" type="ref"/>
-        <dependency status="optional" name="wayland" type="ref"/>
+#    Required: "cairo" 
+#    Required: "cmake" 
+#    Required: "enchant" 
+#    Required: "gst10-plugins-base" 
+#    Required: "gtk2" 
+#    Required: "gtk3" 
+#    Required: "icu" 
+#    Required: "libgudev" 
+#    Required: "libsecret" 
+#    Required: "libsoup" 
+#    Required: "libwebp" 
+#    Required: "mesa" 
+#    Required: "ruby" 
+#    Required: "sqlite" 
+#    Required: "which" 
+#    Recommended: "geoclue2" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "hicolor-icon-theme" 
+#    Recommended: "libnotify" 
+#    Optional: "Hyphen" 
+#    Optional: "MathML" 
+#    Optional: "gtk-doc" 
+#    Optional: "harfbuzz" 
+#    Optional: "llvm" 
+#    Optional: "wayland" 

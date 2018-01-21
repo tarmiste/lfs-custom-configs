@@ -1,16 +1,16 @@
-        <dependency status="required" name="libtirpc" type="ref"/>
-        <dependency status="optional" name="Cassandra" type="link"/>
-        <dependency status="optional" name="MySQL" type="link"/>
-        <dependency status="optional" name="clucene" type="ref"/>
-        <dependency status="optional" name="icu" type="ref"/>
-        <dependency status="optional" name="libcap-pam" type="ref"/>
-        <dependency status="optional" name="linux-pam" type="ref"/>
-        <dependency status="optional" name="lz4" type="link"/>
-        <dependency status="optional" name="mariadb" type="ref"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
-        <dependency status="optional" name="openldap" type="ref"/>
-        <dependency status="optional" name="openssl" type="ref"/>
-        <dependency status="optional" name="postgresql" type="ref"/>
-        <dependency status="optional" name="sqlite" type="ref"/>
-        <dependency status="optional" name="stemmer" type="link"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Required: "libtirpc" 
+#    Optional: "Cassandra" 
+#    Optional: "MySQL" 
+#    Optional: "clucene" 
+#    Optional: "icu" 
+#    Optional: "libcap-pam" 
+#    Optional: "linux-pam" 
+#    Optional: "lz4" 
+#    Optional: "mariadb" 
+#    Optional: "mitkrb" 
+#    Optional: "openldap" 
+#    Optional: "openssl" 
+#    Optional: "postgresql" 
+#    Optional: "sqlite" 
+#    Optional: "stemmer" 
+#    Optional: "valgrind" 

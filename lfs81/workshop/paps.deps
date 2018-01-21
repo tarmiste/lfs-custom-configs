@@ -1,2 +1,2 @@
-        <dependency status="required" name="pango" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
+#    Required: "pango" 
+#    Optional: "doxygen" 

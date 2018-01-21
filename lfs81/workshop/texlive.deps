@@ -1,18 +1,18 @@
-        <dependency status="recommended" name="asymptote" type="ref"/>
-        <dependency status="recommended" name="fontconfig" type="ref"/>
-        <dependency status="recommended" name="freetype2" type="ref"/>
-        <dependency status="recommended" name="gc" type="ref"/>
-        <dependency status="recommended" name="graphite2" type="ref"/>
-        <dependency status="recommended" name="gs" type="ref"/>
-        <dependency status="recommended" name="harfbuzz" type="ref"/>
-        <dependency status="recommended" name="icu" type="ref"/>
-        <dependency status="recommended" name="libpaper" type="ref"/>
-        <dependency status="recommended" name="libpng" type="ref"/>
-        <dependency status="recommended" name="poppler" type="ref"/>
-        <dependency status="recommended" name="python2" type="ref"/>
-        <dependency status="recommended" name="ruby" type="ref"/>
-        <dependency status="recommended" name="x-window-system" type="ref"/>
-        <dependency status="optional" name="GD" type="link"/>
-        <dependency status="optional" name="TECkit" type="link"/>
-        <dependency status="optional" name="ZZIPlib" type="link"/>
-        <dependency status="optional" name="t1lib" type="link"/>
+#    Recommended: "asymptote" 
+#    Recommended: "fontconfig" 
+#    Recommended: "freetype2" 
+#    Recommended: "gc" 
+#    Recommended: "graphite2" 
+#    Recommended: "gs" 
+#    Recommended: "harfbuzz" 
+#    Recommended: "icu" 
+#    Recommended: "libpaper" 
+#    Recommended: "libpng" 
+#    Recommended: "poppler" 
+#    Recommended: "python2" 
+#    Recommended: "ruby" 
+#    Recommended: "x-window-system" 
+#    Optional: "GD" 
+#    Optional: "TECkit" 
+#    Optional: "ZZIPlib" 
+#    Optional: "t1lib" 

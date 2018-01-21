@@ -1,2 +1,2 @@
-        <dependency status="required" name="xkeyboard-config" type="ref"/>
-        <dependency status="recommended" name="libxcb" type="ref"/>
+#    Required: "xkeyboard-config" 
+#    Recommended: "libxcb" 

@@ -1,4 +1,4 @@
-        <dependency status="required" name="apr-util" type="ref"/>
-        <dependency status="required" name="openssl" type="ref"/>
-        <dependency status="required" name="scons" type="ref"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
+#    Required: "apr-util" 
+#    Required: "openssl" 
+#    Required: "scons" 
+#    Optional: "mitkrb" 

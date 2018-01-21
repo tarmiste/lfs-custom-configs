@@ -1,2 +1,2 @@
-        <dependency status="optional" name="libjpeg" type="ref"/>
-        <dependency status="optional" name="libtiff" type="ref"/>
+#    Optional: "libjpeg" 
+#    Optional: "libtiff" 

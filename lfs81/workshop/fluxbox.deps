@@ -1,4 +1,4 @@
-        <dependency status="required" name="x-window-system" type="ref"/>
-        <dependency status="optional" name="dbus" type="ref"/>
-        <dependency status="optional" name="fribidi" type="ref"/>
-        <dependency status="optional" name="imlib2" type="ref"/>
+#    Required: "x-window-system" 
+#    Optional: "dbus" 
+#    Optional: "fribidi" 
+#    Optional: "imlib2" 

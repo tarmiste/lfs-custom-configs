@@ -1,7 +1,7 @@
-        <dependency status="required" name="pango" type="ref"/>
-        <dependency status="required" name="x-window-system" type="ref"/>
-        <dependency status="optional" name="dbus" type="ref"/>
-        <dependency status="optional" name="imlib2" type="ref"/>
-        <dependency status="optional" name="librsvg" type="ref"/>
-        <dependency status="optional" name="pyxdg" type="ref"/>
-        <dependency status="optional" name="startup-notification" type="ref"/>
+#    Required: "pango" 
+#    Required: "x-window-system" 
+#    Optional: "dbus" 
+#    Optional: "imlib2" 
+#    Optional: "librsvg" 
+#    Optional: "pyxdg" 
+#    Optional: "startup-notification" 

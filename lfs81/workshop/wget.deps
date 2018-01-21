@@ -1,11 +1,11 @@
-        <dependency status="recommended" name="cacerts" type="ref"/>
-        <dependency status="recommended" name="openssl" type="ref"/>
-        <dependency status="recommended" name="python3" type="ref"/>
-        <dependency status="optional" name="HTTP::Daemon" type="link"/>
-        <dependency status="optional" name="IO::Socket::SSL" type="link"/>
-        <dependency status="optional" name="gnutls" type="ref"/>
-        <dependency status="optional" name="gpgme" type="ref"/>
-        <dependency status="optional" name="libidn" type="ref"/>
-        <dependency status="optional" name="libpsl" type="link"/>
-        <dependency status="optional" name="pcre" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Recommended: "cacerts" 
+#    Recommended: "openssl" 
+#    Recommended: "python3" 
+#    Optional: "HTTP::Daemon" 
+#    Optional: "IO::Socket::SSL" 
+#    Optional: "gnutls" 
+#    Optional: "gpgme" 
+#    Optional: "libidn" 
+#    Optional: "libpsl" 
+#    Optional: "pcre" 
+#    Optional: "valgrind" 

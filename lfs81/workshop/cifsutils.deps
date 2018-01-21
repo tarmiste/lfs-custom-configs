@@ -1,7 +1,7 @@
-        <dependency status="required" name="talloc" type="ref"/>
-        <dependency status="optional" name="keyutils" type="ref"/>
-        <dependency status="optional" name="libcap-ng" type="link"/>
-        <dependency status="optional" name="libcap-pam" type="ref"/>
-        <dependency status="optional" name="linux-pam" type="ref"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
-        <dependency status="optional" name="samba" type="ref"/>
+#    Required: "talloc" 
+#    Optional: "keyutils" 
+#    Optional: "libcap-ng" 
+#    Optional: "libcap-pam" 
+#    Optional: "linux-pam" 
+#    Optional: "mitkrb" 
+#    Optional: "samba" 

@@ -1,7 +1,7 @@
-        <dependency status="required" name="adwaita-icon-theme" type="ref"/>
-        <dependency status="required" name="gtkmm3" type="ref"/>
-        <dependency status="required" name="itstool" type="ref"/>
-        <dependency status="required" name="libgtop" type="ref"/>
-        <dependency status="required" name="librsvg" type="ref"/>
-        <dependency status="optional" name="appstream-glib" type="link"/>
-        <dependency status="optional" name="desktop-file-utils" type="ref"/>
+#    Required: "adwaita-icon-theme" 
+#    Required: "gtkmm3" 
+#    Required: "itstool" 
+#    Required: "libgtop" 
+#    Required: "librsvg" 
+#    Optional: "appstream-glib" 
+#    Optional: "desktop-file-utils" 

@@ -1,4 +1,4 @@
-        <dependency status="required" name="libogg" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="texlive" type="ref"/>
-        <dependency status="optional" name="tl-installer" type="ref"/>
+#    Required: "libogg" 
+#    Optional: "doxygen" 
+#    Optional: "texlive" 
+#    Optional: "tl-installer" 

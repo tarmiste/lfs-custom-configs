@@ -1,26 +1,26 @@
-        <dependency status="required" name="dbus-glib" type="ref"/>
-        <dependency status="required" name="libndp" type="ref"/>
-        <dependency status="required" name="libnl" type="ref"/>
-        <dependency status="required" name="nss" type="ref"/>
-        <dependency status="recommended" name="consolekit" type="ref"/>
-        <dependency status="recommended" name="curl" type="ref"/>
-        <dependency status="recommended" name="dhcp" type="ref"/>
-        <dependency status="recommended" name="dhcpcd" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="iptables" type="ref"/>
-        <dependency status="recommended" name="newt" type="ref"/>
-        <dependency status="recommended" name="polkit" type="ref"/>
-        <dependency status="recommended" name="pygobject3" type="ref"/>
-        <dependency status="recommended" name="upower" type="ref"/>
-        <dependency status="recommended" name="vala" type="ref"/>
-        <dependency status="recommended" name="wpa_supplicant" type="ref"/>
-        <dependency status="optional" name="Jansson" type="link"/>
-        <dependency status="optional" name="ModemManager" type="ref"/>
-        <dependency status="optional" name="PPP" type="link"/>
-        <dependency status="optional" name="RP-PPPoE" type="link"/>
-        <dependency status="optional" name="bluez" type="ref"/>
-        <dependency status="optional" name="dnsmasq" type="link"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="libteam" type="link"/>
-        <dependency status="optional" name="qt5" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Required: "dbus-glib" 
+#    Required: "libndp" 
+#    Required: "libnl" 
+#    Required: "nss" 
+#    Recommended: "consolekit" 
+#    Recommended: "curl" 
+#    Recommended: "dhcp" 
+#    Recommended: "dhcpcd" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "iptables" 
+#    Recommended: "newt" 
+#    Recommended: "polkit" 
+#    Recommended: "pygobject3" 
+#    Recommended: "upower" 
+#    Recommended: "vala" 
+#    Recommended: "wpa_supplicant" 
+#    Optional: "Jansson" 
+#    Optional: "ModemManager" 
+#    Optional: "PPP" 
+#    Optional: "RP-PPPoE" 
+#    Optional: "bluez" 
+#    Optional: "dnsmasq" 
+#    Optional: "gtk-doc" 
+#    Optional: "libteam" 
+#    Optional: "qt5" 
+#    Optional: "valgrind" 

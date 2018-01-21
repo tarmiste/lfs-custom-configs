@@ -1,2 +1,2 @@
-        <dependency status="required" name="apache-ant" type="ref"/>
-        <dependency status="required" name="sharutils" type="ref"/>
+#    Required: "apache-ant" 
+#    Required: "sharutils" 

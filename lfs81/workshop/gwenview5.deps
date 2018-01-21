@@ -1,5 +1,5 @@
-        <dependency status="required" name="exiv2" type="ref"/>
-        <dependency status="required" name="kf5-frameworks" type="ref"/>
-        <dependency status="required" name="lcms2" type="ref"/>
-        <dependency status="recommended" name="libkdcraw" type="ref"/>
-        <dependency status="optional" name="KF5Kipi" type="link"/>
+#    Required: "exiv2" 
+#    Required: "kf5-frameworks" 
+#    Required: "lcms2" 
+#    Recommended: "libkdcraw" 
+#    Optional: "KF5Kipi" 

@@ -1,2 +1,2 @@
-        <dependency status="optional" name="libedit" type="link"/>
-        <dependency status="optional" name="unzip" type="ref"/>
+#    Optional: "libedit" 
+#    Optional: "unzip" 

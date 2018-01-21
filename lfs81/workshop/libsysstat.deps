@@ -1,4 +1,4 @@
-        <dependency status="required" name="cmake" type="ref"/>
-        <dependency status="required" name="lxqt-build-tools" type="ref"/>
-        <dependency status="required" name="lxqt-build-tools" type="ref"/>
-        <dependency status="required" name="qt5" type="ref"/>
+#    Required: "cmake" 
+#    Required: "lxqt-build-tools" 
+#    Required: "lxqt-build-tools" 
+#    Required: "qt5" 

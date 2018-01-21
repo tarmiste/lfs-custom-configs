@@ -1,12 +1,12 @@
-        <dependency status="required" name="DocBook" type="ref"/>
-        <dependency status="required" name="docbook-xsl" type="ref"/>
-        <dependency status="required" name="itstool" type="ref"/>
-        <dependency status="required" name="libxslt" type="ref"/>
-        <dependency status="required" name="python2" type="ref"/>
-        <dependency status="recommended" name="highlight" type="ref"/>
-        <dependency status="optional" name="GNOME-Doc-Utils" type="link"/>
-        <dependency status="optional" name="dblatex" type="link"/>
-        <dependency status="optional" name="fop" type="ref"/>
-        <dependency status="optional" name="glib2" type="ref"/>
-        <dependency status="optional" name="six" type="link"/>
-        <dependency status="optional" name="which" type="ref"/>
+#    Required: "DocBook" 
+#    Required: "docbook-xsl" 
+#    Required: "itstool" 
+#    Required: "libxslt" 
+#    Required: "python2" 
+#    Recommended: "highlight" 
+#    Optional: "GNOME-Doc-Utils" 
+#    Optional: "dblatex" 
+#    Optional: "fop" 
+#    Optional: "glib2" 
+#    Optional: "six" 
+#    Optional: "which" 

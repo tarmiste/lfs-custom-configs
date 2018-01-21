@@ -1,7 +1,7 @@
-        <dependency status="required" name="gdk-pixbuf" type="ref"/>
-        <dependency status="required" name="libcroco" type="ref"/>
-        <dependency status="required" name="pango" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="gtk3" type="ref"/>
-        <dependency status="recommended" name="vala" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
+#    Required: "gdk-pixbuf" 
+#    Required: "libcroco" 
+#    Required: "pango" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "gtk3" 
+#    Recommended: "vala" 
+#    Optional: "gtk-doc" 

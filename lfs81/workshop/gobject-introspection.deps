@@ -1,5 +1,5 @@
-        <dependency status="required" name="glib2" type="ref"/>
-        <dependency status="required" name="python2" type="ref"/>
-        <dependency status="optional" name="Mako" type="ref"/>
-        <dependency status="optional" name="cairo" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
+#    Required: "glib2" 
+#    Required: "python2" 
+#    Optional: "Mako" 
+#    Optional: "cairo" 
+#    Optional: "gtk-doc" 

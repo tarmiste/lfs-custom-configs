@@ -1,7 +1,7 @@
-        <dependency status="optional" name="DotGNU-Portable.NET" type="link"/>
-        <dependency status="optional" name="Mono" type="link"/>
-        <dependency status="optional" name="emacs" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="openjdk" type="ref"/>
-        <dependency status="optional" name="pth" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Optional: "DotGNU-Portable.NET" 
+#    Optional: "Mono" 
+#    Optional: "emacs" 
+#    Optional: "gtk-doc" 
+#    Optional: "openjdk" 
+#    Optional: "pth" 
+#    Optional: "valgrind" 

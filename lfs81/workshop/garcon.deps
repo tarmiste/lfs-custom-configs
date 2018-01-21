@@ -1,5 +1,5 @@
-        <dependency status="required" name="exo" type="ref"/>
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="required" name="libxfce4ui" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
+#    Required: "exo" 
+#    Required: "gtk2" 
+#    Required: "gtk3" 
+#    Required: "libxfce4ui" 
+#    Optional: "gtk-doc" 

@@ -1,2 +1,2 @@
-        <dependency status="optional" name="sdl" type="ref"/>
-        <dependency status="optional" name="x-window-system" type="ref"/>
+#    Optional: "sdl" 
+#    Optional: "x-window-system" 

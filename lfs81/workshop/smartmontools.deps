@@ -1,3 +1,3 @@
-        <dependency status="optional" name="curl" type="ref"/>
-        <dependency status="optional" name="lynx" type="ref"/>
-        <dependency status="optional" name="wget" type="ref"/>
+#    Optional: "curl" 
+#    Optional: "lynx" 
+#    Optional: "wget" 

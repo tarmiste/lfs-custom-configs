@@ -1,3 +1,3 @@
-        <dependency status="required" name="raptor" type="ref"/>
-        <dependency status="optional" name="libgcrypt" type="ref"/>
-        <dependency status="optional" name="pcre" type="ref"/>
+#    Required: "raptor" 
+#    Optional: "libgcrypt" 
+#    Optional: "pcre" 

@@ -1,7 +1,7 @@
-        <dependency status="recommended" name="liblinear" type="ref"/>
-        <dependency status="recommended" name="libpcap" type="ref"/>
-        <dependency status="recommended" name="pcre" type="ref"/>
-        <dependency status="optional" name="openssl" type="ref"/>
-        <dependency status="optional" name="pygtk" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="subversion" type="ref"/>
+#    Recommended: "liblinear" 
+#    Recommended: "libpcap" 
+#    Recommended: "pcre" 
+#    Optional: "openssl" 
+#    Optional: "pygtk" 
+#    Optional: "python2" 
+#    Optional: "subversion" 

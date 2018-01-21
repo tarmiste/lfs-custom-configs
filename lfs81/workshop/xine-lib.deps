@@ -1,35 +1,35 @@
-        <dependency status="required" name="JACK" type="link"/>
-        <dependency status="required" name="alsa" type="ref"/>
-        <dependency status="required" name="ffmpeg" type="ref"/>
-        <dependency status="required" name="pulseaudio" type="ref"/>
-        <dependency status="required" name="x-window-system" type="ref"/>
-        <dependency status="recommended" name="libdvdnav" type="ref"/>
-        <dependency status="optional" name="DirectFB" type="link"/>
-        <dependency status="optional" name="VCDImager" type="link"/>
-        <dependency status="optional" name="WavPack" type="link"/>
-        <dependency status="optional" name="aalib" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="faad2" type="ref"/>
-        <dependency status="optional" name="flac" type="ref"/>
-        <dependency status="optional" name="gdk-pixbuf" type="ref"/>
-        <dependency status="optional" name="glu" type="ref"/>
-        <dependency status="optional" name="imagemagick" type="ref"/>
-        <dependency status="optional" name="libFAME" type="link"/>
-        <dependency status="optional" name="liba52" type="ref"/>
-        <dependency status="optional" name="libbluray" type="link"/>
-        <dependency status="optional" name="libcaca" type="link"/>
-        <dependency status="optional" name="libdca" type="link"/>
-        <dependency status="optional" name="libmad" type="ref"/>
-        <dependency status="optional" name="libmng" type="ref"/>
-        <dependency status="optional" name="libmodplug" type="link"/>
-        <dependency status="optional" name="libtheora" type="ref"/>
-        <dependency status="optional" name="libva" type="ref"/>
-        <dependency status="optional" name="libvdpau" type="ref"/>
-        <dependency status="optional" name="libvorbis" type="ref"/>
-        <dependency status="optional" name="libvpx" type="ref"/>
-        <dependency status="optional" name="mesa" type="ref"/>
-        <dependency status="optional" name="musepack" type="link"/>
-        <dependency status="optional" name="samba" type="ref"/>
-        <dependency status="optional" name="sdl" type="ref"/>
-        <dependency status="optional" name="speex" type="ref"/>
-        <dependency status="optional" name="v4l-utils" type="ref"/>
+#    Required: "JACK" 
+#    Required: "alsa" 
+#    Required: "ffmpeg" 
+#    Required: "pulseaudio" 
+#    Required: "x-window-system" 
+#    Recommended: "libdvdnav" 
+#    Optional: "DirectFB" 
+#    Optional: "VCDImager" 
+#    Optional: "WavPack" 
+#    Optional: "aalib" 
+#    Optional: "doxygen" 
+#    Optional: "faad2" 
+#    Optional: "flac" 
+#    Optional: "gdk-pixbuf" 
+#    Optional: "glu" 
+#    Optional: "imagemagick" 
+#    Optional: "libFAME" 
+#    Optional: "liba52" 
+#    Optional: "libbluray" 
+#    Optional: "libcaca" 
+#    Optional: "libdca" 
+#    Optional: "libmad" 
+#    Optional: "libmng" 
+#    Optional: "libmodplug" 
+#    Optional: "libtheora" 
+#    Optional: "libva" 
+#    Optional: "libvdpau" 
+#    Optional: "libvorbis" 
+#    Optional: "libvpx" 
+#    Optional: "mesa" 
+#    Optional: "musepack" 
+#    Optional: "samba" 
+#    Optional: "sdl" 
+#    Optional: "speex" 
+#    Optional: "v4l-utils" 

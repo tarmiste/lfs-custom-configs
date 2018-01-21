@@ -1,29 +1,29 @@
-        <dependency status="required" name="babl" type="ref"/>
-        <dependency status="required" name="json-glib" type="ref"/>
-        <dependency status="optional" name="MRG" type="link"/>
-        <dependency status="optional" name="OpenCL" type="link"/>
-        <dependency status="optional" name="OpenEXR" type="link"/>
-        <dependency status="optional" name="asciidoc" type="ref"/>
-        <dependency status="optional" name="cairo" type="ref"/>
-        <dependency status="optional" name="enscript" type="ref"/>
-        <dependency status="optional" name="exiv2" type="ref"/>
-        <dependency status="optional" name="ffmpeg" type="ref"/>
-        <dependency status="optional" name="gdk-pixbuf" type="ref"/>
-        <dependency status="optional" name="gexiv2" type="link"/>
-        <dependency status="optional" name="gobject-introspection" type="ref"/>
-        <dependency status="optional" name="graphviz" type="ref"/>
-        <dependency status="optional" name="lensfun" type="link"/>
-        <dependency status="optional" name="libjpeg" type="ref"/>
-        <dependency status="optional" name="libopenraw" type="link"/>
-        <dependency status="optional" name="libpng" type="ref"/>
-        <dependency status="optional" name="librsvg" type="ref"/>
-        <dependency status="optional" name="libspiro" type="link"/>
-        <dependency status="optional" name="libumfpack" type="link"/>
-        <dependency status="optional" name="libwebp" type="ref"/>
-        <dependency status="optional" name="lua" type="ref"/>
-        <dependency status="optional" name="pango" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="ruby" type="ref"/>
-        <dependency status="optional" name="sdl" type="ref"/>
-        <dependency status="optional" name="vala" type="ref"/>
-        <dependency status="optional" name="w3m" type="ref"/>
+#    Required: "babl" 
+#    Required: "json-glib" 
+#    Optional: "MRG" 
+#    Optional: "OpenCL" 
+#    Optional: "OpenEXR" 
+#    Optional: "asciidoc" 
+#    Optional: "cairo" 
+#    Optional: "enscript" 
+#    Optional: "exiv2" 
+#    Optional: "ffmpeg" 
+#    Optional: "gdk-pixbuf" 
+#    Optional: "gexiv2" 
+#    Optional: "gobject-introspection" 
+#    Optional: "graphviz" 
+#    Optional: "lensfun" 
+#    Optional: "libjpeg" 
+#    Optional: "libopenraw" 
+#    Optional: "libpng" 
+#    Optional: "librsvg" 
+#    Optional: "libspiro" 
+#    Optional: "libumfpack" 
+#    Optional: "libwebp" 
+#    Optional: "lua" 
+#    Optional: "pango" 
+#    Optional: "python2" 
+#    Optional: "ruby" 
+#    Optional: "sdl" 
+#    Optional: "vala" 
+#    Optional: "w3m" 

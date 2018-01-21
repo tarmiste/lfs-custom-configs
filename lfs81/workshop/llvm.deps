@@ -1,12 +1,12 @@
-        <dependency status="required" name="cmake" type="ref"/>
-        <dependency status="recommended" name="libffi" type="ref"/>
-        <dependency status="recommended" name="python2" type="ref"/>
-        <dependency status="optional" name="OCaml" type="link"/>
-        <dependency status="optional" name="Sphinx" type="link"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="graphviz" type="ref"/>
-        <dependency status="optional" name="libxml2" type="ref"/>
-        <dependency status="optional" name="texlive" type="ref"/>
-        <dependency status="optional" name="tl-installer" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
-        <dependency status="optional" name="zip" type="ref"/>
+#    Required: "cmake" 
+#    Recommended: "libffi" 
+#    Recommended: "python2" 
+#    Optional: "OCaml" 
+#    Optional: "Sphinx" 
+#    Optional: "doxygen" 
+#    Optional: "graphviz" 
+#    Optional: "libxml2" 
+#    Optional: "texlive" 
+#    Optional: "tl-installer" 
+#    Optional: "valgrind" 
+#    Optional: "zip" 

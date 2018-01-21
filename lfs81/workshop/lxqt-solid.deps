@@ -1,6 +1,6 @@
-        <dependency status="required" name="extra-cmake-modules" type="ref"/>
-        <dependency status="required" name="lxqt-kidletime" type="ref"/>
-        <dependency status="required" name="qt5" type="ref"/>
-        <dependency status="optional" name="media-player-info" type="link"/>
-        <dependency status="optional" name="udisks2" type="ref"/>
-        <dependency status="optional" name="upower" type="ref"/>
+#    Required: "extra-cmake-modules" 
+#    Required: "lxqt-kidletime" 
+#    Required: "qt5" 
+#    Optional: "media-player-info" 
+#    Optional: "udisks2" 
+#    Optional: "upower" 

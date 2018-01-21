@@ -1,2 +1,2 @@
-        <dependency status="required" name="clisp" type="ref"/>
-        <dependency status="required" name="texlive" type="ref"/>
+#    Required: "clisp" 
+#    Required: "texlive" 

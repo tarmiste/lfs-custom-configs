@@ -1,2 +1,2 @@
-        <dependency status="required" name="libtirpc" type="ref"/>
-        <dependency status="required" name="rpcsvc-proto" type="ref"/>
+#    Required: "libtirpc" 
+#    Required: "rpcsvc-proto" 

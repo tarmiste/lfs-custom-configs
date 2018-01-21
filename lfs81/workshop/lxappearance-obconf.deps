@@ -1,2 +1,2 @@
-        <dependency status="required" name="lxappearance" type="ref"/>
-        <dependency status="required" name="openbox" type="ref"/>
+#    Required: "lxappearance" 
+#    Required: "openbox" 

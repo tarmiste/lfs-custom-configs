@@ -1,5 +1,5 @@
-        <dependency status="required" name="pcre2" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="python3" type="ref"/>
-        <dependency status="optional" name="six" type="link"/>
+#    Required: "pcre2" 
+#    Optional: "gtk-doc" 
+#    Optional: "python2" 
+#    Optional: "python3" 
+#    Optional: "six" 

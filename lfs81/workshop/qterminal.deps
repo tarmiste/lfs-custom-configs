@@ -1,7 +1,7 @@
-        <dependency status="required" name="liblxqt" type="ref"/>
-        <dependency status="required" name="qtermwidget" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="git" type="ref"/>
-        <dependency status="optional" name="lxqt-l10n" type="ref"/>
-        <dependency status="optional" name="texlive" type="ref"/>
-        <dependency status="optional" name="tl-installer" type="ref"/>
+#    Required: "liblxqt" 
+#    Required: "qtermwidget" 
+#    Optional: "doxygen" 
+#    Optional: "git" 
+#    Optional: "lxqt-l10n" 
+#    Optional: "texlive" 
+#    Optional: "tl-installer" 

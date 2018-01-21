@@ -1,7 +1,7 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="recommended" name="desktop-file-utils" type="ref"/>
-        <dependency status="optional" name="Jing" type="link"/>
-        <dependency status="optional" name="enchant" type="ref"/>
-        <dependency status="optional" name="gucharmap" type="ref"/>
-        <dependency status="optional" name="pcre" type="ref"/>
+#    Required: "gtk2" 
+#    Required: "gtk3" 
+#    Recommended: "desktop-file-utils" 
+#    Optional: "Jing" 
+#    Optional: "enchant" 
+#    Optional: "gucharmap" 
+#    Optional: "pcre" 

@@ -1,8 +1,8 @@
-        <dependency status="required" name="giflib" type="ref"/>
-        <dependency status="required" name="imlib2" type="ref"/>
-        <dependency status="required" name="libpng" type="ref"/>
-        <dependency status="recommended" name="curl" type="ref"/>
-        <dependency status="optional" name="imagemagick" type="ref"/>
-        <dependency status="optional" name="libexif" type="ref"/>
-        <dependency status="optional" name="libjpeg" type="ref"/>
-        <dependency status="optional" name="perl-test-command" type="ref"/>
+#    Required: "giflib" 
+#    Required: "imlib2" 
+#    Required: "libpng" 
+#    Recommended: "curl" 
+#    Optional: "imagemagick" 
+#    Optional: "libexif" 
+#    Optional: "libjpeg" 
+#    Optional: "perl-test-command" 

@@ -1,11 +1,11 @@
-        <dependency status="required" name="cairo" type="ref"/>
-        <dependency status="required" name="gdk-pixbuf" type="ref"/>
-        <dependency status="required" name="glu" type="ref"/>
-        <dependency status="required" name="mesa" type="ref"/>
-        <dependency status="required" name="pango" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="optional" name="gst10-plugins-base" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="sdl" type="ref"/>
-        <dependency status="optional" name="sdl2" type="ref"/>
-        <dependency status="optional" name="wayland" type="ref"/>
+#    Required: "cairo" 
+#    Required: "gdk-pixbuf" 
+#    Required: "glu" 
+#    Required: "mesa" 
+#    Required: "pango" 
+#    Recommended: "gobject-introspection" 
+#    Optional: "gst10-plugins-base" 
+#    Optional: "gtk-doc" 
+#    Optional: "sdl" 
+#    Optional: "sdl2" 
+#    Optional: "wayland" 

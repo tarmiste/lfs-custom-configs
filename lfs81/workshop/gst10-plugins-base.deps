@@ -1,48 +1,48 @@
-        <dependency status="required" name="gstreamer10" type="ref"/>
-        <dependency status="recommended" name="alsa-lib" type="ref"/>
-        <dependency status="recommended" name="cdparanoia" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="iso-codes" type="ref"/>
-        <dependency status="recommended" name="libFS" type="ref"/>
-        <dependency status="recommended" name="libICE" type="ref"/>
-        <dependency status="recommended" name="libSM" type="ref"/>
-        <dependency status="recommended" name="libX11" type="ref"/>
-        <dependency status="recommended" name="libXScrnSaver" type="ref"/>
-        <dependency status="recommended" name="libXaw" type="ref"/>
-        <dependency status="recommended" name="libXcomposite" type="ref"/>
-        <dependency status="recommended" name="libXcursor" type="ref"/>
-        <dependency status="recommended" name="libXdamage" type="ref"/>
-        <dependency status="recommended" name="libXext" type="ref"/>
-        <dependency status="recommended" name="libXfixes" type="ref"/>
-        <dependency status="recommended" name="libXfont2" type="ref"/>
-        <dependency status="recommended" name="libXft" type="ref"/>
-        <dependency status="recommended" name="libXi" type="ref"/>
-        <dependency status="recommended" name="libXinerama" type="ref"/>
-        <dependency status="recommended" name="libXmu" type="ref"/>
-        <dependency status="recommended" name="libXpm" type="ref"/>
-        <dependency status="recommended" name="libXrandr" type="ref"/>
-        <dependency status="recommended" name="libXrender" type="ref"/>
-        <dependency status="recommended" name="libXres" type="ref"/>
-        <dependency status="recommended" name="libXt" type="ref"/>
-        <dependency status="recommended" name="libXtst" type="ref"/>
-        <dependency status="recommended" name="libXv" type="ref"/>
-        <dependency status="recommended" name="libXvMC" type="ref"/>
-        <dependency status="recommended" name="libXxf86dga" type="ref"/>
-        <dependency status="recommended" name="libXxf86vm" type="ref"/>
-        <dependency status="recommended" name="libdmx" type="ref"/>
-        <dependency status="recommended" name="libfontenc" type="ref"/>
-        <dependency status="recommended" name="libogg" type="ref"/>
-        <dependency status="recommended" name="libpciaccess" type="ref"/>
-        <dependency status="recommended" name="libtheora" type="ref"/>
-        <dependency status="recommended" name="libvorbis" type="ref"/>
-        <dependency status="recommended" name="libxkbfile" type="ref"/>
-        <dependency status="recommended" name="libxshmfence" type="ref"/>
-        <dependency status="recommended" name="xtrans" type="ref"/>
-        <dependency status="optional" name="Orc" type="link"/>
-        <dependency status="optional" name="Tremor" type="link"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="gtk3" type="ref"/>
-        <dependency status="optional" name="libvisual" type="link"/>
-        <dependency status="optional" name="opus" type="ref"/>
-        <dependency status="optional" name="qt5" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Required: "gstreamer10" 
+#    Recommended: "alsa-lib" 
+#    Recommended: "cdparanoia" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "iso-codes" 
+#    Recommended: "libFS" 
+#    Recommended: "libICE" 
+#    Recommended: "libSM" 
+#    Recommended: "libX11" 
+#    Recommended: "libXScrnSaver" 
+#    Recommended: "libXaw" 
+#    Recommended: "libXcomposite" 
+#    Recommended: "libXcursor" 
+#    Recommended: "libXdamage" 
+#    Recommended: "libXext" 
+#    Recommended: "libXfixes" 
+#    Recommended: "libXfont2" 
+#    Recommended: "libXft" 
+#    Recommended: "libXi" 
+#    Recommended: "libXinerama" 
+#    Recommended: "libXmu" 
+#    Recommended: "libXpm" 
+#    Recommended: "libXrandr" 
+#    Recommended: "libXrender" 
+#    Recommended: "libXres" 
+#    Recommended: "libXt" 
+#    Recommended: "libXtst" 
+#    Recommended: "libXv" 
+#    Recommended: "libXvMC" 
+#    Recommended: "libXxf86dga" 
+#    Recommended: "libXxf86vm" 
+#    Recommended: "libdmx" 
+#    Recommended: "libfontenc" 
+#    Recommended: "libogg" 
+#    Recommended: "libpciaccess" 
+#    Recommended: "libtheora" 
+#    Recommended: "libvorbis" 
+#    Recommended: "libxkbfile" 
+#    Recommended: "libxshmfence" 
+#    Recommended: "xtrans" 
+#    Optional: "Orc" 
+#    Optional: "Tremor" 
+#    Optional: "gtk-doc" 
+#    Optional: "gtk3" 
+#    Optional: "libvisual" 
+#    Optional: "opus" 
+#    Optional: "qt5" 
+#    Optional: "valgrind" 

@@ -1,14 +1,14 @@
-        <dependency status="required" name="kf5-frameworks" type="ref"/>
-        <dependency status="required" name="libkcddb" type="ref"/>
-        <dependency status="required" name="libsamplerate" type="ref"/>
-        <dependency status="required" name="shared-mime-info" type="ref"/>
-        <dependency status="recommended" name="ffmpeg" type="ref"/>
-        <dependency status="recommended" name="libdvdread" type="ref"/>
-        <dependency status="recommended" name="taglib" type="ref"/>
-        <dependency status="optional" name="Musepack-(libmpcdec)" type="link"/>
-        <dependency status="optional" name="flac" type="ref"/>
-        <dependency status="optional" name="lame" type="ref"/>
-        <dependency status="optional" name="libmad" type="ref"/>
-        <dependency status="optional" name="libmusicbrainz" type="ref"/>
-        <dependency status="optional" name="libsndfile" type="ref"/>
-        <dependency status="optional" name="libvorbis" type="ref"/>
+#    Required: "kf5-frameworks" 
+#    Required: "libkcddb" 
+#    Required: "libsamplerate" 
+#    Required: "shared-mime-info" 
+#    Recommended: "ffmpeg" 
+#    Recommended: "libdvdread" 
+#    Recommended: "taglib" 
+#    Optional: "Musepack-(libmpcdec)" 
+#    Optional: "flac" 
+#    Optional: "lame" 
+#    Optional: "libmad" 
+#    Optional: "libmusicbrainz" 
+#    Optional: "libsndfile" 
+#    Optional: "libvorbis" 

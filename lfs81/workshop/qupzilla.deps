@@ -1,4 +1,4 @@
-        <dependency status="required" name="qtwebengine" type="ref"/>
-        <dependency status="optional" name="Hunspell" type="link"/>
-        <dependency status="optional" name="gdb" type="ref"/>
-        <dependency status="optional" name="libgnome-keyring" type="link"/>
+#    Required: "qtwebengine" 
+#    Optional: "Hunspell" 
+#    Optional: "gdb" 
+#    Optional: "libgnome-keyring" 

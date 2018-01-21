@@ -1,12 +1,12 @@
-        <dependency status="required" name="libxml2" type="ref"/>
-        <dependency status="optional" name="CUnit" type="link"/>
-        <dependency status="optional" name="Cython" type="link"/>
-        <dependency status="optional" name="Jansson" type="link"/>
-        <dependency status="optional" name="Spdylay" type="link"/>
-        <dependency status="optional" name="Sphinx" type="link"/>
-        <dependency status="optional" name="boost" type="ref"/>
-        <dependency status="optional" name="jemalloc" type="link"/>
-        <dependency status="optional" name="libev" type="link"/>
-        <dependency status="optional" name="libevent" type="ref"/>
-        <dependency status="optional" name="mruby" type="link"/>
-        <dependency status="optional" name="python2" type="ref"/>
+#    Required: "libxml2" 
+#    Optional: "CUnit" 
+#    Optional: "Cython" 
+#    Optional: "Jansson" 
+#    Optional: "Spdylay" 
+#    Optional: "Sphinx" 
+#    Optional: "boost" 
+#    Optional: "jemalloc" 
+#    Optional: "libev" 
+#    Optional: "libevent" 
+#    Optional: "mruby" 
+#    Optional: "python2" 

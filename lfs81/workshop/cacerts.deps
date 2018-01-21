@@ -1,5 +1,5 @@
-        <dependency status="required" name="openssl" type="ref"/>
-        <dependency status="optional" name="java" type="ref"/>
-        <dependency status="optional" name="nss" type="ref"/>
-        <dependency status="optional" name="openjdk" type="ref"/>
-        <dependency status="optional" name="p11-kit" type="ref"/>
+#    Required: "openssl" 
+#    Optional: "java" 
+#    Optional: "nss" 
+#    Optional: "openjdk" 
+#    Optional: "p11-kit" 

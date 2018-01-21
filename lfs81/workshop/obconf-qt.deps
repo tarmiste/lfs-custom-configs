@@ -1,6 +1,6 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="hicolor-icon-theme" type="ref"/>
-        <dependency status="required" name="liblxqt" type="ref"/>
-        <dependency status="required" name="openbox" type="ref"/>
-        <dependency status="optional" name="git" type="ref"/>
-        <dependency status="optional" name="lxqt-l10n" type="ref"/>
+#    Required: "gtk2" 
+#    Required: "hicolor-icon-theme" 
+#    Required: "liblxqt" 
+#    Required: "openbox" 
+#    Optional: "git" 
+#    Optional: "lxqt-l10n" 

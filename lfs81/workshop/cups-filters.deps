@@ -1,19 +1,19 @@
-        <dependency status="required" name="cups" type="ref"/>
-        <dependency status="required" name="glib2" type="ref"/>
-        <dependency status="required" name="gs" type="ref"/>
-        <dependency status="required" name="ijs" type="ref"/>
-        <dependency status="required" name="lcms2" type="ref"/>
-        <dependency status="required" name="mupdf" type="ref"/>
-        <dependency status="required" name="poppler" type="ref"/>
-        <dependency status="required" name="qpdf" type="ref"/>
-        <dependency status="recommended" name="libjpeg" type="ref"/>
-        <dependency status="recommended" name="libpng" type="ref"/>
-        <dependency status="recommended" name="libtiff" type="ref"/>
-        <dependency status="optional" name="Liblouis-(Braille)" type="link"/>
-        <dependency status="optional" name="Liblouisutdml-(Braille)" type="link"/>
-        <dependency status="optional" name="avahi" type="ref"/>
-        <dependency status="optional" name="dejavu-fonts" type="ref"/>
-        <dependency status="optional" name="gutenprint" type="ref"/>
-        <dependency status="optional" name="hplip" type="link"/>
-        <dependency status="optional" name="openldap" type="ref"/>
-        <dependency status="optional" name="php" type="ref"/>
+#    Required: "cups" 
+#    Required: "glib2" 
+#    Required: "gs" 
+#    Required: "ijs" 
+#    Required: "lcms2" 
+#    Required: "mupdf" 
+#    Required: "poppler" 
+#    Required: "qpdf" 
+#    Recommended: "libjpeg" 
+#    Recommended: "libpng" 
+#    Recommended: "libtiff" 
+#    Optional: "Liblouis-(Braille)" 
+#    Optional: "Liblouisutdml-(Braille)" 
+#    Optional: "avahi" 
+#    Optional: "dejavu-fonts" 
+#    Optional: "gutenprint" 
+#    Optional: "hplip" 
+#    Optional: "openldap" 
+#    Optional: "php" 

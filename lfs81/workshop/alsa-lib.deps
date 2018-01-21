@@ -1,2 +1,2 @@
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
+#    Optional: "doxygen" 
+#    Optional: "python2" 

@@ -1,11 +1,11 @@
-        <dependency status="required" name="gobject-introspection" type="ref"/>
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="recommended" name="pygobject3" type="ref"/>
-        <dependency status="optional" name="Glade" type="link"/>
-        <dependency status="optional" name="LGI" type="link"/>
-        <dependency status="optional" name="LUA-5.1" type="link"/>
-        <dependency status="optional" name="Seed" type="link"/>
-        <dependency status="optional" name="gdb" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="luajit" type="link"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Required: "gobject-introspection" 
+#    Required: "gtk3" 
+#    Recommended: "pygobject3" 
+#    Optional: "Glade" 
+#    Optional: "LGI" 
+#    Optional: "LUA-5.1" 
+#    Optional: "Seed" 
+#    Optional: "gdb" 
+#    Optional: "gtk-doc" 
+#    Optional: "luajit" 
+#    Optional: "valgrind" 

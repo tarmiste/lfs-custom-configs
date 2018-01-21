@@ -1,4 +1,4 @@
-        <dependency status="optional" name="libjpeg" type="ref"/>
-        <dependency status="optional" name="libtiff" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="swig" type="ref"/>
+#    Optional: "libjpeg" 
+#    Optional: "libtiff" 
+#    Optional: "python2" 
+#    Optional: "swig" 

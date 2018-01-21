@@ -1,6 +1,6 @@
-        <dependency status="recommended" name="openssl" type="ref"/>
-        <dependency status="optional" name="cacerts" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="libpcap" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="swig" type="ref"/>
+#    Recommended: "openssl" 
+#    Optional: "cacerts" 
+#    Optional: "doxygen" 
+#    Optional: "libpcap" 
+#    Optional: "python2" 
+#    Optional: "swig" 

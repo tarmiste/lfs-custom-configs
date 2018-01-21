@@ -1,2 +1,2 @@
-        <dependency status="optional" name="Mini-SQL" type="link"/>
-        <dependency status="optional" name="pth" type="ref"/>
+#    Optional: "Mini-SQL" 
+#    Optional: "pth" 

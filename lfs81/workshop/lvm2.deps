@@ -1,6 +1,6 @@
-        <dependency status="optional" name="mdadm" type="ref"/>
-        <dependency status="optional" name="reiserfs" type="ref"/>
-        <dependency status="optional" name="thin-provisioning-tools" type="link"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
-        <dependency status="optional" name="which" type="ref"/>
-        <dependency status="optional" name="xfsprogs" type="ref"/>
+#    Optional: "mdadm" 
+#    Optional: "reiserfs" 
+#    Optional: "thin-provisioning-tools" 
+#    Optional: "valgrind" 
+#    Optional: "which" 
+#    Optional: "xfsprogs" 

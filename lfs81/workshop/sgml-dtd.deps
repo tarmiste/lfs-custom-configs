@@ -1,2 +1,2 @@
-        <dependency status="required" name="sgml-common" type="ref"/>
-        <dependency status="required" name="unzip" type="ref"/>
+#    Required: "sgml-common" 
+#    Required: "unzip" 

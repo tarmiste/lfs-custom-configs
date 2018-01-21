@@ -1,9 +1,9 @@
-        <dependency status="required" name="desktop-file-utils" type="ref"/>
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="required" name="itstool" type="ref"/>
-        <dependency status="required" name="unzip" type="ref"/>
-        <dependency status="required" name="wget" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="vala" type="ref"/>
-        <dependency status="optional" name="appstream-glib" type="link"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
+#    Required: "desktop-file-utils" 
+#    Required: "gtk3" 
+#    Required: "itstool" 
+#    Required: "unzip" 
+#    Required: "wget" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "vala" 
+#    Optional: "appstream-glib" 
+#    Optional: "gtk-doc" 

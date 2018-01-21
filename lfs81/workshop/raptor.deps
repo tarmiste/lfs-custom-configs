@@ -1,5 +1,5 @@
-        <dependency status="required" name="curl" type="ref"/>
-        <dependency status="required" name="libxslt" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="icu" type="ref"/>
-        <dependency status="optional" name="libyajl" type="link"/>
+#    Required: "curl" 
+#    Required: "libxslt" 
+#    Optional: "gtk-doc" 
+#    Optional: "icu" 
+#    Optional: "libyajl" 

@@ -1,10 +1,10 @@
-        <dependency status="recommended" name="libxml2" type="ref"/>
-        <dependency status="optional" name="Saxon6" type="link"/>
-        <dependency status="optional" name="Xerces2-Java" type="link"/>
-        <dependency status="optional" name="apache-ant" type="ref"/>
-        <dependency status="optional" name="apache-ant" type="ref"/>
-        <dependency status="optional" name="libxslt" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="python3" type="ref"/>
-        <dependency status="optional" name="ruby" type="ref"/>
-        <dependency status="optional" name="zip" type="ref"/>
+#    Recommended: "libxml2" 
+#    Optional: "Saxon6" 
+#    Optional: "Xerces2-Java" 
+#    Optional: "apache-ant" 
+#    Optional: "apache-ant" 
+#    Optional: "libxslt" 
+#    Optional: "python2" 
+#    Optional: "python3" 
+#    Optional: "ruby" 
+#    Optional: "zip" 

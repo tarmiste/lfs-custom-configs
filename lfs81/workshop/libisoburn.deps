@@ -1,2 +1,2 @@
-        <dependency status="required" name="libburn" type="ref"/>
-        <dependency status="required" name="libisofs" type="ref"/>
+#    Required: "libburn" 
+#    Required: "libisofs" 

@@ -1,13 +1,13 @@
-        <dependency status="required" name="apr-util" type="ref"/>
-        <dependency status="required" name="sqlite" type="ref"/>
-        <dependency status="recommended" name="serf" type="ref"/>
-        <dependency status="optional" name="Dante" type="link"/>
-        <dependency status="optional" name="Jikes" type="link"/>
-        <dependency status="optional" name="apache" type="ref"/>
-        <dependency status="optional" name="cyrus-sasl" type="ref"/>
-        <dependency status="optional" name="dbus" type="ref"/>
-        <dependency status="optional" name="junit" type="ref"/>
-        <dependency status="optional" name="openjdk" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="ruby" type="ref"/>
-        <dependency status="optional" name="swig" type="ref"/>
+#    Required: "apr-util" 
+#    Required: "sqlite" 
+#    Recommended: "serf" 
+#    Optional: "Dante" 
+#    Optional: "Jikes" 
+#    Optional: "apache" 
+#    Optional: "cyrus-sasl" 
+#    Optional: "dbus" 
+#    Optional: "junit" 
+#    Optional: "openjdk" 
+#    Optional: "python2" 
+#    Optional: "ruby" 
+#    Optional: "swig" 

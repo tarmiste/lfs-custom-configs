@@ -1,21 +1,21 @@
-        <dependency status="required" name="glib2" type="ref"/>
-        <dependency status="required" name="libgcrypt" type="ref"/>
-        <dependency status="recommended" name="libpcap" type="ref"/>
-        <dependency status="recommended" name="qt5" type="ref"/>
-        <dependency status="optional" name="GeoIP" type="link"/>
-        <dependency status="optional" name="PortAudio" type="link"/>
-        <dependency status="optional" name="Snappy" type="link"/>
-        <dependency status="optional" name="Spandsp" type="link"/>
-        <dependency status="optional" name="c-ares" type="ref"/>
-        <dependency status="optional" name="gnutls" type="ref"/>
-        <dependency status="optional" name="gtk2" type="ref"/>
-        <dependency status="optional" name="gtk3" type="ref"/>
-        <dependency status="optional" name="libnl" type="ref"/>
-        <dependency status="optional" name="libsmi" type="link"/>
-        <dependency status="optional" name="libssh" type="link"/>
-        <dependency status="optional" name="lua" type="ref"/>
-        <dependency status="optional" name="lz4" type="link"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
-        <dependency status="optional" name="nghttp2" type="ref"/>
-        <dependency status="optional" name="openssl" type="ref"/>
-        <dependency status="optional" name="sbc" type="ref"/>
+#    Required: "glib2" 
+#    Required: "libgcrypt" 
+#    Recommended: "libpcap" 
+#    Recommended: "qt5" 
+#    Optional: "GeoIP" 
+#    Optional: "PortAudio" 
+#    Optional: "Snappy" 
+#    Optional: "Spandsp" 
+#    Optional: "c-ares" 
+#    Optional: "gnutls" 
+#    Optional: "gtk2" 
+#    Optional: "gtk3" 
+#    Optional: "libnl" 
+#    Optional: "libsmi" 
+#    Optional: "libssh" 
+#    Optional: "lua" 
+#    Optional: "lz4" 
+#    Optional: "mitkrb" 
+#    Optional: "nghttp2" 
+#    Optional: "openssl" 
+#    Optional: "sbc" 

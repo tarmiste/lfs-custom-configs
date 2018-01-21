@@ -1,5 +1,5 @@
-        <dependency status="required" name="exo" type="ref"/>
-        <dependency status="required" name="libisoburn" type="ref"/>
-        <dependency status="required" name="libxfce4util" type="ref"/>
-        <dependency status="optional" name="cdrdao" type="ref"/>
-        <dependency status="optional" name="gst10-plugins-base" type="ref"/>
+#    Required: "exo" 
+#    Required: "libisoburn" 
+#    Required: "libxfce4util" 
+#    Optional: "cdrdao" 
+#    Optional: "gst10-plugins-base" 

@@ -1,17 +1,17 @@
-        <dependency status="recommended" name="cacerts" type="ref"/>
-        <dependency status="recommended" name="openssl" type="ref"/>
-        <dependency status="optional" name="SPNEGO" type="link"/>
-        <dependency status="optional" name="c-ares" type="ref"/>
-        <dependency status="optional" name="gnutls" type="ref"/>
-        <dependency status="optional" name="libidn2" type="link"/>
-        <dependency status="optional" name="libmetalink" type="link"/>
-        <dependency status="optional" name="libpsl" type="link"/>
-        <dependency status="optional" name="librtmp" type="link"/>
-        <dependency status="optional" name="libssh2" type="link"/>
-        <dependency status="optional" name="mbed-TLS-(formerly-known-as-PolarSSL)" type="link"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
-        <dependency status="optional" name="nghttp2" type="ref"/>
-        <dependency status="optional" name="openldap" type="ref"/>
-        <dependency status="optional" name="samba" type="ref"/>
-        <dependency status="optional" name="stunnel" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Recommended: "cacerts" 
+#    Recommended: "openssl" 
+#    Optional: "SPNEGO" 
+#    Optional: "c-ares" 
+#    Optional: "gnutls" 
+#    Optional: "libidn2" 
+#    Optional: "libmetalink" 
+#    Optional: "libpsl" 
+#    Optional: "librtmp" 
+#    Optional: "libssh2" 
+#    Optional: "mbed-TLS-(formerly-known-as-PolarSSL)" 
+#    Optional: "mitkrb" 
+#    Optional: "nghttp2" 
+#    Optional: "openldap" 
+#    Optional: "samba" 
+#    Optional: "stunnel" 
+#    Optional: "valgrind" 

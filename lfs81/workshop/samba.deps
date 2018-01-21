@@ -1,60 +1,60 @@
-        <dependency status="required" name="python2" type="ref"/>
-        <dependency status="recommended" name="gpgme" type="ref"/>
-        <dependency status="recommended" name="libtirpc" type="ref"/>
-        <dependency status="recommended" name="libxslt" type="ref"/>
-        <dependency status="recommended" name="openldap" type="ref"/>
-        <dependency status="recommended" name="openssl" type="ref"/>
-        <dependency status="recommended" name="perl-parse-yapp" type="ref"/>
-        <dependency status="recommended" name="pycrypto" type="ref"/>
-        <dependency status="recommended" name="python3" type="ref"/>
-        <dependency status="optional" name="Gamin" type="link"/>
-        <dependency status="optional" name="Heimdal" type="link"/>
-        <dependency status="optional" name="M2Crypto" type="link"/>
-        <dependency status="optional" name="OpenAFS" type="link"/>
-        <dependency status="optional" name="PyGPGME" type="link"/>
-        <dependency status="optional" name="argparse" type="link"/>
-        <dependency status="optional" name="avahi" type="ref"/>
-        <dependency status="optional" name="contextlib2" type="link"/>
-        <dependency status="optional" name="coverage" type="link"/>
-        <dependency status="optional" name="ctdb" type="link"/>
-        <dependency status="optional" name="cups" type="ref"/>
-        <dependency status="optional" name="cyrus-sasl" type="ref"/>
-        <dependency status="optional" name="doctools" type="link"/>
-        <dependency status="optional" name="enum34" type="link"/>
-        <dependency status="optional" name="extras" type="link"/>
-        <dependency status="optional" name="fixtures" type="link"/>
-        <dependency status="optional" name="gdb" type="ref"/>
-        <dependency status="optional" name="git" type="ref"/>
-        <dependency status="optional" name="gnupg2" type="ref"/>
-        <dependency status="optional" name="gnutls" type="ref"/>
-        <dependency status="optional" name="hypothesis" type="link"/>
-        <dependency status="optional" name="ldb" type="link"/>
-        <dependency status="optional" name="libaio" type="link"/>
-        <dependency status="optional" name="libarchive" type="ref"/>
-        <dependency status="optional" name="libcap-pam" type="ref"/>
-        <dependency status="optional" name="libgcrypt" type="ref"/>
-        <dependency status="optional" name="libunwind" type="link"/>
-        <dependency status="optional" name="linecache2" type="link"/>
-        <dependency status="optional" name="linux-pam" type="ref"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
-        <dependency status="optional" name="nss" type="ref"/>
-        <dependency status="optional" name="pbr" type="link"/>
-        <dependency status="optional" name="popt" type="ref"/>
-        <dependency status="optional" name="py" type="link"/>
-        <dependency status="optional" name="pytest" type="link"/>
-        <dependency status="optional" name="pytest-cov" type="link"/>
-        <dependency status="optional" name="python-mimeparse" type="link"/>
-        <dependency status="optional" name="python-subunit" type="link"/>
-        <dependency status="optional" name="six" type="link"/>
-        <dependency status="optional" name="talloc" type="ref"/>
-        <dependency status="optional" name="tdb" type="link"/>
-        <dependency status="optional" name="testresources" type="link"/>
-        <dependency status="optional" name="testscenarios" type="link"/>
-        <dependency status="optional" name="testtools" type="link"/>
-        <dependency status="optional" name="tevent" type="link"/>
-        <dependency status="optional" name="traceback2" type="link"/>
-        <dependency status="optional" name="unittest2" type="link"/>
-        <dependency status="optional" name="vala" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
-        <dependency status="optional" name="virtualenv" type="link"/>
-        <dependency status="optional" name="xfsprogs" type="ref"/>
+#    Required: "python2" 
+#    Recommended: "gpgme" 
+#    Recommended: "libtirpc" 
+#    Recommended: "libxslt" 
+#    Recommended: "openldap" 
+#    Recommended: "openssl" 
+#    Recommended: "perl-parse-yapp" 
+#    Recommended: "pycrypto" 
+#    Recommended: "python3" 
+#    Optional: "Gamin" 
+#    Optional: "Heimdal" 
+#    Optional: "M2Crypto" 
+#    Optional: "OpenAFS" 
+#    Optional: "PyGPGME" 
+#    Optional: "argparse" 
+#    Optional: "avahi" 
+#    Optional: "contextlib2" 
+#    Optional: "coverage" 
+#    Optional: "ctdb" 
+#    Optional: "cups" 
+#    Optional: "cyrus-sasl" 
+#    Optional: "doctools" 
+#    Optional: "enum34" 
+#    Optional: "extras" 
+#    Optional: "fixtures" 
+#    Optional: "gdb" 
+#    Optional: "git" 
+#    Optional: "gnupg2" 
+#    Optional: "gnutls" 
+#    Optional: "hypothesis" 
+#    Optional: "ldb" 
+#    Optional: "libaio" 
+#    Optional: "libarchive" 
+#    Optional: "libcap-pam" 
+#    Optional: "libgcrypt" 
+#    Optional: "libunwind" 
+#    Optional: "linecache2" 
+#    Optional: "linux-pam" 
+#    Optional: "mitkrb" 
+#    Optional: "nss" 
+#    Optional: "pbr" 
+#    Optional: "popt" 
+#    Optional: "py" 
+#    Optional: "pytest" 
+#    Optional: "pytest-cov" 
+#    Optional: "python-mimeparse" 
+#    Optional: "python-subunit" 
+#    Optional: "six" 
+#    Optional: "talloc" 
+#    Optional: "tdb" 
+#    Optional: "testresources" 
+#    Optional: "testscenarios" 
+#    Optional: "testtools" 
+#    Optional: "tevent" 
+#    Optional: "traceback2" 
+#    Optional: "unittest2" 
+#    Optional: "vala" 
+#    Optional: "valgrind" 
+#    Optional: "virtualenv" 
+#    Optional: "xfsprogs" 

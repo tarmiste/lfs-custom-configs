@@ -1,11 +1,11 @@
-        <dependency status="required" name="nss" type="ref"/>
-        <dependency status="required" name="pulseaudio" type="ref"/>
-        <dependency status="required" name="qt5" type="ref"/>
-        <dependency status="recommended" name="libwebp" type="ref"/>
-        <dependency status="recommended" name="libxslt" type="ref"/>
-        <dependency status="recommended" name="opus" type="ref"/>
-        <dependency status="recommended" name="rust" type="ref"/>
-        <dependency status="optional" name="jsoncpp" type="link"/>
-        <dependency status="optional" name="libevent" type="ref"/>
-        <dependency status="optional" name="libsrtp" type="link"/>
-        <dependency status="optional" name="snappy" type="link"/>
+#    Required: "nss" 
+#    Required: "pulseaudio" 
+#    Required: "qt5" 
+#    Recommended: "libwebp" 
+#    Recommended: "libxslt" 
+#    Recommended: "opus" 
+#    Recommended: "rust" 
+#    Optional: "jsoncpp" 
+#    Optional: "libevent" 
+#    Optional: "libsrtp" 
+#    Optional: "snappy" 

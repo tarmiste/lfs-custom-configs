@@ -1,7 +1,7 @@
-        <dependency status="required" name="dbus" type="ref"/>
-        <dependency status="required" name="glib2" type="ref"/>
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="required" name="libxml2" type="ref"/>
-        <dependency status="recommended" name="libxslt" type="ref"/>
-        <dependency status="recommended" name="vala" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
+#    Required: "dbus" 
+#    Required: "glib2" 
+#    Required: "gtk3" 
+#    Required: "libxml2" 
+#    Recommended: "libxslt" 
+#    Recommended: "vala" 
+#    Optional: "gtk-doc" 

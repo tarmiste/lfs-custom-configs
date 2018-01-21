@@ -1,7 +1,7 @@
-        <dependency status="required" name="cmake" type="ref"/>
-        <dependency status="required" name="consolekit" type="ref"/>
-        <dependency status="required" name="extra-cmake-modules" type="ref"/>
-        <dependency status="required" name="qt5" type="ref"/>
-        <dependency status="recommended" name="linux-pam" type="ref"/>
-        <dependency status="recommended" name="upower" type="ref"/>
-        <dependency status="optional" name="Docutils" type="link"/>
+#    Required: "cmake" 
+#    Required: "consolekit" 
+#    Required: "extra-cmake-modules" 
+#    Required: "qt5" 
+#    Recommended: "linux-pam" 
+#    Recommended: "upower" 
+#    Optional: "Docutils" 

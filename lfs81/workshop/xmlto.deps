@@ -1,10 +1,10 @@
-        <dependency status="required" name="DocBook" type="ref"/>
-        <dependency status="required" name="docbook-xsl" type="ref"/>
-        <dependency status="required" name="libxslt" type="ref"/>
-        <dependency status="optional" name="ELinks" type="link"/>
-        <dependency status="optional" name="Links" type="ref"/>
-        <dependency status="optional" name="PassiveTeX" type="link"/>
-        <dependency status="optional" name="dblatex" type="link"/>
-        <dependency status="optional" name="fop" type="ref"/>
-        <dependency status="optional" name="lynx" type="ref"/>
-        <dependency status="optional" name="w3m" type="ref"/>
+#    Required: "DocBook" 
+#    Required: "docbook-xsl" 
+#    Required: "libxslt" 
+#    Optional: "ELinks" 
+#    Optional: "Links" 
+#    Optional: "PassiveTeX" 
+#    Optional: "dblatex" 
+#    Optional: "fop" 
+#    Optional: "lynx" 
+#    Optional: "w3m" 

@@ -1,67 +1,67 @@
-        <dependency status="required" name="yasm" type="ref"/>
-        <dependency status="recommended" name="gtk2" type="ref"/>
-        <dependency status="recommended" name="libvdpau-va-gl" type="ref"/>
-        <dependency status="optional" name="CrystalHD" type="link"/>
-        <dependency status="optional" name="Dirac" type="link"/>
-        <dependency status="optional" name="DirectFB" type="link"/>
-        <dependency status="optional" name="DocBook" type="ref"/>
-        <dependency status="optional" name="Enca" type="link"/>
-        <dependency status="optional" name="GSM" type="link"/>
-        <dependency status="optional" name="JACK" type="link"/>
-        <dependency status="optional" name="LIRC" type="link"/>
-        <dependency status="optional" name="LIRC-Client-Daemon" type="link"/>
-        <dependency status="optional" name="LIVE555-Streaming-Media" type="link"/>
-        <dependency status="optional" name="NAS" type="link"/>
-        <dependency status="optional" name="OpenAL" type="link"/>
-        <dependency status="optional" name="OpenCore-Adaptive-Multi-Rate" type="link"/>
-        <dependency status="optional" name="RTMPDump" type="link"/>
-        <dependency status="optional" name="SVGAlib" type="link"/>
-        <dependency status="optional" name="Schroedinger" type="link"/>
-        <dependency status="optional" name="TiVo-vstream-client" type="link"/>
-        <dependency status="optional" name="Tremor" type="link"/>
-        <dependency status="optional" name="TwoLAME" type="link"/>
-        <dependency status="optional" name="XMMS" type="link"/>
-        <dependency status="optional" name="aalib" type="ref"/>
-        <dependency status="optional" name="alsa" type="ref"/>
-        <dependency status="optional" name="cdparanoia" type="ref"/>
-        <dependency status="optional" name="docbook-xsl" type="ref"/>
-        <dependency status="optional" name="faac" type="ref"/>
-        <dependency status="optional" name="faad2" type="ref"/>
-        <dependency status="optional" name="fontconfig" type="ref"/>
-        <dependency status="optional" name="freetype2" type="ref"/>
-        <dependency status="optional" name="fribidi" type="ref"/>
-        <dependency status="optional" name="giflib" type="ref"/>
-        <dependency status="optional" name="gnutls" type="ref"/>
-        <dependency status="optional" name="iLBC" type="link"/>
-        <dependency status="optional" name="lame" type="ref"/>
-        <dependency status="optional" name="liba52" type="ref"/>
-        <dependency status="optional" name="libbluray" type="link"/>
-        <dependency status="optional" name="libbs2b" type="link"/>
-        <dependency status="optional" name="libcaca" type="link"/>
-        <dependency status="optional" name="libcdio" type="ref"/>
-        <dependency status="optional" name="libdca" type="link"/>
-        <dependency status="optional" name="libdv" type="ref"/>
-        <dependency status="optional" name="libdvdcss" type="ref"/>
-        <dependency status="optional" name="libdvdnav" type="ref"/>
-        <dependency status="optional" name="libdvdread" type="ref"/>
-        <dependency status="optional" name="libjpeg" type="ref"/>
-        <dependency status="optional" name="libmad" type="ref"/>
-        <dependency status="optional" name="libmng" type="ref"/>
-        <dependency status="optional" name="libmpcdec" type="link"/>
-        <dependency status="optional" name="libmpeg2" type="ref"/>
-        <dependency status="optional" name="libnut" type="link"/>
-        <dependency status="optional" name="libpng" type="ref"/>
-        <dependency status="optional" name="libtheora" type="ref"/>
-        <dependency status="optional" name="libvpx" type="ref"/>
-        <dependency status="optional" name="libxslt" type="ref"/>
-        <dependency status="optional" name="lzo" type="ref"/>
-        <dependency status="optional" name="mpg123" type="ref"/>
-        <dependency status="optional" name="openjpeg" type="ref"/>
-        <dependency status="optional" name="opus" type="ref"/>
-        <dependency status="optional" name="pulseaudio" type="ref"/>
-        <dependency status="optional" name="samba" type="ref"/>
-        <dependency status="optional" name="sdl" type="ref"/>
-        <dependency status="optional" name="speex" type="ref"/>
-        <dependency status="optional" name="unrar" type="ref"/>
-        <dependency status="optional" name="x264" type="ref"/>
-        <dependency status="optional" name="xvid" type="ref"/>
+#    Required: "yasm" 
+#    Recommended: "gtk2" 
+#    Recommended: "libvdpau-va-gl" 
+#    Optional: "CrystalHD" 
+#    Optional: "Dirac" 
+#    Optional: "DirectFB" 
+#    Optional: "DocBook" 
+#    Optional: "Enca" 
+#    Optional: "GSM" 
+#    Optional: "JACK" 
+#    Optional: "LIRC" 
+#    Optional: "LIRC-Client-Daemon" 
+#    Optional: "LIVE555-Streaming-Media" 
+#    Optional: "NAS" 
+#    Optional: "OpenAL" 
+#    Optional: "OpenCore-Adaptive-Multi-Rate" 
+#    Optional: "RTMPDump" 
+#    Optional: "SVGAlib" 
+#    Optional: "Schroedinger" 
+#    Optional: "TiVo-vstream-client" 
+#    Optional: "Tremor" 
+#    Optional: "TwoLAME" 
+#    Optional: "XMMS" 
+#    Optional: "aalib" 
+#    Optional: "alsa" 
+#    Optional: "cdparanoia" 
+#    Optional: "docbook-xsl" 
+#    Optional: "faac" 
+#    Optional: "faad2" 
+#    Optional: "fontconfig" 
+#    Optional: "freetype2" 
+#    Optional: "fribidi" 
+#    Optional: "giflib" 
+#    Optional: "gnutls" 
+#    Optional: "iLBC" 
+#    Optional: "lame" 
+#    Optional: "liba52" 
+#    Optional: "libbluray" 
+#    Optional: "libbs2b" 
+#    Optional: "libcaca" 
+#    Optional: "libcdio" 
+#    Optional: "libdca" 
+#    Optional: "libdv" 
+#    Optional: "libdvdcss" 
+#    Optional: "libdvdnav" 
+#    Optional: "libdvdread" 
+#    Optional: "libjpeg" 
+#    Optional: "libmad" 
+#    Optional: "libmng" 
+#    Optional: "libmpcdec" 
+#    Optional: "libmpeg2" 
+#    Optional: "libnut" 
+#    Optional: "libpng" 
+#    Optional: "libtheora" 
+#    Optional: "libvpx" 
+#    Optional: "libxslt" 
+#    Optional: "lzo" 
+#    Optional: "mpg123" 
+#    Optional: "openjpeg" 
+#    Optional: "opus" 
+#    Optional: "pulseaudio" 
+#    Optional: "samba" 
+#    Optional: "sdl" 
+#    Optional: "speex" 
+#    Optional: "unrar" 
+#    Optional: "x264" 
+#    Optional: "xvid" 

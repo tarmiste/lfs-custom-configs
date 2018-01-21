@@ -1,11 +1,11 @@
-        <dependency status="required" name="atk" type="ref"/>
-        <dependency status="required" name="cogl" type="ref"/>
-        <dependency status="required" name="json-glib" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="gtk3" type="ref"/>
-        <dependency status="optional" name="Tslib" type="link"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="libgudev" type="ref"/>
-        <dependency status="optional" name="libinput" type="ref"/>
-        <dependency status="optional" name="libxkbcommon" type="ref"/>
-        <dependency status="optional" name="wayland" type="ref"/>
+#    Required: "atk" 
+#    Required: "cogl" 
+#    Required: "json-glib" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "gtk3" 
+#    Optional: "Tslib" 
+#    Optional: "gtk-doc" 
+#    Optional: "libgudev" 
+#    Optional: "libinput" 
+#    Optional: "libxkbcommon" 
+#    Optional: "wayland" 

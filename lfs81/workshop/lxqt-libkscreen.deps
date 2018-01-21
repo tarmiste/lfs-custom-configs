@@ -1,2 +1,2 @@
-        <dependency status="required" name="lxqt-kwayland" type="ref"/>
-        <dependency status="required" name="lxqt-kwayland" type="ref"/>
+#    Required: "lxqt-kwayland" 
+#    Required: "lxqt-kwayland" 

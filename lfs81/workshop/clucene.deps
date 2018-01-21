@@ -1,2 +1,2 @@
-        <dependency status="required" name="cmake" type="ref"/>
-        <dependency status="recommended" name="boost" type="ref"/>
+#    Required: "cmake" 
+#    Recommended: "boost" 

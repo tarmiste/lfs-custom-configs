@@ -1,4 +1,4 @@
-        <dependency status="required" name="cacerts" type="ref"/>
-        <dependency status="required" name="cmake" type="ref"/>
-        <dependency status="required" name="qt5" type="ref"/>
-        <dependency status="required" name="which" type="ref"/>
+#    Required: "cacerts" 
+#    Required: "cmake" 
+#    Required: "qt5" 
+#    Required: "which" 

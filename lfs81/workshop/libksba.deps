@@ -1,2 +1,2 @@
-        <dependency status="required" name="libgpg-error" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Required: "libgpg-error" 
+#    Optional: "valgrind" 

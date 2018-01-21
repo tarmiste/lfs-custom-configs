@@ -1,11 +1,11 @@
-        <dependency status="required" name="gcr" type="ref"/>
-        <dependency status="required" name="gnome-keyring" type="ref"/>
-        <dependency status="required" name="gnupg2" type="ref"/>
-        <dependency status="required" name="gpgme" type="ref"/>
-        <dependency status="required" name="itstool" type="ref"/>
-        <dependency status="required" name="libsecret" type="ref"/>
-        <dependency status="recommended" name="libsoup" type="ref"/>
-        <dependency status="recommended" name="openssh" type="ref"/>
-        <dependency status="recommended" name="vala" type="ref"/>
-        <dependency status="optional" name="avahi" type="ref"/>
-        <dependency status="optional" name="openldap" type="ref"/>
+#    Required: "gcr" 
+#    Required: "gnome-keyring" 
+#    Required: "gnupg2" 
+#    Required: "gpgme" 
+#    Required: "itstool" 
+#    Required: "libsecret" 
+#    Recommended: "libsoup" 
+#    Recommended: "openssh" 
+#    Recommended: "vala" 
+#    Optional: "avahi" 
+#    Optional: "openldap" 

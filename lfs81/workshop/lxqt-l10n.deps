@@ -1,2 +1,2 @@
-        <dependency status="required" name="liblxqt" type="ref"/>
-        <dependency status="required" name="lxqt-session" type="ref"/>
+#    Required: "liblxqt" 
+#    Required: "lxqt-session" 

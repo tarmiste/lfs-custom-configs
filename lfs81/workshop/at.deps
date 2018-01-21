@@ -1,2 +1,2 @@
-        <dependency status="required" name="server-mail" type="ref"/>
-        <dependency status="optional" name="linux-pam" type="ref"/>
+#    Required: "server-mail" 
+#    Optional: "linux-pam" 

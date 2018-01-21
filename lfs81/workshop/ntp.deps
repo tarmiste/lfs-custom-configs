@@ -1,6 +1,6 @@
-        <dependency status="recommended" name="wget" type="ref"/>
-        <dependency status="optional" name="libcap-pam" type="ref"/>
-        <dependency status="optional" name="libedit" type="link"/>
-        <dependency status="optional" name="libevent" type="ref"/>
-        <dependency status="optional" name="libopts-from-AutoGen" type="link"/>
-        <dependency status="optional" name="openssl" type="ref"/>
+#    Recommended: "wget" 
+#    Optional: "libcap-pam" 
+#    Optional: "libedit" 
+#    Optional: "libevent" 
+#    Optional: "libopts-from-AutoGen" 
+#    Optional: "openssl" 

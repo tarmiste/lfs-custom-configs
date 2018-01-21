@@ -1,4 +1,4 @@
-        <dependency status="required" name="glib2" type="ref"/>
-        <dependency status="optional" name="gobject-introspection" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="umockdev" type="link"/>
+#    Required: "glib2" 
+#    Optional: "gobject-introspection" 
+#    Optional: "gtk-doc" 
+#    Optional: "umockdev" 

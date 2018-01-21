@@ -1,6 +1,6 @@
-        <dependency status="required" name="glib2" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="optional" name="gsl" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="gtk3" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Required: "glib2" 
+#    Recommended: "gobject-introspection" 
+#    Optional: "gsl" 
+#    Optional: "gtk-doc" 
+#    Optional: "gtk3" 
+#    Optional: "valgrind" 

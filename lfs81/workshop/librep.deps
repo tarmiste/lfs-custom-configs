@@ -1,1 +1,1 @@
-        <dependency status="optional" name="libffi" type="ref"/>
+#    Optional: "libffi" 

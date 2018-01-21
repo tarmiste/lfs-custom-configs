@@ -1,4 +1,4 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="sane" type="ref"/>
-        <dependency status="optional" name="gimp" type="ref"/>
-        <dependency status="optional" name="lcms" type="ref"/>
+#    Required: "gtk2" 
+#    Required: "sane" 
+#    Optional: "gimp" 
+#    Optional: "lcms" 

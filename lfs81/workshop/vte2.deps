@@ -1,4 +1,4 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="optional" name="gobject-introspection" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="pygtk" type="ref"/>
+#    Required: "gtk2" 
+#    Optional: "gobject-introspection" 
+#    Optional: "gtk-doc" 
+#    Optional: "pygtk" 

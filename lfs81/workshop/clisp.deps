@@ -1,2 +1,2 @@
-        <dependency status="recommended" name="libsigsegv" type="ref"/>
-        <dependency status="optional" name="libffcall" type="link"/>
+#    Recommended: "libsigsegv" 
+#    Optional: "libffcall" 

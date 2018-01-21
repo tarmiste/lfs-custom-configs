@@ -1,3 +1,3 @@
-        <dependency status="required" name="chrpath" type="ref"/>
-        <dependency status="required" name="qt5" type="ref"/>
-        <dependency status="optional" name="PyQt" type="link"/>
+#    Required: "chrpath" 
+#    Required: "qt5" 
+#    Optional: "PyQt" 

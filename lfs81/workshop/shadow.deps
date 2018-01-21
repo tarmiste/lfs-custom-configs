@@ -1,2 +1,2 @@
-        <dependency status="required" name="cracklib" type="ref"/>
-        <dependency status="required" name="linux-pam" type="ref"/>
+#    Required: "cracklib" 
+#    Required: "linux-pam" 

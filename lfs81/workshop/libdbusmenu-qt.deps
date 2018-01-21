@@ -1,2 +1,2 @@
-        <dependency status="required" name="qt5" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
+#    Required: "qt5" 
+#    Optional: "doxygen" 

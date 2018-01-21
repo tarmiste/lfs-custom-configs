@@ -1,6 +1,6 @@
-        <dependency status="required" name="cairo" type="ref"/>
-        <dependency status="required" name="gobject-introspection" type="ref"/>
-        <dependency status="required" name="js38" type="ref"/>
-        <dependency status="optional" name="DTrace" type="link"/>
-        <dependency status="optional" name="LCOV" type="link"/>
-        <dependency status="optional" name="Systemtap" type="link"/>
+#    Required: "cairo" 
+#    Required: "gobject-introspection" 
+#    Required: "js38" 
+#    Optional: "DTrace" 
+#    Optional: "LCOV" 
+#    Optional: "Systemtap" 

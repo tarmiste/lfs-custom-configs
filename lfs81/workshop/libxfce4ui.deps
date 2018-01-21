@@ -1,8 +1,8 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="xfconf" type="ref"/>
-        <dependency status="required" name="xfconf" type="ref"/>
-        <dependency status="recommended" name="gtk3" type="ref"/>
-        <dependency status="recommended" name="startup-notification" type="ref"/>
-        <dependency status="optional" name="Glade" type="link"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="perl-html-parser" type="ref"/>
+#    Required: "gtk2" 
+#    Required: "xfconf" 
+#    Required: "xfconf" 
+#    Recommended: "gtk3" 
+#    Recommended: "startup-notification" 
+#    Optional: "Glade" 
+#    Optional: "gtk-doc" 
+#    Optional: "perl-html-parser" 

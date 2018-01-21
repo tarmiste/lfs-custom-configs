@@ -1,9 +1,9 @@
-        <dependency status="recommended" name="cups" type="ref"/>
-        <dependency status="recommended" name="psutils" type="ref"/>
-        <dependency status="optional" name="Adobe-Reader" type="link"/>
-        <dependency status="optional" name="Ghostview" type="link"/>
-        <dependency status="optional" name="gs" type="ref"/>
-        <dependency status="optional" name="libpaper" type="ref"/>
-        <dependency status="optional" name="texlive" type="ref"/>
-        <dependency status="optional" name="tl-installer" type="ref"/>
-        <dependency status="optional" name="x-window-system" type="ref"/>
+#    Recommended: "cups" 
+#    Recommended: "psutils" 
+#    Optional: "Adobe-Reader" 
+#    Optional: "Ghostview" 
+#    Optional: "gs" 
+#    Optional: "libpaper" 
+#    Optional: "texlive" 
+#    Optional: "tl-installer" 
+#    Optional: "x-window-system" 

@@ -1,35 +1,35 @@
-        <dependency status="required" name="perl-autovivification" type="ref"/>
-        <dependency status="required" name="perl-business-isbn" type="ref"/>
-        <dependency status="required" name="perl-business-ismn" type="ref"/>
-        <dependency status="required" name="perl-business-issn" type="ref"/>
-        <dependency status="required" name="perl-class-accessor" type="ref"/>
-        <dependency status="required" name="perl-data-compare" type="ref"/>
-        <dependency status="required" name="perl-data-dump" type="ref"/>
-        <dependency status="required" name="perl-data-uniqid" type="ref"/>
-        <dependency status="required" name="perl-datetime-calendar-julian" type="ref"/>
-        <dependency status="required" name="perl-datetime-format-builder" type="ref"/>
-        <dependency status="required" name="perl-encode-eucjpascii" type="ref"/>
-        <dependency status="required" name="perl-encode-hanextra" type="ref"/>
-        <dependency status="required" name="perl-encode-jis2k" type="ref"/>
-        <dependency status="required" name="perl-file-slurp" type="ref"/>
-        <dependency status="required" name="perl-ipc-run3" type="ref"/>
-        <dependency status="required" name="perl-lingua-translit" type="ref"/>
-        <dependency status="required" name="perl-list-allutils" type="ref"/>
-        <dependency status="required" name="perl-list-moreutils" type="ref"/>
-        <dependency status="required" name="perl-log-log4perl" type="ref"/>
-        <dependency status="required" name="perl-lwp-protocol-https" type="ref"/>
-        <dependency status="required" name="perl-module-build" type="ref"/>
-        <dependency status="required" name="perl-regexp-common" type="ref"/>
-        <dependency status="required" name="perl-sort-key" type="ref"/>
-        <dependency status="required" name="perl-text-bibtex" type="ref"/>
-        <dependency status="required" name="perl-text-csv" type="ref"/>
-        <dependency status="required" name="perl-text-roman" type="ref"/>
-        <dependency status="required" name="perl-unicode-collate" type="ref"/>
-        <dependency status="required" name="perl-unicode-linebreak" type="ref"/>
-        <dependency status="required" name="perl-xml-libxml-simple" type="ref"/>
-        <dependency status="required" name="perl-xml-libxslt" type="ref"/>
-        <dependency status="required" name="perl-xml-writer" type="ref"/>
-        <dependency status="required" name="texlive" type="ref"/>
-        <dependency status="required" name="tl-installer" type="ref"/>
-        <dependency status="optional" name="perl-file-which" type="ref"/>
-        <dependency status="optional" name="perl-test-differences" type="ref"/>
+#    Required: "perl-autovivification" 
+#    Required: "perl-business-isbn" 
+#    Required: "perl-business-ismn" 
+#    Required: "perl-business-issn" 
+#    Required: "perl-class-accessor" 
+#    Required: "perl-data-compare" 
+#    Required: "perl-data-dump" 
+#    Required: "perl-data-uniqid" 
+#    Required: "perl-datetime-calendar-julian" 
+#    Required: "perl-datetime-format-builder" 
+#    Required: "perl-encode-eucjpascii" 
+#    Required: "perl-encode-hanextra" 
+#    Required: "perl-encode-jis2k" 
+#    Required: "perl-file-slurp" 
+#    Required: "perl-ipc-run3" 
+#    Required: "perl-lingua-translit" 
+#    Required: "perl-list-allutils" 
+#    Required: "perl-list-moreutils" 
+#    Required: "perl-log-log4perl" 
+#    Required: "perl-lwp-protocol-https" 
+#    Required: "perl-module-build" 
+#    Required: "perl-regexp-common" 
+#    Required: "perl-sort-key" 
+#    Required: "perl-text-bibtex" 
+#    Required: "perl-text-csv" 
+#    Required: "perl-text-roman" 
+#    Required: "perl-unicode-collate" 
+#    Required: "perl-unicode-linebreak" 
+#    Required: "perl-xml-libxml-simple" 
+#    Required: "perl-xml-libxslt" 
+#    Required: "perl-xml-writer" 
+#    Required: "texlive" 
+#    Required: "tl-installer" 
+#    Optional: "perl-file-which" 
+#    Optional: "perl-test-differences" 

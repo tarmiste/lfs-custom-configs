@@ -1,4 +1,4 @@
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="lcms2" type="ref"/>
-        <dependency status="optional" name="libpng" type="ref"/>
-        <dependency status="optional" name="libtiff" type="ref"/>
+#    Optional: "doxygen" 
+#    Optional: "lcms2" 
+#    Optional: "libpng" 
+#    Optional: "libtiff" 

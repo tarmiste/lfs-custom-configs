@@ -1,8 +1,8 @@
-        <dependency status="required" name="glib2" type="ref"/>
-        <dependency status="required" name="js38" type="ref"/>
-        <dependency status="optional" name="DocBook" type="ref"/>
-        <dependency status="optional" name="docbook-xsl" type="ref"/>
-        <dependency status="optional" name="gobject-introspection" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="libxslt" type="ref"/>
-        <dependency status="optional" name="linux-pam" type="ref"/>
+#    Required: "glib2" 
+#    Required: "js38" 
+#    Optional: "DocBook" 
+#    Optional: "docbook-xsl" 
+#    Optional: "gobject-introspection" 
+#    Optional: "gtk-doc" 
+#    Optional: "libxslt" 
+#    Optional: "linux-pam" 

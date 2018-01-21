@@ -1,25 +1,25 @@
-        <dependency status="required" name="boost" type="ref"/>
-        <dependency status="required" name="gc" type="ref"/>
-        <dependency status="required" name="gnome-docking-library" type="link"/>
-        <dependency status="required" name="gsl" type="ref"/>
-        <dependency status="required" name="gtkmm2" type="ref"/>
-        <dependency status="required" name="gtkmm3" type="ref"/>
-        <dependency status="required" name="libxslt" type="ref"/>
-        <dependency status="required" name="poppler" type="ref"/>
-        <dependency status="required" name="popt" type="ref"/>
-        <dependency status="required" name="wget" type="ref"/>
-        <dependency status="recommended" name="imagemagick6" type="ref"/>
-        <dependency status="recommended" name="lcms" type="ref"/>
-        <dependency status="recommended" name="lcms2" type="ref"/>
-        <dependency status="recommended" name="lxml" type="ref"/>
-        <dependency status="recommended" name="potrace" type="ref"/>
-        <dependency status="recommended" name="scour" type="ref"/>
-        <dependency status="optional" name="NumPy" type="link"/>
-        <dependency status="optional" name="XML::XQL" type="link"/>
-        <dependency status="optional" name="aspell" type="ref"/>
-        <dependency status="optional" name="dbus" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="libcdr" type="link"/>
-        <dependency status="optional" name="libvisio" type="link"/>
-        <dependency status="optional" name="libwpd" type="link"/>
-        <dependency status="optional" name="libwpg" type="link"/>
+#    Required: "boost" 
+#    Required: "gc" 
+#    Required: "gnome-docking-library" 
+#    Required: "gsl" 
+#    Required: "gtkmm2" 
+#    Required: "gtkmm3" 
+#    Required: "libxslt" 
+#    Required: "poppler" 
+#    Required: "popt" 
+#    Required: "wget" 
+#    Recommended: "imagemagick6" 
+#    Recommended: "lcms" 
+#    Recommended: "lcms2" 
+#    Recommended: "lxml" 
+#    Recommended: "potrace" 
+#    Recommended: "scour" 
+#    Optional: "NumPy" 
+#    Optional: "XML::XQL" 
+#    Optional: "aspell" 
+#    Optional: "dbus" 
+#    Optional: "doxygen" 
+#    Optional: "libcdr" 
+#    Optional: "libvisio" 
+#    Optional: "libwpd" 
+#    Optional: "libwpg" 

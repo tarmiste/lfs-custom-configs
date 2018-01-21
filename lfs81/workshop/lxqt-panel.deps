@@ -1,17 +1,17 @@
-        <dependency status="required" name="kf5-frameworks" type="ref"/>
-        <dependency status="required" name="libdbusmenu-qt" type="ref"/>
-        <dependency status="required" name="liblxqt" type="ref"/>
-        <dependency status="required" name="lxmenu-data" type="ref"/>
-        <dependency status="required" name="lxqt-globalkeys" type="ref"/>
-        <dependency status="required" name="lxqt-kguiaddons" type="ref"/>
-        <dependency status="required" name="lxqt-kguiaddons" type="ref"/>
-        <dependency status="required" name="lxqt-solid" type="ref"/>
-        <dependency status="required" name="menu-cache" type="ref"/>
-        <dependency status="recommended" name="alsa-lib" type="ref"/>
-        <dependency status="recommended" name="libstatgrab" type="ref"/>
-        <dependency status="recommended" name="libsysstat" type="ref"/>
-        <dependency status="recommended" name="libxkbcommon" type="ref"/>
-        <dependency status="recommended" name="lm_sensors" type="ref"/>
-        <dependency status="recommended" name="pulseaudio" type="ref"/>
-        <dependency status="optional" name="git" type="ref"/>
-        <dependency status="optional" name="lxqt-l10n" type="ref"/>
+#    Required: "kf5-frameworks" 
+#    Required: "libdbusmenu-qt" 
+#    Required: "liblxqt" 
+#    Required: "lxmenu-data" 
+#    Required: "lxqt-globalkeys" 
+#    Required: "lxqt-kguiaddons" 
+#    Required: "lxqt-kguiaddons" 
+#    Required: "lxqt-solid" 
+#    Required: "menu-cache" 
+#    Recommended: "alsa-lib" 
+#    Recommended: "libstatgrab" 
+#    Recommended: "libsysstat" 
+#    Recommended: "libxkbcommon" 
+#    Recommended: "lm_sensors" 
+#    Recommended: "pulseaudio" 
+#    Optional: "git" 
+#    Optional: "lxqt-l10n" 

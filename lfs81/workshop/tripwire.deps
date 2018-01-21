@@ -1,2 +1,2 @@
-        <dependency status="recommended" name="openssl" type="ref"/>
-        <dependency status="optional" name="server-mail" type="ref"/>
+#    Recommended: "openssl" 
+#    Optional: "server-mail" 

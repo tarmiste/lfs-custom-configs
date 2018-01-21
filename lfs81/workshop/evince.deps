@@ -1,21 +1,21 @@
-        <dependency status="required" name="adwaita-icon-theme" type="ref"/>
-        <dependency status="required" name="gsettings-desktop-schemas" type="ref"/>
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="required" name="itstool" type="ref"/>
-        <dependency status="required" name="libxml2" type="ref"/>
-        <dependency status="recommended" name="gnome-keyring" type="ref"/>
-        <dependency status="recommended" name="gobject-introspection" type="ref"/>
-        <dependency status="recommended" name="libsecret" type="ref"/>
-        <dependency status="recommended" name="nautilus" type="ref"/>
-        <dependency status="recommended" name="poppler" type="ref"/>
-        <dependency status="optional" name="DjVuLibre" type="link"/>
-        <dependency status="optional" name="cups" type="ref"/>
-        <dependency status="optional" name="gnome-desktop" type="ref"/>
-        <dependency status="optional" name="gst10-plugins-base" type="ref"/>
-        <dependency status="optional" name="gtk-doc" type="ref"/>
-        <dependency status="optional" name="libgxps" type="link"/>
-        <dependency status="optional" name="libspectre" type="link"/>
-        <dependency status="optional" name="libtiff" type="ref"/>
-        <dependency status="optional" name="t1lib" type="link"/>
-        <dependency status="optional" name="texlive" type="ref"/>
-        <dependency status="optional" name="tl-installer" type="ref"/>
+#    Required: "adwaita-icon-theme" 
+#    Required: "gsettings-desktop-schemas" 
+#    Required: "gtk3" 
+#    Required: "itstool" 
+#    Required: "libxml2" 
+#    Recommended: "gnome-keyring" 
+#    Recommended: "gobject-introspection" 
+#    Recommended: "libsecret" 
+#    Recommended: "nautilus" 
+#    Recommended: "poppler" 
+#    Optional: "DjVuLibre" 
+#    Optional: "cups" 
+#    Optional: "gnome-desktop" 
+#    Optional: "gst10-plugins-base" 
+#    Optional: "gtk-doc" 
+#    Optional: "libgxps" 
+#    Optional: "libspectre" 
+#    Optional: "libtiff" 
+#    Optional: "t1lib" 
+#    Optional: "texlive" 
+#    Optional: "tl-installer" 

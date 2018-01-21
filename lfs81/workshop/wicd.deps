@@ -1,11 +1,11 @@
-        <dependency status="required" name="dbus-python" type="ref"/>
-        <dependency status="required" name="net-tools" type="ref"/>
-        <dependency status="required" name="python2" type="ref"/>
-        <dependency status="required" name="wireless_tools" type="ref"/>
-        <dependency status="recommended" name="dhcp" type="ref"/>
-        <dependency status="recommended" name="dhcpcd" type="ref"/>
-        <dependency status="recommended" name="pygtk" type="ref"/>
-        <dependency status="recommended" name="wpa_supplicant" type="ref"/>
-        <dependency status="optional" name="Babel" type="link"/>
-        <dependency status="optional" name="Urwid" type="link"/>
-        <dependency status="optional" name="pm-utils" type="ref"/>
+#    Required: "dbus-python" 
+#    Required: "net-tools" 
+#    Required: "python2" 
+#    Required: "wireless_tools" 
+#    Recommended: "dhcp" 
+#    Recommended: "dhcpcd" 
+#    Recommended: "pygtk" 
+#    Recommended: "wpa_supplicant" 
+#    Optional: "Babel" 
+#    Optional: "Urwid" 
+#    Optional: "pm-utils" 

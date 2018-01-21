@@ -1,62 +1,62 @@
-        <dependency status="recommended" name="fontconfig" type="ref"/>
-        <dependency status="recommended" name="freeglut" type="ref"/>
-        <dependency status="recommended" name="freetype2" type="ref"/>
-        <dependency status="recommended" name="gdk-pixbuf" type="ref"/>
-        <dependency status="recommended" name="libFS" type="ref"/>
-        <dependency status="recommended" name="libICE" type="ref"/>
-        <dependency status="recommended" name="libSM" type="ref"/>
-        <dependency status="recommended" name="libX11" type="ref"/>
-        <dependency status="recommended" name="libXScrnSaver" type="ref"/>
-        <dependency status="recommended" name="libXaw" type="ref"/>
-        <dependency status="recommended" name="libXcomposite" type="ref"/>
-        <dependency status="recommended" name="libXcursor" type="ref"/>
-        <dependency status="recommended" name="libXdamage" type="ref"/>
-        <dependency status="recommended" name="libXext" type="ref"/>
-        <dependency status="recommended" name="libXfixes" type="ref"/>
-        <dependency status="recommended" name="libXfont2" type="ref"/>
-        <dependency status="recommended" name="libXft" type="ref"/>
-        <dependency status="recommended" name="libXi" type="ref"/>
-        <dependency status="recommended" name="libXinerama" type="ref"/>
-        <dependency status="recommended" name="libXmu" type="ref"/>
-        <dependency status="recommended" name="libXpm" type="ref"/>
-        <dependency status="recommended" name="libXrandr" type="ref"/>
-        <dependency status="recommended" name="libXrender" type="ref"/>
-        <dependency status="recommended" name="libXres" type="ref"/>
-        <dependency status="recommended" name="libXt" type="ref"/>
-        <dependency status="recommended" name="libXtst" type="ref"/>
-        <dependency status="recommended" name="libXv" type="ref"/>
-        <dependency status="recommended" name="libXvMC" type="ref"/>
-        <dependency status="recommended" name="libXxf86dga" type="ref"/>
-        <dependency status="recommended" name="libXxf86vm" type="ref"/>
-        <dependency status="recommended" name="libdmx" type="ref"/>
-        <dependency status="recommended" name="libfontenc" type="ref"/>
-        <dependency status="recommended" name="libjpeg" type="ref"/>
-        <dependency status="recommended" name="libpciaccess" type="ref"/>
-        <dependency status="recommended" name="libpng" type="ref"/>
-        <dependency status="recommended" name="librsvg" type="ref"/>
-        <dependency status="recommended" name="libxkbfile" type="ref"/>
-        <dependency status="recommended" name="libxshmfence" type="ref"/>
-        <dependency status="recommended" name="pango" type="ref"/>
-        <dependency status="recommended" name="xtrans" type="ref"/>
-        <dependency status="optional" name="DevIL" type="link"/>
-        <dependency status="optional" name="Electric-Fence" type="link"/>
-        <dependency status="optional" name="GD-Library" type="link"/>
-        <dependency status="optional" name="Io" type="link"/>
-        <dependency status="optional" name="Mono" type="link"/>
-        <dependency status="optional" name="OCaml" type="link"/>
-        <dependency status="optional" name="R" type="link"/>
-        <dependency status="optional" name="glitz" type="link"/>
-        <dependency status="optional" name="gs" type="ref"/>
-        <dependency status="optional" name="gtk2" type="ref"/>
-        <dependency status="optional" name="guile" type="ref"/>
-        <dependency status="optional" name="libLASi" type="link"/>
-        <dependency status="optional" name="libglade" type="ref"/>
-        <dependency status="optional" name="lua" type="ref"/>
-        <dependency status="optional" name="openjdk" type="ref"/>
-        <dependency status="optional" name="php" type="ref"/>
-        <dependency status="optional" name="python2" type="ref"/>
-        <dependency status="optional" name="qt5" type="ref"/>
-        <dependency status="optional" name="ruby" type="ref"/>
-        <dependency status="optional" name="swig" type="ref"/>
-        <dependency status="optional" name="tcl" type="ref"/>
-        <dependency status="optional" name="tk" type="ref"/>
+#    Recommended: "fontconfig" 
+#    Recommended: "freeglut" 
+#    Recommended: "freetype2" 
+#    Recommended: "gdk-pixbuf" 
+#    Recommended: "libFS" 
+#    Recommended: "libICE" 
+#    Recommended: "libSM" 
+#    Recommended: "libX11" 
+#    Recommended: "libXScrnSaver" 
+#    Recommended: "libXaw" 
+#    Recommended: "libXcomposite" 
+#    Recommended: "libXcursor" 
+#    Recommended: "libXdamage" 
+#    Recommended: "libXext" 
+#    Recommended: "libXfixes" 
+#    Recommended: "libXfont2" 
+#    Recommended: "libXft" 
+#    Recommended: "libXi" 
+#    Recommended: "libXinerama" 
+#    Recommended: "libXmu" 
+#    Recommended: "libXpm" 
+#    Recommended: "libXrandr" 
+#    Recommended: "libXrender" 
+#    Recommended: "libXres" 
+#    Recommended: "libXt" 
+#    Recommended: "libXtst" 
+#    Recommended: "libXv" 
+#    Recommended: "libXvMC" 
+#    Recommended: "libXxf86dga" 
+#    Recommended: "libXxf86vm" 
+#    Recommended: "libdmx" 
+#    Recommended: "libfontenc" 
+#    Recommended: "libjpeg" 
+#    Recommended: "libpciaccess" 
+#    Recommended: "libpng" 
+#    Recommended: "librsvg" 
+#    Recommended: "libxkbfile" 
+#    Recommended: "libxshmfence" 
+#    Recommended: "pango" 
+#    Recommended: "xtrans" 
+#    Optional: "DevIL" 
+#    Optional: "Electric-Fence" 
+#    Optional: "GD-Library" 
+#    Optional: "Io" 
+#    Optional: "Mono" 
+#    Optional: "OCaml" 
+#    Optional: "R" 
+#    Optional: "glitz" 
+#    Optional: "gs" 
+#    Optional: "gtk2" 
+#    Optional: "guile" 
+#    Optional: "libLASi" 
+#    Optional: "libglade" 
+#    Optional: "lua" 
+#    Optional: "openjdk" 
+#    Optional: "php" 
+#    Optional: "python2" 
+#    Optional: "qt5" 
+#    Optional: "ruby" 
+#    Optional: "swig" 
+#    Optional: "tcl" 
+#    Optional: "tk" 

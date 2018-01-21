@@ -1,22 +1,22 @@
-        <dependency status="required" name="cmake" type="ref"/>
-        <dependency status="required" name="openssl" type="ref"/>
-        <dependency status="recommended" name="libevent" type="ref"/>
-        <dependency status="optional" name="Groonga" type="link"/>
-        <dependency status="optional" name="Judy" type="link"/>
-        <dependency status="optional" name="KyTea" type="link"/>
-        <dependency status="optional" name="MeCab" type="link"/>
-        <dependency status="optional" name="MessagePack" type="link"/>
-        <dependency status="optional" name="Sphinx" type="link"/>
-        <dependency status="optional" name="TokuDB" type="link"/>
-        <dependency status="optional" name="ZeroMQ" type="link"/>
-        <dependency status="optional" name="boost" type="ref"/>
-        <dependency status="optional" name="libaio" type="link"/>
-        <dependency status="optional" name="libxml2" type="ref"/>
-        <dependency status="optional" name="linux-pam" type="ref"/>
-        <dependency status="optional" name="lz4" type="link"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
-        <dependency status="optional" name="mruby" type="link"/>
-        <dependency status="optional" name="pcre" type="ref"/>
-        <dependency status="optional" name="ruby" type="ref"/>
-        <dependency status="optional" name="unixodbc" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Required: "cmake" 
+#    Required: "openssl" 
+#    Recommended: "libevent" 
+#    Optional: "Groonga" 
+#    Optional: "Judy" 
+#    Optional: "KyTea" 
+#    Optional: "MeCab" 
+#    Optional: "MessagePack" 
+#    Optional: "Sphinx" 
+#    Optional: "TokuDB" 
+#    Optional: "ZeroMQ" 
+#    Optional: "boost" 
+#    Optional: "libaio" 
+#    Optional: "libxml2" 
+#    Optional: "linux-pam" 
+#    Optional: "lz4" 
+#    Optional: "mitkrb" 
+#    Optional: "mruby" 
+#    Optional: "pcre" 
+#    Optional: "ruby" 
+#    Optional: "unixodbc" 
+#    Optional: "valgrind" 

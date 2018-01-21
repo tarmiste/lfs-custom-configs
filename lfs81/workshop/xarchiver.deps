@@ -1,8 +1,8 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="optional" name="cpio" type="ref"/>
-        <dependency status="optional" name="lzo" type="ref"/>
-        <dependency status="optional" name="p7zip" type="ref"/>
-        <dependency status="optional" name="unrar" type="ref"/>
-        <dependency status="optional" name="unzip" type="ref"/>
-        <dependency status="optional" name="zip" type="ref"/>
+#    Required: "gtk2" 
+#    Required: "gtk3" 
+#    Optional: "cpio" 
+#    Optional: "lzo" 
+#    Optional: "p7zip" 
+#    Optional: "unrar" 
+#    Optional: "unzip" 
+#    Optional: "zip" 

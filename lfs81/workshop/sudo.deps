@@ -1,7 +1,7 @@
-        <dependency status="optional" name="AFS" type="link"/>
-        <dependency status="optional" name="FWTK" type="link"/>
-        <dependency status="optional" name="Opie" type="link"/>
-        <dependency status="optional" name="linux-pam" type="ref"/>
-        <dependency status="optional" name="mitkrb" type="ref"/>
-        <dependency status="optional" name="openldap" type="ref"/>
-        <dependency status="optional" name="server-mail" type="ref"/>
+#    Optional: "AFS" 
+#    Optional: "FWTK" 
+#    Optional: "Opie" 
+#    Optional: "linux-pam" 
+#    Optional: "mitkrb" 
+#    Optional: "openldap" 
+#    Optional: "server-mail" 

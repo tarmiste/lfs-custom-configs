@@ -1,4 +1,4 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="gtk3" type="ref"/>
-        <dependency status="required" name="hicolor-icon-theme" type="ref"/>
-        <dependency status="required" name="icon-naming-utils" type="ref"/>
+#    Required: "gtk2" 
+#    Required: "gtk3" 
+#    Required: "hicolor-icon-theme" 
+#    Required: "icon-naming-utils" 

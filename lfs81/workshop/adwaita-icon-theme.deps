@@ -1,6 +1,6 @@
-        <dependency status="optional" name="Icon-Tools" type="link"/>
-        <dependency status="optional" name="git" type="ref"/>
-        <dependency status="optional" name="gtk2" type="ref"/>
-        <dependency status="optional" name="gtk3" type="ref"/>
-        <dependency status="optional" name="inkscape" type="ref"/>
-        <dependency status="optional" name="librsvg" type="ref"/>
+#    Optional: "Icon-Tools" 
+#    Optional: "git" 
+#    Optional: "gtk2" 
+#    Optional: "gtk3" 
+#    Optional: "inkscape" 
+#    Optional: "librsvg" 

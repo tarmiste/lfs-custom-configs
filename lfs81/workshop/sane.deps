@@ -1,14 +1,14 @@
-        <dependency status="optional" name="Net-SNMP" type="link"/>
-        <dependency status="optional" name="avahi" type="ref"/>
-        <dependency status="optional" name="cups" type="ref"/>
-        <dependency status="optional" name="gimp" type="ref"/>
-        <dependency status="optional" name="gtk2" type="ref"/>
-        <dependency status="optional" name="libgphoto2" type="link"/>
-        <dependency status="optional" name="libieee1284" type="link"/>
-        <dependency status="optional" name="libjpeg" type="ref"/>
-        <dependency status="optional" name="libtiff" type="ref"/>
-        <dependency status="optional" name="libusb" type="ref"/>
-        <dependency status="optional" name="texlive" type="ref"/>
-        <dependency status="optional" name="tl-installer" type="ref"/>
-        <dependency status="optional" name="v4l-utils" type="ref"/>
-        <dependency status="optional" name="x-window-system" type="ref"/>
+#    Optional: "Net-SNMP" 
+#    Optional: "avahi" 
+#    Optional: "cups" 
+#    Optional: "gimp" 
+#    Optional: "gtk2" 
+#    Optional: "libgphoto2" 
+#    Optional: "libieee1284" 
+#    Optional: "libjpeg" 
+#    Optional: "libtiff" 
+#    Optional: "libusb" 
+#    Optional: "texlive" 
+#    Optional: "tl-installer" 
+#    Optional: "v4l-utils" 
+#    Optional: "x-window-system" 

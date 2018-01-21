@@ -1,3 +1,3 @@
-        <dependency status="required" name="extra-cmake-modules" type="ref"/>
-        <dependency status="required" name="qt5" type="ref"/>
-        <dependency status="optional" name="kf5-frameworks" type="ref"/>
+#    Required: "extra-cmake-modules" 
+#    Required: "qt5" 
+#    Optional: "kf5-frameworks" 

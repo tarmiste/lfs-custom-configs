@@ -1,4 +1,4 @@
-        <dependency status="required" name="python2" type="ref"/>
-        <dependency status="optional" name="docbook-xsl" type="ref"/>
-        <dependency status="optional" name="libxml2" type="ref"/>
-        <dependency status="optional" name="libxslt" type="ref"/>
+#    Required: "python2" 
+#    Optional: "docbook-xsl" 
+#    Optional: "libxml2" 
+#    Optional: "libxslt" 

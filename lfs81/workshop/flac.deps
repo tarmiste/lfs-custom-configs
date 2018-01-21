@@ -1,5 +1,5 @@
-        <dependency status="optional" name="docbook-utils" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
-        <dependency status="optional" name="libogg" type="ref"/>
-        <dependency status="optional" name="nasm" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Optional: "docbook-utils" 
+#    Optional: "doxygen" 
+#    Optional: "libogg" 
+#    Optional: "nasm" 
+#    Optional: "valgrind" 

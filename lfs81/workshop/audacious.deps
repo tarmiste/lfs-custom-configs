@@ -1,32 +1,32 @@
-        <dependency status="required" name="gtk2" type="ref"/>
-        <dependency status="required" name="libxml2" type="ref"/>
-        <dependency status="required" name="qt5" type="ref"/>
-        <dependency status="required" name="x-window-system" type="ref"/>
-        <dependency status="required" name="xorg-env" type="ref"/>
-        <dependency status="recommended" name="mpg123" type="ref"/>
-        <dependency status="optional" name="FluidSynth" type="link"/>
-        <dependency status="optional" name="JACK" type="link"/>
-        <dependency status="optional" name="LIRC" type="link"/>
-        <dependency status="optional" name="The-Bauer-stereophonic-to-binaural-DSP-(bs2b)-library" type="link"/>
-        <dependency status="optional" name="WavPack" type="link"/>
-        <dependency status="optional" name="alsa" type="ref"/>
-        <dependency status="optional" name="curl" type="ref"/>
-        <dependency status="optional" name="dbus" type="ref"/>
-        <dependency status="optional" name="faad2" type="ref"/>
-        <dependency status="optional" name="ffmpeg" type="ref"/>
-        <dependency status="optional" name="flac" type="ref"/>
-        <dependency status="optional" name="gnome-icon-theme" type="ref"/>
-        <dependency status="optional" name="lame" type="ref"/>
-        <dependency status="optional" name="libcdio" type="ref"/>
-        <dependency status="optional" name="libcue" type="link"/>
-        <dependency status="optional" name="libmms" type="link"/>
-        <dependency status="optional" name="libmodplug" type="link"/>
-        <dependency status="optional" name="libnotify" type="ref"/>
-        <dependency status="optional" name="libsamplerate" type="ref"/>
-        <dependency status="optional" name="libsamplerate" type="ref"/>
-        <dependency status="optional" name="libsndfile" type="ref"/>
-        <dependency status="optional" name="libvorbis" type="ref"/>
-        <dependency status="optional" name="neon" type="ref"/>
-        <dependency status="optional" name="pulseaudio" type="ref"/>
-        <dependency status="optional" name="sdl" type="ref"/>
-        <dependency status="optional" name="valgrind" type="ref"/>
+#    Required: "gtk2" 
+#    Required: "libxml2" 
+#    Required: "qt5" 
+#    Required: "x-window-system" 
+#    Required: "xorg-env" 
+#    Recommended: "mpg123" 
+#    Optional: "FluidSynth" 
+#    Optional: "JACK" 
+#    Optional: "LIRC" 
+#    Optional: "The-Bauer-stereophonic-to-binaural-DSP-(bs2b)-library" 
+#    Optional: "WavPack" 
+#    Optional: "alsa" 
+#    Optional: "curl" 
+#    Optional: "dbus" 
+#    Optional: "faad2" 
+#    Optional: "ffmpeg" 
+#    Optional: "flac" 
+#    Optional: "gnome-icon-theme" 
+#    Optional: "lame" 
+#    Optional: "libcdio" 
+#    Optional: "libcue" 
+#    Optional: "libmms" 
+#    Optional: "libmodplug" 
+#    Optional: "libnotify" 
+#    Optional: "libsamplerate" 
+#    Optional: "libsamplerate" 
+#    Optional: "libsndfile" 
+#    Optional: "libvorbis" 
+#    Optional: "neon" 
+#    Optional: "pulseaudio" 
+#    Optional: "sdl" 
+#    Optional: "valgrind" 

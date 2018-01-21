@@ -1,2 +1,2 @@
-        <dependency status="required" name="libxcb" type="ref"/>
-        <dependency status="optional" name="doxygen" type="ref"/>
+#    Required: "libxcb" 
+#    Optional: "doxygen" 
