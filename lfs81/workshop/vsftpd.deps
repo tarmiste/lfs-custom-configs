@@ -1,0 +1,2 @@
+        <dependency status="optional" name="libcap-pam" type="ref"/>
+        <dependency status="optional" name="linux-pam" type="ref"/>

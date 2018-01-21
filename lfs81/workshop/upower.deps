@@ -1,0 +1,10 @@
+        <dependency status="required" name="dbus-glib" type="ref"/>
+        <dependency status="required" name="libgudev" type="ref"/>
+        <dependency status="required" name="libusb" type="ref"/>
+        <dependency status="required" name="polkit" type="ref"/>
+        <dependency status="optional" name="gobject-introspection" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>
+        <dependency status="optional" name="pygobject3" type="ref"/>
+        <dependency status="optional" name="python-dbusmock" type="link"/>
+        <dependency status="optional" name="python3" type="ref"/>
+        <dependency status="optional" name="umockdev" type="link"/>

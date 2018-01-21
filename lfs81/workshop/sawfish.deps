@@ -1,0 +1,2 @@
+        <dependency status="required" name="rep-gtk" type="ref"/>
+        <dependency status="required" name="which" type="ref"/>

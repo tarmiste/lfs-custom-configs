@@ -1,0 +1,7 @@
+        <dependency status="required" name="rpcsvc-proto" type="ref"/>
+        <dependency status="optional" name="cyrus-sasl" type="ref"/>
+        <dependency status="optional" name="libtirpc" type="ref"/>
+        <dependency status="optional" name="libxml2" type="ref"/>
+        <dependency status="optional" name="mitkrb" type="ref"/>
+        <dependency status="optional" name="nfs-utils" type="ref"/>
+        <dependency status="optional" name="openldap" type="ref"/>

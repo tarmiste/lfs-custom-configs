@@ -1,0 +1,6 @@
+        <dependency status="recommended" name="libffi" type="ref"/>
+        <dependency status="optional" name="bluez" type="ref"/>
+        <dependency status="optional" name="openssl" type="ref"/>
+        <dependency status="optional" name="sqlite" type="ref"/>
+        <dependency status="optional" name="tk" type="ref"/>
+        <dependency status="optional" name="valgrind" type="ref"/>

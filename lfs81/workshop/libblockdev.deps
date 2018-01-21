@@ -1,0 +1,14 @@
+        <dependency status="required" name="gobject-introspection" type="ref"/>
+        <dependency status="required" name="libbytesize" type="ref"/>
+        <dependency status="required" name="lvm2" type="ref"/>
+        <dependency status="required" name="volume_key" type="ref"/>
+        <dependency status="recommended" name="cryptsetup" type="ref"/>
+        <dependency status="recommended" name="nss" type="ref"/>
+        <dependency status="recommended" name="python3" type="ref"/>
+        <dependency status="optional" name="bcachefs" type="link"/>
+        <dependency status="optional" name="btrfs-progs" type="ref"/>
+        <dependency status="optional" name="dmraid" type="link"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>
+        <dependency status="optional" name="mdadm" type="ref"/>
+        <dependency status="optional" name="parted" type="ref"/>
+        <dependency status="optional" name="python2" type="ref"/>

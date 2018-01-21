@@ -1,0 +1,11 @@
+        <dependency status="required" name="boost" type="ref"/>
+        <dependency status="required" name="gnome-icon-theme" type="ref"/>
+        <dependency status="required" name="gtk2" type="ref"/>
+        <dependency status="required" name="opal" type="ref"/>
+        <dependency status="recommended" name="GConf" type="ref"/>
+        <dependency status="recommended" name="dbus-glib" type="ref"/>
+        <dependency status="recommended" name="libnotify" type="ref"/>
+        <dependency status="optional" name="Evolution-Data-Server" type="link"/>
+        <dependency status="optional" name="GNOME-Doc-Utils" type="link"/>
+        <dependency status="optional" name="avahi" type="ref"/>
+        <dependency status="optional" name="openldap" type="ref"/>

@@ -1,0 +1,16 @@
+        <dependency status="required" name="pcre" type="ref"/>
+        <dependency status="recommended" name="openssl" type="ref"/>
+        <dependency status="optional" name="Heimdal-GSSAPI" type="link"/>
+        <dependency status="optional" name="MySQL" type="link"/>
+        <dependency status="optional" name="OpenDMARC" type="link"/>
+        <dependency status="optional" name="TDB" type="link"/>
+        <dependency status="optional" name="cyrus-sasl" type="ref"/>
+        <dependency status="optional" name="db" type="ref"/>
+        <dependency status="optional" name="gnutls" type="ref"/>
+        <dependency status="optional" name="libidn" type="ref"/>
+        <dependency status="optional" name="linux-pam" type="ref"/>
+        <dependency status="optional" name="mariadb" type="ref"/>
+        <dependency status="optional" name="openldap" type="ref"/>
+        <dependency status="optional" name="postgresql" type="ref"/>
+        <dependency status="optional" name="sqlite" type="ref"/>
+        <dependency status="optional" name="x-window-system" type="ref"/>

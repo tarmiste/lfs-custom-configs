@@ -1,0 +1,6 @@
+        <dependency status="required" name="exo" type="ref"/>
+        <dependency status="required" name="garcon" type="ref"/>
+        <dependency status="required" name="libwnck2" type="ref"/>
+        <dependency status="required" name="libwnck2" type="ref"/>
+        <dependency status="required" name="libxfce4ui" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>

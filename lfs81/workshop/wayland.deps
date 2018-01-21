@@ -1,0 +1,8 @@
+        <dependency status="required" name="libffi" type="ref"/>
+        <dependency status="required" name="libxml2" type="ref"/>
+        <dependency status="optional" name="DocBook" type="ref"/>
+        <dependency status="optional" name="docbook-xsl" type="ref"/>
+        <dependency status="optional" name="doxygen" type="ref"/>
+        <dependency status="optional" name="graphviz" type="ref"/>
+        <dependency status="optional" name="libxslt" type="ref"/>
+        <dependency status="optional" name="xmlto" type="ref"/>

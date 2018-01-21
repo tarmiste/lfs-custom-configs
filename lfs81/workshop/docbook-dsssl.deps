@@ -1,0 +1,5 @@
+        <dependency status="required" name="openjade" type="ref"/>
+        <dependency status="required" name="opensp" type="ref"/>
+        <dependency status="required" name="sgml-common" type="ref"/>
+        <dependency status="required" name="sgml-dtd" type="ref"/>
+        <dependency status="required" name="sgml-dtd-3" type="ref"/>

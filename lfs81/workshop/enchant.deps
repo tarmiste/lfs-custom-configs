@@ -1,0 +1,6 @@
+        <dependency status="required" name="glib2" type="ref"/>
+        <dependency status="recommended" name="aspell" type="ref"/>
+        <dependency status="optional" name="Hspell" type="link"/>
+        <dependency status="optional" name="Hunspell" type="link"/>
+        <dependency status="optional" name="Voikko" type="link"/>
+        <dependency status="optional" name="dbus-glib" type="ref"/>

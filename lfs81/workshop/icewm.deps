@@ -1,0 +1,5 @@
+        <dependency status="required" name="gdk-pixbuf" type="ref"/>
+        <dependency status="required" name="x-window-system" type="ref"/>
+        <dependency status="optional" name="alsa-lib" type="ref"/>
+        <dependency status="optional" name="fribidi" type="ref"/>
+        <dependency status="optional" name="libsndfile" type="ref"/>

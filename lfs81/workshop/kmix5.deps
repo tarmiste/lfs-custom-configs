@@ -1,0 +1,4 @@
+        <dependency status="required" name="kf5-frameworks" type="ref"/>
+        <dependency status="recommended" name="alsa-lib" type="ref"/>
+        <dependency status="optional" name="libcanberra" type="ref"/>
+        <dependency status="optional" name="pulseaudio" type="ref"/>

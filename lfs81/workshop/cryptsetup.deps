@@ -1,0 +1,10 @@
+        <dependency status="required" name="libgcrypt" type="ref"/>
+        <dependency status="required" name="lvm2" type="ref"/>
+        <dependency status="required" name="nettle" type="ref"/>
+        <dependency status="required" name="nss" type="ref"/>
+        <dependency status="required" name="openssl" type="ref"/>
+        <dependency status="required" name="popt" type="ref"/>
+        <dependency status="optional" name="libpwquality" type="ref"/>
+        <dependency status="optional" name="lvm2" type="ref"/>
+        <dependency status="optional" name="passwdqc" type="link"/>
+        <dependency status="optional" name="python2" type="ref"/>

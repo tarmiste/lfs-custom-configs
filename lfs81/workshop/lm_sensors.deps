@@ -1,0 +1,3 @@
+        <dependency status="optional" name="RRDtool-(required-to-build-the" type="link"/>
+        <dependency status="required" name="which" type="ref"/>
+        <dependency status="optional" name="RRDtool-(required-to-build-the" type="link"/>

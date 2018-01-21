@@ -1,0 +1,6 @@
+        <dependency status="required" name="libvorbis" type="ref"/>
+        <dependency status="optional" name="curl" type="ref"/>
+        <dependency status="optional" name="flac" type="ref"/>
+        <dependency status="optional" name="libao" type="ref"/>
+        <dependency status="optional" name="libkate" type="link"/>
+        <dependency status="optional" name="speex" type="ref"/>

@@ -1,0 +1,7 @@
+        <dependency status="required" name="libfm-qt" type="ref"/>
+        <dependency status="required" name="liblxqt" type="ref"/>
+        <dependency status="required" name="lxmenu-data" type="ref"/>
+        <dependency status="required" name="lxqt-runner" type="ref"/>
+        <dependency status="recommended" name="oxygen-icons5" type="ref"/>
+        <dependency status="optional" name="git" type="ref"/>
+        <dependency status="optional" name="lxqt-l10n" type="ref"/>

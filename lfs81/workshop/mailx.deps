@@ -1,0 +1,4 @@
+        <dependency status="optional" name="mitkrb" type="ref"/>
+        <dependency status="optional" name="nss" type="ref"/>
+        <dependency status="optional" name="openssl10" type="ref"/>
+        <dependency status="optional" name="server-mail" type="ref"/>

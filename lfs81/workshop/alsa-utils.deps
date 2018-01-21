@@ -1,0 +1,5 @@
+        <dependency status="required" name="alsa-lib" type="ref"/>
+        <dependency status="optional" name="Dialog" type="link"/>
+        <dependency status="optional" name="fftw" type="ref"/>
+        <dependency status="optional" name="libsamplerate" type="ref"/>
+        <dependency status="optional" name="xmlto" type="ref"/>

@@ -1,0 +1,5 @@
+        <dependency status="required" name="gc" type="ref"/>
+        <dependency status="required" name="libffi" type="ref"/>
+        <dependency status="required" name="libunistring" type="ref"/>
+        <dependency status="optional" name="emacs" type="ref"/>
+        <dependency status="optional" name="gdb" type="ref"/>

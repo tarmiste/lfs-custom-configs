@@ -1,0 +1,11 @@
+        <dependency status="required" name="adwaita-icon-theme" type="ref"/>
+        <dependency status="required" name="gnome-desktop" type="ref"/>
+        <dependency status="required" name="itstool" type="ref"/>
+        <dependency status="required" name="libpeas" type="ref"/>
+        <dependency status="required" name="shared-mime-info" type="ref"/>
+        <dependency status="recommended" name="gobject-introspection" type="ref"/>
+        <dependency status="recommended" name="librsvg" type="ref"/>
+        <dependency status="optional" name="exempi" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>
+        <dependency status="optional" name="lcms2" type="ref"/>
+        <dependency status="optional" name="libexif" type="ref"/>

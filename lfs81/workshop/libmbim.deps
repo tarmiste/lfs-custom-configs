@@ -1,0 +1,2 @@
+        <dependency status="required" name="libgudev" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>

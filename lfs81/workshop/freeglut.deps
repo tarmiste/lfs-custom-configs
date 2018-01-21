@@ -1,0 +1,3 @@
+        <dependency status="required" name="cmake" type="ref"/>
+        <dependency status="required" name="mesa" type="ref"/>
+        <dependency status="recommended" name="glu" type="ref"/>

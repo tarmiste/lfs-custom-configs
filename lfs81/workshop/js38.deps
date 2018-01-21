@@ -1,0 +1,7 @@
+        <dependency status="required" name="autoconf213" type="ref"/>
+        <dependency status="required" name="icu" type="ref"/>
+        <dependency status="required" name="libffi" type="ref"/>
+        <dependency status="required" name="nspr" type="ref"/>
+        <dependency status="required" name="python2" type="ref"/>
+        <dependency status="required" name="zip" type="ref"/>
+        <dependency status="optional" name="doxygen" type="ref"/>

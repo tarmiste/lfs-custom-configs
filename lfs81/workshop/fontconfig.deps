@@ -1,0 +1,5 @@
+        <dependency status="required" name="freetype2" type="ref"/>
+        <dependency status="optional" name="docbook-utils" type="ref"/>
+        <dependency status="optional" name="libxml2" type="ref"/>
+        <dependency status="optional" name="texlive" type="ref"/>
+        <dependency status="optional" name="tl-installer" type="ref"/>

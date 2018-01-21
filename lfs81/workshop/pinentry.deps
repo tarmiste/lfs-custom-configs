@@ -1,0 +1,8 @@
+        <dependency status="required" name="libassuan" type="ref"/>
+        <dependency status="required" name="libgpg-error" type="ref"/>
+        <dependency status="optional" name="emacs" type="ref"/>
+        <dependency status="optional" name="gcr" type="ref"/>
+        <dependency status="optional" name="gtk2" type="ref"/>
+        <dependency status="optional" name="gtk3" type="ref"/>
+        <dependency status="optional" name="libsecret" type="ref"/>
+        <dependency status="optional" name="qt5" type="ref"/>

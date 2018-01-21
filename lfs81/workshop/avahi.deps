@@ -1,0 +1,8 @@
+        <dependency status="required" name="glib2" type="ref"/>
+        <dependency status="recommended" name="gobject-introspection" type="ref"/>
+        <dependency status="recommended" name="gtk2" type="ref"/>
+        <dependency status="recommended" name="gtk3" type="ref"/>
+        <dependency status="recommended" name="libdaemon" type="ref"/>
+        <dependency status="recommended" name="libglade" type="ref"/>
+        <dependency status="optional" name="dbus-python" type="ref"/>
+        <dependency status="optional" name="pygtk" type="ref"/>

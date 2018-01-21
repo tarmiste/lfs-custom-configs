@@ -1,0 +1,5 @@
+        <dependency status="recommended" name="jasper" type="ref"/>
+        <dependency status="recommended" name="lcms2" type="ref"/>
+        <dependency status="recommended" name="libjpeg" type="ref"/>
+        <dependency status="optional" name="LibRaw-demosaic-pack-GPL2" type="link"/>
+        <dependency status="optional" name="LibRaw-demosaic-pack-GPL3" type="link"/>

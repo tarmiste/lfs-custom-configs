@@ -1,0 +1,4 @@
+        <dependency status="required" name="gst10-plugins-bad" type="ref"/>
+        <dependency status="required" name="gst10-plugins-base" type="ref"/>
+        <dependency status="required" name="gstreamer10" type="ref"/>
+        <dependency status="required" name="libva" type="ref"/>

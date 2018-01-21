@@ -1,0 +1,10 @@
+        <dependency status="required" name="gnome-autoar" type="ref"/>
+        <dependency status="required" name="gnome-desktop" type="ref"/>
+        <dependency status="required" name="libnotify" type="ref"/>
+        <dependency status="recommended" name="adwaita-icon-theme" type="ref"/>
+        <dependency status="recommended" name="exempi" type="ref"/>
+        <dependency status="recommended" name="gobject-introspection" type="ref"/>
+        <dependency status="recommended" name="gvfs" type="ref"/>
+        <dependency status="recommended" name="libexif" type="ref"/>
+        <dependency status="optional" name="Tracker" type="link"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>

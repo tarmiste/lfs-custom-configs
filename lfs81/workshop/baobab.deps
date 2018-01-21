@@ -1,0 +1,4 @@
+        <dependency status="required" name="adwaita-icon-theme" type="ref"/>
+        <dependency status="required" name="gtk3" type="ref"/>
+        <dependency status="required" name="itstool" type="ref"/>
+        <dependency status="required" name="vala" type="ref"/>

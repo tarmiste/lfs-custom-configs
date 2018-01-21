@@ -1,0 +1,9 @@
+        <dependency status="required" name="glib2" type="ref"/>
+        <dependency status="required" name="pcre" type="ref"/>
+        <dependency status="recommended" name="slang" type="ref"/>
+        <dependency status="optional" name="doxygen" type="ref"/>
+        <dependency status="optional" name="gpm" type="ref"/>
+        <dependency status="optional" name="samba" type="ref"/>
+        <dependency status="optional" name="unzip" type="ref"/>
+        <dependency status="optional" name="x-window-system" type="ref"/>
+        <dependency status="optional" name="zip" type="ref"/>

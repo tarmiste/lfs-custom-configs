@@ -1,0 +1,6 @@
+        <dependency status="required" name="gtkmm2" type="ref"/>
+        <dependency status="required" name="parted" type="ref"/>
+        <dependency status="optional" name="GNOME-Doc-Utils" type="link"/>
+        <dependency status="optional" name="btrfs-progs" type="ref"/>
+        <dependency status="optional" name="rarian" type="ref"/>
+        <dependency status="optional" name="udftools" type="link"/>

@@ -1,0 +1,3 @@
+        <dependency status="optional" name="Oniguruma" type="link"/>
+        <dependency status="optional" name="libpng" type="ref"/>
+        <dependency status="optional" name="pcre" type="ref"/>

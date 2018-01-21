@@ -1,0 +1,5 @@
+        <dependency status="required" name="libxfce4ui" type="ref"/>
+        <dependency status="required" name="libxfce4ui" type="ref"/>
+        <dependency status="required" name="libxfce4util" type="ref"/>
+        <dependency status="required" name="perl-uri" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>

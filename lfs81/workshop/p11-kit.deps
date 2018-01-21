@@ -1,0 +1,6 @@
+        <dependency status="recommended" name="cacerts" type="ref"/>
+        <dependency status="recommended" name="libffi" type="ref"/>
+        <dependency status="recommended" name="libtasn1" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>
+        <dependency status="optional" name="libxslt" type="ref"/>
+        <dependency status="optional" name="nss" type="ref"/>

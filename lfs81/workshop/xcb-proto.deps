@@ -1,0 +1,4 @@
+        <dependency status="required" name="python2" type="ref"/>
+        <dependency status="required" name="python3" type="ref"/>
+        <dependency status="required" name="xorg-env" type="ref"/>
+        <dependency status="optional" name="libxml2" type="ref"/>

@@ -1,0 +1,2 @@
+        <dependency status="required" name="libxfce4ui" type="ref"/>
+        <dependency status="required" name="vte" type="ref"/>

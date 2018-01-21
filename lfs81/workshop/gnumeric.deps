@@ -1,0 +1,11 @@
+        <dependency status="required" name="goffice010" type="ref"/>
+        <dependency status="required" name="rarian" type="ref"/>
+        <dependency status="optional" name="Mono" type="link"/>
+        <dependency status="optional" name="Psiconv" type="link"/>
+        <dependency status="optional" name="dblatex-(for-PDF-docs)" type="link"/>
+        <dependency status="optional" name="dconf" type="ref"/>
+        <dependency status="optional" name="gobject-introspection" type="ref"/>
+        <dependency status="optional" name="libgda" type="link"/>
+        <dependency status="optional" name="pxlib" type="link"/>
+        <dependency status="optional" name="pygobject3" type="ref"/>
+        <dependency status="optional" name="valgrind" type="ref"/>

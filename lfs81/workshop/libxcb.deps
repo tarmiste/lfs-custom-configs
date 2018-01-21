@@ -1,0 +1,6 @@
+        <dependency status="required" name="libXau" type="ref"/>
+        <dependency status="required" name="xcb-proto" type="ref"/>
+        <dependency status="recommended" name="libXdmcp" type="ref"/>
+        <dependency status="optional" name="check" type="ref"/>
+        <dependency status="optional" name="doxygen" type="ref"/>
+        <dependency status="optional" name="libxslt" type="ref"/>

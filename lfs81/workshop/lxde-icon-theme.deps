@@ -1,0 +1,2 @@
+        <dependency status="optional" name="gtk2" type="ref"/>
+        <dependency status="optional" name="gtk3" type="ref"/>

@@ -1,0 +1,7 @@
+        <dependency status="required" name="exo" type="ref"/>
+        <dependency status="required" name="libwnck2" type="ref"/>
+        <dependency status="required" name="libxfce4ui" type="ref"/>
+        <dependency status="required" name="xfce4-settings" type="ref"/>
+        <dependency status="recommended" name="libnotify" type="ref"/>
+        <dependency status="recommended" name="startup-notification" type="ref"/>
+        <dependency status="recommended" name="thunar" type="ref"/>

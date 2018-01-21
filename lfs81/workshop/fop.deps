@@ -1,0 +1,6 @@
+        <dependency status="required" name="apache-ant" type="ref"/>
+        <dependency status="optional" name="JAI-Image-I/O-Tools" type="link"/>
+        <dependency status="optional" name="JEuclid" type="link"/>
+        <dependency status="optional" name="Maven" type="link"/>
+        <dependency status="optional" name="junit" type="ref"/>
+        <dependency status="optional" name="x-window-system" type="ref"/>

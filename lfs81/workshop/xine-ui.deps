@@ -1,0 +1,6 @@
+        <dependency status="required" name="shared-mime-info" type="ref"/>
+        <dependency status="required" name="xine-lib" type="ref"/>
+        <dependency status="optional" name="LIRC" type="link"/>
+        <dependency status="optional" name="aalib" type="ref"/>
+        <dependency status="optional" name="curl" type="ref"/>
+        <dependency status="optional" name="libcaca" type="link"/>

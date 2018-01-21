@@ -1,0 +1,5 @@
+        <dependency status="recommended" name="which" type="ref"/>
+        <dependency status="optional" name="Open-MPI" type="link"/>
+        <dependency status="optional" name="icu" type="ref"/>
+        <dependency status="optional" name="python2" type="ref"/>
+        <dependency status="optional" name="python3" type="ref"/>

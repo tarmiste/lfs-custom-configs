@@ -1,0 +1,4 @@
+        <dependency status="recommended" name="lame" type="ref"/>
+        <dependency status="recommended" name="libao" type="ref"/>
+        <dependency status="recommended" name="libmad" type="ref"/>
+        <dependency status="recommended" name="libvorbis" type="ref"/>

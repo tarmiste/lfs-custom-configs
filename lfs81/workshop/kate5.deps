@@ -1,0 +1,2 @@
+        <dependency status="required" name="kf5-frameworks" type="ref"/>
+        <dependency status="optional" name="libgit2" type="link"/>

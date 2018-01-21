@@ -1,0 +1,3 @@
+        <dependency status="required" name="kf5-frameworks" type="ref"/>
+        <dependency status="required" name="mlt" type="ref"/>
+        <dependency status="required" name="v4l-utils" type="ref"/>

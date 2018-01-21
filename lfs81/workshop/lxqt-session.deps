@@ -1,0 +1,7 @@
+        <dependency status="required" name="kf5-frameworks" type="ref"/>
+        <dependency status="required" name="liblxqt" type="ref"/>
+        <dependency status="required" name="lxqt-kwindowsystem" type="ref"/>
+        <dependency status="required" name="lxqt-qtplugin" type="ref"/>
+        <dependency status="required" name="xdg-user-dirs" type="ref"/>
+        <dependency status="optional" name="git" type="ref"/>
+        <dependency status="optional" name="lxqt-l10n" type="ref"/>

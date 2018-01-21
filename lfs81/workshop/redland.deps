@@ -1,0 +1,9 @@
+        <dependency status="required" name="rasqal" type="ref"/>
+        <dependency status="optional" name="3store" type="link"/>
+        <dependency status="optional" name="MySQL" type="link"/>
+        <dependency status="optional" name="db" type="ref"/>
+        <dependency status="optional" name="libiodbc" type="ref"/>
+        <dependency status="optional" name="mariadb" type="ref"/>
+        <dependency status="optional" name="postgresql" type="ref"/>
+        <dependency status="optional" name="sqlite" type="ref"/>
+        <dependency status="optional" name="virtuoso" type="link"/>

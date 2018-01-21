@@ -1,0 +1,2 @@
+        <dependency status="recommended" name="popt" type="ref"/>
+        <dependency status="optional" name="icu" type="ref"/>

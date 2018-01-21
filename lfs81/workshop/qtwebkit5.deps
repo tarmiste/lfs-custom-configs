@@ -1,0 +1,9 @@
+        <dependency status="required" name="icu" type="ref"/>
+        <dependency status="required" name="libjpeg" type="ref"/>
+        <dependency status="required" name="libpng" type="ref"/>
+        <dependency status="required" name="libwebp" type="ref"/>
+        <dependency status="required" name="libxslt" type="ref"/>
+        <dependency status="required" name="qt5" type="ref"/>
+        <dependency status="required" name="ruby" type="ref"/>
+        <dependency status="required" name="sqlite" type="ref"/>
+        <dependency status="recommended" name="gst10-plugins-base" type="ref"/>

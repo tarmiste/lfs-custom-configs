@@ -1,0 +1,3 @@
+        <dependency status="optional" name="libcap-pam" type="ref"/>
+        <dependency status="optional" name="pcre" type="ref"/>
+        <dependency status="optional" name="valgrind" type="ref"/>

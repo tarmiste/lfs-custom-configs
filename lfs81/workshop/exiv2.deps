@@ -1,0 +1,6 @@
+        <dependency status="recommended" name="curl" type="ref"/>
+        <dependency status="optional" name="doxygen" type="ref"/>
+        <dependency status="optional" name="graphviz" type="ref"/>
+        <dependency status="optional" name="libssh" type="link"/>
+        <dependency status="optional" name="libxslt" type="ref"/>
+        <dependency status="optional" name="python3" type="ref"/>

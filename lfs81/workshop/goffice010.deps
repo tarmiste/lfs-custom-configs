@@ -1,0 +1,11 @@
+        <dependency status="required" name="gtk3" type="ref"/>
+        <dependency status="required" name="libgsf" type="ref"/>
+        <dependency status="required" name="librsvg" type="ref"/>
+        <dependency status="required" name="libxslt" type="ref"/>
+        <dependency status="required" name="which" type="ref"/>
+        <dependency status="optional" name="Lasem" type="link"/>
+        <dependency status="optional" name="gobject-introspection" type="ref"/>
+        <dependency status="optional" name="gs" type="ref"/>
+        <dependency status="optional" name="gsettings-desktop-schemas" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>
+        <dependency status="optional" name="libspectre" type="link"/>

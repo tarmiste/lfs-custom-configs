@@ -1,0 +1,11 @@
+        <dependency status="recommended" name="Peachy-Photos-(Mitsubishi-CP-D70)" type="link"/>
+        <dependency status="recommended" name="Peachy-Photos-(Sinfonia)" type="link"/>
+        <dependency status="recommended" name="cups" type="ref"/>
+        <dependency status="recommended" name="gimp" type="ref"/>
+        <dependency status="recommended" name="libMitsuD70ImageReProcess" type="link"/>
+        <dependency status="recommended" name="libS6145ImageReProcess" type="link"/>
+        <dependency status="optional" name="docbook-utils" type="ref"/>
+        <dependency status="optional" name="doxygen" type="ref"/>
+        <dependency status="optional" name="imagemagick" type="ref"/>
+        <dependency status="optional" name="texlive" type="ref"/>
+        <dependency status="optional" name="tl-installer" type="ref"/>

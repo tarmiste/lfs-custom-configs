@@ -1,0 +1,4 @@
+        <dependency status="required" name="qscintilla" type="ref"/>
+        <dependency status="recommended" name="qtermwidget" type="ref"/>
+        <dependency status="optional" name="Enca" type="link"/>
+        <dependency status="optional" name="desktop-file-utils" type="ref"/>

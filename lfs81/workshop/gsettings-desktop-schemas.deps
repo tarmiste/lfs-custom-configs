@@ -1,0 +1,2 @@
+        <dependency status="required" name="glib2" type="ref"/>
+        <dependency status="recommended" name="gobject-introspection" type="ref"/>

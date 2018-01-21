@@ -1,0 +1,2 @@
+        <dependency status="required" name="lcms2" type="ref"/>
+        <dependency status="required" name="libjpeg" type="ref"/>

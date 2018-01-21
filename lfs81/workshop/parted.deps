@@ -1,0 +1,4 @@
+        <dependency status="recommended" name="lvm2" type="ref"/>
+        <dependency status="optional" name="pth" type="ref"/>
+        <dependency status="optional" name="texlive" type="ref"/>
+        <dependency status="optional" name="tl-installer" type="ref"/>

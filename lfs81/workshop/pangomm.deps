@@ -1,0 +1,3 @@
+        <dependency status="required" name="cairomm" type="ref"/>
+        <dependency status="required" name="glibmm" type="ref"/>
+        <dependency status="required" name="pango" type="ref"/>

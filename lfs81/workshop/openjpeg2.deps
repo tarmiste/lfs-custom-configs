@@ -1,0 +1,5 @@
+        <dependency status="required" name="cmake" type="ref"/>
+        <dependency status="optional" name="doxygen" type="ref"/>
+        <dependency status="optional" name="lcms2" type="ref"/>
+        <dependency status="optional" name="libpng" type="ref"/>
+        <dependency status="optional" name="libtiff" type="ref"/>

@@ -1,0 +1,8 @@
+        <dependency status="required" name="libvorbis" type="ref"/>
+        <dependency status="recommended" name="alsa-lib" type="ref"/>
+        <dependency status="recommended" name="gstreamer10" type="ref"/>
+        <dependency status="recommended" name="gtk3" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>
+        <dependency status="optional" name="gtk2" type="ref"/>
+        <dependency status="optional" name="pulseaudio" type="ref"/>
+        <dependency status="optional" name="tdb" type="link"/>

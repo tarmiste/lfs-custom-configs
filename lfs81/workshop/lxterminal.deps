@@ -1,0 +1,4 @@
+        <dependency status="required" name="vte2" type="ref"/>
+        <dependency status="optional" name="DocBook" type="ref"/>
+        <dependency status="optional" name="docbook-xsl" type="ref"/>
+        <dependency status="optional" name="libxslt" type="ref"/>

@@ -1,0 +1,15 @@
+        <dependency status="required" name="apr-util" type="ref"/>
+        <dependency status="required" name="pcre" type="ref"/>
+        <dependency status="recommended" name="openssl" type="ref"/>
+        <dependency status="optional" name="Distcache" type="link"/>
+        <dependency status="optional" name="ELinks" type="link"/>
+        <dependency status="optional" name="Links" type="ref"/>
+        <dependency status="optional" name="apr-util" type="ref"/>
+        <dependency status="optional" name="db" type="ref"/>
+        <dependency status="optional" name="doxygen" type="ref"/>
+        <dependency status="optional" name="libxml2" type="ref"/>
+        <dependency status="optional" name="lua" type="ref"/>
+        <dependency status="optional" name="lynx" type="ref"/>
+        <dependency status="optional" name="nghttp2" type="ref"/>
+        <dependency status="optional" name="openldap" type="ref"/>
+        <dependency status="optional" name="rsync" type="ref"/>

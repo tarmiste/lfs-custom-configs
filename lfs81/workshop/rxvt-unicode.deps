@@ -1,0 +1,3 @@
+        <dependency status="required" name="x-window-system" type="ref"/>
+        <dependency status="optional" name="gdk-pixbuf" type="ref"/>
+        <dependency status="optional" name="startup-notification" type="ref"/>

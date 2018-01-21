@@ -1,0 +1,8 @@
+        <dependency status="required" name="gtk3" type="ref"/>
+        <dependency status="required" name="itstool" type="ref"/>
+        <dependency status="required" name="libgtop" type="ref"/>
+        <dependency status="optional" name="bind-utils" type="ref"/>
+        <dependency status="optional" name="net-tools" type="ref"/>
+        <dependency status="optional" name="nmap" type="ref"/>
+        <dependency status="optional" name="traceroute" type="ref"/>
+        <dependency status="optional" name="whois" type="ref"/>

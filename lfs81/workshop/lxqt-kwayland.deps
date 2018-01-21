@@ -1,0 +1,5 @@
+        <dependency status="required" name="extra-cmake-modules" type="ref"/>
+        <dependency status="required" name="lxqt-common" type="ref"/>
+        <dependency status="required" name="mesa" type="ref"/>
+        <dependency status="required" name="qt5" type="ref"/>
+        <dependency status="required" name="wayland" type="ref"/>

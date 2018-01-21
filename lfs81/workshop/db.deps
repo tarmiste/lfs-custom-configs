@@ -1,0 +1,4 @@
+        <dependency status="optional" name="java" type="ref"/>
+        <dependency status="optional" name="openjdk" type="ref"/>
+        <dependency status="optional" name="sharutils" type="ref"/>
+        <dependency status="optional" name="tcl" type="ref"/>

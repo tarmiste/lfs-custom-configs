@@ -1,0 +1,8 @@
+        <dependency status="recommended" name="freetype2" type="ref"/>
+        <dependency status="recommended" name="freetype2" type="ref"/>
+        <dependency status="recommended" name="glib2" type="ref"/>
+        <dependency status="recommended" name="icu" type="ref"/>
+        <dependency status="optional" name="cairo" type="ref"/>
+        <dependency status="optional" name="gobject-introspection" type="ref"/>
+        <dependency status="optional" name="graphite2" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>

@@ -1,0 +1,2 @@
+        <dependency status="required" name="glib2" type="ref"/>
+        <dependency status="optional" name="emacs" type="ref"/>

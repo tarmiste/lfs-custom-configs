@@ -1,0 +1,2 @@
+        <dependency status="required" name="boost" type="ref"/>
+        <dependency status="required" name="valgrind" type="ref"/>

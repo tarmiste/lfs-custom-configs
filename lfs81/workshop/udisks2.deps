@@ -1,0 +1,15 @@
+        <dependency status="required" name="btrfs-progs" type="ref"/>
+        <dependency status="required" name="dosfstools" type="ref"/>
+        <dependency status="required" name="gptfdisk" type="ref"/>
+        <dependency status="required" name="libatasmart" type="ref"/>
+        <dependency status="required" name="libblockdev" type="ref"/>
+        <dependency status="required" name="libgudev" type="ref"/>
+        <dependency status="required" name="libxslt" type="ref"/>
+        <dependency status="required" name="mdadm" type="ref"/>
+        <dependency status="required" name="polkit" type="ref"/>
+        <dependency status="required" name="xfsprogs" type="ref"/>
+        <dependency status="optional" name="gobject-introspection" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>
+        <dependency status="optional" name="libiscsi" type="link"/>
+        <dependency status="optional" name="lvm2" type="ref"/>
+        <dependency status="optional" name="ntfs-3g" type="ref"/>

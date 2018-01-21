@@ -1,0 +1,2 @@
+        <dependency status="required" name="libglade" type="ref"/>
+        <dependency status="required" name="shared-mime-info" type="ref"/>

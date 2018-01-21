@@ -1,0 +1,5 @@
+        <dependency status="required" name="cmake" type="ref"/>
+        <dependency status="required" name="extra-cmake-modules" type="ref"/>
+        <dependency status="required" name="glib2" type="ref"/>
+        <dependency status="required" name="qt5" type="ref"/>
+        <dependency status="optional" name="pulseaudio" type="ref"/>

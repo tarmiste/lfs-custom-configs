@@ -1,0 +1,4 @@
+        <dependency status="required" name="gtksourceview" type="ref"/>
+        <dependency status="required" name="gtksourceview-2" type="link"/>
+        <dependency status="optional" name="dbus-glib" type="ref"/>
+        <dependency status="optional" name="dconf" type="ref"/>

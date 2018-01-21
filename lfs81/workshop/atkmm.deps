@@ -1,0 +1,2 @@
+        <dependency status="required" name="atk" type="ref"/>
+        <dependency status="required" name="glibmm" type="ref"/>

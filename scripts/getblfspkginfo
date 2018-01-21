@@ -1,5 +1,5 @@
 #!/bin/bash
-BLFS_TOOL_DIR=/home/koo/blfs_root
+BLFS_TOOL_DIR=.
 #
 # 
 if [ ! -f ${BLFS_TOOL_DIR}/packages.xml ]

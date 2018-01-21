@@ -1,0 +1,2 @@
+        <dependency status="optional" name="fftw" type="ref"/>
+        <dependency status="optional" name="libsndfile" type="ref"/>

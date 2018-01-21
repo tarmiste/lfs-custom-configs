@@ -1,0 +1,14 @@
+        <dependency status="required" name="gst10-plugins-base" type="ref"/>
+        <dependency status="recommended" name="lame" type="ref"/>
+        <dependency status="recommended" name="liba52" type="ref"/>
+        <dependency status="recommended" name="libdvdread" type="ref"/>
+        <dependency status="recommended" name="x264" type="ref"/>
+        <dependency status="optional" name="OpenCore-AMR" type="link"/>
+        <dependency status="optional" name="Orc" type="link"/>
+        <dependency status="optional" name="TwoLame" type="link"/>
+        <dependency status="optional" name="libcdio" type="ref"/>
+        <dependency status="optional" name="libmad" type="ref"/>
+        <dependency status="optional" name="libmpeg2" type="ref"/>
+        <dependency status="optional" name="libsidplay" type="link"/>
+        <dependency status="optional" name="mpg123" type="ref"/>
+        <dependency status="optional" name="valgrind" type="ref"/>

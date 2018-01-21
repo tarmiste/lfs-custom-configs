@@ -1,0 +1,5 @@
+        <dependency status="required" name="nasm" type="ref"/>
+        <dependency status="required" name="which" type="ref"/>
+        <dependency status="required" name="yasm" type="ref"/>
+        <dependency status="optional" name="doxygen" type="ref"/>
+        <dependency status="optional" name="php" type="ref"/>

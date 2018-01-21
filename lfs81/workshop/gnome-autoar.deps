@@ -1,0 +1,3 @@
+        <dependency status="required" name="gtk3" type="ref"/>
+        <dependency status="required" name="libarchive" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>

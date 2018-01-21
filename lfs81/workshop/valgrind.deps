@@ -1,0 +1,6 @@
+        <dependency status="optional" name="bind" type="ref"/>
+        <dependency status="optional" name="bind-utils" type="ref"/>
+        <dependency status="optional" name="boost" type="ref"/>
+        <dependency status="optional" name="gdb" type="ref"/>
+        <dependency status="optional" name="llvm" type="ref"/>
+        <dependency status="optional" name="which" type="ref"/>

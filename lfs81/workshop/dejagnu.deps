@@ -1,0 +1,3 @@
+        <dependency status="required" name="expect" type="ref"/>
+        <dependency status="optional" name="docbook-utils" type="ref"/>
+        <dependency status="optional" name="docbook2X" type="link"/>

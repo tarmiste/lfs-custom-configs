@@ -1,0 +1,5 @@
+        <dependency status="required" name="cmake" type="ref"/>
+        <dependency status="required" name="curl" type="ref"/>
+        <dependency status="required" name="python2" type="ref"/>
+        <dependency status="optional" name="gdb" type="ref"/>
+        <dependency status="optional" name="ninja" type="ref"/>

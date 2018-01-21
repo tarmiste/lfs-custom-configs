@@ -1,0 +1,2 @@
+        <dependency status="optional" name="Sphinx" type="link"/>
+        <dependency status="optional" name="sphinx_rtd_theme" type="link"/>

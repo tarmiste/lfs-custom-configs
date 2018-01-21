@@ -1,0 +1,4 @@
+        <dependency status="optional" name="libxml2" type="ref"/>
+        <dependency status="optional" name="lzo" type="ref"/>
+        <dependency status="optional" name="nettle" type="ref"/>
+        <dependency status="optional" name="openssl" type="ref"/>

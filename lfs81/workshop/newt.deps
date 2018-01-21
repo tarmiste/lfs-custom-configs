@@ -1,0 +1,5 @@
+        <dependency status="required" name="popt" type="ref"/>
+        <dependency status="required" name="slang" type="ref"/>
+        <dependency status="recommended" name="gpm" type="ref"/>
+        <dependency status="optional" name="python2" type="ref"/>
+        <dependency status="optional" name="python3" type="ref"/>

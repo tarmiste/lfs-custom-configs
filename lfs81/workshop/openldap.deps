@@ -1,0 +1,11 @@
+        <dependency status="recommended" name="cyrus-sasl" type="ref"/>
+        <dependency status="recommended" name="openssl" type="ref"/>
+        <dependency status="optional" name="MySQL" type="link"/>
+        <dependency status="optional" name="OpenSLP" type="link"/>
+        <dependency status="optional" name="db" type="ref"/>
+        <dependency status="optional" name="gnutls" type="ref"/>
+        <dependency status="optional" name="icu" type="ref"/>
+        <dependency status="optional" name="mariadb" type="ref"/>
+        <dependency status="optional" name="postgresql" type="ref"/>
+        <dependency status="optional" name="pth" type="ref"/>
+        <dependency status="optional" name="unixodbc" type="ref"/>

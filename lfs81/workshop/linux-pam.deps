@@ -1,0 +1,10 @@
+        <dependency status="optional" name="DocBook" type="ref"/>
+        <dependency status="optional" name="Prelude" type="link"/>
+        <dependency status="optional" name="cracklib" type="ref"/>
+        <dependency status="optional" name="db" type="ref"/>
+        <dependency status="optional" name="docbook-xsl" type="ref"/>
+        <dependency status="optional" name="elinks" type="link"/>
+        <dependency status="optional" name="fop" type="ref"/>
+        <dependency status="optional" name="libtirpc" type="ref"/>
+        <dependency status="optional" name="libxslt" type="ref"/>
+        <dependency status="optional" name="w3m" type="ref"/>

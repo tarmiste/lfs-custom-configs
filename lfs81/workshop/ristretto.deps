@@ -1,0 +1,3 @@
+        <dependency status="required" name="libexif" type="ref"/>
+        <dependency status="required" name="libxfce4ui" type="ref"/>
+        <dependency status="optional" name="tumbler" type="ref"/>

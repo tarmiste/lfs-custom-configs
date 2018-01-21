@@ -1,0 +1,4 @@
+        <dependency status="recommended" name="openssl" type="ref"/>
+        <dependency status="recommended" name="procmail" type="ref"/>
+        <dependency status="optional" name="python2" type="ref"/>
+        <dependency status="optional" name="tk" type="ref"/>

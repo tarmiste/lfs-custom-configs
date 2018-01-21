@@ -1,0 +1,6 @@
+        <dependency status="recommended" name="gnutls" type="ref"/>
+        <dependency status="recommended" name="openssl" type="ref"/>
+        <dependency status="optional" name="libproxy" type="link"/>
+        <dependency status="optional" name="libxml2" type="ref"/>
+        <dependency status="optional" name="mitkrb" type="ref"/>
+        <dependency status="optional" name="pakchois" type="link"/>

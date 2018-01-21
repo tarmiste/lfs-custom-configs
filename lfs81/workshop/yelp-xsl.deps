@@ -1,0 +1,2 @@
+        <dependency status="required" name="itstool" type="ref"/>
+        <dependency status="required" name="libxslt" type="ref"/>

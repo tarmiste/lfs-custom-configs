@@ -1,0 +1,1 @@
+        <dependency status="required" name="libxcb" type="ref"/>

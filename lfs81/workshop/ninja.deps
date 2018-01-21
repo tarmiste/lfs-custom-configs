@@ -1,0 +1,5 @@
+        <dependency status="required" name="python2" type="ref"/>
+        <dependency status="optional" name="asciidoc" type="ref"/>
+        <dependency status="optional" name="doxygen" type="ref"/>
+        <dependency status="optional" name="emacs" type="ref"/>
+        <dependency status="optional" name="re2c" type="link"/>

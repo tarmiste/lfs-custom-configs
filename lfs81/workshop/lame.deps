@@ -1,0 +1,4 @@
+        <dependency status="optional" name="Dmalloc" type="link"/>
+        <dependency status="optional" name="Electric-Fence" type="link"/>
+        <dependency status="optional" name="libsndfile" type="ref"/>
+        <dependency status="optional" name="nasm" type="ref"/>

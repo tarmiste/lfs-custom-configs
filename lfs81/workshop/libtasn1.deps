@@ -1,0 +1,2 @@
+        <dependency status="optional" name="gtk-doc" type="ref"/>
+        <dependency status="optional" name="valgrind" type="ref"/>

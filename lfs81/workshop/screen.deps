@@ -1,0 +1,1 @@
+        <dependency status="optional" name="linux-pam" type="ref"/>

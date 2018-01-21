@@ -1,0 +1,11 @@
+        <dependency status="required" name="libtirpc" type="ref"/>
+        <dependency status="required" name="rpcbind" type="ref"/>
+        <dependency status="optional" name="libcap-pam" type="ref"/>
+        <dependency status="optional" name="libgssapi" type="link"/>
+        <dependency status="optional" name="libnfsidmap" type="link"/>
+        <dependency status="optional" name="libnfsidmap" type="link"/>
+        <dependency status="optional" name="libnsl" type="ref"/>
+        <dependency status="optional" name="librpcsecgss" type="link"/>
+        <dependency status="optional" name="lvm2" type="ref"/>
+        <dependency status="optional" name="mitkrb" type="ref"/>
+        <dependency status="optional" name="sqlite" type="ref"/>

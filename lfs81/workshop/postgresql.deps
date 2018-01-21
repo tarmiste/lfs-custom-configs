@@ -1,0 +1,13 @@
+        <dependency status="optional" name="Bonjour" type="link"/>
+        <dependency status="optional" name="docbook-dsssl" type="ref"/>
+        <dependency status="optional" name="libxml2" type="ref"/>
+        <dependency status="optional" name="libxslt" type="ref"/>
+        <dependency status="optional" name="linux-pam" type="ref"/>
+        <dependency status="optional" name="mitkrb" type="ref"/>
+        <dependency status="optional" name="openjade" type="ref"/>
+        <dependency status="optional" name="openldap" type="ref"/>
+        <dependency status="optional" name="openssl" type="ref"/>
+        <dependency status="optional" name="perl-sgmlspm" type="ref"/>
+        <dependency status="optional" name="python2" type="ref"/>
+        <dependency status="optional" name="sgml-dtd" type="ref"/>
+        <dependency status="optional" name="tcl" type="ref"/>

@@ -1,0 +1,4 @@
+        <dependency status="required" name="alsa-lib" type="ref"/>
+        <dependency status="optional" name="fltk" type="ref"/>
+        <dependency status="optional" name="gtk2" type="ref"/>
+        <dependency status="optional" name="gtk3" type="ref"/>

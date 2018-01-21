@@ -1,0 +1,2 @@
+        <dependency status="recommended" name="DocBook" type="ref"/>
+        <dependency status="recommended" name="libxslt" type="ref"/>

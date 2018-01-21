@@ -1,0 +1,6 @@
+        <dependency status="required" name="glib2" type="ref"/>
+        <dependency status="required" name="libsigc" type="ref"/>
+        <dependency status="optional" name="doxygen" type="ref"/>
+        <dependency status="optional" name="glib-networking" type="ref"/>
+        <dependency status="optional" name="gnutls" type="ref"/>
+        <dependency status="optional" name="libxslt" type="ref"/>

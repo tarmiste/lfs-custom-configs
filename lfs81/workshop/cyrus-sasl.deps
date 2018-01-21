@@ -1,0 +1,12 @@
+        <dependency status="required" name="openssl" type="ref"/>
+        <dependency status="recommended" name="db" type="ref"/>
+        <dependency status="optional" name="Dmalloc" type="link"/>
+        <dependency status="optional" name="MySQL" type="link"/>
+        <dependency status="optional" name="krb4" type="link"/>
+        <dependency status="optional" name="linux-pam" type="ref"/>
+        <dependency status="optional" name="mariadb" type="ref"/>
+        <dependency status="optional" name="mitkrb" type="ref"/>
+        <dependency status="optional" name="openjdk" type="ref"/>
+        <dependency status="optional" name="openldap" type="ref"/>
+        <dependency status="optional" name="postgresql" type="ref"/>
+        <dependency status="optional" name="sqlite" type="ref"/>

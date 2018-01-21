@@ -1,0 +1,8 @@
+        <dependency status="required" name="exo" type="ref"/>
+        <dependency status="required" name="garcon" type="ref"/>
+        <dependency status="required" name="libxfce4ui" type="ref"/>
+        <dependency status="required" name="xfce4-power-manager" type="ref"/>
+        <dependency status="recommended" name="libcanberra" type="ref"/>
+        <dependency status="recommended" name="libnotify" type="ref"/>
+        <dependency status="recommended" name="libxklavier" type="ref"/>
+        <dependency status="optional" name="libinput" type="ref"/>

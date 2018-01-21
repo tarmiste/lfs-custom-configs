@@ -1,0 +1,11 @@
+        <dependency status="recommended" name="alsa-lib" type="ref"/>
+        <dependency status="recommended" name="openssl" type="ref"/>
+        <dependency status="optional" name="cyrus-sasl" type="ref"/>
+        <dependency status="optional" name="libdc1394" type="link"/>
+        <dependency status="optional" name="libraw1394" type="link"/>
+        <dependency status="optional" name="lua" type="ref"/>
+        <dependency status="optional" name="openldap" type="ref"/>
+        <dependency status="optional" name="pulseaudio" type="ref"/>
+        <dependency status="optional" name="sdl" type="ref"/>
+        <dependency status="optional" name="unixodbc" type="ref"/>
+        <dependency status="optional" name="v4l-utils" type="ref"/>

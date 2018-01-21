@@ -1,0 +1,4 @@
+        <dependency status="required" name="librsvg" type="ref"/>
+        <dependency status="required" name="libxklavier" type="ref"/>
+        <dependency status="required" name="xfce4-panel" type="ref"/>
+        <dependency status="required" name="xfce4-panel" type="ref"/>

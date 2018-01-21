@@ -1,0 +1,2 @@
+        <dependency status="required" name="pcre" type="ref"/>
+        <dependency status="optional" name="boost" type="ref"/>

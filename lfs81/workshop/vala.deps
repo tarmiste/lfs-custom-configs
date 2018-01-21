@@ -1,0 +1,3 @@
+        <dependency status="required" name="glib2" type="ref"/>
+        <dependency status="optional" name="dbus" type="ref"/>
+        <dependency status="optional" name="libxslt" type="ref"/>

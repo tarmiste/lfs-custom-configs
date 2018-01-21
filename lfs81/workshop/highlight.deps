@@ -1,0 +1,3 @@
+        <dependency status="required" name="boost" type="ref"/>
+        <dependency status="required" name="lua" type="ref"/>
+        <dependency status="optional" name="qt5" type="ref"/>

@@ -1,0 +1,5 @@
+        <dependency status="optional" name="docbook-utils" type="ref"/>
+        <dependency status="optional" name="linux-pam" type="ref"/>
+        <dependency status="optional" name="server-mail" type="ref"/>
+        <dependency status="optional" name="text-editor" type="link"/>
+        <dependency status="optional" name="vim" type="ref"/>

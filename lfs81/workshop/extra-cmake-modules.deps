@@ -1,0 +1,2 @@
+        <dependency status="required" name="cmake" type="ref"/>
+        <dependency status="optional" name="Sphinx" type="link"/>

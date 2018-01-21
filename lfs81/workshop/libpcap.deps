@@ -1,0 +1,5 @@
+        <dependency status="optional" name="DAG" type="link"/>
+        <dependency status="optional" name="Septel" type="link"/>
+        <dependency status="optional" name="bluez" type="ref"/>
+        <dependency status="optional" name="libnl" type="ref"/>
+        <dependency status="optional" name="libusb" type="ref"/>

@@ -1,0 +1,11 @@
+        <dependency status="required" name="ptlib" type="ref"/>
+        <dependency status="optional" name="Celt" type="link"/>
+        <dependency status="optional" name="GSM" type="link"/>
+        <dependency status="optional" name="ISDN4Linux" type="link"/>
+        <dependency status="optional" name="Spandsp" type="link"/>
+        <dependency status="optional" name="ffmpeg" type="ref"/>
+        <dependency status="optional" name="libtheora" type="ref"/>
+        <dependency status="optional" name="openjdk" type="ref"/>
+        <dependency status="optional" name="ruby" type="ref"/>
+        <dependency status="optional" name="speex" type="ref"/>
+        <dependency status="optional" name="x264" type="ref"/>

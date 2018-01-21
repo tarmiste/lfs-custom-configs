@@ -1,0 +1,8 @@
+        <dependency status="required" name="audiofile" type="ref"/>
+        <dependency status="required" name="fftw" type="ref"/>
+        <dependency status="required" name="kf5-frameworks" type="ref"/>
+        <dependency status="recommended" name="alsa-lib" type="ref"/>
+        <dependency status="recommended" name="flac" type="ref"/>
+        <dependency status="recommended" name="libogg" type="ref"/>
+        <dependency status="recommended" name="pulseaudio" type="ref"/>
+        <dependency status="optional" name="doxygen" type="ref"/>

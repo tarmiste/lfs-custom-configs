@@ -1,0 +1,12 @@
+        <dependency status="optional" name="DirectFB" type="link"/>
+        <dependency status="optional" name="GGI" type="link"/>
+        <dependency status="optional" name="PicoGUI" type="link"/>
+        <dependency status="optional" name="SVGAlib" type="link"/>
+        <dependency status="optional" name="aalib" type="ref"/>
+        <dependency status="optional" name="alsa" type="ref"/>
+        <dependency status="optional" name="glu" type="ref"/>
+        <dependency status="optional" name="libcaca" type="link"/>
+        <dependency status="optional" name="nasm" type="ref"/>
+        <dependency status="optional" name="pth" type="ref"/>
+        <dependency status="optional" name="pulseaudio" type="ref"/>
+        <dependency status="optional" name="x-window-system" type="ref"/>

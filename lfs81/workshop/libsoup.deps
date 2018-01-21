@@ -1,0 +1,11 @@
+        <dependency status="required" name="glib-networking" type="ref"/>
+        <dependency status="required" name="libxml2" type="ref"/>
+        <dependency status="required" name="sqlite" type="ref"/>
+        <dependency status="recommended" name="gobject-introspection" type="ref"/>
+        <dependency status="recommended" name="vala" type="ref"/>
+        <dependency status="optional" name="apache" type="ref"/>
+        <dependency status="optional" name="curl" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>
+        <dependency status="optional" name="mitkrb" type="ref"/>
+        <dependency status="optional" name="php" type="ref"/>
+        <dependency status="optional" name="samba" type="ref"/>

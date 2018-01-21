@@ -1,0 +1,7 @@
+        <dependency status="required" name="dbus-glib" type="ref"/>
+        <dependency status="required" name="libxfce4util" type="ref"/>
+        <dependency status="required" name="libxfce4util" type="ref"/>
+        <dependency status="optional" name="Glib" type="link"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>
+        <dependency status="optional" name="perl-auto-install" type="ref"/>
+        <dependency status="optional" name="perl-standard-install" type="ref"/>

@@ -1,0 +1,3 @@
+        <dependency status="required" name="libfm-extra" type="ref"/>
+        <dependency status="required" name="libfm-extra" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>

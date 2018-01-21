@@ -1,0 +1,5 @@
+        <dependency status="required" name="libnotify" type="ref"/>
+        <dependency status="required" name="upower" type="ref"/>
+        <dependency status="required" name="xfce4-appfinder" type="ref"/>
+        <dependency status="required" name="xfce4-panel" type="ref"/>
+        <dependency status="optional" name="udisks" type="ref"/>

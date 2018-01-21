@@ -1,0 +1,2 @@
+        <dependency status="required" name="tcl" type="ref"/>
+        <dependency status="optional" name="tk" type="ref"/>

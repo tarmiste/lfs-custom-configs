@@ -1,0 +1,8 @@
+        <dependency status="required" name="kf5-frameworks" type="ref"/>
+        <dependency status="required" name="liblxqt" type="ref"/>
+        <dependency status="required" name="lxqt-kidletime" type="ref"/>
+        <dependency status="required" name="lxqt-solid" type="ref"/>
+        <dependency status="required" name="lxqt-solid" type="ref"/>
+        <dependency status="required" name="upower" type="ref"/>
+        <dependency status="optional" name="git" type="ref"/>
+        <dependency status="optional" name="lxqt-l10n" type="ref"/>

@@ -1,0 +1,4 @@
+        <dependency status="required" name="freetype2" type="ref"/>
+        <dependency status="required" name="fribidi" type="ref"/>
+        <dependency status="recommended" name="fontconfig" type="ref"/>
+        <dependency status="optional" name="harfbuzz" type="ref"/>

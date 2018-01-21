@@ -1,0 +1,2 @@
+        <dependency status="required" name="sgml-common" type="ref"/>
+        <dependency status="optional" name="xmlto" type="ref"/>

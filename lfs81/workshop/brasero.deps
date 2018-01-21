@@ -1,0 +1,17 @@
+        <dependency status="required" name="gst10-plugins-base" type="ref"/>
+        <dependency status="required" name="itstool" type="ref"/>
+        <dependency status="required" name="libcanberra" type="ref"/>
+        <dependency status="required" name="libnotify" type="ref"/>
+        <dependency status="recommended" name="dvd-rw-tools" type="ref"/>
+        <dependency status="recommended" name="gobject-introspection" type="ref"/>
+        <dependency status="recommended" name="gvfs" type="ref"/>
+        <dependency status="recommended" name="libburn" type="ref"/>
+        <dependency status="recommended" name="libisofs" type="ref"/>
+        <dependency status="recommended" name="nautilus" type="ref"/>
+        <dependency status="recommended" name="totem-pl-parser" type="ref"/>
+        <dependency status="optional" name="Tracker" type="link"/>
+        <dependency status="optional" name="VCDImager" type="link"/>
+        <dependency status="optional" name="cdrdao" type="ref"/>
+        <dependency status="optional" name="cdrtools" type="ref"/>
+        <dependency status="optional" name="gtk-doc" type="ref"/>
+        <dependency status="optional" name="libdvdcss" type="ref"/>

@@ -1,0 +1,2 @@
+        <dependency status="required" name="DocBook" type="ref"/>
+        <dependency status="required" name="python2" type="ref"/>
