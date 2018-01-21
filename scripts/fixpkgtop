@@ -1,0 +1,9 @@
+#
+#  Convert the pkgname and version info as found in blfs scripts into a 
+#  more usable format.
+#
+sed -e 's/ABC/"/g' | \
+sed -e 's/XYZ/"/g' | \
+sed -e 's/>//g' | \
+sed -e 's/  $PACKAGE"/"/g' | \
+sed -e 's/  $PACKAGE1"/" # Must be converted to PATCH file/g'

@@ -1,0 +1,55 @@
+#
+### aspell
+#
+# Dependencies:
+#    Required: "which" 
+#
+# aspell
+#
+## EDITHOOK1
+PKG="aspell"
+PKG_VERSION="0.60.6.1"
+PKG_FILE="aspell-0.60.6.1.tar.gz dict"
+URL="https://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz"
+MD5="e66a9c9af6a60dc46134fdacf6ce97d7"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+sed -i '/ top.do_check ==/s/top.do_check/*&/' modules/filter/tex.cpp &&
+sed -i '/word ==/s/word/*&/'                  prog/check_funs.cpp
+./configure --prefix=/usr &&
+make
+make -j1 install &&
+ln -svfn aspell-0.60 /usr/lib/aspell &&
+
+install -v -m755 -d /usr/share/doc/aspell-0.60.6.1/aspell{,-dev}.html &&
+
+install -v -m644 manual/aspell.html/* \
+    /usr/share/doc/aspell-0.60.6.1/aspell.html &&
+
+install -v -m644 manual/aspell-dev.html/* \
+    /usr/share/doc/aspell-0.60.6.1/aspell-dev.html
+install -v -m 755 scripts/ispell /usr/bin/
+install -v -m 755 scripts/spell /usr/bin/
+ldconfig
+
+./configure &&
+make
+
+make -j1 install
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

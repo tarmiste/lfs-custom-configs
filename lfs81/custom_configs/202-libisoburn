@@ -1,0 +1,43 @@
+#
+### libisoburn
+#
+# Dependencies:
+#    Required: "libburn" 
+#    Required: "libisofs" 
+#
+# libisoburn
+#
+## EDITHOOK1
+PKG="libisoburn"
+PKG_VERSION="1.4.6"
+PKG_FILE="libisoburn-1.4.6.tar.gz"
+URL="http://files.libburnia-project.org/releases/libisoburn-1.4.6.tar.gz"
+MD5="15d763fd698b9bc8d6fc643a3257505b"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --prefix=/usr              \
+            --disable-static           \
+            --enable-pkg-check-modules &&
+make
+doxygen doc/doxygen.conf
+make -j1 install
+install -v -dm755 /usr/share/doc/libisoburn-1.4.6 &&
+install -v -m644 doc/html/* /usr/share/doc/libisoburn-1.4.6
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

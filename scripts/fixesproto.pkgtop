@@ -1,0 +1,15 @@
+#
+# fixesproto
+#
+## EDITHOOK1
+PKG="fixesproto"
+PKG_VERSION=
+PKG_FILE="fixesproto-5.0.tar.bz2"
+URL="https://www.x.org/pub/individual/proto/fixesproto-5.0.tar.bz2"
+MD5="e7431ab84d37b2678af71e29355e101d"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=

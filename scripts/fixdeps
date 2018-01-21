@@ -1,0 +1,11 @@
+#
+#  Convert the dependency list as found in packages.xml into a 
+#  more readable format.
+#
+sed -e 's/        <dependency status="required" name=/#    Required: /g' | \
+sed -e 's/        <dependency status="recommended" name=/#    Recommended: /g' | \
+sed -e 's/        <dependency status="optional" name=/#    Optional: /g' | \
+sed -e 's/type="ref"//g'  | \
+sed -e 's/type="link"//g'  | \
+sed -e 's/\/>//g'  
+#sed -e 's/"optional"/Optional: /g'
