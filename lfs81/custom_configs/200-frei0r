@@ -1,0 +1,43 @@
+#
+### frei0r
+#
+## This package has no dependencies
+#
+# frei0r
+#
+## EDITHOOK1
+PKG="frei0r"
+PKG_VERSION="1.6.1"
+PKG_FILE="frei0r-plugins-1.6.1.tar.gz"
+URL="https://files.dyne.org/frei0r/releases/frei0r-plugins-1.6.1.tar.gz"
+MD5="bb85573340029e5d0ae1c21d0685461d"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+mkdir -vp build &&
+cd        build &&
+
+cmake -DCMAKE_INSTALL_PREFIX=/usr    \
+      -DCMAKE_BUILD_TYPE=Release     \
+      -DOpenCV_DIR=/usr/share/OpenCV \
+      -Wno-dev ..                    &&
+
+make
+make -j1 install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

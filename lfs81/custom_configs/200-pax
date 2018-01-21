@@ -1,0 +1,44 @@
+#
+### pax
+#
+## This package has no dependencies
+#
+# pax
+#
+## EDITHOOK1
+PKG="pax"
+PKG_VERSION="070715"
+PKG_FILE="heirloom-070715.tar.bz2"
+URL="https://downloads.sourceforge.net/heirloom/heirloom-070715.tar.bz2"
+MD5="d846be4b268b1d55b6ffcef847f09979"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+sed -i build/mk.config                   \
+    -e '/LIBZ/s@ -Wl[^ ]*@@g'            \
+    -e '/LIBBZ2/{s@^#@@;s@ -Wl[^ ]*@@g}' \
+    -e '/BZLIB/s@0@1@'                   &&
+
+make makefiles                           &&
+make -C libcommon                        &&
+make -C libuxre                          &&
+make -C cpio
+install -v -m755 cpio/pax_su3 /usr/bin/pax &&
+install -v -m644 cpio/pax.1 /usr/share/man/man1
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

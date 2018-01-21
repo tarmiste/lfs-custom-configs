@@ -1,0 +1,35 @@
+#
+### zip
+#
+## This package has no dependencies
+#
+# zip
+#
+## EDITHOOK1
+PKG="zip"
+PKG_VERSION="3.0"
+PKG_FILE="zip30.tar.gz"
+URL="https://downloads.sourceforge.net/infozip/zip30.tar.gz"
+MD5="7b74551e63f8ee6aab6fbc86676c0d37"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+make -f unix/Makefile generic_gcc
+make -j1 prefix=/usr MANDIR=/usr/share/man/man1 -f unix/Makefile install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

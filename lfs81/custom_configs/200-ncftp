@@ -1,0 +1,42 @@
+#
+### ncftp
+#
+## This package has no dependencies
+#
+# ncftp
+#
+## EDITHOOK1
+PKG="ncftp"
+PKG_VERSION="3.2.6"
+PKG_FILE="ncftp-3.2.6-src.tar.xz"
+URL="ftp://ftp.ncftp.com/ncftp/ncftp-3.2.6-src.tar.xz"
+MD5="42d0f896d69a4d603ec097546444245f"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --prefix=/usr --sysconfdir=/etc &&
+make -C libncftp shared &&
+make
+make -j1 -C libncftp soinstall &&
+make -j1 install
+./configure --prefix=/usr --sysconfdir=/etc &&
+make
+make -j1 install
+ldconfig
+
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

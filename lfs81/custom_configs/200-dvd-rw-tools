@@ -1,0 +1,38 @@
+#
+### dvd-rw-tools
+#
+## This package has no dependencies
+#
+# dvd-rw-tools
+#
+## EDITHOOK1
+PKG="dvd-rw-tools"
+PKG_VERSION="7.1"
+PKG_FILE="dvd+rw-tools-7.1.tar.gz"
+URL="http://fy.chalmers.se/~appro/linux/DVD+RW/tools/dvd+rw-tools-7.1.tar.gz"
+MD5="8acb3c885c87f6838704a0025e435871"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+sed -i '/stdlib/a #include <limits.h>' transport.hxx &&
+make all rpl8 btcflash
+make -j1 prefix=/usr install &&
+install -v -m644 -D index.html \
+    /usr/share/doc/dvd+rw-tools-7.1/index.html
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

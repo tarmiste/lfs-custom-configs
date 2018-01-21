@@ -1,0 +1,38 @@
+#
+### gavl
+#
+## This package has no dependencies
+#
+# gavl
+#
+## EDITHOOK1
+PKG="gavl"
+PKG_VERSION="1.4.0"
+PKG_FILE="gavl-1.4.0.tar.gz"
+URL="https://downloads.sourceforge.net/gmerlin/gavl-1.4.0.tar.gz"
+MD5="2752013a817fbc43ddf13552215ec2c0"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --prefix=/usr     \
+            --without-doxygen \
+            --docdir=/usr/share/doc/gavl-1.4.0 &&
+make
+make -j1 install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

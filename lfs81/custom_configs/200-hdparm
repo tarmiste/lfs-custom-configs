@@ -1,0 +1,36 @@
+#
+### hdparm
+#
+## This package has no dependencies
+#
+# hdparm
+#
+## EDITHOOK1
+PKG="hdparm"
+PKG_VERSION="9.52"
+PKG_FILE="hdparm-9.52.tar.gz"
+URL="https://downloads.sourceforge.net/hdparm/hdparm-9.52.tar.gz"
+MD5="410539d0bf3cc247181594581edbfb53"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+make
+make -j1 install
+make -j1 binprefix=/usr install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+
