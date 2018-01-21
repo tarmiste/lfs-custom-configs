@@ -1,0 +1,8 @@
+for i in 501-*
+ do echo ========== $i
+ start=`grep -m 1 -n xEOFx $i |cut -f1 -d ":" -`
+ echo $start
+ start=`expr $start - 1 `
+ head -n${start} $i >foo
+ mv foo $i
+done 

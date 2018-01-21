@@ -1,0 +1,10 @@
+for fname in 501-*
+ do echo ============ $fname
+ basename=`echo $fname |cut -c 5-80 -`
+ ls ../*-z-${basename}
+ blfsname=`ls ../*-z-${basename}`
+ start=`grep -m 1 -n '#  Building pack' $blfsname | cut -f1 -d ":" -`
+ echo  start = $start
+ #tail -n+${start} $blfsname
+ tail -n+${start} $blfsname >> $fname
+ done 

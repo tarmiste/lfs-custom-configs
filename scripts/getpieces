@@ -1,0 +1,30 @@
+
+for i in `cat here`
+do
+echo ============== $i
+base=`basename $i`
+pkgdir=`grep ^PKG_DIR *-z-${base} |cut -f2 -d "=" -`
+package=`grep ^PACKAGE *-z-${base} |cut -f2 -d "=" -`
+
+echo PKG="${base}"
+echo PKG_VERSION=ABC
+#num=`expr match ${package} [-]`
+num=1
+echo ${package} |sed 's/.tar/./' |cut -f${num} -d "-" -
+echo ${package} |sed 's/.tar/./' |cut -f${num+1} -d "-" -
+echo ${package} |sed 's/.tar/./' |cut -f${num+2} -d "-" -
+echo ${package} |sed 's/.tar/./' |cut -f${num+3} -d "-" -
+echo -n PKG_FILE=ABC
+echo -n ${package}
+echo '"'
+echo -n URL=
+grep http *-z-$base # |sed -e 's/wget//g'
+echo -n MD5=
+grep md5sum *-z-$base
+
+#echo ${pkgdir}
+echo -n PATCH1=
+grep PATCH= *-z-${base}
+grep wget *-z-${base} |grep .patch
+done
+
