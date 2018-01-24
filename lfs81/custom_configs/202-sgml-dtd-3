@@ -32,7 +32,6 @@ install-catalog --add /etc/sgml/sgml-docbook-dtd-3.1.cat \
 
 install-catalog --add /etc/sgml/sgml-docbook-dtd-3.1.cat \
     /etc/sgml/sgml-docbook.cat
-sudo /sbin/ldconfig
 
 cat >> /usr/share/sgml/docbook/sgml-dtd-3.1/catalog << "EOF"
   -- Begin Single Major Version catalog changes --

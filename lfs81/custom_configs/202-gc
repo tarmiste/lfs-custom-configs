@@ -33,7 +33,6 @@ make
 make -j1 install &&
 install -v -m644 doc/gc.man /usr/share/man/man3/gc_malloc.3 &&
 ln -sfv gc_malloc.3 /usr/share/man/man3/gc.3
-ldconfig
 
 #
 

@@ -26,7 +26,6 @@ make
 #./frontend/faad -o sample.wav ../sample.aac
 #aplay sample.wav
 make -j1 install
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

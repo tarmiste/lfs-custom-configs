@@ -24,7 +24,6 @@ PATCH1=
             --docdir=/usr/share/doc/libdvdnav-5.0.3 &&
 make
 make -j1 install
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

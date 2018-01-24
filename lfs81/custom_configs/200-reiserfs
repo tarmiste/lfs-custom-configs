@@ -25,7 +25,6 @@ autoreconf -fiv             &&
 
 make
 make -j1 install
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

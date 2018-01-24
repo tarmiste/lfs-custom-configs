@@ -22,7 +22,6 @@ PATCH1=
 ./configure --prefix=/ --mandir=/usr/share/man &&
 make
 make -j1 install
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

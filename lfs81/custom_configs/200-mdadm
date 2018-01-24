@@ -25,7 +25,6 @@ make
 #make test
 #./test --keep-going --logdir=test-logs --save-logs
 make -j1 install
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

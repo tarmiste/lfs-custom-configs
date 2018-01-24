@@ -27,7 +27,6 @@ make
 #faad Front_Left.mp4
 #aplay Front_Left.wav
 make -j1 install
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

@@ -32,7 +32,6 @@ sed -i 's/xlocale.h/locale.h/' src/framework/mlt_property.h &&
             --qt-includedir=$QT5DIR/include &&
 make
 make -j1 install
-ldconfig
 
 #
 

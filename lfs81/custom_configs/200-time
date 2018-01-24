@@ -25,7 +25,6 @@ sed -i 's/lu", ptok ((UL) resp->ru.ru_maxrss)/ld", resp->ru.ru_maxrss/' time.c &
 ./configure --prefix=/usr --infodir=/usr/share/info                            &&
 make
 make -j1 install
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

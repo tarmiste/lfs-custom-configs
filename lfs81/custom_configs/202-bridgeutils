@@ -26,7 +26,6 @@ autoconf                  &&
 ./configure --prefix=/usr &&
 make
 make -j1 install
-ldconfig
 
 [[ ! -d $SRC_DIR/blfs-bootscripts ]] && mkdir $SRC_DIR/blfs-bootscripts
 pushd $SRC_DIR/blfs-bootscripts

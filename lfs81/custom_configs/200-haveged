@@ -25,7 +25,6 @@ make
 make -j1 install &&
 mkdir -pv    /usr/share/doc/haveged-1.9.1 &&
 cp -v README /usr/share/doc/haveged-1.9.1
-sudo /sbin/ldconfig
 
 # add to blfs bootscripts config
 #make -j1 install-haveged

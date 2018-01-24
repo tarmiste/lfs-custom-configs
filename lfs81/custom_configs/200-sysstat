@@ -28,7 +28,6 @@ conf_dir=/etc/sysconfig   \
             --disable-file-attr &&
 make
 make -j1 install
-ldconfig
 
 
 [[ ! -d $SRC_DIR/blfs-bootscripts ]] && mkdir $SRC_DIR/blfs-bootscripts

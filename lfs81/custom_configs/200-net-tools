@@ -25,7 +25,6 @@ sed -i '/#include <netinet\/ip.h>/d'  iptunnel.c &&
 yes "" | make config &&
 make
 make -j1 update
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

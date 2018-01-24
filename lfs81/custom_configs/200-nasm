@@ -26,7 +26,6 @@ make -j1 install
 install -m755 -d         /usr/share/doc/nasm-2.13.01/html  &&
 cp -v doc/html/*.html    /usr/share/doc/nasm-2.13.01/html  &&
 cp -v doc/*.{txt,ps,pdf} /usr/share/doc/nasm-2.13.01
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

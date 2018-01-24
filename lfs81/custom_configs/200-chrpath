@@ -22,7 +22,6 @@ PATCH1=
 ./configure --prefix=/usr &&
 make
 make -j1 docdir=/usr/share/doc/chrpath-0.16 install
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

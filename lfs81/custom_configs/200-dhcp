@@ -38,7 +38,6 @@ make -j1 -C server install
 make -j1 install                   &&
 mv -v /usr/sbin/dhclient /sbin &&
 install -v -m755 client/scripts/linux /sbin/dhclient-script
-sudo /sbin/ldconfig
 
 install -vdm755 /etc/dhcp &&
 cat > /etc/dhcp/dhclient.conf << "EOF"

@@ -31,7 +31,6 @@ sed -i 's#$(LIBRARY) ##'            config/rules.mk         &&
             $([ $(uname -m) = x86_64 ] && echo --enable-64bit) &&
 make
 make -j1 install
-ldconfig
 
 #
 

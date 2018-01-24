@@ -31,7 +31,6 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr    \
 
 make
 make -j1 install
-ldconfig
 
 #
 

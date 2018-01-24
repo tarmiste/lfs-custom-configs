@@ -40,7 +40,6 @@ Version: 0.15.1b
 Libs: -L\${libdir} -lmad
 Cflags: -I\${includedir}
 EOF
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

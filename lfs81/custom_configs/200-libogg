@@ -25,7 +25,6 @@ PATCH1=
 make
 #make -k check || true
 make -j1 install
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

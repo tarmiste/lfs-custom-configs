@@ -52,7 +52,6 @@ ln -v -sf tclsh8.6 /usr/bin/tclsh &&
 chmod -v 755 /usr/lib/libtcl8.6.so
 mkdir -v -p /usr/share/doc/tcl-8.6.7 &&
 cp -v -r  ../html/* /usr/share/doc/tcl-8.6.7
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

@@ -23,9 +23,8 @@ export GMAKE_NOWARN=true &&
 make INS_BASE=/usr DEFINSUSR=root DEFINSGRP=root
 export GMAKE_NOWARN=true &&
 make -j1 INS_BASE=/usr DEFINSUSR=root DEFINSGRP=root install &&
-install -v -m755 -d /usr/share/doc/cdrtools-3.02a07 &&
-install -v -m644 README* ABOUT doc/*.ps /usr/share/doc/cdrtools-3.02a07
-sudo /sbin/ldconfig
+#install -v -m755 -d /usr/share/doc/cdrtools-3.02a07 &&
+#install -v -m644 README* ABOUT doc/*.ps /usr/share/doc/cdrtools-3.02a07
 
 ## EDITHOOK4
 xEOFx

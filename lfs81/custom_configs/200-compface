@@ -23,7 +23,6 @@ PATCH1=
 make
 make -j1 install &&
 install -m755 -v xbm2xface.pl /usr/bin
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

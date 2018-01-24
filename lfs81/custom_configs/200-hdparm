@@ -24,7 +24,6 @@ PATCH1=
 make
 make -j1 install
 make -j1 binprefix=/usr install
-ldconfig
 
 #
 

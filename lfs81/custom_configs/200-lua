@@ -57,7 +57,6 @@ mkdir -pv                      /usr/share/doc/lua-5.3.4 &&
 cp -v doc/*.{html,css,gif,png} /usr/share/doc/lua-5.3.4 &&
 
 install -v -m644 -D lua.pc /usr/lib/pkgconfig/lua.pc
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

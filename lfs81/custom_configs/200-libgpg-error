@@ -24,7 +24,6 @@ make
 #make -k check || true
 make -j1 install &&
 install -v -m644 -D README /usr/share/doc/libgpg-error-1.27/README
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

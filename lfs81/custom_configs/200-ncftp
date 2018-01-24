@@ -29,7 +29,6 @@ make -j1 install
 ./configure --prefix=/usr --sysconfdir=/etc &&
 make
 make -j1 install
-ldconfig
 
 
 #

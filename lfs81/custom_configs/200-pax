@@ -32,7 +32,6 @@ make -C libuxre                          &&
 make -C cpio
 install -v -m755 cpio/pax_su3 /usr/bin/pax &&
 install -v -m644 cpio/pax.1 /usr/share/man/man1
-ldconfig
 
 #
 

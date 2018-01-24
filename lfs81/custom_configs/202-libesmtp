@@ -24,7 +24,6 @@ autoreconf -fi
 ./configure --prefix=/usr &&
 make
 make -j1 install
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

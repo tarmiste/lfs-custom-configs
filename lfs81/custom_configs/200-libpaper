@@ -79,7 +79,6 @@ exit 0
 EOF
 
 chmod -v 755 /usr/bin/run-parts
-sudo /sbin/ldconfig
 
 cat > /etc/papersize << "EOF"
 a4

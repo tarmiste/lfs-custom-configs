@@ -38,7 +38,6 @@ install -v -m644 manual/aspell-dev.html/* \
     /usr/share/doc/aspell-0.60.6.1/aspell-dev.html
 install -v -m 755 scripts/ispell /usr/bin/
 install -v -m 755 scripts/spell /usr/bin/
-ldconfig
 
 ./configure &&
 make

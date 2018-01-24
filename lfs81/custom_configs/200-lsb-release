@@ -24,7 +24,6 @@ sed -i "s|n/a|unavailable|" lsb_release
               --alt_version_key=program_version ./lsb_release > lsb_release.1
 install -v -m 644 lsb_release.1 /usr/share/man/man1/lsb_release.1 &&
 install -v -m 755 lsb_release /usr/bin/lsb_release
-sudo /sbin/ldconfig
 
 ## EDITHOOK4
 xEOFx

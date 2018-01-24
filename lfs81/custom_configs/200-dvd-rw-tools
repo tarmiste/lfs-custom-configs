@@ -26,7 +26,6 @@ make all rpl8 btcflash
 make -j1 prefix=/usr install &&
 install -v -m644 -D index.html \
     /usr/share/doc/dvd+rw-tools-7.1/index.html
-ldconfig
 
 #
 

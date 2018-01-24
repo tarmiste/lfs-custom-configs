@@ -24,7 +24,6 @@ PATCH1=
 ./configure --prefix=/usr &&
 make
 make -j1 install
-ldconfig
 
 #
 

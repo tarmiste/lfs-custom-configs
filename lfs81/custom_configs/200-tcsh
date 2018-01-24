@@ -36,7 +36,6 @@ ln -v -sf tcsh.1 /usr/share/man/man1/csh.1 &&
 install -v -m755 -d          /usr/share/doc/tcsh-6.20.00/html &&
 install -v -m644 tcsh.html/* /usr/share/doc/tcsh-6.20.00/html &&
 install -v -m644 FAQ         /usr/share/doc/tcsh-6.20.00
-ldconfig
 
 cat >> /etc/shells << "EOF"
 /bin/tcsh
