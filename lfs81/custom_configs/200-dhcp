@@ -62,7 +62,8 @@ EOF
 
 install -v -dm 755 /var/lib/dhclient
 
-dhclient **EDITME<eth0>EDITME**
+# v Must be done by user
+#dhclient **EDITME<eth0>EDITME**
 
 # add to blfs bootscripts config
 #make -j1 install-service-dhclient
