@@ -20,18 +20,19 @@ PATCH1=
 ( cat << "xEOFx"
 ############# Building package
 ## EDITHOOK_BLDSTART
+#XXX remove me
 
-mkdir -vp build &&
-cd        build &&
-
-cmake -DCMAKE_INSTALL_PREFIX=/usr    \
-      -DCMAKE_BUILD_TYPE=Release     \
-      -DOpenCV_DIR=/usr/share/OpenCV \
-      -Wno-dev ..                    &&
-
-make
-make -j1 install
-
+#mkdir -vp build &&
+#cd        build &&
+#
+#cmake -DCMAKE_INSTALL_PREFIX=/usr    \
+#      -DCMAKE_BUILD_TYPE=Release     \
+#      -DOpenCV_DIR=/usr/share/OpenCV \
+#      -Wno-dev ..                    &&
+#
+#make
+#make -j1 install
+#
 #
 
 

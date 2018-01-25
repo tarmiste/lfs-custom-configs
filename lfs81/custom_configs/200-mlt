@@ -1,7 +1,7 @@
 #
 ### mlt
 #
-## This package has no dependencies
+## This package has no dependencies  XXX maybe not true
 #
 # mlt
 #
@@ -21,17 +21,17 @@ PATCH1=
 ############# Building package
 ## EDITHOOK_BLDSTART
 
-sed -i 's/xlocale.h/locale.h/' src/framework/mlt_property.h &&
+#sed -i 's/xlocale.h/locale.h/' src/framework/mlt_property.h &&
 
-./configure --prefix=/usr            \
-            --enable-gpl             \
-            --enable-gpl3            \
-            --enable-opengl          \
-            --disable-gtk2           \
-            --qt-libdir=$QT5DIR/lib  \
-            --qt-includedir=$QT5DIR/include &&
-make
-make -j1 install
+#./configure --prefix=/usr            \
+#            --enable-gpl             \
+#            --enable-gpl3            \
+#            --enable-opengl          \
+#            --disable-gtk2           \
+#            --qt-libdir=$QT5DIR/lib  \
+#            --qt-includedir=$QT5DIR/include &&
+#make
+#make -j1 install
 
 #
 

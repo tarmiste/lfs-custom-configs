@@ -1,7 +1,7 @@
 #
 # xdg-user-dirs
 #
-## This package has no dependencies
+## This package has no dependencies  (xslt to build docs though )
 ## EDITHOOK1
 PKG="xdg-user-dirs"
 PKG_VERSION="0.16"
@@ -19,7 +19,8 @@ PATCH1=
 ( cat << "xEOFx"
 #######  Building package
 
-./configure --prefix=/usr --sysconfdir=/etc &&
+./configure --prefix=/usr --sysconfdir=/etc \
+--disable-docs
 make
 make -j1 install
 
