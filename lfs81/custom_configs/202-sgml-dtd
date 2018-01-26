@@ -19,6 +19,10 @@ PATCH1="http://www.docbook.org/sgml/4.5/docbook-4.5.zip 07c581f4bbcba6d3aac85360
 ( cat << "xEOFx"
 #######  Building package
 
+mkdir -pv sgml-dtd-tmp
+cd sgml-dtd-tmp
+unzip ../docbook-4.5.zip
+
 sed -i -e '/ISO 8879/d' \
        -e '/gml/d' docbook.cat
 install -v -d /usr/share/sgml/docbook/sgml-dtd-4.5 &&

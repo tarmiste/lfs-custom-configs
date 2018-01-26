@@ -4,6 +4,7 @@
 # Dependencies:
 #    Required: "libburn" 
 #    Required: "libisofs" 
+# XXX missing optional dep of doxygen
 #
 # libisoburn
 #
@@ -27,10 +28,10 @@ PATCH1=
             --disable-static           \
             --enable-pkg-check-modules &&
 make
-doxygen doc/doxygen.conf
+#doxygen doc/doxygen.conf
 make -j1 install
-install -v -dm755 /usr/share/doc/libisoburn-1.4.6 &&
-install -v -m644 doc/html/* /usr/share/doc/libisoburn-1.4.6
+#install -v -dm755 /usr/share/doc/libisoburn-1.4.6 &&
+#install -v -m644 doc/html/* /usr/share/doc/libisoburn-1.4.6
 
 #
 
