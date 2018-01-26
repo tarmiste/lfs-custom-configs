@@ -1,7 +1,11 @@
+PKG="libnsl"
+PKG_VERSION="1.1.0"
+# Dependencies:
+#    Required: "libtirpc" 
+#    Required: "rpcsvc-proto" 
 #
 # libnsl
 #
-## This package has one dependencies   XXX not true.   Fix me.
 ## EDITHOOK1
 PKG="libnsl"
 PKG_VERSION="1.1.0"
@@ -15,9 +19,9 @@ for i in PATCH{1..10}; do
 done
 PATCH1=
 
-## EDITHOOK3
 ( cat << "xEOFx"
-#######  Building package
+############# Building package
+## EDITHOOK_BLDSTART
 
 autoreconf -fi                &&
 ./configure --sysconfdir=/etc &&
@@ -25,9 +29,13 @@ make
 make -j1 install                  &&
 mv /usr/lib/libnsl.so.2* /lib &&
 ln -sfv ../../lib/libnsl.so.2.0.0 /usr/lib/libnsl.so
-sudo /sbin/ldconfig
+ldconfig
 
-## EDITHOOK4
+#
+
+
+## EDITHOOK_BLDEND #
+ #
 xEOFx
 ) > tmp
 

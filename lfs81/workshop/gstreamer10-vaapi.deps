@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gst10-plugins-bad" 
 #    Required: "gst10-plugins-base" 
 #    Required: "gstreamer10" 

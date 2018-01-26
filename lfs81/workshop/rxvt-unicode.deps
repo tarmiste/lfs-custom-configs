@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "x-window-system" 
 #    Optional: "gdk-pixbuf" 
 #    Optional: "startup-notification" 

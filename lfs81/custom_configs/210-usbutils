@@ -1,0 +1,43 @@
+PKG="usbutils"
+PKG_VERSION="008"
+# Dependencies:
+#    Required: "libusb" 
+#
+# usbutils
+#
+## EDITHOOK1
+PKG="usbutils"
+PKG_VERSION="008"
+PKG_FILE="usbutils-008.tar.xz"
+URL="https://www.kernel.org/pub/linux/utils/usb/usbutils/usbutils-008.tar.xz"
+MD5="2780b6ae21264c888f8f30fb2aab1259"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+sed -i '/^usbids/ s:usb.ids:hwdata/&:' lsusb.py &&
+
+./configure --prefix=/usr --datadir=/usr/share/hwdata &&
+make
+make -j1 install
+install -dm755 /usr/share/hwdata/ &&
+wget http://www.linux-usb.org/usb.ids -O /usr/share/hwdata/usb.ids
+ldconfig
+
+wget http://www.linux-usb.org/usb.ids -O /usr/share/hwdata/usb.ids
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

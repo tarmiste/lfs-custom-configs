@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "atk" 
 #    Required: "cogl" 
 #    Required: "json-glib" 

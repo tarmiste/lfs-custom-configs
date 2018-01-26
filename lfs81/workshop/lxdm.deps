@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gtk2" 
 #    Required: "iso-codes" 
 #    Required: "librsvg" 

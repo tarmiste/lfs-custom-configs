@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "libvorbis" 
 #    Optional: "curl" 
 #    Optional: "flac" 

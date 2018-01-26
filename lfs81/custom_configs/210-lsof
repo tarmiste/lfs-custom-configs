@@ -1,0 +1,40 @@
+PKG="lsof"
+PKG_VERSION="4.89"
+# Dependencies:
+#    Required: "libtirpc" 
+#
+# lsof
+#
+## EDITHOOK1
+PKG="lsof"
+PKG_VERSION="4.89"
+PKG_FILE="lsof_4.89.tar.bz2"
+URL="https://www.mirrorservice.org/sites/lsof.itap.purdue.edu/pub/tools/unix/lsof/lsof_4.89.tar.bz2"
+MD5="1b9cd34f3fb86856a125abbf2be3a386"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+tar -xf lsof_4.89_src.tar  &&
+cd lsof_4.89_src           &&
+./Configure -n linux       &&
+make CFGL="-L./lib -ltirpc"
+install -v -m0755 -o root -g root lsof /usr/bin &&
+install -v lsof.8 /usr/share/man/man8
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "atk" 
 #    Required: "gdk-pixbuf" 
 #    Required: "pango" 

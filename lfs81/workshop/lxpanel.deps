@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "keybinder2" 
 #    Required: "libwnck2" 
 #    Required: "lxmenu-data" 

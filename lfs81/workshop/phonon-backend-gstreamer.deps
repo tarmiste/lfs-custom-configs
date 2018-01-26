@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gstreamer10" 
 #    Required: "libxml2" 
 #    Required: "phonon" 

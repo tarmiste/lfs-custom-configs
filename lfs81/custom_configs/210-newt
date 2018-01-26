@@ -1,0 +1,46 @@
+PKG="newt"
+PKG_VERSION="0.52.20"
+# Dependencies:
+#    Required: "popt" 
+#    Required: "slang" 
+#    Recommended: "gpm" 
+#    Optional: "python2" 
+#    Optional: "python3" 
+#
+# newt
+#
+## EDITHOOK1
+PKG="newt"
+PKG_VERSION="0.52.20"
+PKG_FILE="newt-0.52.20.tar.gz"
+URL="https://releases.pagure.org/newt/newt-0.52.20.tar.gz"
+MD5="70b288f821234593a8e7920e435b259b"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+sed -e 's/^LIBNEWT =/#&/' \
+    -e '/install -m 644 $(LIBNEWT)/ s/^/#/' \
+    -e 's/$(LIBNEWT)/$(LIBNEWTSONAME)/g' \
+    -i Makefile.in                           &&
+
+./configure --prefix=/usr --with-gpm-support &&
+make
+make -j1 install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gnome-autoar" 
 #    Required: "gnome-desktop" 
 #    Required: "libnotify" 

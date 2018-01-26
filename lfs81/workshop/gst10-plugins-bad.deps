@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gst10-plugins-base" 
 #    Recommended: "libdvdnav" 
 #    Recommended: "libdvdread" 

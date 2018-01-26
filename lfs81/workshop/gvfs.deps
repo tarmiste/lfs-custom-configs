@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "dbus" 
 #    Required: "glib2" 
 #    Recommended: "gcr" 

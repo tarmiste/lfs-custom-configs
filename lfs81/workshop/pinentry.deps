@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "libassuan" 
 #    Required: "libgpg-error" 
 #    Optional: "emacs" 

@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "libgudev" 
 #    Recommended: "gobject-introspection" 
 #    Recommended: "libmbim" 

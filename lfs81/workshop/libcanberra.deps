@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "libvorbis" 
 #    Recommended: "alsa-lib" 
 #    Recommended: "gstreamer10" 

@@ -1,0 +1,40 @@
+PKG="highlight"
+PKG_VERSION="3.39"
+# Dependencies:
+#    Required: "boost" 
+#    Required: "lua" 
+#    Optional: "qt5" 
+#
+# highlight
+#
+## EDITHOOK1
+PKG="highlight"
+PKG_VERSION="3.39"
+PKG_FILE="highlight-3.39.tar.bz2"
+URL="http://www.andre-simon.de/zip/highlight-3.39.tar.bz2"
+MD5="09eb1c78c8599125a0a7fe616e850b76"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+make
+make gui
+make -j1 install
+make -j1 install-gui
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

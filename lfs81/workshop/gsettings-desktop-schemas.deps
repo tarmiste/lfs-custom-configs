@@ -1,2 +1,3 @@
+# Dependencies:
 #    Required: "glib2" 
 #    Recommended: "gobject-introspection" 

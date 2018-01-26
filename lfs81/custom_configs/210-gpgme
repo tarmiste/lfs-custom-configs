@@ -1,0 +1,45 @@
+PKG="gpgme"
+PKG_VERSION="1.9.0"
+# Dependencies:
+#    Required: "libassuan" 
+#    Optional: "clisp" 
+#    Optional: "doxygen" 
+#    Optional: "gnupg2" 
+#    Optional: "python2" 
+#    Optional: "python3" 
+#    Optional: "qt5" 
+#    Optional: "swig" 
+#
+# gpgme
+#
+## EDITHOOK1
+PKG="gpgme"
+PKG_VERSION="1.9.0"
+PKG_FILE="gpgme-1.9.0.tar.bz2"
+URL="https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-1.9.0.tar.bz2"
+MD5="1e00bb8ef04d1d05d5a0f19e143854c3"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --prefix=/usr &&
+make
+#make -k check || true
+make -j1 install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

@@ -1,0 +1,42 @@
+PKG="mpg123"
+PKG_VERSION="1.25.6"
+# Dependencies:
+#    Recommended: "alsa-lib" 
+#    Optional: "JACK" 
+#    Optional: "OpenAL" 
+#    Optional: "PortAudio" 
+#    Optional: "pulseaudio" 
+#    Optional: "sdl" 
+#
+# mpg123
+#
+## EDITHOOK1
+PKG="mpg123"
+PKG_VERSION="1.25.6"
+PKG_FILE="mpg123-1.25.6.tar.bz2"
+URL="https://downloads.sourceforge.net/mpg123/mpg123-1.25.6.tar.bz2"
+MD5="43336bef78f67c2e66c4f6c288ca1eb3"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --prefix=/usr &&
+make
+make -j1 install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

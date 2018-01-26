@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "desktop-file-utils" 
 #    Required: "gtk3" 
 #    Required: "itstool" 

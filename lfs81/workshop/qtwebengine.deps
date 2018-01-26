@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "nss" 
 #    Required: "pulseaudio" 
 #    Required: "qt5" 

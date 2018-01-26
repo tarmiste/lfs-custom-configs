@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "json-c" 
 #    Required: "libsndfile" 
 #    Recommended: "alsa-lib" 

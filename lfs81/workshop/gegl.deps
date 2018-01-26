@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "babl" 
 #    Required: "json-glib" 
 #    Optional: "MRG" 

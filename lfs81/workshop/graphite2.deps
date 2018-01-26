@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "cmake" 
 #    Optional: "freetype2" 
 #    Optional: "graphite-font" 

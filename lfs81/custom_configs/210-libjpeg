@@ -1,0 +1,44 @@
+PKG="libjpeg"
+PKG_VERSION="1.5.2"
+# Dependencies:
+#    Required: "nasm" 
+#    Required: "yasm" 
+#
+# libjpeg
+#
+## EDITHOOK1
+PKG="libjpeg"
+PKG_VERSION=
+PKG_FILE="libjpeg-turbo-1.5.2.tar.gz"
+URL="https://downloads.sourceforge.net/libjpeg-turbo/libjpeg-turbo-1.5.2.tar.gz"
+MD5="6b4923e297a7eaa255f08511017a8818"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --prefix=/usr           \
+            --mandir=/usr/share/man \
+            --with-jpeg8            \
+            --disable-static        \
+            --docdir=/usr/share/doc/libjpeg-turbo-1.5.2 &&
+make
+#make -k test || true
+rm -f /usr/lib/libjpeg.so*
+make -j1 install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

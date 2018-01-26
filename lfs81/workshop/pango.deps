@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "fontconfig" 
 #    Required: "freetype2" 
 #    Required: "glib2" 

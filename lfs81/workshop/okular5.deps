@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "kf5-frameworks" 
 #    Recommended: "libkexiv2" 
 #    Recommended: "libtiff" 

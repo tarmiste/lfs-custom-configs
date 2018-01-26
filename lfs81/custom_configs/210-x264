@@ -1,0 +1,42 @@
+PKG="x264"
+PKG_VERSION="20170822-2245"
+# Dependencies:
+#    Recommended: "yasm" 
+#    Optional: "ffms2" 
+#    Optional: "gpac" 
+#    Optional: "liblsmash" 
+#
+# x264
+#
+## EDITHOOK1
+PKG="x264"
+PKG_VERSION="20170822-2245"
+PKG_FILE="x264-snapshot-20170822-2245-stable.tar.bz2 "
+URL="https://download.videolan.org/x264/snapshots/x264-snapshot-20170822-2245-stable.tar.bz2 "
+MD5="b1760207e70355f24d30ad44d13d3589"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --prefix=/usr \
+            --enable-shared \
+            --disable-cli &&
+make
+make -j1 install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

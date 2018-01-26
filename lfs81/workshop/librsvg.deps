@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gdk-pixbuf" 
 #    Required: "libcroco" 
 #    Required: "pango" 

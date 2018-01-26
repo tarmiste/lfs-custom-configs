@@ -1,0 +1,62 @@
+PKG="python3"
+PKG_VERSION="3.6.2"
+# Dependencies:
+#    Recommended: "libffi" 
+#    Optional: "bluez" 
+#    Optional: "db" 
+#    Optional: "gdb" 
+#    Optional: "openssl" 
+#    Optional: "sqlite" 
+#    Optional: "tk" 
+#    Optional: "valgrind" 
+#
+# python3
+#
+## EDITHOOK1
+PKG="python3"
+PKG_VERSION="3.6.2"
+PKG_FILE="Python-3.6.2.tar.xz python-3.6.2-docs-html.tar.bz2"
+URL="https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tar.xz"
+MD5="2c68846471994897278364fc18730dd9"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+CXX="/usr/bin/g++"              \
+./configure --prefix=/usr       \
+            --enable-shared     \
+            --with-system-expat \
+            --with-system-ffi   \
+            --with-ensurepip=yes &&
+make
+make -j1 install &&
+chmod -v 755 /usr/lib/libpython3.6m.so &&
+chmod -v 755 /usr/lib/libpython3.so
+install -v -dm755 /usr/share/doc/python-3.6.2/html &&
+tar --strip-components=1 \
+    --no-same-owner \
+    --no-same-permissions \
+    -C /usr/share/doc/python-3.6.2/html \
+    -xvf ../python-3.6.2-docs-html.tar.bz2
+#make -k test || true
+ldconfig
+
+ln -svfn python-3.6.2 /usr/share/doc/python-3
+
+export PYTHONDOCS=/usr/share/doc/python-3/html
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

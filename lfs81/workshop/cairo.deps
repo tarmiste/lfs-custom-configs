@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "libpng" 
 #    Required: "pixman" 
 #    Recommended: "fontconfig" 

@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gsettings-desktop-schemas" 
 #    Required: "gtksourceview" 
 #    Required: "itstool" 

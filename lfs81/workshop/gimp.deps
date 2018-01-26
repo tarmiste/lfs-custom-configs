@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gegl" 
 #    Required: "gtk2" 
 #    Recommended: "pygtk" 

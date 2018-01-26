@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "yasm" 
 #    Recommended: "gtk2" 
 #    Recommended: "libvdpau-va-gl" 

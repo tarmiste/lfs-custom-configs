@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gtksourceview" 
 #    Required: "gtksourceview-2" 
 #    Optional: "dbus-glib" 

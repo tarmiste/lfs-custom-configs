@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gtk-xfce-engine" 
 #    Required: "gtk2" 
 #    Recommended: "startup-notification" 

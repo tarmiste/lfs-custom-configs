@@ -1,0 +1,48 @@
+PKG="libvpx"
+PKG_VERSION="1.6.1"
+# Dependencies:
+#    Required: "nasm" 
+#    Required: "which" 
+#    Required: "yasm" 
+#    Optional: "doxygen" 
+#    Optional: "php" 
+#
+# libvpx
+#
+## EDITHOOK1
+PKG="libvpx"
+PKG_VERSION="1.6.1"
+PKG_FILE="libvpx-1.6.1.tar.bz2"
+URL="http://storage.googleapis.com/downloads.webmproject.org/releases/webm/libvpx-1.6.1.tar.bz2"
+MD5="a19518c8111fa93bdabdd85259162611"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+sed -i 's/cp -p/cp/' build/make/Makefile &&
+
+mkdir libvpx-build            &&
+cd    libvpx-build            &&
+
+../configure --prefix=/usr    \
+             --enable-shared  \
+             --disable-static &&
+make
+make -j1 install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

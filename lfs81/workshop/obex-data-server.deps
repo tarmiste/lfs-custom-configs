@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "bluez" 
 #    Required: "dbus-glib" 
 #    Required: "gdk-pixbuf" 

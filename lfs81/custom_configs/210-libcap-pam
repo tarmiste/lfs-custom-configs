@@ -1,0 +1,37 @@
+PKG="libcap-pam"
+PKG_VERSION="2.25 with PAM"
+# Dependencies:
+#    Required: "linux-pam" 
+#
+# libcap-pam
+#
+## EDITHOOK1
+PKG="libcap-pam"
+PKG_VERSION=
+PKG_FILE="libcap-2.25.tar.xz"
+URL="https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.25.tar.xz"
+MD5="6666b839e5d46c2ad33fc8aa2ceb5f77"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+make -C pam_cap
+install -v -m755 pam_cap/pam_cap.so /lib/security &&
+install -v -m644 pam_cap/capability.conf /etc/security
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

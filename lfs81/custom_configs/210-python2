@@ -1,0 +1,60 @@
+PKG="python2"
+PKG_VERSION="2.7.13"
+# Dependencies:
+#    Recommended: "libffi" 
+#    Optional: "bluez" 
+#    Optional: "openssl" 
+#    Optional: "sqlite" 
+#    Optional: "tk" 
+#    Optional: "valgrind" 
+#
+# python2
+#
+## EDITHOOK1
+PKG="python2"
+PKG_VERSION="2.7.13"
+PKG_FILE="Python-2.7.13.tar.xz python-2.7.13-docs-html.tar.bz2"
+URL="https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tar.xz"
+MD5="53b43534153bb2a0363f08bae8b9d990"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --prefix=/usr       \
+            --enable-shared     \
+            --with-system-expat \
+            --with-system-ffi   \
+            --with-ensurepip=yes \
+            --enable-unicode=ucs4 &&
+make
+#make -k test || true
+make -j1 install &&
+chmod -v 755 /usr/lib/libpython2.7.so.1.0
+install -v -dm755 /usr/share/doc/python-2.7.13 &&
+
+tar --strip-components=1                     \
+    --no-same-owner                          \
+    --directory /usr/share/doc/python-2.7.13 \
+    -xvf ../python-2.7.13-docs-html.tar.bz2 &&
+
+find /usr/share/doc/python-2.7.13 -type d -exec chmod 0755 {} \; &&
+find /usr/share/doc/python-2.7.13 -type f -exec chmod 0644 {} \;
+ldconfig
+
+export PYTHONDOCS=/usr/share/doc/python-2.7.13
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

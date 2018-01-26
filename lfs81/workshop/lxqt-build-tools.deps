@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "cmake" 
 #    Required: "lxqt-pre-install" 
 #    Required: "qt5" 

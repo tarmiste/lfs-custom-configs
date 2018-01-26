@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gstreamer10" 
 #    Recommended: "alsa-lib" 
 #    Recommended: "cdparanoia" 

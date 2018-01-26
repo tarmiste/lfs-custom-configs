@@ -1,3 +1,4 @@
+# Dependencies:
 #    Optional: "alsa" 
 #    Optional: "pulseaudio" 
 #    Optional: "x-window-system" 

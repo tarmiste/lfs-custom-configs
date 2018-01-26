@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "adwaita-icon-theme" 
 #    Required: "gtkmm3" 
 #    Required: "itstool" 

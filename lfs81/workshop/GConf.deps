@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "dbus-glib" 
 #    Required: "libxml2" 
 #    Recommended: "gobject-introspection" 

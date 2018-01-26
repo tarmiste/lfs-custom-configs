@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gobject-introspection" 
 #    Required: "gtk3" 
 #    Recommended: "pygobject3" 

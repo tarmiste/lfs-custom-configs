@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "alsa-lib" 
 #    Required: "cups" 
 #    Required: "giflib" 

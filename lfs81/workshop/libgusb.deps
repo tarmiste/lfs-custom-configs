@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "libusb" 
 #    Recommended: "gobject-introspection" 
 #    Recommended: "usbutils" 

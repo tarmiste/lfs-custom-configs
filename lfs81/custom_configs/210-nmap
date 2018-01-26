@@ -1,0 +1,45 @@
+PKG="nmap"
+PKG_VERSION="7.60"
+# Dependencies:
+#    Recommended: "liblinear" 
+#    Recommended: "libpcap" 
+#    Recommended: "pcre" 
+#    Optional: "openssl" 
+#    Optional: "pygtk" 
+#    Optional: "python2" 
+#    Optional: "subversion" 
+#
+# nmap
+#
+## EDITHOOK1
+PKG="nmap"
+PKG_VERSION="7.60"
+PKG_FILE="nmap-7.60.tar.bz2"
+URL="http://nmap.org/dist/nmap-7.60.tar.bz2"
+MD5="4e454266559ddf2c4e2109866c62560c"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --prefix=/usr --with-liblua=included &&
+make
+sed -i 's/lib./lib/' zenmap/test/run_tests.py
+#make -k check || true
+make -j1 install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

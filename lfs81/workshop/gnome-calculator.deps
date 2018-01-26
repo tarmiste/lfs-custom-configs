@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gtk3" 
 #    Required: "gtksourceview" 
 #    Required: "itstool" 

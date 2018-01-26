@@ -1,0 +1,44 @@
+PKG="dejagnu"
+PKG_VERSION="1.6"
+# Dependencies:
+#    Required: "expect" 
+#    Optional: "docbook-utils" 
+#    Optional: "docbook2X" 
+#
+# dejagnu
+#
+## EDITHOOK1
+PKG="dejagnu"
+PKG_VERSION="1.6"
+PKG_FILE="dejagnu-1.6.tar.gz"
+URL="https://ftp.gnu.org/gnu/dejagnu/dejagnu-1.6.tar.gz"
+MD5="1fdc2eb0d592c4f89d82d24dfdf02f0b"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --prefix=/usr &&
+makeinfo --html --no-split -o doc/dejagnu.html doc/dejagnu.texi &&
+makeinfo --plaintext       -o doc/dejagnu.txt  doc/dejagnu.texi
+#make -k check || true
+make -j1 install &&
+install -v -dm755   /usr/share/doc/dejagnu-1.6 &&
+install -v -m644    doc/dejagnu.{html,txt} \
+                    /usr/share/doc/dejagnu-1.6
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

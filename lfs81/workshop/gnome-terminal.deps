@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "dconf" 
 #    Required: "gsettings-desktop-schemas" 
 #    Required: "itstool" 

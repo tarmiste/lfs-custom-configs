@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "cryptsetup" 
 #    Required: "glib2" 
 #    Required: "gpgme" 

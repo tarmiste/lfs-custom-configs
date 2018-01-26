@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "glib2" 
 #    Recommended: "gtk2" 
 #    Recommended: "lua" 

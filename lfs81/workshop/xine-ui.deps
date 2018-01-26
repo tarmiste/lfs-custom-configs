@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "shared-mime-info" 
 #    Required: "xine-lib" 
 #    Optional: "LIRC" 

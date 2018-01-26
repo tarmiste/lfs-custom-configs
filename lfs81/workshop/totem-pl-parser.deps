@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gmime" 
 #    Required: "libsoup" 
 #    Recommended: "gobject-introspection" 

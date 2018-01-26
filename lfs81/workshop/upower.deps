@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "dbus-glib" 
 #    Required: "libgudev" 
 #    Required: "libusb" 

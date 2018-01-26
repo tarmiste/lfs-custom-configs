@@ -1,0 +1,43 @@
+PKG="alsa-plugins"
+PKG_VERSION="1.1.4"
+# Dependencies:
+#    Required: "alsa-lib" 
+#    Optional: "JACK" 
+#    Optional: "ffmpeg" 
+#    Optional: "libsamplerate" 
+#    Optional: "maemo" 
+#    Optional: "pulseaudio" 
+#    Optional: "speex" 
+#
+# alsa-plugins
+#
+## EDITHOOK1
+PKG="alsa-plugins"
+PKG_VERSION="1.1.4"
+PKG_FILE="alsa-plugins-1.1.4.tar.bz2"
+URL="ftp://ftp.alsa-project.org/pub/plugins/alsa-plugins-1.1.4.tar.bz2"
+MD5="de51130a7444b79b2dd3c25e28420754"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure &&
+make
+make -j1 install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

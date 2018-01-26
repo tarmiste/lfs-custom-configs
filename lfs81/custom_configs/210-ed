@@ -1,0 +1,38 @@
+PKG="ed"
+PKG_VERSION="1.14.2"
+# Dependencies:
+#    Required: "libarchive" 
+#
+# ed
+#
+## EDITHOOK1
+PKG="ed"
+PKG_VERSION="1.14.2"
+PKG_FILE="ed-1.14.2.tar.lz"
+URL="https://ftp.gnu.org/gnu/ed/ed-1.14.2.tar.lz"
+MD5="273d04778b2a51f7c3cbfcd2001876bf"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --prefix=/usr --bindir=/bin &&
+make
+#make -k check || true
+make -j1 install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

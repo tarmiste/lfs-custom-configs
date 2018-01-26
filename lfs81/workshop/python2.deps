@@ -1,3 +1,4 @@
+# Dependencies:
 #    Recommended: "libffi" 
 #    Optional: "bluez" 
 #    Optional: "openssl" 

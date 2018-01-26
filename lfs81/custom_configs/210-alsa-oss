@@ -1,0 +1,37 @@
+PKG="alsa-oss"
+PKG_VERSION="1.0.28"
+# Dependencies:
+#    Required: "alsa-lib" 
+#
+# alsa-oss
+#
+## EDITHOOK1
+PKG="alsa-oss"
+PKG_VERSION="1.0.28"
+PKG_FILE="alsa-oss-1.0.28.tar.bz2"
+URL="ftp://ftp.alsa-project.org/pub/oss-lib/alsa-oss-1.0.28.tar.bz2"
+MD5="91f57e8cee1ad4cc956caa8b62ac5d43"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --disable-static &&
+make
+make -j1 install
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

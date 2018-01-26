@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "alsa-lib" 
 #    Required: "cpio" 
 #    Required: "cups" 

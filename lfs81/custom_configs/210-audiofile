@@ -1,0 +1,43 @@
+PKG="audiofile"
+PKG_VERSION="0.3.6"
+# Dependencies:
+#    Required: "alsa-lib" 
+#    Recommended: "flac" 
+#    Optional: "asciidoc" 
+#    Optional: "valgrind" 
+#
+# audiofile
+#
+## EDITHOOK1
+PKG="audiofile"
+PKG_VERSION="0.3.6"
+PKG_FILE="audiofile-0.3.6.tar.xz"
+URL="http://ftp.gnome.org/pub/gnome/sources/audiofile/0.3/audiofile-0.3.6.tar.xz"
+MD5="235dde14742317328f0109e9866a8008"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+CXXFLAGS=-std=c++98 \
+./configure --prefix=/usr --disable-static &&
+
+make
+make -j1 install
+#make -k check || true
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

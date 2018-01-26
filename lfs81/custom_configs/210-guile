@@ -1,0 +1,62 @@
+PKG="guile"
+PKG_VERSION="2.2.2"
+# Dependencies:
+#    Required: "gc" 
+#    Required: "libffi" 
+#    Required: "libunistring" 
+#    Optional: "emacs" 
+#    Optional: "gdb" 
+#
+# guile
+#
+## EDITHOOK1
+PKG="guile"
+PKG_VERSION="2.2.2"
+PKG_FILE="guile-2.2.2.tar.xz"
+URL="https://ftp.gnu.org/gnu/guile/guile-2.2.2.tar.xz"
+MD5="d3c002bcf92dbf68f6de45803874db0f"
+#
+## EDITHOOK2
+for i in PATCH{1..10}; do
+   unset $i
+done
+PATCH1=
+
+( cat << "xEOFx"
+############# Building package
+## EDITHOOK_BLDSTART
+
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/guile-2.2.2 &&
+make      &&
+make html &&
+
+makeinfo --plaintext -o doc/r5rs/r5rs.txt doc/r5rs/r5rs.texi &&
+makeinfo --plaintext -o doc/ref/guile.txt doc/ref/guile.texi
+#make -k  || true
+make -j1 install      &&
+make -j1 install-html &&
+
+mv /usr/lib/libguile-*-gdb.scm /usr/share/gdb/auto-load/usr/lib &&
+mv /usr/share/doc/guile-2.2.2/{guile.html,ref} &&
+mv /usr/share/doc/guile-2.2.2/r5rs{.html,}     &&
+
+find examples -name "Makefile*" -delete         &&
+cp -vR examples   /usr/share/doc/guile-2.2.2   &&
+
+for DIRNAME in r5rs ref; do
+  install -v -m644  doc/${DIRNAME}/*.txt \
+                    /usr/share/doc/guile-2.2.2/${DIRNAME}
+done &&
+unset DIRNAME
+ldconfig
+
+#
+
+
+## EDITHOOK_BLDEND #
+ #
+xEOFx
+) > tmp
+

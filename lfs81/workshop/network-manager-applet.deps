@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "NetworkManager" 
 #    Required: "gtk3" 
 #    Required: "iso-codes" 

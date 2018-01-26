@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "gtkmm2" 
 #    Required: "parted" 
 #    Optional: "GNOME-Doc-Utils" 

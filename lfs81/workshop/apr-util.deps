@@ -1,3 +1,4 @@
+# Dependencies:
 #    Required: "apr" 
 #    Recommended: "openssl" 
 #    Optional: "FreeTDS" 
