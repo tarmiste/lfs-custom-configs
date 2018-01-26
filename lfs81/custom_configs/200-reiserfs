@@ -4,7 +4,7 @@
 ## This package has no dependencies
 ## EDITHOOK1
 PKG="reiserfs"
-PKG_VERSION=
+PKG_VERSION="3.6.27"
 PKG_FILE="reiserfsprogs-3.6.27.tar.xz"
 URL="https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs/v3.6.27/reiserfsprogs-3.6.27.tar.xz"
 MD5="90c139542725efc6da3a6b1709695395"
