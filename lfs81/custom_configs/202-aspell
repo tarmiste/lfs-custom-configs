@@ -36,15 +36,10 @@ install -v -m644 manual/aspell.html/* \
 
 install -v -m644 manual/aspell-dev.html/* \
     /usr/share/doc/aspell-0.60.6.1/aspell-dev.html
+
+# Following two lines depend on the users intentions.
 install -v -m 755 scripts/ispell /usr/bin/
 install -v -m 755 scripts/spell /usr/bin/
-
-./configure &&
-make
-
-make -j1 install
-
-#
 
 
 ## EDITHOOK_BLDEND #
