@@ -20,7 +20,7 @@ PATCH1=
 #######  Building package
 
 ./configure --prefix=/usr --sysconfdir=/etc \
---disable-docs
+--disable-documentation
 make
 make -j1 install
 
