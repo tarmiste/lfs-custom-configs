@@ -15,7 +15,7 @@ PKG_VERSION="3.6.2"
 ## EDITHOOK1
 PKG="python3"
 PKG_VERSION="3.6.2"
-PKG_FILE="Python-3.6.2.tar.xz python-3.6.2-docs-html.tar.bz2"
+PKG_FILE="Python-3.6.2.tar.xz"
 URL="https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tar.xz"
 MD5="2c68846471994897278364fc18730dd9"
 #
@@ -23,7 +23,7 @@ MD5="2c68846471994897278364fc18730dd9"
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="https://www.python.org/ftp/python/doc/3.6.2/python-3.6.2-docs-html.tar.bz2 9ad03052da4d7147400af8385af7f29f"
 
 ( cat << "xEOFx"
 ############# Building package

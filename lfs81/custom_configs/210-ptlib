@@ -26,7 +26,8 @@ MD5="3ffdf89170dbfa6d29a015ef8741a4e4"
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/ptlib-2.10.11-bison_fixes-2.patch PATCH1MD5" "http://www.linuxfromscratch.org/patches/blfs/8.1/ptlib-2.10.11-openssl-1.1.0-1.patch PATCH1MD5"
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/ptlib-2.10.11-bison_fixes-2.patch fece800647f4c5ec103ddffa522d2def"
+PATCH2="http://www.linuxfromscratch.org/patches/blfs/8.1/ptlib-2.10.11-openssl-1.1.0-1.patch 42b73c7bdea0e5d5e91a432682d88a40"
 
 ( cat << "xEOFx"
 ############# Building package

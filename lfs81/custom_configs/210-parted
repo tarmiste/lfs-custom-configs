@@ -19,7 +19,7 @@ MD5="0247b6a7b314f8edeb618159fa95f9cb"
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/parted-3.2-devmapper-1.patch PATCH1MD5"
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/parted-3.2-devmapper-1.patch 83d297bd20a11b47a4239b101bc26ad2"
 
 ( cat << "xEOFx"
 ############# Building package
