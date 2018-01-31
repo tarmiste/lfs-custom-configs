@@ -5,6 +5,7 @@
 # Any comments you wish to add
 #
 
+## EDITHOOK1
 PKG="wireless_tools"
 PKG_VERSION="29"
 PKG_FILE="wireless_tools.${PKG_VERSION}.tar.gz"

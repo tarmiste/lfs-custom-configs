@@ -5,6 +5,7 @@
 # Any comments you wish to add
 #
 
+## EDITHOOK1
 PKG="unzip"
 PKG_VERSION="60"
 PKG_FILE="unzip${PKG_VERSION}.tar.gz"

@@ -3,6 +3,7 @@
 #
 #
 
+## EDITHOOK1
 PKG="pciutils"
 PKG_VERSION="3.5.5"
 PKG_FILE="pciutils-${PKG_VERSION}.tar.xz"

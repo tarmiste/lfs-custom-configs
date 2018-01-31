@@ -8,6 +8,7 @@
 # email applications and web browsers (for accessing HTTPS sites).
 #
 
+## EDITHOOK1
 PKG="openssl"
 PKG_VERSION="1.1.0f"
 PKG_FILE="openssl-${PKG_VERSION}.tar.gz"

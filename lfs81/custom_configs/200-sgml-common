@@ -5,6 +5,7 @@
 # Any comments you wish to add
 #
 
+## EDITHOOK1
 PKG="sgml-common"
 PKG_VERSION="0.6.3"
 PKG_FILE="sgml-common-${PKG_VERSION}.tgz"

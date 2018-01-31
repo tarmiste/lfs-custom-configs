@@ -5,6 +5,7 @@
 # Any comments you wish to add
 #
 
+## EDITHOOK1
 PKG="apr"
 PKG_VERSION="1.6.2"
 PKG_FILE="apr-${PKG_VERSION}.tar.bz2"
