@@ -1,5 +1,3 @@
-PKG="pinentry"
-PKG_VERSION="1.0.0"
 # Dependencies:
 #    Required: "libassuan" 
 #    Required: "libgpg-error" 

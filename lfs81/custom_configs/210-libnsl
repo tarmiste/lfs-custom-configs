@@ -1,5 +1,3 @@
-PKG="libnsl"
-PKG_VERSION="1.1.0"
 # Dependencies:
 #    Required: "libtirpc" 
 #    Required: "rpcsvc-proto" 

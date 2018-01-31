@@ -1,5 +1,3 @@
-PKG="newt"
-PKG_VERSION="0.52.20"
 # Dependencies:
 #    Required: "popt" 
 #    Required: "slang" 

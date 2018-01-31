@@ -1,5 +1,3 @@
-PKG="vorbistools"
-PKG_VERSION="1.4.0"
 # Dependencies:
 #    Required: "libvorbis" 
 #    Optional: "curl" 

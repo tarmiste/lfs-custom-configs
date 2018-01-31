@@ -1,5 +1,3 @@
-PKG="libbytesize"
-PKG_VERSION="0.11"
 # Dependencies:
 #    Required: "pcre2" 
 #    Optional: "gtk-doc" 

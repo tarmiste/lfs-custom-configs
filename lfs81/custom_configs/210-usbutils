@@ -1,5 +1,3 @@
-PKG="usbutils"
-PKG_VERSION="008"
 # Dependencies:
 #    Required: "libusb" 
 #

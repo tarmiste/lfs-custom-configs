@@ -1,5 +1,3 @@
-PKG="ed"
-PKG_VERSION="1.14.2"
 # Dependencies:
 #    Required: "libarchive" 
 #

@@ -1,5 +1,3 @@
-PKG="python2"
-PKG_VERSION="2.7.13"
 # Dependencies:
 #    Recommended: "libffi" 
 #    Optional: "bluez" 

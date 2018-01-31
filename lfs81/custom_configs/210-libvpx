@@ -1,5 +1,3 @@
-PKG="libvpx"
-PKG_VERSION="1.6.1"
 # Dependencies:
 #    Required: "nasm" 
 #    Required: "which" 

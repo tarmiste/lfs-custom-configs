@@ -1,5 +1,3 @@
-PKG="cdrdao"
-PKG_VERSION="1.2.3"
 # Dependencies:
 #    Recommended: "lame" 
 #    Recommended: "libao" 

@@ -1,5 +1,3 @@
-PKG="mpg123"
-PKG_VERSION="1.25.6"
 # Dependencies:
 #    Recommended: "alsa-lib" 
 #    Optional: "JACK" 

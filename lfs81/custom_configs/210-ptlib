@@ -1,5 +1,3 @@
-PKG="ptlib"
-PKG_VERSION="2.10.11"
 # Dependencies:
 #    Recommended: "alsa-lib" 
 #    Recommended: "openssl" 

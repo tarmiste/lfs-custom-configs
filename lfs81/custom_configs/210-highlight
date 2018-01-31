@@ -1,5 +1,3 @@
-PKG="highlight"
-PKG_VERSION="3.39"
 # Dependencies:
 #    Required: "boost" 
 #    Required: "lua" 

@@ -1,5 +1,3 @@
-PKG="apache"
-PKG_VERSION="2.4.27"
 # Dependencies:
 #    Required: "apr-util" 
 #    Required: "pcre" 

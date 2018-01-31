@@ -1,5 +1,3 @@
-PKG="python3"
-PKG_VERSION="3.6.2"
 # Dependencies:
 #    Recommended: "libffi" 
 #    Optional: "bluez" 

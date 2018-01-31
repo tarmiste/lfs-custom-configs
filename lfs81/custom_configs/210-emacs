@@ -1,5 +1,3 @@
-PKG="emacs"
-PKG_VERSION="25.2"
 # Dependencies:
 #    Recommended: "giflib" 
 #    Optional: "GConf" 

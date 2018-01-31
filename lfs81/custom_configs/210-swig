@@ -1,5 +1,3 @@
-PKG="swig"
-PKG_VERSION="3.0.12"
 # Dependencies:
 #    Required: "pcre" 
 #    Optional: "boost" 

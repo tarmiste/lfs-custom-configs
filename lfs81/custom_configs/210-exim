@@ -1,5 +1,3 @@
-PKG="exim"
-PKG_VERSION="4.89"
 # Dependencies:
 #    Required: "pcre" 
 #    Recommended: "openssl" 

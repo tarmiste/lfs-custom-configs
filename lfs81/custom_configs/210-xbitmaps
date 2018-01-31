@@ -1,5 +1,3 @@
-PKG="xbitmaps"
-PKG_VERSION="1.1.1"
 # Dependencies:
 #    Required: "util-macros" 
 #

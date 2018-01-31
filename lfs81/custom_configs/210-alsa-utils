@@ -1,5 +1,3 @@
-PKG="alsa-utils"
-PKG_VERSION="1.1.4"
 # Dependencies:
 #    Required: "alsa-lib" 
 #    Optional: "Dialog" 

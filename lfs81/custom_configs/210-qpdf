@@ -1,5 +1,3 @@
-PKG="qpdf"
-PKG_VERSION="6.0.0"
 # Dependencies:
 #    Required: "pcre" 
 #    Optional: "fop" 

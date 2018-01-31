@@ -1,5 +1,3 @@
-PKG="cyrus-sasl"
-PKG_VERSION="2.1.26"
 # Dependencies:
 #    Required: "openssl" 
 #    Recommended: "db" 

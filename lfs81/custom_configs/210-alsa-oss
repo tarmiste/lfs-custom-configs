@@ -1,5 +1,3 @@
-PKG="alsa-oss"
-PKG_VERSION="1.0.28"
 # Dependencies:
 #    Required: "alsa-lib" 
 #
