@@ -1,6 +1,7 @@
-# 999-blfs_bootscripts
-# 
 #
+# blfs-bootscripts
+#
+# Dependencies:  None
 #
 ## EDITHOOK1
 PKG="blfs-bootscripts"
