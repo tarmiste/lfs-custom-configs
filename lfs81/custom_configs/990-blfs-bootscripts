@@ -2,6 +2,7 @@
 # 
 #
 #
+## EDITHOOK1
 PKG="blfs-bootscripts"
 PKG_VERSION="20170731"
 PKG_FILE="blfs-bootscripts-${PKG_VERSION}.tar.xz"
