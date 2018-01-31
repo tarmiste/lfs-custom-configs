@@ -1,7 +1,8 @@
-# Dependencies:
-#    Required: "libtirpc" 
 #
 # lsof
+#
+# Dependencies:
+#    Required: "libtirpc" 
 #
 ## EDITHOOK1
 PKG="lsof"

@@ -1,11 +1,12 @@
+#
+# alsa-utils
+#
 # Dependencies:
 #    Required: "alsa-lib" 
 #    Optional: "Dialog" 
 #    Optional: "fftw" 
 #    Optional: "libsamplerate" 
 #    Optional: "xmlto" 
-#
-# alsa-utils
 #
 ## EDITHOOK1
 PKG="alsa-utils"

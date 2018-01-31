@@ -1,7 +1,8 @@
-# Dependencies:
-#    Required: "libtirpc" 
 #
 # rpcbind
+#
+# Dependencies:
+#    Required: "libtirpc" 
 #
 ## EDITHOOK1
 PKG="rpcbind"

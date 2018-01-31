@@ -1,7 +1,8 @@
-# Dependencies:
-#    Required: "linux-pam" 
 #
 # libcap-pam
+#
+# Dependencies:
+#    Required: "linux-pam" 
 #
 ## EDITHOOK1
 PKG="libcap-pam"

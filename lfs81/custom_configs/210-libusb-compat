@@ -1,7 +1,8 @@
-# Dependencies:
-#    Required: "libusb" 
 #
 # libusb-compat
+#
+# Dependencies:
+#    Required: "libusb" 
 #
 ## EDITHOOK1
 PKG="libusb-compat"

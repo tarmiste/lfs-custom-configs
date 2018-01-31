@@ -1,3 +1,6 @@
+#
+# gpgme
+#
 # Dependencies:
 #    Required: "libassuan" 
 #    Optional: "clisp" 
@@ -7,8 +10,6 @@
 #    Optional: "python3" 
 #    Optional: "qt5" 
 #    Optional: "swig" 
-#
-# gpgme
 #
 ## EDITHOOK1
 PKG="gpgme"

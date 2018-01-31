@@ -1,3 +1,6 @@
+#
+# alsa-plugins
+#
 # Dependencies:
 #    Required: "alsa-lib" 
 #    Optional: "JACK" 
@@ -6,8 +9,6 @@
 #    Optional: "maemo" 
 #    Optional: "pulseaudio" 
 #    Optional: "speex" 
-#
-# alsa-plugins
 #
 ## EDITHOOK1
 PKG="alsa-plugins"

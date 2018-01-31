@@ -1,3 +1,6 @@
+#
+# python2
+#
 # Dependencies:
 #    Recommended: "libffi" 
 #    Optional: "bluez" 
@@ -5,8 +8,6 @@
 #    Optional: "sqlite" 
 #    Optional: "tk" 
 #    Optional: "valgrind" 
-#
-# python2
 #
 ## EDITHOOK1
 PKG="python2"

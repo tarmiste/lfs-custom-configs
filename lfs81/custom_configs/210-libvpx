@@ -1,11 +1,12 @@
+#
+# libvpx
+#
 # Dependencies:
 #    Required: "nasm" 
 #    Required: "which" 
 #    Required: "yasm" 
 #    Optional: "doxygen" 
 #    Optional: "php" 
-#
-# libvpx
 #
 ## EDITHOOK1
 PKG="libvpx"

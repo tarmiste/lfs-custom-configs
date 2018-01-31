@@ -1,3 +1,6 @@
+#
+# mpg123
+#
 # Dependencies:
 #    Recommended: "alsa-lib" 
 #    Optional: "JACK" 
@@ -5,8 +8,6 @@
 #    Optional: "PortAudio" 
 #    Optional: "pulseaudio" 
 #    Optional: "sdl" 
-#
-# mpg123
 #
 ## EDITHOOK1
 PKG="mpg123"

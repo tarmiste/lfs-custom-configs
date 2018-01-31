@@ -1,3 +1,6 @@
+#
+# cifsutils
+#
 # Dependencies:
 #    Required: "talloc" 
 #    Optional: "keyutils" 
@@ -6,8 +9,6 @@
 #    Optional: "linux-pam" 
 #    Optional: "mitkrb" 
 #    Optional: "samba" 
-#
-# cifsutils
 #
 ## EDITHOOK1
 PKG="cifsutils"

@@ -1,8 +1,9 @@
+#
+# libpwquality
+#
 # Dependencies:
 #    Required: "cracklib" 
 #    Recommended: "linux-pam" 
-#
-# libpwquality
 #
 ## EDITHOOK1
 PKG="libpwquality"

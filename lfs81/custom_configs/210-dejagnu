@@ -1,9 +1,10 @@
+#
+# dejagnu
+#
 # Dependencies:
 #    Required: "expect" 
 #    Optional: "docbook-utils" 
 #    Optional: "docbook2X" 
-#
-# dejagnu
 #
 ## EDITHOOK1
 PKG="dejagnu"

@@ -1,11 +1,12 @@
+#
+# guile
+#
 # Dependencies:
 #    Required: "gc" 
 #    Required: "libffi" 
 #    Required: "libunistring" 
 #    Optional: "emacs" 
 #    Optional: "gdb" 
-#
-# guile
 #
 ## EDITHOOK1
 PKG="guile"

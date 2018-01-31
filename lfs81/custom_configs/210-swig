@@ -1,8 +1,9 @@
+#
+# swig
+#
 # Dependencies:
 #    Required: "pcre" 
 #    Optional: "boost" 
-#
-# swig
 #
 ## EDITHOOK1
 PKG="swig"

@@ -1,10 +1,11 @@
+#
+# audiofile
+#
 # Dependencies:
 #    Required: "alsa-lib" 
 #    Recommended: "flac" 
 #    Optional: "asciidoc" 
 #    Optional: "valgrind" 
-#
-# audiofile
 #
 ## EDITHOOK1
 PKG="audiofile"

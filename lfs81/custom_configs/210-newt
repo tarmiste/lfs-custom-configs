@@ -1,11 +1,12 @@
+#
+# newt
+#
 # Dependencies:
 #    Required: "popt" 
 #    Required: "slang" 
 #    Recommended: "gpm" 
 #    Optional: "python2" 
 #    Optional: "python3" 
-#
-# newt
 #
 ## EDITHOOK1
 PKG="newt"

@@ -1,3 +1,6 @@
+#
+# nmap
+#
 # Dependencies:
 #    Recommended: "liblinear" 
 #    Recommended: "libpcap" 
@@ -6,8 +9,6 @@
 #    Optional: "pygtk" 
 #    Optional: "python2" 
 #    Optional: "subversion" 
-#
-# nmap
 #
 ## EDITHOOK1
 PKG="nmap"

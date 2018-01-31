@@ -1,9 +1,10 @@
+#
+# logrotate
+#
 # Dependencies:
 #    Required: "popt" 
 #    Recommended: "fcron" 
 #    Optional: "server-mail" 
-#
-# logrotate
 #
 ## EDITHOOK1
 PKG="logrotate"

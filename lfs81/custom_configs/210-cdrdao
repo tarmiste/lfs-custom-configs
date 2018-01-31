@@ -1,10 +1,11 @@
+#
+# cdrdao
+#
 # Dependencies:
 #    Recommended: "lame" 
 #    Recommended: "libao" 
 #    Recommended: "libmad" 
 #    Recommended: "libvorbis" 
-#
-# cdrdao
 #
 ## EDITHOOK1
 PKG="cdrdao"

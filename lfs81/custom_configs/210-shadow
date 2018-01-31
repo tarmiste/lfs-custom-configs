@@ -1,8 +1,9 @@
+#
+# shadow
+#
 # Dependencies:
 #    Required: "cracklib" 
 #    Required: "linux-pam" 
-#
-# shadow
 #
 ## EDITHOOK1
 PKG="shadow"

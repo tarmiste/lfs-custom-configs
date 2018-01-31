@@ -1,10 +1,11 @@
+#
+# parted
+#
 # Dependencies:
 #    Recommended: "lvm2" 
 #    Optional: "pth" 
 #    Optional: "texlive" 
 #    Optional: "tl-installer" 
-#
-# parted
 #
 ## EDITHOOK1
 PKG="parted"

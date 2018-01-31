@@ -1,3 +1,6 @@
+#
+# libtheora
+#
 # Dependencies:
 #    Required: "libogg" 
 #    Recommended: "libvorbis" 
@@ -9,8 +12,6 @@
 #    Optional: "texlive" 
 #    Optional: "tl-installer" 
 #    Optional: "valgrind" 
-#
-# libtheora
 #
 ## EDITHOOK1
 PKG="libtheora"

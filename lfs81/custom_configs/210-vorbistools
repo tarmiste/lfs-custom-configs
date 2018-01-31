@@ -1,3 +1,6 @@
+#
+# vorbistools
+#
 # Dependencies:
 #    Required: "libvorbis" 
 #    Optional: "curl" 
@@ -5,8 +8,6 @@
 #    Optional: "libao" 
 #    Optional: "libkate" 
 #    Optional: "speex" 
-#
-# vorbistools
 #
 ## EDITHOOK1
 PKG="vorbistools"

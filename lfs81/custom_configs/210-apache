@@ -1,3 +1,6 @@
+#
+# apache
+#
 # Dependencies:
 #    Required: "apr-util" 
 #    Required: "pcre" 
@@ -14,8 +17,6 @@
 #    Optional: "nghttp2" 
 #    Optional: "openldap" 
 #    Optional: "rsync" 
-#
-# apache
 #
 ## EDITHOOK1
 PKG="apache"

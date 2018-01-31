@@ -1,3 +1,6 @@
+#
+# cyrus-sasl
+#
 # Dependencies:
 #    Required: "openssl" 
 #    Recommended: "db" 
@@ -11,8 +14,6 @@
 #    Optional: "openldap" 
 #    Optional: "postgresql" 
 #    Optional: "sqlite" 
-#
-# cyrus-sasl
 #
 ## EDITHOOK1
 PKG="cyrus-sasl"

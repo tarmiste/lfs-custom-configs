@@ -1,3 +1,6 @@
+#
+# python3
+#
 # Dependencies:
 #    Recommended: "libffi" 
 #    Optional: "bluez" 
@@ -7,8 +10,6 @@
 #    Optional: "sqlite" 
 #    Optional: "tk" 
 #    Optional: "valgrind" 
-#
-# python3
 #
 ## EDITHOOK1
 PKG="python3"

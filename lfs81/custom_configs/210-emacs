@@ -1,3 +1,6 @@
+#
+# emacs
+#
 # Dependencies:
 #    Recommended: "giflib" 
 #    Optional: "GConf" 
@@ -23,8 +26,6 @@
 #    Optional: "mitkrb" 
 #    Optional: "valgrind" 
 #    Optional: "x-window-system" 
-#
-# emacs
 #
 ## EDITHOOK1
 PKG="emacs"

@@ -1,3 +1,6 @@
+#
+# curl
+#
 # Dependencies:
 #    Recommended: "cacerts" 
 #    Recommended: "openssl" 
@@ -16,8 +19,6 @@
 #    Optional: "samba" 
 #    Optional: "stunnel" 
 #    Optional: "valgrind" 
-#
-# curl
 #
 ## EDITHOOK1
 PKG="curl"

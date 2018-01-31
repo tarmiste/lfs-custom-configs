@@ -1,8 +1,9 @@
+#
+# libjpeg
+#
 # Dependencies:
 #    Required: "nasm" 
 #    Required: "yasm" 
-#
-# libjpeg
 #
 ## EDITHOOK1
 PKG="libjpeg"

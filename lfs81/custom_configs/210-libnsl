@@ -1,8 +1,9 @@
+#
+# libnsl
+#
 # Dependencies:
 #    Required: "libtirpc" 
 #    Required: "rpcsvc-proto" 
-#
-# libnsl
 #
 ## EDITHOOK1
 PKG="libnsl"

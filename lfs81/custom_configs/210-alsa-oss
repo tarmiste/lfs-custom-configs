@@ -1,7 +1,8 @@
-# Dependencies:
-#    Required: "alsa-lib" 
 #
 # alsa-oss
+#
+# Dependencies:
+#    Required: "alsa-lib" 
 #
 ## EDITHOOK1
 PKG="alsa-oss"

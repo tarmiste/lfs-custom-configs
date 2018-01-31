@@ -1,10 +1,11 @@
+#
+# alsa-tools
+#
 # Dependencies:
 #    Required: "alsa-lib" 
 #    Optional: "fltk" 
 #    Optional: "gtk2" 
 #    Optional: "gtk3" 
-#
-# alsa-tools
 #
 ## EDITHOOK1
 PKG="alsa-tools"

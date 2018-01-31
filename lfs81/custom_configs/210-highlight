@@ -1,9 +1,10 @@
+#
+# highlight
+#
 # Dependencies:
 #    Required: "boost" 
 #    Required: "lua" 
 #    Optional: "qt5" 
-#
-# highlight
 #
 ## EDITHOOK1
 PKG="highlight"

@@ -1,3 +1,6 @@
+#
+# p11-kit
+#
 # Dependencies:
 #    Recommended: "cacerts" 
 #    Recommended: "libffi" 
@@ -5,8 +8,6 @@
 #    Optional: "gtk-doc" 
 #    Optional: "libxslt" 
 #    Optional: "nss" 
-#
-# p11-kit
 #
 ## EDITHOOK1
 PKG="p11-kit"
