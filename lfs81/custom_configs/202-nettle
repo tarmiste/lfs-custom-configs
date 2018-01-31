@@ -5,6 +5,7 @@
 # Any comments you wish to add
 #
 
+## EDITHOOK1
 PKG="nettle"
 PKG_VERSION="3.3"
 PKG_FILE="nettle-${PKG_VERSION}.tar.gz"
