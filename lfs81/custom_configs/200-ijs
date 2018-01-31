@@ -1,7 +1,8 @@
 #
 # ijs
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="ijs"
 PKG_VERSION="0.35"

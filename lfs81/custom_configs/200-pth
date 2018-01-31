@@ -1,7 +1,8 @@
 #
 # pth
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="pth"
 PKG_VERSION="2.0.7"

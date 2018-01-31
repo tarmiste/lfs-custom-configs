@@ -1,7 +1,8 @@
 #
 # libmad
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="libmad"
 PKG_VERSION="0.15.1b"

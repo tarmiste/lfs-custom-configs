@@ -1,7 +1,8 @@
 #
 # popt
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="popt"
 PKG_VERSION="1.16"

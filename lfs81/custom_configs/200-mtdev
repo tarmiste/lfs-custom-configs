@@ -1,7 +1,8 @@
 #
 # mtdev
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="mtdev"
 PKG_VERSION="1.1.5"

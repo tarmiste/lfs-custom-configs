@@ -1,7 +1,8 @@
 #
 # libburn
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="libburn"
 PKG_VERSION="1.4.6"

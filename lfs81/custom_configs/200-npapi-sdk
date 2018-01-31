@@ -1,7 +1,8 @@
 #
 # npapi-sdk
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="npapi-sdk"
 PKG_VERSION="0.27.2"

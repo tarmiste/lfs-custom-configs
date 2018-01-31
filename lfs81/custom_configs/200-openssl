@@ -1,13 +1,8 @@
-# 620-openssl
-# 
 #
+# openssl
 #
-# The OpenSSL package contains management tools and libraries
-# relating to cryptography. These are useful for providing
-# cryptography functions to other packages, notably OpenSSH,
-# email applications and web browsers (for accessing HTTPS sites).
+# Dependencies:  None
 #
-
 ## EDITHOOK1
 PKG="openssl"
 PKG_VERSION="1.1.0f"

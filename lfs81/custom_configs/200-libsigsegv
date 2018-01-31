@@ -1,7 +1,8 @@
 #
 # libsigsegv
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="libsigsegv"
 PKG_VERSION="2.11"

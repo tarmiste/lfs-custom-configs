@@ -1,7 +1,8 @@
 #
 # hicolor-icon-theme
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="hicolor-icon-theme"
 PKG_VERSION="0.15"

@@ -1,9 +1,7 @@
 #
-### tcsh
-#
-## This package has no dependencies
-#
 # tcsh
+#
+# Dependencies:  None
 #
 ## EDITHOOK1
 PKG="tcsh"

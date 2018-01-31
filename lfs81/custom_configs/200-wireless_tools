@@ -1,10 +1,8 @@
-# 800-wireless_tools
-# 
 #
+# wireless_tools
 #
-# Any comments you wish to add
+# Dependencies:  None
 #
-
 ## EDITHOOK1
 PKG="wireless_tools"
 PKG_VERSION="29"

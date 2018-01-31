@@ -1,7 +1,8 @@
 #
 # libatomic_ops
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="libatomic_ops"
 PKG_VERSION="7.4.6"

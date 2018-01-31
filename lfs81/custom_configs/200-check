@@ -1,7 +1,8 @@
 #
 # check
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="check"
 PKG_VERSION="0.11.0"

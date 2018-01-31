@@ -1,7 +1,8 @@
 #
 # libcddb
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="libcddb"
 PKG_VERSION="1.3.2"

@@ -1,7 +1,8 @@
 #
 # psutils
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="psutils"
 PKG_VERSION="p17"

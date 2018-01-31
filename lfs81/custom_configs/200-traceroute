@@ -1,7 +1,8 @@
 #
 # traceroute
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="traceroute"
 PKG_VERSION="2.1.0"

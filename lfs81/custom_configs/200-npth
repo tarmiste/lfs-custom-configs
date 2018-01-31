@@ -1,7 +1,8 @@
 #
 # npth
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="npth"
 PKG_VERSION="1.5"

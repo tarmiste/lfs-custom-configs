@@ -1,9 +1,7 @@
 #
-### ncftp
-#
-## This package has no dependencies
-#
 # ncftp
+#
+# Dependencies:  None
 #
 ## EDITHOOK1
 PKG="ncftp"

@@ -1,7 +1,8 @@
 #
 # chrpath
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="chrpath"
 PKG_VERSION="0.16"

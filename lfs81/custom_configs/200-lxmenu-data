@@ -1,7 +1,8 @@
 #
 # lxmenu-data
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="lxmenu-data"
 PKG_VERSION="0.1.5"

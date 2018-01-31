@@ -1,7 +1,8 @@
 #
 # json-c
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="json-c"
 PKG_VERSION="0.12.1"

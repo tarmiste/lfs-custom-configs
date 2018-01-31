@@ -1,7 +1,8 @@
 #
 # reiserfs
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="reiserfs"
 PKG_VERSION="3.6.27"

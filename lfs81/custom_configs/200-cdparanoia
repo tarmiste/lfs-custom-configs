@@ -1,7 +1,8 @@
 #
 # cdparanoia
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="cdparanoia"
 PKG_VERSION="III-10.2"

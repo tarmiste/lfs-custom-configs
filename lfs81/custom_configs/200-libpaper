@@ -1,7 +1,8 @@
 #
 # libpaper
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="libpaper"
 PKG_VERSION="1.1.24+nmu5"

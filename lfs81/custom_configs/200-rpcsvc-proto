@@ -1,7 +1,8 @@
 #
 # rpcsvc-proto
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="rpcsvc-proto"
 PKG_VERSION="1.2"

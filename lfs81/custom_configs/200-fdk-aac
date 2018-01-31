@@ -1,7 +1,8 @@
 #
 # fdk-aac
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="fdk-aac"
 PKG_VERSION="0.1.5"

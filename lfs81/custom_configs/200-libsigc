@@ -1,7 +1,8 @@
 #
 # libsigc
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="libsigc"
 PKG_VERSION="2.10.0"

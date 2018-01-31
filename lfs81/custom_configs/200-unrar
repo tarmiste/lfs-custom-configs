@@ -1,7 +1,8 @@
 #
 # unrar
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="unrar"
 PKG_VERSION="5.5.8"

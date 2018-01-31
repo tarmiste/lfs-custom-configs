@@ -1,7 +1,8 @@
 #
 # keyutils
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="keyutils"
 PKG_VERSION="1.5.10"

@@ -1,10 +1,8 @@
-# 765-apr
-# 
 #
+# apr
 #
-# Any comments you wish to add
+# Dependencies:  None
 #
-
 ## EDITHOOK1
 PKG="apr"
 PKG_VERSION="1.6.2"

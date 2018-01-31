@@ -1,9 +1,7 @@
 #
-### gavl
-#
-## This package has no dependencies    XXX false.
-#
 # gavl
+#
+# Dependencies:  None
 #
 ## EDITHOOK1
 PKG="gavl"

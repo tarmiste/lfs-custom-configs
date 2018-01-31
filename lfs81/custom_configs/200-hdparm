@@ -1,9 +1,7 @@
 #
-### hdparm
-#
-## This package has no dependencies
-#
 # hdparm
+#
+# Dependencies:  None
 #
 ## EDITHOOK1
 PKG="hdparm"

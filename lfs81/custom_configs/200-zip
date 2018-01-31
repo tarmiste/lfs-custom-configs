@@ -1,9 +1,7 @@
 #
-### zip
-#
-## This package has no dependencies
-#
 # zip
+#
+# Dependencies:  None
 #
 ## EDITHOOK1
 PKG="zip"

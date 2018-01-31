@@ -1,9 +1,7 @@
 #
-### dvd-rw-tools
-#
-## This package has no dependencies
-#
 # dvd-rw-tools
+#
+# Dependencies:  None
 #
 ## EDITHOOK1
 PKG="dvd-rw-tools"

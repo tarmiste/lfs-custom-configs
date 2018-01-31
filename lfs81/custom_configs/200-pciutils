@@ -1,8 +1,8 @@
-# 655-pciutils
-# 
 #
+# pciutils
 #
-
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="pciutils"
 PKG_VERSION="3.5.5"

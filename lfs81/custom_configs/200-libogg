@@ -1,7 +1,8 @@
 #
 # libogg
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="libogg"
 PKG_VERSION="1.3.2"

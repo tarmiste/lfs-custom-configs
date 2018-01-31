@@ -1,6 +1,7 @@
-# 745-gpm
-# 
 #
+# gpm
+#
+# Dependencies:  None
 #
 ## EDITHOOK1
 PKG="gpm"

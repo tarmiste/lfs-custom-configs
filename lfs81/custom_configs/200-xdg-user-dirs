@@ -1,7 +1,8 @@
 #
 # xdg-user-dirs
 #
-## This package has no dependencies  (xslt to build docs though )
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="xdg-user-dirs"
 PKG_VERSION="0.16"

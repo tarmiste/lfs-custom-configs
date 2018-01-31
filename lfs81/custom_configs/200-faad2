@@ -1,7 +1,8 @@
 #
 # faad2
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="faad2"
 PKG_VERSION="2.8.1"

@@ -1,9 +1,7 @@
 #
-### pax
-#
-## This package has no dependencies
-#
 # pax
+#
+# Dependencies:  None
 #
 ## EDITHOOK1
 PKG="pax"

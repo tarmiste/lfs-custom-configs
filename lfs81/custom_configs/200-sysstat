@@ -1,9 +1,7 @@
 #
-### sysstat
-#
-## This package has no dependencies
-#
 # sysstat
+#
+# Dependencies:  None
 #
 ## EDITHOOK1
 PKG="sysstat"

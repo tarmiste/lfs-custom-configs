@@ -1,7 +1,8 @@
 #
 # lmdb
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="lmdb"
 PKG_VERSION="0.9.21"

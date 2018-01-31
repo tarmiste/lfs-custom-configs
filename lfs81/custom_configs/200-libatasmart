@@ -1,7 +1,8 @@
 #
 # libatasmart
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="libatasmart"
 PKG_VERSION="0.19"

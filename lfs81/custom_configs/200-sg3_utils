@@ -1,7 +1,8 @@
 #
 # sg3_utils
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="sg3_utils"
 PKG_VERSION="1.42"

@@ -1,7 +1,8 @@
 #
 # cdrtools
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="cdrtools"
 PKG_VERSION="3.02a07"

@@ -1,9 +1,7 @@
 #
-### nspr
-#
-## This package has no dependencies
-#
 # nspr
+#
+# Dependencies:  None
 #
 ## EDITHOOK1
 PKG="nspr"

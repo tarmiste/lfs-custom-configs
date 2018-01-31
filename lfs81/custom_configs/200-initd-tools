@@ -1,7 +1,8 @@
 #
 # initd-tools
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="initd-tools"
 PKG_VERSION="0.1.3"

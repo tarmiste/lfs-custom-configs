@@ -1,7 +1,8 @@
 #
 # lsb-release
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="lsb-release"
 PKG_VERSION="1.4"

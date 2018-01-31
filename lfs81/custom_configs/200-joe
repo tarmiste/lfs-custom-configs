@@ -1,7 +1,8 @@
 #
 # joe
 #
-## This package has no dependencies
+# Dependencies:  None
+#
 ## EDITHOOK1
 PKG="joe"
 PKG_VERSION="4.4"
