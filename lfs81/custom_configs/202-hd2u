@@ -1,7 +1,9 @@
 #
 # hd2u
 #
-## This package has one dependencies
+# Dependencies:
+#    Required: "popt" 
+#
 ## EDITHOOK1
 PKG="hd2u"
 PKG_VERSION="1.0.3"

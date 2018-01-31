@@ -1,9 +1,7 @@
 #
-### gnome-video-effects
-#
-# Dependencies:
-#
 # gnome-video-effects
+#
+# Dependencies: None.
 #
 ## EDITHOOK1
 PKG="gnome-video-effects"

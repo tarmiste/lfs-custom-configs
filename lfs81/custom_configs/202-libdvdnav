@@ -1,7 +1,9 @@
 #
 # libdvdnav
 #
-## This package has one dependencies
+# Dependencies:
+#    Required: "libdvdread" 
+#
 ## EDITHOOK1
 PKG="libdvdnav"
 PKG_VERSION="5.0.3"

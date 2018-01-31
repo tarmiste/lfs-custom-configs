@@ -1,7 +1,9 @@
 #
 # libesmtp
 #
-## This package has one dependencies
+# Dependencies:
+#    Optional: "openssl" 
+#
 ## EDITHOOK1
 PKG="libesmtp"
 PKG_VERSION="1.0.6"

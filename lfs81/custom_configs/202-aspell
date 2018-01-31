@@ -1,10 +1,8 @@
 #
-### aspell
+# aspell
 #
 # Dependencies:
 #    Required: "which" 
-#
-# aspell
 #
 ## EDITHOOK1
 PKG="aspell"

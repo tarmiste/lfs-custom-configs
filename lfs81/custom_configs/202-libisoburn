@@ -1,12 +1,9 @@
 #
-### libisoburn
+# libisoburn
 #
 # Dependencies:
 #    Required: "libburn" 
 #    Required: "libisofs" 
-# XXX missing optional dep of doxygen
-#
-# libisoburn
 #
 ## EDITHOOK1
 PKG="libisoburn"

@@ -1,7 +1,10 @@
 #
 # sgml-dtd-3
 #
-## This package has one dependencies
+# Dependencies:
+#    Required: "sgml-common" 
+#    Required: "unzip" 
+#
 ## EDITHOOK1
 PKG=""
 PKG_VERSION=""

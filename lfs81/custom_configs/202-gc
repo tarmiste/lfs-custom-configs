@@ -1,10 +1,8 @@
 #
-### gc
+# gc
 #
 # Dependencies:
 #    Required: "libatomic_ops" 
-#
-# gc
 #
 ## EDITHOOK1
 PKG="gc"

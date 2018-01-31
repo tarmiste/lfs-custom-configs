@@ -1,10 +1,9 @@
-# 805-libnl
-# 
 #
+# libnl
 #
-# Any comments you wish to add
+# Dependencies:
+#    Optional: "check" 
 #
-
 ## EDITHOOK1
 PKG="libnl"
 PKG_VERSION="3.3.0"

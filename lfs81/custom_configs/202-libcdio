@@ -1,7 +1,9 @@
 #
 # libcdio
 #
-## This package has one dependencies
+# Dependencies:
+#    Optional: "libcddb" 
+#
 ## EDITHOOK1
 PKG="libcdio"
 PKG_VERSION="0.94"

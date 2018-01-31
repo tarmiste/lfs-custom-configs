@@ -1,10 +1,9 @@
-# 625-nettle
-# 
 #
+# nettle
 #
-# Any comments you wish to add
+# Dependencies:
+#    Optional: "openssl" 
 #
-
 ## EDITHOOK1
 PKG="nettle"
 PKG_VERSION="3.3"
