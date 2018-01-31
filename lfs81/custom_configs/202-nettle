@@ -11,6 +11,8 @@ PKG_VERSION="3.3"
 PKG_FILE="nettle-${PKG_VERSION}.tar.gz"
 URL="ftp://ftp.gnu.org/gnu/nettle/nettle-${PKG_VERSION}.tar.gz"
 MD5="10f969f78a463704ae73529978148dbe" 
+#
+## EDITHOOK2
 for i in PATCH{1..10}; do
    unset $i
 done

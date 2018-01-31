@@ -14,6 +14,8 @@ PKG_VERSION="1.1.0f"
 PKG_FILE="openssl-${PKG_VERSION}.tar.gz"
 URL="ftp://ftp.openssl.org/source/${PKG_FILE}"
 MD5="7b521dea79ab159e8ec879d2333369fa"
+#
+## EDITHOOK2
 for i in PATCH{1..10}; do
    unset $i
 done

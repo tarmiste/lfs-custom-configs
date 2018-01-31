@@ -8,6 +8,8 @@ PKG_VERSION="1.20.7"
 PKG_FILE="gpm-${PKG_VERSION}.tar.bz2"
 URL="http://www.nico.schottelius.org/software/gpm/archives/${PKG_FILE}"
 MD5="bf84143905a6a903dbd4d4b911a2a2b8"
+#
+## EDITHOOK2
 for i in PATCH{1..10}; do
    unset $i
 done

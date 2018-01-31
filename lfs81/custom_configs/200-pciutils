@@ -12,6 +12,8 @@ MD5="238d9969cc0de8b9105d972007d9d546"
 for i in PATCH{1..10}; do
    unset $i
 done
+#
+## EDITHOOK2
 PATCH1=
 
 ( cat << "xEOFx"
