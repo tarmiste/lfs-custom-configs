@@ -6,11 +6,11 @@
 #    Required: "unzip" 
 #
 ## EDITHOOK1
-PKG=""
-PKG_VERSION=""
-PKG_FILE=""
-URL=""
-MD5=""
+PKG="sgml-dtd-3"
+PKG_VERSION="3.1"
+PKG_FILE="sgml-common-0.6.3.tgz"  # zip files aren't supported so use a dummy.
+URL="ftp://sources.redhat.com/pub/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz"
+MD5="103c9828f24820df86e55e7862e28974"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do
@@ -21,6 +21,8 @@ PATCH1="http://www.docbook.org/sgml/3.1/docbk31.zip 432749c0c806dbae81c8bcb70da3
 ## EDITHOOK3
 ( cat << "xEOFx"
 #######  Building package
+
+unzip ../docbk31zip
 
 sed -i -e '/ISO 8879/d' \
        -e 's|DTDDECL "-//OASIS//DTD DocBook V3.1//EN"|SGMLDECL|g' \
@@ -36,13 +38,13 @@ install-catalog --add /etc/sgml/sgml-docbook-dtd-3.1.cat \
 install-catalog --add /etc/sgml/sgml-docbook-dtd-3.1.cat \
     /etc/sgml/sgml-docbook.cat
 
-cat >> /usr/share/sgml/docbook/sgml-dtd-3.1/catalog << "EOF"
-  -- Begin Single Major Version catalog changes --
-
-PUBLIC "-//Davenport//DTD DocBook V3.0//EN" "docbook.dtd"
-
-  -- End Single Major Version catalog changes --
-EOF
+#cat >> /usr/share/sgml/docbook/sgml-dtd-3.1/catalog << "EOF"
+#  -- Begin Single Major Version catalog changes --
+#
+#PUBLIC "-//Davenport//DTD DocBook V3.0//EN" "docbook.dtd"
+#
+#  -- End Single Major Version catalog changes --
+#EOF
 
 ## EDITHOOK4
 xEOFx
