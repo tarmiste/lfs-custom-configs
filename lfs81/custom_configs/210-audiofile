@@ -27,6 +27,9 @@ PATCH1=
 CXXFLAGS=-std=c++98 \
 ./configure --prefix=/usr --disable-static &&
 
+echo ====== Not working yet
+exit 0
+
 make
 make -j1 install
 #make -k check || true

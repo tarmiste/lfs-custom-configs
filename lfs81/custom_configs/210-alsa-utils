@@ -25,6 +25,9 @@ PATCH1=
 ############# Building package
 ## EDITHOOK_BLDSTART
 
+echo ====== Not working yet
+exit 0
+
 ./configure --disable-alsaconf \
             --disable-bat   \
             --disable-xmlto \

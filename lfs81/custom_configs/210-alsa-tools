@@ -24,6 +24,9 @@ PATCH1=
 ############# Building package
 ## EDITHOOK_BLDSTART
 
+echo ====== Not working yet
+exit 0
+
 as_root()
 {
   if   [ $EUID = 0 ];        then $*

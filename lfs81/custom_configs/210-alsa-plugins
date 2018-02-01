@@ -27,6 +27,8 @@ PATCH1=
 ############# Building package
 ## EDITHOOK_BLDSTART
 
+echo ====== Not working yet
+exit 0
 ./configure &&
 make
 make -j1 install

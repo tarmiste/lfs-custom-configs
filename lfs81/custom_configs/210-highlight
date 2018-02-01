@@ -24,9 +24,9 @@ PATCH1=
 ## EDITHOOK_BLDSTART
 
 make
-make gui
+#make gui
 make -j1 install
-make -j1 install-gui
+#make -j1 install-gui
 ldconfig
 
 #
