@@ -25,7 +25,7 @@ LIBS=-lpthread ./configure --prefix=/usr --disable-static &&
 make
 #make -k check || true
 make -j1 install &&
-mkdir -v /usr/share/doc/libpng-1.6.31 &&
+mkdir -pv /usr/share/doc/libpng-1.6.31 &&
 cp -v README libpng-manual.txt /usr/share/doc/libpng-1.6.31
 
 ## EDITHOOK4
