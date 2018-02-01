@@ -22,7 +22,10 @@ PATCH1="http://www.docbook.org/sgml/3.1/docbk31.zip 432749c0c806dbae81c8bcb70da3
 ( cat << "xEOFx"
 #######  Building package
 
-unzip ../docbk31zip
+mkdir -pv build-dtd
+cd build-dtd
+
+unzip ../../docbk31.zip
 
 sed -i -e '/ISO 8879/d' \
        -e 's|DTDDECL "-//OASIS//DTD DocBook V3.1//EN"|SGMLDECL|g' \
