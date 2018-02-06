@@ -7,8 +7,6 @@ PKG_VERSION="7.2.0"
 PKG_FILE="gcc-7.2.0.tar.xz"
 URL="https://ftp.gnu.org/gnu/gcc/gcc-7.2.0/gcc-7.2.0.tar.xz"
 MD5="ff370482573133a7fcdd96cd2f552292"
-MD5="226dac83d9e6490fc8542ac0934a1db0" # Must be converted to PATCH file
-MD5="69423c7ad8d9759377d4fff71a78992d" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -7,7 +7,6 @@ PKG_VERSION="2.8.22"
 PKG_FILE="gimp-2.8.22.tar.bz2"
 URL="https://download.gimp.org/pub/gimp/v2.8/gimp-2.8.22.tar.bz2"
 MD5="7e4fd7a53b1d3c32dff642ab1a94b44d"
-MD5="a591c8974b2f4f584d0a769d52ed6c5b" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

@@ -7,7 +7,6 @@ PKG_VERSION="2.7"
 PKG_FILE="v2.7.tar.gz"
 URL="https://github.com/plk/biber/archive/v2.7.tar.gz"
 MD5="4956fbf23546b6325647b6c81b2b4bea"
-MD5="0aa6937010eaaf2154e3ebd00a2fae77" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

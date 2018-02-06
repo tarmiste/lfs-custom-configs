@@ -7,7 +7,6 @@ PKG_VERSION="8.6.7"
 PKG_FILE="tcl8.6.7-src.tar.gz"
 URL="https://downloads.sourceforge.net/tcl/tcl8.6.7-src.tar.gz"
 MD5="5673aaf45b5de5d8dd80bb3daaeb8838"
-MD5="0da678eaf3041346030898c23c14e97e" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

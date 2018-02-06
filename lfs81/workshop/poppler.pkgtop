@@ -7,7 +7,6 @@ PKG_VERSION="0.57.0"
 PKG_FILE="poppler-0.57.0.tar.xz"
 URL="https://poppler.freedesktop.org/poppler-0.57.0.tar.xz"
 MD5="bc5a191741604552c90d484103229374"
-MD5="00f8989c804de84af0ba2ea629949980" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

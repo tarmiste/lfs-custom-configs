@@ -7,8 +7,6 @@ PKG_VERSION="4.0.1"
 PKG_FILE="llvm-4.0.1.src.tar.xz"
 URL="http://llvm.org/releases/4.0.1/llvm-4.0.1.src.tar.xz"
 MD5="a818e70321b91e2bb2d47e60edd5408f"
-MD5="a6c7b3e953f8b93e252af5917df7db97" # Must be converted to PATCH file
-MD5="0227ac853ce422125f8bb08f6ad5c995" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

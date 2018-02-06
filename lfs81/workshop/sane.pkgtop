@@ -7,7 +7,6 @@ PKG_VERSION="1.0.27"
 PKG_FILE="sane-backends-1.0.27.tar.gz"
 URL="http://fossies.org/linux/misc/sane-backends-1.0.27.tar.gz"
 MD5="b10a08785f92a4c07ad961f4d843c934"
-MD5="c63bf7b0bb5f530cf3c08715db721cd3"
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

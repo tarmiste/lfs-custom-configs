@@ -7,7 +7,6 @@ PKG_VERSION="20170524"
 PKG_FILE="texlive-20170524-source.tar.xz"
 URL="ftp://tug.org/texlive/historic/2017/texlive-20170524-source.tar.xz"
 MD5="f98f6bde0a2c20fc894d983d542beaad"
-MD5="44bb5d71fc64ac90118f8c5013e39b89" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

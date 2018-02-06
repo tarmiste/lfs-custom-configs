@@ -7,7 +7,6 @@ PKG_VERSION="1.3.0"
 PKG_FILE="Linux-PAM-1.3.0.tar.bz2"
 URL="http://linux-pam.org/library/Linux-PAM-1.3.0.tar.bz2"
 MD5="da4b2289b7cfb19583d54e9eaaef1c3a"
-MD5="558378b8be9b8b5c987326f4529f2130" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

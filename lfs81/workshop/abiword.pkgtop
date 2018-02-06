@@ -7,7 +7,6 @@ PKG_VERSION="3.0.2"
 PKG_FILE="abiword-3.0.2.tar.gz"
 URL="http://www.abisource.com/downloads/abiword/3.0.2/source/abiword-3.0.2.tar.gz"
 MD5="cda6dd58c747c133b421cc7eb18f5796"
-MD5="c92c0e1e2081db20757231a53d80c338" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do

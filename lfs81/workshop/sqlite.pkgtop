@@ -7,7 +7,6 @@ PKG_VERSION="3.20.0"
 PKG_FILE="sqlite-autoconf-3200000.tar.gz"
 URL="https://sqlite.org/2017/sqlite-autoconf-3200000.tar.gz"
 MD5="e262a28b73cc330e7e83520c8ce14e4d"
-MD5="ed8f9d7dfb410853619e195af2e73250" # Must be converted to PATCH file
 #
 ## EDITHOOK2
 for i in PATCH{1..10}; do
