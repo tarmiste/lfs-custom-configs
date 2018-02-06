@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="lxqt-kguiaddons"
-PKG_VERSION=
+PKG_VERSION="5.37.0 for lxqt"
 PKG_FILE="kguiaddons-5.37.0.tar.xz"
 URL="http://download.kde.org/stable/frameworks/5.37/kguiaddons-5.37.0.tar.xz"
 MD5="a395b2479d99128cba078c3a1299a566"

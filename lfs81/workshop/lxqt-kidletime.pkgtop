@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="lxqt-kidletime"
-PKG_VERSION=
+PKG_VERSION="5.37.0 for lxqt"
 PKG_FILE="kidletime-5.37.0.tar.xz"
 URL="http://download.kde.org/stable/frameworks/5.37/kidletime-5.37.0.tar.xz"
 MD5="e070c69d7785532d0671a077e3cc370f"

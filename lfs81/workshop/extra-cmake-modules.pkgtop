@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="extra-cmake-modules"
-PKG_VERSION=
+PKG_VERSION="5.37.0"
 PKG_FILE="extra-cmake-modules-5.37.0.tar.xz"
 URL="http://download.kde.org/stable/frameworks/5.37/extra-cmake-modules-5.37.0.tar.xz"
 MD5="29883c1580c5b9e4c736a138fc832e1a"

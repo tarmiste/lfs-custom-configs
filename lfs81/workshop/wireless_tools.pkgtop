@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="wireless_tools"
-PKG_VERSION=
+PKG_VERSION="29"
 PKG_FILE="wireless_tools.29.tar.gz"
 URL="http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/wireless_tools.29.tar.gz"
 MD5="e06c222e186f7cc013fd272d023710cb"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="evince"
-PKG_VERSION=
+PKG_VERSION="3.24.1"
 PKG_FILE="evince-3.24.1.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/evince/3.24/evince-3.24.1.tar.xz"
 MD5="ea19a7f5903caa1ec9688d98051cdb0d"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="libcap-pam"
-PKG_VERSION=
+PKG_VERSION="2.25 with PAM"
 PKG_FILE="libcap-2.25.tar.xz"
 URL="https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.25.tar.xz"
 MD5="6666b839e5d46c2ad33fc8aa2ceb5f77"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="gnome-video-effects"
-PKG_VERSION=
+PKG_VERSION="0.4.3"
 PKG_FILE="gnome-video-effects-0.4.3.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gnome-video-effects/0.4/gnome-video-effects-0.4.3.tar.xz"
 MD5="decfd1264c00deb5b7ac12b483d21cda"

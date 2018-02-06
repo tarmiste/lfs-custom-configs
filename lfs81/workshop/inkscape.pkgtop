@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="inkscape"
-PKG_VERSION=;.2"
+PKG_VERSION="0.92.2"
 PKG_FILE="inkscape-0.92.2.tar.bz2"
 URL="https://media.inkscape.org/dl/resources/file/inkscape-0.92.2.tar.bz2"
 MD5="6f6bcbd0237ecd064460315465467b04"

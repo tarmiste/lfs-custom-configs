@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="ark5"
-PKG_VERSION=
+PKG_VERSION="17.08.0"
 PKG_FILE="ark-17.08.0.tar.xz"
 URL="http://download.kde.org/stable/applications/17.08.0/src/ark-17.08.0.tar.xz"
 MD5="10e7c4bed9368ff8fef15550039bfba3"

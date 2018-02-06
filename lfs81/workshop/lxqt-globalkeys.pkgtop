@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="lxqt-globalkeys"
-PKG_VERSION=;"
+PKG_VERSION="0.11.1"
 PKG_FILE="lxqt-globalkeys-0.11.1.tar.xz"
 URL="https://github.com/lxde/lxqt-globalkeys/releases/download/0.11.1/lxqt-globalkeys-0.11.1.tar.xz"
 MD5="03a1cb56488cef154519a013a5376faa"

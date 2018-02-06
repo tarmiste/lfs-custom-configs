@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="gwenview5"
-PKG_VERSION=
+PKG_VERSION="17.08.0"
 PKG_FILE="gwenview-17.08.0.tar.xz"
 URL="http://download.kde.org/stable/applications/17.08.0/src/gwenview-17.08.0.tar.xz"
 MD5="9d5b9244c651d78caa4aba03c773f8d6"

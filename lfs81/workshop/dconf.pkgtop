@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="dconf"
-PKG_VERSION=
+PKG_VERSION="0.26.0"
 PKG_FILE="dconf-0.26.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/dconf/0.26/dconf-0.26.0.tar.xz"
 MD5="7fc3cb1cf22d904d8744bd12e9c9d3dd"

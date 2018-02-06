@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="pulseaudio"
-PKG_VERSION=;"
+PKG_VERSION="10.0"
 PKG_FILE="pulseaudio-10.0.tar.xz"
 URL="https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-10.0.tar.xz"
 MD5="4950d2799bf55ab91f6b7f990b7f0971"

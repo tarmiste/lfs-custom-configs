@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="gstreamer10-vaapi"
-PKG_VERSION=
+PKG_VERSION="1.12.2"
 PKG_FILE="gstreamer-vaapi-1.12.2.tar.xz"
 URL="https://gstreamer.freedesktop.org/src/gstreamer-vaapi/gstreamer-vaapi-1.12.2.tar.xz"
 MD5="bea015f33696a15ad9575fb71af862ed"

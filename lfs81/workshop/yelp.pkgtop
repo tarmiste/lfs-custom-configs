@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="yelp"
-PKG_VERSION=
+PKG_VERSION="3.22.0"
 PKG_FILE="yelp-3.22.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/yelp/3.22/yelp-3.22.0.tar.xz"
 MD5="2195842c812b4bf3d9903e4e41cb5dd1"

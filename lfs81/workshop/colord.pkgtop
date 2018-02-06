@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="colord"
-PKG_VERSION="1.2.12" <!-- Even minors only --
+PKG_VERSION="1.2.12"
 PKG_FILE="colord-1.2.12.tar.xz"
 URL="https://www.freedesktop.org/software/colord/releases/colord-1.2.12.tar.xz"
 MD5="80b106ba18a43c7eeaf2d9a2b8c5725b"

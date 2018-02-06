@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="gst10-libav"
-PKG_VERSION="1.12.2" <!-- Even minors only --
+PKG_VERSION="1.12.2"
 PKG_FILE="gst-libav-1.12.2.tar.xz"
 URL="https://gstreamer.freedesktop.org/src/gst-libav/gst-libav-1.12.2.tar.xz"
 MD5="8788aecc032a287227b4bd239d1b998a"

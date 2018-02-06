@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="java"
-PKG_VERSION=
+PKG_VERSION="1.8.0.141"
 PKG_FILE="OpenJDK-1.8.0.141-i686-bin.tar.xz"
 URL="http://anduin.linuxfromscratch.org/BLFS/OpenJDK/OpenJDK-1.8.0.141/OpenJDK-1.8.0.141-i686-bin.tar.xz"
 MD5="08ea7bd6d308382d9fb605ffe1599d15"

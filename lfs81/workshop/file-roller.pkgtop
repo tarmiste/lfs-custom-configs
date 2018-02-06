@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="file-roller"
-PKG_VERSION=
+PKG_VERSION="3.24.1"
 PKG_FILE="file-roller-3.24.1.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/file-roller/3.24/file-roller-3.24.1.tar.xz"
 MD5="1e6be71792c7a8e4950297e9fdcf33e7"

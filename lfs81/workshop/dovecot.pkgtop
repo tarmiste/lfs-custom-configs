@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="dovecot"
-PKG_VERSION="&dovecot-major;.&dovecot-minor;.&dovecot-micro;"
+PKG_VERSION="2.2.32"
 PKG_FILE="dovecot-2.2.32.tar.gz"
 URL="https://www.dovecot.org/releases/2.2/dovecot-2.2.32.tar.gz"
 MD5="534feae88700ddc704584e0fc8ee5bdc"

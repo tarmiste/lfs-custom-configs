@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="gsettings-desktop-schemas"
-PKG_VERSION=
+PKG_VERSION="3.24.0"
 PKG_FILE="gsettings-desktop-schemas-3.24.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gsettings-desktop-schemas/3.24/gsettings-desktop-schemas-3.24.0.tar.xz"
 MD5="cc3465621bea4ff6de915812fadc5a8e"

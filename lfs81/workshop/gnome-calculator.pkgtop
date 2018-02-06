@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="gnome-calculator"
-PKG_VERSION=
+PKG_VERSION="3.24.0"
 PKG_FILE="gnome-calculator-3.24.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gnome-calculator/3.24/gnome-calculator-3.24.0.tar.xz"
 MD5="32a06b7edc33f7e95a0e7818769a729f"

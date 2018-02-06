@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="ssh-askpass"
-PKG_VERSION=;"
+PKG_VERSION="7.5p1"
 PKG_FILE="openssh-7.5p1.tar.gz"
 URL="http://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-7.5p1.tar.gz"
 MD5="652fdc7d8392f112bef11cacf7e69e23"

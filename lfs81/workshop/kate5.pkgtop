@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="kate5"
-PKG_VERSION=
+PKG_VERSION="17.08.0"
 PKG_FILE="kate-17.08.0.tar.xz"
 URL="http://download.kde.org/stable/applications/17.08.0/src/kate-17.08.0.tar.xz"
 MD5="05fd3a46011a39b05677c4e94ec4de3f"

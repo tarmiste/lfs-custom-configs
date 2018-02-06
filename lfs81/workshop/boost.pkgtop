@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="boost"
-PKG_VERSION="&boost-major;.&boost-minor;.&boost-patch;"
+PKG_VERSION="1.64.0"
 PKG_FILE="boost_1_64_0.tar.bz2"
 URL="https://dl.bintray.com/boostorg/release/1.64.0/source/boost_1_64_0.tar.bz2"
 MD5="93eecce2abed9d2442c9676914709349"

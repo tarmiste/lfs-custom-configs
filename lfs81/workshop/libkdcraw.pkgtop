@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="libkdcraw"
-PKG_VERSION=
+PKG_VERSION="17.08.0"
 PKG_FILE="libkdcraw-17.08.0.tar.xz"
 URL="http://download.kde.org/stable/applications/17.08.0/src/libkdcraw-17.08.0.tar.xz"
 MD5="5ea9890a6980b9642755292988ad85f3"

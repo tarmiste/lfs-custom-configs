@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="kdenlive5"
-PKG_VERSION=
+PKG_VERSION="17.08.0"
 PKG_FILE="kdenlive-17.08.0.tar.xz"
 URL="http://download.kde.org/stable/applications/17.08.0/src/kdenlive-17.08.0.tar.xz"
 MD5="fc57bb3944c1a25a0573e762d4e48ecc"

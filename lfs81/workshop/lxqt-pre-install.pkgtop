@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="lxqt-pre-install"
-PKG_VERSION=
+PKG_VERSION="1.0.0"
 PKG_FILE=""
 URL=
 #

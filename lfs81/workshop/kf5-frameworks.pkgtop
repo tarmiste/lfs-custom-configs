@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="kf5-frameworks"
-PKG_VERSION=
+PKG_VERSION="5.37.0"
 PKG_FILE=""
 URL=wget -r -nH -nd -A '*.xz' -np $url
 #

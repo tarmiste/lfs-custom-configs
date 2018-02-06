@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="lxqt-kwindowsystem"
-PKG_VERSION=
+PKG_VERSION="5.37.0 for lxqt"
 PKG_FILE="kwindowsystem-5.37.0.tar.xz"
 URL="http://download.kde.org/stable/frameworks/5.37/kwindowsystem-5.37.0.tar.xz"
 MD5="05864840b694d3a587590c38e2170df0"

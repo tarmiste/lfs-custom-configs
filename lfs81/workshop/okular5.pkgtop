@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="okular5"
-PKG_VERSION=
+PKG_VERSION="17.08.0"
 PKG_FILE="okular-17.08.0.tar.xz"
 URL="http://download.kde.org/stable/applications/17.08.0/src/okular-17.08.0.tar.xz"
 MD5="8c37864ce5bb0b341ea3785e5c2e6fd6"

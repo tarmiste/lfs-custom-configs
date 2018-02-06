@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="lxqt-kwayland"
-PKG_VERSION=
+PKG_VERSION="5.37.0 for lxqt"
 PKG_FILE="kwayland-5.37.0.tar.xz"
 URL="http://download.kde.org/stable/frameworks/5.37/kwayland-5.37.0.tar.xz"
 MD5="a1ebab3f95697555278c3bef60647647"

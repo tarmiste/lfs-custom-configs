@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="pixman"
-PKG_VERSION="0.34.0" <!-- Even minors only --
+PKG_VERSION="0.34.0"
 PKG_FILE="pixman-0.34.0.tar.gz"
 URL="https://www.cairographics.org/releases/pixman-0.34.0.tar.gz"
 MD5="e80ebae4da01e77f68744319f01d52a3"

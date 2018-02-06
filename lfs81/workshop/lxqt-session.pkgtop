@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="lxqt-session"
-PKG_VERSION=;"
+PKG_VERSION="0.11.1"
 PKG_FILE="lxqt-session-0.11.1.tar.xz"
 URL="https://github.com/lxde/lxqt-session/releases/download/0.11.1/lxqt-session-0.11.1.tar.xz"
 MD5="87ebe144fbc540b92b08e1b62a601772"

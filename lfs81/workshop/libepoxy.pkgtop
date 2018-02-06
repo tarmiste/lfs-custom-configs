@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="libepoxy"
-PKG_VERSION="&libepoxy-minor;.3"
+PKG_VERSION="1.4.3"
 PKG_FILE="libepoxy-1.4.3.tar.xz"
 URL="https://github.com/anholt/libepoxy/releases/download/1.4.3/libepoxy-1.4.3.tar.xz"
 MD5="af4c3ce0fb1143bdc4e43f85695a9bed"

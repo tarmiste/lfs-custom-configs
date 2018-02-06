@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="liblxqt"
-PKG_VERSION=;"
+PKG_VERSION="0.11.1"
 PKG_FILE="liblxqt-0.11.1.tar.xz"
 URL="https://github.com/lxde/liblxqt/releases/download/0.11.1/liblxqt-0.11.1.tar.xz"
 MD5="af904d237b3a9c95f8ca0bcbbb6b5912"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="lxqt-panel"
-PKG_VERSION=;"
+PKG_VERSION="0.11.1"
 PKG_FILE="lxqt-panel-0.11.1.tar.xz"
 URL="https://github.com/lxde/lxqt-panel/releases/download/0.11.1/lxqt-panel-0.11.1.tar.xz"
 MD5="bf84113e02c84c32b90539855a3e6139"

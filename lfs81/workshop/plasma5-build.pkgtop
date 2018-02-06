@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="plasma5-build"
-PKG_VERSION=
+PKG_VERSION="5.10.5"
 PKG_FILE=""
 URL=wget -r -nH -nd -A '*.xz' -np $url
 #

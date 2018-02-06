@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="gjs"
-PKG_VERSION=
+PKG_VERSION="1.48.6"
 PKG_FILE="gjs-1.48.6.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gjs/1.48/gjs-1.48.6.tar.xz"
 MD5="f2cf6230388beb1b8059b46620c90852"

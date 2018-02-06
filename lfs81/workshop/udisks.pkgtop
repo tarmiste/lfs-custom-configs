@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="udisks"
-PKG_VERSION="1.0.5" <!-- stable lt .90 micro version --
+PKG_VERSION="1.0.5"
 PKG_FILE="udisks-1.0.5.tar.gz"
 URL="https://hal.freedesktop.org/releases/udisks-1.0.5.tar.gz"
 MD5="70d48dcfe523a74cd7c7fbbc2847fcdd"

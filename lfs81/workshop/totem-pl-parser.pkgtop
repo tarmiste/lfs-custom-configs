@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="totem-pl-parser"
-PKG_VERSION=
+PKG_VERSION="3.10.8"
 PKG_FILE="totem-pl-parser-3.10.8.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/totem-pl-parser/3.10/totem-pl-parser-3.10.8.tar.xz"
 MD5="2c2fb44c3124dd98ec827bcfcd040049"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="lxqt-powermanagement"
-PKG_VERSION=;"
+PKG_VERSION="0.11.1"
 PKG_FILE="lxqt-powermanagement-0.11.1.tar.xz"
 URL="https://github.com/lxde/lxqt-powermanagement/releases/download/0.11.1/lxqt-powermanagement-0.11.1.tar.xz"
 MD5="4fb48eb22ecb73fd6b33fa6003fc914b"

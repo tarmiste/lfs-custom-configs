@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="js38"
-PKG_VERSION=
+PKG_VERSION="38.2.1"
 PKG_FILE="mozjs-38.2.1.rc0.tar.bz2"
 URL="https://people.mozilla.org/~sstangl/mozjs-38.2.1.rc0.tar.bz2"
 MD5="cb602e21f5fc798b88163a3aa4e03e0a"

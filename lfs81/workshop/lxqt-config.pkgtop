@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="lxqt-config"
-PKG_VERSION=;"
+PKG_VERSION="0.11.1"
 PKG_FILE="lxqt-config-0.11.1.tar.xz"
 URL="https://github.com/lxde/lxqt-config/releases/download/0.11.1/lxqt-config-0.11.1.tar.xz"
 MD5="e134a01c1e466170c7e498455abfb62f"

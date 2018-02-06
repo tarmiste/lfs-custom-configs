@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="k3b"
-PKG_VERSION="2017-02-12" "2.0.3"
+PKG_VERSION="2017-02-12"
 PKG_FILE="k3b-17.08.0.tar.xz"
 URL="http://download.kde.org/stable/applications/17.08.0/src/k3b-17.08.0.tar.xz"
 MD5="2b96da7c783a1330d27be4dc12e7b7a5"

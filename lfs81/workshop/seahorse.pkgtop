@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="seahorse"
-PKG_VERSION=
+PKG_VERSION="3.20.0"
 PKG_FILE="seahorse-3.20.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/seahorse/3.20/seahorse-3.20.0.tar.xz"
 MD5="06cdf9805d9d1adddd0140d13f1bd234"

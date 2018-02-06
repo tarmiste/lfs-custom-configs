@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="gst10-plugins-base"
-PKG_VERSION="1.12.2" <!-- Even minors only --
+PKG_VERSION="1.12.2"
 PKG_FILE="gst-plugins-base-1.12.2.tar.xz"
 URL="https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.12.2.tar.xz"
 MD5="77f5379c4ca677616b415e3b3ff95578"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="network-manager-applet"
-PKG_VERSION=
+PKG_VERSION="1.8.2"
 PKG_FILE="network-manager-applet-1.8.2.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/network-manager-applet/1.8/network-manager-applet-1.8.2.tar.xz"
 MD5="9b5cb16bfbb5db15e76f20da8a29b72d"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="dbus"
-PKG_VERSION="1.10.22" <!-- Even minors only --
+PKG_VERSION="1.10.22"
 PKG_FILE="dbus-1.10.22.tar.gz"
 URL="https://dbus.freedesktop.org/releases/dbus/dbus-1.10.22.tar.gz"
 MD5="baaa10b7cb49086ad91179a8decfadc5"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="abiword"
-PKG_VERSION=
+PKG_VERSION="3.0.2"
 PKG_FILE="abiword-3.0.2.tar.gz"
 URL="http://www.abisource.com/downloads/abiword/3.0.2/source/abiword-3.0.2.tar.gz"
 MD5="cda6dd58c747c133b421cc7eb18f5796"

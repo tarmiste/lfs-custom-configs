@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="cacerts"
-PKG_VERSION=
+PKG_VERSION="1.0.0"
 PKG_FILE="make-ca.sh-20170514 certdata.txt"
 URL="http://anduin.linuxfromscratch.org/BLFS/other/make-ca.sh-20170514"
 #

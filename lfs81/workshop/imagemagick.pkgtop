@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="imagemagick"
-PKG_VERSION="7.0.6"
+PKG_VERSION="7.0.6-10"
 PKG_FILE="ImageMagick-7.0.6-10.tar.xz"
 URL="https://www.imagemagick.org/download/releases/ImageMagick-7.0.6-10.tar.xz"
 MD5="29031b3cc7a6e44b2334ad6692ba1736"

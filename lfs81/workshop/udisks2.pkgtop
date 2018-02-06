@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="udisks2"
-PKG_VERSION="2.7.2" <!-- stable lt .90 micro version --
+PKG_VERSION="2.7.2"
 PKG_FILE="udisks-2.7.2.tar.bz2"
 URL="https://github.com/storaged-project/udisks/releases/download/udisks-2.7.2/udisks-2.7.2.tar.bz2"
 MD5="587651b3864ba396e2702dca765dbda0"

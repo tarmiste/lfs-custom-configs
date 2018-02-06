@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="imagemagick6"
-PKG_VERSION="6.9.9"
+PKG_VERSION="6.9.9-9 libraries"
 PKG_FILE="ImageMagick-6.9.9-9.tar.xz"
 URL="https://www.imagemagick.org/download/releases/ImageMagick-6.9.9-9.tar.xz"
 MD5="182239bb642ca23f86206bf027caf536"

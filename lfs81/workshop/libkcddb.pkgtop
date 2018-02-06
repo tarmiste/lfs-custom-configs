@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="libkcddb"
-PKG_VERSION=<!-- "2016-09-11" --
+PKG_VERSION="17.08.0"
 PKG_FILE="libkcddb-17.08.0.tar.xz"
 URL="http://download.kde.org/stable/applications/17.08.0/src/libkcddb-17.08.0.tar.xz"
 MD5="61c5715f60fecc8a337884701ce30d0e"

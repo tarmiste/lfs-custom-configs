@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="cdparanoia"
-PKG_VERSION=
+PKG_VERSION="III-10.2"
 PKG_FILE="cdparanoia-III-10.2.src.tgz"
 URL="https://downloads.xiph.org/releases/cdparanoia/cdparanoia-III-10.2.src.tgz"
 MD5="b304bbe8ab63373924a744eac9ebc652"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="ruby"
-PKG_VERSION=;"
+PKG_VERSION="2.4.1"
 PKG_FILE="ruby-2.4.1.tar.xz"
 URL="http://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.1.tar.xz"
 MD5="894467211c4ae1dbf8a41bb0d58bbc89"

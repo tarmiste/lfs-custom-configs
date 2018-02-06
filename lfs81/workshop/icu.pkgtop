@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="icu"
-PKG_VERSION="&icu-major;.&icu-minor;"<!-- .&icu-patch;--
+PKG_VERSION="59.1"
 PKG_FILE="icu4c-59_1-src.tgz"
 URL="http://download.icu-project.org/files/icu4c/59.1/icu4c-59_1-src.tgz"
 MD5="54923fa9fab5b2b83f235fb72523de37"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="gnome-screenshot"
-PKG_VERSION=
+PKG_VERSION="3.22.0"
 PKG_FILE="gnome-screenshot-3.22.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gnome-screenshot/3.22/gnome-screenshot-3.22.0.tar.xz"
 MD5="d68636fae1e7a5798cb7394b2a202542"

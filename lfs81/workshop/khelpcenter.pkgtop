@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="khelpcenter"
-PKG_VERSION=
+PKG_VERSION="17.08.0"
 PKG_FILE="khelpcenter-17.08.0.tar.xz"
 URL="http://download.kde.org/stable/applications/17.08.0/src/khelpcenter-17.08.0.tar.xz"
 MD5="e89179a754e3208e5147c4eafbe99fd0"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="libkexiv2"
-PKG_VERSION=
+PKG_VERSION="17.08.0"
 PKG_FILE="libkexiv2-17.08.0.tar.xz"
 URL="http://download.kde.org/stable/applications/17.08.0/src/libkexiv2-17.08.0.tar.xz"
 MD5="39d177a628ed83639b201a8d6aadc868"

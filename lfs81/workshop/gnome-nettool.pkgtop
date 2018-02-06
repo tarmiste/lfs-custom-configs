@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="gnome-nettool"
-PKG_VERSION=
+PKG_VERSION="3.8.1"
 PKG_FILE="gnome-nettool-3.8.1.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gnome-nettool/3.8/gnome-nettool-3.8.1.tar.xz"
 MD5="d4fc944b7ba8fd5f49f04a73e0d37e80"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="gnome-system-monitor"
-PKG_VERSION=
+PKG_VERSION="3.24.0"
 PKG_FILE="gnome-system-monitor-3.24.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/gnome-system-monitor/3.24/gnome-system-monitor-3.24.0.tar.xz"
 MD5="14d6bc9d8b4978f2123f82c40ad6445f"

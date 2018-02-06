@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="graphviz"
-PKG_VERSION="2.40.1" <!-- Even minors only --
+PKG_VERSION="2.40.1"
 PKG_FILE="graphviz-2.40.1.tar.gz"
 URL="http://graphviz.org/pub/graphviz/stable/SOURCES/graphviz-2.40.1.tar.gz"
 MD5="4ea6fd64603536406166600bcc296fc8"

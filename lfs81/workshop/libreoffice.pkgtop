@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="libreoffice"
-PKG_VERSION="5.4.0"
+PKG_VERSION="5.4.0.3"
 PKG_FILE="libreoffice-5.4.0.3.tar.xz"
 URL="http://download.documentfoundation.org/libreoffice/src/5.4.0/libreoffice-5.4.0.3.tar.xz"
 MD5="3491becc5b7e3b1658239b8be877770c"

@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="libpeas"
-PKG_VERSION=
+PKG_VERSION="1.20.0"
 PKG_FILE="libpeas-1.20.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/libpeas/1.20/libpeas-1.20.0.tar.xz"
 MD5="67a698cd64c9d9efc1289f68420883b1"

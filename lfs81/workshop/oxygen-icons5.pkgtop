@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="oxygen-icons5"
-PKG_VERSION=
+PKG_VERSION="5.37.0"
 PKG_FILE="oxygen-icons5-5.37.0.tar.xz"
 URL="http://download.kde.org/stable/frameworks/5.37/oxygen-icons5-5.37.0.tar.xz"
 MD5="3f7cdadd2adc1b82b5600fbea90d0888"

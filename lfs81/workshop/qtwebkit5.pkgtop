@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="qtwebkit5"
-PKG_VERSION=
+PKG_VERSION="5.9.0"
 PKG_FILE="qtwebkit-opensource-src-5.9.0.tar.xz"
 URL="https://download.qt.io/community_releases/5.9/5.9.0-final/qtwebkit-opensource-src-5.9.0.tar.xz"
 MD5="1fc0ed873cc9326b823a8a83126714f5"

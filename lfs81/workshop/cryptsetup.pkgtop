@@ -3,7 +3,7 @@
 #
 ## EDITHOOK1
 PKG="cryptsetup"
-PKG_VERSION="&cryptsetup-minor;.5"
+PKG_VERSION="1.7.5"
 PKG_FILE="cryptsetup-1.7.5.tar.xz"
 URL="https://www.kernel.org/pub/linux/utils/cryptsetup/v1.7/cryptsetup-1.7.5.tar.xz"
 MD5="d2d668223e795dcf750da44dc3e7076b"
