@@ -1,7 +1,7 @@
 # Dependencies:
-#    Recommended: "openssl" 
-#    Optional: "cacerts" 
-#    Optional: "doxygen" 
-#    Optional: "libpcap" 
-#    Optional: "python2" 
-#    Optional: "swig" 
+#    Recommended: "openssl"
+#    Optional: "cacerts"
+#    Optional: "doxygen"
+#    Optional: "libpcap"
+#    Optional: "python2"
+#    Optional: "swig"

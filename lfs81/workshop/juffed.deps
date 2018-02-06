@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "qscintilla" 
-#    Recommended: "qtermwidget" 
-#    Optional: "Enca" 
-#    Optional: "desktop-file-utils" 
+#    Required: "qscintilla"
+#    Recommended: "qtermwidget"
+#    Optional: "Enca"
+#    Optional: "desktop-file-utils"

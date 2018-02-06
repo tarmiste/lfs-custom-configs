@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "apr-util" 
-#    Required: "openssl" 
-#    Required: "scons" 
-#    Optional: "mitkrb" 
+#    Required: "apr-util"
+#    Required: "openssl"
+#    Required: "scons"
+#    Optional: "mitkrb"

@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="libreoffice"
 PKG_VERSION="5.4.0"
-PKG_FILE="libreoffice-5.4.0.3.tar.xz libreoffice-dictionaries-5.4.0.3.tar.xz libreoffice-help-5.4.0.3.tar.xz libreoffice-translations-5.4.0.3.tar.xz"
+PKG_FILE="libreoffice-5.4.0.3.tar.xz"
 URL="http://download.documentfoundation.org/libreoffice/src/5.4.0/libreoffice-5.4.0.3.tar.xz"
 MD5="3491becc5b7e3b1658239b8be877770c"
 MD5="df72048ade4fe7a63a7934af65f2e5bd" # Must be converted to PATCH file
@@ -15,4 +15,4 @@ MD5="18ea9867fea2fd0f9149df43ce286e30" # Must be converted to PATCH file
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="http://download.documentfoundation.org/libreoffice/src/5.4.0/libreoffice-dictionaries-5.4.0.3.tar.xz"

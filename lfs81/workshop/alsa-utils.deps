@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "alsa-lib" 
-#    Optional: "Dialog" 
-#    Optional: "fftw" 
-#    Optional: "libsamplerate" 
-#    Optional: "xmlto" 
+#    Required: "alsa-lib"
+#    Optional: "Dialog"
+#    Optional: "fftw"
+#    Optional: "libsamplerate"
+#    Optional: "xmlto"

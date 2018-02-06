@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "lxqt-globalkeys" 
-#    Required: "lxqt-panel" 
-#    Required: "menu-cache" 
-#    Optional: "git" 
-#    Optional: "lxqt-l10n" 
-#    Optional: "muparser" 
+#    Required: "lxqt-globalkeys"
+#    Required: "lxqt-panel"
+#    Required: "menu-cache"
+#    Optional: "git"
+#    Optional: "lxqt-l10n"
+#    Optional: "muparser"

@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "gst10-plugins-base" 
-#    Recommended: "yasm" 
-#    Optional: "Orc" 
-#    Optional: "valgrind" 
+#    Required: "gst10-plugins-base"
+#    Recommended: "yasm"
+#    Optional: "Orc"
+#    Optional: "valgrind"

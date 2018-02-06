@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "gst10-plugins-base" 
-#    Required: "libxfce4ui" 
-#    Recommended: "libnotify" 
-#    Recommended: "taglib" 
+#    Required: "gst10-plugins-base"
+#    Required: "libxfce4ui"
+#    Recommended: "libnotify"
+#    Recommended: "taglib"

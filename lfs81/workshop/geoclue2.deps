@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "json-glib" 
-#    Required: "libsoup" 
-#    Recommended: "ModemManager" 
-#    Recommended: "avahi" 
-#    Optional: "libnotify" 
+#    Required: "json-glib"
+#    Required: "libsoup"
+#    Recommended: "ModemManager"
+#    Recommended: "avahi"
+#    Optional: "libnotify"

@@ -1,4 +1,4 @@
 # Dependencies:
-#    Required: "gtk2" 
-#    Optional: "gobject-introspection" 
-#    Optional: "gtk-doc" 
+#    Required: "gtk2"
+#    Optional: "gobject-introspection"
+#    Optional: "gtk-doc"

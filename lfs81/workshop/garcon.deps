@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "exo" 
-#    Required: "gtk2" 
-#    Required: "gtk3" 
-#    Required: "libxfce4ui" 
-#    Optional: "gtk-doc" 
+#    Required: "exo"
+#    Required: "gtk2"
+#    Required: "gtk3"
+#    Required: "libxfce4ui"
+#    Optional: "gtk-doc"

@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "cmake" 
-#    Required: "libfm" 
-#    Required: "liblxqt" 
-#    Required: "qt5" 
-#    Optional: "git" 
-#    Optional: "lxqt-l10n" 
+#    Required: "cmake"
+#    Required: "libfm"
+#    Required: "liblxqt"
+#    Required: "qt5"
+#    Optional: "git"
+#    Optional: "lxqt-l10n"

@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "x-window-system" 
-#    Optional: "dbus" 
-#    Optional: "fribidi" 
-#    Optional: "imlib2" 
+#    Required: "x-window-system"
+#    Optional: "dbus"
+#    Optional: "fribidi"
+#    Optional: "imlib2"

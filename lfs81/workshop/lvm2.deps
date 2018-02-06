@@ -1,7 +1,7 @@
 # Dependencies:
-#    Optional: "mdadm" 
-#    Optional: "reiserfs" 
-#    Optional: "thin-provisioning-tools" 
-#    Optional: "valgrind" 
-#    Optional: "which" 
-#    Optional: "xfsprogs" 
+#    Optional: "mdadm"
+#    Optional: "reiserfs"
+#    Optional: "thin-provisioning-tools"
+#    Optional: "valgrind"
+#    Optional: "which"
+#    Optional: "xfsprogs"

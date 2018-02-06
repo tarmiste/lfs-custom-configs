@@ -1,4 +1,4 @@
 # Dependencies:
-#    Required: "extra-cmake-modules" 
-#    Required: "qt5" 
-#    Optional: "kf5-frameworks" 
+#    Required: "extra-cmake-modules"
+#    Required: "qt5"
+#    Optional: "kf5-frameworks"

@@ -1,7 +1,7 @@
 # Dependencies:
-#    Optional: "bind" 
-#    Optional: "bind-utils" 
-#    Optional: "boost" 
-#    Optional: "gdb" 
-#    Optional: "llvm" 
-#    Optional: "which" 
+#    Optional: "bind"
+#    Optional: "bind-utils"
+#    Optional: "boost"
+#    Optional: "gdb"
+#    Optional: "llvm"
+#    Optional: "which"

@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="git"
 PKG_VERSION="2.14.1"
-PKG_FILE="git-2.14.1.tar.xz git-manpages-2.14.1.tar.xz git-htmldocs-2.14.1.tar.xz"
+PKG_FILE="git-2.14.1.tar.xz"
 URL="https://www.kernel.org/pub/software/scm/git/git-2.14.1.tar.xz"
 MD5="a55bc6a2164d3ef1c3e5fc2f0c1d0d52"
 #
@@ -12,4 +12,4 @@ MD5="a55bc6a2164d3ef1c3e5fc2f0c1d0d52"
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="https://www.kernel.org/pub/software/scm/git/git-manpages-2.14.1.tar.xz"

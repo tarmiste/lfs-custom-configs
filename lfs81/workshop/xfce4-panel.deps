@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "exo" 
-#    Required: "garcon" 
-#    Required: "libwnck2" 
-#    Required: "libwnck2" 
-#    Required: "libxfce4ui" 
-#    Optional: "gtk-doc" 
+#    Required: "exo"
+#    Required: "garcon"
+#    Required: "libwnck2"
+#    Required: "libwnck2"
+#    Required: "libxfce4ui"
+#    Optional: "gtk-doc"

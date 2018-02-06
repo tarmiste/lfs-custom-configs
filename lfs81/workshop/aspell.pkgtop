@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="aspell"
 PKG_VERSION="0.60.6.1"
-PKG_FILE="aspell-0.60.6.1.tar.gz dict"
+PKG_FILE="aspell-0.60.6.1.tar.gz"
 URL="https://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz"
 MD5="e66a9c9af6a60dc46134fdacf6ce97d7"
 #
@@ -12,4 +12,4 @@ MD5="e66a9c9af6a60dc46134fdacf6ce97d7"
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="https://ftp.gnu.org/gnu/aspell/dict"

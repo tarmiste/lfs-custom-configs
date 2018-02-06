@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "gc" 
-#    Required: "libffi" 
-#    Required: "libunistring" 
-#    Optional: "emacs" 
-#    Optional: "gdb" 
+#    Required: "gc"
+#    Required: "libffi"
+#    Required: "libunistring"
+#    Optional: "emacs"
+#    Optional: "gdb"

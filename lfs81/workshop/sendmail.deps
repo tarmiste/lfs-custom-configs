@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "openldap" 
-#    Recommended: "cyrus-sasl" 
-#    Recommended: "openssl10" 
-#    Optional: "gs" 
-#    Optional: "nph" 
-#    Optional: "procmail" 
+#    Required: "openldap"
+#    Recommended: "cyrus-sasl"
+#    Recommended: "openssl10"
+#    Optional: "gs"
+#    Optional: "nph"
+#    Optional: "procmail"

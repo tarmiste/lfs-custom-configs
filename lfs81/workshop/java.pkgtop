@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="java"
 PKG_VERSION=
-PKG_FILE="OpenJDK-1.8.0.141-i686-bin.tar.xz OpenJDK-1.8.0.141-x86_64-bin.tar.xz"
+PKG_FILE="OpenJDK-1.8.0.141-i686-bin.tar.xz"
 URL="http://anduin.linuxfromscratch.org/BLFS/OpenJDK/OpenJDK-1.8.0.141/OpenJDK-1.8.0.141-i686-bin.tar.xz"
 MD5="08ea7bd6d308382d9fb605ffe1599d15"
 MD5="e924a6923dc156e9f65ca53fffcdcf30"
@@ -13,4 +13,4 @@ MD5="e924a6923dc156e9f65ca53fffcdcf30"
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="http://anduin.linuxfromscratch.org/BLFS/OpenJDK/OpenJDK-1.8.0.141/OpenJDK-1.8.0.141-x86_64-bin.tar.xz"

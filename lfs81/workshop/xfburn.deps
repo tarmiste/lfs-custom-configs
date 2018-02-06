@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "exo" 
-#    Required: "libisoburn" 
-#    Required: "libxfce4util" 
-#    Optional: "cdrdao" 
-#    Optional: "gst10-plugins-base" 
+#    Required: "exo"
+#    Required: "libisoburn"
+#    Required: "libxfce4util"
+#    Optional: "cdrdao"
+#    Optional: "gst10-plugins-base"

@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "gtk3" 
-#    Required: "gtksourceview" 
-#    Required: "itstool" 
-#    Required: "libsoup" 
-#    Recommended: "vala" 
+#    Required: "gtk3"
+#    Required: "gtksourceview"
+#    Required: "itstool"
+#    Required: "libsoup"
+#    Recommended: "vala"

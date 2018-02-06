@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "liblxqt" 
-#    Required: "lxqt-notificationd" 
-#    Required: "polkit-qt" 
-#    Optional: "git" 
-#    Optional: "lxqt-l10n" 
+#    Required: "liblxqt"
+#    Required: "lxqt-notificationd"
+#    Required: "polkit-qt"
+#    Optional: "git"
+#    Optional: "lxqt-l10n"

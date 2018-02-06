@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "clutter" 
-#    Required: "gtk3" 
-#    Recommended: "gobject-introspection" 
-#    Optional: "gtk-doc" 
+#    Required: "clutter"
+#    Required: "gtk3"
+#    Recommended: "gobject-introspection"
+#    Optional: "gtk-doc"

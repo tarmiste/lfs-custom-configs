@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="docbook-dsssl"
 PKG_VERSION="1.79"
-PKG_FILE="docbook-dsssl-1.79.tar.bz2 docbook-dsssl-doc-1.79.tar.bz2"
+PKG_FILE="docbook-dsssl-1.79.tar.bz2"
 URL="https://downloads.sourceforge.net/docbook/docbook-dsssl-1.79.tar.bz2"
 MD5="bc192d23266b9a664ca0aba4a7794c7c"
 MD5="9a7b809a21ab7d2749bb328334c380f2" # Must be converted to PATCH file
@@ -13,4 +13,4 @@ MD5="9a7b809a21ab7d2749bb328334c380f2" # Must be converted to PATCH file
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="https://downloads.sourceforge.net/docbook/docbook-dsssl-doc-1.79.tar.bz2"

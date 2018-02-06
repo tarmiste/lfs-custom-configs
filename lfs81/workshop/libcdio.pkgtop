@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="libcdio"
 PKG_VERSION="0.94"
-PKG_FILE="libcdio-0.94.tar.gz libcdio-paranoia-10.2+0.94+2.tar.gz"
+PKG_FILE="libcdio-0.94.tar.gz"
 URL="https://ftp.gnu.org/gnu/libcdio/libcdio-0.94.tar.gz"
 MD5="d8734266a20fbc2605a97b701b838ab6"
 #
@@ -12,4 +12,4 @@ MD5="d8734266a20fbc2605a97b701b838ab6"
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="https://ftp.gnu.org/gnu/libcdio/libcdio-paranoia-10.2+0.94+2.tar.gz"

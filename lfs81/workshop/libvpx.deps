@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "nasm" 
-#    Required: "which" 
-#    Required: "yasm" 
-#    Optional: "doxygen" 
-#    Optional: "php" 
+#    Required: "nasm"
+#    Required: "which"
+#    Required: "yasm"
+#    Optional: "doxygen"
+#    Optional: "php"

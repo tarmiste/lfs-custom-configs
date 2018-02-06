@@ -1,7 +1,7 @@
 # Dependencies:
-#    Recommended: "alsa-lib" 
-#    Optional: "JACK" 
-#    Optional: "OpenAL" 
-#    Optional: "PortAudio" 
-#    Optional: "pulseaudio" 
-#    Optional: "sdl" 
+#    Recommended: "alsa-lib"
+#    Optional: "JACK"
+#    Optional: "OpenAL"
+#    Optional: "PortAudio"
+#    Optional: "pulseaudio"
+#    Optional: "sdl"

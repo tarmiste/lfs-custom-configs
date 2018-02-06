@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "cmake" 
-#    Optional: "freetype2" 
-#    Optional: "graphite-font" 
-#    Optional: "harfbuzz" 
-#    Optional: "python2" 
-#    Optional: "silgraphite" 
+#    Required: "cmake"
+#    Optional: "freetype2"
+#    Optional: "graphite-font"
+#    Optional: "harfbuzz"
+#    Optional: "python2"
+#    Optional: "silgraphite"

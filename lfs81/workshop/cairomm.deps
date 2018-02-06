@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "cairo" 
-#    Required: "libsigc" 
-#    Optional: "boost" 
-#    Optional: "doxygen" 
+#    Required: "cairo"
+#    Required: "libsigc"
+#    Optional: "boost"
+#    Optional: "doxygen"

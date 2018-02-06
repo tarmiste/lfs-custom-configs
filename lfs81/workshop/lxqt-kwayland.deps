@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "extra-cmake-modules" 
-#    Required: "lxqt-common" 
-#    Required: "mesa" 
-#    Required: "qt5" 
-#    Required: "wayland" 
+#    Required: "extra-cmake-modules"
+#    Required: "lxqt-common"
+#    Required: "mesa"
+#    Required: "qt5"
+#    Required: "wayland"

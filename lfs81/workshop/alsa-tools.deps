@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "alsa-lib" 
-#    Optional: "fltk" 
-#    Optional: "gtk2" 
-#    Optional: "gtk3" 
+#    Required: "alsa-lib"
+#    Optional: "fltk"
+#    Optional: "gtk2"
+#    Optional: "gtk3"

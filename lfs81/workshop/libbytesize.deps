@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "pcre2" 
-#    Optional: "gtk-doc" 
-#    Optional: "python2" 
-#    Optional: "python3" 
-#    Optional: "six" 
+#    Required: "pcre2"
+#    Optional: "gtk-doc"
+#    Optional: "python2"
+#    Optional: "python3"
+#    Optional: "six"

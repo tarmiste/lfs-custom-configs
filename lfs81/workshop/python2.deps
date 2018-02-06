@@ -1,7 +1,7 @@
 # Dependencies:
-#    Recommended: "libffi" 
-#    Optional: "bluez" 
-#    Optional: "openssl" 
-#    Optional: "sqlite" 
-#    Optional: "tk" 
-#    Optional: "valgrind" 
+#    Recommended: "libffi"
+#    Optional: "bluez"
+#    Optional: "openssl"
+#    Optional: "sqlite"
+#    Optional: "tk"
+#    Optional: "valgrind"

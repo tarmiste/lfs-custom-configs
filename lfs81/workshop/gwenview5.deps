@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "exiv2" 
-#    Required: "kf5-frameworks" 
-#    Required: "lcms2" 
-#    Recommended: "libkdcraw" 
-#    Optional: "KF5Kipi" 
+#    Required: "exiv2"
+#    Required: "kf5-frameworks"
+#    Required: "lcms2"
+#    Recommended: "libkdcraw"
+#    Optional: "KF5Kipi"

@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "libvorbis" 
-#    Optional: "curl" 
-#    Optional: "flac" 
-#    Optional: "libao" 
-#    Optional: "libkate" 
-#    Optional: "speex" 
+#    Required: "libvorbis"
+#    Optional: "curl"
+#    Optional: "flac"
+#    Optional: "libao"
+#    Optional: "libkate"
+#    Optional: "speex"

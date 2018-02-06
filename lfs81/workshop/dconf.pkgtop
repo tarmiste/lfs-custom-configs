@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="dconf"
 PKG_VERSION=
-PKG_FILE="dconf-0.26.0.tar.xz dconf-editor-3.22.3.tar.xz"
+PKG_FILE="dconf-0.26.0.tar.xz"
 URL="http://ftp.gnome.org/pub/gnome/sources/dconf/0.26/dconf-0.26.0.tar.xz"
 MD5="7fc3cb1cf22d904d8744bd12e9c9d3dd"
 MD5="80f7b39976eb2040bc8ea6635d48a763"
@@ -13,4 +13,4 @@ MD5="80f7b39976eb2040bc8ea6635d48a763"
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="http://ftp.gnome.org/pub/gnome/sources/dconf/0.26/dconf-editor-3.22.3.tar.xz"

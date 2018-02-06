@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "liblxqt" 
-#    Required: "lxqt-libkscreen" 
-#    Required: "lxqt-libkscreen" 
-#    Required: "plasma5-build" 
-#    Optional: "git" 
-#    Optional: "lxqt-l10n" 
+#    Required: "liblxqt"
+#    Required: "lxqt-libkscreen"
+#    Required: "lxqt-libkscreen"
+#    Required: "plasma5-build"
+#    Optional: "git"
+#    Optional: "lxqt-l10n"

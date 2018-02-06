@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "gtk3" 
-#    Recommended: "gobject-introspection" 
-#    Recommended: "startup-notification" 
-#    Optional: "gtk-doc" 
+#    Required: "gtk3"
+#    Recommended: "gobject-introspection"
+#    Recommended: "startup-notification"
+#    Optional: "gtk-doc"

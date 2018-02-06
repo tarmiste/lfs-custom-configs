@@ -17,7 +17,7 @@ ldconfig
 install -v -m750 -o stunnel -g stunnel -d /var/lib/stunnel/run &&
 chown stunnel:stunnel /var/lib/stunnel
 
-cat >/etc/stunnel/stunnel.conf << "EOF" 
+cat >/etc/stunnel/stunnel.conf << "EOF"
 ; File: /etc/stunnel/stunnel.conf
 
 ; Note: The pid and output locations are relative to the chroot location.

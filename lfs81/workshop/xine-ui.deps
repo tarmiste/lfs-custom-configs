@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "shared-mime-info" 
-#    Required: "xine-lib" 
-#    Optional: "LIRC" 
-#    Optional: "aalib" 
-#    Optional: "curl" 
-#    Optional: "libcaca" 
+#    Required: "shared-mime-info"
+#    Required: "xine-lib"
+#    Optional: "LIRC"
+#    Optional: "aalib"
+#    Optional: "curl"
+#    Optional: "libcaca"

@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="openjdk"
 PKG_VERSION="1.8.0.141"
-PKG_FILE="jdk8u141-b15.tar.bz2 jtreg-4.2-b08-891.tar.gz icedtea-web-1.7.tar.gz"
+PKG_FILE="jdk8u141-b15.tar.bz2"
 URL="http://hg.openjdk.java.net/jdk8u/jdk8u/archive/jdk8u141-b15.tar.bz2"
 MD5="df3504e95d6e88924babb3821d4210a6"
 MD5="f409d5313b5d9aa81bb6868082fda161" # Must be converted to PATCH file
@@ -13,4 +13,4 @@ MD5="f409d5313b5d9aa81bb6868082fda161" # Must be converted to PATCH file
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="http://hg.openjdk.java.net/jdk8u/jdk8u/archive/jtreg-4.2-b08-891.tar.gz"

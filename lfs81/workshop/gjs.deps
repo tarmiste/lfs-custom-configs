@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "cairo" 
-#    Required: "gobject-introspection" 
-#    Required: "js38" 
-#    Optional: "DTrace" 
-#    Optional: "LCOV" 
-#    Optional: "Systemtap" 
+#    Required: "cairo"
+#    Required: "gobject-introspection"
+#    Required: "js38"
+#    Optional: "DTrace"
+#    Optional: "LCOV"
+#    Optional: "Systemtap"

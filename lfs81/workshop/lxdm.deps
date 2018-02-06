@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "gtk2" 
-#    Required: "iso-codes" 
-#    Required: "librsvg" 
-#    Recommended: "consolekit" 
-#    Recommended: "linux-pam" 
-#    Optional: "gtk3" 
+#    Required: "gtk2"
+#    Required: "iso-codes"
+#    Required: "librsvg"
+#    Recommended: "consolekit"
+#    Recommended: "linux-pam"
+#    Optional: "gtk3"

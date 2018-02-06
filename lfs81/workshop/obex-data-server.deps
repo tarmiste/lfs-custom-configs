@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "bluez" 
-#    Required: "dbus-glib" 
-#    Required: "gdk-pixbuf" 
-#    Required: "imagemagick" 
-#    Required: "libusb-compat" 
-#    Required: "openobex" 
+#    Required: "bluez"
+#    Required: "dbus-glib"
+#    Required: "gdk-pixbuf"
+#    Required: "imagemagick"
+#    Required: "libusb-compat"
+#    Required: "openobex"

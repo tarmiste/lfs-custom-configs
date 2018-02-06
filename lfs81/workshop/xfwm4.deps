@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "libwnck2" 
-#    Required: "libxfce4ui" 
-#    Required: "libxfce4util" 
-#    Required: "xfdesktop" 
-#    Recommended: "startup-notification" 
+#    Required: "libwnck2"
+#    Required: "libxfce4ui"
+#    Required: "libxfce4util"
+#    Required: "xfdesktop"
+#    Recommended: "startup-notification"

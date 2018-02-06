@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="abiword"
 PKG_VERSION=
-PKG_FILE="abiword-3.0.2.tar.gz abiword-docs-3.0.2.tar.gz"
+PKG_FILE="abiword-3.0.2.tar.gz"
 URL="http://www.abisource.com/downloads/abiword/3.0.2/source/abiword-3.0.2.tar.gz"
 MD5="cda6dd58c747c133b421cc7eb18f5796"
 MD5="c92c0e1e2081db20757231a53d80c338" # Must be converted to PATCH file
@@ -13,4 +13,5 @@ MD5="c92c0e1e2081db20757231a53d80c338" # Must be converted to PATCH file
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/abiword-3.0.2-gtk3_22_render_fix-1.patch PATCH1MD5"
+PATCH1="http://www.abisource.com/downloads/abiword/3.0.2/source/abiword-docs-3.0.2.tar.gz"
+PATCH2="http://www.linuxfromscratch.org/patches/blfs/8.1/abiword-3.0.2-gtk3_22_render_fix-1.patch PATCH1MD5"

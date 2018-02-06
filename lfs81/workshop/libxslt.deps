@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "libxml2" 
-#    Recommended: "DocBook" 
-#    Recommended: "docbook-xsl" 
-#    Optional: "libgcrypt" 
-#    Optional: "python2" 
+#    Required: "libxml2"
+#    Recommended: "DocBook"
+#    Recommended: "docbook-xsl"
+#    Optional: "libgcrypt"
+#    Optional: "python2"

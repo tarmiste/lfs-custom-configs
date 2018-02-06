@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="exim"
 PKG_VERSION="4.89"
-PKG_FILE="exim-4.89.tar.xz docs.html"
+PKG_FILE="exim-4.89.tar.xz"
 URL="http://mirrors-usa.go-parts.com/eximftp/exim/exim4/exim-4.89.tar.xz"
 MD5="b569ec80c495dffc54545895e680ed61"
 #
@@ -13,3 +13,4 @@ for i in PATCH{1..10}; do
    unset $i
 done
 PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/exim-4.89-avoid_mem_clash-1.patch PATCH1MD5"
+PATCH2="http://mirrors-usa.go-parts.com/eximftp/exim/exim4/docs.html"

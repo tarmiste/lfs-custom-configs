@@ -1,6 +1,6 @@
 # Dependencies:
-#    Recommended: "openssl" 
-#    Optional: "DirectFB" 
-#    Optional: "SVGAlib" 
-#    Optional: "gpm" 
-#    Optional: "x-window-system" 
+#    Recommended: "openssl"
+#    Optional: "DirectFB"
+#    Optional: "SVGAlib"
+#    Optional: "gpm"
+#    Optional: "x-window-system"

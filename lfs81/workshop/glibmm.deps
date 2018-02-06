@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "glib2" 
-#    Required: "libsigc" 
-#    Optional: "doxygen" 
-#    Optional: "glib-networking" 
-#    Optional: "gnutls" 
-#    Optional: "libxslt" 
+#    Required: "glib2"
+#    Required: "libsigc"
+#    Optional: "doxygen"
+#    Optional: "glib-networking"
+#    Optional: "gnutls"
+#    Optional: "libxslt"

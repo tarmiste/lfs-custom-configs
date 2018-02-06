@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="texlive"
 PKG_VERSION="20170524"
-PKG_FILE="texlive-20170524-source.tar.xz texlive-20170524-texmf.tar.xz"
+PKG_FILE="texlive-20170524-source.tar.xz"
 URL="ftp://tug.org/texlive/historic/2017/texlive-20170524-source.tar.xz"
 MD5="f98f6bde0a2c20fc894d983d542beaad"
 MD5="44bb5d71fc64ac90118f8c5013e39b89" # Must be converted to PATCH file
@@ -13,4 +13,7 @@ MD5="44bb5d71fc64ac90118f8c5013e39b89" # Must be converted to PATCH file
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/texlive-20170524-source-gcc7-1.patch PATCH1MD5" "http://www.linuxfromscratch.org/patches/blfs/8.1/texlive-20170524-source-upstream_fixes-2.patch PATCH1MD5" "http://www.linuxfromscratch.org/patches/blfs/8.1/texlive-20170524-texmf-upstream_fixes-1.patch PATCH1MD5"
+PATCH1="http://www.linuxfromscratch.org/patches/blfs/8.1/texlive-20170524-source-gcc7-1.patch PATCH1MD5" 
+PATCH2="http://www.linuxfromscratch.org/patches/blfs/8.1/texlive-20170524-source-upstream_fixes-2.patch PATCH1MD5"
+PATCH3="http://www.linuxfromscratch.org/patches/blfs/8.1/texlive-20170524-texmf-upstream_fixes-1.patch PATCH1MD5"
+PATCH4="ftp://tug.org/texlive/historic/2017/texlive-20170524-texmf.tar.xz"

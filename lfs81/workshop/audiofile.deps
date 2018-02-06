@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "alsa-lib" 
-#    Recommended: "flac" 
-#    Optional: "asciidoc" 
-#    Optional: "valgrind" 
+#    Required: "alsa-lib"
+#    Recommended: "flac"
+#    Optional: "asciidoc"
+#    Optional: "valgrind"

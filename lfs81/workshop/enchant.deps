@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "glib2" 
-#    Recommended: "aspell" 
-#    Optional: "Hspell" 
-#    Optional: "Hunspell" 
-#    Optional: "Voikko" 
-#    Optional: "dbus-glib" 
+#    Required: "glib2"
+#    Recommended: "aspell"
+#    Optional: "Hspell"
+#    Optional: "Hunspell"
+#    Optional: "Voikko"
+#    Optional: "dbus-glib"

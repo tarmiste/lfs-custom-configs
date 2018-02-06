@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="freetts"
 PKG_VERSION="1.2.2"
-PKG_FILE="freetts-1.2.2-src.zip freetts-1.2.2-tst.zip"
+PKG_FILE="freetts-1.2.2-src.zip"
 URL="https://downloads.sourceforge.net/freetts/freetts-1.2.2-src.zip"
 MD5="692b5ece251fed88539736e55af5f391"
 MD5="4348c7db928612d4b6f6eb2fd621a949" # Must be converted to PATCH file
@@ -13,4 +13,4 @@ MD5="4348c7db928612d4b6f6eb2fd621a949" # Must be converted to PATCH file
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="https://downloads.sourceforge.net/freetts/freetts-1.2.2-tst.zip"

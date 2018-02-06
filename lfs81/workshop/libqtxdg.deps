@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "cmake" 
-#    Required: "libsysstat" 
-#    Required: "qt5" 
-#    Optional: "gtk2" 
+#    Required: "cmake"
+#    Required: "libsysstat"
+#    Required: "qt5"
+#    Optional: "gtk2"

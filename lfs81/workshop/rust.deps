@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "cmake" 
-#    Required: "curl" 
-#    Required: "python2" 
-#    Optional: "gdb" 
-#    Optional: "ninja" 
+#    Required: "cmake"
+#    Required: "curl"
+#    Required: "python2"
+#    Optional: "gdb"
+#    Optional: "ninja"

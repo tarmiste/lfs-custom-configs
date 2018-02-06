@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "libusb" 
-#    Recommended: "gobject-introspection" 
-#    Recommended: "usbutils" 
-#    Recommended: "vala" 
-#    Optional: "gtk-doc" 
+#    Required: "libusb"
+#    Recommended: "gobject-introspection"
+#    Recommended: "usbutils"
+#    Recommended: "vala"
+#    Optional: "gtk-doc"

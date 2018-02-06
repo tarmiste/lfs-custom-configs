@@ -1,4 +1,4 @@
 # Dependencies:
-#    Required: "nspr" 
-#    Recommended: "p11-kit" 
-#    Recommended: "sqlite" 
+#    Required: "nspr"
+#    Recommended: "p11-kit"
+#    Recommended: "sqlite"

@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="freetype2"
 PKG_VERSION="2.8"
-PKG_FILE="freetype-2.8.tar.bz2 freetype-doc-2.8.tar.bz2"
+PKG_FILE="freetype-2.8.tar.bz2"
 URL="https://downloads.sourceforge.net/freetype/freetype-2.8.tar.bz2"
 MD5="2413ac3eaf508ada019c63959ea81a92"
 MD5="961d5802bb6085ad91e0ab9fa99fbf39" # Must be converted to PATCH file
@@ -13,4 +13,4 @@ MD5="961d5802bb6085ad91e0ab9fa99fbf39" # Must be converted to PATCH file
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="https://downloads.sourceforge.net/freetype/freetype-doc-2.8.tar.bz2"

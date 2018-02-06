@@ -1,7 +1,7 @@
 # Dependencies:
-#    Recommended: "openssl" 
-#    Optional: "aspell" 
-#    Optional: "linux-pam" 
-#    Optional: "mitkrb" 
-#    Optional: "openldap" 
-#    Optional: "tcl" 
+#    Recommended: "openssl"
+#    Optional: "aspell"
+#    Optional: "linux-pam"
+#    Optional: "mitkrb"
+#    Optional: "openldap"
+#    Optional: "tcl"

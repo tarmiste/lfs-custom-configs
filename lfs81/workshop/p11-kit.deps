@@ -1,7 +1,7 @@
 # Dependencies:
-#    Recommended: "cacerts" 
-#    Recommended: "libffi" 
-#    Recommended: "libtasn1" 
-#    Optional: "gtk-doc" 
-#    Optional: "libxslt" 
-#    Optional: "nss" 
+#    Recommended: "cacerts"
+#    Recommended: "libffi"
+#    Recommended: "libtasn1"
+#    Optional: "gtk-doc"
+#    Optional: "libxslt"
+#    Optional: "nss"

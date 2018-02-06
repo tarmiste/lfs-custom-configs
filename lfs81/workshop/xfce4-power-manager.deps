@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "libnotify" 
-#    Required: "upower" 
-#    Required: "xfce4-appfinder" 
-#    Required: "xfce4-panel" 
-#    Optional: "udisks" 
+#    Required: "libnotify"
+#    Required: "upower"
+#    Required: "xfce4-appfinder"
+#    Required: "xfce4-panel"
+#    Optional: "udisks"

@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "gtk2" 
-#    Recommended: "gobject-introspection" 
-#    Recommended: "pygtk" 
-#    Optional: "gtk-doc" 
-#    Optional: "lua" 
+#    Required: "gtk2"
+#    Recommended: "gobject-introspection"
+#    Recommended: "pygtk"
+#    Optional: "gtk-doc"
+#    Optional: "lua"

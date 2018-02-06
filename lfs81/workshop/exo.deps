@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "libxfce4ui" 
-#    Required: "libxfce4ui" 
-#    Required: "libxfce4util" 
-#    Required: "perl-uri" 
-#    Optional: "gtk-doc" 
+#    Required: "libxfce4ui"
+#    Required: "libxfce4ui"
+#    Required: "libxfce4util"
+#    Required: "perl-uri"
+#    Optional: "gtk-doc"

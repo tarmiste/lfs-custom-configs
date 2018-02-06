@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "liblxqt" 
-#    Required: "lxqt-common" 
-#    Required: "lxqt-globalkeys" 
-#    Optional: "git" 
-#    Optional: "lxqt-l10n" 
+#    Required: "liblxqt"
+#    Required: "lxqt-common"
+#    Required: "lxqt-globalkeys"
+#    Optional: "git"
+#    Optional: "lxqt-l10n"

@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="audacious"
 PKG_VERSION="3.9"
-PKG_FILE="audacious-3.9.tar.bz2 audacious-plugins-3.9.tar.bz2"
+PKG_FILE="audacious-3.9.tar.bz2"
 URL="http://distfiles.audacious-media-player.org/audacious-3.9.tar.bz2"
 MD5="11d2b36f66c79e60ada9e1f6208abf19"
 MD5="fe467c4dcee8abbf571e69ed980a56b6" # Must be converted to PATCH file
@@ -13,4 +13,4 @@ MD5="fe467c4dcee8abbf571e69ed980a56b6" # Must be converted to PATCH file
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="http://distfiles.audacious-media-player.org/audacious-plugins-3.9.tar.bz2"

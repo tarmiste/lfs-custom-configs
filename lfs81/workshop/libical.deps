@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "cmake" 
-#    Optional: "db" 
-#    Optional: "doxygen" 
-#    Optional: "gobject-introspection" 
-#    Optional: "icu" 
+#    Required: "cmake"
+#    Optional: "db"
+#    Optional: "doxygen"
+#    Optional: "gobject-introspection"
+#    Optional: "icu"

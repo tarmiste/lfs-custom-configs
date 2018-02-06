@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="a2ps"
 PKG_VERSION="4.14"
-PKG_FILE="a2ps-4.14.tar.gz i18n-fonts-0.1.tar.bz2"
+PKG_FILE="a2ps-4.14.tar.gz"
 URL="https://ftp.gnu.org/gnu/a2ps/a2ps-4.14.tar.gz"
 MD5="781ac3d9b213fa3e1ed0d79f986dc8c7"
 #
@@ -12,4 +12,4 @@ MD5="781ac3d9b213fa3e1ed0d79f986dc8c7"
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="https://ftp.gnu.org/gnu/a2ps/i18n-fonts-0.1.tar.bz2 MD5"

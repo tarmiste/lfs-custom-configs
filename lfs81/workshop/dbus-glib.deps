@@ -1,4 +1,4 @@
 # Dependencies:
-#    Required: "dbus" 
-#    Required: "glib2" 
-#    Optional: "gtk-doc" 
+#    Required: "dbus"
+#    Required: "glib2"
+#    Optional: "gtk-doc"

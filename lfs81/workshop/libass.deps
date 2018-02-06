@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "freetype2" 
-#    Required: "fribidi" 
-#    Recommended: "fontconfig" 
-#    Optional: "harfbuzz" 
+#    Required: "freetype2"
+#    Required: "fribidi"
+#    Recommended: "fontconfig"
+#    Optional: "harfbuzz"

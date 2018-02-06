@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "gtk-xfce-engine" 
-#    Required: "gtk2" 
-#    Recommended: "startup-notification" 
-#    Optional: "gobject-introspection" 
-#    Optional: "gtk-doc" 
+#    Required: "gtk-xfce-engine"
+#    Required: "gtk2"
+#    Recommended: "startup-notification"
+#    Optional: "gobject-introspection"
+#    Optional: "gtk-doc"

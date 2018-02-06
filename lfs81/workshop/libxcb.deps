@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "libXau" 
-#    Required: "xcb-proto" 
-#    Recommended: "libXdmcp" 
-#    Optional: "check" 
-#    Optional: "doxygen" 
-#    Optional: "libxslt" 
+#    Required: "libXau"
+#    Required: "xcb-proto"
+#    Recommended: "libXdmcp"
+#    Optional: "check"
+#    Optional: "doxygen"
+#    Optional: "libxslt"

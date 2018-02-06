@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "qtwebengine" 
-#    Optional: "Hunspell" 
-#    Optional: "gdb" 
-#    Optional: "libgnome-keyring" 
+#    Required: "qtwebengine"
+#    Optional: "Hunspell"
+#    Optional: "gdb"
+#    Optional: "libgnome-keyring"

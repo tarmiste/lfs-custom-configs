@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "glib2" 
-#    Required: "liblxqt" 
-#    Required: "pulseaudio" 
-#    Optional: "git" 
-#    Optional: "lxqt-l10n" 
+#    Required: "glib2"
+#    Required: "liblxqt"
+#    Required: "pulseaudio"
+#    Optional: "git"
+#    Optional: "lxqt-l10n"

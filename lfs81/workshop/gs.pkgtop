@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="gs"
 PKG_VERSION="9.21"
-PKG_FILE="ghostscript-9.21.tar.gz ghostscript-fonts-std-8.11.tar.gz gnu-gs-fonts-other-6.0.tar.gz"
+PKG_FILE="ghostscript-9.21.tar.gz"
 URL="https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs921/ghostscript-9.21.tar.gz"
 MD5="5f213281761d2750fcf27476c404d17f"
 MD5="6865682b095f8c4500c54b285ff05ef6" # Must be converted to PATCH file
@@ -14,4 +14,4 @@ MD5="33457d3f37de7ef03d2eea05a9e6aa4f" # Must be converted to PATCH file
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs921/ghostscript-fonts-std-8.11.tar.gz"

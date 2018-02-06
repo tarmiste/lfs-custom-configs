@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "gtk2" 
-#    Required: "lxpanel" 
-#    Recommended: "dbus-glib" 
-#    Optional: "DocBook" 
-#    Optional: "docbook-xsl" 
-#    Optional: "libxslt" 
+#    Required: "gtk2"
+#    Required: "lxpanel"
+#    Recommended: "dbus-glib"
+#    Optional: "DocBook"
+#    Optional: "docbook-xsl"
+#    Optional: "libxslt"

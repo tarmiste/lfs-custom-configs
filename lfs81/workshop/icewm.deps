@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "gdk-pixbuf" 
-#    Required: "x-window-system" 
-#    Optional: "alsa-lib" 
-#    Optional: "fribidi" 
-#    Optional: "libsndfile" 
+#    Required: "gdk-pixbuf"
+#    Required: "x-window-system"
+#    Optional: "alsa-lib"
+#    Optional: "fribidi"
+#    Optional: "libsndfile"

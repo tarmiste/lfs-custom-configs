@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "cmake" 
-#    Optional: "doxygen" 
-#    Optional: "lcms2" 
-#    Optional: "libpng" 
-#    Optional: "libtiff" 
+#    Required: "cmake"
+#    Optional: "doxygen"
+#    Optional: "lcms2"
+#    Optional: "libpng"
+#    Optional: "libtiff"

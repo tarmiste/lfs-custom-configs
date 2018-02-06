@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "cmake" 
-#    Recommended: "libjpeg" 
-#    Optional: "doxygen" 
-#    Optional: "freeglut" 
-#    Optional: "texlive" 
+#    Required: "cmake"
+#    Recommended: "libjpeg"
+#    Optional: "doxygen"
+#    Optional: "freeglut"
+#    Optional: "texlive"

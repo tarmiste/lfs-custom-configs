@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "curl" 
-#    Required: "libxslt" 
-#    Optional: "gtk-doc" 
-#    Optional: "icu" 
-#    Optional: "libyajl" 
+#    Required: "curl"
+#    Required: "libxslt"
+#    Optional: "gtk-doc"
+#    Optional: "icu"
+#    Optional: "libyajl"

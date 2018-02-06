@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "kf5-frameworks" 
-#    Required: "libqtxdg" 
-#    Required: "lxqt-kwindowsystem" 
-#    Required: "lxqt-kwindowsystem" 
-#    Optional: "git" 
-#    Optional: "lxqt-l10n" 
+#    Required: "kf5-frameworks"
+#    Required: "libqtxdg"
+#    Required: "lxqt-kwindowsystem"
+#    Required: "lxqt-kwindowsystem"
+#    Optional: "git"
+#    Optional: "lxqt-l10n"

@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="mplayer"
 PKG_VERSION="1.3.0"
-PKG_FILE="MPlayer-1.3.0.tar.xz Clearlooks-1.7.tar.bz2"
+PKG_FILE="MPlayer-1.3.0.tar.xz"
 URL="http://www.mplayerhq.hu/MPlayer/releases/MPlayer-1.3.0.tar.xz"
 MD5="e8a4d77ad4f509e81dd5e13b51636c1d"
 MD5="833d82734deb8475a8c57e9c1b55bd86" # Must be converted to PATCH file
@@ -13,4 +13,4 @@ MD5="833d82734deb8475a8c57e9c1b55bd86" # Must be converted to PATCH file
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="http://www.mplayerhq.hu/MPlayer/releases/Clearlooks-1.7.tar.bz2"

@@ -46,8 +46,8 @@ set     end="%{\033[0m%}" # This is needed at the end...
 # Just don't mess with the ${end} guy in either line...  Comment out or
 # delete the prompt you don't use.
 
-set prompt="${green}%n${blue}@%m ${white}%~ ${green}%%${end} "
-set prompt="[${green}%n${blue}@%m ${white}%~ ]${end} "
+set prompt="${green}%n${blue}@%m ${white}%~ ${green}%%${end}"
+set prompt="[${green}%n${blue}@%m ${white}%~ ]${end}"
 
 # This was not in the original URL above
 # Provides coloured ls

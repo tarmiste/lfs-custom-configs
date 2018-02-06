@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "gsettings-desktop-schemas" 
-#    Required: "webkitgtk" 
-#    Required: "yelp-xsl" 
-#    Recommended: "desktop-file-utils" 
-#    Optional: "gtk-doc" 
+#    Required: "gsettings-desktop-schemas"
+#    Required: "webkitgtk"
+#    Required: "yelp-xsl"
+#    Recommended: "desktop-file-utils"
+#    Optional: "gtk-doc"

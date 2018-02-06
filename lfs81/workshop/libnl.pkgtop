@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="libnl"
 PKG_VERSION="3.3.0"
-PKG_FILE="libnl-3.3.0.tar.gz libnl-doc-3.3.0.tar.gz"
+PKG_FILE="libnl-3.3.0.tar.gz"
 URL="https://github.com/thom311/libnl/releases/download/libnl3_3_0/libnl-3.3.0.tar.gz"
 MD5="ab3ef137cad95bdda5ff0ffa5175dfa5"
 MD5="caea892c8c09e759d9e05698d9cc692c" # Must be converted to PATCH file
@@ -13,4 +13,4 @@ MD5="caea892c8c09e759d9e05698d9cc692c" # Must be converted to PATCH file
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="https://github.com/thom311/libnl/releases/download/libnl3_3_0/libnl-doc-3.3.0.tar.gz"

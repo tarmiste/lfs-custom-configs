@@ -1,7 +1,7 @@
 # Dependencies:
-#    Recommended: "gnutls" 
-#    Recommended: "openssl" 
-#    Optional: "libproxy" 
-#    Optional: "libxml2" 
-#    Optional: "mitkrb" 
-#    Optional: "pakchois" 
+#    Recommended: "gnutls"
+#    Recommended: "openssl"
+#    Optional: "libproxy"
+#    Optional: "libxml2"
+#    Optional: "mitkrb"
+#    Optional: "pakchois"

@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "cmake" 
-#    Required: "extra-cmake-modules" 
-#    Required: "glib2" 
-#    Required: "qt5" 
-#    Optional: "pulseaudio" 
+#    Required: "cmake"
+#    Required: "extra-cmake-modules"
+#    Required: "glib2"
+#    Required: "qt5"
+#    Optional: "pulseaudio"

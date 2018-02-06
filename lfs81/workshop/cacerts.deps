@@ -1,6 +1,6 @@
 # Dependencies:
-#    Required: "openssl" 
-#    Optional: "java" 
-#    Optional: "nss" 
-#    Optional: "openjdk" 
-#    Optional: "p11-kit" 
+#    Required: "openssl"
+#    Optional: "java"
+#    Optional: "nss"
+#    Optional: "openjdk"
+#    Optional: "p11-kit"

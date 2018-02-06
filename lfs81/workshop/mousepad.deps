@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "gtksourceview" 
-#    Required: "gtksourceview-2" 
-#    Optional: "dbus-glib" 
-#    Optional: "dconf" 
+#    Required: "gtksourceview"
+#    Required: "gtksourceview-2"
+#    Optional: "dbus-glib"
+#    Optional: "dconf"

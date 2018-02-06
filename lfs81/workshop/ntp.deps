@@ -1,7 +1,7 @@
 # Dependencies:
-#    Recommended: "wget" 
-#    Optional: "libcap-pam" 
-#    Optional: "libedit" 
-#    Optional: "libevent" 
-#    Optional: "libopts-from-AutoGen" 
-#    Optional: "openssl" 
+#    Recommended: "wget"
+#    Optional: "libcap-pam"
+#    Optional: "libedit"
+#    Optional: "libevent"
+#    Optional: "libopts-from-AutoGen"
+#    Optional: "openssl"

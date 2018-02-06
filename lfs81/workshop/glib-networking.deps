@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "glib2" 
-#    Required: "gnutls" 
-#    Required: "gsettings-desktop-schemas" 
-#    Recommended: "cacerts" 
-#    Recommended: "p11-kit" 
-#    Optional: "libproxy" 
+#    Required: "glib2"
+#    Required: "gnutls"
+#    Required: "gsettings-desktop-schemas"
+#    Recommended: "cacerts"
+#    Recommended: "p11-kit"
+#    Optional: "libproxy"

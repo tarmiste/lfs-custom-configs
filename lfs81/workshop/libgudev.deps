@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "glib2" 
-#    Optional: "gobject-introspection" 
-#    Optional: "gtk-doc" 
-#    Optional: "umockdev" 
+#    Required: "glib2"
+#    Optional: "gobject-introspection"
+#    Optional: "gtk-doc"
+#    Optional: "umockdev"

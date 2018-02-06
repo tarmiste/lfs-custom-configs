@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "cryptsetup" 
-#    Required: "glib2" 
-#    Required: "gpgme" 
-#    Required: "swig" 
-#    Recommended: "python2" 
-#    Optional: "python3" 
+#    Required: "cryptsetup"
+#    Required: "glib2"
+#    Required: "gpgme"
+#    Required: "swig"
+#    Recommended: "python2"
+#    Optional: "python3"

@@ -4,7 +4,7 @@
 ## EDITHOOK1
 PKG="poppler"
 PKG_VERSION="0.57.0"
-PKG_FILE="poppler-0.57.0.tar.xz poppler-data-0.4.8.tar.gz"
+PKG_FILE="poppler-0.57.0.tar.xz"
 URL="https://poppler.freedesktop.org/poppler-0.57.0.tar.xz"
 MD5="bc5a191741604552c90d484103229374"
 MD5="00f8989c804de84af0ba2ea629949980" # Must be converted to PATCH file
@@ -13,4 +13,4 @@ MD5="00f8989c804de84af0ba2ea629949980" # Must be converted to PATCH file
 for i in PATCH{1..10}; do
    unset $i
 done
-PATCH1=
+PATCH1="https://poppler.freedesktop.org/poppler-data-0.4.8.tar.gz"

@@ -1,5 +1,5 @@
 # Dependencies:
-#    Required: "kf5-frameworks" 
-#    Recommended: "alsa-lib" 
-#    Optional: "libcanberra" 
-#    Optional: "pulseaudio" 
+#    Required: "kf5-frameworks"
+#    Recommended: "alsa-lib"
+#    Optional: "libcanberra"
+#    Optional: "pulseaudio"

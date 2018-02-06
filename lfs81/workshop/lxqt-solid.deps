@@ -1,7 +1,7 @@
 # Dependencies:
-#    Required: "extra-cmake-modules" 
-#    Required: "lxqt-kidletime" 
-#    Required: "qt5" 
-#    Optional: "media-player-info" 
-#    Optional: "udisks2" 
-#    Optional: "upower" 
+#    Required: "extra-cmake-modules"
+#    Required: "lxqt-kidletime"
+#    Required: "qt5"
+#    Optional: "media-player-info"
+#    Optional: "udisks2"
+#    Optional: "upower"
