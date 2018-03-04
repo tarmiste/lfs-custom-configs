@@ -1,0 +1,100 @@
+#!/bin/bash
+set -e
+
+export JH_PKG_DIR=mesa
+SRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${JH_PKG_DIR}}
+BUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${JH_PKG_DIR}}
+mkdir -p $SRC_DIR
+mkdir -p $BUILD_DIR
+
+cd $SRC_DIR
+
+PACKAGE=mesa-17.3.4.tar.xz
+if [[ ! -f $PACKAGE ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE $PACKAGE
+  else
+    wget -T 30 -t 5 https://mesa.freedesktop.org/archive/mesa-17.3.4.tar.xz ||
+    wget -T 30 -t 5 ftp://ftp.freedesktop.org/pub/mesa/mesa-17.3.4.tar.xz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/m/$PACKAGE
+  fi
+fi
+echo "f08eccad27f34366db1bb3997d288c2f  $PACKAGE" | md5sum -c -
+
+PATCH=mesa-17.3.4-add_xdemos-1.patch
+if [[ ! -f $PATCH ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PATCH ]] ; then
+    cp $JH_SRC_ARCHIVE/$PATCH $PATCH
+  else
+    wget -T 30 -t 5 http://www.linuxfromscratch.org/patches/blfs/svn/mesa-17.3.4-add_xdemos-1.patch ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/m/$PATCH
+  fi
+fi
+[[ "$SRC_DIR" != "$BUILD_DIR" ]] && ln -sf $SRC_DIR/$PATCH $BUILD_DIR
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+patch -Np1 -i ../mesa-17.3.4-add_xdemos-1.patch
+GLL_DRV="i915,r600,nouveau,radeonsi,svga,swrast"
+./configure CFLAGS='-O2' CXXFLAGS='-O2' LDFLAGS=-lLLVM \
+            --prefix=$XORG_PREFIX              \
+            --sysconfdir=/etc                  \
+            --enable-texture-float             \
+            --enable-osmesa                    \
+            --enable-xa                        \
+            --enable-glx-tls                   \
+            --with-platforms="drm,x11,wayland" \
+            --with-gallium-drivers=$GLL_DRV    &&
+
+unset GLL_DRV &&
+
+make
+make -C xdemos DEMOS_PREFIX=$XORG_PREFIX
+#make -k check || true
+make -j1 install
+make -j1 -C xdemos DEMOS_PREFIX=$XORG_PREFIX install
+install -v -dm755 /usr/share/doc/mesa-17.3.4 &&
+cp -rfv docs/* /usr/share/doc/mesa-17.3.4
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$JH_KEEP_FILES" ]] || rm -rf $JH_UNPACKDIR unpacked
+
+exit

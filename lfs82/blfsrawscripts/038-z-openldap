@@ -1,0 +1,178 @@
+#!/bin/bash
+set -e
+
+export JH_PKG_DIR=openldap
+SRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${JH_PKG_DIR}}
+BUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${JH_PKG_DIR}}
+mkdir -p $SRC_DIR
+mkdir -p $BUILD_DIR
+
+cd $SRC_DIR
+
+PACKAGE=openldap-2.4.45.tgz
+if [[ ! -f $PACKAGE ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE $PACKAGE
+  else
+    wget -T 30 -t 5 ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/openldap-2.4.45.tgz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/o/$PACKAGE
+  fi
+fi
+echo "00ff8301277cdfd0af728a6927042a13  $PACKAGE" | md5sum -c -
+
+PATCH=openldap-2.4.45-consolidated-1.patch
+if [[ ! -f $PATCH ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PATCH ]] ; then
+    cp $JH_SRC_ARCHIVE/$PATCH $PATCH
+  else
+    wget -T 30 -t 5 http://www.linuxfromscratch.org/patches/blfs/svn/openldap-2.4.45-consolidated-1.patch ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/o/$PATCH
+  fi
+fi
+[[ "$SRC_DIR" != "$BUILD_DIR" ]] && ln -sf $SRC_DIR/$PATCH $BUILD_DIR
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+patch -Np1 -i ../openldap-2.4.45-consolidated-1.patch &&
+autoconf &&
+
+./configure --prefix=/usr     \
+            --sysconfdir=/etc \
+            --disable-static  \
+            --enable-dynamic  \
+            --disable-debug   \
+            --disable-slapd &&
+
+make depend &&
+make
+make -j1 install
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+groupadd -g 83 ldap &&
+useradd  -c "OpenLDAP Daemon Owner" \
+         -d /var/lib/openldap -u 83 \
+         -g ldap -s /bin/false ldap
+patch -Np1 -i ../openldap-2.4.45-consolidated-1.patch &&
+autoconf &&
+
+./configure --prefix=/usr         \
+            --sysconfdir=/etc     \
+            --localstatedir=/var  \
+            --libexecdir=/usr/lib \
+            --disable-static      \
+            --disable-debug       \
+            --with-tls=openssl    \
+            --with-cyrus-sasl     \
+            --enable-dynamic      \
+            --enable-crypt        \
+            --enable-spasswd      \
+            --enable-slapd        \
+            --enable-modules      \
+            --enable-rlookups     \
+            --enable-backends=mod \
+            --disable-ndb         \
+            --disable-sql         \
+            --disable-shell       \
+            --disable-bdb         \
+            --disable-hdb         \
+            --enable-overlays=mod &&
+
+make depend &&
+make
+#make -k test || true
+make -j1 install &&
+
+install -v -dm700 -o ldap -g ldap /var/lib/openldap     &&
+
+install -v -dm700 -o ldap -g ldap /etc/openldap/slapd.d &&
+chmod   -v    640     /etc/openldap/slapd.{conf,ldif}   &&
+chown   -v  root:ldap /etc/openldap/slapd.{conf,ldif}   &&
+
+install -v -dm755 /usr/share/doc/openldap-2.4.45 &&
+cp      -vfr      doc/{drafts,rfc,guide} \
+                  /usr/share/doc/openldap-2.4.45
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+ldconfig
+
+BOOTPKG_DIR=blfs-bootscripts
+BOOTSRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${BOOTPKG_DIR}}
+BOOTBUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${BOOTPKG_DIR}}
+mkdir -p $BOOTSRC_DIR
+mkdir -p $BOOTBUILD_DIR
+
+pushd $BOOTSRC_DIR
+URL=http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20180105.tar.xz
+BOOTPACKG=$(basename $URL)
+if [[ ! -f $BOOTPACKG ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$BOOTPACKG ]] ; then
+    cp $JH_SRC_ARCHIVE/$BOOTPACKG $BOOTPACKG
+  else
+    wget -T 30 -t 5 $URL
+  fi
+  rm -f $BOOTBUILD_DIR/unpacked
+fi
+
+cd $BOOTBUILD_DIR
+if [[ -e unpacked ]] ; then
+  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+  if ! [[ -d $BOOTUNPACKDIR ]]; then
+    tar -xvf $BOOTSRC_DIR/$BOOTPACKG > unpacked
+    BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+  fi
+else
+  tar -xvf $BOOTSRC_DIR/$BOOTPACKG > unpacked
+  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+fi
+cd $BOOTUNPACKDIR
+make -j1 install-slapd
+
+popd
+/etc/rc.d/init.d/slapd start
+
+ldapsearch -x -b '' -s base '(objectclass=*)' namingContexts
+
+
+cd $BUILD_DIR
+[[ -n "$JH_KEEP_FILES" ]] || rm -rf $JH_UNPACKDIR unpacked
+
+exit

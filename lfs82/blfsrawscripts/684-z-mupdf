@@ -1,0 +1,109 @@
+#!/bin/bash
+set -e
+
+export JH_PKG_DIR=mupdf
+SRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${JH_PKG_DIR}}
+BUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${JH_PKG_DIR}}
+mkdir -p $SRC_DIR
+mkdir -p $BUILD_DIR
+
+cd $SRC_DIR
+
+PACKAGE=mupdf-1.12.0-source.tar.gz
+if [[ ! -f $PACKAGE ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE $PACKAGE
+  else
+    wget -T 30 -t 5 http://www.mupdf.com/downloads/archive/mupdf-1.12.0-source.tar.gz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/m/$PACKAGE
+  fi
+fi
+echo "d30738f0487d2e40c921071ba74c479b  $PACKAGE" | md5sum -c -
+
+PATCH=mupdf-1.12.0-consolidated_fixes-1.patch
+if [[ ! -f $PATCH ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PATCH ]] ; then
+    cp $JH_SRC_ARCHIVE/$PATCH $PATCH
+  else
+    wget -T 30 -t 5 http://www.linuxfromscratch.org/patches/blfs/svn/mupdf-1.12.0-consolidated_fixes-1.patch ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/m/$PATCH
+  fi
+fi
+[[ "$SRC_DIR" != "$BUILD_DIR" ]] && ln -sf $SRC_DIR/$PATCH $BUILD_DIR
+
+PATCH=mupdf-1.12.0-security_fix-1.patch
+if [[ ! -f $PATCH ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PATCH ]] ; then
+    cp $JH_SRC_ARCHIVE/$PATCH $PATCH
+  else
+    wget -T 30 -t 5 http://www.linuxfromscratch.org/patches/blfs/svn/mupdf-1.12.0-security_fix-1.patch ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/m/$PATCH
+  fi
+fi
+[[ "$SRC_DIR" != "$BUILD_DIR" ]] && ln -sf $SRC_DIR/$PATCH $BUILD_DIR
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+rm -rf thirdparty/curl     &&
+rm -rf thirdparty/freeglut &&
+rm -rf thirdparty/freetype &&
+rm -rf thirdparty/harfbuzz &&
+rm -rf thirdparty/jpeg     &&
+rm -rf thirdparty/lcms2    &&
+rm -rf thirdparty/libjpeg  &&
+rm -rf thirdparty/openjpeg &&
+rm -rf thirdparty/zlib     &&
+
+patch -Np1 -i ../mupdf-1.12.0-consolidated_fixes-1.patch &&
+patch -Np1 -i ../mupdf-1.12.0-security_fix-1.patch &&
+
+make build=release
+make -j1 prefix=/usr                      \
+     build=release                    \
+     docdir=/usr/share/doc/mupdf-1.12.0 \
+     install                          &&
+
+ln -sfv mupdf-x11-curl /usr/bin/mupdf
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$JH_KEEP_FILES" ]] || rm -rf $JH_UNPACKDIR unpacked
+
+exit

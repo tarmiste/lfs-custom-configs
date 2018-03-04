@@ -1,0 +1,180 @@
+#!/bin/bash
+set -e
+
+export JH_PKG_DIR=mitkrb
+SRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${JH_PKG_DIR}}
+BUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${JH_PKG_DIR}}
+mkdir -p $SRC_DIR
+mkdir -p $BUILD_DIR
+
+cd $SRC_DIR
+
+PACKAGE=krb5-1.16.tar.gz
+if [[ ! -f $PACKAGE ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE $PACKAGE
+  else
+    wget -T 30 -t 5 https://web.mit.edu/kerberos/dist/krb5/1.16/krb5-1.16.tar.gz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/k/$PACKAGE
+  fi
+fi
+echo "23c5e9f07642db4a67f7a5b6168b1319  $PACKAGE" | md5sum -c -
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+cd src &&
+ 
+sed -i -e 's@\^u}@^u cols 300}@' tests/dejagnu/config/default.exp     &&
+sed -i -e '/eq 0/{N;s/12 //}'    plugins/kdb/db2/libdb2/test/run.test &&
+
+./configure --prefix=/usr            \
+            --sysconfdir=/etc        \
+            --localstatedir=/var/lib \
+            --with-system-et         \
+            --with-system-ss         \
+            --with-system-verto=no   \
+            --enable-dns-for-realm &&
+make
+#make -k check || true
+make -j1 install &&
+
+for f in gssapi_krb5 gssrpc k5crypto kadm5clnt kadm5srv \
+         kdb5 kdb_ldap krad krb5 krb5support verto ; do
+
+    find /usr/lib -type f -name "lib$f*.so*" -exec chmod -v 755 {} \;    
+done          &&
+
+mv -v /usr/lib/libkrb5.so.3*        /lib &&
+mv -v /usr/lib/libk5crypto.so.3*    /lib &&
+mv -v /usr/lib/libkrb5support.so.0* /lib &&
+
+ln -v -sf ../../lib/libkrb5.so.3.3        /usr/lib/libkrb5.so        &&
+ln -v -sf ../../lib/libk5crypto.so.3.1    /usr/lib/libk5crypto.so    &&
+ln -v -sf ../../lib/libkrb5support.so.0.1 /usr/lib/libkrb5support.so &&
+
+mv -v /usr/bin/ksu /bin &&
+chmod -v 755 /bin/ksu   &&
+
+install -v -dm755 /usr/share/doc/krb5-1.16 &&
+cp -vfr ../doc/*  /usr/share/doc/krb5-1.16
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+ldconfig
+
+cat > /etc/krb5.conf << "EOF"
+# Begin /etc/krb5.conf
+
+[libdefaults]
+    default_realm = **EDITME<EXAMPLE.ORG>EDITME**
+    encrypt = true
+
+[realms]
+    **EDITME<EXAMPLE.ORG>EDITME** = {
+        kdc = **EDITME<belgarath.example.org>EDITME**
+        admin_server = **EDITME<belgarath.example.org>EDITME**
+        dict_file = /usr/share/dict/words
+    }
+
+[domain_realm]
+    .**EDITME<example.org>EDITME** = **EDITME<EXAMPLE.ORG>EDITME**
+
+[logging]
+    kdc = SYSLOG:INFO:AUTH
+    admin_server = SYSLOG:INFO:AUTH
+    default = SYSLOG:DEBUG:DAEMON
+
+# End /etc/krb5.conf
+EOF
+
+kdb5_util create -r **EDITME<EXAMPLE.ORG>EDITME** -s
+
+kadmin.local
+kadmin.local: add_policy dict-only
+kadmin.local: addprinc -policy dict-only **EDITME<loginname>EDITME**
+
+kadmin.local: addprinc -randkey host/**EDITME<belgarath.example.org>EDITME**
+
+kadmin.local: ktadd host/**EDITME<belgarath.example.org>EDITME**
+
+/usr/sbin/krb5kdc
+
+kinit **EDITME<loginname>EDITME**
+
+klist
+
+ktutil
+ktutil: rkt /etc/krb5.keytab
+ktutil: l
+
+BOOTPKG_DIR=blfs-bootscripts
+BOOTSRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${BOOTPKG_DIR}}
+BOOTBUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${BOOTPKG_DIR}}
+mkdir -p $BOOTSRC_DIR
+mkdir -p $BOOTBUILD_DIR
+
+pushd $BOOTSRC_DIR
+URL=http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20180105.tar.xz
+BOOTPACKG=$(basename $URL)
+if [[ ! -f $BOOTPACKG ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$BOOTPACKG ]] ; then
+    cp $JH_SRC_ARCHIVE/$BOOTPACKG $BOOTPACKG
+  else
+    wget -T 30 -t 5 $URL
+  fi
+  rm -f $BOOTBUILD_DIR/unpacked
+fi
+
+cd $BOOTBUILD_DIR
+if [[ -e unpacked ]] ; then
+  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+  if ! [[ -d $BOOTUNPACKDIR ]]; then
+    tar -xvf $BOOTSRC_DIR/$BOOTPACKG > unpacked
+    BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+  fi
+else
+  tar -xvf $BOOTSRC_DIR/$BOOTPACKG > unpacked
+  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+fi
+cd $BOOTUNPACKDIR
+make -j1 install-krb5
+
+popd
+cd $BUILD_DIR
+[[ -n "$JH_KEEP_FILES" ]] || rm -rf $JH_UNPACKDIR unpacked
+
+exit

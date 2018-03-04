@@ -1,0 +1,147 @@
+#!/bin/bash
+set -e
+
+export JH_PKG_DIR=stunnel
+SRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${JH_PKG_DIR}}
+BUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${JH_PKG_DIR}}
+mkdir -p $SRC_DIR
+mkdir -p $BUILD_DIR
+
+cd $SRC_DIR
+
+PACKAGE=stunnel-5.44.tar.gz
+if [[ ! -f $PACKAGE ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE $PACKAGE
+  else
+    wget -T 30 -t 5 ftp://ftp.stunnel.org/stunnel/archive/5.x/stunnel-5.44.tar.gz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/s/$PACKAGE
+  fi
+fi
+echo "47697dee496c80c8e352b2b705c4a571  $PACKAGE" | md5sum -c -
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+groupadd -g 51 stunnel &&
+useradd -c "stunnel Daemon" -d /var/lib/stunnel \
+        -g stunnel -s /bin/false -u 51 stunnel
+sed -i '/LDFLAGS.*static_flag/ s/^/#/' configure
+./configure --prefix=/usr        \
+            --sysconfdir=/etc    \
+            --localstatedir=/var \
+            --disable-systemd    &&
+make
+#make -k check || true
+make -j1 docdir=/usr/share/doc/stunnel-5.44 install
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+make -j1 cert
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+ldconfig
+
+install -v -m750 -o stunnel -g stunnel -d /var/lib/stunnel/run &&
+chown stunnel:stunnel /var/lib/stunnel
+
+cat >/etc/stunnel/stunnel.conf << "EOF" 
+; File: /etc/stunnel/stunnel.conf
+
+; Note: The pid and output locations are relative to the chroot location.
+
+pid    = /run/stunnel.pid
+chroot = /var/lib/stunnel
+client = no
+setuid = stunnel
+setgid = stunnel
+cert   = /etc/stunnel/stunnel.pem
+
+;debug = 7
+;output = stunnel.log
+
+;[https]
+;accept  = 443
+;connect = 80
+;; "TIMEOUTclose = 0" is a workaround for a design flaw in Microsoft SSL
+;; Microsoft implementations do not use SSL close-notify alert and thus
+;; they are vulnerable to truncation attacks
+;TIMEOUTclose = 0
+
+EOF
+
+
+BOOTPKG_DIR=blfs-bootscripts
+BOOTSRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${BOOTPKG_DIR}}
+BOOTBUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${BOOTPKG_DIR}}
+mkdir -p $BOOTSRC_DIR
+mkdir -p $BOOTBUILD_DIR
+
+pushd $BOOTSRC_DIR
+URL=http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20180105.tar.xz
+BOOTPACKG=$(basename $URL)
+if [[ ! -f $BOOTPACKG ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$BOOTPACKG ]] ; then
+    cp $JH_SRC_ARCHIVE/$BOOTPACKG $BOOTPACKG
+  else
+    wget -T 30 -t 5 $URL
+  fi
+  rm -f $BOOTBUILD_DIR/unpacked
+fi
+
+cd $BOOTBUILD_DIR
+if [[ -e unpacked ]] ; then
+  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+  if ! [[ -d $BOOTUNPACKDIR ]]; then
+    tar -xvf $BOOTSRC_DIR/$BOOTPACKG > unpacked
+    BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+  fi
+else
+  tar -xvf $BOOTSRC_DIR/$BOOTPACKG > unpacked
+  BOOTUNPACKDIR=`head -n1 unpacked | sed 's@^./@@;s@/.*@@'`
+fi
+cd $BOOTUNPACKDIR
+make -j1 install-stunnel
+
+popd
+cd $BUILD_DIR
+[[ -n "$JH_KEEP_FILES" ]] || rm -rf $JH_UNPACKDIR unpacked
+
+exit

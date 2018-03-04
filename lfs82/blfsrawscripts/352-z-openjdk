@@ -1,0 +1,172 @@
+#!/bin/bash
+set -e
+
+export JH_PKG_DIR=openjdk
+SRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${JH_PKG_DIR}}
+BUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${JH_PKG_DIR}}
+mkdir -p $SRC_DIR
+mkdir -p $BUILD_DIR
+
+cd $SRC_DIR
+
+PACKAGE=jdk-9.0.4+11.tar.bz2
+if [[ ! -f $PACKAGE ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE $PACKAGE
+  else
+    wget -T 30 -t 5 http://hg.openjdk.java.net/jdk-updates/jdk9u/archive/jdk-9.0.4+11.tar.bz2 ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/j/$PACKAGE
+  fi
+fi
+echo "174205155c001cf0cc5d3250d86cfb69  $PACKAGE" | md5sum -c -
+
+PACKAGE1=jtreg-4.2-b12.tar.gz
+if [[ ! -f $PACKAGE1 ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE1 ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE1 $PACKAGE1
+  else
+    wget -T 30 -t 5 https://ci.adoptopenjdk.net/view/all/job/jtreg/lastSuccessfulBuild/artifact/jtreg-4.2-b12.tar.gz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/j/$PACKAGE1
+  fi
+fi
+echo "d9869a852006397df454e904ef1f3ea2  $PACKAGE1" | md5sum -c -
+[[ "$SRC_DIR" != "$BUILD_DIR" ]] && ln -sf $SRC_DIR/$PACKAGE1 $BUILD_DIR
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+cat > subprojects.md5 << EOF &&
+dbc62e27a93686a9aea12e9c97c2f765  corba.tar.bz2
+25853ba33123397b2e755249f102ae73  hotspot.tar.bz2
+f5ab5e468565e1ab3a181d2efb45b51f  jaxp.tar.bz2
+520ff49cb470fbcec2f46cbb3fdb377d  jaxws.tar.bz2
+be9f261b19451ab1300c5842188e3fe2  jdk.tar.bz2
+22b65322d04c8ffafd77230dbe5f178f  langtools.tar.bz2
+729d03b0cede2f697ad77170a9d89095  nashorn.tar.bz2
+EOF
+
+for subproject in corba hotspot jaxp jaxws jdk langtools nashorn; do
+
+  wget -c http://hg.openjdk.java.net/jdk-updates/jdk9u/${subproject}/archive/jdk-9.0.4+11.tar.bz2 \
+       -O ${subproject}.tar.bz2
+done &&
+
+md5sum -c subprojects.md5 &&
+
+for subproject in corba hotspot jaxp jaxws jdk langtools nashorn; do
+  mkdir -pv ${subproject} &&
+  tar -xf ${subproject}.tar.bz2 --strip-components=1 -C ${subproject}
+done
+tar -xf ../jtreg-4.2-b12.tar.gz
+unset JAVA_HOME                             &&
+bash configure --enable-unlimited-crypto    \
+               --disable-warnings-as-errors \
+               --with-stdc++lib=dynamic     \
+               --with-giflib=system         \
+               --with-jtreg=$PWD/jtreg      \
+               --with-lcms=system           \
+               --with-libjpeg=system        \
+               --with-libpng=system         \
+               --with-zlib=system           \
+               --with-version-build="11"    \
+               --with-version-pre=""        \
+               --with-version-opt=""        \
+               --with-cacerts-file=/etc/ssl/java/cacerts.jks &&
+make images
+#make -k run-test-tier1 || true
+install -vdm755 /opt/jdk-9.0.4+11             &&
+cp -Rv build/*/images/jdk/* /opt/jdk-9.0.4+11 &&
+chown -R root:root /opt/jdk-9.0.4+11          &&
+find /opt/jdk-9.0.4+11 -name \*.diz -delete   &&
+for s in 16 24 32 48; do
+  install -Dm 644 jdk/src/java.desktop/unix/classes/sun/awt/X11/java-icon${s}.png \
+                  /usr/share/icons/hicolor/${s}x${s}/apps/java9.png
+done
+
+ln -v -nsf jdk-9.0.4+11 /opt/jdk
+mkdir -pv /usr/share/applications &&
+
+cat > /usr/share/applications/openjdk-9-java.desktop << "EOF" &&
+[Desktop Entry]
+Name=OpenJDK Java 9 Runtime
+Comment=OpenJDK Java 9 Runtime
+Exec=/opt/jdk/bin/java -jar
+Terminal=false
+Type=Application
+Icon=java9
+MimeType=application/x-java-archive;application/java-archive;application/x-jar;
+NoDisplay=true
+EOF
+
+cat > /usr/share/applications/openjdk-9-policytool.desktop << "EOF" &&
+[Desktop Entry]
+Name=OpenJDK Java 9 Policy Tool
+Name[pt_BR]=OpenJDK Java 9 - Ferramenta de Política
+Comment=OpenJDK Java 9 Policy Tool
+Comment[pt_BR]=OpenJDK Java 9 - Ferramenta de Política
+Exec=/opt/jdk/bin/policytool
+Terminal=false
+Type=Application
+Icon=java9
+Categories=Settings;
+EOF
+
+cat > /usr/share/applications/openjdk-9-jconsole.desktop << "EOF"
+[Desktop Entry]
+Name=OpenJDK Java 9 Console
+Comment=OpenJDK Java 9 Console
+Keywords=java;console;monotoring
+Exec=/opt/jdk/bin/jconsole
+Terminal=false
+Type=Application
+Icon=java9
+Categories=Application;System;
+EOF
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+ldconfig
+
+/usr/sbin/make-ca --force &&
+ln -sfv /etc/ssl/java/cacerts.jks /opt/jdk/lib/security/cacerts
+
+cd /opt/jdk
+bin/keytool -list -keystore /etc/ssl/java/cacerts
+
+cd $BUILD_DIR
+[[ -n "$JH_KEEP_FILES" ]] || rm -rf $JH_UNPACKDIR unpacked
+
+exit

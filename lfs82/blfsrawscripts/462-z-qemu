@@ -1,0 +1,110 @@
+#!/bin/bash
+set -e
+
+export JH_PKG_DIR=qemu
+SRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${JH_PKG_DIR}}
+BUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${JH_PKG_DIR}}
+mkdir -p $SRC_DIR
+mkdir -p $BUILD_DIR
+
+cd $SRC_DIR
+
+PACKAGE=qemu-2.11.1.tar.bz2
+if [[ ! -f $PACKAGE ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE $PACKAGE
+  else
+    wget -T 30 -t 5 http://download.qemu-project.org/qemu-2.11.1.tar.bz2 ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/q/$PACKAGE
+  fi
+fi
+echo "61cf862b6007eba4ac98247776af2e27  $PACKAGE" | md5sum -c -
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+groupadd -g 61 kvm
+usermod -a -G kvm **EDITME<username>EDITME**
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+if [ $(uname -m) = i686 ]; then
+   QEMU_ARCH=i386-softmmu
+else
+   QEMU_ARCH=x86_64-softmmu
+fi
+
+sed -i 's/ memfd_create/ qemu_memfd_create/' util/memfd.c &&
+
+mkdir -vp build &&
+cd        build &&
+
+../configure --prefix=/usr               \
+             --sysconfdir=/etc           \
+             --target-list=$QEMU_ARCH    \
+             --audio-drv-list=alsa       \
+             --with-sdlabi=2.0           \
+             --docdir=/usr/share/doc/qemu-2.11.1 &&
+
+unset QEMU_ARCH &&
+
+make
+#make V=1 -k check || true
+make -j1 install
+cat > /lib/udev/rules.d/65-kvm.rules << "EOF"
+KERNEL=="kvm", GROUP="kvm", MODE="0660"
+EOF
+chgrp kvm  /usr/libexec/qemu-bridge-helper &&
+chmod 4750 /usr/libexec/qemu-bridge-helper
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+ln -sv qemu-system-`uname -m` /usr/bin/qemu
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$JH_KEEP_FILES" ]] || rm -rf $JH_UNPACKDIR unpacked
+
+exit

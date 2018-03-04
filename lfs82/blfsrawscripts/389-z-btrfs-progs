@@ -1,0 +1,97 @@
+#!/bin/bash
+set -e
+
+export JH_PKG_DIR=btrfs-progs
+SRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${JH_PKG_DIR}}
+BUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${JH_PKG_DIR}}
+mkdir -p $SRC_DIR
+mkdir -p $BUILD_DIR
+
+cd $SRC_DIR
+
+PACKAGE=btrfs-progs-v4.15.1.tar.xz
+if [[ ! -f $PACKAGE ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE $PACKAGE
+  else
+    wget -T 30 -t 5 https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs/btrfs-progs-v4.15.1.tar.xz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/b/$PACKAGE
+  fi
+fi
+echo "94229b39c246797525b7366eff547a4b  $PACKAGE" | md5sum -c -
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+sed -i '40,107 s/\.gz//g' Documentation/Makefile.in &&
+
+./configure --prefix=/usr  \
+            --bindir=/bin  \
+            --libdir=/lib  \
+            --disable-zstd &&
+make
+make fssum &&
+
+sed -i '/found/s/^/: #/' tests/convert-tests.sh &&
+
+mv tests/mkfs-tests/013-reserved-1M-for-single/test.sh{,.broken} &&
+mv tests/convert-tests/010-reiserfs-basic/test.sh{,.broken}      &&
+mv tests/convert-tests/011-reiserfs-delete-all-rollback/test.sh{,.broken} &&
+mv tests/misc-tests/025-zstd-compression/test.sh{,.broken}       &&
+mv tests/fuzz-tests/003-multi-check-unmounted/test.sh{,.broken}  &&
+mv tests/fuzz-tests/009-simple-zero-log/test.sh{,.broken}
+pushd tests
+   ./fsck-tests.sh
+   ./mkfs-tests.sh
+   ./cli-tests.sh
+   ./convert-tests.sh
+   ./misc-tests.sh
+   ./fuzz-tests.sh
+popd
+make -j1 install &&
+
+ln -sfv ../../lib/$(readlink /lib/libbtrfs.so) /usr/lib/libbtrfs.so &&
+rm -v /lib/libbtrfs.{a,so} &&
+mv -v /bin/{mkfs,fsck}.btrfs /sbin
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$JH_KEEP_FILES" ]] || rm -rf $JH_UNPACKDIR unpacked
+
+exit

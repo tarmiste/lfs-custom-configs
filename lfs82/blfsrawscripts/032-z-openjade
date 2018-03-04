@@ -1,0 +1,111 @@
+#!/bin/bash
+set -e
+
+export JH_PKG_DIR=openjade
+SRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${JH_PKG_DIR}}
+BUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${JH_PKG_DIR}}
+mkdir -p $SRC_DIR
+mkdir -p $BUILD_DIR
+
+cd $SRC_DIR
+
+PACKAGE=openjade-1.3.2.tar.gz
+if [[ ! -f $PACKAGE ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE $PACKAGE
+  else
+    wget -T 30 -t 5 https://downloads.sourceforge.net/openjade/openjade-1.3.2.tar.gz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/o/$PACKAGE
+  fi
+fi
+echo "7df692e3186109cc00db6825b777201e  $PACKAGE" | md5sum -c -
+
+PATCH=openjade-1.3.2-upstream-1.patch
+if [[ ! -f $PATCH ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PATCH ]] ; then
+    cp $JH_SRC_ARCHIVE/$PATCH $PATCH
+  else
+    wget -T 30 -t 5 http://www.linuxfromscratch.org/patches/blfs/svn/openjade-1.3.2-upstream-1.patch ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/o/$PATCH
+  fi
+fi
+[[ "$SRC_DIR" != "$BUILD_DIR" ]] && ln -sf $SRC_DIR/$PATCH $BUILD_DIR
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+patch -Np1 -i ../openjade-1.3.2-upstream-1.patch
+sed -i -e '/getopts/{N;s#&G#g#;s#do .getopts.pl.;##;}' \
+       -e '/use POSIX/ause Getopt::Std;' msggen.pl
+export CXXFLAGS="$CXXFLAGS -fno-lifetime-dse"            &&
+./configure --prefix=/usr                                \
+            --mandir=/usr/share/man                      \
+            --enable-http                                \
+            --disable-static                             \
+            --enable-default-catalog=/etc/sgml/catalog   \
+            --enable-default-search-path=/usr/share/sgml \
+            --datadir=/usr/share/sgml/openjade-1.3.2   &&
+make
+make -j1 install                                                   &&
+make -j1 install-man                                               &&
+ln -v -sf openjade /usr/bin/jade                               &&
+ln -v -sf libogrove.so /usr/lib/libgrove.so                    &&
+ln -v -sf libospgrove.so /usr/lib/libspgrove.so                &&
+ln -v -sf libostyle.so /usr/lib/libstyle.so                    &&
+
+install -v -m644 dsssl/catalog /usr/share/sgml/openjade-1.3.2/ &&
+
+install -v -m644 dsssl/*.{dtd,dsl,sgm}              \
+    /usr/share/sgml/openjade-1.3.2                             &&
+
+install-catalog --add /etc/sgml/openjade-1.3.2.cat  \
+    /usr/share/sgml/openjade-1.3.2/catalog                     &&
+
+install-catalog --add /etc/sgml/sgml-docbook.cat    \
+    /etc/sgml/openjade-1.3.2.cat
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+ldconfig
+
+echo "SYSTEM \"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd\" \
+    \"/usr/share/xml/docbook/xml-dtd-4.5/docbookx.dtd\"" >> \
+    /usr/share/sgml/openjade-1.3.2/catalog
+
+cd $BUILD_DIR
+[[ -n "$JH_KEEP_FILES" ]] || rm -rf $JH_UNPACKDIR unpacked
+
+exit

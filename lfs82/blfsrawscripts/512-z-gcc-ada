@@ -1,0 +1,173 @@
+#!/bin/bash
+set -e
+
+export JH_PKG_DIR=gcc-ada
+SRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${JH_PKG_DIR}}
+BUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${JH_PKG_DIR}}
+mkdir -p $SRC_DIR
+mkdir -p $BUILD_DIR
+
+cd $SRC_DIR
+
+PACKAGE=gcc-7.3.0.tar.xz
+if [[ ! -f $PACKAGE ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE $PACKAGE
+  else
+    wget -T 30 -t 5 https://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.xz ||
+    wget -T 30 -t 5 ftp://ftp.gnu.org/gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.xz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/g/$PACKAGE
+  fi
+fi
+echo "be2da21680f27624f3a87055c4ba5af2  $PACKAGE" | md5sum -c -
+
+PACKAGE1=591c6d80c7a447af2deed1d7
+if [[ ! -f $PACKAGE1 ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE1 ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE1 $PACKAGE1
+  else
+    wget -T 30 -t 5 http://mirrors.cdn.adacore.com/art/591c6d80c7a447af2deed1d7 ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/5/$PACKAGE1
+  fi
+fi
+echo "226dac83d9e6490fc8542ac0934a1db0  $PACKAGE1" | md5sum -c -
+[[ "$SRC_DIR" != "$BUILD_DIR" ]] && ln -sf $SRC_DIR/$PACKAGE1 $BUILD_DIR
+
+PACKAGE1=564b3e9dc8e196b040fbe248
+if [[ ! -f $PACKAGE1 ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE1 ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE1 $PACKAGE1
+  else
+    wget -T 30 -t 5 http://mirrors.cdn.adacore.com/art/564b3e9dc8e196b040fbe248 ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/5/$PACKAGE1
+  fi
+fi
+echo "69423c7ad8d9759377d4fff71a78992d  $PACKAGE1" | md5sum -c -
+[[ "$SRC_DIR" != "$BUILD_DIR" ]] && ln -sf $SRC_DIR/$PACKAGE1 $BUILD_DIR
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+make -j1 ins-all prefix=/opt/gnat
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+PATH_HOLD=$PATH &&
+export PATH=/opt/gnat/bin:$PATH_HOLD
+find /opt/gnat -name ld -exec mv -v {} {}.old \;
+find /opt/gnat -name as -exec mv -v {} {}.old \;
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+ldconfig
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+case $(uname -m) in
+  x86_64)
+    sed -e '/m64=/s/lib64/lib/' \
+        -i.orig gcc/config/i386/t-linux64
+  ;;
+esac
+
+mkdir build &&
+cd    build &&
+
+../configure               \
+    --prefix=/usr          \
+    --disable-multilib     \
+    --with-system-zlib     \
+    --enable-languages=ada &&
+make
+ulimit -s 32768 &&
+make -k check
+../contrib/test_summary
+make -j1 install                                               &&
+mkdir -pv /usr/share/gdb/auto-load/usr/lib                 &&
+mv -v /usr/lib/*gdb.py /usr/share/gdb/auto-load/usr/lib    &&
+
+chown -v -R root:root \
+    /usr/lib/gcc/*linux-gnu/7.3.0/include{,-fixed} \
+    /usr/lib/gcc/*linux-gnu/7.3.0/ada{lib,include}
+rm -rf /opt/gnat
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la ! -path \*ImageMagick\* -delete
+done
+
+
+export PATH=$PATH_HOLD &&
+unset PATH_HOLD
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$JH_KEEP_FILES" ]] || rm -rf $JH_UNPACKDIR unpacked
+
+exit
