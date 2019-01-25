@@ -1,0 +1,121 @@
+#!/bin/bash
+set -e
+
+export JH_PKG_DIR=ffmpeg
+SRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${JH_PKG_DIR}}
+BUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${JH_PKG_DIR}}
+mkdir -p $SRC_DIR
+mkdir -p $BUILD_DIR
+
+cd $SRC_DIR
+
+PACKAGE=ffmpeg-4.0.2.tar.xz
+if [[ ! -f $PACKAGE ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE $PACKAGE
+  else
+    wget -T 30 -t 5 http://ffmpeg.org/releases/ffmpeg-4.0.2.tar.xz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/f/$PACKAGE
+  fi
+fi
+echo "ae0bfdf809306a212b4f0e6eb8d1c75e  $PACKAGE" | md5sum -c -
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+sed -i 's/-lflite"/-lflite -lasound"/' configure &&
+
+./configure --prefix=/usr        \
+            --enable-gpl         \
+            --enable-version3    \
+            --enable-nonfree     \
+            --disable-static     \
+            --enable-shared      \
+            --disable-debug      \
+            --enable-avresample  \
+            --enable-libass      \
+            --enable-libfdk-aac  \
+            --enable-libfreetype \
+            --enable-libmp3lame  \
+            --enable-libopus     \
+            --enable-libtheora   \
+            --enable-libvorbis   \
+            --enable-libvpx      \
+            --enable-libx264     \
+            --enable-libx265     \
+            --docdir=/usr/share/doc/ffmpeg-4.0.2 &&
+
+make &&
+
+gcc tools/qt-faststart.c -o tools/qt-faststart
+#pushd doc &&
+#for DOCNAME in `basename -s .html *.html`
+#do
+#    texi2pdf -b $DOCNAME.texi &&
+#    texi2dvi -b $DOCNAME.texi &&
+#
+#    dvips    -o $DOCNAME.ps   \
+#                $DOCNAME.dvi
+#done &&
+#popd &&
+#unset DOCNAME
+make -j1 install &&
+
+install -v -m755    tools/qt-faststart /usr/bin &&
+install -v -m755 -d           /usr/share/doc/ffmpeg-4.0.2 &&
+install -v -m644    doc/*.txt /usr/share/doc/ffmpeg-4.0.2
+install -v -m644 doc/*.pdf /usr/share/doc/ffmpeg-4.0.2 &&
+install -v -m644 doc/*.ps  /usr/share/doc/ffmpeg-4.0.2
+install -v -m755 -d /usr/share/doc/ffmpeg-4.0.2/api                     &&
+cp -vr doc/doxy/html/* /usr/share/doc/ffmpeg-4.0.2/api                  &&
+find /usr/share/doc/ffmpeg-4.0.2/api -type f -exec chmod -c 0644 \{} \; &&
+find /usr/share/doc/ffmpeg-4.0.2/api -type d -exec chmod -c 0755 \{} \;
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la           \
+             ! -path \*ImageMagick\* \
+               -delete
+done
+
+
+make fate-rsync SAMPLES=fate-suite/
+rsync -vrltLW  --delete --timeout=60 --contimeout=60 \
+      rsync://fate-suite.ffmpeg.org/fate-suite/ fate-suite/
+make fate THREADS=4 SAMPLES=fate-suite/ | tee ../fate.log &&
+grep ^TEST ../fate.log | wc -l
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$JH_KEEP_FILES" ]] || rm -rf $JH_UNPACKDIR unpacked
+
+exit

@@ -1,0 +1,133 @@
+#!/bin/bash
+set -e
+
+export JH_PKG_DIR=llvm
+SRC_DIR=${JH_SRC_ARCHIVE}${JH_SRC_SUBDIRS:+/${JH_PKG_DIR}}
+BUILD_DIR=${JH_BUILD_ROOT}${JH_BUILD_SUBDIRS:+/${JH_PKG_DIR}}
+mkdir -p $SRC_DIR
+mkdir -p $BUILD_DIR
+
+cd $SRC_DIR
+
+PACKAGE=llvm-6.0.1.src.tar.xz
+if [[ ! -f $PACKAGE ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE $PACKAGE
+  else
+    wget -T 30 -t 5 http://llvm.org/releases/6.0.1/llvm-6.0.1.src.tar.xz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/l/$PACKAGE
+  fi
+fi
+echo "c88c98709300ce2c285391f387fecce0  $PACKAGE" | md5sum -c -
+
+PACKAGE1=cfe-6.0.1.src.tar.xz
+if [[ ! -f $PACKAGE1 ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE1 ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE1 $PACKAGE1
+  else
+    wget -T 30 -t 5 http://llvm.org/releases/6.0.1/cfe-6.0.1.src.tar.xz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/c/$PACKAGE1
+  fi
+fi
+echo "4e419bd4e3b55aa06d872320f754bd85  $PACKAGE1" | md5sum -c -
+[[ "$SRC_DIR" != "$BUILD_DIR" ]] && ln -sf $SRC_DIR/$PACKAGE1 $BUILD_DIR
+
+PACKAGE1=compiler-rt-6.0.1.src.tar.xz
+if [[ ! -f $PACKAGE1 ]] ; then
+  if [[ -f $JH_SRC_ARCHIVE/$PACKAGE1 ]] ; then
+    cp $JH_SRC_ARCHIVE/$PACKAGE1 $PACKAGE1
+  else
+    wget -T 30 -t 5 http://llvm.org/releases/6.0.1/compiler-rt-6.0.1.src.tar.xz ||
+    wget -T 30 -t 5 ${JH_FTP_SERVER}svn/c/$PACKAGE1
+  fi
+fi
+echo "99bf8bcb68ba96dda74f6aee6c55f639  $PACKAGE1" | md5sum -c -
+[[ "$SRC_DIR" != "$BUILD_DIR" ]] && ln -sf $SRC_DIR/$PACKAGE1 $BUILD_DIR
+
+
+cd $BUILD_DIR
+find . -maxdepth 1 -mindepth 1 -type d | xargs rm -rf
+
+case $PACKAGE in
+  *.tar.gz|*.tar.bz2|*.tar.xz|*.tgz|*.tar.lzma)
+     tar -xvf $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR=`grep '[^./]\+' unpacked | head -n1 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.tar.lz)
+     bsdtar -xvf $SRC_DIR/$PACKAGE 2> unpacked
+     JH_UNPACKDIR=`head -n1 unpacked | cut  -d" " -f2 | sed 's@^\./@@;s@/.*@@'`
+     ;;
+  *.zip)
+     zipinfo -1 $SRC_DIR/$PACKAGE > unpacked
+     JH_UNPACKDIR="$(sed 's@/.*@@' unpacked | uniq )"
+     if test $(wc -w <<< $JH_UNPACKDIR) -eq 1; then
+       unzip $SRC_DIR/$PACKAGE
+     else
+       JH_UNPACKDIR=${PACKAGE%.zip}
+       unzip -d $JH_UNPACKDIR $SRC_DIR/$PACKAGE
+     fi
+     ;;
+  *)
+     JH_UNPACKDIR=$JH_PKG_DIR-build
+     mkdir $JH_UNPACKDIR
+     cp $SRC_DIR/$PACKAGE $JH_UNPACKDIR
+     cp $(find . -mindepth 1 -maxdepth 1 -type l) $JH_UNPACKDIR
+     ;;
+esac
+export JH_UNPACKDIR
+cd $JH_UNPACKDIR
+
+tar -xf ../cfe-6.0.1.src.tar.xz -C tools &&
+tar -xf ../compiler-rt-6.0.1.src.tar.xz -C projects &&
+
+mv tools/cfe-6.0.1.src tools/clang &&
+mv projects/compiler-rt-6.0.1.src projects/compiler-rt
+mkdir -v build &&
+cd       build &&
+
+CC=gcc CXX=g++                              \
+cmake -DCMAKE_INSTALL_PREFIX=/usr           \
+      -DLLVM_ENABLE_FFI=ON                  \
+      -DCMAKE_BUILD_TYPE=Release            \
+      -DLLVM_BUILD_LLVM_DYLIB=ON            \
+      -DLLVM_LINK_LLVM_DYLIB=ON             \
+      -DLLVM_TARGETS_TO_BUILD="host;AMDGPU" \
+      -DLLVM_BUILD_TESTS=ON                 \
+      -Wno-dev -G Ninja ..                           &&
+ninja
+#ninja check-all || true
+ninja install
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la           \
+             ! -path \*ImageMagick\* \
+               -delete
+done
+
+
+#rm -rf ./*
+#cmake -DLLVM_ENABLE_SPHINX=ON         \
+#      -DSPHINX_WARNINGS_AS_ERRORS=OFF \
+#      -Wno-dev ..                     &&
+#make docs-llvm-html  docs-llvm-man
+#make docs-clang-html docs-clang-man
+#install -v -m644 docs/man/* /usr/share/man/man1             &&
+#install -v -d -m755 /usr/share/doc/llvm-6.0.1/llvm-html     &&
+#cp -Rv docs/html/* /usr/share/doc/llvm-6.0.1/llvm-html
+#install -v -m644 tools/clang/docs/man/* /usr/share/man/man1 &&
+#install -v -d -m755 /usr/share/doc/llvm-6.0.1/clang-html    &&
+#cp -Rv tools/clang/docs/html/* /usr/share/doc/llvm-6.0.1/clang-html
+
+for libdir in /lib /usr/lib $(find /opt -name lib); do
+  find $libdir -name \*.la           \
+             ! -path \*ImageMagick\* \
+               -delete
+done
+
+
+ldconfig
+
+cd $BUILD_DIR
+[[ -n "$JH_KEEP_FILES" ]] || rm -rf $JH_UNPACKDIR unpacked
+
+exit
